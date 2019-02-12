@@ -1,0 +1,333 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201901 will be lost/reset.
+# Last config file used to build this data file was /home4/tripplanner/tmp/awstats/awstats.beetrip.tripplanner.ge.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2023                
+POS_TIME 2696                
+POS_VISITOR 6609                
+POS_DAY 7663                
+POS_DOMAIN 3300                
+POS_LOGIN 3580                
+POS_ROBOT 3735                
+POS_WORMS 3911                
+POS_EMAILSENDER 4042                
+POS_EMAILRECEIVER 4185                
+POS_SESSION 7829                
+POS_SIDER 8009                
+POS_FILETYPES 4320                
+POS_DOWNLOADS 4455                
+POS_OS 4503                
+POS_BROWSER 4643                
+POS_SCREENSIZE 4908                
+POS_UNKNOWNREFERER 4982                
+POS_UNKNOWNREFERERBROWSER 5210                
+POS_ORIGIN 5330                
+POS_SEREFERRALS 5464                
+POS_PAGEREFS 5627                
+POS_SEARCHWORDS 5775                
+POS_KEYWORDS 5927                
+POS_MISC 2359                
+POS_ERRORS 5986                
+POS_CLUSTER 3436                
+POS_SIDER_404 6109                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20190201080739 1 0 12478455360590
+FirstTime 20190111050630
+LastTime 20190129112457
+LastUpdate 20190201212509 1 0 0 0 0
+TotalVisits 39                  
+TotalUnique 26                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 26                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+AddToFavourites 0 10 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 308 6 6 0
+1 0 0 0 4 4 0
+2 1 1 308 7 8 1276
+3 1 1 308 11 13 1293
+4 1 1 308 4 4 680
+5 3 3 924 4 6 1374
+6 24 24 439319 7 9 3285
+7 1 1 308 12 16 5037
+8 5 5 1596 28 29 7597
+9 1 1 308 6 8 911
+10 3 3 932 8 10 1970
+11 13 14 7000 10 12 3218
+12 1 1 308 14 17 2664
+13 7 7 2272 7 10 3218
+14 1 1 308 9 12 2248
+15 1 1 308 10 11 2734
+16 3 3 924 14 17 6008
+17 1 1 308 5 7 2082
+18 0 0 0 11 12 5896
+19 1 1 308 3 4 985
+20 2 2 616 3 3 0
+21 1 1 308 3 3 0
+22 1 1 308 1 1 0
+23 19 19 1667 4 4 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+us 52 52 11895
+ma 21 21 410871
+ge 17 18 8344
+cn 1 1 312
+se 1 1 27832
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+bot[\s_+:,\.\;\/\\-] 1 308 20190111035106 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 4
+jpg 1 6344 0 0
+Unknown 18 1359 0 0
+html 35 10848 0 0
+php 39 440703 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+win10 6 6
+Unknown 18 18
+macosx12 1 1
+win7 64 63
+linuxandroid 3 3
+linux 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 12
+msie10.0 2 2
+Unknown 9 9
+chrome71.0.3578.99 3 3
+firefox27.0 3 3
+chrome71.0.3578.98 34 33
+mozilla 9 9
+msie8.0 22 22
+chrome61.0.3163.100 1 1
+opera57.0.3098.116 5 5
+msie9.0 3 3
+firefox43.0 1 1
+chrome60.0.3112.101 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20190111233559
+Cpanel-HTTP-Client/1.0 20190111233556
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Cpanel-HTTP-Client/1.0 20190111233556
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 71 71
+From1 0 0
+From2 3 3
+From3 0 0
+From4 18 19
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 3 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+403 9 5574
+404 45 29842
+409 3 249
+301 158 9603
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 7
+/_javascript/tinymce/filemanagerinclude/php_image_magician.php 1 -
+/wp-login.php 1 -
+/ads.txt 1 -
+/shell.php 3 -
+/it.php 15 -
+/robots.txt 23 -
+/th1s_1s_a_4o4.html 1 http://www.google.com/url
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 26
+41.143.194.113 21 21 410871 20190121062742
+192.254.186.169 13 13 924 20190111233559
+94.240.245.46 12 13 6692 20190129112457
+209.222.83.71 6 6 1848 20190112031504
+66.133.109.36 5 5 435 20190111233559
+95.104.90.103 5 5 1652 20190127133830
+64.235.154.141 5 5 1540 20190112005504
+209.222.83.78 4 4 1232 20190112042504
+184.154.36.174 3 3 980 20190111080603
+64.235.153.7 2 2 616 20190112020503
+192.121.46.13 1 1 27832 20190121061110
+104.222.43.127 1 1 308 20190111200507
+64.235.154.104 1 1 308 20190111131620
+66.249.81.78 1 1 308 20190111162111
+23.239.180.146 1 1 308 20190111065227
+172.110.16.10 1 1 308 20190112053144
+66.249.81.74 1 1 308 20190112054445
+63.216.156.58 1 1 312 20190111134944
+64.235.153.8 1 1 308 20190111175506
+52.53.201.78 1 1 312 20190111105253
+104.222.43.66 1 1 308 20190111114550
+114.115.190.4 1 1 312 20190111100603
+64.235.154.106 1 1 308 20190111094629
+64.235.153.11 1 1 308 20190111072612
+35.176.92.103 1 1 308 20190111085512
+66.249.81.76 1 1 308 20190111162107
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 5
+20190111 47 47 10359 29
+20190112 6 6 1848 6
+20190121 22 22 438703 2
+20190127 5 5 1652 1
+20190129 12 13 6692 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+0s-30s 36
+15mn-30mn 1
+2mn-5mn 1
+5mn-15mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 38
+/ 33 10180 33 32
+/shell.php 16 342687 2 2
+/symCP.php 4 76640 0 0
+/pmt/register.php 3 387 0 1
+/pmt/check.php 2 1265 1 0
+/_javascript/tinymce/filemanager/uploader/index.php 2 0 0 1
+/.well-known/acme-challenge/Q73C2BFKOFZORG965EN9K_QN_B2RUEM_ 1 64 1 0
+/.well-known/acme-challenge/7Y3KS9P17M8A9NFXD9JQF40P45JH-1EO 1 64 0 0
+/.well-known/acme-challenge/GQPZURJZWR2UTWX4BZ7XC0B69IVX50D1 1 64 0 0
+/.well-known/acme-challenge/KCF4KL0NE2RADRJCOAPJDHNXGQYOLPJ_ 1 64 0 0
+/.well-known/acme-challenge/7VDyysjQHyQ9aqK9v6PUuc1xvPPrKS1uLvCmfUkcifs 1 87 1 0
+/.well-known/acme-challenge/xr2wKibAmR3ApEzdEvgqjdwYLE6NLWgAHSw7L-mjSlQ 1 87 0 1
+/.well-known/acme-challenge/2H86gA4h6fvnkqaKGTW0hTzOrIGLgdR1Ef1OdTbxV40 1 87 0 0
+/.well-known/acme-challenge/FYVB_LV-D6_0_DYNMG2TSYWS8_DYMSTZ 1 64 0 0
+/siege.php 1 216 0 0
+/_javascript/tinymce/filemanager/upload.php 1 0 0 0
+/_javascript/tinymce/filemanager/force_download.php 1 0 0 0
+/_javascript/tinymce/filemanager/ajax_calls.php 1 0 1 0
+/.well-known/acme-challenge/ZMNoxw1jY4TiKEShd_i04i6s7PjOuiUsTWRgT7DcCjA 1 87 0 0
+/_javascript/tinymce/filemanager/include/php_image_magician.php 1 0 0 0
+/.well-known/acme-challenge/ 1 327 0 1
+/.well-known/acme-challenge/D21Vyq86KHj1oXXKSOcTL4v4i-euhokRsRLYQQJ15LQ 1 87 0 0
+/_javascript/tinymce/filemanager/include/mime_type_lib.php 1 0 0 0
+/.well-known/acme-challenge/obXFkTE6ccs7UO6z-oauskMC-xBglxMRH5zVfB5qjvs 1 87 0 0
+/.well-known/acme-challenge/4988iAzDs6u7w6si-fvct-p27ekZDkHftoH_6Y6s_Bw 1 87 0 1
+/.well-known/acme-challenge/EK4T0H9UA5TK7198TN18X9_-0B4EGT48 1 64 0 0
+/.well-known/acme-challenge/BG8U8TS2FKTQE3GUQ0QPWOWHHXW1MI5M 1 64 0 0
+/_javascript/tinymce/filemanager/include/utils.php 1 8 0 0
+/_javascript/tinymce/filemanager/uploader/jupload.php 1 0 0 0
+/_javascript/tinymce/filemanager/execute.php 1 0 0 0
+/_javascript/tinymce/filemanager/uploader/success.php 1 340 0 0
+/.well-known/acme-challenge/861MWS8BWWOCAIWAO749WH1QN4-M9A6E 1 64 0 0
+/.well-known/acme-challenge/4Ro7tJGH65Znc-aEqs4AQJJSu5965Xd8NsI3UGHFeow 1 87 0 0
+/.well-known/acme-challenge/C5rHoV6MXemTnKI22R7szL-iVC8xdxyaltD1H_UAJiw 1 87 0 0
+/tt.php 1 19160 0 0
+/.well-known/acme-challenge/KMFFLA3WO7U-XHK7END6ABU-07TAK_7D 1 64 0 0
+/.well-known/ 1 341 0 0
+/_javascript/tinymce/filemanager/dialog.php 1 0 0 0
+END_SIDER

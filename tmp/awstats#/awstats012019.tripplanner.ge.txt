@@ -1,0 +1,413 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201901 will be lost/reset.
+# Last config file used to build this data file was /home4/tripplanner/tmp/awstats/awstats.tripplanner.ge.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2015                
+POS_TIME 2691                
+POS_VISITOR 10726               
+POS_DAY 11595               
+POS_DOMAIN 3408                
+POS_LOGIN 3769                
+POS_ROBOT 3924                
+POS_WORMS 4323                
+POS_EMAILSENDER 4454                
+POS_EMAILRECEIVER 4597                
+POS_SESSION 11962               
+POS_SIDER 12152               
+POS_FILETYPES 4732                
+POS_DOWNLOADS 4926                
+POS_OS 5008                
+POS_BROWSER 5153                
+POS_SCREENSIZE 5458                
+POS_UNKNOWNREFERER 5532                
+POS_UNKNOWNREFERERBROWSER 5785                
+POS_ORIGIN 5930                
+POS_SEREFERRALS 6063                
+POS_PAGEREFS 6255                
+POS_SEARCHWORDS 6403                
+POS_KEYWORDS 6555                
+POS_MISC 2354                
+POS_ERRORS 6614                
+POS_CLUSTER 3625                
+POS_SIDER_404 6760                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20190201004650 8 2486 12391384314390
+FirstTime 20190110113213
+LastTime 20190130052029
+LastUpdate 20190201212507 8 0 7 0 0
+TotalVisits 26                  
+TotalUnique 16                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 23                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+AddToFavourites 0 47 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 46 57 20067
+1 0 1 843452 80 99 148620
+2 15 15 5220 49 79 35933
+3 2 2 8326 92 157 135521
+4 1 1 0 76 172 90298
+5 3 3 42216 67 132 95008
+6 13 14 568183 54 168 100011
+7 1 1 4163 66 167 640804
+8 0 0 0 54 140 597053
+9 2 2 67780 59 137 71735
+10 0 20 1138692 58 91 39091
+11 9 9 245537 88 115 252530
+12 4 4 33895 69 155 970339
+13 15 15 12156 71 181 104374
+14 2 4 616843600 68 114 85025
+15 0 0 0 74 123 55849
+16 0 0 0 43 68 29062
+17 0 1 843452 66 73 29471
+18 0 1 843452 63 76 61494
+19 0 0 0 65 80 56890
+20 0 0 0 60 66 19200
+21 0 0 0 71 87 60269
+22 0 1 843452 65 82 29672
+23 0 0 0 49 60 88389
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 11
+ge 33 33 465201
+us 16 16 9383
+ma 10 10 213013
+cn 2 2 4163
+ca 2 2 8326
+rs 1 2 616718163
+gb 1 1 0
+pt 1 1 0
+tw 1 1 28027
+ru 0 6 3758608
+de 0 20 1138692
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+Googlebot/ 26 1393157 20190123072049 0
+Baiduspider/ 9 245730 20190130182121 0
+YandexMetrika/ 2 8326 20190111124351 0
+no_user_agent 2 879394 20190126120425 0
+spider 2 67833 20190111034838 0
+bot[\s_+:,\.\;\/\\-] 1 4163 20190110172030 0
+bingbot/ 1 4163 20190110114919 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+php 29 452354 0 0
+zip 1 616717881 0 0
+jpg 6 3758608 0 0
+css 9 366912 0 0
+Unknown 22 238292 0 0
+html 16 37749 0 0
+js 11 771780 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/tripplanner.ge.zip 1 0 616717881
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 7
+win8.1 1 1
+win7 31 29
+macosx11 1 1
+linux 4 4
+win8 2 0
+Unknown 34 14
+win10 21 18
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 14
+Unknown 27 7
+edge17 1 0
+firefox60.0 1 1
+firefox43.0 1 1
+chrome70.0.3538.102 1 0
+chrome71.0.3578.98 30 30
+opera57.0.3098.116 14 14
+chrome49.0.2623.75 1 1
+mozilla 7 7
+chrome65.0.3325.181 2 2
+msie9.0 1 1
+firefox47.0 2 2
+chrome69.0.3497.100 2 1
+msie10.0 4 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Cpanel-HTTP-Client/1.0 20190111024607
+Googlebot 20190114105928
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20190111024609
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Cpanel-HTTP-Client/1.0 20190111024607
+Googlebot 20190114105928
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 58 58
+From1 0 0
+From2 1 27
+From3 0 0
+From4 8 9
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+yandexru 0 6
+www_google_com 1 1
+google_com 0 20
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+409 31 2573
+406 199 44974
+301 838 97412
+403 56 11326
+404 1465 1000054
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 69
+/public/images/tours/big/62/621.jpg 2 -
+/public/js/georgiaLowEN.js 1 http://tripplanner.ge/
+/public/css/css-stars.css 40 http://tripplanner.ge/tours/index/0/9
+/public/js/ion.rangeSlider.min.js 35 http://tripplanner.ge/tours/index/0/9
+/maps/map.php 8 http://www.tripplanner.ge/tours/full/518/Bolnisi-german-culture-Katharinenfeld
+/cart_2.html 2 -
+/img/img/post/MwfKBPOCA 1 http://tripplanner.ge/img/img/post/MwfKBPOCA
+/public/css/site.min.css 18 http://tripplanner.ge/tours/index/0/15
+/invoice/Login/f2cec57687bc6de3a6e2d34557b69a4c/Up-dating.php 3 -
+/imprint.html 1 -
+/public/images/places/big/64.jpg 2 http://go.mail.ru/search_images
+/public/css/fontawesome-stars.css 26 http://tripplanner.ge/tours/index/0/9
+/public/larisome/font-larisome.min.css 43 http://tripplanner.ge/tours/index/0/9
+/impressum.html 1 -
+/cekweb.html 1 -
+/public/images/tours/big/64/64.jpg 2 -
+/robots.txt 164 -
+/public/images/places/big/110.jpg 1 -
+/tours/full/55/Three-day-tour-in-Tusheti 1 -
+/about:blank 1 -
+/img/img/post/ 19 -
+/public/images/tours/big/135/1352.jpg 5 http://go.mail.ru/search_images
+/impressum.php 1 -
+/public/js/parallax.min.js 42 http://tripplanner.ge/tours/index/0/9
+/imprint.php 1 -
+/public/js/bootstrap-datepicker.min.js 44 http://tripplanner.ge/tours/index/0/9
+/img/img/post/e48cf5e9a2bd46ef10189583c0675577 42 -
+/public/images/tours/big/90/901.jpg 2 -
+/public/images/tours/big/311/3115.jpg 1 -
+/public/js/ammap.js 1 http://tripplanner.ge/
+/public/css/ion.rangeSlider.skinFlat.css 24 http://tripplanner.ge/tours/index/0/9
+/xss.php 1 http://r57.gen.tr/yonet/linkler.php
+/img/img/post 126 -
+/pmt/post/3d/ 6 -
+/public/images/places/big/33.jpg 1 http://go.mail.ru/search_images
+/public/css/simple-sidebar.css 42 http://tripplanner.ge/tours/index/0/9
+/public/js/jquery.barrating.min.js 40 http://tripplanner.ge/tours/index/0/9
+/img/img/post/e48cf5e9a2bd46ef10189583c0675577/3d.htm 245 -
+/public/js/jquery-1.12.3.min.js 41 http://tripplanner.ge/tours/index/0/9
+/public/images/places/big/29.jpg 2 http://go.mail.ru/search_images
+/404.html 6 -
+/customer/customer_center/customer-IDPP00C343/myaccount/settings 1 -
+/files/places/wp.php 1 -
+/public/images/places/big/180.jpg 2 -
+/public/css/bootstrap-select.css 42 http://tripplanner.ge/tours/index/0/9
+/public/js/bootstrap.js 41 http://tripplanner.ge/tours/index/0/9
+/public/images/tours/big/61/61.jpg 1 http://go.mail.ru/search_images
+/img/img/post/NMLIVGloDKinyZ 1 http://tripplanner.ge/img/img/post/NMLIVGloDKinyZ
+/public/js/bootstrap-select.js 43 http://tripplanner.ge/tours/index/0/9
+/public/css/bootstrap-datepicker.min.css 37 http://tripplanner.ge/tours/index/0/9
+/wp-login.php 1 -
+/public/images/tours/big/298/298.jpg 1 -
+/public/js/notify.js 41 http://tripplanner.ge/tours/index/0/9
+/public/images/tours/big/132/1323.jpg 1 http://go.mail.ru/search_images
+/shell.php 2 -
+/invoice/Login/bfc4218eb70e54d0cb151a95c0f22096/Up-dating.php 6 -
+/public/css/ion.rangeSlider.css 36 http://tripplanner.ge/tours/index/0/9
+/public/css/site.css 24 http://tripplanner.ge/tours/index/0/9
+/public/js/notify.min.js 42 http://tripplanner.ge/tours/index/0/9
+/customer 2 -
+/public/css/bootstrap.css 40 http://tripplanner.ge/tours/index/0/9
+/langswitch/switchLanguage/GE 1 -
+/public/images/places/big/48.jpg 2 http://go.mail.ru/search_images
+/public/css/font-awesome.min.css 43 http://tripplanner.ge/tours/index/0/9
+/files/category-icons/icons/3dsecc09e0639c0a56ad6e4b98a77d6797ea9c09e0639c0a56ad6e4b98a77d6797ea91/wp/index.php 2 -
+/public/images/call_us.PNG 1 -
+/invoice/Login/60a20d230ba6e30da1e9cd0a1086b9c5/Up-dating.php 4 -
+/th1s_1s_a_4o4.html 1 http://www.google.com/url
+/files/userphotos/ekunishkayahoocom1522931884.jpg 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 23
+94.240.245.46 19 19 457208 20190130052029
+95.104.90.103 14 14 7993 20190128132243
+192.254.186.169 11 11 796 20190111024609
+41.143.194.113 9 9 208850 20190121062057
+66.133.109.36 3 3 261 20190111024609
+60.217.72.16 1 1 0 20190111120834
+142.93.190.17 1 1 4163 20190111050927
+142.93.75.211 1 1 4163 20190111051119
+82.102.27.52 1 1 0 20190113065858
+184.154.36.174 1 1 4163 20190111034836
+160.178.177.203 1 1 4163 20190111070045
+87.113.0.88 1 1 0 20190111115013
+89.216.17.178 1 2 616718163 20190111140115
+66.249.93.219 1 1 4163 20190111025641
+60.191.38.77 1 1 4163 20190111064229
+60.249.34.155 1 1 28027 20190121061422
+128.68.35.251 0 1 843452 
+46.0.19.103 0 1 91547 
+188.32.149.236 0 1 843452 
+109.173.57.189 0 1 843452 
+5.189.128.160 0 20 1138692 
+95.24.30.224 0 1 293253 
+46.188.31.117 0 1 843452 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 14
+20190110 5 5 4163 1
+20190111 26 27 616786414 13
+20190112 1 1 33890 1
+20190113 1 1 0 1
+20190114 0 20 1138692 0
+20190115 0 2 1136705 0
+20190116 0 2 1686904 0
+20190121 10 10 236877 2
+20190124 2 2 67785 2
+20190127 11 11 73478 2
+20190128 5 5 2295 1
+20190129 5 5 207484 2
+20190130 1 2 125437 1
+20190131 0 1 843452 0
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+5mn-15mn 1
+15mn-30mn 2
+30mn-1h 2
+0s-30s 19
+2mn-5mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 25
+/ 15 37749 11 10
+/pmt/check.php 10 5581 2 1
+/cpanel 6 203340 4 5
+/shell.php 5 142668 2 1
+/job.php 5 207484 2 2
+/pmt/register.php 4 2412 0 1
+/xD.php 4 93904 0 0
+/img/img/post/ 1 0 1 1
+/.well-known/acme-challenge/Hbs6usfCMBKOTTh6ZVjM3udm02KuVKnHUCPMdj0GF7k 1 87 0 1
+/.well-known/acme-challenge/K5oEYdeR40BWgNHbsRhMlhvsrQmYaJPlvXPFPd1phxM 1 87 0 0
+/.well-known/acme-challenge/-RZI0KWBPLMWJRTE4DH_HAJLGD3OAQOS 1 64 0 0
+/.well-known/acme-challenge/SG5AKCGOPUJQGBG6_0RWO_8Z52-ZF-Y3 1 64 0 0
+/siege.php 1 305 0 1
+/.well-known/acme-challenge/JZ47JHJENCH1MJILAWPI58YHX4W2U5Q4 1 64 0 0
+/.well-known/acme-challenge/_UTzrltiyZEmpBDKrHRS1oaj0wmVFw00FYWVyh7NvfQ 1 87 0 0
+/.well-known/acme-challenge/8E51YI30IZRLA41IPHT5TZRG3-HUT-A2 1 64 0 0
+/.well-known/acme-challenge/2DL3R5M09_53BRFVDB6QBFEKGBAE_PBY 1 64 0 0
+/.well-known/acme-challenge/N2VqKWN292UopCj7x5NTieY-6us5-BlDgkq0DIiaigU 1 87 0 1
+/webmail 1 33895 1 1
+/.well-known/acme-challenge/T7PZ4WkNnxERhSKkuLjw6KIIPnqujes3RWVSvheIZFs 1 87 1 0
+/img/img/post/e48cf5e9a2bd46ef10189583c0675577 1 0 1 1
+/.well-known/acme-challenge/FR1XVV72J0V8_C6WGG1DAK1U2J145NDB 1 64 0 0
+/.well-known/acme-challenge/y-DueTOTWlYLOm-L84SBvPaBD-8hp4inuPTSV7OmkMI 1 87 0 0
+/.well-known/acme-challenge/ZTj8VLy5Llw_oulwRpqjSQFfTvBKC0u1cBqjzNUVwAU 1 87 0 0
+/.well-known/acme-challenge/9F07AOGJQR-W82QPU2RMQF9W51_2WF18 1 64 1 0
+END_SIDER

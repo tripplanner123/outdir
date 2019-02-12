@@ -1,0 +1,86 @@
+--- 
+files: 
+  certificate: 
+    beetrip_ge_d0f37_4ff37_1555043762_badcaad96276f98789835425ad561148: 
+      created: '1547271363'
+      domains: 
+        - autodiscover.beetrip.ge
+        - beetrip.ge
+        - beetrip.tripplanner.ge
+        - cpanel.beetrip.ge
+        - mail.beetrip.ge
+        - webdisk.beetrip.ge
+        - webmail.beetrip.ge
+        - www.beetrip.ge
+        - www.beetrip.tripplanner.ge
+      friendly_name: Cert for “beetrip.tripplanner.ge”
+      id: beetrip_ge_d0f37_4ff37_1555043762_badcaad96276f98789835425ad561148
+      is_self_signed: 0
+      issuer.commonName: Let's Encrypt Authority X3
+      issuer.organizationName: Let's Encrypt
+      modulus: d0f37fd3a797839f12ccb3431edefb7785ecb60d85196b593e8ccee4b30380f61d591319993b067123f52511689f6718f6772016f5f577c73ccbe841f33beb761c96c3a56e9f4076f364719eccb5fb98c05778d5b87559ce341b72e6e88a74d7cddac9ca079382f03f949c1e3e46408ea36d335e8d509bc9bf263b2449edc909996c97dff2f9671f92d1b8bdfff32c242ec0ed439067d917851d58b9d330b4215b7f1e7a568858ea055f52c09fe9a347352dab01815a6226511f2e3f9f49da7c5369a9ac2fde56a0b5b1fe6af9cc6cb243ae7a9203f77ba8d66be73aa473feb7f9c7cf992a0c453227d728c6ebe8bde5aad856038a1f2ae9792edb10f8c4ff37
+      modulus_length: 2048
+      not_after: '1555043762'
+      not_before: '1547267762'
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: beetrip.ge
+      validation_type: dv
+    tripplanner_ge_d58ea_21a65_1554968772_46ee4a589d9c996dbb6ec6baaf6b3285: 
+      created: '1547196374'
+      domains: 
+        - autodiscover.tripplanner.ge
+        - cpanel.tripplanner.ge
+        - mail.tripplanner.ge
+        - tripplanner.ge
+        - webdisk.tripplanner.ge
+        - webmail.tripplanner.ge
+        - www.tripplanner.ge
+      friendly_name: Cert for “tripplanner.ge”
+      id: tripplanner_ge_d58ea_21a65_1554968772_46ee4a589d9c996dbb6ec6baaf6b3285
+      is_self_signed: 0
+      issuer.commonName: Let's Encrypt Authority X3
+      issuer.organizationName: Let's Encrypt
+      modulus: d58ead87e1fa0791ebd0158af4023cb82e32e154955f306a430fd03e8368c45574009ea11e864e7baa5fbf950b6bd9299547974fb9a4964f3849f33a7c592761b93cd9e38e3a9a96e30f734fd64e7f08e83cddbc6d7f445e35280aabac8bd3d1a7933cbd4210d0eb49d1a6f653d6c8f2458d7be564358a7b699a8bcdeb126fad53518dfe8a475163722ff7de668c0436771a159cb5e3d093f1f08a3e12d4a63c6570f93a6bf5d58d95ecd9ebca77b89f86c0ce78516e4dfc9e12fc82fd5ddbe3c9449328a9a91641d42b8c5c83cfe34e46509971bddf6aa56cd00bd6b9475e010944e7f4a90764e56d3f37822f66ae654234ebf5d42aa27e62d7a160f7521a65
+      modulus_length: 2048
+      not_after: '1554968772'
+      not_before: '1547192772'
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: tripplanner.ge
+      validation_type: dv
+  key: 
+    d0f37_4ff37_f525195329b20239d348f9b711c82c7f: 
+      created: '1547271363'
+      friendly_name: Key for “beetrip.tripplanner.ge”
+      id: d0f37_4ff37_f525195329b20239d348f9b711c82c7f
+      modulus: d0f37fd3a797839f12ccb3431edefb7785ecb60d85196b593e8ccee4b30380f61d591319993b067123f52511689f6718f6772016f5f577c73ccbe841f33beb761c96c3a56e9f4076f364719eccb5fb98c05778d5b87559ce341b72e6e88a74d7cddac9ca079382f03f949c1e3e46408ea36d335e8d509bc9bf263b2449edc909996c97dff2f9671f92d1b8bdfff32c242ec0ed439067d917851d58b9d330b4215b7f1e7a568858ea055f52c09fe9a347352dab01815a6226511f2e3f9f49da7c5369a9ac2fde56a0b5b1fe6af9cc6cb243ae7a9203f77ba8d66be73aa473feb7f9c7cf992a0c453227d728c6ebe8bde5aad856038a1f2ae9792edb10f8c4ff37
+      modulus_length: 2048
+    d58ea_21a65_3030bf71e027077f6ed7c59a51ad8b4c: 
+      created: '1547196374'
+      friendly_name: Key for “tripplanner.ge”
+      id: d58ea_21a65_3030bf71e027077f6ed7c59a51ad8b4c
+      modulus: d58ead87e1fa0791ebd0158af4023cb82e32e154955f306a430fd03e8368c45574009ea11e864e7baa5fbf950b6bd9299547974fb9a4964f3849f33a7c592761b93cd9e38e3a9a96e30f734fd64e7f08e83cddbc6d7f445e35280aabac8bd3d1a7933cbd4210d0eb49d1a6f653d6c8f2458d7be564358a7b699a8bcdeb126fad53518dfe8a475163722ff7de668c0436771a159cb5e3d093f1f08a3e12d4a63c6570f93a6bf5d58d95ecd9ebca77b89f86c0ce78516e4dfc9e12fc82fd5ddbe3c9449328a9a91641d42b8c5c83cfe34e46509971bddf6aa56cd00bd6b9475e010944e7f4a90764e56d3f37822f66ae654234ebf5d42aa27e62d7a160f7521a65
+      modulus_length: 2048
+indexes: 
+  certificate: 
+    modulus: 
+      d0f37fd3a797839f12ccb3431edefb7785ecb60d85196b593e8ccee4b30380f61d591319993b067123f52511689f6718f6772016f5f577c73ccbe841f33beb761c96c3a56e9f4076f364719eccb5fb98c05778d5b87559ce341b72e6e88a74d7cddac9ca079382f03f949c1e3e46408ea36d335e8d509bc9bf263b2449edc909996c97dff2f9671f92d1b8bdfff32c242ec0ed439067d917851d58b9d330b4215b7f1e7a568858ea055f52c09fe9a347352dab01815a6226511f2e3f9f49da7c5369a9ac2fde56a0b5b1fe6af9cc6cb243ae7a9203f77ba8d66be73aa473feb7f9c7cf992a0c453227d728c6ebe8bde5aad856038a1f2ae9792edb10f8c4ff37: 
+        beetrip_ge_d0f37_4ff37_1555043762_badcaad96276f98789835425ad561148: ~
+      d58ead87e1fa0791ebd0158af4023cb82e32e154955f306a430fd03e8368c45574009ea11e864e7baa5fbf950b6bd9299547974fb9a4964f3849f33a7c592761b93cd9e38e3a9a96e30f734fd64e7f08e83cddbc6d7f445e35280aabac8bd3d1a7933cbd4210d0eb49d1a6f653d6c8f2458d7be564358a7b699a8bcdeb126fad53518dfe8a475163722ff7de668c0436771a159cb5e3d093f1f08a3e12d4a63c6570f93a6bf5d58d95ecd9ebca77b89f86c0ce78516e4dfc9e12fc82fd5ddbe3c9449328a9a91641d42b8c5c83cfe34e46509971bddf6aa56cd00bd6b9475e010944e7f4a90764e56d3f37822f66ae654234ebf5d42aa27e62d7a160f7521a65: 
+        tripplanner_ge_d58ea_21a65_1554968772_46ee4a589d9c996dbb6ec6baaf6b3285: ~
+    subject.commonName: 
+      beetrip.ge: 
+        beetrip_ge_d0f37_4ff37_1555043762_badcaad96276f98789835425ad561148: ~
+      tripplanner.ge: 
+        tripplanner_ge_d58ea_21a65_1554968772_46ee4a589d9c996dbb6ec6baaf6b3285: ~
+uniques: 
+  certificate: 
+    friendly_name: 
+      Cert for “beetrip.tripplanner.ge”: beetrip_ge_d0f37_4ff37_1555043762_badcaad96276f98789835425ad561148
+      Cert for “tripplanner.ge”: tripplanner_ge_d58ea_21a65_1554968772_46ee4a589d9c996dbb6ec6baaf6b3285
+  key: 
+    friendly_name: 
+      Key for “beetrip.tripplanner.ge”: d0f37_4ff37_f525195329b20239d348f9b711c82c7f
+      Key for “tripplanner.ge”: d58ea_21a65_3030bf71e027077f6ed7c59a51ad8b4c
+    modulus: 
+      d0f37fd3a797839f12ccb3431edefb7785ecb60d85196b593e8ccee4b30380f61d591319993b067123f52511689f6718f6772016f5f577c73ccbe841f33beb761c96c3a56e9f4076f364719eccb5fb98c05778d5b87559ce341b72e6e88a74d7cddac9ca079382f03f949c1e3e46408ea36d335e8d509bc9bf263b2449edc909996c97dff2f9671f92d1b8bdfff32c242ec0ed439067d917851d58b9d330b4215b7f1e7a568858ea055f52c09fe9a347352dab01815a6226511f2e3f9f49da7c5369a9ac2fde56a0b5b1fe6af9cc6cb243ae7a9203f77ba8d66be73aa473feb7f9c7cf992a0c453227d728c6ebe8bde5aad856038a1f2ae9792edb10f8c4ff37: d0f37_4ff37_f525195329b20239d348f9b711c82c7f
+      d58ead87e1fa0791ebd0158af4023cb82e32e154955f306a430fd03e8368c45574009ea11e864e7baa5fbf950b6bd9299547974fb9a4964f3849f33a7c592761b93cd9e38e3a9a96e30f734fd64e7f08e83cddbc6d7f445e35280aabac8bd3d1a7933cbd4210d0eb49d1a6f653d6c8f2458d7be564358a7b699a8bcdeb126fad53518dfe8a475163722ff7de668c0436771a159cb5e3d093f1f08a3e12d4a63c6570f93a6bf5d58d95ecd9ebca77b89f86c0ce78516e4dfc9e12fc82fd5ddbe3c9449328a9a91641d42b8c5c83cfe34e46509971bddf6aa56cd00bd6b9475e010944e7f4a90764e56d3f37822f66ae654234ebf5d42aa27e62d7a160f7521a65: d58ea_21a65_3030bf71e027077f6ed7c59a51ad8b4c

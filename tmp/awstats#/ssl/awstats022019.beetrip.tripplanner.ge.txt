@@ -1,0 +1,378 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201902 will be lost/reset.
+# Last config file used to build this data file was /home4/tripplanner/tmp/awstats/ssl/awstats.beetrip.tripplanner.ge.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2027                
+POS_TIME 2706                
+POS_VISITOR 7890                
+POS_DAY 9069                
+POS_DOMAIN 3438                
+POS_LOGIN 3799                
+POS_ROBOT 3954                
+POS_WORMS 4314                
+POS_EMAILSENDER 4445                
+POS_EMAILRECEIVER 4588                
+POS_SESSION 9343                
+POS_SIDER 9539                
+POS_FILETYPES 4723                
+POS_DOWNLOADS 4981                
+POS_OS 5029                
+POS_BROWSER 5203                
+POS_SCREENSIZE 5528                
+POS_UNKNOWNREFERER 5602                
+POS_UNKNOWNREFERERBROWSER 5726                
+POS_ORIGIN 5808                
+POS_SEREFERRALS 5946                
+POS_PAGEREFS 6111                
+POS_SEARCHWORDS 6404                
+POS_KEYWORDS 6556                
+POS_MISC 2369                
+POS_ERRORS 6615                
+POS_CLUSTER 3655                
+POS_SIDER_404 6761                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20190209223100 96 18209 9193664982977
+FirstTime 20190201005826
+LastTime 20190209080512
+LastUpdate 20190209223104 96 0 96 0 0
+TotalVisits 45                  
+TotalUnique 26                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 29                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 15 0
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 20 90 2494601 6 10 44878
+1 8 20 390726 3 3 16184
+2 22 84 1869966 8 8 9617
+3 38 122 3921769 22 27 179271
+4 20 74 2555684 17 34 611353
+5 10 28 523857 9 10 49014
+6 13 26 608880 9 12 36128
+7 1 1 50680 9 18 138361
+8 36 84 3362019 76 96 2029874
+9 1 3 79058 12 15 69127
+10 2 2 101360 3 5 16907
+11 84 160 4274185 44 49 176839
+12 8 16 326504 17 21 115856
+13 5 12 241496 9 11 45690
+14 6 13 339164 20 21 182802
+15 17 51 811826 16 32 485101
+16 0 0 0 6 11 116557
+17 0 0 0 6 13 174864
+18 4 17 1103351 21 27 137668
+19 1 1 6842 3 5 25019
+20 0 0 0 0 0 0
+21 4 4 201932 2 3 26626
+22 0 0 0 8 12 73381
+23 0 0 0 13 14 106321
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 10
+ge 169 588 15631418
+ma 68 77 1973695
+us 50 99 3552675
+cn 8 8 404652
+es 1 14 1043485
+ca 1 1 6901
+ru 1 1 6900
+gb 1 1 50680
+de 1 17 579584
+nl 0 2 13910
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+YandexBot/ 169 1532279 20190209222453 0
+spider 51 1722427 20190209080519 0
+Googlebot/ 33 827820 20190209162242 0
+java 14 4923 20190205035121 0
+YandexMobileBot/ 12 421423 20190204150139 0
+no_user_agent 11 112257 20190205035122 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+png 33 110149 0 0
+php 85 1671280 0 0
+woff2 7 14420 0 0
+Unknown 101 1557502 0 0
+html 94 1627195 0 0
+css 195 7790050 0 0
+woff 13 688388 0 0
+jpg 6 4396932 0 0
+js 197 5078582 0 0
+svg 77 329402 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+winxp 1 0
+win10 177 50
+win8.1 17 1
+macosx11 8 8
+macosx 78 10
+macosx12 6 6
+win7 513 219
+Unknown 5 5
+linux 3 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 14
+chrome72.0.3626.81 349 112
+netscape5.0 5 5
+firefox61.0 1 1
+chrome61.0.3163.100 6 6
+firefox47.0 8 8
+safari12.0.2 14 1
+firefox44.0 1 1
+chrome60.0.3112.101 1 1
+mozilla 2 0
+firefox11.0 1 0
+chrome70.0.3538.102 1 1
+chrome71.0.3578.98 333 126
+chrome34.0.1847.131 2 2
+msie9.0 84 36
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Mozilla/5.0_zgrab/0.x 20190201062200
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 48 51
+From1 0 0
+From2 38 86
+From3 5 5
+From4 209 666
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 38 86
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+https://3dacq.georgiancard.ge/payment/payment-params.wsm 3 3
+https://192.254.186.169:443 1 1
+https://3dacq.georgiancard.ge/payment/start.wsm 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+406 9 2034
+400 3 114
+301 18 2384
+401 3 55599
+404 113 168062
+302 6 866
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 22
+/_plugins/tcpdf/examples/barcodes/contacts.php 2 -
+/_plugins/tcpdf/examples/barcodes/ 1 -
+/.well-known/assetlinks.json 1 -
+/_plugins/tcpdf/examples/barcodes/brokag/index.phpp 1 -
+/_website/plugins/swiper-4.1.6/js/swiper.min.js.map 10 -
+/robots.txt 40 -
+/ru/privacy-policy 4 -
+/ge/privacy-policy 3 -
+/th1s_1s_a_4o4.html 9 -
+/_plugins/tcpdf/examples/barcodes/brokag/ager/b3b87/ 1 -
+/en/privacy-policy 1 -
+/readme.php 1 -
+/.git/HEAD 1 -
+/joomla.php 1 -
+/it.php 17 -
+/%E2%80%9C/ge/badmin/sitemap/edit/%E2%80%9Chttps:/beetrip.ge%E2%80%9C%E2%80%9C 1 -
+/apple-touch-icon-precomposed.png 1 -
+/_plugins/tcpdf/examples/barcodes/brokag/ 4 -
+/_plugins/tcpdf/examples/barcodes/brokag/ager/ 1 -
+/_plugins/tcpdf/examples/barcodes/example_2d_qrcod_html.php 9 -
+/wp-readme.php 3 https://yandex.ru/clck/jsredir
+/apple-touch-icon.png 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 29
+94.240.245.46 112 349 7788199 20190202093115
+41.141.60.85 66 75 1969009 20190201112241
+91.184.99.1 48 175 4877362 20190205035144
+184.154.36.174 14 31 1164433 20190209080512
+184.154.36.175 9 20 649686 20190206080529
+184.154.36.176 8 20 886045 20190208080828
+60.191.38.77 8 8 404652 20190207181017
+217.11.165.106 7 42 1766187 20190202044025
+184.154.36.173 5 13 661855 20190205080459
+52.53.201.78 4 4 27484 20190208121151
+188.121.212.75 2 22 1199670 20190202044018
+13.57.233.99 2 2 13744 20190207015626
+104.227.246.106 2 2 101360 20190206102515
+51.15.7.26 1 1 50680 20190206142117
+185.180.221.177 1 1 6900 20190208065131
+105.67.3.3 1 1 2343 20190202183216
+95.122.140.255 1 14 1043485 20190207183739
+142.93.94.67 1 1 6901 20190209035135
+171.67.70.38 1 1 6844 20190201021621
+94.249.167.248 1 17 579584 20190201112101
+171.67.70.45 1 1 6842 20190201061141
+34.242.223.250 1 1 6901 20190204121747
+105.66.1.83 1 1 2343 20190209061838
+171.67.70.49 1 1 6841 20190201030725
+171.67.70.46 1 1 6843 20190201044922
+66.249.81.77 0 1 6955 
+185.30.176.27 0 1 6955 
+185.30.176.26 0 1 6955 
+171.67.70.37 1 1 6842 20190201062200
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 9
+20190201 140 298 6914554 13
+20190202 81 274 8032424 9
+20190203 7 13 345974 3
+20190204 3 7 306709 2
+20190205 41 152 4755734 4
+20190206 8 14 499649 4
+20190207 8 26 1568855 4
+20190208 6 12 466402 3
+20190209 6 12 373599 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+0s-30s 34
+5mn-15mn 2
+1h+ 2
+30mn-1h 3
+2mn-5mn 1
+15mn-30mn 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 35
+/ 70 1610634 39 22
+/en/cart 29 218309 0 2
+/en/ 21 2631 0 2
+/_modules/captcha/captchaImage.php 18 51347 0 0
+/_plugins/tcpdf/examples/barcodes/example_2d_qrcod_html.php 14 345294 0 1
+/omer.php 13 108369 0 0
+/joomla.php 12 298180 0 0
+/_plugins/tcpdf/examples/barcodes/contacts.php 11 559088 0 0
+/ge/registration 11 81375 0 0
+/en/profile 10 78437 0 1
+/en/transfers 10 143246 0 0
+/_website/font-awesome/fonts/fontawesome-webfont.woff 9 589068 1 3
+/ge/home 8 199345 1 1
+/pay1.php 8 286785 0 0
+/license.php 7 16473 3 2
+/_website/styles/fonts/fonts/Lari.woff2 7 14420 0 0
+/en/about 5 92886 0 1
+/en/registration 5 32380 0 0
+/ru/home 4 211007 0 1
+/en/home 4 113020 0 1
+/_plugins/tcpdf/examples/barcodes/unziper.php 2 5744 0 0
+/ru/registration 2 15177 0 0
+/en/terms-conditions2 2 74072 0 0
+/ru/ 2 13784 0 0
+/_website/styles/fonts/fonts/NotoSansGeorgian.woff 2 27688 0 0
+/ge/transfers 1 70155 0 1
+/ru/terms-conditions2 1 45340 0 1
+/en/favourite-asked-questions 1 30173 0 0
+/ge/cart 2 15197 0 1
+/ge/profile 1 80 1 0
+/ge/ 1 146 0 1
+/_website/styles/fonts/fonts/HelveticaNeueLTGEOW82-45Lt-Regular.woff 2 71632 0 1
+/ge/about 2 37427 0 1
+/ge/terms-conditions2 1 54760 0 1
+/ru/cart 2 45116 0 1
+END_SIDER

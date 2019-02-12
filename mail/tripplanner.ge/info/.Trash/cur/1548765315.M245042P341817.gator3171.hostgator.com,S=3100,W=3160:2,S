@@ -1,0 +1,60 @@
+Return-Path: <bounces+848413-63bd-info=tripplanner.ge@sgmail.github.com>
+Delivered-To: info@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP id AMyEDoNIUFw5NwUA8w4q4w
+	for <info@tripplanner.ge>; Tue, 29 Jan 2019 06:35:15 -0600
+Return-path: <bounces+848413-63bd-info=tripplanner.ge@sgmail.github.com>
+Envelope-to: info@tripplanner.ge
+Delivery-date: Tue, 29 Jan 2019 06:35:15 -0600
+Received: from o6.sgmail.github.com ([192.254.113.101]:9057)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <bounces+848413-63bd-info=tripplanner.ge@sgmail.github.com>)
+	id 1goSbi-001aPq-P5
+	for info@tripplanner.ge; Tue, 29 Jan 2019 06:35:15 -0600
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; d=github.com; 
+	h=from:to:subject:mime-version:content-type:content-transfer-encoding; 
+	s=s20150108; bh=6PCrZHhs6pZpXUeUms+y+god0CY=; b=J1xxhZ7xwXLBdvBJ
+	3NAn9BPuNYpl1h17ektx8reUkXfP1vhWJugNFyodYJm/THcq81Vb8haAnmXoE0BZ
+	7zCHEIf8ujdbsCzuisr8qfdQCuqMcqoCIXGw31K+Dv22JuRmEL6FvKBcIMVlSvzq
+	MzgenduUMLHtSRyxoPjGzs9uvJo=
+Received: by filter1827p1mdw1.sendgrid.net with SMTP id filter1827p1mdw1-22719-5C504876-3
+        2019-01-29 12:35:02.074378493 +0000 UTC m=+50877.260658575
+Received: from github-lowworker-baaab27.cp1-iad.github.net (unknown [192.30.252.33])
+	by ismtpd0041p1mdw1.sendgrid.net (SG) with ESMTP id i4tSXRaQTNSTsgCdfQd--g
+	for <info@tripplanner.ge>; Tue, 29 Jan 2019 12:35:02.018 +0000 (UTC)
+Received: from github.com (localhost [127.0.0.1])
+	by github-lowworker-baaab27.cp1-iad.github.net (Postfix) with ESMTP id E9C0B80353
+	for <info@tripplanner.ge>; Tue, 29 Jan 2019 04:35:01 -0800 (PST)
+Date: Tue, 29 Jan 2019 12:35:02 +0000 (UTC)
+From: GitHub <noreply@github.com>
+To: tripplanner123 <info@tripplanner.ge>
+Message-ID: <5c504875e953c_5e53fcefe2d45bc15686e@github-lowworker-baaab27.cp1-iad.github.net.mail>
+Subject: [GitHub] Your password has changed
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-Auto-Response-Suppress: All
+categories: account-security,password-changed
+X-SG-EID: 8owW+WxmE/jDduZfQBHOcn7Q/AsaTcVRv9lUzH8sz4Tb3OrlV7zTU7cleLE5wa2uYoHCP1TG6gGMcK
+ 1UxC7mYNK64mwaKOy4tcMSufuY2my0kB2wc4PSrGItzrj7/dzJYAtVjw1b18YUTaYRhWfmKu6UuAXL
+ KxkeA+SF03l88qaVV6RhN4NgTI1MzYbf31PNFCaU5bGsY6pcn5NyEBqLCA==
+X-SG-ID: HjuyJHjWedrv+ZABmVoKqJUGcbnIrpG8Dl8TZw63o/ttfsKFiCNQbipH148DcHHLyQLi2AaIA6cVxk
+ aCikgwJw==
+X-Spam-Status: No, score=2.0
+X-Spam-Score: 20
+X-Spam-Bar: ++
+X-Spam-Flag: NO
+
+Hello tripplanner123,
+
+We wanted to let you know that your GitHub password has changed.
+
+If you did not perform this action, you can recover access by entering info@tripplanner.ge into the form at https://github.com/password_reset
+
+To see this and other security events for your account, visit https://github.com/settings/security
+
+If you run into problems, please contact support by visiting https://github.com/contact
+
+Please do not reply to this email with your password. We will never ask for your password, and we strongly discourage you from sharing it with anyone.

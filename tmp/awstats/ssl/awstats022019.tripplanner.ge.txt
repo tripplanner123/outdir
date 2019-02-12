@@ -1,0 +1,556 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201902 will be lost/reset.
+# Last config file used to build this data file was /home4/tripplanner/tmp/awstats/ssl/awstats.tripplanner.ge.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2019                
+POS_TIME 2705                
+POS_VISITOR 15720               
+POS_DAY 19225               
+POS_DOMAIN 3561                
+POS_LOGIN 4120                
+POS_ROBOT 4275                
+POS_WORMS 5091                
+POS_EMAILSENDER 5222                
+POS_EMAILRECEIVER 5365                
+POS_SESSION 19364               
+POS_SIDER 19553               
+POS_FILETYPES 5500                
+POS_DOWNLOADS 5852                
+POS_OS 5900                
+POS_BROWSER 6143                
+POS_SCREENSIZE 6917                
+POS_UNKNOWNREFERER 6991                
+POS_UNKNOWNREFERERBROWSER 7113                
+POS_ORIGIN 7299                
+POS_SEREFERRALS 7441                
+POS_PAGEREFS 7731                
+POS_SEARCHWORDS 8042                
+POS_KEYWORDS 8632                
+POS_MISC 2368                
+POS_ERRORS 9139                
+POS_CLUSTER 3976                
+POS_SIDER_404 9299                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20190211225455 1959 571750 7266772386134
+FirstTime 20190209234254
+LastTime 20190211225300
+LastUpdate 20190211230013 1959 0 1959 0 0
+TotalVisits 86                  
+TotalUnique 77                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 85                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 34 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 4 15 1085993 9 18 2116686
+1 28 73 4298789 29 36 650034
+2 32 144 8710907 18 47 6063385
+3 57 99 6139002 18 47 3598963
+4 113 281 17450933 15 26 571452
+5 86 173 11271448 2 10 332850
+6 30 121 18739100 41 101 1360155
+7 62 155 11126995 18 38 2734127
+8 7 66 7913429 10 33 24634392
+9 28 100 10077733 21 51 2866735
+10 56 114 7084379 17 31 2509083
+11 1 23 5330971 8 35 4821142
+12 89 143 10315479 14 43 1961862
+13 4 38 2408858 34 40 4021128
+14 54 147 8608397 15 59 3186285
+15 30 97 5408646 7 8 228594
+16 8 62 3371286 17 20 468209
+17 29 58 3217503 30 49 1274661
+18 53 123 7441112 32 55 3345832
+19 19 87 5420346 8 10 75847
+20 1 12 831077 7 12 242409
+21 53 172 11076024 15 25 1070300
+22 5 33 1698836 18 29 700802
+23 9 90 5475453 9 29 1881382
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 23
+ge 361 744 62293973
+ua 207 525 31695299
+us 197 891 58530397
+ch 28 59 4607772
+ca 21 41 1485037
+ru 9 52 4850786
+mx 8 56 3150944
+id 5 5 458652
+nl 4 4 172468
+th 2 2 20529
+gb 2 2 231802
+jp 2 2 156691
+de 2 2 320480
+lt 2 2 86234
+br 1 1 147526
+ie 1 1 147530
+se 1 12 829750
+kr 1 1 147525
+cn 1 1 9169
+fr 1 1 9170
+ps 1 1 147527
+ir 1 1 147526
+ma 0 20 4855909
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 17
+YandexBot/ 184 3848195 20190211212531 0
+YandexImages/ 135 18507946 20190211214646 0
+Googlebot/ 108 3747588 20190211215929 0
+bingbot/ 78 11276053 20190211215331 0
+bingpreview 40 3651725 20190210182843 0
+Googlebot\-Image/ 13 24759273 20190211225455 0
+YandexMetrika/ 12 780950 20190210121441 0
+Baiduspider/ 5 270214 20190211092854 0
+link 5 419274 20190211080413 0
+facebookexternalhit/ 5 168229 20190211051744 0
+spider 4 373300 20190211035233 0
+Exabot/ 1 147525 20190210124259 0
+no_user_agent 1 51369 20190210043617 0
+Mail\.RU_Bot/ 1 12919 20190210213342 0
+yandex 1 843452 20190210100542 0
+bot[\s_+:,\.\;\/\\-] 1 51369 20190211105620 0
+DuckDuckGo\-Favicons\-Bot/ 1 9169 20190210083125 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 15
+woff 41 11225640 0 0
+png 336 14019397 0 0
+Unknown 64 3607217 0 0
+js 687 47958456 0 0
+eot 8 2203736 0 0
+jpg 174 35608674 0 0
+html 59 811978 0 0
+css 348 14112464 0 0
+php 660 42239814 0 0
+ttf 1 756072 0 0
+otf 1 33180 0 0
+cgi 1 494 0 0
+jpeg 5 75690 0 0
+woff2 23 1774680 0 0
+gif 18 75204 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 13
+ios_ipad 2 1
+Unknown 1 1
+ios_iphone 229 69
+linux 121 36
+win10 120 73
+winlong 171 67
+linuxandroid 609 259
+macosx 131 33
+win8 25 4
+macosx11 1 1
+win7 1012 310
+winxp 2 2
+win8.1 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 36
+firefox31.0 1 1
+chrome44.0.2403.146 74 29
+Unknown 2 2
+chrome67.0.3396.99 2 2
+safari12.0.3 1 1
+mozilla 2 2
+firefox65.0 68 8
+msie10.0 48 7
+chrome65.0.3325.181 53 22
+chrome72.0.3626.96 653 345
+chrome71.0.3578.98 168 63
+chrome66.0.3359.181 2 2
+android 1 1
+iphone 45 3
+safari12.0 184 65
+chrome63.0.3239.132 2 2
+chrome41.0.2224.3 1 1
+chrome71.0.3578.80 58 4
+chrome49.0.2623.75 1 1
+msie11.0 59 28
+firefox56.0 2 2
+chrome70.0.3538.80 1 0
+netscape5.0 2 2
+chrome72.0.3626.76 115 55
+chrome41.0.2227.0 1 1
+chrome66.0.3359.117 242 0
+chrome67.0.3396.87 2 2
+chrome71.0.3578.99 105 34
+firefox60.0 1 1
+msie9.0 402 149
+safari9.0 1 1
+msie8.0 90 6
+chrome52.0.2743.98 1 0
+chrome43.0.2357.121 1 1
+chrome69.0.3497.100 32 12
+chrome67.0.3396.79 3 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+WhatsApp/2.18.380_A 20190210073250
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+com.google.GoogleMobile/66.0.0_iPad/12.1.1_hw/iPad7_4 20190210112419
+WhatsApp/2.18.380_A 20190210073250
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 48 154
+From1 0 0
+From2 26 33
+From3 19 19
+From4 765 2220
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 8
+yandexru 4 6
+www_google_com 16 19
+www_google_com_mx 1 1
+www_google_fr 1 1
+www_google_se 1 1
+www_google_de 1 1
+www_google_nl 1 1
+www_google_ge 1 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 6
+http://instagram.com 10 10
+http://instagram.com 4 4
+https://l.instagram.com 2 2
+https://lm.facebook.com 1 1
+http://l.instagram.com 1 1
+https://l.instagram.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 3
+%d0%b0%d1%80%d0%bc%d1%8f%d0%bd%d1%81%d0%ba%d0%b0%d1%8f+%d1%86%d0%b5%d1%80%d0%ba%d0%be%d0%b2%d1%8c+%d0%b2+%d1%81%d1%82%d0%b0%d0%b2%d1%80%d0%be%d0%bf%d0%be%d0%bb%d0%b5 1
+%d0%90%d0%bb%d0%b5%d0%ba%d1%81%d0%b0%d0%bd%d0%b4%d1%80+%d0%92%d0%be%d0%bb%d0%be%d0%b4%d0%b8%d0%bd+%d0%b8+%d0%a4%d1%80%d0%b8%d0%b4%d0%b0 1
+%d0%b0%d1%80%d0%bc%d1%8f%d0%bd%d1%81%d0%ba%d0%b8%d0%b5+%d1%86%d0%b5%d1%80%d0%ba%d0%b2%d0%b8+%d0%b2+%d0%b3%d0%be%d1%80%d0%b0%d1%85 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 11
+%d0%b2 2
+%d0%b8 1
+%d1%86%d0%b5%d1%80%d0%ba%d0%be%d0%b2%d1%8c 1
+%d0%a4%d1%80%d0%b8%d0%b4%d0%b0 1
+%d1%86%d0%b5%d1%80%d0%ba%d0%b2%d0%b8 1
+%d0%b3%d0%be%d1%80%d0%b0%d1%85 1
+%d0%92%d0%be%d0%bb%d0%be%d0%b4%d0%b8%d0%bd 1
+%d0%90%d0%bb%d0%b5%d0%ba%d1%81%d0%b0%d0%bd%d0%b4%d1%80 1
+%d0%b0%d1%80%d0%bc%d1%8f%d0%bd%d1%81%d0%ba%d0%b8%d0%b5 1
+%d1%81%d1%82%d0%b0%d0%b2%d1%80%d0%be%d0%bf%d0%be%d0%bb%d0%b5 1
+%d0%b0%d1%80%d0%bc%d1%8f%d0%bd%d1%81%d0%ba%d0%b0%d1%8f 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+409 24 1992
+206 2 528289
+400 1 52
+401 3 316888
+406 1 226
+301 11 1325
+404 181 934043
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 56
+/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/_website/js/jquery-3.1.0.js 2 https://tripplanner.ge/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/
+/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/_website/js/pace.min.js 2 https://tripplanner.ge/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/
+/news 1 -
+/pmt/post/3d/ 16 -
+/customer/customer_center/customer-IDPP00C166 2 -
+/en/%E2%80%9C/en/badmin/catalog/edit/%E2%80%9C/en/badmin/catalog/edit/%E2%80%9C/en/badmin/catalog/edit/%E2%80%9C/en/badmin/catalog/edit/%E2%80%9C/en/badmin/catalog/edit/%E2%80%9C/en/badmin/catalog/edit/%E2%80%9Chttp:/www.ktw.ge/cellars%E2%80%9C%E2%80%9C%E2 2 https://tripplanner.ge/en/plan-your-trip
+/user/AddToWishlist/ 1 -
+/customer/customer_center/customer-IDPP00C378/myaccount/signin/ 10 -
+/404.html 4 -
+/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/_website/css/style.css 2 https://tripplanner.ge/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/
+/user/EditCartDate/ 1 -
+/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/_website/css/forms.css 2 https://tripplanner.ge/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/
+/customer 17 -
+/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/_website/js/gscript.js 2 https://tripplanner.ge/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/
+/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/_website/js/jquery.slimscroll.min.js 2 https://tripplanner.ge/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/
+/public/images/places/big/40.jpg 1 -
+/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/_website/js/slick.min.js 2 https://tripplanner.ge/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/
+/invoice/Login/bfc4218eb70e54d0cb151a95c0f22096 1 -
+/pmt/post/3d/LdzMVWslGlbAo 1 https://pstfinchde.blogspot.com/
+/_website/_website/img/logo.png 4 -
+/customer/customer_center/customer-IDPP00C343/myaccount/settings 18 -
+/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/_website/css/bootstrap-datepicker.min.css 2 https://tripplanner.ge/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/
+/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/_website/js/jquery-ui.min.js 2 https://tripplanner.ge/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/
+/en/_modules/captcha/captchaImage.php 4 https://tripplanner.ge/en/contact
+/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/_website/css/custom_res.css 2 https://tripplanner.ge/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/
+/_plugins/ 1 -
+/public/images/tours/big/119/1192.jpg 2 -
+/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/ 2 -
+/WP/ 1 -
+/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/_website/js/georgia_map.js 2 https://tripplanner.ge/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/
+/test/ 1 -
+/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/_website/css/slick.css 2 https://tripplanner.ge/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/
+/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/_website/css/font-awesome.css 2 https://tripplanner.ge/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/
+/img/img/post/ 1 -
+/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/_website/css/bootstrap.css 2 https://tripplanner.ge/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/
+/tours/full/133/Kazbegi-Jeep-tour 1 http://tripplanner.ge/tours/full/133/Kazbegi-Jeep-tour
+/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/_website/img/fb_login_en.png 2 https://tripplanner.ge/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/
+/files/blog/blog_head.png 1 -
+/img/img/post/e48cf5e9a2bd46ef10189583c0675577/3d.htm 2 -
+/img/temp/ok 5 -
+/beta/ 1 -
+/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/_website/js/bootstrap-datepicker.min.js 2 https://tripplanner.ge/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/
+/files/b%20bn_1.jpg 1 -
+/th1s_1s_a_4o4.html 1 -
+/invoice/Login 1 -
+/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/_website/css/fonts.css 2 https://tripplanner.ge/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/
+/ru/blog/traveling-is-about-emotions/213 1 -
+/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/_website/js/scripts.js 2 https://tripplanner.ge/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/
+/img/temp/ok/ 1 -
+/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/_website/img/hotel_icon.png 2 https://tripplanner.ge/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/
+/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/_website/js/ammap.js 2 https://tripplanner.ge/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/
+/user/AddToCart/ 1 -
+/ru/privacy-policy 1 -
+/robots.txt 29 -
+/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/_website/js/bootstrap.js 2 https://tripplanner.ge/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/
+/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/_website/css/jquery-ui.css 2 https://tripplanner.ge/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 85
+94.240.245.46 183 337 32038348 20190211102817
+23.101.169.3 143 395 23502067 20190211214407
+94.100.224.211 56 126 7965978 20190211042718
+77.92.231.72 52 88 5081674 20190211050926
+46.211.68.180 51 81 5078566 20190211035601
+31.193.90.131 32 122 7167347 20190211025134
+85.238.102.83 29 74 4547727 20190210104939
+185.46.212.86 28 59 4607772 20190211074820
+188.163.21.12 27 57 3669091 20190210051533
+184.22.241.209 27 57 3669093 20190211185517
+213.131.45.180 27 28 1519579 20190211014301
+95.137.211.184 27 57 3669092 20190211092155
+176.67.19.54 27 35 2442613 20190211041152
+37.73.238.122 27 57 3669092 20190211073404
+142.93.71.104 21 41 1485037 20190210043707
+189.145.29.70 8 56 3150944 20190209234304
+184.154.36.174 6 7 288656 20190211035240
+31.146.254.2 5 53 3625249 20190211044410
+94.180.135.246 4 25 2271609 20190210050726
+65.154.226.100 4 300 20177670 20190210164633
+83.97.23.231 4 4 172468 20190211172304
+37.204.142.87 3 23 2089104 20190211125844
+125.26.7.242 2 2 20529 20190210151806
+70.42.131.170 2 30 1603433 20190211222434 20190211222434 /_website/fonts/CenturyGothic.woff
+54.39.138.146 2 2 154437 20190210163509
+92.54.195.102 1 1 148352 20190211002713
+85.114.96.154 1 1 147527 20190210141914
+82.113.121.83 1 1 224891 20190210070910
+177.200.161.74 1 1 147526 20190211005555
+106.10.112.33 1 1 147525 20190211131008
+5.152.15.108 1 1 224891 20190210041109
+178.215.114.66 1 1 96649 20190211051309
+123.144.24.89 1 1 9169 20190210164359
+212.58.121.82 1 1 224891 20190211142133
+149.3.112.201 0 20 4855909 
+91.202.131.69 1 1 9170 20190211122844
+178.219.163.195 1 1 143253 20190211050908
+81.103.203.65 1 1 224891 20190210112419
+46.133.217.224 1 22 1189018 20190211132322
+31.192.12.207 1 1 224891 20190210123659
+91.184.106.46 0 1 137610 
+36.90.150.163 1 1 147525 20190210064155
+159.203.69.239 1 12 780949 20190210235551
+95.45.235.178 1 1 147530 20190211173817
+91.98.46.165 1 1 147526 20190211121509
+160.178.175.93 0 20 4855909 
+77.185.78.12 1 1 95589 20190211122842
+77.122.202.13 1 1 9169 20190211225300 20190211225300 /
+195.12.59.142 1 1 9170 20190211124841
+109.172.128.153 1 1 224891 20190210121119
+94.43.51.136 1 22 1189018 20190211144121
+87.117.234.21 1 1 6911 20190210141920
+213.200.15.53 1 1 224891 20190210121112
+185.135.149.167 0 1 104561 
+94.43.252.175 1 1 120192 20190211060244
+46.211.236.5 1 1 9169 20190211122959
+199.201.64.140 0 20 4855909 
+182.23.7.226 2 2 154436 20190210043154
+178.167.4.233 1 1 143253 20190211213925
+78.111.189.116 1 1 9169 20190210045450
+178.213.12.146 0 1 145610 
+176.221.144.29 0 1 135554 
+193.169.252.85 1 1 59297 20190210203651
+165.16.113.210 2 2 156691 20190210131021
+37.73.195.11 1 23 1235650 20190211015553
+35.203.136.250 2 2 102738 20190211183019
+66.249.93.209 1 1 9172 20190211054902
+65.155.30.101 2 30 1603433 20190210152408
+35.196.254.119 2 2 18335 20190210001155
+69.25.58.53 1 1 494 20190211141607
+65.154.226.109 2 30 1603433 20190210153910
+91.184.106.173 2 2 449782 20190210073250
+178.33.230.226 1 1 9170 20190211164618
+85.118.103.128 0 1 8290 
+193.169.252.83 1 1 51423 20190211101031
+46.203.50.40 1 22 1189018 20190211143312
+46.133.193.79 1 22 1189017 20190210074009
+85.206.165.18 2 2 86234 20190211172313
+109.254.192.117 1 1 9172 20190210093523
+23.231.110.212 1 1 147527 20190211103543
+213.112.199.118 1 12 829750 20190211073158
+139.255.92.234 2 2 156691 20190210073334
+209.58.151.227 1 1 13051 20190211084054
+213.200.15.175 1 1 224891 20190211065902
+46.133.161.87 1 1 9168 20190211103108
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 3
+20190209 8 67 3922724 1
+20190210 279 854 72363120 35
+20190211 571 1505 98216852 50
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+30mn-1h 1
+30s-2mn 5
+15mn-30mn 2
+2mn-5mn 1
+0s-30s 75
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 48
+/image.php 659 42239814 15 30
+/ 56 808870 44 21
+/_website/fonts/CenturyGothic.woff 23 1964752 2 0
+/_website/fonts/fontawesome-webfont.woff2 23 1774680 2 4
+/en/plan-your-trip 18 2655553 12 8
+/_website/fonts/DejaVuSans.woff 16 9160192 0 4
+/en/contact 5 34557 1 4
+/en/home 4 78919 1 1
+/en/blog/qartuli-sufra/208 3 104595 0 3
+/_website/fonts/fontawesome-webfont.eot 3 497226 1 0
+/ge/ongoing-tours/qutaisis-turi/439 2 29844 0 0
+/en/cart 2 37343 0 0
+/_website/fonts/bpg_nino_mtavruli_normal.eot 2 56252 0 2
+/en/ongoing-tours 2 17793 0 0
+/en/ongoing-tours/kakhetis-turi/600 2 70728 0 0
+/_website/fonts/DejaVuSans.eot 2 1512496 0 0
+/en/sights/Batumi/1023 2 14156 1 0
+/en/ 2 2203 0 0
+/_website/fonts/bpg_nino_mtavruli_normal.woff 2 100696 0 0
+/en/ongoing-tours/dagegme-ertdghiani-mogzauroba-vardziashi/638 2 72766 1 1
+/en/blog 1 7519 0 0
+/en/ongoing-tours/OnedayskitourtoBakuriani/1068 1 58558 0 1
+/en/about-us 1 6726 0 0
+/en/forget-password 1 6660 0 0
+/en/transfers 1 12922 0 0
+/en/ongoing-tours/bodbe-sighnaghis-turi/437 1 12787 0 1
+/en/ongoing-tours/qutaisis-turi/439 1 13408 0 0
+/en/sights/tbilisi/1024 1 27220 0 0
+/ge/cart 1 7757 1 0
+/cgi-sys/suspendedpage.cgi 1 494 1 1
+/_website/fonts/font.otf 1 33180 0 0
+/_website/fonts/CenturyGothic.eot 1 137762 0 0
+/en/registration 1 7222 0 0
+/unprotected/loader.html 1 905 0 1
+/en/blog/mogzauroba-kakhetshi-ii-natsili/204 1 8955 0 0
+/en/ongoing-tours/onedayskitourtogudauri/1067 1 12637 0 0
+/ge 1 10867 0 0
+/ru 1 10859 0 0
+/cpanel 1 33890 0 0
+/ge/plan-your-trip 1 186854 1 0
+/en/ongoing-tours/ghvinis-turi---velistsikhis-veranda/424 1 6376 1 1
+/en/ongoing-tours/bolnisi-germanuli-kultura%28katerinenfildi%29/634 1 13051 1 1
+/en/ongoing-tours/dashbashis-kanioni/393 1 13124 0 0
+/_website/fonts/DejaVuSans.ttf 1 756072 0 0
+/en/ongoing-tours/onedayskitourtobakuriani/1068 1 12735 0 0
+/en/ongoing-tours/ordghiani-turi-khevsuretshi/444 1 13620 1 0
+/_plugins/vendor/composer/autoload_real.php 1 0 0 0
+/en/why-us 1 7216 0 0
+END_SIDER
