@@ -1734,3 +1734,43 @@ git status
 git add .
 #1549967196
 git status
+#1549967226
+git add .
+#1549967230
+git status
+#1549967308
+git commit -m "first commit"
+#1549967317
+git remote add origin https://github.com/tripplanner123/outdir.git
+#1549967325
+git push -u origin master
+#1549967382
+clear
+#1549967385
+git status
+#1549967394
+cd public_html
+#1549967397
+git status
+#1549967406
+cd ../beetrip.ge
+#1549967409
+git status
+#1549967412
+clear
+#1549984946
+git status
+#1549985037
+git diff .spamassassin/auto-whitelist
+#1549985147
+cd beetrip.ge
+#1549985151
+git status
+#1549985157
+cd ../public_html
+#1549985160
+git status
+#1549988293
+cd
+#1549988298
+git status
