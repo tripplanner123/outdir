@@ -1774,3 +1774,57 @@ git status
 cd
 #1549988298
 git status
+#1549988347
+git add .
+#1549988364
+git commit -m "mail files updated"
+#1549988369
+git push
+#1549988389
+git push
+#1549988410
+clear
+#1549988413
+git status
+#1549988419
+cd public_html
+#1549988422
+git status
+#1549988436
+cd ../beetrip.ge
+#1549988439
+git status
+#1550479081
+cd public_html
+#1550479085
+git status
+#1550479103
+git diff _manager/templates/actions/cart_list.php
+#1550479134
+cd ../beetrip.ge
+#1550479138
+git status
+#1550479143
+cd ../
+#1550479146
+git status
+#1550479212
+cd beetrip.ge
+#1550479216
+git status
+#1550482400
+git diff error_log
+#1550482517
+git checkout error_log
+#1550482522
+git status
+#1550482531
+git add .
+#1550482540
+git commit -m "fix bug"
+#1550482543
+git push
+#1550482561
+cd ../
+#1550482564
+git status

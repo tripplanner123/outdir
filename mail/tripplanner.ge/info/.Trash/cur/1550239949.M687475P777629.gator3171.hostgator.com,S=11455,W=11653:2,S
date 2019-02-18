@@ -1,0 +1,198 @@
+Return-Path: <mariahclark@digitalpromotionsagency.com>
+Delivered-To: info@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP id yObmKM3IZlyd3QsA8w4q4w
+	for <info@tripplanner.ge>; Fri, 15 Feb 2019 08:12:29 -0600
+Return-path: <mariahclark@digitalpromotionsagency.com>
+Envelope-to: info@tripplanner.ge
+Delivery-date: Fri, 15 Feb 2019 08:12:29 -0600
+Received: from mail-vk1-f193.google.com ([209.85.221.193]:34910)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <mariahclark@digitalpromotionsagency.com>)
+	id 1gueE9-003Uu9-3k
+	for info@tripplanner.ge; Fri, 15 Feb 2019 08:12:29 -0600
+Received: by mail-vk1-f193.google.com with SMTP id l136so2257614vke.2
+        for <info@tripplanner.ge>; Fri, 15 Feb 2019 06:12:23 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=digitalpromotionsagency-com.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:sender:from:date:message-id:subject:to;
+        bh=J4ZxWUmzVe/hH3NHQBAhV7WJiB/U2tX4WxYX8G/vH00=;
+        b=LnHfMj1pP5Rr4iRe5rgytggjN0pHooVHsqpEPpaNQoxDrLw85UGiPRH8/rb+41rK23
+         sPnQ0iMQv240M8tMyHH2Xzua6J+1vISMCGQmTJvvXGgIwRQUq+47FDvierD9yI1Mg7BG
+         yv5ZpAoPqIyP5Tt/vZkLejlx6jeqILrX91lFxig1tmeyU8UwKCkd7jGGHWyIOM2afdOO
+         bht3pog51PI3xk9q++/VM725x4HIBX3SOYDzNwnmMAPfIvlWMeYbTtfEf1yKzVVN6ery
+         gNNUL2lYfGnVRQaTlnJH8p5elRNXyGeCdNuzEptha9fVYHvULfBcqg0N5+E55nEnzuaN
+         KE5A==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:sender:from:date:message-id:subject
+         :to;
+        bh=J4ZxWUmzVe/hH3NHQBAhV7WJiB/U2tX4WxYX8G/vH00=;
+        b=UMfyvENir4Q830iJTqqxrZ4G/ilgccGfSAnz8npZp1iMLP2eZ2NmRENPyzlKOD6NU1
+         xK1dTbTfLdAPrTWJbDGfIg0c2rnvXyUAbBnA/tDPGdA7NkX7OoEBSXmWvKy1yxxP8qsT
+         dgKyi0NakxrikIZfTGd1sZkyWwXaHloirUbxlhHeLzbspbNCYJjvUcS1J70BQkwMWTbO
+         PxpNRMXpZk/dJntugEV7cn6PpTNJKJghiSLkYZfm/evufsWJgmc1+AvrM9LAQ11gr6Du
+         RW6VTi2SQilUbv9ulU7Wv7okTfdayhUhrE3Wjf/aUj37DW7Kyp6Px5bALWf0Li6yGg0W
+         BHTw==
+X-Gm-Message-State: AHQUAuYF1H669Go8GWoQVY7q9g5d3gk12zP38lpHYUnkDNTg1ShSTjQN
+	RiNsYEFLV8jV1t4XV01wgtoX4I7EGYCxx/uIVU8fz/tU
+X-Google-Smtp-Source: AHgI3IaL73hu75vNh8FunsiX56Ea7nsyQc7bzhEPizbKMxg8mXBB8FkSNHPVq4P6M2dGsmPXe8DluM0Izu2Jw9W/5LU=
+X-Received: by 2002:a1f:998d:: with SMTP id b135mr5254230vke.44.1550239937070;
+ Fri, 15 Feb 2019 06:12:17 -0800 (PST)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Fri, 15 Feb 2019 15:12:16 +0100
+MIME-Version: 1.0
+Sender: Mariah Clark <mariahclark@digitalpromotionsagency.com>
+From: Mariah Clark <mariahclark@digitalpromotionsagency.com>
+Date: Fri, 15 Feb 2019 15:12:16 +0100
+X-Google-Sender-Auth: UMR8sSWls8n-AEORicNVStSvPbE
+Message-ID: <CAL6E-ttyk6o808XTOMzkJs_tNYQjQiMTmMMaZqYoKTHhz8QaWQ@mail.gmail.com>
+Subject: Re: tripplanner.ge: Let Google Help Your Customers Find You!!
+To: Info <info@tripplanner.ge>
+Content-Type: multipart/alternative; boundary="000000000000c40ccf0581ef5c97"
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Spam-Flag: NO
+
+--000000000000c40ccf0581ef5c97
+Content-Type: text/plain; charset="UTF-8"
+
+Hi *tripplanner.ge <http://tripplanner.ge>*,
+
+
+My name is   *Mariah Clark* , and I'm a SEO Specialist.
+
+
+Most of the people share their anger and frustration once they get my
+email. But let me show you how there is so many bugs (like broken links,
+pages that returned 4XX status code upon request, images with no ALT text,
+pages with no meta description tag, not having an unique meta description,
+having too long title, etc.), found in  *tripplanner.ge
+<http://tripplanner.ge>*  .
+
+
+I have a large professional team who can fix all the above issues
+immediately at an affordable price. I guarantee you will see a drastic
+change in your Google search ranking once these are fixed.
+
+
+If this is something you are interested in, and then allow me to send you a *No
+Obligation Audit Report*.
+
+
+Waiting for your response!!!
+
+
+Kind Regards
+*Mariah Clark*  *! **Business Development Manager*
+ -----------------------------------------------------------
+*Note*: Kindly please email with the subject line "*I**nterested*" or " *No
+Obligation Audit Report* "and I will be happy to update my data base.
+
+--000000000000c40ccf0581ef5c97
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">
+
+
+
+<div style=3D"font-family:Arial,Helvetica,sans-serif;font-size:small;text-d=
+ecoration-style:initial;text-decoration-color:initial"><p class=3D"MsoNorma=
+l" style=3D"margin:0in 0in 0.0001pt;text-align:justify;line-height:normal;b=
+ackground-image:initial;background-position:initial;background-size:initial=
+;background-repeat:initial;background-origin:initial;background-clip:initia=
+l;font-size:11pt;font-family:Calibri,sans-serif"><span style=3D"font-family=
+:verdana,sans-serif;font-size:large">Hi</span><span style=3D"font-family:ve=
+rdana,sans-serif;font-size:large">=C2=A0</span><b style=3D"font-family:verd=
+ana,sans-serif;font-size:large"><a href=3D"http://tripplanner.ge">tripplann=
+er.ge</a></b><span style=3D"font-family:verdana,sans-serif;font-size:large"=
+>,</span></p><p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;text-a=
+lign:justify;line-height:normal;background-image:initial;background-positio=
+n:initial;background-size:initial;background-repeat:initial;background-orig=
+in:initial;background-clip:initial;font-size:11pt;font-family:Calibri,sans-=
+serif"><span style=3D"font-size:12pt;font-family:Verdana,sans-serif;color:b=
+lack"><br></span></p><p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001p=
+t;text-align:justify;line-height:normal;background-image:initial;background=
+-position:initial;background-size:initial;background-repeat:initial;backgro=
+und-origin:initial;background-clip:initial;font-size:11pt;font-family:Calib=
+ri,sans-serif"><span style=3D"font-size:12pt;font-family:Verdana,sans-serif=
+;color:black">My name is=C2=A0</span>=C2=A0<span>=C2=A0</span><b style=3D"f=
+ont-size:small;text-align:start;font-family:verdana,sans-serif"><font size=
+=3D"4"><span style=3D"color:rgb(0,0,0);white-space:nowrap"><span style=3D"f=
+ont-family:Arial,sans-serif">Mariah Clark</span></span></font></b>=C2=A0<sp=
+an style=3D"font-size:12pt;font-family:Verdana,sans-serif;color:black">, an=
+d I&#39;m a SEO Specialist.</span></p><p class=3D"MsoNormal" style=3D"margi=
+n:0in 0in 0.0001pt;text-align:justify;line-height:normal;background-image:i=
+nitial;background-position:initial;background-size:initial;background-repea=
+t:initial;background-origin:initial;background-clip:initial;font-size:11pt;=
+font-family:Calibri,sans-serif"><span style=3D"font-size:12pt;font-family:V=
+erdana,sans-serif;color:black"><br></span></p><p class=3D"MsoNormal" style=
+=3D"margin:0px;color:rgb(0,0,0);font-family:Verdana,Arial,Helvetica,sans-se=
+rif;font-size:14px">Most of the people share their anger and frustration on=
+ce they get my email. But let me show you how there is so many bugs (like b=
+roken links, pages that returned 4XX status code upon request, images with =
+no ALT text, pages with no meta description tag, not having an unique meta =
+description, having too long title, etc.), found in=C2=A0<span>=C2=A0</span=
+><b><a href=3D"http://tripplanner.ge">tripplanner.ge</a></b>=C2=A0 .=C2=A0<=
+/p><p class=3D"MsoNormal" style=3D"margin:0px;color:rgb(0,0,0);font-family:=
+Verdana,Arial,Helvetica,sans-serif;font-size:14px"><br></p><p class=3D"MsoN=
+ormal" style=3D"margin:0px;color:rgb(0,0,0);font-family:Verdana,Arial,Helve=
+tica,sans-serif;font-size:14px">I have a large professional team who can fi=
+x all the above issues immediately at an affordable price. I guarantee you =
+will see a drastic change in your Google search ranking once these are fixe=
+d.</p><p class=3D"MsoNormal" style=3D"margin:0px;color:rgb(0,0,0);font-fami=
+ly:Verdana,Arial,Helvetica,sans-serif;font-size:14px"><br></p><p class=3D"M=
+soNormal" style=3D"margin:0px;color:rgb(0,0,0);font-family:Verdana,Arial,He=
+lvetica,sans-serif;font-size:14px">If this is something you are interested =
+in, and then allow me to send you a=C2=A0<b><span style=3D"font-size:12pt;l=
+ine-height:18.4px">No Obligation Audit Report</span></b>.</p><p class=3D"Ms=
+oNormal" style=3D"margin:0px;color:rgb(0,0,0);font-family:Verdana,Arial,Hel=
+vetica,sans-serif;font-size:14px"><br></p><p class=3D"MsoNormal" style=3D"m=
+argin:0px;color:rgb(0,0,0);font-family:Verdana,Arial,Helvetica,sans-serif;f=
+ont-size:14px">Waiting for your response!!!<br></p><p class=3D"MsoNormal" s=
+tyle=3D"margin:0in 0in 0.0001pt;line-height:normal;background-image:initial=
+;background-position:initial;background-size:initial;background-repeat:init=
+ial;background-origin:initial;background-clip:initial;font-size:11pt"><span=
+ style=3D"font-family:Verdana,sans-serif;font-size:12pt;color:black"><br>Ki=
+nd Regards<b><br></b></span><b style=3D"font-size:small;font-family:verdana=
+,sans-serif"><font size=3D"4"><span style=3D"color:rgb(0,0,0);white-space:n=
+owrap"><span style=3D"font-family:Arial,sans-serif">Mariah Clark</span></sp=
+an></font></b>=C2=A0<span style=3D"font-size:14.6667px;text-align:justify">=
+<span style=3D"font-size:11pt;line-height:16.8667px;background-image:initia=
+l;background-position:initial;background-size:initial;background-repeat:ini=
+tial;background-origin:initial;background-clip:initial"><font face=3D"Calib=
+ri, sans-serif">=C2=A0</font></span></span><b style=3D"font-family:Calibri,=
+sans-serif"><span style=3D"font-family:Verdana,sans-serif;color:black;backg=
+round-image:initial;background-position:initial;background-size:initial;bac=
+kground-repeat:initial;background-origin:initial;background-clip:initial"><=
+b>!=C2=A0</b></span></b><b style=3D"font-family:Calibri,sans-serif"><span s=
+tyle=3D"font-size:12pt;font-family:Verdana,sans-serif;color:black">Business=
+ Development Manager</span></b><span style=3D"font-family:Verdana,sans-seri=
+f;color:black;font-size:12pt"></span></p></div><div style=3D"font-family:Ar=
+ial,Helvetica,sans-serif;font-size:small;text-decoration-style:initial;text=
+-decoration-color:initial"><div style=3D"line-height:18.4531px;color:rgb(0,=
+0,0)"><font size=3D"4"><span style=3D"font-family:verdana,sans-serif"><b>=
+=C2=A0</b>-----------------------------</span><span style=3D"font-family:ve=
+rdana,sans-serif">------------------------------</span></font></div><div st=
+yle=3D"line-height:18.4531px;color:rgb(0,0,0)"><span style=3D"font-family:v=
+erdana,sans-serif"><font size=3D"4"><b style=3D"color:rgb(34,34,34)">Note</=
+b><span style=3D"color:rgb(34,34,34)">:=C2=A0</span></font></span><span sty=
+le=3D"font-family:Calibri,sans-serif;font-size:large">Kindly please email w=
+ith the subject line=C2=A0&quot;</span><b style=3D"color:rgb(34,34,34);font=
+-family:Verdana,Arial,Helvetica,sans-serif">I</b><b style=3D"color:rgb(34,3=
+4,34);font-family:Verdana,Arial,Helvetica,sans-serif"><span style=3D"color:=
+rgb(0,0,0);font-family:Calibri,sans-serif;font-size:large">nterested</span>=
+</b><span style=3D"font-family:Calibri,sans-serif;font-size:large">&quot; o=
+r &quot;
+<b><span style=3D"font-size:12pt;line-height:18.4px">No Obligation Audit Re=
+port</span></b>
+
+</span><span style=3D"font-family:Calibri,sans-serif;font-size:large">&quot=
+;and I will be happy to update my data base.</span></div></div>
+
+<br></div>
+
+--000000000000c40ccf0581ef5c97--

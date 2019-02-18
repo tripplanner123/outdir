@@ -9,32 +9,32 @@ AWSTATS DATA FILE 7.6 (build 20161204)
 BEGIN_MAP 28
 POS_GENERAL 2023                
 POS_TIME 2671                
-POS_VISITOR 5588                
-POS_DAY 5660                
-POS_DOMAIN 3156                
-POS_LOGIN 3367                
-POS_ROBOT 3522                
-POS_WORMS 3654                
-POS_EMAILSENDER 3785                
-POS_EMAILRECEIVER 3928                
-POS_SESSION 5716                
-POS_SIDER 5853                
-POS_FILETYPES 4063                
-POS_DOWNLOADS 4127                
-POS_OS 4175                
-POS_BROWSER 4240                
-POS_SCREENSIZE 4290                
-POS_UNKNOWNREFERER 4364                
-POS_UNKNOWNREFERERBROWSER 4451                
-POS_ORIGIN 4533                
-POS_SEREFERRALS 4663                
-POS_PAGEREFS 4807                
-POS_SEARCHWORDS 4955                
-POS_KEYWORDS 5107                
+POS_VISITOR 5751                
+POS_DAY 5823                
+POS_DOMAIN 3184                
+POS_LOGIN 3395                
+POS_ROBOT 3550                
+POS_WORMS 3720                
+POS_EMAILSENDER 3851                
+POS_EMAILRECEIVER 3994                
+POS_SESSION 5879                
+POS_SIDER 6016                
+POS_FILETYPES 4129                
+POS_DOWNLOADS 4193                
+POS_OS 4241                
+POS_BROWSER 4306                
+POS_SCREENSIZE 4356                
+POS_UNKNOWNREFERER 4430                
+POS_UNKNOWNREFERERBROWSER 4517                
+POS_ORIGIN 4599                
+POS_SEREFERRALS 4729                
+POS_PAGEREFS 4873                
+POS_SEARCHWORDS 5021                
+POS_KEYWORDS 5173                
 POS_MISC 2335                
-POS_ERRORS 5166                
-POS_CLUSTER 3223                
-POS_SIDER_404 5263                
+POS_ERRORS 5232                
+POS_CLUSTER 3251                
+POS_SIDER_404 5342                
 END_MAP
 
 # LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
@@ -46,10 +46,10 @@ END_MAP
 # MonthHostsKnown   = Number of hosts known
 # MonthHostsUnKnown = Number of hosts unknown
 BEGIN_GENERAL 8
-LastLine 20190211192151 2 203 10074482191764
+LastLine 20190217221959 5 655 10996129943467
 FirstTime 0
 LastTime 0
-LastUpdate 20190211230014 2 0 2 0 0
+LastUpdate 20190218000030 5 0 5 0 0
 TotalVisits 0                   
 TotalUnique 0                   
 MonthHostsKnown 0                   
@@ -58,44 +58,44 @@ END_GENERAL
 
 # Misc ID - Pages - Hits - Bandwidth
 BEGIN_MISC 10
-AddToFavourites 0 0 0
-WindowsMediaPlayerSupport 0 0 0
-PDFSupport 0 0 0
-TotalMisc 0 0 0
 JavaEnabled 0 0 0
-RealPlayerSupport 0 0 0
-DirectorSupport 0 0 0
-FlashSupport 0 0 0
+PDFSupport 0 0 0
 JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
 QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
 END_MISC
 
 # Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
 BEGIN_TIME 24
-0 0 0 0 0 0 0
-1 0 0 0 0 0 0
-2 0 0 0 0 0 0
-3 0 0 0 1 1 0
-4 0 0 0 1 1 0
-5 0 0 0 1 2 694
+0 0 0 0 3 3 83
+1 0 0 0 2 2 374
+2 0 0 0 2 2 694
+3 0 0 0 3 3 0
+4 0 0 0 4 4 374
+5 0 0 0 4 6 1388
 6 0 0 0 1 1 0
-7 0 0 0 0 0 0
-8 0 0 0 1 1 291
-9 0 0 0 0 0 0
-10 0 0 0 0 0 0
-11 0 0 0 0 0 0
-12 0 0 0 0 0 0
-13 0 0 0 0 0 0
-14 0 0 0 0 0 0
-15 0 0 0 0 0 0
+7 0 0 0 2 4 1970
+8 0 0 0 9 9 2731
+9 0 0 0 1 1 0
+10 0 0 0 1 1 0
+11 0 0 0 1 1 291
+12 0 0 0 1 1 83
+13 0 0 0 4 5 985
+14 0 0 0 2 3 694
+15 0 0 0 1 2 694
 16 0 0 0 0 0 0
-17 0 0 0 0 0 0
+17 0 0 0 1 1 0
 18 0 0 0 0 0 0
 19 0 0 0 2 3 694
-20 0 0 0 1 1 291
-21 0 0 0 0 0 0
-22 0 0 0 0 0 0
-23 0 0 0 0 0 0
+20 0 0 0 2 2 291
+21 0 0 0 0 2 2252
+22 0 0 0 16 16 291
+23 0 0 0 5 5 0
 END_TIME
 
 # Domain - Pages - Hits - Bandwidth
@@ -114,7 +114,8 @@ END_LOGIN
 
 # Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
 # The 25 first Hits must be first (order not required for others)
-BEGIN_ROBOT 0
+BEGIN_ROBOT 1
+YandexImages/ 1 1558 20190213213740 0
 END_ROBOT
 
 # Worm ID - Hits - Bandwidth - Last visit
@@ -190,14 +191,17 @@ BEGIN_KEYWORDS 0
 END_KEYWORDS
 
 # Errors - Hits - Bandwidth
-BEGIN_ERRORS 2
-404 2 1388
-301 8 582
+BEGIN_ERRORS 3
+404 11 7634
+409 4 332
+301 61 4365
 END_ERRORS
 
 # URL with 404 errors - Hits - Last URL referrer
-BEGIN_SIDER_404 1
-/robots.txt 2 -
+BEGIN_SIDER_404 3
+/robots.txt 9 -
+/fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/demo-contacts.php 1 -
 END_SIDER_404
 
 # Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]

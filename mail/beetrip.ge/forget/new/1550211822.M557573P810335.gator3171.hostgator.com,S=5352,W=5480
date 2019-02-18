@@ -1,0 +1,128 @@
+Return-Path: <>
+Delivered-To: forget@beetrip.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP id CCMnIe5aZlxfXQwA8w4q4w
+	for <forget@beetrip.ge>; Fri, 15 Feb 2019 00:23:42 -0600
+Return-path: <>
+Envelope-to: forget@beetrip.ge
+Delivery-date: Fri, 15 Feb 2019 00:23:42 -0600
+Received: from gateway23.websitewelcome.com ([192.185.48.251]:12273)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	id 1guWuU-003RIH-3t
+	for forget@beetrip.ge; Fri, 15 Feb 2019 00:23:42 -0600
+Received: by gateway23.websitewelcome.com (Postfix)
+	id 08EEC3AD4; Fri, 15 Feb 2019 00:23:13 -0600 (CST)
+Date: Fri, 15 Feb 2019 00:23:13 -0600 (CST)
+From: MAILER-DAEMON@gateway23.websitewelcome.com (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: forget@beetrip.ge
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="18B7B299CB.1550211793/gateway23.websitewelcome.com"
+Message-Id: <20190215062313.08EEC3AD4@gateway23.websitewelcome.com>
+X-Spam-Status: No, score=0.2
+X-Spam-Score: 2
+X-Spam-Bar: /
+X-Spam-Flag: NO
+
+This is a MIME-encapsulated message.
+
+--18B7B299CB.1550211793/gateway23.websitewelcome.com
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host gateway23.websitewelcome.com.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<kasd@asd.ge>: host mx1.1984.is[185.112.145.65] said: 550 relay not permitted
+    (in reply to RCPT TO command)
+
+--18B7B299CB.1550211793/gateway23.websitewelcome.com
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; gateway23.websitewelcome.com
+X-Postfix-Queue-ID: 18B7B299CB
+X-Postfix-Sender: rfc822; forget@beetrip.ge
+Arrival-Date: Fri, 15 Feb 2019 00:15:11 -0600 (CST)
+
+Final-Recipient: rfc822; kasd@asd.ge
+Original-Recipient: rfc822;kasd@asd.ge
+Action: failed
+Status: 5.0.0
+Remote-MTA: dns; mx1.1984.is
+Diagnostic-Code: smtp; 550 relay not permitted
+
+--18B7B299CB.1550211793/gateway23.websitewelcome.com
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+
+Return-Path: <forget@beetrip.ge>
+Received: from cm10.websitewelcome.com (cm10.websitewelcome.com [100.42.49.4])
+	by gateway23.websitewelcome.com (Postfix) with ESMTP id 18B7B299CB
+	for <kasd@asd.ge>; Fri, 15 Feb 2019 00:15:11 -0600 (CST)
+Received: from gator3171.hostgator.com ([198.57.247.135])
+	by cmsmtp with SMTP
+	id uWmEgcOxP2PzOuWmEg6U7H; Fri, 15 Feb 2019 00:15:11 -0600
+X-Authority-Reason: nr=8
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=beetrip.ge;
+	 s=default; h=Content-Type:MIME-Version:Message-ID:Subject:Reply-To:From:To:
+	Date:Sender:Cc:Content-Transfer-Encoding:Content-ID:Content-Description:
+	Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc:Resent-Message-ID:
+	In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:List-Subscribe:
+	List-Post:List-Owner:List-Archive;
+	bh=a9aKtL1BX+zBLBpDl33QUcvc8gcptShQj3ZXG9PQ+3I=; b=s7cI5WMJNMe5NWA1TjAi3PJRgH
+	+NmWF8DHbHzefqkfzFxNGZa6yUEF/9Arj8lSRhFMRhdYNtSuQZxA1P8ZzwZRh3cj+rIw/GzjcL2ih
+	N/JoM0bCahHEkcUnHqx9p2KHqtqcS1XzYvuKokFybM498a3O0txbmBsoeOpwBK+Tyl09ApUONylCT
+	eVQqCRdGQitq2Pl4HXw7GYTSGbQaWIGi1pq3GV0nTlLqXVzFYlQufnjtQPiV+UkeapR6VZnq3YOoL
+	bXQGIwnNFzBqnTmygAI2MQwti/fORGIrFV2T1bG0h1voq+VroWVde56cS3vyd7JiQjjfqAoYKxCyi
+	AmWIwc5A==;
+Received: from [192.254.186.169] (port=42636 helo=beetrip.ge)
+	by gator3171.hostgator.com with esmtpsa (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <forget@beetrip.ge>)
+	id 1guWmE-003NUE-Az
+	for kASD@ASD.GE; Fri, 15 Feb 2019 00:15:10 -0600
+Date: Fri, 15 Feb 2019 10:15:09 +0400
+To: kASD@ASD.GE
+From: Bee Trip <forget@beetrip.ge>
+Reply-To: forget@beetrip.ge
+Subject: Verify your BeeTrip account
+Message-ID: <20a9ea3a0f2c5810406a48928290cea7@beetrip.ge>
+X-Mailer: PHPMailer 5.2.15 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - gator3171.hostgator.com
+X-AntiAbuse: Original Domain - asd.ge
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - beetrip.ge
+X-BWhitelist: no
+X-Source-IP: 192.254.186.169
+X-Source-L: Yes
+X-Exim-ID: 1guWmE-003NUE-Az
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Source-Sender: (beetrip.ge) [192.254.186.169]:42636
+X-Source-Auth: forget@beetrip.ge
+X-Email-Count: 1
+X-Org: HG=hgshared;ORG=hostgator;
+X-Source-Cap: dHJpcHBsYW5uZXI7dHJpcHBsYW5uZXI7Z2F0b3IzMTcxLmhvc3RnYXRvci5jb20=
+X-Local-Domain: yes
+
+<img src="http://beetrip.ge/_website/images/logo.png" width="150" alt="logo" align="center" /><br><br><br>You have been registered for BeeTrip. Please verify your account using the link below. We will take you to the website and you will be able to log in.<br><br><a href="https://beetrip.ge/en/activate-account/?a=60806">Verify Account</a><br><br>The BeeTrip Team
+
+
+--18B7B299CB.1550211793/gateway23.websitewelcome.com--
