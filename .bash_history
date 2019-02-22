@@ -1828,3 +1828,59 @@ git push
 cd ../
 #1550482564
 git status
+#1550482617
+git add .
+#1550482633
+git commit -m "change mail folder"
+#1550482639
+git push
+#1550482657
+git push
+#1550482678
+clear
+#1550482685
+cd public_html
+#1550482688
+git status
+#1550482720
+git diff _manager/templates/actions/cart_list.php
+#1550482732
+git diff error_log
+#1550842169
+git status
+#1550842198
+cd beetrip.ge
+#1550842200
+clear
+#1550842203
+git status
+#1550842216
+cd ../
+#1550842225
+cd public_html
+#1550842228
+git status
+#1550855118
+clear
+#1550855121
+git status
+#1550855161
+git diff error_log
+#1550856192
+clear
+#1550856194
+git status
+#1550856204
+git add .
+#1550856221
+git commit -m "save changes"
+#1550856227
+git push
+#1550856262
+cd ../
+#1550856267
+clear
+#1550856270
+git status
+#1550856318
+git diff .spamassassin/auto-whitelist
