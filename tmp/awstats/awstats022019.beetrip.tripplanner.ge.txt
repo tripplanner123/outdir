@@ -8,33 +8,33 @@ AWSTATS DATA FILE 7.6 (build 20161204)
 # update).
 BEGIN_MAP 28
 POS_GENERAL 2023                
-POS_TIME 2671                
-POS_VISITOR 5770                
-POS_DAY 5842                
-POS_DOMAIN 3191                
-POS_LOGIN 3402                
-POS_ROBOT 3557                
-POS_WORMS 3727                
-POS_EMAILSENDER 3858                
-POS_EMAILRECEIVER 4001                
-POS_SESSION 5898                
-POS_SIDER 6035                
-POS_FILETYPES 4136                
-POS_DOWNLOADS 4200                
-POS_OS 4248                
-POS_BROWSER 4313                
-POS_SCREENSIZE 4363                
-POS_UNKNOWNREFERER 4437                
-POS_UNKNOWNREFERERBROWSER 4524                
-POS_ORIGIN 4606                
-POS_SEREFERRALS 4736                
-POS_PAGEREFS 4880                
-POS_SEARCHWORDS 5028                
-POS_KEYWORDS 5180                
-POS_MISC 2335                
-POS_ERRORS 5239                
-POS_CLUSTER 3258                
-POS_SIDER_404 5360                
+POS_TIME 2675                
+POS_VISITOR 5776                
+POS_DAY 5848                
+POS_DOMAIN 3197                
+POS_LOGIN 3408                
+POS_ROBOT 3563                
+POS_WORMS 3733                
+POS_EMAILSENDER 3864                
+POS_EMAILRECEIVER 4007                
+POS_SESSION 5904                
+POS_SIDER 6041                
+POS_FILETYPES 4142                
+POS_DOWNLOADS 4206                
+POS_OS 4254                
+POS_BROWSER 4319                
+POS_SCREENSIZE 4369                
+POS_UNKNOWNREFERER 4443                
+POS_UNKNOWNREFERERBROWSER 4530                
+POS_ORIGIN 4612                
+POS_SEREFERRALS 4742                
+POS_PAGEREFS 4886                
+POS_SEARCHWORDS 5034                
+POS_KEYWORDS 5186                
+POS_MISC 2339                
+POS_ERRORS 5245                
+POS_CLUSTER 3264                
+POS_SIDER_404 5366                
 END_MAP
 
 # LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
@@ -46,10 +46,10 @@ END_MAP
 # MonthHostsKnown   = Number of hosts known
 # MonthHostsUnKnown = Number of hosts unknown
 BEGIN_GENERAL 8
-LastLine 20190221191523 9 1305 9487091668065
+LastLine 20190222211850 10 1438 10970376326827
 FirstTime 0
 LastTime 0
-LastUpdate 20190222001715 9 0 9 0 0
+LastUpdate 20190223002955 10 0 10 0 0
 TotalVisits 0                   
 TotalUnique 0                   
 MonthHostsKnown 0                   
@@ -58,42 +58,42 @@ END_GENERAL
 
 # Misc ID - Pages - Hits - Bandwidth
 BEGIN_MISC 10
+JavascriptDisabled 0 0 0
 TotalMisc 0 0 0
 JavaEnabled 0 0 0
-JavascriptDisabled 0 0 0
-PDFSupport 0 0 0
-AddToFavourites 0 0 0
-RealPlayerSupport 0 0 0
-DirectorSupport 0 0 0
+FlashSupport 0 0 0
 QuickTimeSupport 0 0 0
 WindowsMediaPlayerSupport 0 0 0
-FlashSupport 0 0 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 0 0
 END_MISC
 
 # Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
 BEGIN_TIME 24
 0 0 0 0 6 8 753
-1 0 0 0 3 3 374
-2 0 0 0 3 3 694
-3 0 0 0 3 3 0
+1 0 0 0 4 4 374
+2 0 0 0 4 4 694
+3 0 0 0 5 5 83
 4 0 0 0 4 4 374
 5 0 0 0 4 6 1388
 6 0 0 0 1 1 0
 7 0 0 0 4 8 3940
-8 0 0 0 15 16 4880
+8 0 0 0 16 17 5171
 9 0 0 0 1 1 0
 10 0 0 0 1 1 0
 11 0 0 0 1 1 291
-12 0 0 0 2 2 374
+12 0 0 0 3 4 1068
 13 0 0 0 7 9 2261
-14 0 0 0 2 3 694
+14 0 0 0 3 4 694
 15 0 0 0 3 4 694
 16 0 0 0 1 1 0
 17 0 0 0 3 3 582
-18 0 0 0 0 0 0
+18 0 0 0 1 1 0
 19 0 0 0 5 6 694
 20 0 0 0 2 2 291
-21 0 0 0 0 2 2252
+21 0 0 0 1 3 2543
 22 0 0 0 16 16 291
 23 0 0 0 5 5 0
 END_TIME
@@ -193,15 +193,15 @@ END_KEYWORDS
 # Errors - Hits - Bandwidth
 BEGIN_ERRORS 4
 403 5 670
-301 83 7857
-409 4 332
-404 15 10410
+409 5 415
+301 91 8439
+404 16 11104
 END_ERRORS
 
 # URL with 404 errors - Hits - Last URL referrer
 BEGIN_SIDER_404 3
+/robots.txt 14 -
 /fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
-/robots.txt 13 -
 /demo-contacts.php 1 -
 END_SIDER_404
 

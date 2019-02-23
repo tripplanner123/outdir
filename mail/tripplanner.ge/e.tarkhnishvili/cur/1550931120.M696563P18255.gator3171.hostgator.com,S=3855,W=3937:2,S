@@ -1,0 +1,82 @@
+Return-Path: <laurie@intros.at>
+Delivered-To: e.tarkhnishvili@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP id 8K9yKbBUcVxPRwAA8w4q4w
+	for <e.tarkhnishvili@tripplanner.ge>; Sat, 23 Feb 2019 08:12:00 -0600
+Return-path: <laurie@intros.at>
+Envelope-to: e.tarkhnishvili@tripplanner.ge
+Delivery-date: Sat, 23 Feb 2019 08:12:00 -0600
+Received: from mail-qt1-f169.google.com ([209.85.160.169]:40478)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <laurie@intros.at>)
+	id 1gxY24-000BLs-0A
+	for e.tarkhnishvili@tripplanner.ge; Sat, 23 Feb 2019 08:12:00 -0600
+Received: by mail-qt1-f169.google.com with SMTP id j36so5770998qta.7
+        for <e.tarkhnishvili@tripplanner.ge>; Sat, 23 Feb 2019 06:11:54 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=intros-at.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:from:reply-to:date:message-id:subject:to
+         :content-transfer-encoding;
+        bh=XJU5cMcp+QeQVNu+ERnYE6jNGwuxcSbnEGDuj1NzkJ8=;
+        b=Gkv6tfgYgYVK+Tyitd6vxYtCiVMk+m9fwU2m7YHKtBU40RCLnBPpb9OdhsIo9bYm8V
+         jKbGl4/tuyQO6Q+QylwMaIBFu8gQDiXLqx0PrYL6+0LyKag4RkN3tCzUIn0/MDTurAp5
+         LX8eKEWURxENiHd6S7J01assEKveUaw+7g6xGhVbhjjcgADdg2VzADbnGiCb7inSOcSI
+         2YXYV4RGnqUJyQXuLpsRkjRzvWa/jRfXg7tNyuqh1/P9E3SaWVpzkvHJTIyU3vLmblD6
+         iy9LEwZauBbfmTyDZb3vEr0xldRXRfuzJ/c2GxEoVxijH5v0piJ41RmtYjC4PKbwf+IX
+         YurQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:reply-to:date:message-id
+         :subject:to:content-transfer-encoding;
+        bh=XJU5cMcp+QeQVNu+ERnYE6jNGwuxcSbnEGDuj1NzkJ8=;
+        b=BMs9AIrO/E2OhoMLqkMfh7MPb6oq8HNZ8ps4UFO+8ds9crIhX9XRs1ucNZENMWVCBI
+         EeaHFZWdFtKrGefOxU7/dBnVQmb+IxzSFG+xAndP3wryoSkPrBHhGEGCrqSJSIhgyk1u
+         ++KgaC2vE8q1zhFCV1byU7VDsvtGJnN4aOLo9dCLa/MnaoJyznJc2wFpv82CCL/TJN1x
+         Q5X8LFF3w47yl1G7Wb0nztVjM6RqcrF0BlFu8XO2GHHWR2w/dp3/if8oiXC+1VaJ9JOy
+         idQfFaISZVCXyeELTDugZ0WRi5TW18B777EfYTIL7vgYfcKrfnH3gBjqYC3pnBHqivMI
+         Unwg==
+X-Gm-Message-State: AHQUAubQ21KUDkczIhCZ6EDlTMhYnvlc1mssCwZ8OujL8VJdSmQcsJQJ
+	w+hNz423VyaORfk7gO2CwD3DfeUOmCZLvd2P11DlqOIl
+X-Google-Smtp-Source: AHgI3Ia8sLy7fLub11pdAKsmj2ZHuOc0i/0ydhgyBrpzKahF3dO6/Z3W97syDU3Q8sV1GWqhVSmaZawjjRhWSmal+Lc=
+X-Received: by 2002:a0c:b5c8:: with SMTP id o8mr7307333qvf.213.1550931107614;
+ Sat, 23 Feb 2019 06:11:47 -0800 (PST)
+Received: from 927538837578 named unknown by gmailapi.google.com with
+ HTTPREST; Sat, 23 Feb 2019 15:11:46 +0100
+MIME-Version: 1.0
+From: Laurie Delpino - GRIP <laurie@intros.at>
+Reply-To: laurie@intros.at
+Date: Sat, 23 Feb 2019 15:11:46 +0100
+Message-ID: <CAAWg+KD+8+kkmT6NQPJE0vvQni3yDxac6rJbrVhx4f7+xA7ojw@mail.gmail.com>
+Subject: We noticed you just created a Team for Tripplanner.ge
+To: e.tarkhnishvili@tripplanner.ge
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Spam-Flag: NO
+
+Hi =D0=95=D0=BA=D0=B0=D1=82=D0=B5=D1=80=D0=B8=D0=BD=D0=B0 =D0=A2=D0=B0=D1=
+=80=D1=85=D0=BD=D0=B8=D1=88=D0=B2=D0=B8=D0=BB=D0=B8,
+
+Congratulations on creating your Team account for Tripplanner.ge!
+
+I'm Laurie, the Head of Exhibitor Engagement at Grip and would love to
+take a few minutes to go over all the different features of Grip
+Teams: inviting other team members, booking meetings for your
+team/yourself and more.
+
+Using Grip Teams will allow you to efficiently plan your show, make
+more connections with new and existing clients for all your team
+members.
+
+You can book a time to chat with me here:
+https://calendly.com/laurie-delpino/30min/
+
+Looking forward to connecting with you soon!
+
+Best,
+
+Laurie Delpino
+Head of Exhibitor Engagement | Grip

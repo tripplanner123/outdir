@@ -1884,3 +1884,47 @@ clear
 git status
 #1550856318
 git diff .spamassassin/auto-whitelist
+#1550856353
+git add .
+#1550856369
+git commit -m "change tmp & mail files"
+#1550856373
+git push
+#1550856394
+clear
+#1550856403
+cd beetrip.ge
+#1550856407
+git status
+#1550856416
+git add .
+#1550856428
+git commit -m "user search module added"
+#1550856433
+git push
+#1550856459
+clear
+#1550856466
+cd ../
+#1550856471
+cd public_html
+#1550856476
+git status
+#1550872512
+git status
+#1550872521
+git add .
+#1550872533
+git commit -m "order search done"
+#1550872536
+git push
+#1550872559
+cd ../
+#1550872567
+cd beetrip.ge
+#1550872570
+git status
+#1550872573
+clear
+#1550943381
+git status
