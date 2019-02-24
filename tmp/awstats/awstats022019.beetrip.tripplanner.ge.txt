@@ -8,32 +8,32 @@ AWSTATS DATA FILE 7.6 (build 20161204)
 # update).
 BEGIN_MAP 28
 POS_GENERAL 2023                
-POS_TIME 2675                
+POS_TIME 2671                
 POS_VISITOR 5776                
 POS_DAY 5848                
-POS_DOMAIN 3197                
-POS_LOGIN 3408                
-POS_ROBOT 3563                
-POS_WORMS 3733                
-POS_EMAILSENDER 3864                
-POS_EMAILRECEIVER 4007                
+POS_DOMAIN 3195                
+POS_LOGIN 3406                
+POS_ROBOT 3561                
+POS_WORMS 3731                
+POS_EMAILSENDER 3862                
+POS_EMAILRECEIVER 4005                
 POS_SESSION 5904                
 POS_SIDER 6041                
-POS_FILETYPES 4142                
-POS_DOWNLOADS 4206                
-POS_OS 4254                
-POS_BROWSER 4319                
-POS_SCREENSIZE 4369                
-POS_UNKNOWNREFERER 4443                
-POS_UNKNOWNREFERERBROWSER 4530                
-POS_ORIGIN 4612                
-POS_SEREFERRALS 4742                
-POS_PAGEREFS 4886                
-POS_SEARCHWORDS 5034                
-POS_KEYWORDS 5186                
-POS_MISC 2339                
-POS_ERRORS 5245                
-POS_CLUSTER 3264                
+POS_FILETYPES 4140                
+POS_DOWNLOADS 4204                
+POS_OS 4252                
+POS_BROWSER 4317                
+POS_SCREENSIZE 4367                
+POS_UNKNOWNREFERER 4441                
+POS_UNKNOWNREFERERBROWSER 4528                
+POS_ORIGIN 4610                
+POS_SEREFERRALS 4740                
+POS_PAGEREFS 4884                
+POS_SEARCHWORDS 5032                
+POS_KEYWORDS 5184                
+POS_MISC 2335                
+POS_ERRORS 5243                
+POS_CLUSTER 3262                
 POS_SIDER_404 5366                
 END_MAP
 
@@ -46,10 +46,10 @@ END_MAP
 # MonthHostsKnown   = Number of hosts known
 # MonthHostsUnKnown = Number of hosts unknown
 BEGIN_GENERAL 8
-LastLine 20190222211850 10 1438 10970376326827
+LastLine 20190223183653 7 1124 4921484415059
 FirstTime 0
 LastTime 0
-LastUpdate 20190223002955 10 0 10 0 0
+LastUpdate 20190224003155 7 0 7 0 0
 TotalVisits 0                   
 TotalUnique 0                   
 MonthHostsKnown 0                   
@@ -58,16 +58,16 @@ END_GENERAL
 
 # Misc ID - Pages - Hits - Bandwidth
 BEGIN_MISC 10
+AddToFavourites 0 0 0
 JavascriptDisabled 0 0 0
-TotalMisc 0 0 0
-JavaEnabled 0 0 0
 FlashSupport 0 0 0
-QuickTimeSupport 0 0 0
 WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
 PDFSupport 0 0 0
 RealPlayerSupport 0 0 0
 DirectorSupport 0 0 0
-AddToFavourites 0 0 0
+QuickTimeSupport 0 0 0
 END_MISC
 
 # Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
@@ -80,9 +80,9 @@ BEGIN_TIME 24
 5 0 0 0 4 6 1388
 6 0 0 0 1 1 0
 7 0 0 0 4 8 3940
-8 0 0 0 16 17 5171
+8 0 0 0 17 18 5462
 9 0 0 0 1 1 0
-10 0 0 0 1 1 0
+10 0 0 0 4 6 670
 11 0 0 0 1 1 291
 12 0 0 0 3 4 1068
 13 0 0 0 7 9 2261
@@ -90,7 +90,7 @@ BEGIN_TIME 24
 15 0 0 0 3 4 694
 16 0 0 0 1 1 0
 17 0 0 0 3 3 582
-18 0 0 0 1 1 0
+18 0 0 0 2 2 0
 19 0 0 0 5 6 694
 20 0 0 0 2 2 291
 21 0 0 0 1 3 2543
@@ -192,16 +192,16 @@ END_KEYWORDS
 
 # Errors - Hits - Bandwidth
 BEGIN_ERRORS 4
-403 5 670
+403 10 1340
 409 5 415
-301 91 8439
 404 16 11104
+301 93 8730
 END_ERRORS
 
 # URL with 404 errors - Hits - Last URL referrer
 BEGIN_SIDER_404 3
-/robots.txt 14 -
 /fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/robots.txt 14 -
 /demo-contacts.php 1 -
 END_SIDER_404
 

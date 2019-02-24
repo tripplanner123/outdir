@@ -1928,3 +1928,61 @@ git status
 clear
 #1550943381
 git status
+#1550943426
+git add .
+#1550943439
+git commit -m "mail files changed"
+#1550943443
+git push
+#1550943464
+cd public_html
+#1550943466
+clear
+#1550943469
+git status
+#1550943481
+git diff error_log
+#1550943999
+git status
+#1550944014
+rm error_log
+#1550944016
+clear
+#1550944019
+git status
+#1550944025
+git add .
+#1550944033
+git commit -m "last updates"
+#1550944037
+git push
+#1550944059
+cd ../
+#1550944064
+cd beetrip.ge
+#1550944067
+git status
+#1550944084
+git diff error_log
+#1550944100
+rm error_log
+#1550944106
+clear
+#1550944109
+ti status
+#1550944112
+gti status
+#1550944119
+git status
+#1550944125
+git add .
+#1550944135
+git commit -m "last updates"
+#1550944140
+git push
+#1550944155
+git push
+#1550944174
+exit
+#1551014717
+git status
