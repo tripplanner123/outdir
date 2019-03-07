@@ -1,30 +1,14 @@
-# Webalizer V2.23-08 Incremental Data - 02/23/2019 11:39:55
-2019 2 23 11 39 55
-182 182 1 52 0 0 4856691 8 6 1
-1 1 21 1 23
-44 44 1251807 1 2 1
-6 6 208794 1 0 0
+# Webalizer V2.23-08 Incremental Data - 03/07/2019 01:01:01
+2019 3 7 1 1 1
+87 87 1 17 0 0 4344836 1 1 1
+1 1 19 2 7
+0 0 0 0 0 0
+41 41 1613766 1 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-2 2 1913 1 0 0
-5 5 183677 1 3 2
-0 0 0 0 0 0
-4 4 26169 1 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-2 2 12204 1 1 1
-0 0 0 0 0 0
-10 10 250288 1 1 1
-1 1 90943 1 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-11 11 155843 1 0 0
-74 74 2329904 1 1 1
-23 23 345149 1 0 0
+7 7 530827 1 0 0
+34 34 1862314 1 1 1
+5 5 337929 1 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -33,24 +17,40 @@
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+4 4 187167 0
+4 4 155461 0
+1 1 29990 0
+7 7 191806 0
+17 17 1140947 0
+21 21 459332 0
+2 2 251409 0
+0 0 0 0
+1 1 101099 0
+13 13 915840 1
+5 5 506128 0
+2 2 55946 0
+10 10 349711 0
 0 0 0 0
 0 0 0 0
-5 5 195869 0
-4 4 105781 0
-4 4 26169 0
-21 21 570673 3
-35 35 1063885 0
-11 11 29153 1
-3 3 5334 0
-10 10 29143 0
 0 0 0 0
-20 20 313066 0
-17 17 379006 2
-6 6 494605 0
-16 16 1083848 0
-14 14 276193 1
-6 6 33678 0
-10 10 250288 1
+0 0 0 0
+0 0 0 0
 0 0 0 0
 0 0 0 0
 0 0 0 0
@@ -60,7 +60,7 @@
 0
 0
 0
-182
+87
 0
 0
 0
@@ -99,119 +99,49 @@
 0
 0
 # -urls- 
-/home4/tripplanner/public_html/_manager/templates/actions/cart_list.php
-0 32 0 424494 0 0
-/home4/tripplanner/public_html/_modules/captcha/fonts/VeraMono.ttf
-0 1 0 49224 0 0
-/home4/tripplanner/beetrip.ge/gimage.php
-0 2 0 3798 0 0
-/home4/tripplanner/public_html/_modules/captcha/fonts/VeraMoIt.ttf
-0 1 0 54508 0 0
-/home4/tripplanner/public_html/export.php
-0 3 0 26795 0 0
-/home4/tripplanner/public_html/_manager/config.php
-0 2 0 6515 0 0
-/home4/tripplanner/public_html/_javascript/tinymce/plugins/link/plugin.min.js
-0 3 0 13123 0 0
-/home4/tripplanner/beetrip.ge/_website/config.php
-0 1 29138656 2374 0 0
-/home4/tripplanner/public_html/_website/templates/contact.php
-0 11 0 75640 0 0
-/home4/tripplanner/public_html/_modules/captcha/fonts/VeraMoBd.ttf
-0 1 0 49052 0 0
-/home4/tripplanner/public_html/_manager/templates/actions/siteusers_list.php
-0 10 18446744073709551615 65822 0 0
-/home4/tripplanner/beetrip.ge/_manager/templates/layout.php
-0 1 0 6699 0 0
-/home4/tripplanner/public_html/info.php
-0 1 0 232 0 0
-/home4/tripplanner/tmp/webalizer/ssl/tripplanner.ge/usage_201901.html
-0 1 18446744073709551615 178976 0 0
-/home4/tripplanner/public_html/_modules/captcha/fonts/VeraSe.ttf
-0 1 0 60280 0 0
-/home4/tripplanner/beetrip.ge/pay.php
-0 1 0 33733 0 0
-/home4/tripplanner/public_html/_modules/captcha/fonts/VeraBI.ttf
-0 1 29149680 63208 0 0
-/home4/tripplanner/public_html/error_log
-0 3 0 19344 2 1
+/home4/tripplanner/public_html/_website/ajax.php
+0 2 0 301302 0 0
+/home4/tripplanner/beetrip.ge/pmt/check.php
+0 7 0 46942 0 0
+/home4/tripplanner/public_html/_website/content.php
+0 1 139771929813368 29990 0 0
 /home4/tripplanner/beetrip.ge/_website/styles/css/style-ge.css
-0 1 0 8096 0 0
-/home4/tripplanner/beetrip.ge/pay1.php
-0 1 0 19873 0 0
-/home4/tripplanner/beetrip.ge/_website/templates/custom/registration.php
-0 1 0 12925 0 0
-/home4/tripplanner/public_html/_website/templates/custom/plan_your_trip.php
-0 1 0 40822 0 0
-/home4/tripplanner/public_html/_website/templates/custom/registration.php
-0 1 0 7694 0 0
-/home4/tripplanner/public_html/_modules/captcha/fonts/VeraSeBd.ttf
-0 1 0 58736 0 0
+0 3 0 24808 0 0
+/home4/tripplanner/public_html/_website/js/gscript.js
+0 11 15526576 303631 0 0
 /home4/tripplanner/beetrip.ge/__sublime_sftp_offset
 0 2 0 80 0 0
 /home4/tripplanner/beetrip.ge/_website/ajax.php
-0 2 0 181858 0 0
+0 5 0 455493 0 0
 /home4/tripplanner/public_html/_manager/class.manager.php
-0 22 0 1781820 0 0
-/home4/tripplanner/public_html/_modules/captcha/fonts/VeraMoBd.php
-0 1 0 92623 0 0
-/home4/tripplanner/.gitignore
-0 3 0 83 0 0
-/home4/tripplanner/tmp/webalizer/ssl/tripplanner.ge/
-0 1 0 4268 1 0
-/home4/tripplanner/public_html/_manager/templates/layout.php
-0 8 0 51024 0 0
-/home4/tripplanner/beetrip.ge/home/.htaccess
-0 1 0 576 0 0
-/home4/tripplanner/tmp/sendmail
-0 1 0 161 0 1
-/home4/tripplanner/beetrip.ge/_website/content.php
-0 4 0 118509 0 0
-/home4/tripplanner/.bash_history
-0 1 0 26086 0 0
-/home4/tripplanner/beetrip.ge/_website/templates/custom/faq_page.php
-0 9 18446744073709551615 20506 0 0
-/home4/tripplanner/etc/beetrip.ge/passwd
-0 1 0 240 0 0
-/home4/tripplanner/etc/beetrip.ge/@pwcache/forget
-0 1 0 130 0 0
-/home4/tripplanner/public_html/_modules/captcha/fonts/VeraBd.ttf
-0 1 0 58716 0 0
-/home4/tripplanner/public_html/test.sh
-0 2 0 192 0 0
-/home4/tripplanner/beetrip.ge/_website/styles/css/style-en.css
-0 5 0 273690 0 0
+0 1 0 81959 0 0
+/home4/tripplanner/beetrip.ge/_website/functions.php
+0 11 0 833108 0 0
+/home4/tripplanner/public_html/_website/templates/sitemap.php
+0 3 0 4699 0 0
+/home4/tripplanner/public_html/_manager/templates/actions/catalog_forms.php
+0 1 15526080 39761 0 0
+/home4/tripplanner/beetrip.ge/pmt/register.php
+0 6 0 33038 0 0
 /home4/tripplanner/beetrip.ge/_website/js/cart.js
-0 2 0 12884 0 0
-/home4/tripplanner/public_html/_modules/captcha/fonts/Vera.ttf
-0 1 0 65932 0 0
-/home4/tripplanner/public_html/_website/templates/custom/cart.php
-0 1 0 18822 0 0
+0 3 0 19264 0 0
+/home4/tripplanner/public_html/_website/functions.php
+0 18 0 1821090 0 0
 /home4/tripplanner/public_html/__sublime_sftp_offset
-0 3 0 120 3 3
-/home4/tripplanner/etc/beetrip.ge/@pwcache/info
-0 1 0 128 0 0
+0 1 15524000 40 1 0
 /home4/tripplanner/beetrip.ge/_website/templates/custom/cart.php
-0 14 0 402649 0 0
-/home4/tripplanner/public_html/gio.php
-0 9 0 250248 0 0
-/home4/tripplanner/beetrip.ge/readme.php
-0 1 0 92623 0 0
-/home4/tripplanner/public_html/_website/templates/news.php
-0 1 0 2044 0 0
-/home4/tripplanner/public_html/_modules/captcha/fonts/VeraMoBI.ttf
-0 1 0 55032 0 0
-/home4/tripplanner/public_html/_modules/captcha/fonts/VeraIt.ttf
-0 1 0 63684 0 0
+0 6 0 177196 0 0
+/home4/tripplanner/public_html/_website/templates/product.php
+0 6 0 172435 0 0
 # End Of Table - urls
 # -sites- (monthly)
 94.240.245.46
-0 182 182 4856691 6 1550849171
-/home4/tripplanner/public_html/error_log
+0 87 87 4344836 1 1551865768
+/home4/tripplanner/public_html/__sublime_sftp_offset
 # End Of Table - sites (monthly)
 # -sites- (daily)
 94.240.245.46
-0 23 23 345149 0 0
+0 5 5 337929 0 0
 -
 # End Of Table - sites (daily)
 # -referrers- 
@@ -222,5 +152,5 @@
 # End Of Table - search strings
 # -usernames- 
 root123@tripplanner.ge
-0 182 182 4856691 7 1550849171
+0 87 87 4344836 2 1551865768
 # End Of Table - usernames

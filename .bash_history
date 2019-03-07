@@ -1986,3 +1986,27 @@ git push
 exit
 #1551014717
 git status
+#1551014769
+git add .
+#1551014803
+git commit -m "mail changes"
+#1551014807
+git push
+#1551014835
+cd public_html
+#1551014839
+git status
+#1551014847
+cd ../beetrip.ge
+#1551014851
+git status
+#1551019121
+cd
+#1551019127
+git status
+#1551019136
+exit
+#1551970194
+clear
+#1551970197
+git status

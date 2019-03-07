@@ -1,0 +1,153 @@
+Return-Path: <>
+Delivered-To: forget2@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP id OGEzJH/PgFwX9AkA8w4q4w
+	for <forget2@tripplanner.ge>; Thu, 07 Mar 2019 01:59:59 -0600
+Return-path: <>
+Envelope-to: forget2@tripplanner.ge
+Delivery-date: Thu, 07 Mar 2019 01:59:59 -0600
+Received: from gateway32.websitewelcome.com ([192.185.145.170]:46936)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	id 1h1nwd-002sw7-39
+	for forget2@tripplanner.ge; Thu, 07 Mar 2019 01:59:59 -0600
+Received: by gateway32.websitewelcome.com (Postfix)
+	id 783C024A67; Thu,  7 Mar 2019 01:59:58 -0600 (CST)
+Date: Thu,  7 Mar 2019 01:59:58 -0600 (CST)
+From: MAILER-DAEMON@gateway32.websitewelcome.com (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: forget2@tripplanner.ge
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="C34BE24A70.1551945598/gateway32.websitewelcome.com"
+Message-Id: <20190307075958.783C024A67@gateway32.websitewelcome.com>
+X-Spam-Subject: [SPAM] Undelivered Mail Returned to Sender
+X-Spam-Status: Yes, score=5.5
+X-Spam-Score: 55
+X-Spam-Bar: +++++
+X-Spam-Report: Spam detection software, running on the system "gator3171.hostgator.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  This is the mail system at host gateway32.websitewelcome.com.
+    I'm sorry to have to inform you that your message could not be delivered
+   to one or more recipients. It's attached below. For further assis
+ 
+ Content analysis details:   (5.5 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: websitewelcome.com]
+  2.5 URIBL_DBL_ABUSE_PHISH  Contains an abused phishing URL listed in the
+                             Spamhaus DBL blocklist
+                             [URIs: yahoodns.net]
+  3.0 URIBL_BESO             Contains an URL listed in the URIBL blacklist
+                             [URIs: yahoodns.net]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+X-Spam-Flag: YES
+
+This is a MIME-encapsulated message.
+
+--C34BE24A70.1551945598/gateway32.websitewelcome.com
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host gateway32.websitewelcome.com.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<amoincarine@yahoo.fr>: host mx-eu.mail.am0.yahoodns.net[188.125.73.87] said:
+    554 delivery error: dd Requested mail action aborted -
+    mta1006.mail.ir2.yahoo.com (in reply to end of DATA command)
+
+--C34BE24A70.1551945598/gateway32.websitewelcome.com
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; gateway32.websitewelcome.com
+X-Postfix-Queue-ID: C34BE24A70
+X-Postfix-Sender: rfc822; forget2@tripplanner.ge
+Arrival-Date: Thu,  7 Mar 2019 01:59:56 -0600 (CST)
+
+Final-Recipient: rfc822; amoincarine@yahoo.fr
+Original-Recipient: rfc822;amoincarine@yahoo.fr
+Action: failed
+Status: 5.0.0
+Remote-MTA: dns; mx-eu.mail.am0.yahoodns.net
+Diagnostic-Code: smtp; 554 delivery error: dd Requested mail action aborted -
+    mta1006.mail.ir2.yahoo.com
+
+--C34BE24A70.1551945598/gateway32.websitewelcome.com
+Content-Description: Undelivered Message Headers
+Content-Type: text/rfc822-headers
+
+Return-Path: <forget2@tripplanner.ge>
+Received: from cm16.websitewelcome.com (cm16.websitewelcome.com [100.42.49.19])
+	by gateway32.websitewelcome.com (Postfix) with ESMTP id C34BE24A70
+	for <amoincarine@yahoo.fr>; Thu,  7 Mar 2019 01:59:56 -0600 (CST)
+Received: from gator3171.hostgator.com ([198.57.247.135])
+	by cmsmtp with SMTP
+	id 1nwahQTSe4FKp1nwahgsLA; Thu, 07 Mar 2019 01:59:56 -0600
+X-Authority-Reason: ss=1
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=tripplanner.ge; s=default; h=Content-Type:Subject:Date:To:From:MIME-Version
+	:Sender:Reply-To:Message-ID:Cc:Content-Transfer-Encoding:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=cdvxY47W+fK4aSb/zf+dXU292eksjbqb1uv7B5Tiw6I=; b=CgGP4KjXVyo32ztTY5XkVSYjU7
+	zWggkHR3mouaOBVD2tlEyzqvs0oXVtYAAFRiPkeA4lykoXYsbnSsPZ0Xiy1j+fvMUJ8fhwEexNgDu
+	7HZypzL99PpqU6OMlBsBmKmXvXHSq2X1XVF0fh5L8cN09ar95TVO5Ou9d4TyNW0gQEmHUVd+JOmLQ
+	YzS1N0dVtXr4TSm/vn8Gi9n2prrRrUq1JxQxXlc5VHr+KKAB8fWSu3c4q6URFoOyc+3TgndMP/WnH
+	1NXXN0xsaH47XNayScEDItS42gRnLNPxzNgW9CkBsbmaQ/LRpu97Gkk4s+Bb3SLL3QvxecafqkWxB
+	CBJRZqjQ==;
+Received: from [40.85.216.51] (port=1863 helo=CA1)
+	by gator3171.hostgator.com with esmtpsa (TLSv1:ECDHE-RSA-AES256-SHA:256)
+	(Exim 4.91)
+	(envelope-from <forget2@tripplanner.ge>)
+	id 1h1nwa-002ssO-2h
+	for amoincarine@yahoo.fr; Thu, 07 Mar 2019 01:59:56 -0600
+MIME-Version: 1.0
+From: Equipe <forget2@tripplanner.ge>
+To: amoincarine@yahoo.fr
+Date: 7 Mar 2019 08:59:56 +0100
+Subject: [DOCUMENT WEB] : #FREE-N85FR944 Rembourse...
+Content-Type: multipart/mixed;
+ boundary=--boundary_46652_69caff4b-3f30-45c4-8a21-165c631f2177
+X-Antivirus: Avast (VPS 190306-4, 03/06/2019), Outbound message
+X-Antivirus-Status: Clean
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - gator3171.hostgator.com
+X-AntiAbuse: Original Domain - yahoo.fr
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - tripplanner.ge
+X-BWhitelist: no
+X-Source-IP: 40.85.216.51
+X-Source-L: No
+X-Exim-ID: 1h1nwa-002ssO-2h
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Source-Sender: (CA1) [40.85.216.51]:1863
+X-Source-Auth: forget2@tripplanner.ge
+X-Email-Count: 441
+X-Org: HG=hgshared;ORG=hostgator;
+X-Source-Cap: dHJpcHBsYW5uZXI7dHJpcHBsYW5uZXI7Z2F0b3IzMTcxLmhvc3RnYXRvci5jb20=
+X-Local-Domain: yes
+
+--C34BE24A70.1551945598/gateway32.websitewelcome.com--

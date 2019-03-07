@@ -1,0 +1,127 @@
+Return-Path: <>
+Delivered-To: forget2@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP id qNxYIgfPgFzrRAoA8w4q4w
+	for <forget2@tripplanner.ge>; Thu, 07 Mar 2019 01:57:59 -0600
+Return-path: <>
+Envelope-to: forget2@tripplanner.ge
+Delivery-date: Thu, 07 Mar 2019 01:57:59 -0600
+Received: from gateway34.websitewelcome.com ([192.185.148.109]:14525)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	id 1h1nuh-002rX4-06
+	for forget2@tripplanner.ge; Thu, 07 Mar 2019 01:57:59 -0600
+Received: by gateway34.websitewelcome.com (Postfix)
+	id 60BE4141EE4; Thu,  7 Mar 2019 01:57:58 -0600 (CST)
+Date: Thu,  7 Mar 2019 01:57:58 -0600 (CST)
+From: MAILER-DAEMON@gateway34.websitewelcome.com (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: forget2@tripplanner.ge
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="ACA46141EE0.1551945478/gateway34.websitewelcome.com"
+Message-Id: <20190307075758.60BE4141EE4@gateway34.websitewelcome.com>
+X-Spam-Status: No, score=4.9
+X-Spam-Score: 49
+X-Spam-Bar: ++++
+X-Spam-Flag: NO
+
+This is a MIME-encapsulated message.
+
+--ACA46141EE0.1551945478/gateway34.websitewelcome.com
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host gateway34.websitewelcome.com.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<albertthomasson@yahoo.fr>: host mx-eu.mail.am0.yahoodns.net[212.82.101.46]
+    said: 554 delivery error: dd Requested mail action aborted -
+    mta1157.mail.ir2.yahoo.com (in reply to end of DATA command)
+
+--ACA46141EE0.1551945478/gateway34.websitewelcome.com
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; gateway34.websitewelcome.com
+X-Postfix-Queue-ID: ACA46141EE0
+X-Postfix-Sender: rfc822; forget2@tripplanner.ge
+Arrival-Date: Thu,  7 Mar 2019 01:57:56 -0600 (CST)
+
+Final-Recipient: rfc822; albertthomasson@yahoo.fr
+Original-Recipient: rfc822;albertthomasson@yahoo.fr
+Action: failed
+Status: 5.0.0
+Remote-MTA: dns; mx-eu.mail.am0.yahoodns.net
+Diagnostic-Code: smtp; 554 delivery error: dd Requested mail action aborted -
+    mta1157.mail.ir2.yahoo.com
+
+--ACA46141EE0.1551945478/gateway34.websitewelcome.com
+Content-Description: Undelivered Message Headers
+Content-Type: text/rfc822-headers
+
+Return-Path: <forget2@tripplanner.ge>
+Received: from cm16.websitewelcome.com (cm16.websitewelcome.com [100.42.49.19])
+	by gateway34.websitewelcome.com (Postfix) with ESMTP id ACA46141EE0
+	for <albertthomasson@yahoo.fr>; Thu,  7 Mar 2019 01:57:56 -0600 (CST)
+Received: from gator3171.hostgator.com ([198.57.247.135])
+	by cmsmtp with SMTP
+	id 1nuehQSNk4FKp1nuehgrHD; Thu, 07 Mar 2019 01:57:56 -0600
+X-Authority-Reason: ss=1
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=tripplanner.ge; s=default; h=Content-Type:Subject:Date:To:From:MIME-Version
+	:Sender:Reply-To:Message-ID:Cc:Content-Transfer-Encoding:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=Ft7MShYmXxwjdFOwvFyDxbhdPvb6xCZ46hp7nQFZ4vA=; b=sSvPAhCsuveKhO/ogEh5ukE8Y8
+	MX5kdBuYuaef+PNLyXU31gjx0c7mywgIrtSHX3Nms3WPNQCfD69Dr++jWfrYRD3euubqa9AhCN3DV
+	hHe+FF9ZDUWSOlQzusYEb6PG0hLezVOZtppF1nmgXnIr9h00KbZZKW7q6XBZCc5jzczYyV0fFVzgy
+	lkIspsVZepYA6z5k/vNqtbsmAUl0SpeoCueJV2W3xzd939qPrufTiwjeNlP3/gsmo9mD6uboIYqxI
+	8L5R+EOiqgWVy1YnlakFje2zZuJS0D4+y6L8+8ieOrwijcaNuwpzJu4Ss8i1XGfpraGfWcl/aqY/5
+	TYGFcvHA==;
+Received: from [40.85.216.51] (port=1856 helo=CA1)
+	by gator3171.hostgator.com with esmtpsa (TLSv1:ECDHE-RSA-AES256-SHA:256)
+	(Exim 4.91)
+	(envelope-from <forget2@tripplanner.ge>)
+	id 1h1nud-002rMN-V2
+	for albertthomasson@yahoo.fr; Thu, 07 Mar 2019 01:57:56 -0600
+MIME-Version: 1.0
+From: Equipe <forget2@tripplanner.ge>
+To: albertthomasson@yahoo.fr
+Date: 7 Mar 2019 08:57:55 +0100
+Subject: [DOCUMENT WEB] : #FREE-N85FR944 Rembourse...
+Content-Type: multipart/mixed;
+ boundary=--boundary_45524_8554142e-5cd3-45b5-a72d-7c0f2fa78803
+X-Antivirus: Avast (VPS 190306-4, 03/06/2019), Outbound message
+X-Antivirus-Status: Clean
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - gator3171.hostgator.com
+X-AntiAbuse: Original Domain - yahoo.fr
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - tripplanner.ge
+X-BWhitelist: no
+X-Source-IP: 40.85.216.51
+X-Source-L: No
+X-Exim-ID: 1h1nud-002rMN-V2
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Source-Sender: (CA1) [40.85.216.51]:1856
+X-Source-Auth: forget2@tripplanner.ge
+X-Email-Count: 279
+X-Org: HG=hgshared;ORG=hostgator;
+X-Source-Cap: dHJpcHBsYW5uZXI7dHJpcHBsYW5uZXI7Z2F0b3IzMTcxLmhvc3RnYXRvci5jb20=
+X-Local-Domain: yes
+
+--ACA46141EE0.1551945478/gateway34.websitewelcome.com--

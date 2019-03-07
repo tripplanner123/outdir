@@ -1,0 +1,128 @@
+Return-Path: <>
+Delivered-To: forget2@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP id sM1HK+HNgFz/8wkA8w4q4w
+	for <forget2@tripplanner.ge>; Thu, 07 Mar 2019 01:53:05 -0600
+Return-path: <>
+Envelope-to: forget2@tripplanner.ge
+Delivery-date: Thu, 07 Mar 2019 01:53:05 -0600
+Received: from gateway21.websitewelcome.com ([192.185.45.2]:34548)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	id 1h1npx-002oSv-5E
+	for forget2@tripplanner.ge; Thu, 07 Mar 2019 01:53:05 -0600
+Received: by gateway21.websitewelcome.com (Postfix)
+	id 86DA8400C7AD4; Thu,  7 Mar 2019 01:53:04 -0600 (CST)
+Date: Thu,  7 Mar 2019 01:53:04 -0600 (CST)
+From: MAILER-DAEMON@gateway21.websitewelcome.com (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: forget2@tripplanner.ge
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="48A95400CA744.1551945184/gateway21.websitewelcome.com"
+Message-Id: <20190307075304.86DA8400C7AD4@gateway21.websitewelcome.com>
+X-Spam-Status: No, score=3.2
+X-Spam-Score: 32
+X-Spam-Bar: +++
+X-Spam-Flag: NO
+
+This is a MIME-encapsulated message.
+
+--48A95400CA744.1551945184/gateway21.websitewelcome.com
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host gateway21.websitewelcome.com.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<abdelhafid@yahoo.fr>: host mx-eu.mail.am0.yahoodns.net[188.125.73.87] said:
+    554 delivery error: dd This user doesn't have a yahoo.fr account
+    (abdelhafid@yahoo.fr) [-9] - mta1099.mail.ir2.yahoo.com (in reply to end of
+    DATA command)
+
+--48A95400CA744.1551945184/gateway21.websitewelcome.com
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; gateway21.websitewelcome.com
+X-Postfix-Queue-ID: 48A95400CA744
+X-Postfix-Sender: rfc822; forget2@tripplanner.ge
+Arrival-Date: Thu,  7 Mar 2019 01:53:01 -0600 (CST)
+
+Final-Recipient: rfc822; abdelhafid@yahoo.fr
+Original-Recipient: rfc822;abdelhafid@yahoo.fr
+Action: failed
+Status: 5.0.0
+Remote-MTA: dns; mx-eu.mail.am0.yahoodns.net
+Diagnostic-Code: smtp; 554 delivery error: dd This user doesn't have a yahoo.fr
+    account (abdelhafid@yahoo.fr) [-9] - mta1099.mail.ir2.yahoo.com
+
+--48A95400CA744.1551945184/gateway21.websitewelcome.com
+Content-Description: Undelivered Message Headers
+Content-Type: text/rfc822-headers
+
+Return-Path: <forget2@tripplanner.ge>
+Received: from cm13.websitewelcome.com (cm13.websitewelcome.com [100.42.49.6])
+	by gateway21.websitewelcome.com (Postfix) with ESMTP id 48A95400CA744
+	for <abdelhafid@yahoo.fr>; Thu,  7 Mar 2019 01:53:01 -0600 (CST)
+Received: from gator3171.hostgator.com ([198.57.247.135])
+	by cmsmtp with SMTP
+	id 1npshy3ZYYTGM1npthDUCI; Thu, 07 Mar 2019 01:53:01 -0600
+X-Authority-Reason: ss=1
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=tripplanner.ge; s=default; h=Content-Type:Subject:Date:To:From:MIME-Version
+	:Sender:Reply-To:Message-ID:Cc:Content-Transfer-Encoding:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=AvY1x/vNTQ++WfywcA5sRM9/awmOpONyHbwpvYteAyE=; b=afV1HHTzXOeE3XZ6wVrl05cm+y
+	0kr8x8VFW3oIyoQ3ZGteOHgtM85rVmyp7UdNt3E1Uf8GNoIjOKIY+RYd8MSwcNgJKvxR7JVd8JNNg
+	IgKbqXTUn8hQY5Im3HNeljDr57gPNqQ4+B1TqrfEHSncmYfcoUbvP/xpXPCeEASz+Ya8HkC6xBlrB
+	Y04vZbwkpyTVToYquEfaWg1q/+j+9yGzBWJAwpMAWlqZxv+fgihoDojhjXt1wT4wBPiVsc6oZm8+F
+	MbBtdtWwVulMWOJ6fxIiVDlq8wVEQhK/M9kmDb+Dcycd8ubDHdOt2NlEvIPGH2b6dzO1CiD0V2BpX
+	AfQhckYw==;
+Received: from [40.85.216.51] (port=1858 helo=CA1)
+	by gator3171.hostgator.com with esmtpsa (TLSv1:ECDHE-RSA-AES256-SHA:256)
+	(Exim 4.91)
+	(envelope-from <forget2@tripplanner.ge>)
+	id 1h1nps-002oK5-HV
+	for abdelhafid@yahoo.fr; Thu, 07 Mar 2019 01:53:00 -0600
+MIME-Version: 1.0
+From: Equipe <forget2@tripplanner.ge>
+To: abdelhafid@yahoo.fr
+Date: 7 Mar 2019 08:53:00 +0100
+Subject: [DOCUMENT WEB] : #FREE-N85FR944 Rembourse...
+Content-Type: multipart/mixed;
+ boundary=--boundary_44027_a3a42bc3-5561-4e65-b939-4707bf3c375c
+X-Antivirus: Avast (VPS 190306-4, 03/06/2019), Outbound message
+X-Antivirus-Status: Clean
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - gator3171.hostgator.com
+X-AntiAbuse: Original Domain - yahoo.fr
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - tripplanner.ge
+X-BWhitelist: no
+X-Source-IP: 40.85.216.51
+X-Source-L: No
+X-Exim-ID: 1h1nps-002oK5-HV
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Source-Sender: (CA1) [40.85.216.51]:1858
+X-Source-Auth: forget2@tripplanner.ge
+X-Email-Count: 45
+X-Org: HG=hgshared;ORG=hostgator;
+X-Source-Cap: dHJpcHBsYW5uZXI7dHJpcHBsYW5uZXI7Z2F0b3IzMTcxLmhvc3RnYXRvci5jb20=
+X-Local-Domain: yes
+
+--48A95400CA744.1551945184/gateway21.websitewelcome.com--

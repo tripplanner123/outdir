@@ -1,0 +1,64 @@
+Return-Path: <>
+Delivered-To: forget2@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP id kLgqD27TgFzZgQoA8w4q4w
+	for <forget2@tripplanner.ge>; Thu, 07 Mar 2019 02:16:46 -0600
+Return-path: <>
+Envelope-to: forget2@tripplanner.ge
+Delivery-date: Thu, 07 Mar 2019 02:16:46 -0600
+Received: from mailnull by gator3171.hostgator.com with local (Exim 4.91)
+	id 1h1oCs-0035xl-6E
+	for forget2@tripplanner.ge; Thu, 07 Mar 2019 02:16:46 -0600
+X-Failed-Recipients: marc.falconnet@yahoo.fr
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@gator3171.hostgator.com>
+To: forget2@tripplanner.ge
+Content-Type: multipart/report; report-type=delivery-status; boundary=1551946606-eximdsn-1097578669
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1h1oCs-0035xl-6E@gator3171.hostgator.com>
+Date: Thu, 07 Mar 2019 02:16:46 -0600
+
+--1551946606-eximdsn-1097578669
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  marc.falconnet@yahoo.fr
+    Domain tripplanner.ge has exceeded the max emails per hour (500/500 (100%)) allowed.  Message discarded.
+
+--1551946606-eximdsn-1097578669
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; gator3171.hostgator.com
+
+Action: failed
+Final-Recipient: rfc822;marc.falconnet@yahoo.fr
+Status: 5.0.0
+
+--1551946606-eximdsn-1097578669
+Content-type: text/rfc822-headers
+
+Return-path: <forget2@tripplanner.ge>
+Received: from [40.85.216.51] (port=1857 helo=CA1)
+	by gator3171.hostgator.com with esmtpsa (TLSv1:ECDHE-RSA-AES256-SHA:256)
+	(Exim 4.91)
+	(envelope-from <forget2@tripplanner.ge>)
+	id 1h1oCr-0035vV-VK
+	for marc.falconnet@yahoo.fr; Thu, 07 Mar 2019 02:16:46 -0600
+MIME-Version: 1.0
+From: Equipe <forget2@tripplanner.ge>
+To: marc.falconnet@yahoo.fr
+Date: 7 Mar 2019 09:16:46 +0100
+Subject: [DOCUMENT WEB] : #FREE-N85FR944 Rembourse...
+Content-Type: multipart/mixed;
+ boundary=--boundary_52916_56223054-2a2a-4880-a30d-74950d6c9619
+X-Antivirus: Avast (VPS 190306-4, 03/06/2019), Outbound message
+X-Antivirus-Status: Clean
+X-Exim-DSN-Information: Due to administrative limits only headers are returned
+
+
+--1551946606-eximdsn-1097578669--

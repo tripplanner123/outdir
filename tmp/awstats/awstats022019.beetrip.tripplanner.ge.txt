@@ -8,33 +8,33 @@ AWSTATS DATA FILE 7.6 (build 20161204)
 # update).
 BEGIN_MAP 28
 POS_GENERAL 2023                
-POS_TIME 2671                
-POS_VISITOR 5776                
-POS_DAY 5848                
-POS_DOMAIN 3195                
-POS_LOGIN 3406                
-POS_ROBOT 3561                
-POS_WORMS 3731                
-POS_EMAILSENDER 3862                
-POS_EMAILRECEIVER 4005                
-POS_SESSION 5904                
-POS_SIDER 6041                
-POS_FILETYPES 4140                
-POS_DOWNLOADS 4204                
-POS_OS 4252                
-POS_BROWSER 4317                
-POS_SCREENSIZE 4367                
-POS_UNKNOWNREFERER 4441                
-POS_UNKNOWNREFERERBROWSER 4528                
-POS_ORIGIN 4610                
-POS_SEREFERRALS 4740                
-POS_PAGEREFS 4884                
-POS_SEARCHWORDS 5032                
-POS_KEYWORDS 5184                
-POS_MISC 2335                
-POS_ERRORS 5243                
-POS_CLUSTER 3262                
-POS_SIDER_404 5366                
+POS_TIME 2670                
+POS_VISITOR 5838                
+POS_DAY 5910                
+POS_DOMAIN 3201                
+POS_LOGIN 3412                
+POS_ROBOT 3567                
+POS_WORMS 3737                
+POS_EMAILSENDER 3868                
+POS_EMAILRECEIVER 4011                
+POS_SESSION 5966                
+POS_SIDER 6103                
+POS_FILETYPES 4146                
+POS_DOWNLOADS 4210                
+POS_OS 4258                
+POS_BROWSER 4323                
+POS_SCREENSIZE 4373                
+POS_UNKNOWNREFERER 4447                
+POS_UNKNOWNREFERERBROWSER 4534                
+POS_ORIGIN 4616                
+POS_SEREFERRALS 4746                
+POS_PAGEREFS 4890                
+POS_SEARCHWORDS 5038                
+POS_KEYWORDS 5190                
+POS_MISC 2334                
+POS_ERRORS 5249                
+POS_CLUSTER 3268                
+POS_SIDER_404 5374                
 END_MAP
 
 # LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
@@ -46,10 +46,10 @@ END_MAP
 # MonthHostsKnown   = Number of hosts known
 # MonthHostsUnKnown = Number of hosts unknown
 BEGIN_GENERAL 8
-LastLine 20190223183653 7 1124 4921484415059
+LastLine 20190301003833 6 763 9896022375558
 FirstTime 0
 LastTime 0
-LastUpdate 20190224003155 7 0 7 0 0
+LastUpdate 20190301010444 6 0 5 0 0
 TotalVisits 0                   
 TotalUnique 0                   
 MonthHostsKnown 0                   
@@ -58,44 +58,44 @@ END_GENERAL
 
 # Misc ID - Pages - Hits - Bandwidth
 BEGIN_MISC 10
-AddToFavourites 0 0 0
-JavascriptDisabled 0 0 0
-FlashSupport 0 0 0
-WindowsMediaPlayerSupport 0 0 0
 JavaEnabled 0 0 0
-TotalMisc 0 0 0
-PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
 RealPlayerSupport 0 0 0
 DirectorSupport 0 0 0
 QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 0 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
 END_MISC
 
 # Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
 BEGIN_TIME 24
-0 0 0 0 6 8 753
-1 0 0 0 4 4 374
+0 0 0 0 7 9 753
+1 0 0 0 6 6 374
 2 0 0 0 4 4 694
 3 0 0 0 5 5 83
-4 0 0 0 4 4 374
-5 0 0 0 4 6 1388
-6 0 0 0 1 1 0
-7 0 0 0 4 8 3940
-8 0 0 0 17 18 5462
+4 0 0 0 5 5 374
+5 0 0 0 5 7 1679
+6 0 0 0 2 3 694
+7 0 0 0 7 13 4610
+8 0 0 0 22 25 8305
 9 0 0 0 1 1 0
-10 0 0 0 4 6 670
-11 0 0 0 1 1 291
-12 0 0 0 3 4 1068
+10 0 0 0 5 7 1364
+11 0 0 0 3 4 1068
+12 0 0 0 6 8 2053
 13 0 0 0 7 9 2261
-14 0 0 0 3 4 694
+14 0 0 0 5 6 1679
 15 0 0 0 3 4 694
 16 0 0 0 1 1 0
-17 0 0 0 3 3 582
-18 0 0 0 2 2 0
-19 0 0 0 5 6 694
-20 0 0 0 2 2 291
+17 0 0 0 5 5 582
+18 0 0 0 6 6 83
+19 0 0 0 6 7 694
+20 0 0 0 6 6 873
 21 0 0 0 1 3 2543
-22 0 0 0 16 16 291
-23 0 0 0 5 5 0
+22 0 0 0 17 17 291
+23 0 0 0 6 6 0
 END_TIME
 
 # Domain - Pages - Hits - Bandwidth
@@ -192,17 +192,19 @@ END_KEYWORDS
 
 # Errors - Hits - Bandwidth
 BEGIN_ERRORS 4
-403 10 1340
-409 5 415
-404 16 11104
-301 93 8730
+409 7 581
+403 15 2010
+404 23 15962
+301 121 11640
 END_ERRORS
 
 # URL with 404 errors - Hits - Last URL referrer
-BEGIN_SIDER_404 3
-/fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
-/robots.txt 14 -
+BEGIN_SIDER_404 5
+/robots.txt 19 -
 /demo-contacts.php 1 -
+/fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/wp/wp-login.php 1 -
+/Jwlsjd_baaqifg.php 1 beetrip.ge
 END_SIDER_404
 
 # Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
