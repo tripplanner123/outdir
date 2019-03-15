@@ -1,14 +1,22 @@
-# Webalizer V2.23-08 Incremental Data - 03/07/2019 01:01:01
-2019 3 7 1 1 1
-87 87 1 17 0 0 4344836 1 1 1
-1 1 19 2 7
+# Webalizer V2.23-08 Incremental Data - 03/15/2019 04:06:40
+2019 3 15 4 6 40
+247 247 1 31 0 0 10237610 20 12 1
+1 2 23 2 15
 0 0 0 0 0 0
 41 41 1613766 1 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
 7 7 530827 1 0 0
 34 34 1862314 1 1 1
-5 5 337929 1 0 0
+63 63 2847499 1 4 2
+1 1 3158 1 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+3 3 2659 1 1 1
+0 0 0 0 0 0
+80 80 2863653 1 10 6
+18 18 513734 1 3 1
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -25,30 +33,22 @@
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-4 4 187167 0
+5 5 190325 1
 4 4 155461 0
-1 1 29990 0
-7 7 191806 0
-17 17 1140947 0
-21 21 459332 0
-2 2 251409 0
-0 0 0 0
-1 1 101099 0
+20 20 565934 3
+21 21 687984 4
+36 36 1946477 1
+42 42 1214215 2
+11 11 555664 3
+6 6 282041 1
+6 6 232750 2
 13 13 915840 1
 5 5 506128 0
 2 2 55946 0
-10 10 349711 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
+21 21 714996 0
+16 16 493601 2
+16 16 732392 0
+23 23 987856 0
 0 0 0 0
 0 0 0 0
 0 0 0 0
@@ -60,7 +60,7 @@
 0
 0
 0
-87
+247
 0
 0
 0
@@ -99,16 +99,28 @@
 0
 0
 # -urls- 
+/home4/tripplanner/public_html/.htaccess
+0 1 0 1009 0 0
 /home4/tripplanner/public_html/_website/ajax.php
-0 2 0 301302 0 0
+0 5 0 753439 0 0
 /home4/tripplanner/beetrip.ge/pmt/check.php
 0 7 0 46942 0 0
+/home4/tripplanner/beetrip.ge/.htaccess
+0 1 0 1610 0 0
+/home4/tripplanner/public_html/_website/js/planner.js
+0 9 0 319503 0 0
+/home4/tripplanner/public_html/_website/js/scripts.js
+0 28 0 1411874 0 0
+/home4/tripplanner/public_html/_website/templates/custom/my.php
+0 3 0 81062 0 0
 /home4/tripplanner/public_html/_website/content.php
-0 1 139771929813368 29990 0 0
+0 22 0 672631 0 0
 /home4/tripplanner/beetrip.ge/_website/styles/css/style-ge.css
 0 3 0 24808 0 0
 /home4/tripplanner/public_html/_website/js/gscript.js
-0 11 15526576 303631 0 0
+0 22 0 610940 0 0
+/home4/tripplanner/public_html/_website/templates/custom/plan_your_trip.php
+0 6 0 245063 0 0
 /home4/tripplanner/beetrip.ge/__sublime_sftp_offset
 0 2 0 80 0 0
 /home4/tripplanner/beetrip.ge/_website/ajax.php
@@ -119,30 +131,46 @@
 0 11 0 833108 0 0
 /home4/tripplanner/public_html/_website/templates/sitemap.php
 0 3 0 4699 0 0
+/home4/tripplanner/public_html/_website/img/favicon.png
+0 1 10215440 21548 0 0
 /home4/tripplanner/public_html/_manager/templates/actions/catalog_forms.php
-0 1 15526080 39761 0 0
+0 1 0 39761 0 0
+/home4/tripplanner/public_html/_website/css/style.css
+0 5 0 413202 0 0
 /home4/tripplanner/beetrip.ge/pmt/register.php
 0 6 0 33038 0 0
+/home4/tripplanner/public_html/_website/img/trip_1.jpg
+0 1 0 83429 0 0
+/home4/tripplanner/public_html/_website/js/transfers.js
+0 21 0 851072 0 0
 /home4/tripplanner/beetrip.ge/_website/js/cart.js
 0 3 0 19264 0 0
 /home4/tripplanner/public_html/_website/functions.php
-0 18 0 1821090 0 0
+0 21 0 2124551 0 0
+/home4/tripplanner/public_html/_website/templates/custom/cart.php
+0 6 0 111115 0 0
 /home4/tripplanner/public_html/__sublime_sftp_offset
-0 1 15524000 40 1 0
+0 4 7308620316236145454 160 4 3
+/home4/tripplanner/public_html/_website/css/custom_res.css
+0 3 0 47989 0 0
+/home4/tripplanner/public_html/_website/templates/custom/transfers.php
+0 6 0 205244 0 0
 /home4/tripplanner/beetrip.ge/_website/templates/custom/cart.php
 0 6 0 177196 0 0
+/home4/tripplanner/public_html/
+0 16 0 50521 8 8
 /home4/tripplanner/public_html/_website/templates/product.php
-0 6 0 172435 0 0
+0 18 0 515300 0 0
 # End Of Table - urls
 # -sites- (monthly)
 94.240.245.46
-0 87 87 4344836 1 1551865768
-/home4/tripplanner/public_html/__sublime_sftp_offset
+0 247 247 10237610 12 1552619835
+/home4/tripplanner/public_html/
 # End Of Table - sites (monthly)
 # -sites- (daily)
 94.240.245.46
-0 5 5 337929 0 0
--
+0 18 18 513734 1 1552619835
+/home4/tripplanner/public_html/
 # End Of Table - sites (daily)
 # -referrers- 
 # End Of Table - referrers
@@ -152,5 +180,5 @@
 # End Of Table - search strings
 # -usernames- 
 root123@tripplanner.ge
-0 87 87 4344836 2 1551865768
+0 247 247 10237610 13 1552619835
 # End Of Table - usernames

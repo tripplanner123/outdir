@@ -1,0 +1,266 @@
+Return-Path: <eka.tarkhnishvili@gmail.com>
+Delivered-To: info@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP id AEbsMTuKg1xFrQwA8w4q4w
+	for <info@tripplanner.ge>; Sat, 09 Mar 2019 03:41:15 -0600
+Return-path: <eka.tarkhnishvili@gmail.com>
+Envelope-to: info@tripplanner.ge
+Delivery-date: Sat, 09 Mar 2019 03:41:15 -0600
+Received: from mail-wm1-f53.google.com ([209.85.128.53]:40265)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <eka.tarkhnishvili@gmail.com>)
+	id 1h2YTj-003UXx-1p
+	for info@tripplanner.ge; Sat, 09 Mar 2019 03:41:15 -0600
+Received: by mail-wm1-f53.google.com with SMTP id g20so14225793wmh.5
+        for <info@tripplanner.ge>; Sat, 09 Mar 2019 01:41:09 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=from:mime-version:subject:message-id:references:to:date;
+        bh=6U6kVRXljyvY3H8MYdMgnYOvw02i5wEI89ZeHVckGOk=;
+        b=OKKHlVACZnGGW5TWgqOhZoszEWyEIChDciKBh/Xl77cnFaBvfJTMAxiLmqPZfcVbAD
+         TeRAhoWUTcKZpfoelIViuNJ0ovfQLUcVdXl4jUrkX2QRjnnytXdEGNbG4UK6NcWGrSph
+         C+PbAFkWrzFwIdb9R21AmYo3MQFQKpgcZxFTgl8B9eCO9vfkKyg+6yE3FCz39Dg2SPaw
+         FemU/orIdu7laTe/TO9+Z4QFk8vK1qMo1J4MW+5I92X8HqNBsvEpgj02i7UTIYlP/j9M
+         v01osexsZCbPzuimA5FJlk/b7rfh5zE0iUH+N7w2TD+NQg6aJY/HsVABCE8/Oha7A8Wr
+         aQJA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:mime-version:subject:message-id:references
+         :to:date;
+        bh=6U6kVRXljyvY3H8MYdMgnYOvw02i5wEI89ZeHVckGOk=;
+        b=bFdu43b2Jx33OVW2H2B2Uf6HYs/I0E1AoE83vikWgzbdkA0O6W4BiGkcWT+mNjxOYP
+         VG3qeN71ddC5o5TvqifNiIT+BKzY30nzS8rwyYHvxBwIDNF2hjMshzFuHAiLDPlAEWd+
+         MCbXIqc0B3wL+GYccjkoIkZxz/2M0L5PrG0jCT0SnPy3mImG9eg3pNUPbggZiaehPSQ5
+         CdED1QMdc3WQY75MRiW+eP9P4CxFxP7t2ALYbE3nEzrV4aAmGr+/+Rs7pAVZAxGFpugP
+         Nbsg2bHibz6AjUJGrILU2lfOWgpybM/PDXgdk0QzAIQXzTPSHz7JAZzXmCvvVLC6m4tr
+         v8oQ==
+X-Gm-Message-State: APjAAAXEVK9N0j3Q6VpPkTV5VcqvkEdjYpjMA/fCs+T29KADJUnZGvjH
+	T3RpIwruPqo3orLGEmvai2yfJ8Zn
+X-Google-Smtp-Source: APXvYqy47ztG6kE/3AHJMWdY+lmKYPU95Tce4TjRtwR5UxZcuuutWmeKhMdQqWkzM5/cgZs4ndPN6g==
+X-Received: by 2002:a1c:d049:: with SMTP id h70mr11614022wmg.81.1552124462079;
+        Sat, 09 Mar 2019 01:41:02 -0800 (PST)
+Received: from [192.168.0.149] ([178.134.69.38])
+        by smtp.gmail.com with ESMTPSA id w10sm576692wrn.32.2019.03.09.01.41.00
+        for <info@tripplanner.ge>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 09 Mar 2019 01:41:01 -0800 (PST)
+From: Ekaterine Tarkhnishvili <eka.tarkhnishvili@gmail.com>
+Content-Type: multipart/alternative;
+	boundary="Apple-Mail=_D614323A-F76B-4B5B-9C9D-4E891F1CEB70"
+Mime-Version: 1.0 (Mac OS X Mail 12.2 \(3445.102.3\))
+Subject: =?utf-8?B?RndkOiDhg6bhg5Xhg5jhg5zhg5jhg6Eg4YOR4YOQ4YOg4YOYIA==?=
+ =?utf-8?B?4YOT4YOY4YOV4YOY4YOc4YOd?=
+Message-Id: <D952B580-86EC-4455-97C3-415A0CE4CC8E@gmail.com>
+References: <CA+YoMrq8Cukn12G0HpVcUFH4PDSNKeREWwTCBZdS3yrDyp0Mdw@mail.gmail.com>
+To: info@tripplanner.ge
+Date: Sat, 9 Mar 2019 13:40:59 +0400
+X-Mailer: Apple Mail (2.3445.102.3)
+X-Spam-Status: No, score=-0.5
+X-Spam-Score: -4
+X-Spam-Bar: /
+X-Spam-Flag: NO
+
+
+--Apple-Mail=_D614323A-F76B-4B5B-9C9D-4E891F1CEB70
+Content-Transfer-Encoding: base64
+Content-Type: text/plain;
+	charset=utf-8
+
+DQoNCj4gQmVnaW4gZm9yd2FyZGVkIG1lc3NhZ2U6DQo+IA0KPiBGcm9tOiBHZWdhIFRza2h2ZWRp
+YW5pIDxnZWdhLnRza2hAZ21haWwuY29tPg0KPiBTdWJqZWN0OiDhg6bhg5Xhg5jhg5zhg5jhg6Eg
+4YOR4YOQ4YOg4YOYIOGDk+GDmOGDleGDmOGDnOGDnQ0KPiBEYXRlOiBNYXJjaCA4LCAyMDE5IGF0
+IDEyOjA3OjQ0IEFNIEdNVCs0DQo+IFRvOiBlLnRhcmtobmlzaHZpbGlAdHJpcHBsYW5uZXIuZ2UN
+Cj4gDQo+IOGDm+GDneGDkuGDlOGDoeGDkOGDmuGDm+GDlOGDkeGDmOGDlyDhg6Xhg5Dhg5rhg5Hh
+g5Dhg6Lhg53hg5zhg50g4YOU4YOZ4YOQLA0KPiANCj4g4YOg4YOd4YOS4YOd4YOg4YOqIOGDk+GD
+kOGDkuGDnuGDmOGDoOGDk+GDmOGDlyDhg5Lhg5jhg5Lhg5bhg5Dhg5Xhg5zhg5jhg5cg4YOp4YOV
+4YOU4YOc4YOYIOGDkeGDkOGDoOGDmOGDoSDhg5vhg5Thg5zhg5jhg6Phg6Eg4YOT4YOQIOGDoeGD
+ruGDleGDkOGDk+GDkOGDoeGDruGDleGDkCDhg57hg5Dhg5nhg5Thg6Lhg5Thg5Hhg6EuDQo+IA0K
+PiDhg6bhg5Xhg5jhg5zhg5jhg6Eg4YOh4YOQ4YOT4YOU4YOS4YOj4YOh4YOi4YOQ4YOq4YOY4YOd
+IOGDnuGDkOGDmeGDlOGDouGDmCANCj4gDQo+IOGDpuGDmOGDoOGDlOGDkeGDo+GDmuGDlOGDkeGD
+kCAxNSDhg5rhg5Dhg6Dhg5gg4YOU4YOg4YOXIOGDnuGDlOGDoOGDoeGDneGDnOGDkOGDluGDlCDh
+g6Hhg5Dhg5jhg5Phg5Dhg5zhg5Dhg6ogNSDhg5rhg5Dhg6Dhg5gg4YOQ4YOg4YOY4YOhIOGDm+GD
+neGDm+GDp+GDleGDkOGDnOGDmOGDoSjhg5Lhg5jhg5Phg5gs4YOi4YOj4YOg4YOY4YOh4YOi4YOj
+4YOa4YOYKQ0KPiDhg5Dhg5sg4YOe4YOQ4YOZ4YOU4YOi4YOo4YOYIOGDqOGDlOGDk+GDmOGDoSA2
+IOGDpuGDleGDmOGDnOGDnSANCj4gDQo+IDEpIOGDrOGDmOGDnOGDkOGDnOGDk+GDkOGDmuGDmCAy
+KeGDoOGDpeGDkOGDrOGDmOGDl+GDlOGDmuGDmCDhg6Xhg5Xhg5Thg5Xhg6Dhg5ggMykg4YOl4YOY
+4YOh4YOYIOGDpeGDleGDlOGDleGDoOGDmCA0KeGDoeGDkOGDpOGDlOGDoOGDkOGDleGDmCDhg6Xh
+g5Xhg5Thg5Xhg6Dhg5ggNSnhg6Xhg5jhg5zhg6vhg5vhg5Dhg6Dhg5Dhg6Phg5rhg5ggNikg4YOu
+4YOV4YOQ4YOc4YOt4YOZ4YOQ4YOg4YOQDQo+IA0KPiDhg6bhg5Xhg5jhg5zhg50g4YOY4YOh4YOu
+4YOb4YOU4YOR4YOQIDcwLTgwIOGDkuGDoCANCj4gDQo+IOGDkOGDoeGDlOGDleGDlCDhg5Lhg5Xh
+g5Dhg6Xhg5Xhg6Eg4YOt4YOQ4YOt4YOY4YOhIOGDoeGDkOGDk+GDlOGDkuGDo+GDoeGDouGDkOGD
+quGDmOGDnSDhg57hg5Dhg5nhg5Thg6Lhg5gg4YOg4YOd4YOb4YOU4YOa4YOY4YOqIDE1IOGDmuGD
+kOGDoOGDmCDhg6bhg5jhg6Dhg6Eg4YOT4YOQIOGDkOGDpeGDmOGDk+GDkOGDnOGDkOGDqiA1IOGD
+muGDkOGDoOGDmCDhg5Dhg6Dhg5jhg6Eg4YOb4YOd4YOb4YOn4YOV4YOQ4YOc4YOY4YOhLg0KPiAN
+Cj4g4YOe4YOQ4YOZ4YOU4YOi4YOo4YOYIOGDqOGDlOGDk+GDmOGDoTogMSkg4YOt4YOQ4YOt4YOQ
+IOGDmeGDmuGDkOGDoeGDmOGDmeGDo+GDoOGDmCAyKSDhg63hg5Dhg63hg5Ag4YOi4YOQ4YOg4YOu
+4YOj4YOc4YOY4YOXIDMp4YOt4YOQ4YOt4YOQIOGDm+GDkOGDoOGDrOGDp+GDleGDmOGDlyAgMw0K
+PiA0KSDhg63hg5Dhg63hg5Ag4YOQ4YOi4YOb4YOY4YOXIDUp4YOZ4YOd4YOc4YOY4YOQ4YOZ4YOY
+ICjhg5Hhg6Dhg5Thg5zhg5Phg5gpDQo+IA0KPiDhg5Dhg5vhg5/hg5Dhg5vhg5Dhg5Mg4YOb4YOU
+4YOc4YOY4YOj4YOT4YOYIOGDkuGDleGDkOGDpeGDleGDoSANCj4gDQo+IDEpIOGDp+GDleGDlOGD
+muGDmOGDoSDhg5Phg5Dhg6Thg5AgMjUg4YOa4YOQ4YOg4YOYDQo+IDIpIOGDnuGDkOGDouGDkOGD
+oOGDkCDhg6fhg5Xhg5Thg5rhg5jhg6Eg4YOT4YOQ4YOk4YOQIDE1IOGDmuGDkOGDoOGDmA0KPiAz
+KSDhg67hg53hg6Dhg6rhg5jhg6Eg4YOT4YOQ4YOk4YOQIDI1IOGDmuGDkOGDoOGDmCANCj4gNCkg
+4YOb4YOY4YOl4YOhIOGDk+GDkOGDpOGDkCAo4YOn4YOV4YOU4YOa4YOYJuGDruGDneGDoOGDquGD
+mCkgMjUg4YOa4YOQ4YOg4YOYDQo+IDUpIOGDqeGDo+GDoOGDqeGDruGDlOGDmuGDmOGDoSDhg5Ph
+g5Dhg6Thg5AgMTUg4YOa4YOQ4YOg4YOYDQo+IDYpIOGDpeGDkOGDoOGDl+GDo+GDmuGDmCDhg5zh
+g6Phg5Lhg5Hhg5Dhg6Dhg5ggMTIg4YOa4YOQ4YOg4YOYKCDhg5zhg5jhg5Lhg53hg5bhg5gsIOGD
+l+GDruGDmOGDmuGDmCAsIOGDnOGDo+GDqOGDmCkNCj4gDQo+IOGDmOGDkuGDlOGDkuGDm+GDlOGD
+keGDkCDhg5vhg5Thg5zhg5jhg6Phg6Eg4YOS4YOQ4YOk4YOQ4YOg4YOX4YOd4YOU4YOR4YOQLCDh
+g5vhg67hg53hg5rhg53hg5Mg4YOb4YOh4YOj4YOR4YOj4YOl4YOYIOGDkOGDnuGDlOGDouGDkOGD
+neGDluGDlOGDoOGDlOGDkeGDmOGDly4g4YOg4YOQ4YOqIOGDpuGDleGDmOGDnOGDneGDoSDhg6Ph
+g67hg5Phg5Thg5Hhg5AuDQo+IA0KPiDhg57hg5Dhg6Lhg5jhg5Xhg5jhg6Hhg6rhg5Thg5vhg5jh
+g5cNCj4gDQo+IOGDkuGDlOGDkuGDkCDhg6rhg67hg5Xhg5Thg5Phg5jhg5Dhg5zhg5gNCj4gDQoN
+Cg==
+--Apple-Mail=_D614323A-F76B-4B5B-9C9D-4E891F1CEB70
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=utf-8
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; =
+charset=3Dutf-8"></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; line-break: after-white-space;" class=3D""><br =
+class=3D""><div><br class=3D""><blockquote type=3D"cite" class=3D""><div =
+class=3D"">Begin forwarded message:</div><br =
+class=3D"Apple-interchange-newline"><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px;" class=3D""><span=
+ style=3D"font-family: -webkit-system-font, Helvetica Neue, Helvetica, =
+sans-serif; color:rgba(0, 0, 0, 1.0);" class=3D""><b class=3D"">From: =
+</b></span><span style=3D"font-family: -webkit-system-font, Helvetica =
+Neue, Helvetica, sans-serif;" class=3D"">Gega Tskhvediani &lt;<a =
+href=3D"mailto:gega.tskh@gmail.com" =
+class=3D"">gega.tskh@gmail.com</a>&gt;<br class=3D""></span></div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px;" class=3D""><span style=3D"font-family: =
+-webkit-system-font, Helvetica Neue, Helvetica, sans-serif; =
+color:rgba(0, 0, 0, 1.0);" class=3D""><b class=3D"">Subject: =
+</b></span><span style=3D"font-family: -webkit-system-font, Helvetica =
+Neue, Helvetica, sans-serif;" class=3D""><b class=3D"">=E1=83=A6=E1=83=95=E1=
+=83=98=E1=83=9C=E1=83=98=E1=83=A1 =E1=83=91=E1=83=90=E1=83=A0=E1=83=98 =
+=E1=83=93=E1=83=98=E1=83=95=E1=83=98=E1=83=9C=E1=83=9D</b><br =
+class=3D""></span></div><div style=3D"margin-top: 0px; margin-right: =
+0px; margin-bottom: 0px; margin-left: 0px;" class=3D""><span =
+style=3D"font-family: -webkit-system-font, Helvetica Neue, Helvetica, =
+sans-serif; color:rgba(0, 0, 0, 1.0);" class=3D""><b class=3D"">Date: =
+</b></span><span style=3D"font-family: -webkit-system-font, Helvetica =
+Neue, Helvetica, sans-serif;" class=3D"">March 8, 2019 at 12:07:44 AM =
+GMT+4<br class=3D""></span></div><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px;" class=3D""><span=
+ style=3D"font-family: -webkit-system-font, Helvetica Neue, Helvetica, =
+sans-serif; color:rgba(0, 0, 0, 1.0);" class=3D""><b class=3D"">To: =
+</b></span><span style=3D"font-family: -webkit-system-font, Helvetica =
+Neue, Helvetica, sans-serif;" class=3D""><a =
+href=3D"mailto:e.tarkhnishvili@tripplanner.ge" =
+class=3D"">e.tarkhnishvili@tripplanner.ge</a><br =
+class=3D""></span></div><br class=3D""><div class=3D""><div dir=3D"auto" =
+class=3D"">=E1=83=9B=E1=83=9D=E1=83=92=E1=83=94=E1=83=A1=E1=83=90=E1=83=9A=
+=E1=83=9B=E1=83=94=E1=83=91=E1=83=98=E1=83=97 =
+=E1=83=A5=E1=83=90=E1=83=9A=E1=83=91=E1=83=90=E1=83=A2=E1=83=9D=E1=83=9C=E1=
+=83=9D =E1=83=94=E1=83=99=E1=83=90,<div dir=3D"auto" class=3D""><br =
+class=3D""></div><div dir=3D"auto" class=3D"">=E1=83=A0=E1=83=9D=E1=83=92=E1=
+=83=9D=E1=83=A0=E1=83=AA =E1=83=93=E1=83=90=E1=83=92=E1=83=9E=E1=83=98=E1=83=
+=A0=E1=83=93=E1=83=98=E1=83=97 =E1=83=92=E1=83=98=E1=83=92=E1=83=96=E1=83=90=
+=E1=83=95=E1=83=9C=E1=83=98=E1=83=97 =E1=83=A9=E1=83=95=E1=83=94=E1=83=9C=E1=
+=83=98 =E1=83=91=E1=83=90=E1=83=A0=E1=83=98=E1=83=A1 =E1=83=9B=E1=83=94=E1=
+=83=9C=E1=83=98=E1=83=A3=E1=83=A1 =E1=83=93=E1=83=90 =
+=E1=83=A1=E1=83=AE=E1=83=95=E1=83=90=E1=83=93=E1=83=90=E1=83=A1=E1=83=AE=E1=
+=83=95=E1=83=90 =E1=83=9E=E1=83=90=E1=83=99=E1=83=94=E1=83=A2=E1=83=94=E1=83=
+=91=E1=83=A1.</div><div dir=3D"auto" class=3D""><br class=3D""></div><div =
+dir=3D"auto" class=3D"">=E1=83=A6=E1=83=95=E1=83=98=E1=83=9C=E1=83=98=E1=83=
+=A1 =E1=83=A1=E1=83=90=E1=83=93=E1=83=94=E1=83=92=E1=83=A3=E1=83=A1=E1=83=A2=
+=E1=83=90=E1=83=AA=E1=83=98=E1=83=9D =E1=83=9E=E1=83=90=E1=83=99=E1=83=94=E1=
+=83=A2=E1=83=98&nbsp;</div><div dir=3D"auto" class=3D""><br =
+class=3D""></div><div dir=3D"auto" =
+class=3D"">=E1=83=A6=E1=83=98=E1=83=A0=E1=83=94=E1=83=91=E1=83=A3=E1=83=9A=
+=E1=83=94=E1=83=91=E1=83=90 15 =E1=83=9A=E1=83=90=E1=83=A0=E1=83=98 =
+=E1=83=94=E1=83=A0=E1=83=97 =E1=83=9E=E1=83=94=E1=83=A0=E1=83=A1=E1=83=9D=E1=
+=83=9C=E1=83=90=E1=83=96=E1=83=94 =E1=83=A1=E1=83=90=E1=83=98=E1=83=93=E1=83=
+=90=E1=83=9C=E1=83=90=E1=83=AA 5 =E1=83=9A=E1=83=90=E1=83=A0=E1=83=98 =
+=E1=83=90=E1=83=A0=E1=83=98=E1=83=A1 =
+=E1=83=9B=E1=83=9D=E1=83=9B=E1=83=A7=E1=83=95=E1=83=90=E1=83=9C=E1=83=98=E1=
+=83=A1(=E1=83=92=E1=83=98=E1=83=93=E1=83=98,=E1=83=A2=E1=83=A3=E1=83=A0=E1=
+=83=98=E1=83=A1=E1=83=A2=E1=83=A3=E1=83=9A=E1=83=98)</div><div =
+dir=3D"auto" class=3D"">=E1=83=90=E1=83=9B =E1=83=9E=E1=83=90=E1=83=99=E1=83=
+=94=E1=83=A2=E1=83=A8=E1=83=98 =E1=83=A8=E1=83=94=E1=83=93=E1=83=98=E1=83=A1=
+ 6 =E1=83=A6=E1=83=95=E1=83=98=E1=83=9C=E1=83=9D&nbsp;</div><div =
+dir=3D"auto" class=3D""><br class=3D""></div><div dir=3D"auto" =
+class=3D"">1) =E1=83=AC=E1=83=98=E1=83=9C=E1=83=90=E1=83=9C=E1=83=93=E1=83=
+=90=E1=83=9A=E1=83=98 2)=E1=83=A0=E1=83=A5=E1=83=90=E1=83=AC=E1=83=98=E1=83=
+=97=E1=83=94=E1=83=9A=E1=83=98 =E1=83=A5=E1=83=95=E1=83=94=E1=83=95=E1=83=A0=
+=E1=83=98 3) =E1=83=A5=E1=83=98=E1=83=A1=E1=83=98 =E1=83=A5=E1=83=95=E1=83=
+=94=E1=83=95=E1=83=A0=E1=83=98 4)=E1=83=A1=E1=83=90=E1=83=A4=E1=83=94=E1=83=
+=A0=E1=83=90=E1=83=95=E1=83=98 =E1=83=A5=E1=83=95=E1=83=94=E1=83=95=E1=83=A0=
+=E1=83=98 5)=E1=83=A5=E1=83=98=E1=83=9C=E1=83=AB=E1=83=9B=E1=83=90=E1=83=A0=
+=E1=83=90=E1=83=A3=E1=83=9A=E1=83=98 6) =
+=E1=83=AE=E1=83=95=E1=83=90=E1=83=9C=E1=83=AD=E1=83=99=E1=83=90=E1=83=A0=E1=
+=83=90</div><div dir=3D"auto" class=3D""><br class=3D""></div><div =
+dir=3D"auto" class=3D"">=E1=83=A6=E1=83=95=E1=83=98=E1=83=9C=E1=83=9D =
+=E1=83=98=E1=83=A1=E1=83=AE=E1=83=9B=E1=83=94=E1=83=91=E1=83=90 70-80 =
+=E1=83=92=E1=83=A0&nbsp;</div><div dir=3D"auto" class=3D""><br =
+class=3D""></div><div dir=3D"auto" class=3D"">=E1=83=90=E1=83=A1=E1=83=94=E1=
+=83=95=E1=83=94 =E1=83=92=E1=83=95=E1=83=90=E1=83=A5=E1=83=95=E1=83=A1 =
+=E1=83=AD=E1=83=90=E1=83=AD=E1=83=98=E1=83=A1 =
+=E1=83=A1=E1=83=90=E1=83=93=E1=83=94=E1=83=92=E1=83=A3=E1=83=A1=E1=83=A2=E1=
+=83=90=E1=83=AA=E1=83=98=E1=83=9D =E1=83=9E=E1=83=90=E1=83=99=E1=83=94=E1=83=
+=A2=E1=83=98 =E1=83=A0=E1=83=9D=E1=83=9B=E1=83=94=E1=83=9A=E1=83=98=E1=83=AA=
+ 15 =E1=83=9A=E1=83=90=E1=83=A0=E1=83=98 =E1=83=A6=E1=83=98=E1=83=A0=E1=83=
+=A1 =E1=83=93=E1=83=90 =E1=83=90=E1=83=A5=E1=83=98=E1=83=93=E1=83=90=E1=83=
+=9C=E1=83=90=E1=83=AA 5 =E1=83=9A=E1=83=90=E1=83=A0=E1=83=98 =
+=E1=83=90=E1=83=A0=E1=83=98=E1=83=A1 =
+=E1=83=9B=E1=83=9D=E1=83=9B=E1=83=A7=E1=83=95=E1=83=90=E1=83=9C=E1=83=98=E1=
+=83=A1.</div><div dir=3D"auto" class=3D""><br class=3D""></div><div =
+dir=3D"auto" class=3D"">=E1=83=9E=E1=83=90=E1=83=99=E1=83=94=E1=83=A2=E1=83=
+=A8=E1=83=98 =E1=83=A8=E1=83=94=E1=83=93=E1=83=98=E1=83=A1: 1) =
+=E1=83=AD=E1=83=90=E1=83=AD=E1=83=90 =E1=83=99=E1=83=9A=E1=83=90=E1=83=A1=E1=
+=83=98=E1=83=99=E1=83=A3=E1=83=A0=E1=83=98 2) =E1=83=AD=E1=83=90=E1=83=AD=E1=
+=83=90 =E1=83=A2=E1=83=90=E1=83=A0=E1=83=AE=E1=83=A3=E1=83=9C=E1=83=98=E1=83=
+=97 3)=E1=83=AD=E1=83=90=E1=83=AD=E1=83=90 =
+=E1=83=9B=E1=83=90=E1=83=A0=E1=83=AC=E1=83=A7=E1=83=95=E1=83=98=E1=83=97&n=
+bsp; 3</div><div dir=3D"auto" class=3D"">4) =E1=83=AD=E1=83=90=E1=83=AD=E1=
+=83=90 =E1=83=90=E1=83=A2=E1=83=9B=E1=83=98=E1=83=97 =
+5)=E1=83=99=E1=83=9D=E1=83=9C=E1=83=98=E1=83=90=E1=83=99=E1=83=98 =
+(=E1=83=91=E1=83=A0=E1=83=94=E1=83=9C=E1=83=93=E1=83=98)</div><div =
+dir=3D"auto" class=3D""><br class=3D""></div><div dir=3D"auto" =
+class=3D"">=E1=83=90=E1=83=9B=E1=83=9F=E1=83=90=E1=83=9B=E1=83=90=E1=83=93=
+ =E1=83=9B=E1=83=94=E1=83=9C=E1=83=98=E1=83=A3=E1=83=93=E1=83=98 =
+=E1=83=92=E1=83=95=E1=83=90=E1=83=A5=E1=83=95=E1=83=A1&nbsp;</div><div =
+dir=3D"auto" class=3D""><br class=3D""></div><div dir=3D"auto" =
+class=3D"">1) =E1=83=A7=E1=83=95=E1=83=94=E1=83=9A=E1=83=98=E1=83=A1 =
+=E1=83=93=E1=83=90=E1=83=A4=E1=83=90 25 =E1=83=9A=E1=83=90=E1=83=A0=E1=83=98=
+</div><div dir=3D"auto" class=3D"">2) =E1=83=9E=E1=83=90=E1=83=A2=E1=83=90=
+=E1=83=A0=E1=83=90 =E1=83=A7=E1=83=95=E1=83=94=E1=83=9A=E1=83=98=E1=83=A1 =
+=E1=83=93=E1=83=90=E1=83=A4=E1=83=90 15 =E1=83=9A=E1=83=90=E1=83=A0=E1=83=98=
+</div><div dir=3D"auto" class=3D"">3) =E1=83=AE=E1=83=9D=E1=83=A0=E1=83=AA=
+=E1=83=98=E1=83=A1 =E1=83=93=E1=83=90=E1=83=A4=E1=83=90 25 =
+=E1=83=9A=E1=83=90=E1=83=A0=E1=83=98&nbsp;</div><div dir=3D"auto" =
+class=3D"">4) =E1=83=9B=E1=83=98=E1=83=A5=E1=83=A1 =E1=83=93=E1=83=90=E1=83=
+=A4=E1=83=90 (=E1=83=A7=E1=83=95=E1=83=94=E1=83=9A=E1=83=98&amp;=E1=83=AE=E1=
+=83=9D=E1=83=A0=E1=83=AA=E1=83=98) 25 =E1=83=9A=E1=83=90=E1=83=A0=E1=83=98=
+</div><div dir=3D"auto" class=3D"">5) =E1=83=A9=E1=83=A3=E1=83=A0=E1=83=A9=
+=E1=83=AE=E1=83=94=E1=83=9A=E1=83=98=E1=83=A1 =E1=83=93=E1=83=90=E1=83=A4=E1=
+=83=90 15 =E1=83=9A=E1=83=90=E1=83=A0=E1=83=98</div><div dir=3D"auto" =
+class=3D"">6) =E1=83=A5=E1=83=90=E1=83=A0=E1=83=97=E1=83=A3=E1=83=9A=E1=83=
+=98 =E1=83=9C=E1=83=A3=E1=83=92=E1=83=91=E1=83=90=E1=83=A0=E1=83=98 12 =
+=E1=83=9A=E1=83=90=E1=83=A0=E1=83=98( =E1=83=9C=E1=83=98=E1=83=92=E1=83=9D=
+=E1=83=96=E1=83=98, =E1=83=97=E1=83=AE=E1=83=98=E1=83=9A=E1=83=98 , =
+=E1=83=9C=E1=83=A3=E1=83=A8=E1=83=98)</div><div dir=3D"auto" =
+class=3D""><br class=3D""></div><div dir=3D"auto" =
+class=3D"">=E1=83=98=E1=83=92=E1=83=94=E1=83=92=E1=83=9B=E1=83=94=E1=83=91=
+=E1=83=90 =E1=83=9B=E1=83=94=E1=83=9C=E1=83=98=E1=83=A3=E1=83=A1 =
+=E1=83=92=E1=83=90=E1=83=A4=E1=83=90=E1=83=A0=E1=83=97=E1=83=9D=E1=83=94=E1=
+=83=91=E1=83=90, =E1=83=9B=E1=83=AE=E1=83=9D=E1=83=9A=E1=83=9D=E1=83=93 =
+=E1=83=9B=E1=83=A1=E1=83=A3=E1=83=91=E1=83=A3=E1=83=A5=E1=83=98 =
+=E1=83=90=E1=83=9E=E1=83=94=E1=83=A2=E1=83=90=E1=83=9D=E1=83=96=E1=83=94=E1=
+=83=A0=E1=83=94=E1=83=91=E1=83=98=E1=83=97. =E1=83=A0=E1=83=90=E1=83=AA =
+=E1=83=A6=E1=83=95=E1=83=98=E1=83=9C=E1=83=9D=E1=83=A1 =
+=E1=83=A3=E1=83=AE=E1=83=93=E1=83=94=E1=83=91=E1=83=90.</div><div =
+dir=3D"auto" class=3D""><br class=3D""></div><div dir=3D"auto" =
+class=3D"">=E1=83=9E=E1=83=90=E1=83=A2=E1=83=98=E1=83=95=E1=83=98=E1=83=A1=
+=E1=83=AA=E1=83=94=E1=83=9B=E1=83=98=E1=83=97</div><div dir=3D"auto" =
+class=3D""><br class=3D""></div><div dir=3D"auto" class=3D"">=E1=83=92=E1=83=
+=94=E1=83=92=E1=83=90 =E1=83=AA=E1=83=AE=E1=83=95=E1=83=94=E1=83=93=E1=83=98=
+=E1=83=90=E1=83=9C=E1=83=98</div><div dir=3D"auto" class=3D""><br =
+class=3D""></div></div>
+</div></blockquote></div><br class=3D""></body></html>=
+
+--Apple-Mail=_D614323A-F76B-4B5B-9C9D-4E891F1CEB70--

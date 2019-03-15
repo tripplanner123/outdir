@@ -2010,3 +2010,59 @@ exit
 clear
 #1551970197
 git status
+#1551970234
+git add .
+#1551970260
+git commit -m "mail and tmp again"
+#1551970273
+git push origin master
+#1551970301
+cd public_html
+#1551970304
+clear
+#1551970308
+git status
+#1551970358
+git add .
+#1551970392
+git commit -m "income procent added & fix some bugs"
+#1551970399
+git push origin master
+#1551970683
+git status
+#1551970689
+cd ../beetrip.ge
+#1551970693
+clear
+#1551970697
+git status
+#1551970716
+git diff error_log
+#1551970732
+cat error_log
+#1551970765
+rm error_log
+#1551970769
+git status
+#1551970773
+git add .
+#1551970798
+git commit -m "fix bugs and change couple of things"
+#1551970806
+git push origin master
+#1551996178
+cd public_html
+#1551996180
+clear
+#1551996184
+git status
+#1551996196
+git add .
+#1551996220
+git commit -m "currency change changing"
+#1551996228
+git push origin master
+#1551996249
+exit
+#1552641693
+git status
