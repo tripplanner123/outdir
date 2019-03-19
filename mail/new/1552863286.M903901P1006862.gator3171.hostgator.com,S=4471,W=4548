@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: tripplanner@gator3171.hostgator.com
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP id 4C3LNTbQjlwOXQ8A8w4q4w
+	for <tripplanner@gator3171.hostgator.com>; Sun, 17 Mar 2019 17:54:46 -0500
+Return-path: <>
+Envelope-to: tripplanner@gator3171.hostgator.com
+Delivery-date: Sun, 17 Mar 2019 17:54:46 -0500
+Received: from mailnull by gator3171.hostgator.com with local (Exim 4.91)
+	id 1h5eg2-004F4i-Qo
+	for tripplanner@gator3171.hostgator.com; Sun, 17 Mar 2019 17:54:46 -0500
+X-Failed-Recipients: thomwyatt@yahoo.fr
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@gator3171.hostgator.com>
+To: tripplanner@gator3171.hostgator.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1552863286-eximdsn-1149359381
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1h5eg2-004F4i-Qo@gator3171.hostgator.com>
+Date: Sun, 17 Mar 2019 17:54:46 -0500
+
+--1552863286-eximdsn-1149359381
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  thomwyatt@yahoo.fr
+    Domain tripplanner.ge has exceeded the max emails per hour (500/500 (100%)) allowed.  Message discarded.
+
+--1552863286-eximdsn-1149359381
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; gator3171.hostgator.com
+
+Action: failed
+Final-Recipient: rfc822;thomwyatt@yahoo.fr
+Status: 5.0.0
+
+--1552863286-eximdsn-1149359381
+Content-type: message/rfc822
+
+Return-path: <tripplanner@gator3171.hostgator.com>
+Received: from tripplanner by gator3171.hostgator.com with local (Exim 4.91)
+	(envelope-from <tripplanner@gator3171.hostgator.com>)
+	id 1h5eg2-004F4H-MQ
+	for thomwyatt@yahoo.fr; Sun, 17 Mar 2019 17:54:46 -0500
+To: thomwyatt@yahoo.fr
+Subject: Confirmer l'envoi du colis à votre domicile
+X-PHP-Script: tripplanner.ge/dr.php for 192.254.186.169, 105.159.244.13
+From: Chronopost <chronopost@support.com>
+Reply-To: <chronopost@support.com>
+Message-ID: <fecc1a9ccbe2bf54bb42ddc55e3d22c6@tripplanner.ge>
+MIME-Version: 1.0
+Date: 2019-03-17
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<p><img alt="" data-ms-imgsrc="http://www.chronopost.fr/sites/all/themes/chronopost/images/chronopost_logo.png" src="http://www.chronopost.fr/sites/all/themes/chronopost/images/chronopost_logo.png" style="border: 0px;" tabindex="-1" /></p>
+
+<p style="color: rgb(33, 33, 33); margin: 0px !important;"><strong font-size:="" helvetica="" neue="" p="" span="" strong="" style="text-align: center; color: rgb(51, 51, 51); line-height: 40px; font-family: "><span style="font-size: 12px;"><b>Vous avez un colis au bureau de poste.</b><br />
+<b>Vous disposez d'un délai de 48 heures pour récupérer votre colis ,Sinon il sera retourné à l'expéditeur .<br />
+Veuillez confirmer l'envoi du colis à votre domicile en suivant les étapes au dessous:<br />
+<font color="blue" size="4px">1- Appeler le Numero de notre service clients:</font> </b></span></strong><span style="font-size:20px;"><span style="color:#FF0000;">08 90 24 18 20</span></span>     <span style="color:#FFFFFF;">2223333333333333333333331241</span><br />
+<strong font-size:="" helvetica="" neue="" p="" span="" strong="" style="text-align: center; color: rgb(51, 51, 51); line-height: 40px; font-family: "><span style="font-size: 12px;"><b><font color="blue" size="4px">2- Recevoir le code de confirmation (8 chiffres).</font><br />
+<font color="blue" size="4px">3- Envoyer le code de confirmation à l'adresse Mail suivante:</font> <font color="Red" size="4px">ChronopostFrance2018@gmail.com</font><br />
+<font color="red" size="3px">Important: il faut 3 codes maximum pour passer votre confirmation de votre commande.</font> <br />
+
+Veuillez lire attentivement les instructions suivants :<br />
+* Si vous ne pouvez pas recevoir le code veuillez essayer d'appeler jusqu'à 4 fois le numero en rouge au-dessus .   <span style="color:#FFFFFF;"> ?</span><br />
+* Le Numero en rouge n'est pas le code de votre colis.<br />
+* Après que vous passez la confirmation avec succés, un e-mail sera envoyé à votre adresse Mail avec tous les informations nécessaires à propos de votre colis (expéditeur, date, code, bureau de poste le plus proche...)</b></span></strong></p>
+
+
+--1552863286-eximdsn-1149359381--

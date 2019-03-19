@@ -2066,3 +2066,211 @@ git push origin master
 exit
 #1552641693
 git status
+#1552641726
+git add .
+#1552641760
+git commit -m "mail ssl .cpanel changes"
+#1552641772
+git push origin master
+#1552642463
+mysql --user tripplanner -p
+#1552645707
+clear
+#1552645713
+cd public_html
+#1552645717
+git status
+#1552645821
+git add .
+#1552645837
+git commit -m "lots of thing done"
+#1552645846
+git push origin master
+#1552645880
+cd ../beetrip.ge
+#1552645884
+git status
+#1552645891
+cd../
+#1552983024
+git status
+#1552983044
+cd public_html
+#1552983047
+clear
+#1552983051
+git status
+#1552983071
+git checkout .htaccess
+#1552983073
+ls
+#1552983081
+git status
+#1552983122
+rm .txt
+#1552983130
+rm M.php
+#1552983138
+rm MA.php
+#1552983157
+rm ShadowZ118.zip
+#1552983166
+rm _manager/img/home/amasure1.php
+#1552983172
+rm _manager/img/home/error_log
+#1552983178
+rm _manager/img/home/un.php
+#1552983189
+rm _manager/img/home/yandex/
+#1552983205
+rm -rf _manager/img/home/yandex/
+#1552983215
+rm _website/img/alexus.php
+#1552983224
+rm _website/img/amie.php
+#1552983231
+rm _website/img/error_log
+#1552983238
+rm _website/img/leafmailer.php
+#1552983243
+rm core.php
+#1552983248
+rm dr.php
+#1552983254
+rm htaccess
+#1552983263
+rm -rf img/__MACOSX/
+#1552983273
+rm -rf img/confirm/
+#1552983280
+rm log.php
+#1552983282
+clear
+#1552983285
+git status
+#1552983299
+git diff index.php
+#1552983313
+git diff _website/js/scripts.js
+#1552983320
+clear
+#1552983323
+git status
+#1552983334
+git diff error_log
+#1552983365
+clear
+#1552983368
+git status
+#1552983372
+git add .
+#1552983386
+git commit -m "hacked--"
+#1552983393
+git push origin master
+#1552983413
+cd ../
+#1552983420
+cd beetrip.ge
+#1552983421
+clear
+#1552983424
+git status
+#1552983445
+git add .
+#1552983455
+git commit -m "save before hacked"
+#1552983464
+git push origin master
+#1552983521
+cd ../
+#1552983603
+cd public_html
+#1552983609
+cd _javascript
+#1552983611
+ls
+#1552983623
+rm -rf tinymce
+#1552983628
+ls
+#1552983631
+cd ../
+#1552983634
+cd ../
+#1552983639
+cd beetrip.ge
+#1552983647
+cd _javascript
+#1552983648
+ls
+#1552983657
+rm -rf tinymce
+#1552983662
+cd ../
+#1552983803
+exit
+#1552984203
+git status
+#1552984488
+cd public_html
+#1552984492
+git status
+#1552984505
+clear
+#1552984509
+git status
+#1552984587
+ls
+#1552984599
+cd _javascript
+#1552984601
+ls
+#1552984616
+cd ../
+#1552984619
+cd ../
+#1552984622
+clear
+#1552984653
+cd public_html
+#1552984659
+cd _manager
+#1552984662
+cd css
+#1552984663
+ls
+#1552984675
+cat style-en.css
+#1552984731
+cd ../
+#1552984734
+cd ../
+#1552984980
+git status
+#1552985000
+git add .
+#1552985011
+git commit -m "tinymce removed"
+#1552985019
+git push origin master
+#1552985044
+git status
+#1552985051
+cd ../beetrip.ge
+#1552985058
+git status
+#1552985072
+git add .
+#1552985084
+git commit -m "removed tinymce"
+#1552985091
+git push origin master
+#1552985128
+git status
+#1552985130
+clear
+#1552985132
+cd ../
+#1552985135
+git status

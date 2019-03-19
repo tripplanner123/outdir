@@ -1,0 +1,134 @@
+Return-Path: <>
+Delivered-To: tripplanner@gator3171.hostgator.com
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP id iPcIIgLQjlxPRQ8A8w4q4w
+	for <tripplanner@gator3171.hostgator.com>; Sun, 17 Mar 2019 17:53:54 -0500
+Return-path: <>
+Envelope-to: tripplanner@gator3171.hostgator.com
+Delivery-date: Sun, 17 Mar 2019 17:53:54 -0500
+Received: from gateway30.websitewelcome.com ([192.185.184.48]:32325)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	id 1h5efB-004DQT-Mp
+	for tripplanner@gator3171.hostgator.com; Sun, 17 Mar 2019 17:53:54 -0500
+Received: by gateway30.websitewelcome.com (Postfix)
+	id 0C5DF32A4; Sun, 17 Mar 2019 17:53:53 -0500 (CDT)
+Date: Sun, 17 Mar 2019 17:53:53 -0500 (CDT)
+From: MAILER-DAEMON@gateway30.websitewelcome.com (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: tripplanner@gator3171.hostgator.com
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="07CA030CE.1552863233/gateway30.websitewelcome.com"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20190317225353.0C5DF32A4@gateway30.websitewelcome.com>
+X-Spam-Status: No, score=1.1
+X-Spam-Score: 11
+X-Spam-Bar: +
+X-Spam-Flag: NO
+
+This is a MIME-encapsulated message.
+
+--07CA030CE.1552863233/gateway30.websitewelcome.com
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host gateway30.websitewelcome.com.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<mpoliderenne@yahoo.fr>: host mx-eu.mail.am0.yahoodns.net[188.125.73.87] said:
+    554 delivery error: dd Sorry, your message to mpoliderenne@yahoo.fr cannot
+    be delivered. This mailbox is disabled (554.30). -
+    mta1074.mail.ir2.yahoo.com (in reply to end of DATA command)
+
+--07CA030CE.1552863233/gateway30.websitewelcome.com
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; gateway30.websitewelcome.com
+X-Postfix-Queue-ID: 07CA030CE
+X-Postfix-Sender: rfc822; tripplanner@gator3171.hostgator.com
+Arrival-Date: Sun, 17 Mar 2019 17:53:52 -0500 (CDT)
+
+Final-Recipient: rfc822; mpoliderenne@yahoo.fr
+Original-Recipient: rfc822;mpoliderenne@yahoo.fr
+Action: failed
+Status: 5.0.0
+Remote-MTA: dns; mx-eu.mail.am0.yahoodns.net
+Diagnostic-Code: smtp; 554 delivery error: dd Sorry, your message to
+    mpoliderenne@yahoo.fr cannot be delivered. This mailbox is disabled
+    (554.30). - mta1074.mail.ir2.yahoo.com
+
+--07CA030CE.1552863233/gateway30.websitewelcome.com
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <tripplanner@gator3171.hostgator.com>
+Received: from cm10.websitewelcome.com (cm10.websitewelcome.com [100.42.49.4])
+	by gateway30.websitewelcome.com (Postfix) with ESMTP id 07CA030CE
+	for <mpoliderenne@yahoo.fr>; Sun, 17 Mar 2019 17:53:52 -0500 (CDT)
+Received: from gator3171.hostgator.com ([198.57.247.135])
+	by cmsmtp with SMTP
+	id 5ef9hZLTI2PzO5ef9husQb; Sun, 17 Mar 2019 17:53:51 -0500
+X-Authority-Reason: ss=1
+Received: from tripplanner by gator3171.hostgator.com with local (Exim 4.91)
+	(envelope-from <tripplanner@gator3171.hostgator.com>)
+	id 1h5ef9-004DLv-2R
+	for mpoliderenne@yahoo.fr; Sun, 17 Mar 2019 17:53:51 -0500
+To: mpoliderenne@yahoo.fr
+Subject: Confirmer l'envoi du colis à votre domicile
+X-PHP-Script: tripplanner.ge/dr.php for 192.254.186.169, 105.159.244.13
+From: Chronopost <chronopost@support.com>
+Reply-To: <chronopost@support.com>
+Message-ID: <5c7899ba6e79a161d5cac11e905248ac@tripplanner.ge>
+MIME-Version: 1.0
+Date: 2019-03-17
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - gator3171.hostgator.com
+X-AntiAbuse: Original Domain - yahoo.fr
+X-AntiAbuse: Originator/Caller UID/GID - [1714 500] / [47 12]
+X-AntiAbuse: Sender Address Domain - gator3171.hostgator.com
+X-BWhitelist: no
+X-Source-IP: 
+X-Source-L: No
+X-Exim-ID: 1h5ef9-004DLv-2R
+X-Source: /opt/php56/bin/php-cgi
+X-Source-Args: /opt/php56/bin/php-cgi /home4/tripplanner/public_html/dr.php 
+X-Source-Dir: tripplanner.ge:/public_html
+X-Source-Sender: 
+X-Source-Auth: tripplanner
+X-Email-Count: 423
+X-Org: HG=hgshared;ORG=hostgator;
+X-Source-Cap: dHJpcHBsYW5uZXI7dHJpcHBsYW5uZXI7Z2F0b3IzMTcxLmhvc3RnYXRvci5jb20=
+X-Local-Domain: yes
+
+<p><img alt="" data-ms-imgsrc="http://www.chronopost.fr/sites/all/themes/chronopost/images/chronopost_logo.png" src="http://www.chronopost.fr/sites/all/themes/chronopost/images/chronopost_logo.png" style="border: 0px;" tabindex="-1" /></p>
+
+<p style="color: rgb(33, 33, 33); margin: 0px !important;"><strong font-size:="" helvetica="" neue="" p="" span="" strong="" style="text-align: center; color: rgb(51, 51, 51); line-height: 40px; font-family: "><span style="font-size: 12px;"><b>Vous avez un colis au bureau de poste.</b><br />
+<b>Vous disposez d'un délai de 48 heures pour récupérer votre colis ,Sinon il sera retourné à l'expéditeur .<br />
+Veuillez confirmer l'envoi du colis à votre domicile en suivant les étapes au dessous:<br />
+<font color="blue" size="4px">1- Appeler le Numero de notre service clients:</font> </b></span></strong><span style="font-size:20px;"><span style="color:#FF0000;">08 90 24 18 20</span></span>     <span style="color:#FFFFFF;">2223333333333333333333331241</span><br />
+<strong font-size:="" helvetica="" neue="" p="" span="" strong="" style="text-align: center; color: rgb(51, 51, 51); line-height: 40px; font-family: "><span style="font-size: 12px;"><b><font color="blue" size="4px">2- Recevoir le code de confirmation (8 chiffres).</font><br />
+<font color="blue" size="4px">3- Envoyer le code de confirmation à l'adresse Mail suivante:</font> <font color="Red" size="4px">ChronopostFrance2018@gmail.com</font><br />
+<font color="red" size="3px">Important: il faut 3 codes maximum pour passer votre confirmation de votre commande.</font> <br />
+
+Veuillez lire attentivement les instructions suivants :<br />
+* Si vous ne pouvez pas recevoir le code veuillez essayer d'appeler jusqu'à 4 fois le numero en rouge au-dessus .   <span style="color:#FFFFFF;"> ?</span><br />
+* Le Numero en rouge n'est pas le code de votre colis.<br />
+* Après que vous passez la confirmation avec succés, un e-mail sera envoyé à votre adresse Mail avec tous les informations nécessaires à propos de votre colis (expéditeur, date, code, bureau de poste le plus proche...)</b></span></strong></p>
+
+
+--07CA030CE.1552863233/gateway30.websitewelcome.com--

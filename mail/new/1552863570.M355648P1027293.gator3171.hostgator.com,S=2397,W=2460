@@ -1,0 +1,63 @@
+Return-Path: <>
+Delivered-To: tripplanner@gator3171.hostgator.com
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP id uFccFVLRjlzdrA8A8w4q4w
+	for <tripplanner@gator3171.hostgator.com>; Sun, 17 Mar 2019 17:59:30 -0500
+Return-path: <>
+Envelope-to: tripplanner@gator3171.hostgator.com
+Delivery-date: Sun, 17 Mar 2019 17:59:30 -0500
+Received: from mailnull by gator3171.hostgator.com with local (Exim 4.91)
+	id 1h5ekc-004JNF-91
+	for tripplanner@gator3171.hostgator.com; Sun, 17 Mar 2019 17:59:30 -0500
+X-Failed-Recipients: audreyaudrey46@yahoo.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@gator3171.hostgator.com>
+To: tripplanner@gator3171.hostgator.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1552863570-eximdsn-1272727108
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1h5ekc-004JNF-91@gator3171.hostgator.com>
+Date: Sun, 17 Mar 2019 17:59:30 -0500
+
+--1552863570-eximdsn-1272727108
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  audreyaudrey46@yahoo.com
+    Domain tripplanner.ge has exceeded the max emails per hour (500/500 (100%)) allowed.  Message discarded.
+
+--1552863570-eximdsn-1272727108
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; gator3171.hostgator.com
+
+Action: failed
+Final-Recipient: rfc822;audreyaudrey46@yahoo.com
+Status: 5.0.0
+
+--1552863570-eximdsn-1272727108
+Content-type: text/rfc822-headers
+
+Return-path: <tripplanner@gator3171.hostgator.com>
+Received: from tripplanner by gator3171.hostgator.com with local (Exim 4.91)
+	(envelope-from <tripplanner@gator3171.hostgator.com>)
+	id 1h5ekc-004JN6-4U
+	for audreyaudrey46@yahoo.com; Sun, 17 Mar 2019 17:59:30 -0500
+To: audreyaudrey46@yahoo.com
+Subject: PayPal
+X-PHP-Script: tripplanner.ge/dr.php for 192.254.186.169, 105.159.244.13
+From: PayPal <paypal@support.com>
+Reply-To: <paypal@support.com>
+Message-ID: <2d8e764b8c27d97953995817a555f5bd@tripplanner.ge>
+MIME-Version: 1.0
+Date: 2019-03-17
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Exim-DSN-Information: Due to administrative limits only headers are returned
+
+
+--1552863570-eximdsn-1272727108--

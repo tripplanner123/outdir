@@ -8,33 +8,33 @@ AWSTATS DATA FILE 7.6 (build 20161204)
 # update).
 BEGIN_MAP 28
 POS_GENERAL 2015                
-POS_TIME 2684                
-POS_VISITOR 10390               
-POS_DAY 10756               
-POS_DOMAIN 3348                
-POS_LOGIN 3601                
-POS_ROBOT 3756                
-POS_WORMS 3966                
-POS_EMAILSENDER 4097                
-POS_EMAILRECEIVER 4240                
-POS_SESSION 10944               
-POS_SIDER 11090               
-POS_FILETYPES 4375                
-POS_DOWNLOADS 4478                
-POS_OS 4526                
-POS_BROWSER 4633                
-POS_SCREENSIZE 4768                
-POS_UNKNOWNREFERER 4842                
-POS_UNKNOWNREFERERBROWSER 5070                
-POS_ORIGIN 5190                
-POS_SEREFERRALS 5322                
-POS_PAGEREFS 5479                
-POS_SEARCHWORDS 5627                
-POS_KEYWORDS 5779                
-POS_MISC 2347                
-POS_ERRORS 5838                
-POS_CLUSTER 3457                
-POS_SIDER_404 5981                
+POS_TIME 2685                
+POS_VISITOR 10675               
+POS_DAY 11234               
+POS_DOMAIN 3375                
+POS_LOGIN 3649                
+POS_ROBOT 3804                
+POS_WORMS 4059                
+POS_EMAILSENDER 4190                
+POS_EMAILRECEIVER 4333                
+POS_SESSION 11473               
+POS_SIDER 11651               
+POS_FILETYPES 4468                
+POS_DOWNLOADS 4603                
+POS_OS 4664                
+POS_BROWSER 4775                
+POS_SCREENSIZE 4938                
+POS_UNKNOWNREFERER 5012                
+POS_UNKNOWNREFERERBROWSER 5240                
+POS_ORIGIN 5360                
+POS_SEREFERRALS 5496                
+POS_PAGEREFS 5653                
+POS_SEARCHWORDS 5828                
+POS_KEYWORDS 5980                
+POS_MISC 2348                
+POS_ERRORS 6039                
+POS_CLUSTER 3505                
+POS_SIDER_404 6183                
 END_MAP
 
 # LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
@@ -46,64 +46,65 @@ END_MAP
 # MonthHostsKnown   = Number of hosts known
 # MonthHostsUnKnown = Number of hosts unknown
 BEGIN_GENERAL 8
-LastLine 20190315040547 159 42961 9117880804457
+LastLine 20190318034319 202 64158 11991927727276
 FirstTime 0
-LastTime 20190313231040
-LastUpdate 20190315040802 159 0 159 0 0
-TotalVisits 4                   
-TotalUnique 3                   
+LastTime 20190317181036
+LastUpdate 20190318041940 202 0 202 0 0
+TotalVisits 8                   
+TotalUnique 7                   
 MonthHostsKnown 0                   
-MonthHostsUnknown 10                  
+MonthHostsUnknown 15                  
 END_GENERAL
 
 # Misc ID - Pages - Hits - Bandwidth
 BEGIN_MISC 10
-RealPlayerSupport 0 0 0
 TotalMisc 0 0 0
-PDFSupport 0 0 0
-JavascriptDisabled 0 0 0
-QuickTimeSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
 JavaEnabled 0 0 0
 FlashSupport 0 0 0
-WindowsMediaPlayerSupport 0 0 0
-AddToFavourites 0 11 0
 DirectorSupport 0 0 0
+AddToFavourites 0 15 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
 END_MISC
 
 # Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
 BEGIN_TIME 24
-0 0 0 0 36 47 49656
-1 0 0 0 38 47 48256
-2 0 2 182350 30 71 69941
-3 0 0 0 32 45 15334
-4 0 0 0 18 43 22796
-5 0 0 0 8 36 21293
-6 0 1 104561 19 109 260570
-7 0 1 172250 27 135 619441
-8 1 1 33890 62 124 56320
-9 1 2 327143 16 82 49136
-10 0 0 0 45 119 342630
-11 0 1 91547 19 79 46265
-12 0 0 0 32 121 392430
-13 0 0 0 9 62 924600
-14 0 0 0 18 27 10523
-15 0 0 0 59 77 22801
-16 0 0 0 37 42 43980
-17 0 0 0 20 24 75378
-18 0 1 293253 19 24 52828
-19 0 0 0 13 18 6234
-20 0 0 0 15 19 69496
-21 0 0 0 13 17 5750
-22 0 0 0 15 19 7981
-23 14 14 1057 15 21 42295
+0 0 0 0 45 56 51729
+1 0 0 0 47 60 52820
+2 0 2 182350 31 72 70236
+3 0 0 0 38 74 66108
+4 0 0 0 25 53 25775
+5 0 0 0 10 59 36461
+6 0 1 104561 23 116 263537
+7 0 2 172253 31 142 622868
+8 1 1 33890 63 127 57708
+9 1 2 327143 21 89 51579
+10 0 0 0 71 167 362429
+11 0 1 91547 26 96 87953
+12 0 0 0 37 127 394304
+13 13 13 384650 44 101 933424
+14 0 0 0 23 34 13396
+15 0 0 0 70 93 28622
+16 10 10 86399 44 54 50582
+17 116 116 3342394 26 31 78243
+18 7 8 760567 24 30 55005
+19 0 0 0 15 23 8611
+20 0 0 0 20 27 72766
+21 0 0 0 14 18 6045
+22 0 0 0 17 23 9963
+23 14 14 1057 19 26 43579
 END_TIME
 
 # Domain - Pages - Hits - Bandwidth
 # The 25 first Pages must be first (order not required for others)
-BEGIN_DOMAIN 3
-us 14 14 1057
+BEGIN_DOMAIN 4
+ma 133 133 3896107
+us 27 27 385707
 ge 2 2 67780
-ru 0 7 1137214
+ru 0 8 1137217
 END_DOMAIN
 
 # Cluster ID - Pages - Hits - Bandwidth
@@ -117,9 +118,10 @@ END_LOGIN
 
 # Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
 # The 25 first Hits must be first (order not required for others)
-BEGIN_ROBOT 2
+BEGIN_ROBOT 3
 Googlebot/ 44 2347558 20190314184314 0
-Baiduspider/ 7 237394 20190313171409 0
+Baiduspider/ 9 305203 20190317032339 0
+facebookexternalhit/ 1 1416 20190317170142 0
 END_ROBOT
 
 # Worm ID - Hits - Bandwidth - Last visit
@@ -138,30 +140,34 @@ BEGIN_EMAILRECEIVER 0
 END_EMAILRECEIVER
 
 # Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
-BEGIN_FILETYPES 2
+BEGIN_FILETYPES 4
 jpg 7 1137214 0 0
+txt 1 3 0 0
+php 146 4280757 0 0
 Unknown 16 68837 0 0
 END_FILETYPES
 
 # Downloads - Hits - Bandwidth
-BEGIN_DOWNLOADS 0
+BEGIN_DOWNLOADS 1
+/1.txt 1 0 3
 END_DOWNLOADS
 
 # OS ID - Hits
 BEGIN_OS ID - Hits - Pages 4
-win10 1 0
-win8 3 0
-Unknown 14 14
+win10 148 146
 win7 5 2
+Unknown 14 14
+win8 3 0
 END_OS
 
 # Browser ID - Hits - Pages
-BEGIN_BROWSER 5
-msie10.0 5 0
-chrome72.0.3626.121 2 2
-mozilla 7 7
+BEGIN_BROWSER 6
 chrome70.0.3538.102 2 0
+chrome72.0.3626.121 148 148
 Unknown 7 7
+chrome72.0.3626.119 1 0
+mozilla 7 7
+msie10.0 5 0
 END_BROWSER
 
 # Screen size - Hits
@@ -181,11 +187,11 @@ END_UNKNOWNREFERERBROWSER
 
 # Origin - Pages - Hits 
 BEGIN_ORIGIN 6
-From0 16 16
+From0 22 23
 From1 0 0
 From2 0 7
-From3 0 0
-From4 0 0
+From3 2 2
+From4 138 138
 From5 0 0
 END_ORIGIN
 
@@ -196,7 +202,8 @@ END_SEREFERRALS
 
 # External page referers - Pages - Hits
 # The 25 first Pages must be first (order not required for others)
-BEGIN_PAGEREFS 0
+BEGIN_PAGEREFS 1
+https://l.facebook.com 2 2
 END_PAGEREFS
 
 # Search keyphrases - Number of search
@@ -211,118 +218,133 @@ END_KEYWORDS
 
 # Errors - Hits - Bandwidth
 BEGIN_ERRORS 5
+403 191 26686
+404 910 631540
+409 17 1411
+301 500 110193
 406 11 2486
-301 391 88835
-404 788 546872
-403 141 18894
-409 15 1245
 END_ERRORS
 
 # URL with 404 errors - Hits - Last URL referrer
-BEGIN_SIDER_404 54
-/js/hpsum/hpsum-version.js 9 -
-/images 1 -
-/public/images/tours/big/135/1352.jpg 2 http://go.mail.ru/search_images
-/public/js/jquery-1.12.3.min.js 28 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
-/public/images/places/big/180.jpg 2 -
-/public/css/ion.rangeSlider.skinFlat.css 23 http://www.tripplanner.ge/tours/index/0/0/43
-/self_upgrade.html 1 -
-/wp-login.php 3 -
-/public/images/tours/big/311/3115.jpg 4 -
-/.well-known/autoconfig/mail/config-v1.1.xml 2 -
-/public/js/bootstrap.js 29 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
-/img/img/post/e48cf5e9a2bd46ef10189583c0675577/3d.htm 16 -
-/public/images/places/big/24.jpg 1 -
+BEGIN_SIDER_404 56
 /admin/images/cal_date_over.gif 1 -
-/public/css/fontawesome-stars.css 29 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
-/public/js/parallax.min.js 28 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
-/public/js/notify.js 28 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
-/templates/system/css/system.css 1 -
-/public/images/tours/big/64/64.jpg 1 -
-/invoice/Login/60a20d230ba6e30da1e9cd0a1086b9c5/Up-dating.php 1 -
-/public/js/bootstrap-datepicker.min.js 29 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
-/sapmc/sapmc.html 2 -
-/public/css/simple-sidebar.css 31 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
-/public/js/bootstrap-select.js 29 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
-/public/css/css-stars.css 30 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
-/public/images/tours/big/67/67.jpg 1 -
-/public/css/bootstrap-select.css 31 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
-/public/images/tours/big/65/65.jpg 1 -
-/public/images/tours/big/62/621.jpg 1 -
-/public/js/notify.min.js 29 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
-/public/images/places/big/34.jpg 2 http://go.mail.ru/search_images
-/public/css/site.css 17 http://tripplanner.ge/tours/full/54/Dashbashi-Canyon
-/public/images/tours/big/66/661.jpg 1 -
-/img/img/post/ 6 -
-/public/css/bootstrap-datepicker.min.css 29 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
-/blog_inside.html 1 -
-/public/js/jquery.barrating.min.js 30 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
-/public/css/font-awesome.min.css 32 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
-/maps/map.php 7 http://tripplanner.ge/tours/full/92/One-day-wine-tour-in-kakheti
-/invoice/Login/bfc4218eb70e54d0cb151a95c0f22096/Up-dating.php 4 -
-/robots.txt 110 -
-/header.php 2 -
-/img/img/post/e48cf5e9a2bd46ef10189583c0675577 1 https://yandex.ru/clck/jsredir
-/invoice/Login/f2cec57687bc6de3a6e2d34557b69a4c/Up-dating.php 3 -
-/public/css/ion.rangeSlider.css 27 http://tripplanner.ge/tours/index/0/0/288
-/properties/configuration.php 2 -
-/public/js/ammap.js 1 http://tripplanner.ge/
+/public/images/tours/big/135/1352.jpg 3 http://go.mail.ru/search_images
+/public/js/jquery.barrating.min.js 35 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
+/public/css/site.css 20 http://tripplanner.ge/tours/full/54/Dashbashi-Canyon
 /wordpress/wp-login.php 1 -
-/public/css/bootstrap.css 34 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
-/public/js/ion.rangeSlider.min.js 25 http://www.tripplanner.ge/tours/index/0/0/43
-/files/tours/2/index.php 3 -
-/public/larisome/font-larisome.min.css 32 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
-/public/css/site.min.css 23 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
+/public/css/site.min.css 27 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
+/public/css/font-awesome.min.css 36 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
+/public/js/ion.rangeSlider.min.js 29 http://www.tripplanner.ge/tours/index/0/0/43
+/img/img/post/e48cf5e9a2bd46ef10189583c0675577/3d.htm 18 -
+/admin.php 1 -
+/public/js/bootstrap-datepicker.min.js 33 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
+/public/js/notify.js 33 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
 /admin/login.php 1 -
+/public/js/bootstrap-select.js 32 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
+/js/hpsum/hpsum-version.js 9 -
+/properties/configuration.php 2 -
+/public/css/fontawesome-stars.css 33 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
+/public/js/bootstrap.js 32 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
+/img/img/post/e48cf5e9a2bd46ef10189583c0675577 1 https://yandex.ru/clck/jsredir
+/public/css/bootstrap.css 39 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
+/public/css/simple-sidebar.css 35 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
+/public/css/css-stars.css 35 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
+/wp-login.php 3 -
+/self_upgrade.html 1 -
+/public/css/bootstrap-select.css 34 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
+/public/images/places/big/34.jpg 2 http://go.mail.ru/search_images
+/public/images/tours/big/311/3115.jpg 4 -
+/files/tours/2/index.php 3 -
+/public/images/tours/big/62/621.jpg 1 -
+/header.php 2 -
+/public/js/ammap.js 1 http://tripplanner.ge/
+/public/css/bootstrap-datepicker.min.css 31 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
+/public/images/places/big/180.jpg 2 -
+/sapmc/sapmc.html 2 -
+/public/images/tours/big/65/65.jpg 1 -
+/images 1 -
+/templates/system/css/system.css 1 -
+/invoice/Login/f2cec57687bc6de3a6e2d34557b69a4c/Up-dating.php 3 -
+/public/images/tours/big/64/64.jpg 1 -
+/public/js/notify.min.js 33 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
+/public/images/tours/big/66/661.jpg 1 -
+/public/css/ion.rangeSlider.css 31 http://tripplanner.ge/tours/index/0/0/288
+/public/images/tours/big/67/67.jpg 1 -
+/img/img/post/ 7 -
+/public/js/jquery-1.12.3.min.js 31 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
+/maps/map.php 8 http://tripplanner.ge/tours/full/92/One-day-wine-tour-in-kakheti
+/invoice/Login/bfc4218eb70e54d0cb151a95c0f22096/Up-dating.php 4 -
+/robots.txt 144 -
+/public/larisome/font-larisome.min.css 34 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
+/public/js/parallax.min.js 33 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
+/.well-known/autoconfig/mail/config-v1.1.xml 2 -
+/blog_inside.html 1 -
+/invoice/Login/60a20d230ba6e30da1e9cd0a1086b9c5/Up-dating.php 1 -
+/public/images/places/big/116.jpg 1 http://go.mail.ru/search_images
+/public/css/ion.rangeSlider.skinFlat.css 28 http://www.tripplanner.ge/tours/index/0/0/43
+/public/images/places/big/24.jpg 1 -
 END_SIDER_404
 
 # Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
 # [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
 # The 25 first Hits must be first (order not required for others)
-BEGIN_VISITOR 10
+BEGIN_VISITOR 15
+41.250.155.0 89 89 1702671 20190317171838
+105.154.44.88 31 31 795450 20190317173845
+105.159.244.13 13 13 1397986 20190317181036
+35.180.48.175 13 13 384650 20190316133501
 192.254.186.169 11 11 796 20190313231040
 66.133.109.36 3 3 261 20190313231040
 94.240.245.46 2 2 67780 20190307084915
 109.173.58.50 0 1 172250 
-37.145.10.63 0 1 91547 
-93.80.129.106 0 1 77789 
-5.228.32.205 0 1 293253 
 128.74.163.149 0 1 104561 
-188.32.144.32 0 1 293253 
+93.80.129.106 0 1 77789 
 5.3.235.33 0 1 104561 
+188.32.144.32 0 1 293253 
+5.228.32.205 0 1 293253 
+185.189.112.229 0 1 3 
+37.145.10.63 0 1 91547 
 END_VISITOR
 
 # Date - Pages - Hits - Bandwidth - Visits
-BEGIN_DAY 6
+BEGIN_DAY 8
 20190304 0 1 91547 0
 20190306 1 2 327143 1
 20190307 1 2 327143 1
 20190313 14 15 173307 2
 20190314 0 2 209122 0
 20190315 0 1 77789 0
+20190316 13 14 384653 1
+20190317 133 133 3896107 3
 END_DAY
 
 # Session range - Number of visits
-BEGIN_SESSION 1
+BEGIN_SESSION 4
+15mn-30mn 2
 0s-30s 4
+2mn-5mn 1
+30mn-1h 1
 END_SESSION
 
 # URL - Pages - Bandwidth - Entry - Exit
 # The 25 first Pages must be first (order not required for others)
-BEGIN_SIDER 15
+BEGIN_SIDER 18
+/dr.php 144 4278362 4 4
 /cpanel 2 67780 2 2
-/.well-known/acme-challenge/TBYYGY01SJ761T75J7SWQI6-Y8YFMF3_ 1 64 0 0
-/.well-known/acme-challenge/9XTUQO4OHCN7T7SPAUY8T2EUQ-JU9W9W 1 64 1 0
-/.well-known/acme-challenge/6K-TuF9HrMRCfRAGb1h-QY2fJHzcooK9GrzBe1Y6goE 1 87 0 0
-/.well-known/acme-challenge/prupH7Wt7q4G340FaNcTfG9oCqhwjwSezGpoXJqmkCE 1 87 0 0
-/.well-known/acme-challenge/KDUQA-D2-0FKIODDSR09VBMP9VGP-359 1 64 0 0
-/.well-known/acme-challenge/JKI2URXKDBJNE1-E4RKJH5618R39EI1N 1 64 0 0
-/.well-known/acme-challenge/xy52_IN-u6xECdZ5P9PQWrP9qKRXMYD5Ts2EWWHi3zA 1 87 0 1
-/.well-known/acme-challenge/APPVB91X-UPAPOXHV-95TBIP1T0P3QMT 1 64 0 0
-/.well-known/acme-challenge/4OYDJZ888XD8Y9PNR38WVBQIIR3865_M 1 64 0 0
-/.well-known/acme-challenge/VEZGKGCCYK1Q1KD9B-ON387B-ZMYA88F 1 64 0 0
-/.well-known/acme-challenge/DJXTrRHLu8bMA8MHgBZcDXOm-VAPzGcYAU1bKuywvm8 1 87 1 0
-/.well-known/acme-challenge/ZsGE26PfhEdS0hlsLT972sMlJpbSRmnFDaKy8cMMdls 1 87 0 1
 /.well-known/acme-challenge/AYKrjuClNd1r_B_nh1PWrZgSDBhwkw-sjUd1YU_wrLE 1 87 0 0
+/.well-known/acme-challenge/VEZGKGCCYK1Q1KD9B-ON387B-ZMYA88F 1 64 0 0
+/.well-known/acme-challenge/JKI2URXKDBJNE1-E4RKJH5618R39EI1N 1 64 0 0
+/.well-known/acme-challenge/ZsGE26PfhEdS0hlsLT972sMlJpbSRmnFDaKy8cMMdls 1 87 0 1
+/.well-known/acme-challenge/APPVB91X-UPAPOXHV-95TBIP1T0P3QMT 1 64 0 0
+/.well-known/acme-challenge/KDUQA-D2-0FKIODDSR09VBMP9VGP-359 1 64 0 0
+/.well-known/acme-challenge/6K-TuF9HrMRCfRAGb1h-QY2fJHzcooK9GrzBe1Y6goE 1 87 0 0
+/dir.php 1 30 0 0
+/.well-known/acme-challenge/DJXTrRHLu8bMA8MHgBZcDXOm-VAPzGcYAU1bKuywvm8 1 87 1 0
 /.well-known/acme-challenge/Bk66CjkYWz0LAwa4jdt40nYAk8JblCohVKLesvsGJcs 1 87 0 0
+/.well-known/acme-challenge/TBYYGY01SJ761T75J7SWQI6-Y8YFMF3_ 1 64 0 0
+/.well-known/acme-challenge/prupH7Wt7q4G340FaNcTfG9oCqhwjwSezGpoXJqmkCE 1 87 0 0
+/.well-known/acme-challenge/xy52_IN-u6xECdZ5P9PQWrP9qKRXMYD5Ts2EWWHi3zA 1 87 0 1
+/export.php 1 2365 0 0
+/.well-known/acme-challenge/9XTUQO4OHCN7T7SPAUY8T2EUQ-JU9W9W 1 64 1 0
+/.well-known/acme-challenge/4OYDJZ888XD8Y9PNR38WVBQIIR3865_M 1 64 0 0
 END_SIDER

