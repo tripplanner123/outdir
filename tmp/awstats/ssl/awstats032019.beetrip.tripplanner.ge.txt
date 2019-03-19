@@ -9,32 +9,32 @@ AWSTATS DATA FILE 7.6 (build 20161204)
 BEGIN_MAP 28
 POS_GENERAL 2027                
 POS_TIME 2698                
-POS_VISITOR 8874                
-POS_DAY 11422               
-POS_DOMAIN 3493                
-POS_LOGIN 3874                
-POS_ROBOT 4029                
-POS_WORMS 4503                
-POS_EMAILSENDER 4634                
-POS_EMAILRECEIVER 4777                
-POS_SESSION 11907               
-POS_SIDER 12091               
-POS_FILETYPES 4912                
-POS_DOWNLOADS 5178                
-POS_OS 5226                
-POS_BROWSER 5497                
-POS_SCREENSIZE 6178                
-POS_UNKNOWNREFERER 6252                
-POS_UNKNOWNREFERERBROWSER 6411                
-POS_ORIGIN 6565                
-POS_SEREFERRALS 6705                
-POS_PAGEREFS 6917                
-POS_SEARCHWORDS 7225                
-POS_KEYWORDS 7404                
+POS_VISITOR 9017                
+POS_DAY 11732               
+POS_DOMAIN 3500                
+POS_LOGIN 3900                
+POS_ROBOT 4055                
+POS_WORMS 4570                
+POS_EMAILSENDER 4701                
+POS_EMAILRECEIVER 4844                
+POS_SESSION 12244               
+POS_SIDER 12428               
+POS_FILETYPES 4979                
+POS_DOWNLOADS 5246                
+POS_OS 5294                
+POS_BROWSER 5565                
+POS_SCREENSIZE 6273                
+POS_UNKNOWNREFERER 6347                
+POS_UNKNOWNREFERERBROWSER 6506                
+POS_ORIGIN 6660                
+POS_SEREFERRALS 6802                
+POS_PAGEREFS 7014                
+POS_SEARCHWORDS 7322                
+POS_KEYWORDS 7501                
 POS_MISC 2361                
-POS_ERRORS 7490                
-POS_CLUSTER 3730                
-POS_SIDER_404 7637                
+POS_ERRORS 7587                
+POS_CLUSTER 3756                
+POS_SIDER_404 7744                
 END_MAP
 
 # LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
@@ -46,28 +46,28 @@ END_MAP
 # MonthHostsKnown   = Number of hosts known
 # MonthHostsUnKnown = Number of hosts unknown
 BEGIN_GENERAL 8
-LastLine 20190318041529 530 155250 18091876887478
+LastLine 20190319033948 387 108229 15953914855471
 FirstTime 0
-LastTime 20190318041528
-LastUpdate 20190318041944 530 0 530 0 0
-TotalVisits 97                  
-TotalUnique 58                  
+LastTime 20190319033942
+LastUpdate 20190319044116 387 0 387 0 0
+TotalVisits 107                 
+TotalUnique 61                  
 MonthHostsKnown 0                   
-MonthHostsUnknown 63                  
+MonthHostsUnknown 66                  
 END_GENERAL
 
 # Misc ID - Pages - Hits - Bandwidth
 BEGIN_MISC 10
-DirectorSupport 0 0 0
-AddToFavourites 0 14 0
 WindowsMediaPlayerSupport 0 0 0
-RealPlayerSupport 0 0 0
-QuickTimeSupport 0 0 0
-PDFSupport 0 0 0
 TotalMisc 0 0 0
-FlashSupport 0 0 0
 JavaEnabled 0 0 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 15 0
+RealPlayerSupport 0 0 0
 JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
 END_MISC
 
 # Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
@@ -75,43 +75,44 @@ BEGIN_TIME 24
 0 18 57 1918368 6 7 117075
 1 1 5 87645 7 9 189010
 2 37 146 4530079 12 14 195262
-3 115 560 11337450 33 42 121670
-4 73 309 7699610 13 39 260196
-5 75 331 10188389 52 58 858761
+3 120 595 12818121 37 48 168917
+4 118 488 13565632 13 41 262040
+5 92 376 12857174 52 60 1229530
 6 29 145 5495296 21 31 259614
-7 111 431 14374482 21 31 304303
-8 71 189 7931539 110 143 4161177
-9 8 70 3719442 7 9 83758
+7 122 481 16168856 25 36 318132
+8 76 199 8374090 117 151 4485502
+9 8 70 3719442 8 11 93066
 10 6 20 1184968 27 31 295808
-11 6 18 500171 7 21 353293
-12 3 3 108232 15 34 553227
+11 12 48 1778754 7 21 353293
+12 3 3 108232 16 35 561545
 13 18 76 1712869 18 24 324966
 14 19 85 1786432 4 9 134257
 15 1 2 13872 11 12 252397
-16 1 1 6917 15 18 187665
-17 1 20 1132733 19 25 243611
+16 2 2 12827 16 23 261495
+17 1 20 1132733 20 26 243903
 18 9 9 62241 10 13 113501
-19 4 4 27660 11 25 460279
-20 2 2 57616 30 36 338584
-21 3 15 372753 12 12 234147
+19 5 5 33571 11 25 460279
+20 2 2 57616 31 37 385161
+21 3 15 372753 13 15 282976
 22 0 0 0 8 9 98809
 23 7 30 1350059 10 14 100865
 END_TIME
 
 # Domain - Pages - Hits - Bandwidth
 # The 25 first Pages must be first (order not required for others)
-BEGIN_DOMAIN 11
-ge 472 2176 62658007
-us 104 211 7008673
+BEGIN_DOMAIN 12
+ge 549 2468 73328200
+us 111 223 7463045
 cn 14 14 665679
 dk 8 8 275601
 ru 6 59 2287747
+nl 5 27 1234409
 et 4 26 1319959
 ua 4 26 1283971
 ca 3 3 20746
-nl 1 3 20826
-fr 1 1 6914
+ph 3 23 1204659
 gb 1 1 50700
+fr 1 1 6914
 END_DOMAIN
 
 # Cluster ID - Pages - Hits - Bandwidth
@@ -125,15 +126,16 @@ END_LOGIN
 
 # Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
 # The 25 first Hits must be first (order not required for others)
-BEGIN_ROBOT 9
-YandexBot/ 206 1874662 20190317204006 0
-spider 99 3848916 20190317080630 0
-Googlebot/ 51 781094 20190311185305 0
-bot[\s_+:,\.\;\/\\-] 48 2433260 20190316043636 0
+BEGIN_ROBOT 10
+YandexBot/ 209 1893152 20190318211220 0
+spider 106 4172547 20190318080827 0
+Googlebot/ 54 853938 20190318163552 0
+bot[\s_+:,\.\;\/\\-] 51 2572991 20190319032428 0
 no_user_agent 22 146055 20190316073043 0
 java 17 4207 20190311232133 0
 YandexMobileBot/ 14 424375 20190311193043 0
 YandexImages/ 2 21733 20190315103924 0
+Mail\.RU_Bot/ 1 11053 20190318071913 0
 curl 1 0 20190318031904 0
 END_ROBOT
 
@@ -154,16 +156,16 @@ END_EMAILRECEIVER
 
 # Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
 BEGIN_FILETYPES 10
-js 700 21284755 0 0
-svg 372 1561518 0 0
-png 108 381792 0 0
-html 246 2951008 0 0
-Unknown 252 4042290 0 0
-css 695 20820286 0 0
-jpg 35 20461154 0 0
-woff 94 3938540 0 0
+jpg 42 26629326 0 0
+Unknown 286 4430780 0 0
+woff 105 4496024 0 0
+css 778 23695370 0 0
+js 803 24291462 0 0
+html 291 3217261 0 0
+svg 424 1781878 0 0
 ttf 1 112160 0 0
-woff2 25 45320 0 0
+png 123 439989 0 0
+woff2 26 47380 0 0
 END_FILETYPES
 
 # Downloads - Hits - Bandwidth
@@ -173,56 +175,57 @@ END_DOWNLOADS
 # OS ID - Hits
 BEGIN_OS ID - Hits - Pages 15
 linux 6 3
-macosx12 12 12
-macosx10 3 3
-linuxubuntu 26 4
-win8 25 3
+macosx12 13 13
+win7 1531 379
 linuxandroid 53 8
+ios_ipad 2 2
+macosx11 14 14
+winxp 5 1
+Unknown 14 14
 ios_iphone 1 1
 win8.1 85 17
-win7 1457 361
-win10 566 130
-macosx 260 46
-Unknown 13 13
-macosx11 14 14
-ios_ipad 2 2
-winxp 5 1
+macosx 287 51
+linuxubuntu 26 4
+win10 814 196
+macosx10 3 3
+win8 25 3
 END_OS
 
 # Browser ID - Hits - Pages
-BEGIN_BROWSER 32
-android 1 1
-chrome71.0.3578.98 40 6
-opera54.0.2952.71 8 8
-chrome52.0.2743.116 1 1
-firefox11.0 4 0
-opera38.0.2220.41 1 1
-chrome72.0.3626.119 844 171
-safari12.0.3 8 2
+BEGIN_BROWSER 33
 chrome72.0.3626.105 1 0
-safari12.0.2 229 42
-chrome71.0.3578.80 1 1
-msie6.0 1 1
-firefox49.0 1 1
-msie11.0 2 2
-msie10.0 24 2
-safari10.0 1 1
-chrome61.0.3163.100 12 12
-mozilla 3 0
-safari6.0 2 2
-chrome72.0.3626.121 1093 257
-firefox64.0 4 4
-chrome60.0.3112.101 1 1
-msie9.0 168 66
-firefox59.0 1 1
-firefox47.0 13 13
 chrome49.0.2623.75 2 1
-Unknown 13 13
 chrome54.0.2840.98 1 1
-chrome57.0.2987.108 25 3
-chrome35.0.1916.153 1 1
-chrome53.0.2785.116 2 2
+msie11.0 2 2
+mozilla 3 0
+firefox59.0 1 1
+safari6.0 2 2
 chrome70.0.3538.102 20 1
+chrome71.0.3578.80 1 1
+chrome72.0.3626.119 844 171
+chrome52.0.2743.116 1 1
+firefox64.0 27 7
+safari12.0.3 12 4
+msie6.0 1 1
+safari10.0 1 1
+firefox47.0 13 13
+Unknown 14 14
+chrome53.0.2785.116 2 2
+chrome60.0.3112.101 1 1
+opera38.0.2220.41 1 1
+firefox11.0 4 0
+chrome61.0.3163.100 13 13
+chrome35.0.1916.153 1 1
+chrome68.0.3440.106 24 4
+opera54.0.2952.71 8 8
+chrome71.0.3578.98 40 6
+safari12.0.2 229 42
+android 1 1
+chrome57.0.2987.108 25 3
+chrome72.0.3626.121 1381 332
+msie9.0 178 71
+firefox49.0 1 1
+msie10.0 24 2
 END_BROWSER
 
 # Screen size - Hits
@@ -232,30 +235,30 @@ END_SCREENSIZE
 # Unknown referer OS - Last visit date
 BEGIN_UNKNOWNREFERER 2
 python-requests/2.19.1 20190312134439
-Go-http-client/2.0 20190317000656
+Go-http-client/2.0 20190318194948
 END_UNKNOWNREFERER
 
 # Unknown referer Browser - Last visit date
 BEGIN_UNKNOWNREFERERBROWSER 2
-Go-http-client/2.0 20190317000656
 python-requests/2.19.1 20190312134439
+Go-http-client/2.0 20190318194948
 END_UNKNOWNREFERERBROWSER
 
 # Origin - Pages - Hits 
 BEGIN_ORIGIN 6
-From0 88 97
+From0 103 113
 From1 0 0
-From2 73 175
+From2 80 187
 From3 5 5
-From4 452 2251
+From4 521 2574
 From5 0 0
 END_ORIGIN
 
 # Search engine referers ID - Pages - Hits
 BEGIN_SEREFERRALS 4
-www_google_com_et 1 1
-www_google_com 67 169
+www_google_com 74 181
 yandexru 4 4
+www_google_com_et 1 1
 aolcom 1 1
 END_SEREFERRALS
 
@@ -270,125 +273,130 @@ END_PAGEREFS
 # Search keyphrases - Number of search
 # The 10 first number of search must be first (order not required for others)
 BEGIN_SEARCHWORDS 2
-www.beetrip.ge 1
 beetrip 1
+www.beetrip.ge 1
 END_SEARCHWORDS
 
 # Search keywords - Number of search
 # The 25 first number of search must be first (order not required for others)
 BEGIN_KEYWORDS 2
-www.beetrip.ge 1
 beetrip 1
+www.beetrip.ge 1
 END_KEYWORDS
 
 # Errors - Hits - Bandwidth
-BEGIN_ERRORS 6
-301 28 4852
-406 19 4294
-401 2 190
-404 138 117309
+BEGIN_ERRORS 7
 302 3 60
-206 2 565128
+206 4 935897
+401 2 190
+404 147 123555
+406 19 4294
+301 30 5436
+403 5 670
 END_ERRORS
 
 # URL with 404 errors - Hits - Last URL referrer
-BEGIN_SIDER_404 23
-/%E2%80%9C/ge/badmin/sitemap/edit/%E2%80%9Chttps:/beetrip.ge%E2%80%9C%E2%80%9C 1 -
-/it.php 6 https://yandex.ru/clck/jsredir
-/_website/plugins/swiper-4.1.6/js/swiper.min.js.map 34 -
+BEGIN_SIDER_404 24
 /en/privacy-policy 1 -
-/admin/images/cal_date_over.gif 1 -
-/admin/login.php 1 -
 /apple-touch-icon.png 1 -
-/ge/privacy-policy 1 -
-/pay1.php 1 https://yandex.ru/clck/jsredir
-/wp-readme.php 1 https://yandex.ru/clck/jsredir
+/_website/_website/img/logo.png 1 -
 /_website/img/trip_3.jpg 1 https://beetrip.ge/ru/ongoing-tours
+/admin/login.php 1 -
+/robots.txt 67 -
+/ge/privacy-policy 1 -
+/th1s_1s_a_4o4.html 17 -
+/.well-known/assetlinks.json 1 -
+/apple-touch-icon-precomposed.png 1 -
+/it.php 6 https://yandex.ru/clck/jsredir
+/_website/img/trip_1.jpg 1 https://beetrip.ge/ru/ongoing-tours
+/_website/plugins/swiper-4.1.6/js/swiper.min.js.map 37 -
+/_website/img/trip_2.jpg 1 https://beetrip.ge/ru/ongoing-tours
+/fckeditor/editor/filemanager/connectors/php/upload.php 1 -
+/pay1.php 1 https://yandex.ru/clck/jsredir
+/admin/images/cal_date_over.gif 1 -
+/%E2%80%9C/ge/badmin/sitemap/edit/%E2%80%9Chttps:/beetrip.ge%E2%80%9C%E2%80%9C 1 -
 /_website/img/trip_4.jpg 1 https://beetrip.ge/ru/ongoing-tours
 /<a%20href= 1 -
-/_website/img/trip_2.jpg 1 https://beetrip.ge/ru/ongoing-tours
-/robots.txt 63 -
-/apple-touch-icon-precomposed.png 1 -
-/_website/img/trip_1.jpg 1 https://beetrip.ge/ru/ongoing-tours
-/th1s_1s_a_4o4.html 16 -
-/ru/privacy-policy 1 -
-/fckeditor/editor/filemanager/connectors/php/upload.php 1 -
-/.well-known/assetlinks.json 1 -
 /templates/system/css/system.css 1 -
+/ru/privacy-policy 1 -
+/wp-readme.php 1 https://yandex.ru/clck/jsredir
 /en/recover-password 1 -
 END_SIDER_404
 
 # Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
 # [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
 # The 25 first Hits must be first (order not required for others)
-BEGIN_VISITOR 63
-94.240.245.46 293 1287 31927127 20190318033708 20190318032730 /ge/cart
+BEGIN_VISITOR 66
+94.240.245.46 306 1351 33976459 20190319032512 20190319032443 /ge/transfers
+91.184.99.1 79 284 10605199 20190318052939
 91.184.100.1 69 247 9161935 20190312074245
-188.169.161.146 44 238 3229679 20190318041528 20190318030609 /en/transfers
+188.169.161.146 49 265 4522401 20190318073725
 5.178.220.233 30 222 10731396 20190304104001
-91.184.99.1 20 83 3277060 20190314070713
+184.154.36.176 22 53 2156721 20190318080824
 184.154.36.174 20 51 2225549 20190316080839
-184.154.36.176 17 43 1714170 20190312080940
 60.191.38.77 13 13 658764 20190317125801
 184.154.36.172 12 32 1324098 20190315080244
 184.154.36.175 9 22 832529 20190311080120
-184.154.36.173 8 20 627067 20190317080625
 195.181.172.66 8 8 275601 20190312020744
+184.154.36.173 8 20 627067 20190317080625
 52.53.201.78 7 7 48412 20190318021431
 91.184.101.2 7 43 1768529 20190314071253
+13.57.233.99 6 6 40490 20190318161509
 95.104.121.218 5 29 1297379 20190316051626
-13.57.233.99 5 5 34580 20190315112415
-94.100.237.122 4 26 1257947 20190308025535
+80.113.17.34 4 24 1213583 20190318071139
 194.44.109.122 4 26 1283971 20190316234734
+94.100.237.122 4 26 1257947 20190308025535
 197.156.86.251 4 26 1319959 20190314091058
-54.191.79.47 1 1 6915 20190304213549
-34.212.23.147 1 1 6916 20190302205513
-199.30.231.2 1 1 6916 20190316234836
-54.201.52.228 1 1 6916 20190304184927
-18.237.241.193 1 1 6916 20190306183714
-198.59.178.107 1 1 6915 20190315000353
-66.249.81.73 0 2 13910 
-35.161.30.93 1 1 6918 20190308183748
-192.99.15.139 1 1 6915 20190304183417
-54.244.62.164 1 1 6916 20190304185821
-185.30.176.26 0 1 6955 
-91.206.14.10 1 1 6917 20190306154639
-64.246.165.190 1 1 6915 20190311114805
-38.130.176.107 1 1 6917 20190315001025
-94.19.150.216 1 1 50700 20190303235010
-66.102.9.137 1 2 8472 20190316234838
-38.130.164.40 1 1 6914 20190315000952
-109.236.82.128 1 1 6916 20190304021434
-38.130.172.74 1 1 6915 20190315001010
-66.249.81.71 0 2 13910 
-52.12.29.38 1 1 6915 20190315195240
-93.80.36.247 1 20 1132733 20190304170108
+122.55.94.34 3 23 1204659 20190319033942 20190319033929 /_website/font-awesome/fonts/fontawesome-webfont.woff
 54.153.69.197 1 1 0 20190302104414
-34.249.231.190 1 1 6916 20190307051706
-176.15.231.136 1 13 358924 20190304213846
-192.99.15.141 1 1 6917 20190317044142
-23.27.153.169 1 1 6917 20190315000916
-185.30.176.27 0 1 6955 
-145.239.209.12 1 1 50700 20190310103203
+38.130.176.107 1 1 6917 20190315001025
+38.130.164.40 1 1 6914 20190315000952
+18.237.52.165 1 1 6915 20190310193733
 192.99.15.55 1 1 6914 20190304210549
 54.214.229.35 1 1 6915 20190303184754
-128.72.24.255 1 11 360366 20190303041053
+52.89.169.103 1 1 5911 20190318194948
+198.59.178.107 1 1 6915 20190315000353
+18.237.241.193 1 1 6916 20190306183714
+91.206.14.10 1 1 6917 20190306154639
+54.202.9.128 1 1 6917 20190317000656
 176.193.90.61 1 13 378107 20190308113553
-18.237.52.165 1 1 6915 20190310193733
+54.187.108.20 1 1 6916 20190311193957
+185.30.176.27 0 1 6955 
+185.30.176.26 0 1 6955 
+35.161.30.93 1 1 6918 20190308183748
+54.244.62.164 1 1 6916 20190304185821
+38.130.187.65 1 1 6916 20190315000538
+34.249.231.190 1 1 6916 20190307051706
 54.149.225.164 1 1 6915 20190308185154
+34.212.23.147 1 1 6916 20190302205513
+192.99.15.139 1 1 6915 20190304183417
+54.191.79.47 1 1 6915 20190304213549
+176.15.231.136 1 13 358924 20190304213846
 206.206.103.215 1 1 6915 20190315000655
+128.72.24.255 1 11 360366 20190303041053
+66.249.81.73 0 2 13910 
+52.12.29.38 1 1 6915 20190315195240
+145.239.209.12 1 1 50700 20190310103203
+38.130.172.74 1 1 6915 20190315001010
+66.102.9.137 1 2 8472 20190316234838
+66.249.81.71 0 2 13910 
+23.27.153.169 1 1 6917 20190315000916
 91.121.222.157 1 1 6914 20190308195121
 94.43.81.240 0 1 6955 
-38.130.164.66 1 1 6914 20190315001000
-54.187.108.20 1 1 6916 20190311193957
-60.24.14.0 1 1 6915 20190312134439
-54.202.9.128 1 1 6917 20190317000656
-38.130.187.65 1 1 6916 20190315000538
+54.201.52.228 1 1 6916 20190304184927
+94.19.150.216 1 1 50700 20190303235010
 206.206.102.55 1 1 6916 20190315000624
+93.80.36.247 1 20 1132733 20190304170108
+199.30.231.2 1 1 6916 20190316234836
+192.99.15.141 1 1 6917 20190317044142
+38.130.164.66 1 1 6914 20190315001000
+109.236.82.128 1 1 6916 20190304021434
+60.24.14.0 1 1 6915 20190312134439
+64.246.165.190 1 1 6915 20190311114805
 END_VISITOR
 
 # Date - Pages - Hits - Bandwidth - Visits
-BEGIN_DAY 17
+BEGIN_DAY 18
 20190302 107 443 11267061 5
 20190303 12 53 1744923 5
 20190304 66 362 15441102 16
@@ -405,52 +413,54 @@ BEGIN_DAY 17
 20190315 36 103 2426325 15
 20190316 96 408 10853841 7
 20190317 9 15 469167 4
-20190318 97 481 9593981 3
+20190318 183 797 21656117 11
+20190319 5 35 1480671 2
 END_DAY
 
 # Session range - Number of visits
 BEGIN_SESSION 5
-30mn-1h 4
-5mn-15mn 1
-30s-2mn 4
-1h+ 5
-0s-30s 81
+30mn-1h 5
+0s-30s 87
+30s-2mn 5
+5mn-15mn 2
+1h+ 6
 END_SESSION
 
 # URL - Pages - Bandwidth - Entry - Exit
 # The 25 first Pages must be first (order not required for others)
-BEGIN_SIDER 33
-/ 149 2938908 82 61
-/en/ 68 7887 1 1
-/en/cart 58 643717 0 1
-/_website/font-awesome/fonts/fontawesome-webfont.woff 54 2945340 0 1
-/ge/cart 48 630911 2 2
-/en/transfers 34 468161 1 2
+BEGIN_SIDER 34
+/ 176 3203107 89 68
+/en/ 86 9941 1 1
+/en/cart 62 685260 0 1
+/_website/font-awesome/fonts/fontawesome-webfont.woff 61 3403504 0 1
+/ge/cart 49 641235 2 3
+/en/transfers 41 529606 1 2
+/ge/transfers 37 456794 9 2
 /ge/ 29 4213 0 0
-/ge/transfers 28 377259 6 1
-/_website/styles/fonts/fonts/Lari.woff2 25 45320 0 2
-/_website/styles/fonts/fonts/HelveticaNeueLTGEOW82-45Lt-Regular.woff 20 716320 0 0
-/_website/styles/fonts/fonts/NotoSansGeorgian.woff 20 276880 0 1
-/en/profile 15 82624 0 1
-/en/home 14 224084 2 5
-/ge/home 10 309659 1 0
+/_website/styles/fonts/fonts/Lari.woff2 26 47380 0 2
+/_website/styles/fonts/fonts/HelveticaNeueLTGEOW82-45Lt-Regular.woff 22 787952 0 0
+/_website/styles/fonts/fonts/NotoSansGeorgian.woff 22 304568 0 1
+/en/home 19 299411 2 5
+/en/profile 17 95307 0 1
+/ge/home 14 383664 1 0
 /ge/profile 9 85805 0 2
 /en/favourite-asked-questions 6 181530 0 2
 /ru/home 5 264190 0 2
 /en/terms-conditions2 4 148208 0 0
 /ge/favourite-asked-questions 4 138508 0 1
-/ru/transfers 2 136620 0 1
-/ru/terms-conditions2 2 90726 0 1
-/en/feedback 2 33514 0 1
+/ge/feedback 2 35039 0 1
 /en 2 12820 0 0
-/ru/favourite-asked-questions 1 32285 0 1
-/ru/ongoing-tours 1 7762 1 1
-/en/about 1 27972 0 0
-/ru/cart 1 12219 0 0
-/ge/feedback 1 29619 0 1
-/ge/terms-conditions2 1 54782 0 1
-/en/ongoing-tours/djip-turiabudelaurisferadtbebze/389 1 9653 1 1
-/_website/font-awesome/fonts/fontawesome-webfont.ttf 1 112160 0 1
-/ge/about 1 32175 0 1
+/ru/terms-conditions2 2 90726 0 1
+/ru/transfers 2 136620 0 1
+/en/feedback 2 33514 0 1
 /ge 1 7487 0 0
+/ge/about 1 32175 0 1
+/ru/ongoing-tours 1 7762 1 1
+/ru/favourite-asked-questions 1 32285 0 1
+/en/ongoing-tours/djip-turiabudelaurisferadtbebze/389 1 9653 1 1
+/ru/cart 1 12219 0 0
+/ru/about 1 28208 0 1
+/_website/font-awesome/fonts/fontawesome-webfont.ttf 1 112160 0 1
+/en/about 1 27972 0 0
+/ge/terms-conditions2 1 54782 0 1
 END_SIDER

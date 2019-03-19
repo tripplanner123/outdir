@@ -2274,3 +2274,61 @@ clear
 cd ../
 #1552985135
 git status
+#1552985147
+git add .
+#1552985236
+git commit -m "maybe hackers files exists"
+#1552985248
+git push origin master
+#1552986750
+cd public_html
+#1552986752
+ls
+#1552986757
+git status
+#1552986765
+cd ../beetrip.ge
+#1552986766
+ls
+#1552986770
+git status
+#1552986773
+cd ../
+#1552986775
+git status
+#1552986790
+exit
+#1552994643
+git status
+#1552994697
+cd public_html
+#1552994700
+git status
+#1552994712
+git diff error_log
+#1552994776
+git add .
+#1552994790
+git commit -m "fix some bugs"
+#1552994797
+git push origin master
+#1552994816
+cd ../
+#1552994821
+cd beetrip.ge
+#1552994824
+git status
+#1552994827
+cd ../
+#1552997035
+cd public_html
+#1552997037
+git status
+#1552997044
+git diff index.php
+#1552997052
+exitr
+#1552997054
+exit
+#1553001168
+git status
