@@ -2332,3 +2332,109 @@ exitr
 exit
 #1553001168
 git status
+#1553001180
+git add .
+#1553001197
+git commit -m "mail & temp"
+#1553001203
+git push origin master
+#1553001222
+cd public_html
+#1553001225
+git status
+#1553001233
+git diff index.php
+#1553001237
+git add .
+#1553001246
+git commit -m "change ip"
+#1553001254
+git push origin master
+#1553001275
+cd ../beetrip.ge
+#1553001278
+git status
+#1553001281
+cd ../
+#1553001284
+exit
+#1553004172
+cd public_html
+#1553004176
+git status
+#1553004191
+git status
+#1553004217
+git status
+#1553004234
+git status
+#1553004707
+git staus
+#1553004712
+cd ../
+#1553004716
+cd beetrip.ge
+#1553004720
+git status
+#1553006228
+git status
+#1553006236
+cd ../public_html
+#1553006239
+git status
+#1553006502
+grep -rl "move_" *
+#1553006810
+exit
+#1553070553
+git status
+#1553070586
+cd public_html
+#1553070590
+git status
+#1553070603
+cd ../
+#1553070607
+cd beetrip.ge
+#1553070610
+git sttus
+#1553070616
+git satus
+#1553070624
+git status
+#1553070635
+git diff error_log
+#1553070874
+cd ../
+#1553070876
+exit
+#1553075941
+php -v
+#1553076966
+cd public_html
+#1553076972
+git status
+#1553076993
+git add .
+#1553077009
+git commit -m "php7 & back tinymce"
+#1553077018
+git push origin master
+#1553077040
+cd ../
+#1553077044
+cd beetrip.ge
+#1553077049
+git status
+#1553077064
+git add .
+#1553077074
+git commit -m "php7"
+#1553077081
+git push origin master
+#1553077152
+cd ../
+#1553077154
+clear
+#1553077157
+git status

@@ -1,2 +1,5 @@
-# Use PHP56
-AddHandler application/x-httpd-php56 .php
+# Use PHP71 as default
+AddHandler application/x-httpd-php71 .php
+<IfModule mod_suphp.c>
+    suPHP_ConfigPath /opt/php71/lib
+</IfModule>
