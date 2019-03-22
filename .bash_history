@@ -2692,3 +2692,57 @@ cd ../
 git status
 #1553240851
 git diff '.cpanel/caches/filesys/~home4~tripplanner'
+#1553240894
+git add .
+#1553240906
+git commit -m "cpanel & emp"
+#1553240912
+git push origin master
+#1553240935
+cd beetrip.ge
+#1553240938
+git status
+#1553240944
+git diff error_log
+#1553241453
+exit
+#1553244876
+cd public_html
+#1553244880
+git status
+#1553244899
+cd ../
+#1553244903
+cd beetrip.ge
+#1553244908
+git status
+#1553246875
+cd ../public_html
+#1553246878
+git status
+#1553246895
+git add .
+#1553246904
+git commit -m "save"
+#1553246917
+git push origin master
+#1553246943
+cd ../beetrip.ge
+#1553246945
+clear
+#1553246946
+ls
+#1553247498
+git status
+#1553247504
+git add .
+#1553247514
+git commit -m "more security things"
+#1553247522
+git push origin master
+#1553248213
+cd ../
+#1553248216
+git status
+#1553249356
+git status
