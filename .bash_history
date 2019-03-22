@@ -2438,3 +2438,77 @@ cd ../
 clear
 #1553077157
 git status
+#1553077171
+git add .
+#1553077186
+git commit -m "mail tmp cpanel"
+#1553077193
+git push origin master
+#1553112763
+cd public_html
+#1553112767
+git status
+#1553112774
+cd ../
+#1553112778
+cd beetrip.ge
+#1553112782
+git status
+#1553153655
+cd public_html
+#1553153659
+git status
+#1553153666
+cd ../beetrip.ge
+#1553153669
+git status
+#1553156285
+exit
+#1553160485
+cd public_html
+#1553160489
+git status
+#1553160500
+rm error_log
+#1553160507
+git status
+#1553167599
+git status
+#1553172114
+git status
+#1553234332
+cd public_html
+#1553234335
+git status
+#1553234876
+git add .files/.tmb/gvino.jpg
+#1553234890
+git add ".files/.tmb/gvino.jpg"
+#1553234901
+git add "files/.tmb/gvino.jpg"
+#1553234917
+git add "files/.tmb/tours/520/"
+#1553234935
+git add "files/.tmb/\341\203\246\341\203\225\341\203\230\341\203\234\341\203\235                                                                                        .jpg"
+#1553234964
+git add "files/.tmb/\341\203\246\341\203\225\341\203\230\341\203\234\341\203\235.jpg"
+#1553234991
+rm -rf infotour/nbser/
+#1553235005
+clear
+#1553235008
+git status
+#1553235022
+git add .
+#1553235024
+clear
+#1553235027
+git status
+#1553235044
+git commit -m "save"
+#1553235058
+git push origin master
+#1553235090
+cd ../
+#1553235094
+git status
