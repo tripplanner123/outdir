@@ -2512,3 +2512,183 @@ git push origin master
 cd ../
 #1553235094
 git status
+#1553235175
+git add .
+#1553235189
+git commit -m "save"
+#1553235198
+git push origin master
+#1553235223
+cd beetrip.ge
+#1553235225
+clear
+#1553235228
+git status
+#1553235232
+cd ../
+#1553235245
+cd public_html
+#1553235247
+clear
+#1553235250
+git status
+#1553236048
+cd _manager
+#1553236051
+ls
+#1553236073
+echo 'deny from all' > .htaccess
+#1553236075
+ls
+#1553236171
+cd ../
+#1553236183
+cd _javascript/tinymce
+#1553236188
+echo 'deny from all' > .htaccess
+#1553236190
+ls
+#1553236393
+cd ../../
+#1553236397
+git status
+#1553237715
+git status
+#1553238082
+cd infotour
+#1553238089
+echo 'deny from all' > .htaccess
+#1553238348
+cd ../invoice
+#1553238351
+echo 'deny from all' > .htaccess
+#1553238526
+cd ../
+#1553238530
+cd ../img
+#1553238534
+cd img
+#1553238538
+clear
+#1553238543
+echo 'deny from all' > .htaccess
+#1553238930
+cd ../
+#1553238934
+cd files
+#1553238938
+echo 'deny from all' > .htaccess
+#1553239268
+cd ../
+#1553239272
+cd _website
+#1553239275
+echo 'deny from all' > .htaccess
+#1553239535
+cd ../plugin
+#1553239542
+cd ../_plugins
+#1553239545
+echo 'deny from all' > .htaccess
+#1553240209
+cd ../_javascript
+#1553240213
+cd tinymce
+#1553240217
+echo 'deny from all' > .htaccess
+#1553240370
+cd ~
+#1553240375
+cd public_html
+#1553240377
+clear
+#1553240379
+git status
+#1553240403
+rm -rf files/Bakuriani/i.php
+#1553240420
+rm -rf files/i.php
+#1553240428
+rm -rf img/i.php
+#1553240441
+rm -rf infotour/i.php
+#1553240451
+rm -rf invoice/i.php
+#1553240453
+clear
+#1553240457
+git status
+#1553240471
+git add _javascript/tinymce/.htaccess
+#1553240485
+git add _manager/.htaccess
+#1553240495
+git add _players/.htaccess
+#1553240504
+git add _plugins/.htaccess
+#1553240512
+git add _website/.htaccess
+#1553240520
+git add files/.htaccess
+#1553240527
+git add img/.htaccess
+#1553240534
+git add infotour/.htaccess
+#1553240541
+git add invoice/.htaccess
+#1553240546
+clear
+#1553240549
+git status
+#1553240562
+git add _modules/.htaccess
+#1553240565
+clear
+#1553240567
+git status
+#1553240602
+git add .htaccess
+#1553240625
+git add _backup/.htaccess
+#1553240641
+git add _javascript/.htaccess
+#1553240657
+git add _manager/css/style-en.css
+#1553240659
+clear
+#1553240665
+git status
+#1553240673
+git add index.php
+#1553240676
+clear
+#1553240683
+git commit -m "more security"
+#1553240689
+git push origin master
+#1553240725
+cd ../
+#1553240742
+clear
+#1553240744
+git status
+#1553240755
+cd public_html
+#1553240756
+clear
+#1553240759
+git status
+#1553240778
+git add .
+#1553240788
+git commit -m "deletion temp files"
+#1553240804
+git push origin master
+#1553240820
+git status
+#1553240823
+cd ../
+#1553240826
+git status
+#1553240851
+git diff '.cpanel/caches/filesys/~home4~tripplanner'
