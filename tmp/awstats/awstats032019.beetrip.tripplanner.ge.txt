@@ -8,33 +8,33 @@ AWSTATS DATA FILE 7.6 (build 20161204)
 # update).
 BEGIN_MAP 28
 POS_GENERAL 2023                
-POS_TIME 2685                
-POS_VISITOR 6220                
-POS_DAY 6409                
-POS_DOMAIN 3230                
-POS_LOGIN 3468                
-POS_ROBOT 3623                
-POS_WORMS 3794                
-POS_EMAILSENDER 3925                
-POS_EMAILRECEIVER 4068                
-POS_SESSION 6508                
-POS_SIDER 6654                
-POS_FILETYPES 4203                
-POS_DOWNLOADS 4288                
-POS_OS 4336                
-POS_BROWSER 4424                
-POS_SCREENSIZE 4520                
-POS_UNKNOWNREFERER 4594                
-POS_UNKNOWNREFERERBROWSER 4822                
-POS_ORIGIN 4942                
-POS_SEREFERRALS 5074                
-POS_PAGEREFS 5218                
-POS_SEARCHWORDS 5366                
-POS_KEYWORDS 5518                
-POS_MISC 2349                
-POS_ERRORS 5577                
-POS_CLUSTER 3324                
-POS_SIDER_404 5710                
+POS_TIME 2684                
+POS_VISITOR 6219                
+POS_DAY 6408                
+POS_DOMAIN 3229                
+POS_LOGIN 3467                
+POS_ROBOT 3622                
+POS_WORMS 3793                
+POS_EMAILSENDER 3924                
+POS_EMAILRECEIVER 4067                
+POS_SESSION 6507                
+POS_SIDER 6653                
+POS_FILETYPES 4202                
+POS_DOWNLOADS 4287                
+POS_OS 4335                
+POS_BROWSER 4423                
+POS_SCREENSIZE 4519                
+POS_UNKNOWNREFERER 4593                
+POS_UNKNOWNREFERERBROWSER 4821                
+POS_ORIGIN 4941                
+POS_SEREFERRALS 5073                
+POS_PAGEREFS 5217                
+POS_SEARCHWORDS 5365                
+POS_KEYWORDS 5517                
+POS_MISC 2348                
+POS_ERRORS 5576                
+POS_CLUSTER 3323                
+POS_SIDER_404 5709                
 END_MAP
 
 # LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
@@ -46,10 +46,10 @@ END_MAP
 # MonthHostsKnown   = Number of hosts known
 # MonthHostsUnKnown = Number of hosts unknown
 BEGIN_GENERAL 8
-LastLine 20190320204235 8 1276 12509785646443
+LastLine 20190321192034 6 1064 6476907485427
 FirstTime 0
 LastTime 20190316144046
-LastUpdate 20190321050137 8 0 8 0 0
+LastUpdate 20190322051509 6 0 6 0 0
 TotalVisits 3                   
 TotalUnique 3                   
 MonthHostsKnown 0                   
@@ -58,16 +58,16 @@ END_GENERAL
 
 # Misc ID - Pages - Hits - Bandwidth
 BEGIN_MISC 10
-TotalMisc 0 0 0
-PDFSupport 0 0 0
-JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+AddToFavourites 0 1 0
 QuickTimeSupport 0 0 0
-DirectorSupport 0 0 0
+JavaEnabled 0 0 0
 WindowsMediaPlayerSupport 0 0 0
 JavascriptDisabled 0 0 0
-AddToFavourites 0 1 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
 FlashSupport 0 0 0
-RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
 END_MISC
 
 # Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
@@ -80,18 +80,18 @@ BEGIN_TIME 24
 5 0 0 0 5 7 670
 6 0 0 0 5 7 2053
 7 0 0 0 2 3 694
-8 0 0 0 21 21 5529
+8 0 0 0 22 22 5820
 9 0 0 0 7 8 1554
 10 0 0 0 6 6 582
 11 0 0 0 4 5 1276
-12 0 0 0 5 6 694
-13 0 0 0 4 5 1567
-14 1 1 33871 2 3 1524
+12 0 0 0 6 7 985
+13 0 0 0 5 6 1567
+14 1 1 33871 3 4 1524
 15 0 0 0 2 2 291
 16 0 0 0 1 3 19997
 17 0 0 0 1 2 694
-18 0 0 0 14 16 3067
-19 0 0 0 13 15 2942
+18 0 0 0 15 17 3067
+19 0 0 0 14 16 2942
 20 0 0 0 6 6 452
 21 0 0 0 5 7 2776
 22 0 0 0 1 1 0
@@ -146,14 +146,14 @@ END_DOWNLOADS
 
 # OS ID - Hits
 BEGIN_OS ID - Hits - Pages 2
-win7 1 1
 Unknown 18 18
+win7 1 1
 END_OS
 
 # Browser ID - Hits - Pages
 BEGIN_BROWSER 3
-opera58.0.3135.90 1 1
 mozilla 9 9
+opera58.0.3135.90 1 1
 Unknown 9 9
 END_BROWSER
 
@@ -163,8 +163,8 @@ END_SCREENSIZE
 
 # Unknown referer OS - Last visit date
 BEGIN_UNKNOWNREFERER 2
-Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20190314231919
 Cpanel-HTTP-Client/1.0 20190314231915
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20190314231919
 END_UNKNOWNREFERER
 
 # Unknown referer Browser - Last visit date
@@ -203,22 +203,22 @@ END_KEYWORDS
 
 # Errors - Hits - Bandwidth
 BEGIN_ERRORS 5
-409 6 498
 403 5 670
-404 23 15962
-301 107 10767
+301 113 11349
 406 2 452
+404 23 15962
+409 6 498
 END_ERRORS
 
 # URL with 404 errors - Hits - Last URL referrer
 BEGIN_SIDER_404 7
-/admin/images/cal_date_over.gif 3 -
-/fckeditor/editor/filemanager/connectors/php/upload.php 3 -
-/robots.txt 9 -
 /templates/system/css/system.css 3 -
-/wp-login.php 1 -
 /admin/login.php 3 -
+/robots.txt 9 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 3 -
 /ads.txt 1 -
+/wp-login.php 1 -
+/admin/images/cal_date_over.gif 3 -
 END_SIDER_404
 
 # Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
@@ -244,23 +244,23 @@ END_SESSION
 # URL - Pages - Bandwidth - Entry - Exit
 # The 25 first Pages must be first (order not required for others)
 BEGIN_SIDER 19
-/.well-known/acme-challenge/yDZrxaMa6DfcZdyqcV9ucbbcdzFdmFfOk5ft0P5QPKM 1 87 0 0
-/.well-known/acme-challenge/-LR364D_0AUWYBQX-ACQ5LL3WLLBSPQN 1 64 1 0
-/.well-known/acme-challenge/FBJIJH6I57OLI24FA271N04-_CIP1W2C 1 64 0 0
-/.well-known/acme-challenge/8QWT3CE5565IMBT_XCXA4T6R1NQJ0O1N 1 64 0 0
-/.well-known/acme-challenge/gBFnm9qVd3Fzjt5GYwaBbMBsLRkzUwZ0mo8nYM7fJkI 1 87 1 0
 /.well-known/acme-challenge/pzBFVpFaPLXRE6YyVhDFDh4NsxqixCnNbobiJQ2psK8 1 87 0 0
-/.well-known/acme-challenge/RU401Z35TDAIVOJJL5-KJ36-6BBTC6I- 1 64 0 0
-/.well-known/acme-challenge/7stxK6q1Iv3Whr7G389xU3IVOpXI2FyOa4Jwln5TRzQ 1 87 0 0
 /.well-known/acme-challenge/xafxHXBQbeIB0hJcWPCbnIRziHFOhhwNlBjQYLvxHTk 1 87 0 0
-/webmail 1 33871 1 1
-/.well-known/acme-challenge/e_pOgiDpcbV3ZbzFNHN0zun8oDqIPC03_q2jrv4XMbE 1 87 0 1
-/.well-known/acme-challenge/E4BB768LQBHWNJYJ1MFFH75H95VB-U_R 1 64 0 0
-/.well-known/acme-challenge/FenpUHur-czXzUayqNDKmUguyx3KtfakOhMhBVVh8dw 1 87 0 0
 /.well-known/acme-challenge/kIrstfj_nQx-wipFdg56uxxIJ_YHODjbtQoMMOlZhV0 1 87 0 0
-/.well-known/acme-challenge/92TEX8L19FI7FXGRFB-YS18HZCQLT3S0 1 64 0 0
-/.well-known/acme-challenge/TDPNMR0YWRJZH9Z7O2YM11GMA41NORIT 1 64 0 0
-/.well-known/acme-challenge/RZfqX69ouKAea8xWTYpjUaBHBvhyvwKCJjO38iBwWgA 1 87 0 1
-/.well-known/acme-challenge/SAQG01L0DANGXGUXKQNRX5CD1HTN375F 1 64 0 0
+/.well-known/acme-challenge/yDZrxaMa6DfcZdyqcV9ucbbcdzFdmFfOk5ft0P5QPKM 1 87 0 0
 /.well-known/acme-challenge/76BMWC67FHHBXMYJQCLEH9M2PT4UX69O 1 64 0 0
+/.well-known/acme-challenge/TDPNMR0YWRJZH9Z7O2YM11GMA41NORIT 1 64 0 0
+/.well-known/acme-challenge/RU401Z35TDAIVOJJL5-KJ36-6BBTC6I- 1 64 0 0
+/.well-known/acme-challenge/gBFnm9qVd3Fzjt5GYwaBbMBsLRkzUwZ0mo8nYM7fJkI 1 87 1 0
+/.well-known/acme-challenge/FBJIJH6I57OLI24FA271N04-_CIP1W2C 1 64 0 0
+/.well-known/acme-challenge/e_pOgiDpcbV3ZbzFNHN0zun8oDqIPC03_q2jrv4XMbE 1 87 0 1
+/.well-known/acme-challenge/8QWT3CE5565IMBT_XCXA4T6R1NQJ0O1N 1 64 0 0
+/.well-known/acme-challenge/7stxK6q1Iv3Whr7G389xU3IVOpXI2FyOa4Jwln5TRzQ 1 87 0 0
+/.well-known/acme-challenge/92TEX8L19FI7FXGRFB-YS18HZCQLT3S0 1 64 0 0
+/.well-known/acme-challenge/E4BB768LQBHWNJYJ1MFFH75H95VB-U_R 1 64 0 0
+/.well-known/acme-challenge/SAQG01L0DANGXGUXKQNRX5CD1HTN375F 1 64 0 0
+/webmail 1 33871 1 1
+/.well-known/acme-challenge/-LR364D_0AUWYBQX-ACQ5LL3WLLBSPQN 1 64 1 0
+/.well-known/acme-challenge/FenpUHur-czXzUayqNDKmUguyx3KtfakOhMhBVVh8dw 1 87 0 0
+/.well-known/acme-challenge/RZfqX69ouKAea8xWTYpjUaBHBvhyvwKCJjO38iBwWgA 1 87 0 1
 END_SIDER

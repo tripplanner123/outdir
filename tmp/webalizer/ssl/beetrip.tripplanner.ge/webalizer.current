@@ -1,7 +1,7 @@
-# Webalizer V2.23-08 Incremental Data - 03/21/2019 04:25:30
-2019 3 21 4 25 30
-3748 3365 149 181 50 71 105160605 1050 362 0
-5 3 485 1 21
+# Webalizer V2.23-08 Incremental Data - 03/22/2019 04:50:34
+2019 3 22 4 50 34
+4026 3630 157 185 54 72 112574301 1166 401 0
+8 81 485 1 22
 1 1 50696 1 1 1
 516 487 12167251 21 105 15
 70 68 2102223 9 20 9
@@ -22,8 +22,8 @@
 840 683 22561680 20 147 20
 87 79 3479610 12 25 11
 107 94 2712150 13 30 13
-14 11 167730 5 3 2
-0 0 0 0 0 0
+196 182 4366591 19 81 31
+96 94 3214835 8 38 10
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -34,33 +34,33 @@
 0 0 0 0 0 0
 0 0 0 0 0 0
 64 61 2035443 22
-14 12 276655 7
-169 162 4869405 41
+27 24 378501 19
+171 164 4881228 43
 650 482 13013131 87
-590 571 15756855 120
-436 400 14086704 98
+671 651 18858021 144
+437 401 14086887 98
 180 169 5768574 47
-519 495 16493594 128
-406 377 15210004 211
-81 76 3812508 12
-51 43 1480776 27
-70 60 2132230 17
-44 36 797849 18
-101 95 2038127 33
-94 92 1920689 19
+520 496 16500288 129
+431 400 15837913 225
+87 79 3837558 15
+59 51 1614723 30
+73 63 2274016 18
+61 53 1048092 29
+166 160 4325712 46
+123 120 2282269 33
 15 14 266452 12
-30 22 275409 17
-46 39 1376636 20
-22 18 175742 19
-32 26 546337 16
+34 25 312945 18
+51 43 1405974 24
+24 20 187418 21
+38 31 601701 20
 50 38 616111 40
-30 29 655729 15
-9 6 98809 8
-45 42 1456836 16
+32 30 668325 17
+12 8 151589 11
+50 47 1621430 18
 0
 0
 0
-3365
+3630
 0
 0
 0
@@ -68,7 +68,7 @@
 0
 4
 0
-31
+32
 3
 0
 154
@@ -78,7 +78,7 @@
 2
 0
 5
-161
+173
 0
 23
 0
@@ -100,43 +100,43 @@
 0
 # -urls- 
 /ge/transfers
-0 44 4049630183470425454 698398 12 7
+0 49 28015 740518 14 8
 /ge/ongoing-tours/djip-turi ,,abudelauris ferad tbebze'/389
-0 2 7881631836155506797 22215 0 1
+0 3 10046257539436327470 32257 1 1
 /en/ongoing-tours/dagegme-ertdghiani-mogzauroba-kazbegshi/582
-0 2 3342922646201196916 19625 2 2
+0 3 7017579588345752947 28448 3 3
 /pmt/check.php
-0 12 3833743254028365362 3844 0 0
+0 14 3761686762786992430 4210 0 0
 /_website/minJs/datepicker.min.js
-0 77 7233185013597876530 38808 0 0
+0 83 6665178950034469422 41832 0 0
 /ru/ongoing-tours/kakhetis-turi/600
-0 2 8243129286180037221 22310 1 1
+0 2 8032840007778461044 22310 1 1
 /ru/ongoing-tours/estumret-maradmtsvane-tkeebshi-chaflul-bordjoms-da-saqartvelos-samkhretis-mshveneba-akhaltsikhes./442
-0 2 3257845472025458481 21776 0 0
+0 3 8243129286180037221 31692 0 0
 /ru/ongoing-tours/samdghiani-djip-turi-tushetshi/394
-0 2 32576192 23499 0 0
+0 3 3761119436261438002 34228 1 0
 /ru/ongoing-tours
 0 3 0 23282 2 2
 /ge/ongoing-tours/dagegme-ertdghiani-mogzauroba-vardziashi/638
 0 2 0 22231 0 0
 /en/about-us
-0 2 0 10518 0 1
+0 3 0 14832 0 1
 /ge/home
-0 20 0 516799 3 2
+0 25 0 549131 4 4
 /ru/ongoing-tours/adgili-sadats-dro-gacherda,-moinakhulet-davit-garedjis-monasteri/441
-0 2 0 21417 0 0
+0 3 0 31082 0 1
 /ru/ongoing-tours/martvilis-2-dghaiani-turi/601
-0 2 0 23398 2 2
+0 3 0 34115 2 2
 /_website/images/error.svg
 0 2 0 1840 0 0
 /ge/about-us
 0 2 0 12866 2 2
 /en/ongoing-tours/samdghiani-djip-turi-tushetshi/394
-0 3 0 29384 3 3
+0 4 0 38584 4 3
 /ge/ongoing-tours/dagegme-turi-dzamas-kheobashi/635
-0 2 0 21985 2 2
+0 3 0 31915 3 2
 /_website/images/plus.svg
-0 22 0 13090 0 0
+0 24 0 14280 0 0
 /ru/ongoing-tours/OnedayskitourtoBakuriani/1068
 0 2 0 22002 2 1
 /_website/images/logo.png
@@ -144,41 +144,43 @@
 /en/ongoing-tours/mtskhetis-turi/434
 0 2 0 18731 1 0
 /ge/ongoing-tours/adgili-sadats-dro-gacherda,-moinakhulet-davit-garedjis-monasteri/441
-0 2 0 21234 2 2
+0 3 0 30779 2 2
 /en/ongoing-tours/tbilisis-turi/436
 0 2 0 19093 2 1
 /en/cart
-0 74 0 1167731 2 2
+0 77 0 1224625 4 2
 /_website/images/minus.svg
-0 21 0 11403 0 0
+0 23 0 12489 0 0
 /en/ongoing-tours/gvinisturi/1035
-0 2 0 9517 2 1
+0 3 0 13335 2 1
 /ge/profile
 0 9 0 85805 0 2
 /en/profile
 0 17 0 95307 0 1
 /en/terms-conditions2
-0 16 0 534372 0 0
+0 17 0 541731 0 1
 /_website/styles/fonts/fonts/Lari.woff2
-0 27 0 49440 0 0
+0 29 0 53560 0 0
 /ru/ongoing-tours/djip-turiabudelaurisferadtbebze/389
-0 3 0 33144 2 2
+0 4 0 43134 2 2
+/en/ongoing-tours/moretest/1072
+0 1 8605776 6243 0 0
 /_website/js/bootstrap-datepicker.min.js
-0 78 0 2024184 0 0
+0 81 0 2112192 0 0
 /en/ongoing-tours/bodbe-sighnaghis-turi/437
-0 2 3330184524061487616 17599 2 2
+0 2 0 17599 2 2
 /ge/ongoing-tours
-0 2 3330746390740467712 15347 1 1
+0 3 0 22041 2 2
 /_website/images/transport-1.svg
-0 4 30803244233223026 12336 0 0
+0 4 0 12336 0 0
 /en/ongoing-tours/kakhetis-turi/600
-0 2 7957127667461485412 19409 1 2
+0 3 0 28227 2 2
 /ge/ongoing-tours/OnedayskitourtoGudauri/1067
-0 2 7310597220861961006 20860 2 0
+0 3 0 30200 2 0
 /ru/ongoing-tours/djip-turi,,abudelaurisferadtbebze/389
-0 2 1953050212 21993 2 1
+0 3 0 31986 3 1
 /_website/images/done-1.svg
-0 5 3617007331096657920 5835 0 0
+0 5 0 5835 0 0
 /en/ongoing-tours/djip-turi,,abudelaurisferadtbebze/389
 0 2 0 19207 0 1
 /_website/images/edit.svg
@@ -188,43 +190,45 @@
 /_website/images/change-password.svg
 0 7 0 4599 0 0
 /en/ongoing-tours/gori-uflistsikhis-turi/440
-0 2 0 19594 0 2
+0 3 0 28317 0 3
 /ge/terms-conditions2
-0 9 0 354307 2 5
+0 10 0 363496 2 5
 /ru/ongoing-tours/testtour/1044
 0 2 0 15523 0 1
 /ru/favourite-asked-questions
-0 5 0 84742 3 3
+0 7 0 96264 4 3
+/ge/ongoing-tours/testtour/1044
+0 1 8606416 6696 0 1
 /_website/styles/css/style-ge.css
-0 109 0 903794 0 0
+0 118 0 979340 0 0
 /_website/images/transfer.svg
-0 36 0 137520 0 0
+0 38 8251632 145160 0 0
 /ru/ongoing-tours/martvilisa-da-okatses-kanionebi/396
 0 2 0 21298 1 1
 /en/faq
 0 2 0 11705 1 1
 /ge/ongoing-tours/dagegme-ertdghiani-mogzauroba-djavakhtis-tbebze-da-lajvardisfer-sofelshi/636
-0 2 0 23157 1 1
+0 3 0 33955 1 1
 /cgi-sys/suspendedpage.cgi
-0 2 0 988 0 2
+0 3 0 1482 1 2
 /ge/ongoing-tours/gori-uflistsikhis-turi/440
-0 2 0 21839 0 0
+0 3 0 31732 0 0
 /_website/js/quantity.js
-0 20 0 25180 0 0
+0 22 0 27698 0 0
 /en/
 0 86 0 9941 2 1
 /_website/images/payment-method-1.svg
 0 5 0 14540 0 0
-/_website/styles/css/style-ru.css
-0 5 0 3100 0 0
 /_website/plugins/jquery-ui-1.12.1.custom/images/ui-icons_444444_256x240.png
 0 5 0 34960 0 0
+/_website/styles/css/style-ru.css
+0 5 0 3100 0 0
 /_website/images/transport-2.svg
-0 19 0 62738 0 0
+0 21 0 69342 0 0
 /_website/plugins/jquery-ui-1.12.1.custom/jquery-ui.min.css
-0 71 0 1906314 0 0
+0 73 0 1967808 0 0
 /img/fbimage.png
-0 10 0 19090 0 0
+0 11 0 20999 0 0
 /favicon.ico
 0 17 0 19550 0 0
 /files/userphotos/ekatarkhnishviligmailcom1548511790.jpg
@@ -234,107 +238,107 @@
 /_website/images/bus-yellow.svg
 0 8 0 13896 0 0
 /en/ongoing-tours/OnedayskitourtoGudauri/1067
-0 2 0 18495 1 2
+0 3 0 26703 1 2
 /ru/ongoing-tours/dagegme-ertdghiani-mogzauroba-kazbegshi/582
-0 2 0 22075 0 0
+0 3 0 32111 1 1
 /pmt/register.php
 0 10 0 1278 0 0
 /_website/plugins/swiper-4.1.6/css/swiper.min.css
-0 75 0 1292412 0 0
+0 78 0 1351158 0 0
 /ge/ongoing-tours/mtskhetis-turi/434
 0 2 0 21270 0 1
 /en/favourite-asked-questions
-0 16 0 404750 3 1
+0 18 0 435796 3 2
 /ru/ongoing-tours/dashbashis-kanioni/393
-0 2 0 22093 1 2
+0 3 0 32048 2 2
 /_website/images/payment-method-2.svg
 0 5 0 18890 0 0
 /ru/cart
-0 5 0 100927 1 1
+0 6 0 110907 2 1
 /ge/ongoing-tours/martvilis-2-dghaiani-turi/601
 0 2 0 23037 0 1
 /_website/plugins/animatecss/animate.css
-0 70 0 1454728 0 0
+0 74 0 1550120 0 0
 /ge/faq
 0 2 0 13289 1 2
 /_website/plugins/jquery-ui-1.12.1.custom/jquery-ui.min.js
-0 20 0 5073360 0 0
+0 22 0 5580696 0 0
 /ge/feedback
 0 5 0 51290 3 2
 /_website/images/datepicker-prev.svg
 0 5 0 2820 0 0
 /_website/uploads/images/slider-1.jpg
-0 35 0 24748254 0 0
+0 38 0 26946720 0 0
 /ru/ongoing-tours/OnedayskitourtoGudauri/1067
-0 2 0 20805 2 1
+0 3 0 30179 2 1
 /en/ongoing-tours/estumret-maradmtsvane-tkeebshi-chaflul-bordjoms-da-saqartvelos-samkhretis-mshveneba-akhaltsikhes./442
 0 2 0 19101 0 0
 /ru/ongoing-tours/gvinisturi/1035
 0 2 0 10246 2 2
 /_website/minJs/timepicker.min.js
-0 23 0 6394 0 0
+0 25 0 6950 0 0
 /_website/images/transport-1-yellow.svg
-0 44 0 107940 0 0
+0 46 0 114108 0 0
 /ge/ongoing-tours/bodbe-sighnaghis-turi/437
 0 2 0 21246 1 2
 /_website/styles/css/style-en.css
-0 305 0 16662263 0 0
+0 327 0 17872219 0 0
+/en/registration
+0 4 0 25576 3 1
 /en/ongoing-tours/martvilisa-da-okatses-kanionebi/396
 0 2 0 18752 2 2
-/en/registration
-0 2 0 13746 1 0
 /ru/ongoing-tours/tbilisis-turi/436
-0 2 0 21947 1 1
+0 3 0 31815 1 1
 /en/ongoing-tours/dagegme-ertdghiani-mogzauroba-vardziashi/638
-0 2 0 19363 0 1
+0 3 0 27885 1 2
 /_website/images/trip-planner.svg
-0 35 0 158795 0 0
+0 37 0 167869 0 0
 /_website/plugins/jquery-ui-1.12.1.custom/addons/timepicker/js/jquery-ui-timepicker-addon.js
-0 22 0 1726450 0 0
+0 24 0 1883400 0 0
 /en/ongoing-tours/TourinAjarianMountains/1045
 0 1 0 4628 1 1
 /ge/ongoing-tours/qutaisis-turi/439
-0 2 0 22333 2 1
+0 3 0 32353 3 1
 /_website/images/check-symbol.svg
 0 35 0 9152 0 0
 /en/ongoing-tours/adgili-sadats-dro-gacherda,-moinakhulet-davit-garedjis-monasteri/441
-0 2 0 18673 1 2
+0 3 0 27092 1 2
 /ru/ongoing-tours/djip-turi ,,abudelauris ferad tbebze'/389
 0 1 0 10991 1 1
 /_website/images/transport-2-yellow.svg
-0 12 0 39624 0 0
+0 13 0 42926 0 0
 /ru/feedback
-0 3 0 40144 2 2
+0 4 0 44682 2 2
 /_website/styles/fonts/fonts/NotoSansGeorgian.woff
-0 23 0 318412 0 0
+0 24 0 332256 0 0
 /ge/ongoing-tours/estumret-maradmtsvane-tkeebshi-chaflul-bordjoms-da-saqartvelos-samkhretis-mshveneba-akhaltsikhes./442
-0 2 0 21787 0 0
+0 3 0 31711 0 0
 /_manager/img/login-bg.png
-0 1 18446744073709551615 2952 0 0
+0 1 0 2952 0 0
 /en/ongoing-tours/dashbashis-kanioni/393
 0 2 0 19094 1 0
 /ge/favourite-asked-questions
-0 9 0 226721 3 2
+0 11 0 238068 3 4
 /en/ongoing-tours/OnedayskitourtoBakuriani/1068
 0 2 0 18797 2 2
 /en/home
-0 31 0 859779 4 7
+0 33 0 912268 4 7
 /_website/images/arrow.svg
-0 35 0 29820 0 0
+0 37 0 31524 0 0
 /_website/styles/css/bootstrap-datepicker.min.css
-0 69 0 1970760 0 0
+0 72 0 2069298 0 0
 /ge/cart
-0 52 0 730223 4 5
+0 54 0 750870 5 5
 /_website/font-awesome/css/font-awesome.min.css
-0 66 0 1253088 0 0
+0 70 0 1341024 0 0
 /_website/plugins/jquery-ui-1.12.1.custom/addons/timepicker/css/jquery-ui-timepicker-addon.css
-0 68 0 114755 0 0
+0 70 0 118645 0 0
 /en/ongoing-tours/dagegme-turi-dzamas-kheobashi/635
-0 2 0 19459 2 0
+0 3 0 28143 3 1
 /ru/about
-0 6 0 80832 1 1
+0 7 0 85967 1 2
 /ge/ongoing-tours/ordghiani-turi-khevsuretshi/444
-0 2 0 22870 0 2
+0 3 0 33196 0 2
 /ge/badmin
 0 1 0 2417 0 0
 /ru/ongoing-tours/ertdghiani-ghvinis-shemetsnebiti-turi/426
@@ -342,89 +346,89 @@
 /_website/font-awesome/fonts/fontawesome-webfont.ttf
 0 2 0 224320 0 0
 /ge/registration
-0 4 0 29428 3 1
+0 5 0 36050 3 1
 /ge/about
-0 5 0 109202 1 2
+0 8 0 148052 2 2
 /ru/faq
-0 2 0 13533 1 1
+0 3 0 19334 1 1
 /en/ongoing-tours/martvilis-2-dghaiani-turi/601
-0 2 0 20146 1 0
+0 3 0 29208 2 1
 /_javascript/jquery/jquery-1.4.1.min.js
 0 1 0 70995 0 0
 /ge/ongoing-tours/dagegme-ertdghiani-mogzauroba-kazbegshi/582
-0 2 0 22160 2 2
+0 3 0 32353 2 2
 /ge/ongoing-tours/tbilisis-turi/436
-0 2 0 21923 2 2
+0 3 0 31788 2 2
 /_website/minJs/home.min.js
-0 48 0 14064 0 0
+0 51 0 14943 0 0
 /en/about
-0 10 0 180724 4 4
+0 16 0 227435 5 5
 /_website/images/logo.svg
-0 60 0 969612 0 0
+0 64 0 1045660 0 0
 /ru/terms-conditions2
 0 7 0 242520 0 2
 /_website/images/ongoing-tours.svg
-0 35 0 189686 0 0
+0 37 0 200844 0 0
 /_modules/captcha/captchaImage.php
 0 1 0 2721 0 0
 /_website/font-awesome/fonts/fontawesome-webfont.woff
-0 62 0 3468956 0 0
+0 64 0 3599860 0 0
 /ru/ongoing-tours/bodbe-sighnaghis-turi/437
-0 2 0 21407 0 1
+0 3 7955434389422353761 31046 0 2
 /_website/js/jquery.inputmask.bundle.min.js
 0 7 0 508109 0 0
 /en/ongoing-tours/bolnisi-germanuli-kultura(katerinenfildi)/634
-0 2 0 19065 1 1
+0 2 3760627053413758066 19065 1 1
 /_website/styles/fonts/fonts/HelveticaNeueLTGEOW82-45Lt-Regular.woff
-0 23 0 823768 0 0
+0 24 3978418109742645504 859584 0 0
 /_website/plugins/swiper-4.1.6/js/swiper.min.js
-0 73 0 7565440 0 0
+0 78 8214565720323784704 8156490 0 0
 /en/ongoing-tours/djip-turiabudelaurisferadtbebze/389
-0 3 0 28850 3 2
+0 4 8245922067006124846 37410 3 2
 /_javascript/tiptip/tipTip.css
-0 1 0 2377 0 0
+0 1 3329620487280408109 2377 0 0
 /_manager/img/login-top.png
-0 1 0 2867 0 0
+0 1 8256608 2867 0 0
 /ru/ongoing-tours/dagegme-turi-dzamas-kheobashi/635
 0 2 0 22185 2 1
 /ru/ongoing-tours/dagegme-ertdghiani-mogzauroba-djavakhtis-tbebze-da-lajvardisfer-sofelshi/636
-0 2 0 23310 2 1
+0 3 0 34214 2 1
 /
-0 265 0 6369949 208 76
+0 286 0 6656756 217 83
 /_website/images/datepicker-next.svg
 0 5 0 2755 0 0
 /_manager/css/login-en.css
 0 1 0 3116 0 0
 /en/ongoing-tours/dagegme-ertdghiani-mogzauroba-djavakhtis-tbebze-da-lajvardisfer-sofelshi/636
-0 2 0 20168 0 1
+0 3 0 29473 0 1
 /ru/ongoing-tours/bolnisi-germanuli-kultura(katerinenfildi)/634
 0 2 0 21920 1 1
 /ge
 0 1 0 7487 0 0
 /ru/ongoing-tours/qutaisis-turi/439
-0 2 0 22484 1 1
+0 3 0 32655 1 2
 /en/ongoing-tours
 0 2 0 14390 0 1
 /en/ongoing-tours/qutaisis-turi/439
 0 2 0 19805 0 0
 /ru/transfers
-0 5 0 223206 1 1
+0 6 0 231747 1 1
 /en/ongoing-tours/djip-turi ,,abudelauris ferad tbebze'/389
 0 2 0 19132 1 2
 /_website/js/g-script.js
-0 303 0 5219478 0 0
+0 325 0 5598450 0 0
 /_manager/img/login-logo.png
 0 1 0 5848 0 0
 /_website/images/calendar.svg
-0 18 0 10512 0 0
+0 20 0 11680 0 0
 /_javascript/tiptip/jquery.tipTip.js
 0 1 0 7058 0 0
 /ru/home
-0 12 0 444641 4 1
+0 13 0 451176 4 2
 /ru/ongoing-tours/gori-uflistsikhis-turi/440
 0 2 0 21878 2 2
 /_website/minJs/default.min.js
-0 74 0 65130 0 0
+0 77 0 68136 0 0
 /_website/minJs/profile.min.js
 0 7 0 2359 0 0
 /ge/
@@ -433,34 +437,38 @@
 0 2 0 15180 1 0
 /ru/about-us
 0 2 0 12741 1 0
+/en/fail
+0 2 0 7854 2 2
 /_website/js/transfer.js
-0 75 0 3634275 0 0
+0 81 0 3925017 0 0
 /ge/ongoing-tours/gvinisturi/1035
 0 2 0 9993 0 1
 /en/ongoing-tours/ertdghiani-ghvinis-shemetsnebiti-turi/426
 0 2 0 19769 2 2
 /ge/ongoing-tours/OnedayskitourtoBakuriani/1068
-0 2 0 20679 1 0
+0 3 0 29951 1 1
 /files/userphotos/samiridzebeelinege1543227951.jpg
 0 4 0 3913249 0 0
 /ge/ongoing-tours/bolnisi-germanuli-kultura(katerinenfildi)/634
-0 2 0 21587 0 0
+0 3 0 31395 0 0
 /en/feedback
-0 12 0 219371 4 3
+0 14 0 227678 4 3
 /_website/js/cart.js
-0 53 0 206256 0 0
+0 55 0 220968 0 0
 /_website/images/bus.svg
-0 19 0 36366 0 0
+0 21 0 40194 0 0
 /en
 0 2 0 12820 0 0
+/ru/ongoing-tours/testtour/1041
+0 1 8606288 6793 0 0
 /ge/ongoing-tours/kakhetis-turi/600
 0 2 0 21802 2 0
 /_website/images/tripplaner.png
-0 33 0 237171 0 0
+0 35 0 251545 0 0
 /_website/images/fav.png
-0 73 0 113734 0 0
+0 77 0 119966 0 0
 /en/transfers
-0 56 0 1398993 3 9
+0 59 0 1422692 3 9
 # End Of Table - urls
 # -sites- (monthly)
 209.17.96.26.cloudsystemnetworks.com
@@ -494,11 +502,14 @@ ec2-54-214-229-35.us-west-2.compute.amazonaws.com
 0 1 0 292 1 1552712282
 /
 crawl-66-249-75-201.googlebot.com
-0 6 5 87293 2 1552330385
-/
+0 14 12 139079 6 1553193299
+/ru/favourite-asked-questions
 ip12.ip-145-239-209.eu
 0 1 1 50700 1 1552213923
 /
+google-proxy-66-249-83-209.google.com
+0 2 2 3116 0 0
+-
 68.183.158.63
 0 1 0 226 1 1551773557
 /
@@ -508,8 +519,11 @@ ip12.ip-145-239-209.eu
 206.206.103.215
 0 1 1 6915 1 1552608415
 /
+85-18-245-164.ip.fastwebnet.it
+0 2 0 1388 0 0
+-
 213.131.36.62
-0 26 22 6026 0 0
+0 28 24 6392 0 0
 -
 ns319164.ip-91-121-222.eu
 0 1 1 6914 1 1552074681
@@ -532,6 +546,9 @@ ec2-35-161-30-93.us-west-2.compute.amazonaws.com
 176.15.231.136
 0 13 13 358924 1 1551735526
 /
+104.194.220.195
+0 83 83 3395432 2 1553229066
+/
 ec2-52-12-29-38.us-west-2.compute.amazonaws.com
 0 1 1 6915 1 1552679560
 /
@@ -545,26 +562,29 @@ ec2-52-12-29-38.us-west-2.compute.amazonaws.com
 0 23 23 1204659 1 1552966771
 /
 93-158-161-149.spider.yandex.com
-0 11 11 104184 11 1552836931
-/ge/home
+0 13 13 120092 13 1553217378
+/ru/ongoing-tours/djip-turi,,abudelaurisferadtbebze/389
 37-145-187-107.broadband.corbina.ru
 0 1 0 694 0 0
 -
 209.17.96.50.cloudsystemnetworks.com
 0 4 3 148269 4 1552965868
 /
-sv3.difserver.it
-0 1 1 50700 1 1551691017
-/
 crawl-66-249-79-230.googlebot.com
 0 12 8 146555 2 1552087834
 /ge/registration
+sv3.difserver.it
+0 1 1 50700 1 1551691017
+/
 if2.my.com
 0 1 1 6955 0 0
 -
 209.17.97.34.cloudsystemnetworks.com
 0 1 1 50700 1 1551534841
 /
+141-8-143-195.spider.yandex.com
+0 5 4 39344 1 1553156652
+/en/ongoing-tours/adgili-sadats-dro-gacherda,-moinakhulet-davit-garedjis-monasteri/441
 134.209.42.188
 0 1 0 226 1 1551776335
 /
@@ -631,12 +651,18 @@ crawl-66-249-79-228.googlebot.com
 141-8-143-131.spider.yandex.com
 0 1 1 11008 1 1551954162
 /ru/ongoing-tours/djip-turi,,abudelaurisferadtbebze/389
+google-proxy-66-249-83-207.google.com
+0 2 2 11823 1 1553179677
+/
 158.ip-51-254-121.eu
 0 1 1 5910 1 1553064308
 /
 209.17.97.42.cloudsystemnetworks.com
 0 1 0 292 1 1553090271
 /
+93-158-161-139.spider.yandex.com
+0 1 1 9930 1 1553156583
+/ge/ongoing-tours/dagegme-turi-dzamas-kheobashi/635
 38.130.164.40
 0 1 1 6914 1 1552608592
 /
@@ -668,8 +694,8 @@ ec2-34-212-23-147.us-west-2.compute.amazonaws.com
 0 1 1 6916 1 1551560113
 /
 93-158-161-171.spider.yandex.com
-0 61 56 498142 45 1553113904
-/ge/favourite-asked-questions
+0 69 64 570740 51 1553229028
+/ru/ongoing-tours/martvilis-2-dghaiani-turi/601
 ns527626.ip-192-99-15.net
 0 1 1 6915 1 1551724457
 /
@@ -719,7 +745,7 @@ randall.spb.ru
 0 1 1 50700 1 1551657010
 /
 ec2-13-57-233-99.us-west-1.compute.amazonaws.com
-0 12 6 42242 6 1552925709
+0 14 7 48445 7 1553207866
 /
 ip-176-193-90-61.bb.netbynet.ru
 0 17 13 380883 1 1552044953
@@ -791,14 +817,14 @@ ec2-54-149-225-164.us-west-2.compute.amazonaws.com
 0 1 1 6915 1 1552398279
 /en/home
 94.240.245.46
-0 1480 1413 36885577 16 1553056013
-/
+0 1544 1477 39068817 17 1553229652
+/ge/transfers
 host-95-104-121-218.customer.magticom.ge
 0 31 31 1862507 1 1552713386
 /
 5-255-250-128.spider.yandex.com
-0 208 148 1378940 66 1553142330
-/en/favourite-asked-questions
+0 256 192 1737845 75 1553229022
+/ge/ongoing-tours/dagegme-ertdghiani-mogzauroba-djavakhtis-tbebze-da-lajvardisfer-sofelshi/636
 209.17.96.242.cloudsystemnetworks.com
 0 2 2 101400 2 1552076481
 /
@@ -829,11 +855,14 @@ ec2-54-202-9-128.us-west-2.compute.amazonaws.com
 ec2-54-245-206-223.us-west-2.compute.amazonaws.com
 0 1 1 5912 1 1553038773
 /
+google-proxy-66-249-83-211.google.com
+0 2 2 7470 1 1553179677
+/
 infra.i01.timswiftdops.stonedoorlabs.com
 0 1 0 226 1 1551775250
 /
 smartscan04.sitelock.com
-0 348 326 12747335 19 1553069490
+0 366 343 13317152 20 1553155263
 /
 ec2-18-237-241-193.us-west-2.compute.amazonaws.com
 0 1 1 6916 1 1551897434
@@ -842,13 +871,13 @@ ec2-18-237-241-193.us-west-2.compute.amazonaws.com
 0 26 26 1319959 1 1552554645
 /
 crawl-66-249-75-199.googlebot.com
-0 12 11 196516 2 1553134858
-/ru/about
+0 22 19 311756 5 1553230234
+/ru/favourite-asked-questions
 crawl-66-249-64-105.googlebot.com
 0 2 1 8251 1 1552296577
 /ru/home
 crawl-66-249-75-196.googlebot.com
-0 17 16 374891 1 1552326611
+0 34 32 890626 5 1553222789
 /
 crawl-66-249-64-103.googlebot.com
 0 1 1 6916 1 1552290758
@@ -877,6 +906,9 @@ google-proxy-66-249-81-73.google.com
 ec2-52-53-201-78.us-west-1.compute.amazonaws.com
 0 8 8 54324 8 1553069829
 /
+100-43-90-161.spider.yandex.com
+0 1 1 8818 1 1553156587
+/en/ongoing-tours/kakhetis-turi/600
 91.184.99.1
 0 286 286 10975968 5 1552886979
 /
@@ -896,7 +928,7 @@ draconis2.provincia.ps.it
 0 1 1 6916 1 1552608384
 /
 209.17.97.10.cloudsystemnetworks.com
-0 1 0 292 1 1551955598
+0 2 1 46869 2 1553205832
 /
 fetcher16-36.go.mail.ru
 0 1 1 11053 1 1552893553
@@ -912,27 +944,36 @@ if1.my.com
 /
 # End Of Table - sites (monthly)
 # -sites- (daily)
-213.131.36.62
-0 1 1 183 0 0
--
-8.40.119.85.in-addr.arpa
+crawl-66-249-75-201.googlebot.com
 0 1 0 694 0 0
 -
+104.194.220.195
+0 5 5 816872 1 1553229066
+/
+93-158-161-149.spider.yandex.com
+0 1 1 9993 1 1553217378
+/ru/ongoing-tours/djip-turi,,abudelaurisferadtbebze/389
+93-158-161-171.spider.yandex.com
+0 3 3 28342 2 1553229028
+/ru/ongoing-tours/martvilis-2-dghaiani-turi/601
+94.240.245.46
+0 64 64 2183240 1 1553229652
+/ge/transfers
 5-255-250-128.spider.yandex.com
-0 2 1 5563 1 1553142330
-/en/favourite-asked-questions
+0 19 18 158110 2 1553229022
+/ge/ongoing-tours/dagegme-ertdghiani-mogzauroba-djavakhtis-tbebze-da-lajvardisfer-sofelshi/636
 crawl-66-249-75-199.googlebot.com
-0 3 2 9980 1 1553134858
-/ru/about
+0 2 2 11673 2 1553230234
+/ru/favourite-asked-questions
 crawl-66-249-75-196.googlebot.com
-0 7 7 151310 0 0
--
+0 1 1 5911 1 1553222789
+/
 # End Of Table - sites (daily)
 # -referrers- 
 https://beetrip.ge/ge/home
-0 52
+0 65
 https://beetrip.ge/en/cart
-0 459
+0 465
 https://beetrip.ge/ru/ongoing-tours
 0 16
 https://beetrip.ge/ge
@@ -940,21 +981,23 @@ https://beetrip.ge/ge
 https://beetrip.ge/ru/feedback
 0 3
 http://www.google.com/url
-0 205
+0 216
 https://beetrip.ge/ru/about
 0 3
 http://search.aol.com/aol/search
 0 1
 https://beetrip.ge/ru/favourite-asked-questions
-0 5
+0 6
 https://3dacq.georgiancard.ge/payment/payment-params.wsm
 0 1
 https://beetrip.ge/ge/transfers
-0 354
+0 378
 https://beetrip.ge/ge/registration
 0 2
+https://beetrip.ge/en/terms-conditions2
+0 2
 https://beetrip.ge/ge/cart
-0 306
+0 311
 https://beetrip.ge/ge/favourite-asked-questions
 0 10
 http://www.beetrip.ge/
@@ -964,7 +1007,7 @@ https://beetrip.ge/_manager/css/login-en.css
 https://tripplanner.ge/en/ongoing-tours
 0 1
 https://beetrip.ge/en/transfers
-0 272
+0 291
 https://www.facebook.com/
 0 1
 https://yandex.ru/clck/jsredir
@@ -978,25 +1021,27 @@ https://beetrip.ge/ge/profile
 https://beetrip.ge/en
 0 19
 https://beetrip.ge/_website/styles/css/style-en.css
-0 349
+0 373
 https://www.facebook.com/v2.2/dialog/oauth
 0 2
 https://www.google.com/
 0 3
 - (Direct Request)
-0 790
+0 899
 https://beetrip.ge/_website/images/logo.svg
 0 1
 https://beetrip.ge/_website/font-awesome/css/font-awesome.min.css
-0 54
+0 56
 https://beetrip.ge/ge/badmin
 0 11
 https://beetrip.ge/ru/home
-0 2
-https://beetrip.ge/_website/styles/css/style-ge.css
-0 51
-https://www.beetrip.ge/
 0 6
+https://beetrip.ge/en/about
+0 7
+https://beetrip.ge/_website/styles/css/style-ge.css
+0 53
+https://www.beetrip.ge/
+0 7
 https://beetrip.ge/ge/
 0 2
 https://tripplanner.ge/en/profile
@@ -1006,7 +1051,7 @@ https://beetrip.ge/it.php
 https://beetrip.tripplanner.ge/
 0 3
 https://beetrip.ge/en/feedback
-0 5
+0 12
 https://beetrip.ge/en/recover-password
 0 2
 https://beetrip.ge/ge/feedback
@@ -1015,12 +1060,16 @@ https://beetrip.ge/ru/cart
 0 8
 https://beetrip.ge/en/profile
 0 50
+https://beetrip.ge/ge/about
+0 1
 https://beetrip.ge/en/favourite-asked-questions
-0 5
+0 8
 https://beetrip.ge/en/ongoing-tours/djip-turiabudelaurisferadtbebze/389
 0 10
+https://beetrip.ge/en/fail
+0 2
 https://beetrip.ge/en/home
-0 52
+0 55
 https://beetrip.ge/_website/plugins/jquery-ui-1.12.1.custom/jquery-ui.min.css
 0 5
 https://tripplanner.ge/en/cart
@@ -1028,7 +1077,7 @@ https://tripplanner.ge/en/cart
 https://www.google.com.et/search
 0 1
 https://beetrip.ge/
-0 544
+0 576
 # End Of Table - referrers
 # -agents- 
 Mozilla/5.0
@@ -1040,7 +1089,7 @@ Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36
 0 1
 Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)
-0 63
+0 64
 Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)
 0 2
 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
@@ -1048,7 +1097,7 @@ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
 fasthttp
 0 1
 Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/6.0)
-0 205
+0 216
 Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
 0 18
 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.99 YaBrowser/19.1.0.2644 Yowser/
@@ -1058,7 +1107,7 @@ Mozilla/5.0 (Linux; Android 8.1.0; MI 8 Lite) AppleWebKit/537.36 (KHTML, like Ge
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.2 Safari/605.1.15
 0 230
 SiteLockSpider [en] (WinNT; I ;Nav)
-0 143
+0 150
 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36 OPR/54.0.2
 0 8
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
@@ -1066,9 +1115,9 @@ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like 
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/71.0.3578.98 Chrome/71.0.3578.98 Safar
 0 26
 Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
-0 29
+0 44
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-0 20
+0 22
 python-requests/2.19.1
 0 1
 Safari/14606.3.4 CFNetwork/976 Darwin/18.2.0 (x86_64)
@@ -1084,7 +1133,7 @@ Mozilla/5.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322) 360JK yunj
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.3 Safari/605.1.15
 0 12
 Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +http://www.google.com/bot.html) Safari/537.36
-0 31
+0 49
 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
 0 24
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)
@@ -1100,7 +1149,7 @@ Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrom
 Go-http-client/2.0
 0 15
 Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
-0 4
+0 6
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:64.0) Gecko/20100101 Firefox/64.0
 0 25
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0
@@ -1115,9 +1164,9 @@ Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chro
 0 151
 Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
 0 4
-Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36
-0 1
 Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36
 0 1
 Mozilla/5.0 (Windows NT 10.0; rv:64.0) Gecko/20100101 Firefox/64.0
 0 1
@@ -1126,15 +1175,17 @@ Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:59.0) Gecko/20100101 Firefox/59
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.71 Safari/537.36
 0 1
 Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile S
-0 23
+0 25
 Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
-0 281
+0 346
 Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B411 Safar
 0 14
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
 0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+0 83
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon
-0 2
+0 8
 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36
 0 1
 Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; MDDCJS)
@@ -1144,9 +1195,9 @@ Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0
 Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
 0 562
 Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
-0 918
+0 982
 Java/1.8.0_161
-0 26
+0 28
 Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
 0 2
 Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; MASPJS)

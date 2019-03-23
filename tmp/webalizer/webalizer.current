@@ -1,7 +1,7 @@
-# Webalizer V2.23-08 Incremental Data - 03/21/2019 04:59:10
-2019 3 21 4 59 10
-2483 351 485 46 164 210 12310087 722 566 0
-16 4 241 1 21
+# Webalizer V2.23-08 Incremental Data - 03/22/2019 05:00:58
+2019 3 22 5 0 58
+2543 352 501 46 166 215 12336589 753 595 0
+11 1 241 1 22
 2 1 34214 2 2 2
 89 2 230394 49 51 41
 6 1 35103 6 6 6
@@ -22,7 +22,8 @@
 413 98 2485471 54 50 35
 85 5 451102 38 32 28
 105 7 112527 53 52 44
-19 2 332016 16 14 13
+65 3 354554 33 35 32
+14 0 3964 11 10 10
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -32,35 +33,34 @@
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
-0 0 0 0 0 0
-65 1 54401 51
-67 2 54997 45
-78 4 546429 30
+67 1 55390 52
+71 2 55990 48
+81 4 547123 32
 86 4 137239 48
-75 2 104461 34
-91 17 563225 19
-150 15 463443 36
+79 2 105749 37
+93 17 563225 21
+155 15 465820 38
 148 13 841580 23
-134 3 126772 26
-106 5 416462 28
-195 7 380269 45
-115 18 550085 24
-152 16 715302 43
-124 36 1358272 20
+141 4 130893 29
+112 5 420626 28
+199 7 382251 47
+125 18 556227 26
+153 16 715597 44
+126 36 1358966 21
 43 1 356454 24
-111 0 39233 34
-87 28 484228 29
-155 121 3462625 28
+113 0 39823 36
+88 28 484527 30
+158 121 3463614 30
 66 31 1321907 25
 51 1 17412 26
-36 3 76510 25
-31 0 12363 18
+37 3 76805 26
+34 0 12953 21
 265 5 175184 21
 52 18 51234 20
 0
 0
 0
-351
+352
 0
 0
 0
@@ -68,7 +68,7 @@
 0
 0
 0
-612
+643
 1
 0
 0
@@ -78,7 +78,7 @@
 0
 0
 203
-1271
+1299
 0
 16
 0
@@ -100,21 +100,21 @@
 0
 # -urls- 
 /_website/css/bootstrap-datepicker.min.css
-0 3 7954892334483862117 98538 0 0
+0 3 7308330023623536181 98538 0 0
 /_website/css/style.css
-0 3 3760836870379745585 247802 0 0
+0 3 4049018639494414336 247802 0 0
 /.well-known/acme-challenge/9XTUQO4OHCN7T7SPAUY8T2EUQ-JU9W9W
-0 1 3257846571537215794 64 0 0
+0 1 3976168538913177600 64 0 0
 /_website/js/georgia_map.js
-0 3 3761692586648297728 77904 0 0
+0 3 0 77904 0 0
 /.well-known/acme-challenge/JKI2URXKDBJNE1-E4RKJH5618R39EI1N
-0 1 109 64 0 0
+0 1 26008184393119282 64 0 0
 /_website/js/jquery.slimscroll.min.js
-0 3 7018142236658576697 14217 0 0
+0 3 3832061034533814272 14217 0 0
 /.well-known/acme-challenge/AYKrjuClNd1r_B_nh1PWrZgSDBhwkw-sjUd1YU_wrLE
-0 1 3978139726216429568 87 0 0
+0 1 3543829541643498289 87 0 0
 /_website/js/slick.min.js
-0 3 3474862662090960437 128589 0 0
+0 3 101668439982385 128589 0 0
 /.well-known/acme-challenge/ZsGE26PfhEdS0hlsLT972sMlJpbSRmnFDaKy8cMMdls
 0 1 0 87 0 0
 /_website/css/font-awesome.css
@@ -132,7 +132,7 @@
 /.well-known/acme-challenge/Bk66CjkYWz0LAwa4jdt40nYAk8JblCohVKLesvsGJcs
 0 1 0 87 0 0
 /favicon.ico
-0 28 0 32200 0 0
+0 29 0 33350 0 0
 /_website/css/forms.css
 0 3 0 49428 0 0
 /_website/css/slick.css
@@ -166,19 +166,19 @@
 /.well-known/acme-challenge/4OYDJZ888XD8Y9PNR38WVBQIIR3865_M
 0 1 0 64 0 0
 /files/places/310.jpg
-0 1 792974590005360441 91547 0 0
+0 1 0 91547 0 0
 /.well-known/acme-challenge/DJXTrRHLu8bMA8MHgBZcDXOm-VAPzGcYAU1bKuywvm8
-0 1 3615674097589973869 87 0 0
+0 1 0 87 0 0
 /files/tours/Okatse - Martvili - 61/615.jpg
-0 1 470020206187 172250 0 0
+0 1 0 172250 0 0
 /cpanel
-0 10 6061944 338972 10 4
+0 10 0 338972 10 5
 /.well-known/acme-challenge/xy52_IN-u6xECdZ5P9PQWrP9qKRXMYD5Ts2EWWHi3zA
-0 1 3345738485950079858 87 0 0
+0 1 0 87 0 0
 /_website/css/fonts.css
-0 3 7162130782402641920 4938 0 0
+0 3 0 4938 0 0
 /dir.php
-0 1 8026309969787839076 30 0 0
+0 1 0 30 0 0
 /1.txt
 0 1 0 3 0 0
 /.well-known/acme-challenge/TBYYGY01SJ761T75J7SWQI6-Y8YFMF3_
@@ -199,11 +199,11 @@
 msnbot-207-46-13-25.search.msn.com
 0 1 0 295 1 1551638578
 -
-109.172.141.125
-0 1 0 295 1 1552392404
--
 91.206.14.10
 0 1 0 295 1 1551851087
+-
+109.172.141.125
+0 1 0 295 1 1552392404
 -
 leonid-angelchev2.example.com
 0 2 0 0 1 1552519760
@@ -244,6 +244,9 @@ modemcable090.197-70-69.static.videotron.ca
 fetcher16-9.go.mail.ru
 0 1 0 0 1 1552806446
 -
+ec2-35-162-201-161.us-west-2.compute.amazonaws.com
+0 1 0 295 1 1553204652
+-
 msnbot-207-46-13-196.search.msn.com
 0 1 0 694 0 0
 -
@@ -251,7 +254,7 @@ msnbot-207-46-13-210.search.msn.com
 0 2 0 594 2 1552553414
 -
 173.232.242.34
-0 1 0 299 1 1553111087
+0 2 0 594 2 1553203889
 -
 49.229.174.255
 0 1 0 299 1 1553121605
@@ -267,6 +270,9 @@ crawl-66-249-69-195.googlebot.com
 -
 123.250.196.35.bc.googleusercontent.com
 0 4 0 1982 1 1551914424
+-
+209.17.96.210.cloudsystemnetworks.com
+0 1 0 295 1 1553181532
 -
 msnbot-157-55-39-0.search.msn.com
 0 1 0 694 0 0
@@ -291,6 +297,9 @@ crawl-66-249-69-240.googlebot.com
 -
 75.116.229.35.bc.googleusercontent.com
 0 2 0 590 1 1552697459
+-
+ec2-34-208-41-63.us-west-2.compute.amazonaws.com
+0 1 0 0 1 1553219119
 -
 93-120-222-255.dynamic.mts-nn.ru
 0 2 0 989 1 1552042431
@@ -326,7 +335,10 @@ msnbot-157-55-39-26.search.msn.com
 0 2 0 166 0 0
 -
 crawl-66-249-69-169.googlebot.com
-0 38 1 105400 5 1553127202
+0 44 1 107482 8 1553230858
+-
+msnbot-157-55-39-69.search.msn.com
+0 1 0 295 1 1553191031
 -
 msnbot-157-55-39-95.search.msn.com
 0 1 0 299 1 1552884218
@@ -353,25 +365,25 @@ crawl-66-249-66-35.googlebot.com
 0 6 0 4164 0 0
 -
 research-scan.sprai.org
-0 18 0 5310 18 1553085486
+0 19 0 5605 19 1553171871
 -
 5.45.64.76
 0 1 0 295 1 1552735241
 -
-46.48.245.199
-0 1 0 295 1 1551490632
--
 ns381774.ip-46-105-96.eu
 0 44 0 5896 2 1552733694
+-
+46.48.245.199
+0 1 0 295 1 1551490632
 -
 219.14.185.35.bc.googleusercontent.com
 0 4 0 1982 1 1552627905
 -
-msnbot-157-55-39-50.search.msn.com
-0 1 0 299 1 1552929831
--
 234.114.199.104.bc.googleusercontent.com
 0 2 0 590 2 1552809455
+-
+msnbot-157-55-39-50.search.msn.com
+0 1 0 299 1 1552929831
 -
 ppp91-79-12-218.pppoe.mtu-net.ru
 0 1 0 295 1 1551890467
@@ -393,6 +405,9 @@ crawl-66-249-64-8.googlebot.com
 -
 182.73.56.134
 0 1 0 83 1 1553058809
+-
+msnbot-207-46-13-1.search.msn.com
+0 1 0 299 1 1553218759
 -
 msnbot-207-46-13-90.search.msn.com
 0 3 0 889 2 1552422366
@@ -470,7 +485,7 @@ ec2-54-208-102-37.compute-1.amazonaws.com
 0 4 2 2890 2 1552096118
 -
 placeholder.sitelock.com
-0 56 0 24231 6 1553144124
+0 58 0 25224 7 1553230010
 -
 client.yota.ru
 0 1 0 295 1 1551538590
@@ -538,11 +553,11 @@ ec2-54-185-53-145.us-west-2.compute.amazonaws.com
 142.93.180.44
 0 2 0 594 1 1551730728
 -
-207.35.209.231
-0 1 0 694 1 1552557781
--
 baiduspider-180-76-15-15.crawl.baidu.com
 0 1 0 295 1 1551769744
+-
+207.35.209.231
+0 1 0 694 1 1552557781
 -
 79-101-35-50.static.isp.telekom.rs
 0 2 0 989 1 1552485660
@@ -635,7 +650,7 @@ ec2-34-219-87-17.us-west-2.compute.amazonaws.com
 0 1 0 295 1 1553144350
 -
 crawl-66-249-69-236.googlebot.com
-0 36 0 24194 2 1553059804
+0 40 0 25582 4 1553221786
 -
 crawl-66-249-69-28.googlebot.com
 0 2 0 1388 0 0
@@ -676,20 +691,20 @@ msnbot-207-46-13-201.search.msn.com
 crawl-66-249-79-9.googlebot.com
 0 42 5 176463 4 1552179129
 -
-crawl-66-249-69-29.googlebot.com
-0 2 0 1388 0 0
--
 msnbot-207-46-13-94.search.msn.com
 0 1 0 299 1 1551624741
+-
+crawl-66-249-69-29.googlebot.com
+0 2 0 1388 0 0
 -
 msnbot-157-55-39-232.search.msn.com
 0 1 0 295 1 1551588889
 -
-ip80.ip-54-36-65.eu
-0 9 0 1155 1 1551685179
--
 crawl-66-249-73-71.googlebot.com
 0 12 0 7929 1 1552522281
+-
+ip80.ip-54-36-65.eu
+0 9 0 1155 1 1551685179
 -
 41.248.236.9
 0 12 0 2349 1 1552742358
@@ -697,14 +712,14 @@ crawl-66-249-73-71.googlebot.com
 ec2-18-237-83-35.us-west-2.compute.amazonaws.com
 0 1 0 0 1 1552872043
 -
-crawl-66-249-75-155.googlebot.com
-0 4 0 2776 0 0
+baiduspider-180-76-15-31.crawl.baidu.com
+0 1 0 295 1 1551400067
 -
 broadband-178-140-140-179.ip.moscow.rt.ru
 0 1 0 0 0 0
 -
-baiduspider-180-76-15-31.crawl.baidu.com
-0 1 0 295 1 1551400067
+crawl-66-249-75-155.googlebot.com
+0 4 0 2776 0 0
 -
 209.17.97.122.cloudsystemnetworks.com
 0 1 0 305 1 1552921447
@@ -765,6 +780,9 @@ ws95-215-135-136.hgrupp.ee
 -
 209.17.97.82.cloudsystemnetworks.com
 0 2 0 604 2 1552065402
+-
+ec2-34-219-125-152.us-west-2.compute.amazonaws.com
+0 1 0 0 1 1553216621
 -
 nat-z.g-service.ru
 0 1 0 694 0 0
@@ -874,8 +892,14 @@ baiduspider-180-76-15-12.crawl.baidu.com
 119.176.177.60.broad.hz.zj.dynamic.163data.com.cn
 0 5 0 3470 0 0
 -
+94.240.254.16
+0 1 0 295 1 1553183403
+-
 178-134-120-86.dsl.utg.ge
 0 1 0 295 1 1552451251
+-
+69.171.251.13
+0 1 0 295 1 1553201248
 -
 fetcher-img1-8.p.mail.ru
 0 1 0 694 0 0
@@ -883,11 +907,11 @@ fetcher-img1-8.p.mail.ru
 178.34.149.49
 0 1 0 295 1 1551506870
 -
-static-46.246.248.49-tataidc.co.in
-0 2 0 590 2 1551770723
--
 msnbot-207-46-13-186.search.msn.com
 0 1 0 295 1 1551777677
+-
+static-46.246.248.49-tataidc.co.in
+0 2 0 590 2 1551770723
 -
 crawl-66-249-66-41.googlebot.com
 0 2 0 1388 0 0
@@ -896,7 +920,7 @@ crawl-66-249-66-41.googlebot.com
 0 2 0 989 1 1552117636
 -
 crawl-66-249-69-167.googlebot.com
-0 69 3 284485 4 1553129509
+0 76 3 288649 5 1553228574
 -
 93-158-161-171.spider.yandex.com
 0 8 0 4762 2 1552987679
@@ -985,11 +1009,11 @@ ip210-220.telenet.dn.ua
 msnbot-157-55-39-176.search.msn.com
 0 1 0 295 1 1552848908
 -
-ec2-54-187-20-214.us-west-2.compute.amazonaws.com
-0 12 0 0 11 1553044493
--
 93.91.227.35.bc.googleusercontent.com
 0 4 0 1982 1 1551682935
+-
+ec2-54-187-20-214.us-west-2.compute.amazonaws.com
+0 13 0 0 12 1553149870
 -
 asset1000.hostasset.net
 0 1 0 83 0 0
@@ -997,14 +1021,14 @@ asset1000.hostasset.net
 dynggrab-246-134-71-105.inwitelecom.net
 0 1 0 295 1 1552900751
 -
-159.89.43.244
-0 1 0 295 1 1553115213
--
 msnbot-40-77-167-79.search.msn.com
 0 1 0 694 0 0
 -
+159.89.43.244
+0 1 0 295 1 1553115213
+-
 msnbot-157-55-39-37.search.msn.com
-0 1 0 694 0 0
+0 2 0 1388 0 0
 -
 ns2.net-informatika.com
 0 1 0 295 1 1552242407
@@ -1021,20 +1045,20 @@ abayonne-652-1-20-237.w109-223.abo.wanadoo.fr
 msnbot-40-77-167-78.search.msn.com
 0 1 0 299 1 1552452760
 -
-103.103.229.35.bc.googleusercontent.com
-0 4 0 1982 1 1552855841
--
 ec2-34-235-48-77.compute-1.amazonaws.com
 0 3 0 0 2 1553059347
+-
+103.103.229.35.bc.googleusercontent.com
+0 4 0 1982 1 1552855841
 -
 google-proxy-66-249-93-201.google.com
 0 3 0 885 3 1553103694
 -
-fetcher-img1-7.p.mail.ru
-0 4 0 2776 0 0
--
 94.100.237.62
 0 2 0 989 1 1551967536
+-
+fetcher-img1-7.p.mail.ru
+0 4 0 2776 0 0
 -
 37.232.94.108
 0 1 0 295 1 1552716207
@@ -1063,11 +1087,11 @@ msnbot-40-77-167-50.search.msn.com
 103-95-15-51.rev.cloud.scaleway.com
 0 1 0 295 1 1551843946
 -
-15.179.231.35.bc.googleusercontent.com
-0 4 0 1982 1 1553101210
--
 45.55.57.150
 0 1 0 295 1 1552697404
+-
+15.179.231.35.bc.googleusercontent.com
+0 4 0 1982 1 1553101210
 -
 crawl-66-249-79-7.googlebot.com
 0 82 11 752517 4 1552047253
@@ -1084,20 +1108,20 @@ google-proxy-66-249-81-199.google.com
 193.169.254.80
 0 2 0 166 0 0
 -
-104.129.6.164.static.quadranet.com
-0 1 0 305 1 1553092677
--
 crawl-66-249-69-2.googlebot.com
 0 4 0 2776 0 0
+-
+104.129.6.164.static.quadranet.com
+0 1 0 305 1 1553092677
 -
 ec2-54-244-144-32.us-west-2.compute.amazonaws.com
 0 1 0 295 1 1552641868
 -
-cable-cgn.166.mtel.me
-0 1 0 295 1 1552547684
--
 tor-exit-anonymizer-09.appliedprivacy.net
 0 2 0 590 2 1552675769
+-
+cable-cgn.166.mtel.me
+0 1 0 295 1 1552547684
 -
 randall.spb.ru
 0 1 0 295 1 1552174240
@@ -1116,6 +1140,9 @@ msnbot-40-77-167-64.search.msn.com
 -
 188-163-124-12.broadband.kyivstar.net
 0 1 0 295 1 1551487206
+-
+baiduspider-180-76-15-23.crawl.baidu.com
+0 1 0 295 1 1553168777
 -
 209.17.96.34.cloudsystemnetworks.com
 0 1 0 295 1 1551979710
@@ -1162,6 +1189,9 @@ ec2-54-244-39-195.us-west-2.compute.amazonaws.com
 193.106.30.98
 0 1 0 0 1 1553084255
 -
+58.87.109.188
+0 3 0 2082 0 0
+-
 msnbot-207-46-13-250.search.msn.com
 0 1 0 295 1 1552470097
 -
@@ -1204,11 +1234,11 @@ msnbot-157-55-39-25.search.msn.com
 crawl-66-249-69-201.googlebot.com
 0 6 0 3470 1 1551714523
 -
-ns3138484.ip-51-77-52.eu
-0 1 0 295 1 1552922522
--
 msnbot-40-77-167-48.search.msn.com
 0 2 0 598 2 1551759849
+-
+ns3138484.ip-51-77-52.eu
+0 1 0 295 1 1552922522
 -
 msnbot-40-77-167-180.search.msn.com
 0 1 0 295 1 1552805166
@@ -1253,7 +1283,7 @@ msnbot-207-46-13-42.search.msn.com
 0 1 0 295 1 1552503168
 -
 crawl-66-249-69-163.googlebot.com
-0 91 1 102044 6 1553046954
+0 99 1 106503 8 1553213617
 -
 google-proxy-66-249-93-199.google.com
 0 3 0 2082 1 1552891586
@@ -1269,6 +1299,9 @@ ec2-18-237-96-109.us-west-2.compute.amazonaws.com
 -
 fetcher-img1-4.p.mail.ru
 0 2 0 1388 0 0
+-
+sender8p6.offresduweb.fr
+0 1 0 295 1 1553166722
 -
 176.98.31.56
 0 1 0 295 1 1551488548
@@ -1286,8 +1319,8 @@ crawl-66-249-64-4.googlebot.com
 0 38 1 51247 1 1552291921
 -
 94.240.245.46
-0 10 7 172635 7 1553054862
-/cpanel
+0 11 7 172930 8 1553228856
+-
 142.93.78.24
 0 1 0 295 1 1551747866
 -
@@ -1339,6 +1372,9 @@ outbound1.letsencrypt.org
 80.49.215.184.ipv4.supernova.orange.pl
 0 1 0 295 1 1552326001
 -
+78.161.54.134.dynamic.ttnet.com.tr
+0 2 1 1844 0 0
+-
 msnbot-157-55-39-29.search.msn.com
 0 1 0 295 1 1551918493
 -
@@ -1352,7 +1388,10 @@ baiduspider-180-76-15-148.crawl.baidu.com
 0 2 0 590 2 1552941389
 -
 189.49.227.35.bc.googleusercontent.com
-0 10 0 5352 2 1552698795
+0 14 0 7334 3 1553165417
+-
+5.121.227.35.bc.googleusercontent.com
+0 4 0 1982 1 1553157003
 -
 194.113.106.124
 0 22 0 2948 1 1552550991
@@ -1402,20 +1441,20 @@ fetcher-img1-9.p.mail.ru
 116.85.9.183
 0 3 0 2082 0 0
 -
-242.54.73.34.bc.googleusercontent.com
-0 4 0 1982 1 1553093347
--
 ec2-34-209-90-187.us-west-2.compute.amazonaws.com
 0 2 0 0 2 1553097330
 -
-msnbot-207-46-13-47.search.msn.com
-0 1 0 694 0 0
+242.54.73.34.bc.googleusercontent.com
+0 4 0 1982 1 1553093347
+-
+142.93.184.124
+0 1 0 295 1 1552286752
 -
 baiduspider-180-76-15-137.crawl.baidu.com
 0 1 0 694 0 0
 -
-142.93.184.124
-0 1 0 295 1 1552286752
+msnbot-207-46-13-47.search.msn.com
+0 1 0 694 0 0
 -
 ec2-34-213-226-114.us-west-2.compute.amazonaws.com
 0 1 0 295 1 1552008283
@@ -1450,11 +1489,11 @@ broadband-188-32-144-32.ip.moscow.rt.ru
 95-24-30-235.broadband.corbina.ru
 0 1 1 339487 0 0
 -
-ec2-34-222-159-132.us-west-2.compute.amazonaws.com
-0 1 0 0 1 1552077508
--
 crawl-66-249-79-5.googlebot.com
 0 136 16 925692 2 1551911751
+-
+ec2-34-222-159-132.us-west-2.compute.amazonaws.com
+0 1 0 0 1 1552077508
 -
 msnbot-207-46-13-30.search.msn.com
 0 2 0 598 2 1552981431
@@ -1464,6 +1503,9 @@ baiduspider-180-76-15-162.crawl.baidu.com
 -
 aputeaux-156-1-24-75.w90-43.abo.wanadoo.fr
 0 2 0 594 1 1553139400
+-
+msnbot-40-77-167-59.search.msn.com
+0 1 0 694 0 0
 -
 msnbot-40-77-167-205.search.msn.com
 0 1 0 295 1 1552073521
@@ -1492,6 +1534,9 @@ baiduspider-180-76-15-25.crawl.baidu.com
 broadband-195-208-106-133.glavsv.ru
 0 1 0 295 1 1552659934
 -
+176.221.227.230
+0 1 0 295 1 1553156300
+-
 fetcher16-34.go.mail.ru
 0 2 0 694 1 1552724693
 -
@@ -1504,23 +1549,23 @@ fetcher16-34.go.mail.ru
 151.253.243.35.bc.googleusercontent.com
 0 8 0 3964 2 1552785377
 -
-16.178.233.35.bc.googleusercontent.com
-0 1 0 295 1 1552004192
--
 ec2-54-188-123-233.us-west-2.compute.amazonaws.com
 0 2 0 0 2 1552766522
 -
-194.93.59.17
-0 22 0 2897 1 1552060675
+16.178.233.35.bc.googleusercontent.com
+0 1 0 295 1 1552004192
 -
 baiduspider-180-76-15-153.crawl.baidu.com
 0 1 0 299 1 1552350769
+-
+194.93.59.17
+0 22 0 2897 1 1552060675
 -
 host-95-104-76-121.customer.magticom.ge
 0 1 0 295 1 1552063977
 -
 188-169-161-146.dsl.utg.ge
-0 10 0 1184 8 1553138293
+0 11 0 1184 9 1553144821
 -
 firstbyte-2.domengood.ru
 0 2 0 0 1 1552005148
@@ -1547,7 +1592,7 @@ tor01.zencurity.dk
 0 1 0 295 1 1552678086
 -
 ec2-52-53-201-78.us-west-1.compute.amazonaws.com
-0 7 0 2093 7 1552988950
+0 8 0 2392 8 1553187400
 -
 ec2-54-189-147-159.us-west-2.compute.amazonaws.com
 0 2 0 0 2 1553135374
@@ -1590,6 +1635,9 @@ crawl-66-249-75-157.googlebot.com
 -
 host-191-38.213.162.cloudsigma.net
 0 1 0 295 1 1553079563
+-
+188.93.95.117
+0 1 0 295 1 1553148419
 -
 msnbot-157-55-39-48.search.msn.com
 0 1 0 694 0 0
@@ -1650,53 +1698,38 @@ h88-129-82-241.cust.a3fiber.se
 -
 # End Of Table - sites (monthly)
 # -sites- (daily)
-crawl-66-249-69-240.googlebot.com
-0 1 0 0 1 1553127007
+ec2-34-208-41-63.us-west-2.compute.amazonaws.com
+0 1 0 0 1 1553219119
 -
 crawl-66-249-69-169.googlebot.com
-0 1 0 0 1 1553127202
+0 2 0 0 2 1553230858
+-
+msnbot-207-46-13-1.search.msn.com
+0 1 0 299 1 1553218759
 -
 placeholder.sitelock.com
-0 2 0 993 1 1553144124
--
-ec2-34-219-87-17.us-west-2.compute.amazonaws.com
-0 1 0 295 1 1553144350
+0 2 0 993 1 1553230010
 -
 crawl-66-249-69-236.googlebot.com
-0 1 0 694 0 0
+0 2 0 694 1 1553221786
 -
-46-118-157-179.broadband.kyivstar.net
-0 1 0 295 1 1553131890
--
-74.165.227.35.bc.googleusercontent.com
-0 1 0 295 1 1553135708
--
-msnbot-157-55-39-46.search.msn.com
-0 1 0 694 0 0
+ec2-34-219-125-152.us-west-2.compute.amazonaws.com
+0 1 0 0 1 1553216621
 -
 crawl-66-249-69-167.googlebot.com
-0 1 0 0 1 1553129509
+0 1 0 0 1 1553228574
 -
-ec2-52-24-106-185.us-west-2.compute.amazonaws.com
-0 1 0 0 1 1553137729
--
-crawl-66-249-69-163.googlebot.com
+msnbot-157-55-39-37.search.msn.com
 0 1 0 694 0 0
 -
-baiduspider-180-76-15-163.crawl.baidu.com
-0 1 1 33914 1 1553138274
-/cpanel
-5x3x190x109.dynamic.spb.ertelecom.ru
-0 1 1 293253 0 0
+crawl-66-249-69-163.googlebot.com
+0 1 0 295 1 1553213617
 -
-aputeaux-156-1-24-75.w90-43.abo.wanadoo.fr
-0 2 0 594 1 1553139400
+94.240.245.46
+0 1 0 295 1 1553228856
 -
-188-169-161-146.dsl.utg.ge
-0 1 0 295 1 1553138293
--
-ec2-54-189-147-159.us-west-2.compute.amazonaws.com
-0 2 0 0 2 1553135374
+msnbot-40-77-167-59.search.msn.com
+0 1 0 694 0 0
 -
 # End Of Table - sites (daily)
 # -referrers- 
@@ -1724,6 +1757,8 @@ http://go.mail.ru/search_images
 0 6
 http://tripplanner.ge/MA.php
 0 2
+http://tripplanner.ge/tours/index/1/7
+0 8
 http://pizza-imperia.com/
 0 4
 https://l.instagram.com/
@@ -1755,7 +1790,7 @@ http://tripplanner.ge/tours/full/122/
 http://instagram.com/
 0 11
 http://www.google.com/url
-0 19
+0 20
 http://tripplanner.ge/tours/index/0/0/108
 0 8
 http://lm.facebook.com/l.php
@@ -1770,10 +1805,10 @@ http://tripplanner.ge/tours/index/0/0/301
 0 4
 http://www.tripplanner.ge/tours/index/0/0/83
 0 7
-http://www.tripplanner.ge/tours/index/0/0/43
-0 8
 http://tripplanner.ge/tours/index/0/0/365
 0 21
+http://www.tripplanner.ge/tours/index/0/0/43
+0 8
 http://tripplanner.ge/tours/full/133/Kazbegi-Jeep-tour
 0 2
 http://tripplanner.ge/NEW/
@@ -1847,11 +1882,13 @@ http://tripplanner.ge/tours/full/67/
 https://www.google.com/
 0 1
 - (Direct Request)
-0 1318
+0 1362
 http://www.tripplanner.ge/tours/index/0/0/91
 0 1
 http://tripplanner.ge/tours/index/0/0/163
 0 20
+http://tripplanner.ge/tours/full/119/
+0 6
 http://tripplanner.ge/tours/index/0/0/8
 0 11
 https://tripplanner.ge/en/ongoing-tours/ordghiani-turi-khevsuretshi/444
@@ -1904,12 +1941,12 @@ http://tripplanner.ge/tours/full/124/
 0 4
 http://www.tripplanner.ge/tours/index/0/0/19
 0 7
-http://tripplanner.ge/tours/full/133/
-0 11
-http://tripplanner.ge/tours/index/1/2
-0 11
 http://tripplanner.ge/tours/index/3/18
 0 8
+http://tripplanner.ge/tours/index/1/2
+0 11
+http://tripplanner.ge/tours/full/133/
+0 11
 http://tripplanner.ge/tours/index/0/0/38
 0 3
 http://www.tripplanner.ge/tours/index/0/0/27
@@ -1961,7 +1998,7 @@ http://tripplanner.ge/blog/index/2/მეორე კატეოგირა
 http://www.tripplanner.ge/tours/index/0/0/134
 0 5
 http://tripplanner.ge/xss.php
-0 15
+0 16
 http://tripplanner.ge/tours/full/65/One-day-tour-in-Stephantsminda
 0 6
 https://tripplanner.ge/ge/blog
@@ -1974,10 +2011,10 @@ http://www.tripplanner.ge/tours/index/0/0/279
 0 9
 http://tripplanner.ge/tours/planner/0/0/33
 0 7
-http://tripplanner.ge/tours/index/0/0/36
-0 7
 http://tripplanner.ge/tours/index/0/0/20
 0 2
+http://tripplanner.ge/tours/index/0/0/36
+0 7
 http://hundejo.com/
 0 4
 http://tripplanner.ge/tours/index/0/0/419
@@ -2052,10 +2089,10 @@ Mozilla/5.0 (Macintosh; PPC Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0
 0 1
 Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36
 0 5
-Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
-0 1
 Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16D57 [FBAN/Messenge
 0 2
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+0 1
 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
 0 1
 Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0; Touch; MALNJS)
@@ -2071,13 +2108,13 @@ Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.
 Mozilla/5.0 (compatible; DuckDuckGo-Favicons-Bot/1.0; +http://duckduckgo.com)
 0 4
 Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)
-0 21
+0 22
 Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0
 0 7
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+0 249
 Mozilla/5.0 (Macintosh; PPC Mac OS X 10.11; rv:53.0) Gecko/20100101 Firefox/53.0
 0 1
-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
-0 245
 Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
 0 13
 SafeDNSBot (https://www.safedns.com/searchbot)
@@ -2085,9 +2122,9 @@ SafeDNSBot (https://www.safedns.com/searchbot)
 Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11B554a Instagram 8.5
 0 1
 Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
-0 1
+0 2
 Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/6.0)
-0 19
+0 20
 Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
 0 5
 Mozilla/5.0 (Macintosh; PPC Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0
@@ -2119,7 +2156,7 @@ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
 0 1
 SiteLockSpider [en] (WinNT; I ;Nav)
-0 49
+0 50
 Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; fr; rv:1.9.2.8) Gecko/20100722 Firefox/3.6.8
 0 2
 Mozilla/5.0 (Windows NT 10.0; WOW64; rv:60.0) Gecko/20100101 Thunderbird/60.5.3 Lightning/6.2.5.3
@@ -2137,7 +2174,7 @@ Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:59.0) Gecko/20100101 Firefox/59
 Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; Touch; MASMJS)
 0 1
 Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
-0 42
+0 43
 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
 0 1
 Mozilla/5.0 (Linux; Android 6.0; M5s Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/44.0.2403.14
@@ -2163,7 +2200,7 @@ Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2
 Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0; Touch; MASMJS)
 0 1
 Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
-0 12
+0 15
 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
 0 186
 Mozilla/5.0 (compatible; AhrefsBot/6.1; +http://ahrefs.com/robot/)
@@ -2171,13 +2208,15 @@ Mozilla/5.0 (compatible; AhrefsBot/6.1; +http://ahrefs.com/robot/)
 Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16D57 Instagram 82.0
 0 1
 Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
-0 85
+0 95
 Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
-0 102
+0 106
 Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; MASBJS)
 0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
+0 1
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-0 7
+0 8
 Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
 0 2
 Mozilla/5.0 (X11; Linux i686; rv:54.0) Gecko/20100101 Firefox/54.0
@@ -2259,9 +2298,9 @@ Mail/3445.101.1 CFNetwork/975.0.3 Darwin/18.2.0 (x86_64)
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36
 0 40
 Mozilla/5.0 zgrab/0.x
-0 18
+0 19
 facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
-0 6
+0 7
 Cpanel-HTTP-Client/1.0
 0 8
 Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1
@@ -2273,6 +2312,8 @@ Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) 
 Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36
 0 1
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36
+0 1
+Mozilla/5.0 (X11; Linux i686; rv:47.0) Gecko/20100101 Firefox/47.0
 0 1
 Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 YaBrowser/18.11.1.805 Yowser/2.5 Saf
 0 1
@@ -2309,7 +2350,7 @@ Mozilla/5.0 (compatible; Cliqzbot/2.0; +http://cliqz.com/company/cliqzbot)
 Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CL
 0 1
 Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile S
-0 780
+0 795
 Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
 0 20
 Java/1.8.0_144
@@ -2344,16 +2385,18 @@ Mozilla/5.0 (Macintosh; PPC Mac OS X 10.10; rv:53.0) Gecko/20100101 Firefox/53.0
 0 1
 Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:60.0) Gecko/20100101 Firefox/60.0.2
 0 1
-Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0
-0 3
 Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
 0 1
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0
+0 3
 Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.170 Safari/537.36 OPR/53.0.2
 0 1
 Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
-0 11
+0 12
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
+0 1
 ZoominfoBot (zoominfobot at zoominfo dot com)
-0 92
+0 100
 Mail/3445.102.3 CFNetwork/976 Darwin/18.2.0 (x86_64)
 0 4
 Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
@@ -2372,10 +2415,10 @@ Mozilla/5.0 (X11; Linux x86_64; rv:46.0) Gecko/20100101 Firefox/46.0
 0 1
 Mozilla/5.0 (Macintosh; PPC Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0
 0 1
-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-0 8
 Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
 0 10
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+0 8
 Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0
 0 3
 Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
@@ -2424,8 +2467,10 @@ curl/7.64.0
 0 1
 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.1
 0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Safari/605.1.15
+0 1
 Mozilla/5.0 (Windows NT 6.1; WOW64; rv:48.0) Gecko/20100101 Firefox/48.0
-0 2
+0 3
 Mozilla/5.0 (Macintosh; PPC Mac OS X 10.9; rv:47.0) Gecko/20100101 Firefox/47.0
 0 1
 Mozilla/5.0 (Windows NT 6.1; WOW64; rv:60.0) Gecko/20100101 Thunderbird/60.5.3 Lightning/6.2.5.3
@@ -2440,6 +2485,8 @@ python-requests/2.18.4
 0 232
 Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
 0 4
+Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_5; de-de) AppleWebKit/534.15+ (KHTML, like Gecko) Version/5.0.3 Safari/533.19.
+0 1
 Mozilla/5.0 (compatible)
 0 4
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36
@@ -2449,7 +2496,7 @@ Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTM
 Mail/3445.9.1 CFNetwork/902.3.1 Darwin/17.7.0 (x86_64)
 0 6
 Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en) Opera 8.50
-0 1
+0 2
 # End Of Table - agents
 # -search strings- 
 # End Of Table - search strings

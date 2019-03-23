@@ -2746,3 +2746,115 @@ cd ../
 git status
 #1553249356
 git status
+#1553249361
+git add .
+#1553249369
+git commit -m "save"
+#1553249375
+git push origin master
+#1553249396
+cd public_html
+#1553249398
+git status
+#1553249935
+git status
+#1553249939
+clear
+#1553249940
+clear
+#1553249943
+git status
+#1553250282
+git status
+#1553250287
+rm dir.php
+#1553250464
+cd _backup
+#1553250481
+echo 'admin:123' > .htpasswd
+#1553250703
+cd ../
+#1553250714
+git status
+#1553250726
+rm _backup/.htpasswd
+#1553250737
+rm _backup/index.html
+#1553250740
+clear
+#1553256911
+git status
+#1553256933
+git add .
+#1553256957
+git commit -m "national bank of georgia currency"
+#1553256964
+git push origin master
+#1553256985
+git status
+#1553256988
+cd ../
+#1553256991
+git status
+#1553257020
+git diff tmp/sess_hbk3usemtrpgnul1qhi6ga4a3v1j33vc
+#1553257030
+cat tmp/sess_hbk3usemtrpgnul1qhi6ga4a3v1j33vc
+#1553257107
+clear
+#1553257113
+cd beetrip.ge
+#1553257117
+git status
+#1553257121
+exit
+#1553272213
+cd public_html
+#1553272221
+git status
+#1553279106
+clear
+#1553279110
+git status
+#1553279135
+git add img/*
+#1553279140
+git sttus
+#1553279150
+git status
+#1553279170
+git add .
+#1553279179
+git commit -m "bug fixed"
+#1553279186
+git push origin master
+#1553279212
+cd ../beetrip.ge
+#1553279216
+git status
+#1553279220
+cd ../
+#1553279232
+cd public_html
+#1553279235
+git status
+#1553279237
+clear
+#1553279280
+git status
+#1553282016
+git status
+#1553288743
+curl -v
+#1553288760
+curl -s https://tripplanner.ge/?ajax=true&currencyupdate=true
+#1553288847
+curl -X GET https://tripplanner.ge/?ajax=true&currencyupdate=true
+#1553288873
+curl -X GET 'https://tripplanner.ge/?ajax=true&currencyupdate=true'
+#1553289146
+clear
+#1553289149
+git status
+#1553329850
+git status
