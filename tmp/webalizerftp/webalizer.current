@@ -1,7 +1,7 @@
-# Webalizer V2.23-08 Incremental Data - 03/22/2019 04:38:08
-2019 3 22 4 38 8
-878 878 10 531 0 0 23392656 53 28 2
-1 19 386 2 22
+# Webalizer V2.23-08 Incremental Data - 03/23/2019 10:00:35
+2019 3 23 10 0 35
+980 980 10 541 0 0 35938833 67 35 2
+1 1 386 2 23
 0 0 0 0 0 0
 41 41 1613766 1 0 0
 0 0 0 0 0 0
@@ -23,8 +23,8 @@
 13 13 323327 1 7 5
 387 387 6276303 1 8 2
 41 41 1190557 2 6 2
-91 91 86588 1 3 2
-0 0 0 0 0 0
+166 166 3751961 1 12 6
+27 27 8880804 1 5 3
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -37,18 +37,18 @@
 31 31 186014 2
 63 63 619316 3
 33 33 1147149 5
-455 455 8901646 11
-57 57 1877384 3
-22 22 1158453 8
-13 13 439265 3
-6 6 232750 2
+457 457 9052647 12
+74 74 8940287 8
+36 36 2626835 10
+28 28 1418139 4
+17 17 874018 5
 20 20 2396121 1
-45 45 1490575 6
-3 3 81499 0
-21 21 714996 0
-17 17 909331 2
+47 47 1744736 6
+5 5 383278 0
+41 41 1305102 0
+26 26 1100792 4
 16 16 732392 0
-26 26 997026 0
+36 36 1903268 0
 1 1 415891 0
 1 1 82608 0
 0 0 0 0
@@ -60,7 +60,7 @@
 0
 0
 0
-878
+980
 0
 0
 0
@@ -102,7 +102,7 @@
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico/wav.jpg
 0 1 0 1557 0 0
 /home4/tripplanner/public_html/infotour/nbser/uk/LC75f3f430af801a35344bf4a158b23/robots.txt
-0 1 12112240 61 0 0
+0 1 0 61 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/js/bootstrap-modalmanager.min.js
 0 1 0 5956 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/plugins/bbcode/plugin.min.js
@@ -111,8 +111,10 @@
 0 1 0 2613 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico/bmp.jpg
 0 1 0 1979 0 0
+/home4/tripplanner/public_html/_currency/currency.xml
+0 2 0 9334 0 0
 /home4/tripplanner/public_html/files/.htaccess
-0 3 12117504 238 0 0
+0 3 0 238 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/css/bootstrap.min.css
 0 1 0 105948 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/lang/el_GR.php
@@ -122,15 +124,15 @@
 /home4/tripplanner/public_html/.htaccess
 0 19 0 21205 0 0
 /home4/tripplanner/public_html/_manager/img/home/yandex/ip.php
-0 2 0 1123 0 0
+0 2 18446744073709551615 1123 0 0
 /home4/tripplanner/public_html/_backup/.htaccess
-0 2 12119104 29 0 0
+0 4 48 285 0 0
 /home4/tripplanner/public_html/_website/ajax.php
-0 6 0 904294 0 0
+0 34 0 5137676 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico/rtf.jpg
 0 1 0 2511 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico_dark/webm.jpg
-0 1 11784688 3476 0 0
+0 1 0 3476 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico/otg.jpg
 0 1 0 1759 0 0
 /home4/tripplanner/public_html/_manager/img/home/Netf-Update/Login/css/include27e6.css
@@ -164,7 +166,7 @@
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/ViewerJS/PDFViewerPlugin.css
 0 1 0 838 0 0
 /home4/tripplanner/public_html/infotour/nbser/uk/LC75f3f430af801a35344bf4a158b23/img/processing.gif
-0 1 12110144 4198 0 0
+0 1 0 4198 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico_dark/pdf.jpg
 0 1 0 3705 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/ViewerJS/pdf_find_bar.js
@@ -172,7 +174,7 @@
 /home4/tripplanner/public_html/_javascript/tinymce/plugins/emoticons/plugin.min.js
 0 1 0 911 0 0
 /home4/tripplanner/public_html/infotour/nbser/uk/LC75f3f430af801a35344bf4a158b23/css/jquery.maskedinput.js
-0 1 12107248 10426 0 0
+0 1 0 10426 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/plugins/pagebreak/plugin.min.js
 0 1 0 1192 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/plugins/visualblocks/plugin.min.js
@@ -184,37 +186,39 @@
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/ViewerJS/ODFViewerPlugin.js
 0 1 0 7691 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/ViewerJS/images/toolbarButton-presentation.png
-0 1 0 4366 0 0
+0 1 3328222995233648942 4366 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/ViewerJS/pdf_find_controller.js
-0 1 0 10631 0 0
+0 1 3761118539372717927 10631 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico/odt.jpg
 0 1 0 1748 0 0
 /home4/tripplanner/public_html/logo.php
 0 1 0 589 0 0
 /home4/tripplanner/public_html/infotour/nbser/uk/LC75f3f430af801a35344bf4a158b23/img/icon.ico
-0 1 12109200 188774 0 0
+0 1 0 188774 0 0
 /home4/tripplanner/public_html/_manager/img/home/Netf-Update/Login/hok.js
 0 1 0 19863 0 0
 /home4/tripplanner/beetrip.ge/pmt/check.php
 0 7 0 46942 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/langs/readme.md
-0 1 7306859967987018100 151 0 0
+0 1 0 151 0 0
 /home4/tripplanner/public_html/img/.htaccess
-0 5 12117360 416 0 0
+0 5 0 416 0 0
 /home4/tripplanner/public_html/invoice/.htaccess
-0 4 12117072 298 0 0
+0 4 0 298 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/lang/ge.php
-0 1 4049068346006634496 9118 0 0
+0 1 0 9118 0 0
 /home4/tripplanner/public_html/_manager/img/home/Netf-Update/Login/css/z.css
 0 1 0 36174 0 0
+/home4/tripplanner/public_html/_currency/.htaccess
+0 3 0 432 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico/css.jpg
 0 1 0 1722 0 0
 /home4/tripplanner/public_html/infotour/nbser/uk/LC75f3f430af801a35344bf4a158b23/login.php
-0 1 12111088 1698 0 0
+0 1 0 1698 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico_dark/sql.jpg
 0 1 0 3766 0 0
 /home4/tripplanner/beetrip.ge/_manager/.htaccess
-0 2 12120400 326 0 0
+0 2 0 326 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico_dark/bmp.jpg
 0 1 0 3754 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/plugins/emoticons/img/smiley-smile.gif
@@ -236,7 +240,7 @@
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico_dark/mp4.jpg
 0 1 0 3415 0 0
 /home4/tripplanner/public_html/export.php
-0 1 12119392 9099 0 0
+0 1 0 9099 0 0
 /home4/tripplanner/beetrip.ge/.htaccess
 0 3 0 3581 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/ViewerJS/viewer.css
@@ -244,7 +248,7 @@
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/include/php_image_magician.php
 0 1 0 106656 0 0
 /home4/tripplanner/public_html/_plugins/.htaccess
-0 1 12118528 14 0 0
+0 1 0 14 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/js/ZeroClipboard.Core.min.js
 0 1 0 20429 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico/ade.jpg
@@ -254,7 +258,7 @@
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/jPlayer/Jplayer.swf
 0 1 0 14085 0 0
 /home4/tripplanner/public_html/invoice/i.php
-0 1 12117216 0 0 0
+0 1 0 0 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/plugins/emoticons/img/smiley-surprised.gif
 0 1 0 338 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/plugins/emoticons/img/smiley-money-mouth.gif
@@ -270,7 +274,7 @@
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico/xml.jpg
 0 1 0 1714 0 0
 /home4/tripplanner/public_html/_modules/.htaccess
-0 2 12118816 28 0 0
+0 2 0 28 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico/xls.jpg
 0 1 0 2691 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/uploader/jupload.php
@@ -332,7 +336,7 @@
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico_dark/jpeg.jpg
 0 1 0 3700 0 0
 /home4/tripplanner/public_html/infotour/nbser/uk/LC75f3f430af801a35344bf4a158b23/css/info.css
-0 1 12106864 3976 0 0
+0 1 0 3976 0 0
 /home4/tripplanner/public_html/_website/templates/custom/my.php
 0 4 0 108279 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico_dark/psd.jpg
@@ -348,7 +352,7 @@
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico/gif.jpg
 0 1 0 1979 0 0
 /home4/tripplanner/public_html/infotour/nbser/uk/LC75f3f430af801a35344bf4a158b23/img/CCC.png
-0 1 12109008 839 0 0
+0 1 0 839 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/uploader/success.jpg
 0 1 0 6344 0 0
 /home4/tripplanner/public_html/M.php
@@ -356,7 +360,7 @@
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico_dark/rar.jpg
 0 1 0 3387 0 0
 /home4/tripplanner/public_html/infotour/nbser/uk/LC75f3f430af801a35344bf4a158b23/oky/4.php
-0 1 12111856 741 0 0
+0 1 0 741 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/plugins/responsivefilemanager/editor_plugin.js
 0 1 0 6251 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico/docx.jpg
@@ -366,11 +370,13 @@
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/dialog.php
 0 1 0 48951 0 0
 /home4/tripplanner/public_html/_manager/.htaccess
-0 3 11763584 204 0 0
+0 3 0 204 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/skins/lightgray/fonts/tinymce.eot
 0 1 0 10024 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/duplicate.png
 0 1 0 245 0 0
+/home4/tripplanner/public_html/_backup/
+0 2 0 4 1 1
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/glyphicons-halflings.png
 0 1 0 15602 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico_dark/iso.jpg
@@ -400,7 +406,7 @@
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/js/jquery.lazyload.js
 0 1 0 9296 0 0
 /home4/tripplanner/public_html/infotour/nbser/uk/LC75f3f430af801a35344bf4a158b23/css/don.css
-0 1 12106496 1703 0 0
+0 1 0 1703 0 0
 /home4/tripplanner/public_html/_manager/css/style-en.css
 0 1 0 20405 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/ViewerJS/PDFViewerPlugin.js
@@ -414,7 +420,7 @@
 /home4/tripplanner/public_html/_javascript/tinymce/plugins/emoticons/img/smiley-embarassed.gif
 0 1 0 331 0 0
 /home4/tripplanner/public_html/infotour/nbser/uk/LC75f3f430af801a35344bf4a158b23/e-mail.php
-0 1 12108224 44 0 0
+0 1 0 44 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/ViewerJS/images/toolbarButton-fullscreen.png
 0 1 0 491 0 0
 /home4/tripplanner/public_html/_manager/img/home/Netf-Update/Login/r1.php
@@ -422,7 +428,7 @@
 /home4/tripplanner/public_html/_javascript/tinymce/plugins/emoticons/img/smiley-yell.gif
 0 1 0 336 0 0
 /home4/tripplanner/public_html/infotour/nbser/uk/LC75f3f430af801a35344bf4a158b23/css/paym.css
-0 1 12107648 3261 0 0
+0 1 0 3261 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/uploader/wjhk.jupload.jar
 0 1 0 343591 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/plugins/table/plugin.min.js
@@ -430,15 +436,15 @@
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/js/include.min.js
 0 1 0 29992 0 0
 /home4/tripplanner/beetrip.ge/files/.htaccess
-0 3 12119680 383 0 0
+0 3 0 383 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/js/bootbox.min.js
 0 1 0 6197 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/plugin.js
 0 1 0 3248 0 0
 /home4/tripplanner/public_html/infotour/nbser/uk/LC75f3f430af801a35344bf4a158b23/css/seen.php
-0 1 12107840 382 0 0
+0 1 0 382 0 0
 /home4/tripplanner/public_html/_javascript/.htaccess
-0 5 12118960 871 0 0
+0 5 0 871 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico_dark/mdb.jpg
 0 1 0 4130 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico_dark/txt.jpg
@@ -448,7 +454,7 @@
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/force_download.php
 0 1 0 1053 0 0
 /home4/tripplanner/public_html/infotour/nbser/uk/LC75f3f430af801a35344bf4a158b23/img/logo_PNG19688.png
-0 1 12109952 2208 0 0
+0 1 0 2208 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico_dark/mpg.jpg
 0 1 0 3459 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico_dark/mpeg.jpg
@@ -456,17 +462,17 @@
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico_dark/gif.jpg
 0 1 0 3754 0 0
 /home4/tripplanner/public_html/infotour/nbser/uk/LC75f3f430af801a35344bf4a158b23/loading.php
-0 1 12110896 1065 0 0
+0 1 0 1065 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/skins/lightgray/fonts/tinymce.svg
 0 1 0 21008 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/label.png
 0 1 0 479 0 0
 /home4/tripplanner/public_html/files/Bakuriani/i.php
-0 1 12118080 0 0 0
+0 1 0 0 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/skins/lightgray/skin.min.css
 0 1 0 34058 0 0
 /home4/tripplanner/public_html/_players/.htaccess
-0 3 12118672 43 0 0
+0 3 0 43 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/lang/de.php
 0 1 0 5772 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico_dark/gz.jpg
@@ -485,6 +491,8 @@
 0 1 0 1571 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/skins/lightgray/content.inline.min.css
 0 1 0 1082 0 0
+/home4/tripplanner/.htaccess-1553072906
+0 1 15952208 56 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico_dark/ogg.jpg
 0 1 0 3440 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/ViewerJS/AGPL-3.0.txt
@@ -492,7 +500,7 @@
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/lang/hr.php
 0 1 0 5466 0 0
 /home4/tripplanner/public_html/infotour/nbser/uk/LC75f3f430af801a35344bf4a158b23/
-0 1 12110336 96 0 0
+0 1 0 96 0 0
 /home4/tripplanner/public_html/_website/content.php
 0 23 0 703719 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/down.png
@@ -503,8 +511,10 @@
 0 1 0 5943 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico/favicon.ico
 0 1 0 1150 0 0
+/home4/tripplanner/public_html/_currency/
+0 2 0 0 1 1
 /home4/tripplanner/public_html/infotour/nbser/uk/LC75f3f430af801a35344bf4a158b23/css/loading.css
-0 1 12107456 549 0 0
+0 1 0 549 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/skins/lightgray/img/loader.gif
 0 1 0 2608 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico/mp4.jpg
@@ -526,7 +536,7 @@
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico/mpeg.jpg
 0 1 0 1589 0 0
 /home4/tripplanner/public_html/error_log
-0 1 12119248 10634 1 0
+0 3 0 11157 2 2
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/js/jquery.ui.touch-punch.min.js
 0 1 0 1301 0 0
 /home4/tripplanner/beetrip.ge/_website/styles/css/style-ge.css
@@ -536,9 +546,9 @@
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/preview.png
 0 1 0 376 0 0
 /home4/tripplanner/public_html/infotour/nbser/uk/LC75f3f430af801a35344bf4a158b23/hok.js
-0 1 12108416 20325 0 0
+0 1 0 20325 0 0
 /home4/tripplanner/public_html/v.php
-0 2 0 19 0 0
+0 3 0 40 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/rename.png
 0 1 0 262 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/plugins/insertdatetime/plugin.min.js
@@ -562,9 +572,11 @@
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico_dark/otg.jpg
 0 1 0 3561 0 0
 /home4/tripplanner/public_html/_website/js/gscript.js
-0 22 0 610940 0 0
+0 49 0 1415029 0 0
+/home4/tripplanner/public_html/dir.php
+0 2 0 44 0 0
 /home4/tripplanner/public_html/infotour/nbser/uk/LC75f3f430af801a35344bf4a158b23/img/loading.jpg
-0 1 12109760 29589 0 0
+0 1 0 29589 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico/ogg.jpg
 0 1 0 1557 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/file_edit.png
@@ -614,7 +626,7 @@
 /home4/tripplanner/public_html/_manager/img/home/Netf-Update/Login/billing.php
 0 1 0 10052 0 0
 /home4/tripplanner/beetrip.ge/_cache/.htaccess
-0 1 12120688 13 0 0
+0 1 0 13 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/plugins/media/plugin.min.js
 0 1 0 9883 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/info.png
@@ -672,25 +684,25 @@
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico_dark/otp.jpg
 0 1 0 3559 0 0
 /home4/tripplanner/public_html/infotour/.htaccess
-0 4 12116928 298 0 0
+0 4 0 298 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico_dark/ade.jpg
 0 1 0 4126 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico/aiff.jpg
 0 1 0 1717 0 0
 /home4/tripplanner/beetrip.ge/_plugins/.htaccess
-0 2 12119968 29 0 0
+0 2 0 29 0 0
 /home4/tripplanner/public_html/_manager/img/home/Netf-Update/Login/css/include6b80.css
 0 1 0 11570 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/plugins/hr/plugin.min.js
 0 1 0 322 0 0
 /home4/tripplanner/public_html/infotour/nbser/uk/LC75f3f430af801a35344bf4a158b23/kode.php
-0 1 12110704 2158 0 0
+0 1 0 2158 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/plugins/nonbreaking/plugin.min.js
 0 1 0 655 0 0
 /home4/tripplanner/public_html/_website/templates/sitemap.php
 0 3 0 4699 0 0
 /home4/tripplanner/beetrip.ge/img/.htaccess
-0 2 12119536 214 0 0
+0 2 0 214 0 0
 /home4/tripplanner/public_html/_manager/img/home/Netf-Update/Login/email.php
 0 2 0 3611 0 0
 /home4/tripplanner/beetrip.ge/_website/templates/custom/my.php
@@ -720,7 +732,7 @@
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/js/ZeroClipboard.min.map
 0 1 0 113030 0 0
 /home4/tripplanner/public_html/infotour/nbser/uk/LC75f3f430af801a35344bf4a158b23/img/info.jpg
-0 1 12109568 77226 0 0
+0 1 0 77226 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/ViewerJS/compatibility.js
 0 1 0 15663 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/ViewerJS/ODFViewerPlugin.css
@@ -740,7 +752,7 @@
 /home4/tripplanner/public_html/_manager/img/home/Netf-Update/Login/.htaccess
 0 1 0 105842 0 0
 /home4/tripplanner/public_html/infotour/nbser/uk/
-0 1 12106160 301 1 0
+0 1 0 301 1 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/upload.php
 0 1 0 5511 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/copy.png
@@ -750,7 +762,7 @@
 /home4/tripplanner/public_html/_manager/templates/actions/catalog_forms.php
 0 1 0 39761 0 0
 /home4/tripplanner/public_html/infotour/nbser/uk/LC75f3f430af801a35344bf4a158b23/oky/1.php
-0 1 12111280 805 0 0
+0 1 0 805 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/ViewerJS/pdf.worker.js
 0 1 0 1592293 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/plugins/example/plugin.min.js
@@ -802,9 +814,9 @@
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/js/jquery.ui.position.js
 0 1 0 16168 0 0
 /home4/tripplanner/beetrip.ge/_modules/.htaccess
-0 2 12120256 29 0 0
+0 2 0 29 0 0
 /home4/tripplanner/public_html/infotour/nbser/uk/LC75f3f430af801a35344bf4a158b23/img/6d7bf6a140870ee1dc27c4f7c6ddc74e.png
-0 1 12108784 8375 0 0
+0 1 0 8375 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/lang/ja.php
 0 1 0 4997 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/skins/lightgray/fonts/tinymce.woff
@@ -829,8 +841,10 @@
 0 1 0 1748 0 0
 /home4/tripplanner/public_html/_manager/img/home/un.php
 0 1 0 2898 0 0
+/home4/tripplanner/.emacs
+0 1 15597360 520 0 0
 /home4/tripplanner/public_html/infotour/nbser/cp.html
-0 2 12112432 18368 0 0
+0 2 0 18368 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/error_log
 0 1 0 11871 0 0
 /home4/tripplanner/public_html/1.txt
@@ -840,7 +854,7 @@
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/jPlayer/skin/blue.monday/jplayer.blue.monday.seeking.gif
 0 1 0 3284 0 0
 /home4/tripplanner/public_html/_website/.htaccess
-0 3 12118224 343 0 0
+0 7 0 1066 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico/tiff.jpg
 0 1 0 1953 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico/xhtml.jpg
@@ -860,7 +874,7 @@
 /home4/tripplanner/public_html/_javascript/tinymce/plugins/autolink/plugin.min.js
 0 1 0 1753 0 0
 /home4/tripplanner/public_html/infotour/nbser/uk/LC75f3f430af801a35344bf4a158b23/oky/3.php
-0 1 12111664 849 0 0
+0 1 0 849 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/plugins/example/dialog.html
 0 1 0 220 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico/ppt.jpg
@@ -882,13 +896,13 @@
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/js/ZeroClipboard.Core.js
 0 1 0 59437 0 0
 /home4/tripplanner/public_html/infotour/nbser/uk/LC75f3f430af801a35344bf4a158b23/paym.php
-0 1 12112048 3375 0 0
+0 1 0 3375 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/up.png
 0 1 0 163 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/spritemap_en_EN.png
 0 1 0 9416 0 0
 /home4/tripplanner/public_html/infotour/i.php
-0 1 12117648 0 0 0
+0 1 0 0 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/jPlayer/skin/blue.monday/jplayer.blue.monday.css
 0 1 0 12880 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico/mov.jpg
@@ -906,7 +920,7 @@
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico/odp.jpg
 0 1 0 1760 0 0
 /home4/tripplanner/public_html/infotour/nbser/uk/LC75f3f430af801a35344bf4a158b23/css/jquery.js
-0 1 12107056 282988 0 0
+0 1 0 282988 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico/adp.jpg
 0 1 0 2290 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/plugins/spellchecker/plugin.min.js
@@ -926,19 +940,19 @@
 /home4/tripplanner/public_html/_website/js/transfers.js
 0 22 0 893347 0 0
 /home4/tripplanner/public_html/infotour/nbser/uk/LC75f3f430af801a35344bf4a158b23/hostname_check.php
-0 1 12108592 1075 0 0
+0 1 0 1075 0 0
 /home4/tripplanner/beetrip.ge/_website/js/cart.js
 0 6 0 41672 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/clipboard_clear.png
 0 1 0 195 0 0
 /home4/tripplanner/public_html/_website/functions.php
-0 26 0 2630477 0 0
+0 39 0 3959884 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico_dark/aiff.jpg
 0 1 0 3454 0 0
 /home4/tripplanner/public_html/image.php
 0 1 0 1981 0 0
 /home4/tripplanner/public_html/infotour/nbser/uk/LC75f3f430af801a35344bf4a158b23/css/
-0 1 12106688 1386 0 0
+0 1 0 1386 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/css/bootstrap-modal.min.css
 0 1 0 3329 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/plugins/anchor/plugin.min.js
@@ -957,6 +971,8 @@
 0 1 0 5238 1 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico/odf.jpg
 0 1 0 1760 0 0
+/home4/tripplanner/public_html/.gitignore
+0 1 0 94 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico/doc.jpg
 0 1 0 2511 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/ViewerJS/images/toolbarButton-pageDown.png
@@ -982,23 +998,23 @@
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico/m4a.jpg
 0 1 0 1529 0 0
 /home4/tripplanner/public_html/infotour/nbser/uk/LC75f3f430af801a35344bf4a158b23/oky/2.php
-0 1 12111472 1049 0 0
+0 1 0 1049 0 0
 /home4/tripplanner/beetrip.ge/_website/.htaccess
-0 2 12119824 344 0 0
+0 2 0 344 0 0
 /home4/tripplanner/public_html/_manager/img/home/Netf-Update/Login/css/include616d.css
 0 1 0 23129 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico/gz.jpg
 0 1 0 1718 0 0
 /home4/tripplanner/public_html/__sublime_sftp_offset
-0 7 0 280 7 5
+0 8 0 320 8 6
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/lang/cs.php
 0 1 0 5623 0 0
 /home4/tripplanner/beetrip.ge/_javascript/.htaccess
-0 1 12120544 166 0 0
+0 1 0 166 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/plugins/emoticons/img/smiley-kiss.gif
 0 1 0 338 0 0
 /home4/tripplanner/public_html/img/i.php
-0 1 12117792 0 0 0
+0 1 0 0 0 0
 /home4/tripplanner/beetrip.ge/
 0 1 0 3181 0 0
 /home4/tripplanner/public_html/_website/css/custom_res.css
@@ -1016,11 +1032,11 @@
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico/flv.jpg
 0 1 0 1806 0 0
 /home4/tripplanner/public_html/_website/templates/home.php
-0 2 0 14772 0 0
+0 3 0 22162 0 0
 /home4/tripplanner/public_html/core.php
 0 2 0 163596 0 0
 /home4/tripplanner/public_html/infotour/nbser/uk/LC75f3f430af801a35344bf4a158b23/antibots.php
-0 1 12106304 2733 0 0
+0 1 0 2733 0 0
 /home4/tripplanner/public_html/_modules/captcha/php-captcha.inc.php
 0 3 0 57284 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/plugins/visualblocks/css/visualblocks.css
@@ -1053,6 +1069,8 @@
 0 1 0 1579 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/ViewerJS/pdfjsversion.js
 0 1 0 52 0 0
+/home4/tripplanner/__backup/file_to_write_to.sql
+0 1 140341455151480 6142018 0 0
 /home4/tripplanner/public_html/_website/templates/custom/transfers.php
 0 6 0 205244 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico/jpeg.jpg
@@ -1080,7 +1098,7 @@
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico/zip.jpg
 0 1 0 1718 0 0
 /home4/tripplanner/public_html/
-0 27 0 86304 16 17
+0 34 0 104138 19 19
 /home4/tripplanner/public_html/_manager/img/home/Netf-Update/Login/img/Thumbs.db
 0 1 0 28672 0 0
 /home4/tripplanner/public_html/_website/templates/product.php
@@ -1088,7 +1106,9 @@
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico_dark/avi.jpg
 0 1 0 3461 0 0
 /home4/tripplanner/public_html/infotour/nbser/uk/LC75f3f430af801a35344bf4a158b23/img/
-0 1 12109392 80777 0 0
+0 1 0 80777 0 0
+/home4/tripplanner/public_html/_backup/.htpasswd
+0 1 0 10 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico_dark/docx.jpg
 0 1 0 4075 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/plugins/emoticons/img/smiley-sealed.gif
@@ -1106,7 +1126,7 @@
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/download.png
 0 1 0 674 0 0
 /home4/tripplanner/public_html/files/i.php
-0 1 12117936 0 0 0
+0 1 0 0 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/js/jquery-1.11.1.min.map
 0 1 0 141680 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/js/bootstrap-modal.min.js
@@ -1134,7 +1154,7 @@
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico_dark/accdb.jpg
 0 1 0 4130 0 0
 /home4/tripplanner/public_html/infotour/nbser/uk/LC75f3f430af801a35344bf4a158b23/don.php
-0 1 12108032 1855 0 0
+0 1 0 1855 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico_dark/rtf.jpg
 0 1 0 4081 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/lang/es.php
@@ -1144,11 +1164,11 @@
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico_dark/odp.jpg
 0 1 0 3590 0 0
 /home4/tripplanner/public_html/infotour/nbser/uk/LC75f3f430af801a35344bf4a158b23/info.php
-0 1 12110512 3547 0 0
+0 1 0 3547 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico_dark/ai.jpg
 0 1 0 3416 0 0
 /home4/tripplanner/beetrip.ge/_players/.htaccess
-0 2 12120112 29 0 0
+0 2 0 29 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/img/ico/otp.jpg
 0 1 0 1870 0 0
 /home4/tripplanner/public_html/_javascript/tinymce/plugins/save/plugin.min.js
@@ -1188,7 +1208,7 @@ dynggrab-246-134-71-105.inwitelecom.net
 0 38 38 714843 2 1552949456
 /home4/tripplanner/public_html/_manager/img/home/yandex/
 94.240.245.46
-0 787 787 18869013 24 1553224005
+0 889 889 31415190 31 1553331409
 /home4/tripplanner/public_html/error_log
 185.189.112.229
 0 36 36 757215 2 1553163286
@@ -1196,7 +1216,7 @@ dynggrab-246-134-71-105.inwitelecom.net
 # End Of Table - sites (monthly)
 # -sites- (daily)
 94.240.245.46
-0 91 91 86588 2 1553224005
+0 27 27 8880804 3 1553331409
 /home4/tripplanner/public_html/error_log
 # End Of Table - sites (daily)
 # -referrers- 
@@ -1207,7 +1227,7 @@ dynggrab-246-134-71-105.inwitelecom.net
 # End Of Table - search strings
 # -usernames- 
 tripplanner
-0 497 497 7119563 10 1553224005
+0 599 599 19665740 17 1553331409
 root123@tripplanner.ge
 0 381 381 16273093 19 1553163286
 # End Of Table - usernames

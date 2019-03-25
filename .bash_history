@@ -2858,3 +2858,179 @@ clear
 git status
 #1553329850
 git status
+#1553329917
+git add .
+#1553329937
+git commit -m "mail tmp cpanel"
+#1553329944
+git push origin master
+#1553329965
+cd public_html
+#1553329968
+git status
+#1553329986
+cat _website/error_log
+#1553330002
+rm _website/error_log
+#1553330009
+git status
+#1553330014
+git add .
+#1553330022
+git commit -m "cur"
+#1553330028
+git push origin master
+#1553330056
+cd ../beetrip.ge
+#1553330060
+git status
+#1553330065
+exit
+#1553336224
+cd
+#1553336226
+pwd
+#1553336241
+mkdir __backup
+#1553336246
+cd __backup
+#1553336249
+clear
+#1553336310
+mysqldump -u tripplanner -p tripplan_ner >file_to_write_to.sql
+#1553336320
+ls
+#1553336916
+pwd
+#1553336956
+echo 'a' > .sqlpwd
+#1553336960
+cat .sqlpwd
+#1553336972
+nano .sqlpwd
+#1553337162
+cat .sqlpwd
+#1553337167
+pwd
+#1553340042
+cd../
+#1553340049
+cd ../
+#1553340062
+/usr/bin/mysqldump --opt -h localhost -u tripplanner -p 'HO)ic7U^rfzH+yvl' tripplan_ner > /home4/tripplanner/__backup/the5.sql
+#1553340085
+/usr/bin/mysqldump --opt -h localhost -u tripplanner -p'HO)ic7U^rfzH+yvl' tripplan_ner > /home4/tripplanner/__backup/the5.sql
+#1553340977
+cd __backup
+#1553340978
+ls
+#1553341012
+ls
+#1553341014
+ls
+#1553341412
+ls
+#1553341990
+cd
+#1553342021
+curl -X POST https://safebrowsing.googleapis.com/v4/threatMatches:https://tripplanner.ge
+#1553342183
+curl -X POST https://safebrowsing.googleapis.com/v4/threatMatches:find
+#1553342187
+clear
+#1553342190
+curl -X POST https://safebrowsing.googleapis.com/v4/threatMatches:find
+#1553343737
+ls
+#1553343743
+cd __backup
+#1553343745
+ls
+#1553347701
+cd ../public_html/_backup
+#1553347702
+ls
+#1553348019
+mysqldump -u 'tripplanner' -p'HO)ic7U^rfzH+yvl' tripplan_ner > /home4/tripplanner/public_html/_backup/nnn.sql
+#1553349577
+ls
+#1553349582
+clear
+#1553349583
+ls
+#1553420946
+npm -v
+#1553423064
+cd public_html
+#1553423066
+git status
+#1553429401
+clear
+#1553429403
+git status
+#1553429434
+git add 'img/temp/*.jpg'
+#1553429439
+clear
+#1553429442
+git status
+#1553429464
+git add 'img/temp/*.png'
+#1553429472
+cd _backup
+#1553429474
+ls
+#1553429541
+git add .
+#1553429543
+clear
+#1553429550
+git commit -m "save"
+#1553429558
+git push origin master
+#1553429583
+cd ../
+#1553429585
+ls
+#1553429588
+git status
+#1553429596
+git add .
+#1553429617
+git commit -m "currency and backup sql"
+#1553429626
+git push origin master
+#1553429647
+cd ../beetrip.ge
+#1553429650
+git status
+#1553429659
+rm error_log
+#1553429663
+git status
+#1553429667
+exit
+#1553499407
+cd public_html
+#1553499410
+git status
+#1553499448
+cd ../
+#1553499451
+git status
+#1553499506
+git add '*.png'
+#1553499511
+git status
+#1553499538
+git add 'mail/*'
+#1553499542
+clear
+#1553499545
+git status
+#1553499566
+git add 'tmp/*'
+#1553499569
+clear
+#1553499572
+git status

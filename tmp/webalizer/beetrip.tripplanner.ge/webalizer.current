@@ -1,7 +1,7 @@
-# Webalizer V2.23-08 Incremental Data - 03/21/2019 19:20:34
-2019 3 21 19 20 34
-170 21 76 21 5 33 84323 118 114 0
-6 1 18 1 21
+# Webalizer V2.23-08 Incremental Data - 03/23/2019 21:27:35
+2019 3 23 21 27 35
+187 21 83 21 5 35 90850 131 126 0
+6 1 18 1 23
 1 0 291 1 1 1
 6 0 457 5 4 4
 5 1 19997 4 3 3
@@ -23,8 +23,8 @@
 9 0 1276 8 8 8
 8 0 1811 6 7 6
 6 0 582 6 6 6
-0 0 0 0 0 0
-0 0 0 0 0 0
+8 0 3118 8 6 6
+9 0 3409 6 7 6
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -34,28 +34,28 @@
 0 0 0 0 0 0
 0 0 0 0 0 0
 3 0 291 3
-1 0 0 1
+6 0 2253 4
 7 0 985 6
 3 0 582 3
 3 0 0 3
 7 0 670 3
 7 0 2053 4
-3 0 694 2
-22 0 5820 22
-8 0 1554 5
-6 0 582 6
-5 0 1276 4
+4 0 981 3
+24 0 6402 24
+9 0 1841 6
+8 0 1563 7
+7 0 1854 6
 7 0 985 6
 6 0 1567 5
 5 2 35395 3
-2 0 291 2
+3 0 582 3
 3 1 19997 1
 2 0 694 1
 17 0 3067 13
 16 0 2942 10
 6 0 452 6
-7 0 2776 3
-1 0 0 1
+8 0 3063 4
+3 0 981 2
 23 18 1650 5
 0
 0
@@ -68,7 +68,7 @@
 0
 0
 0
-113
+126
 0
 0
 0
@@ -78,7 +78,7 @@
 0
 0
 5
-23
+27
 0
 2
 0
@@ -194,6 +194,9 @@ ec2-54-190-233-39.us-west-2.compute.amazonaws.com
 122.55.94.34.pldt.net
 0 1 0 0 1 1552966768
 -
+ec2-54-202-85-230.us-west-2.compute.amazonaws.com
+0 1 0 287 1 1553376455
+-
 sv3.difserver.it
 0 1 0 0 1 1551691015
 -
@@ -210,7 +213,7 @@ ec2-34-220-185-135.us-west-2.compute.amazonaws.com
 0 1 0 0 1 1553111521
 -
 60.191.38.77
-0 6 0 0 5 1553039504
+0 7 0 287 6 1553241052
 -
 194.44.109.122
 0 1 0 0 1 1552780040
@@ -254,14 +257,20 @@ ec2-54-186-135-20.us-west-2.compute.amazonaws.com
 ec2-34-222-87-217.us-west-2.compute.amazonaws.com
 0 1 0 0 1 1552071123
 -
+fetcher16-1.go.mail.ru
+0 1 0 694 0 0
+-
 ec2-54-244-139-79.us-west-2.compute.amazonaws.com
 0 1 0 0 1 1552333196
+-
+ec2-35-162-66-163.us-west-2.compute.amazonaws.com
+0 1 0 287 1 1553303934
 -
 ec2-54-202-133-184.us-west-2.compute.amazonaws.com
 0 1 0 0 1 1551811253
 -
 93-158-161-171.spider.yandex.com
-0 1 0 694 0 0
+0 2 0 1388 0 0
 -
 ns527626.ip-192-99-15.net
 0 5 0 2776 1 1551724451
@@ -327,10 +336,13 @@ ec2-54-218-235-160.us-west-2.compute.amazonaws.com
 0 1 0 0 1 1552985985
 -
 5-255-250-128.spider.yandex.com
-0 14 1 23870 6 1552979073
+0 15 1 24157 7 1553249898
+-
+fetcher16-16.go.mail.ru
+0 1 0 287 1 1553295526
 -
 209.17.96.242.cloudsystemnetworks.com
-0 1 0 0 1 1551994648
+0 2 0 287 2 1553246687
 -
 ec2-18-237-151-144.us-west-2.compute.amazonaws.com
 0 1 0 0 1 1552154667
@@ -348,7 +360,7 @@ ns501342.ip-192-99-15.net
 0 2 0 985 1 1552304884
 -
 smartscan04.sitelock.com
-0 20 0 5820 20 1553155239
+0 22 0 6402 22 1553328694
 -
 ec2-34-208-124-212.us-west-2.compute.amazonaws.com
 0 1 0 0 1 1553196034
@@ -356,51 +368,60 @@ ec2-34-208-124-212.us-west-2.compute.amazonaws.com
 ec2-54-190-64-242.us-west-2.compute.amazonaws.com
 0 1 0 0 1 1551644800
 -
+crawl-66-249-65-78.googlebot.com
+0 2 0 985 1 1553341429
+-
 160.179.68.28
 0 2 2 35021 1 1552747246
 /webmail
 ec2-52-53-201-78.us-west-1.compute.amazonaws.com
-0 7 0 2037 7 1552875270
+0 8 0 2328 8 1553269639
 -
 ec2-54-191-149-100.us-west-2.compute.amazonaws.com
 0 1 0 0 1 1551549825
 -
+crawl-66-249-65-76.googlebot.com
+0 3 0 865 2 1553341429
+-
 ec2-52-36-237-127.us-west-2.compute.amazonaws.com
 0 1 0 0 1 1552331209
+-
+crawl-66-249-65-80.googlebot.com
+0 1 0 694 0 0
 -
 5.62.155.48
 0 1 0 0 1 1553114555
 -
 # End Of Table - sites (monthly)
 # -sites- (daily)
-209.17.97.26.cloudsystemnetworks.com
-0 1 0 291 1 1553170094
+ec2-54-202-85-230.us-west-2.compute.amazonaws.com
+0 1 0 287 1 1553376455
 -
-209.17.96.194
-0 1 0 0 1 1553194737
--
-104.194.220.195
-0 1 0 0 1 1553176476
--
-google-proxy-66-249-83-192.google.com
-0 1 0 0 1 1553179677
+ec2-35-162-66-163.us-west-2.compute.amazonaws.com
+0 1 0 287 1 1553303934
 -
 smartscan04.sitelock.com
-0 1 0 291 1 1553155239
+0 1 0 291 1 1553328694
 -
-ec2-34-208-124-212.us-west-2.compute.amazonaws.com
-0 1 0 0 1 1553196034
+crawl-66-249-65-78.googlebot.com
+0 2 0 985 1 1553341429
+-
+crawl-66-249-65-76.googlebot.com
+0 3 0 865 2 1553341429
+-
+crawl-66-249-65-80.googlebot.com
+0 1 0 694 0 0
 -
 # End Of Table - sites (daily)
 # -referrers- 
 http://beetrip.ge/
 0 2
 http://www.google.com/url
-0 20
+0 22
 http://search.aol.com/aol/search
 0 1
 - (Direct Request)
-0 146
+0 161
 http://beetrip.ge/webmail
 0 1
 # End Of Table - referrers
@@ -412,13 +433,13 @@ Mozilla/5.0 (compatible; MegaIndex.ru/2.0; +http://megaindex.com/crawler)
 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36
 0 1
 Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)
-0 26
+0 27
 Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)
 0 1
 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
 0 1
 Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/6.0)
-0 20
+0 22
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
 0 1
 Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)
@@ -427,20 +448,22 @@ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
 0 1
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/71.0.3578.98 Chrome/71.0.3578.98 Safar
 0 1
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+0 6
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-0 7
+0 8
 Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
 0 1
 Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36
 0 1
 Go-http-client/1.1
-0 23
+0 25
 Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36 OPR/58.0.3135.90
 0 2
 Mozilla/5.0 (compatible; Grobbot/2.2; +https://grob.it)
 0 1
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0
-0 6
+0 7
 Cpanel-HTTP-Client/1.0
 0 9
 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
@@ -454,7 +477,7 @@ Mozilla/5.0 (Windows NT 10.0; rv:64.0) Gecko/20100101 Firefox/64.0
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:59.0) Gecko/20100101 Firefox/59.0
 0 2
 Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
-0 14
+0 16
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
 0 1
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon
@@ -465,6 +488,8 @@ Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0
 0 5
 Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
 0 1
+Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/2.0; +http://go.mail.ru/help/robots)
+0 2
 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
 0 1
 Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
