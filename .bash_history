@@ -3034,3 +3034,75 @@ git add 'tmp/*'
 clear
 #1553499572
 git status
+#1553499586
+git add .
+#1553499604
+git commit -m "tmp cpanel mail bash"
+#1553499612
+git push origin master
+#1553499631
+clear
+#1553499636
+cd beetrip.ge
+#1553499639
+git status
+#1553499644
+git add .
+#1553499653
+git commit -m "error_log"
+#1553499662
+git push origin master
+#1553499709
+cd ../
+#1553501111
+exit
+#1553599451
+cd public_html
+#1553599454
+git status
+#1553599480
+git add 'img/*.jpg'
+#1553599489
+git add 'img/*.png'
+#1553599492
+clear
+#1553599495
+git status
+#1553599521
+git add 'img/*.JPG'
+#1553599547
+cd files/blog
+#1553599550
+git status
+#1553599561
+ls
+#1553599566
+cd ../../
+#1553599568
+clear
+#1553599571
+git status
+#1553599578
+git add .
+#1553599596
+git commit -m "img sql upldate"
+#1553599603
+git push origin master
+#1553599628
+cd ../beetrip.ge
+#1553599631
+git status
+#1553599637
+cd ../
+#1553599639
+clear
+#1553599642
+git status
+#1553599670
+git add 'mail/*'
+#1553599676
+git add 'tmp/*'
+#1553599680
+clear
+#1553599683
+git status

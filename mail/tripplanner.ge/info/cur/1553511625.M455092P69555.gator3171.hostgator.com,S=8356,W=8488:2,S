@@ -1,0 +1,132 @@
+Return-Path: <01000169b4820338-c33d6123-22aa-407e-b5ef-3df3c280fb36-000000@amazonses.com>
+Delivered-To: info@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP id 2DMLG8m0mFyzDwEA8w4q4w
+	for <info@tripplanner.ge>; Mon, 25 Mar 2019 06:00:25 -0500
+Return-path: <01000169b4820338-c33d6123-22aa-407e-b5ef-3df3c280fb36-000000@amazonses.com>
+Envelope-to: info@tripplanner.ge
+Delivery-date: Mon, 25 Mar 2019 06:00:25 -0500
+Received: from a33-197.smtp-out.amazonses.com ([54.240.33.197]:54308)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <01000169b4820338-c33d6123-22aa-407e-b5ef-3df3c280fb36-000000@amazonses.com>)
+	id 1h8NL7-000IFg-1j
+	for info@tripplanner.ge; Mon, 25 Mar 2019 06:00:25 -0500
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=63unk5hxxtzml7likgvqsg7l5djeg3o3; d=viator.com; t=1553511613;
+	h=From:To:Message-ID:Subject:MIME-Version:Content-Type:Date;
+	bh=N8ywl3dOlG1x1yCIrhDenP7YCjo6+FP8toJkO4HDnjY=;
+	b=fGawkdEjTQ5CYzqzEbxXwP2Uj4qdvrRkGeNVXonAz7MU8fJ2siTqC3h5Zx1u4Yjm
+	pbQ1ih7cPoFHzooEfzEcl9vsyOXJGo6bKBemf7Y0YLg6Iv91h/cFts5qfF+hfluP2uu
+	GX/etHR1opdvxj3hbR7ae7oiwCUAs8P+Le2o63VU=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=6gbrjpgwjskckoa6a5zn6fwqkn67xbtw; d=amazonses.com; t=1553511613;
+	h=From:To:Message-ID:Subject:MIME-Version:Content-Type:Date:Feedback-ID;
+	bh=N8ywl3dOlG1x1yCIrhDenP7YCjo6+FP8toJkO4HDnjY=;
+	b=JrIZ4gt0EIts2IBQlkORxdBCbuaFbiw+DdYyfwpIxCAvFsYSYTQjMpY9GZFKEu+n
+	edZ9kNeymTyefo7LjcjbrkqXSh+ur/wfE8Vpp5VxhwQePW1ly2xTj0aFAmy49Op9jMT
+	Sdry8o6hZnTtSUYyMSocBRmJyVuXoRz7b0gZO980=
+From: "Viator.com" <do-not-reply@viator.com>
+To: info@tripplanner.ge
+Message-ID: <01000169b4820338-c33d6123-22aa-407e-b5ef-3df3c280fb36-000000@email.amazonses.com>
+Subject: Welcome to Viator, info!
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_2957_739216325.1553511613054"
+Date: Mon, 25 Mar 2019 11:00:13 +0000
+X-SES-Outgoing: 2019.03.25-54.240.33.197
+Feedback-ID: 1.us-east-1.jqBoKTpNbzOpJ3O1kIy+3R5GI+lrTd/C7MxvoeSDtjo=:AmazonSES
+X-Spam-Status: No, score=2.3
+X-Spam-Score: 23
+X-Spam-Bar: ++
+X-Spam-Flag: NO
+
+------=_Part_2957_739216325.1553511613054
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Verify Account Email
+--------------------
+
+Thanks for joining Viator!
+
+Please verify your email address by clicking here:
+https://www.viator.com/account/verify?xp=6F6C38EA3465F30C3B60009250FC62E4-FBBB80E2B6E53EC6BB80DEA86B49CCD89ED0BCA4AFE074A66305095FF5700BB92BD55B91642D61915A1780953A47C4E0FB72FBACCEF95AB703834653C4E5CD7047F45D51D29F04B799AC690AC1C93DDA57379F8BCBD631084F9EABCFE218436D
+
+You need your email too: info@tripplanner.ge
+
+The Viator Team
+---------------
+
+Follow Viator on Twitter or Facebook:
+http://twitter.com/ViatorTravel?aid=se2
+http://www.facebook.com/ViatorTours?aid=se2
+
+Keep up with the latest news &amp; travel deals on our blog:
+http://travelblog.viator.com/
+
+Share your questions and feedback.
+mailto:accounts@viator.com
+
+Your privacy is important to us! Viator.com will not send unsolicited emails to
+this address, and we will not share this email address with anybody, ever. Read
+our complete privacy policy.
+http://www.viator.com/privacy-policy
+http://www.viator.com/about-us
+http://www.viator.com/customer-care
+
+&copy; 1997 - 2019 Viator Inc.
+------=_Part_2957_739216325.1553511613054
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+    <head>
+        <title>Viator &ndash; Verify Viator Account</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    </head>
+
+    <body style="background-color:#e0dbd5;">
+        <div style="text-align:center;background-color:#e0dbd5; padding: 1em 0;">
+
+            <table width="600" cellspacing="0" cellpadding="0" border="0" align="center">
+                <tr>
+                    <td style="text-align:left; background-color:#00759a;color:#ffffff;font-family:'Arial','Helvetica','Verdana',sans-serif; font-size:16px;padding:15px 25px;"><img src="https://www.viator.com/orion/images/logos/logo-viator-email.png" alt="Viator" /> Verify Viator Account</td>
+                </tr>
+                <tr>
+                    <td style="padding:15px 25px; font-family:'Arial','Helvetica','Verdana',sans-serif; font-size:12px;line-height:1.5; text-align: left; background-color: #fff; color: #333;">
+                        <h1 style="font-size:16px; margin:0 0 1em; padding: 0; font-weight: normal;">Thanks for joining Viator!</h1>
+                        <p style="margin:0 0 1em;">Please verify your email address by <a href="https://www.viator.com/account/verify?xp=6F6C38EA3465F30C3B60009250FC62E4-FBBB80E2B6E53EC6BB80DEA86B49CCD89ED0BCA4AFE074A66305095FF5700BB92BD55B91642D61915A1780953A47C4E0FB72FBACCEF95AB703834653C4E5CD7047F45D51D29F04B799AC690AC1C93DDA57379F8BCBD631084F9EABCFE218436D" title="clicking here" style="color:#00759a;" onmouseover="this.style.textDecoration='none';" onmouseout="this.style.textDecoration='underline';">clicking here</a>.</p>
+                        <p style="margin:0 0 1em;">
+                            <strong>- The Viator Team</strong><br/><br/>
+                            Connect with Viator!
+                                Download our <a href="http://www.viator.com/apps?aid=se2" title="mobile apps" style="color:#00759a;" onmouseover="this.style.textDecoration='none';" onmouseout="this.style.textDecoration='underline';">mobile apps</a>.
+                            Follow us on <a href="http://www.facebook.com/ViatorTours?aid=se2" title="Facebook " style="color:#00759a;" onmouseover="this.style.textDecoration='none';" onmouseout="this.style.textDecoration='underline';">Facebook </a> and <a href="http://twitter.com/ViatorTravel?aid=se2" title="Twitter" style="color:#00759a;" onmouseover="this.style.textDecoration='none';" onmouseout="this.style.textDecoration='underline';">Twitter</a>.
+                        </p>
+                        <p style="margin:0 0 1em;">
+                            <strong>Not you?</strong><br/>
+                            If you did not recently update your email address on Viator, please let us know by forwarding this email to <a href="mailto:accounts@viator.com" style="color:#00759a;" onmouseover="this.style.textDecoration='none';" onmouseout="this.style.textDecoration='underline';">accounts@viator.com</a>.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="background-color:#e0dbd5;color:#777;text-align:center;font-size:11px;font-family:'Arial','Helvetica','Verdana',sans-serif; line-height: 1.5;">
+                        <p style="margin:0; padding:8px 0;">
+                                <a href="http://www.viator.com/about-us" title="About Us" style="color:#00759a;" onmouseover="this.style.textDecoration='none';" onmouseout="this.style.textDecoration='underline';">About Us</a> | <a href="http://www.viator.com/customer-care" title="Customer Care" style="color:#00759a;" onmouseover="this.style.textDecoration='none';" onmouseout="this.style.textDecoration='underline';">Customer Care</a> | <a href="http://www.viator.com/privacy-policy" title="Privacy Policy" style="color:#00759a;" onmouseover="this.style.textDecoration='none';" onmouseout="this.style.textDecoration='underline';">Privacy Policy</a><br/>
+                            This is an account-related message. Responses to this email will not go to a customer service representative. To contact our Customer Care team directly, please visit the  <a href="http://www.viator.com/customer-care" title="help section" style="color:#00759a;" onmouseover="this.style.textDecoration='none';" onmouseout="this.style.textDecoration='underline';">help section</a> of our website.
+                        </p>
+                        <p style="margin:0; padding:8px 0;">
+                            &copy; 1997 - 2019 Viator Inc.<br />
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
+------=_Part_2957_739216325.1553511613054--
