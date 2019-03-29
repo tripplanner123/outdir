@@ -3106,3 +3106,25 @@ git add 'tmp/*'
 clear
 #1553599683
 git status
+#1553599697
+git add .
+#1553599710
+git commit -m "mail tmp cpanel"
+#1553599716
+git push origin master
+#1553599740
+exit
+#1553853239
+clear
+#1553853242
+git status
+#1553853260
+git add mail/*
+#1553853270
+git add tmp/*
+#1553853274
+clear
+#1553853276
+git status
+#1553853307
+git diff etc/tripplanner.ge/forget2.rcube.db

@@ -1,0 +1,181 @@
+Return-Path: <nishaputhran@ymail.com>
+Delivered-To: info@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP id +EkhC374mVw81wMA8w4q4w
+	for <info@tripplanner.ge>; Tue, 26 Mar 2019 05:01:34 -0500
+Return-path: <nishaputhran@ymail.com>
+Envelope-to: info@tripplanner.ge
+Delivery-date: Tue, 26 Mar 2019 05:01:34 -0500
+Received: from sonic302-20.consmr.mail.sg3.yahoo.com ([106.10.242.140]:41267)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <nishaputhran@ymail.com>)
+	id 1h8ith-0016ct-7l
+	for info@tripplanner.ge; Tue, 26 Mar 2019 05:01:34 -0500
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=ymail.com; s=s2048; t=1553594479; bh=CRaDi/OR9YQAyyxkXPDlQ66342MFxhmwAA9DZajppXM=; h=Date:From:To:In-Reply-To:References:Subject:From:Subject; b=CsAmap/p5vdv1oRf9iE+tfZ2V+7MRXRu0P7UQgOrkUfwL30gCewADE5INZ+LgM361+V8aLwrh44ms+lh5gvewEvDP9xsJCX911/mIKzNYuyKP4Aixog6c1fX9gnFtO0TYxo4qm6iG2X7rexKNZ+OkqZFtCLEBt5mduAQDWgAfy+1OWBIWq+MPqkIO2VJQkILNdqjR3Sx/gja9mUXAWUPHt8DL1ahExvRXAdgbrLRfYhJjX4Aj0pzWRuHHUd9A0Xp9bF07PzDhzn84DhmzLufZo9GpC4ZHW2g5KKDo/9Mt6htnDIcXEAT0mSiOIsuqe+AZt/KwhZ912l4MlIXi5h/Vw==
+X-YMail-OSG: KTji9EMVM1mMqaU_YZxPt7oX48bsbeugILmE0ALHfgIJY5n89DGw.7ScUIYyfTy
+ DG3acTmZtSHasyAWTfFwFwh9GRiou2x8fBp3OrN.TnwISj6cSkHN9oNLhbXVQMBdRFBCGcHs344.
+ dIVBi70s66zgRd6A_MSoldTD8un1IckYWIBMJb_h7auarNyy8Nh_zp.PPtQmGZSdNPER_cM0qyC5
+ fcjcHgBPnRl.aTX1swFxsdbROh6wMw_6iyOC7MUhL41XO7vMS5v3CBuamhhtUW76zNKOcrbei42u
+ PFZYw4gxmufhF7ZgbfFv5JIzED0JxzNLyNzRt7cunf_9l3GYK.RlPyiIIYWAS9sb1cbFe5VmRuxH
+ R3w38GtY.iM5bx6LajgRBAfjcjPj_ddArsRyQ68dIvO7G4SqJ7RzqMifUtMj0pop340Ohez2Jagg
+ _luCwPmLMg.PIS.eNvjyxhkstjPCXX8TV8QVcin5b5U5wW5QrwQlJXL1WHeiig5AiF5c2fKI_zDo
+ l1fnxoub6DIxcilq6BRcHzOMVgWEUwaHf_fGlMfeVTf2vYa3ylB8xKWDge7OaFaLZmjzsHGoQ_rH
+ APfxEjq1aUwKMp0N1kY5hrOiE_6AcqE6t9UlD.QCS.Y_Q7t8b9Us74eVKUKj5tPoeExyRBx0HKkV
+ iolhr1TnLKx4ITZ6.6htrne9oObr4Y8I3WEA4CDVnJTGWkRkUyINpPaDZWOkszavuXQDZV424Kgg
+ TRnOBhGMJbzVjFSaQ3XLmmrJnMDq0_wxxXF_fj6TGiUVQbTpebdyHpdAOtJ9hlRM32IqoxNH9Nst
+ b0tGpR6VVV27yEkp1o.fWprCQwbqZT3QzqYCEWHgIIzDE8jNStv_RH8GrrV5Q0OVP2IUQbGl4uxH
+ m6h1idh.uMg2PwgZSeCq_6tE.ob3d_3255eUjzTYbjDUkNuG_Wk7ZPWML3dESi.vZsfFb7.efwE4
+ ACag2mAxGZNaD84.JE6mIUTb99MqpDejEV1FsJtpEh4q57Flbw6q_r5xoeCnWmltucFA9rgFM6dL
+ pEZqDhfXBhoyZ_2XyLYTetZ8U3c45I04iLgCz9ppxInXA4WyfvR_motnqoNU_D5.i.u2VUbH1J8j
+ DQhbD84gZOQc-
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic302.consmr.mail.sg3.yahoo.com with HTTP; Tue, 26 Mar 2019 10:01:19 +0000
+Date: Tue, 26 Mar 2019 10:01:15 +0000 (UTC)
+From: Nisha Puthran <nishaputhran@ymail.com>
+To:  <info@tripplanner.ge>
+Message-ID: <1079302696.10494136.1553594475560@mail.yahoo.com>
+In-Reply-To: <1553594042.928617034@f11.my.com>
+References: <B0D5D92F-C00B-43E5-A5FD-B26AB7425F16@ymail.com> <1553594042.928617034@f11.my.com>
+Subject: Re: Georgia 29 -02 april
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_10494135_926402908.1553594475558"
+X-Mailer: WebService/1.1.13212 YMailNorrin Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Content-Length: 7394
+X-Spam-Status: No, score=-0.5
+X-Spam-Score: -4
+X-Spam-Bar: /
+X-Spam-Flag: NO
+
+------=_Part_10494135_926402908.1553594475558
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+ HI ,Please find my ans below=C2=A0
+Regards,Nisha=C2=A0
+    On Tuesday, 26 March, 2019, 1:54:08 pm GMT+4, <info@tripplanner.ge> wro=
+te: =20
+=20
+ Hello Nisha,I'm glad that you have chosen tripplanner.ge We will try our b=
+est, for beter result, we have some questions:- what is your group number?-=
+ we are just 2=C2=A0- Do you need transfers from/to airport? - Yes just fro=
+m airpot to Hotel- Do you need the accomodation? Were would you like to sta=
+y in Tbilisi? - No accommodation=C2=A0is already booked- What kind of tours=
+ are you interested in? You can see on our webpage and we will compose for =
+you in good conditions. - we have just 3-4 days can you plan itinerary acco=
+rding to that
+As a note: prices depandes on number of services for ex. Guide cervices, me=
+als, wine degustation, tivkets atc..
+ThanksWith reguards
+Ekaterine TarkhnishviliTripplanner.geInfo@tripplanner.ge+995591712345
+
+Tuesday, March 26, 2019, 11:53 +0400 from nishaputhran@ymail.com <nishaputh=
+ran@ymail.com>:
+=20
+ =20
+Hi i need a tour for georgia in these dates . Can you tell me charges?=20
+
+Regards,=20
+Nisha=20
+
+Sent from my iPhone
+  =20
+------=_Part_10494135_926402908.1553594475558
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head></head><body><div class=3D"ydp8c35232cyahoo-style-wrap" style=
+=3D"font-family: Helvetica Neue, Helvetica, Arial, sans-serif;"><div style=
+=3D"font-size: 16px;"></div>
+        <div style=3D""><font size=3D"2">HI ,</font></div><div style=3D""><=
+font size=3D"2">Please find my ans below&nbsp;</font></div><div style=3D"">=
+<font size=3D"2"><br></font></div><div style=3D""><font size=3D"2">Regards,=
+</font></div><div style=3D""><font size=3D"2">Nisha&nbsp;</font></div><div =
+style=3D"font-size: 16px;"><br></div>
+       =20
+        </div><div id=3D"ydp7c0c8e9cyahoo_quoted_3995145015" class=3D"ydp7c=
+0c8e9cyahoo_quoted">
+            <div style=3D"">
+               =20
+                <div style=3D"color: rgb(38, 40, 42); font-family: Helvetic=
+a Neue, Helvetica, Arial, sans-serif; font-size: 13px;">
+                    On Tuesday, 26 March, 2019, 1:54:08 pm GMT+4,  &lt;info=
+@tripplanner.ge&gt; wrote:
+                </div>
+                <div style=3D"color: rgb(38, 40, 42); font-family: Helvetic=
+a Neue, Helvetica, Arial, sans-serif; font-size: 13px;"><br></div>
+                <div style=3D"color: rgb(38, 40, 42); font-family: Helvetic=
+a Neue, Helvetica, Arial, sans-serif; font-size: 13px;"><br></div>
+                <div style=3D""><div id=3D"ydp7c0c8e9cyiv5376667770" style=
+=3D""><div style=3D""><div id=3D"ydp7c0c8e9cyiv5376667770composeWebView_edi=
+table_content" style=3D"text-align: left;"><div style=3D"color: rgb(38, 40,=
+ 42); font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size:=
+ 13px;">Hello Nisha,</div><div style=3D"color: rgb(38, 40, 42); font-family=
+: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 13px;">I'm glad =
+that you have chosen tripplanner.ge We will try our best, for beter result,=
+ we have some questions:</div><div style=3D"color: rgb(38, 40, 42); font-fa=
+mily: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 13px;">- wha=
+t is your group number?- <b>we are just 2&nbsp;</b></div><div style=3D"colo=
+r: rgb(38, 40, 42); font-family: Helvetica Neue, Helvetica, Arial, sans-ser=
+if; font-size: 13px;">- Do you need transfers from/to airport? - <b>Yes jus=
+t from airpot to Hotel</b></div><div style=3D""><font color=3D"#26282a"><sp=
+an style=3D"font-size: 13px;">- Do you need the accomodation? Were would yo=
+u like to stay in Tbilisi? - </span></font><b style=3D"color: rgb(38, 40, 4=
+2); font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 1=
+3px;">No </b><font color=3D"#26282a"><span style=3D"font-size: 13px;"><b>ac=
+commodation</b></span></font><b style=3D"color: rgb(38, 40, 42); font-famil=
+y: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 13px;">&nbsp;is=
+ already booked</b></div><div style=3D"color: rgb(38, 40, 42); font-family:=
+ Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 13px;">- What kin=
+d of tours are you interested in? You can see on our webpage and we will co=
+mpose for you in good conditions. - <b>we have just 3-4 days can you plan i=
+tinerary according to that</b></div><div style=3D"color: rgb(38, 40, 42); f=
+ont-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 13px;"=
+><br clear=3D"none"></div><div style=3D"color: rgb(38, 40, 42); font-family=
+: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 13px;">As a note=
+: prices depandes on number of services for ex. Guide cervices, meals, wine=
+ degustation, tivkets atc..</div><div style=3D"color: rgb(38, 40, 42); font=
+-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 13px;"><b=
+r clear=3D"none"></div><div style=3D"color: rgb(38, 40, 42); font-family: H=
+elvetica Neue, Helvetica, Arial, sans-serif; font-size: 13px;">Thanks</div>=
+<div style=3D"color: rgb(38, 40, 42); font-family: Helvetica Neue, Helvetic=
+a, Arial, sans-serif; font-size: 13px;">With reguards</div><div style=3D"co=
+lor: rgb(38, 40, 42); font-family: Helvetica Neue, Helvetica, Arial, sans-s=
+erif; font-size: 13px;"><br clear=3D"none"></div><div style=3D"color: rgb(3=
+8, 40, 42); font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font=
+-size: 13px;">Ekaterine Tarkhnishvili</div><div style=3D"color: rgb(38, 40,=
+ 42); font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size:=
+ 13px;">Tripplanner.ge</div><div style=3D"color: rgb(38, 40, 42); font-fami=
+ly: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 13px;">Info@tr=
+ipplanner.ge</div><div style=3D"color: rgb(38, 40, 42); font-family: Helvet=
+ica Neue, Helvetica, Arial, sans-serif; font-size: 13px;">+995591712345</di=
+v><br clear=3D"none"><br clear=3D"none"><font color=3D"#26282a"><span style=
+=3D"font-size: 13px;">Tuesday, March 26, 2019, 11:53 +0400 from nishaputhra=
+n@ymail.com  &lt;nishaputhran@ymail.com&gt;:</span></font><br clear=3D"none=
+">    <div id=3D"ydp7c0c8e9cyiv5376667770composeWebView_previouse_content" =
+style=3D"color: rgb(38, 40, 42); font-family: Helvetica Neue, Helvetica, Ar=
+ial, sans-serif; font-size: 13px;"><blockquote id=3D"ydp7c0c8e9cyiv53766677=
+70mail-app-auto-quote" style=3D"border-left-width:1px;border-left-style:sol=
+id;border-left-color:rgb(252, 44, 56);margin:10px 0px 10px 5px;padding:0px =
+0px 0px 10px;display:inherit;"><div class=3D"ydp7c0c8e9cyiv5376667770js-hel=
+per ydp7c0c8e9cyiv5376667770js-readmsg-msg">
+=09
+ =09<div>
+=09=09</div></div></blockquote></div></div></div><div class=3D"ydp7c0c8e9cy=
+iv5376667770yqt2724697117" id=3D"ydp7c0c8e9cyiv5376667770yqt03611" style=3D=
+"color: rgb(38, 40, 42); font-family: Helvetica Neue, Helvetica, Arial, san=
+s-serif; font-size: 13px;"><div><div id=3D"ydp7c0c8e9cyiv5376667770style_15=
+535868030000000384_BODY">Hi i need a tour for georgia in these dates . Can =
+you tell me charges? <br clear=3D"none">
+<br clear=3D"none">
+Regards, <br clear=3D"none">
+Nisha <br clear=3D"none">
+<br clear=3D"none">
+Sent from my iPhone<br clear=3D"none">
+</div>
+=09=09=09
+=09=09
+=09=09</div></div></div></div>
+            </div>
+        </div></body></html>
+------=_Part_10494135_926402908.1553594475558--
