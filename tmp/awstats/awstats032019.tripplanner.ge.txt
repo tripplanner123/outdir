@@ -8,33 +8,33 @@ AWSTATS DATA FILE 7.6 (build 20161204)
 # update).
 BEGIN_MAP 28
 POS_GENERAL 2015                
-POS_TIME 2682                
-POS_VISITOR 17096               
-POS_DAY 18042               
-POS_DOMAIN 3419                
-POS_LOGIN 3741                
-POS_ROBOT 3896                
-POS_WORMS 4192                
-POS_EMAILSENDER 4323                
-POS_EMAILRECEIVER 4466                
-POS_SESSION 18410               
-POS_SIDER 18595               
-POS_FILETYPES 4601                
-POS_DOWNLOADS 4750                
-POS_OS 4811                
-POS_BROWSER 4969                
-POS_SCREENSIZE 5274                
-POS_UNKNOWNREFERER 5348                
-POS_UNKNOWNREFERERBROWSER 5614                
-POS_ORIGIN 5772                
-POS_SEREFERRALS 5909                
-POS_PAGEREFS 6085                
-POS_SEARCHWORDS 6260                
-POS_KEYWORDS 6412                
-POS_MISC 2345                
-POS_ERRORS 6471                
-POS_CLUSTER 3597                
-POS_SIDER_404 6639                
+POS_TIME 2685                
+POS_VISITOR 17587               
+POS_DAY 18584               
+POS_DOMAIN 3430                
+POS_LOGIN 3752                
+POS_ROBOT 3907                
+POS_WORMS 4203                
+POS_EMAILSENDER 4334                
+POS_EMAILRECEIVER 4477                
+POS_SESSION 18996               
+POS_SIDER 19181               
+POS_FILETYPES 4612                
+POS_DOWNLOADS 4762                
+POS_OS 4823                
+POS_BROWSER 4982                
+POS_SCREENSIZE 5310                
+POS_UNKNOWNREFERER 5384                
+POS_UNKNOWNREFERERBROWSER 5650                
+POS_ORIGIN 5808                
+POS_SEREFERRALS 5945                
+POS_PAGEREFS 6122                
+POS_SEARCHWORDS 6297                
+POS_KEYWORDS 6449                
+POS_MISC 2348                
+POS_ERRORS 6508                
+POS_CLUSTER 3608                
+POS_SIDER_404 6676                
 END_MAP
 
 # LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
@@ -46,56 +46,56 @@ END_MAP
 # MonthHostsKnown   = Number of hosts known
 # MonthHostsUnKnown = Number of hosts unknown
 BEGIN_GENERAL 8
-LastLine 20190328054459 92 24630 10246253499869
+LastLine 20190401001007 119 33060 13414125387284
 FirstTime 0
 LastTime 20190323070848
-LastUpdate 20190328060007 92 0 92 0 0
+LastUpdate 20190401062731 119 0 118 0 0
 TotalVisits 24                  
 TotalUnique 16                  
 MonthHostsKnown 0                   
-MonthHostsUnknown 26                  
+MonthHostsUnknown 28                  
 END_GENERAL
 
 # Misc ID - Pages - Hits - Bandwidth
 BEGIN_MISC 10
 RealPlayerSupport 0 0 0
-WindowsMediaPlayerSupport 0 0 0
-JavascriptDisabled 0 0 0
-JavaEnabled 0 0 0
 TotalMisc 0 0 0
-AddToFavourites 0 33 0
-PDFSupport 0 0 0
-FlashSupport 0 0 0
-DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
 QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+AddToFavourites 0 36 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
 END_MISC
 
 # Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
 BEGIN_TIME 24
-0 0 0 0 70 90 61558
-1 0 0 0 66 83 92152
-2 0 3 475603 50 96 77014
-3 1 1 33890 57 123 123986
-4 1 1 33890 70 163 113715
-5 17 17 520233 38 131 70620
-6 8 9 184628 59 215 352514
-7 3 5 252303 38 183 647947
-8 2 2 67780 88 188 259701
-9 2 3 359045 45 165 94130
-10 0 0 0 83 213 388139
-11 14 15 460235 47 131 101385
-12 9 9 313454 62 169 411817
-13 14 14 384650 54 121 977035
-14 0 1 339487 41 59 21636
-15 0 0 0 93 128 44100
-16 26 26 430671 62 79 58281
-17 117 117 3381511 52 67 90178
-18 26 27 1261631 40 53 64812
-19 0 0 0 42 60 19347
-20 1 1 0 35 48 79445
-21 0 0 0 43 52 17199
-22 2 2 0 37 284 184338
-23 15 15 1057 36 51 54047
+0 0 0 0 73 96 64533
+1 0 0 0 69 86 93037
+2 0 3 475603 59 107 79570
+3 1 1 33890 64 152 140747
+4 1 1 33890 75 176 120758
+5 17 17 520233 41 134 71609
+6 8 9 184628 68 244 368851
+7 3 7 774055 42 234 682006
+8 2 2 67780 100 228 281949
+9 2 3 359045 58 209 117048
+10 0 0 0 96 227 392266
+11 14 15 460235 52 138 102584
+12 9 9 313454 74 184 445226
+13 14 14 384650 68 139 1016171
+14 0 1 339487 53 78 361545
+15 0 0 0 98 159 63090
+16 26 26 430671 119 139 111754
+17 117 117 3381511 57 72 91446
+18 26 27 1261631 53 68 67441
+19 0 0 0 51 74 24606
+20 1 1 0 40 58 83178
+21 0 0 0 45 56 18176
+22 2 2 0 68 318 191825
+23 15 15 1057 39 54 54342
 END_TIME
 
 # Domain - Pages - Hits - Bandwidth
@@ -105,10 +105,10 @@ ma 213 213 6101884
 us 32 32 385707
 ge 6 6 203340
 ph 4 4 5862
+tr 1 1 31902
 gh 1 1 1416
 vn 1 1 0
-tr 1 1 31902
-ru 0 10 1769957
+ru 0 12 2291709
 END_DOMAIN
 
 # Cluster ID - Pages - Hits - Bandwidth
@@ -123,8 +123,8 @@ END_LOGIN
 # Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
 # The 25 first Hits must be first (order not required for others)
 BEGIN_ROBOT 4
-Googlebot/ 45 2380404 20190324063928 0
-Baiduspider/ 14 474764 20190327012013 0
+Googlebot/ 52 2745756 20190330140842 0
+Baiduspider/ 16 542602 20190331130903 0
 facebookexternalhit/ 1 1416 20190317170142 0
 no_user_agent 1 136952 20190322080130 0
 END_ROBOT
@@ -147,10 +147,10 @@ END_EMAILRECEIVER
 # Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
 BEGIN_FILETYPES 5
 txt 1 3 0 0
+Unknown 21 204397 0 0
 php 232 6525714 0 0
 html 5 0 0 0
-jpg 9 1769954 0 0
-Unknown 21 204397 0 0
+jpg 11 2291706 0 0
 END_FILETYPES
 
 # Downloads - Hits - Bandwidth
@@ -160,30 +160,31 @@ END_DOWNLOADS
 
 # OS ID - Hits
 BEGIN_OS ID - Hits - Pages 8
+win7 10 6
+win10 232 229
+Unknown 16 16
+win8.1 1 1
 win8 5 0
 linux 1 1
-linuxandroid 4 4
-Unknown 16 16
-win7 9 6
 unix 1 1
-win10 231 229
-win8.1 1 1
+linuxandroid 4 4
 END_OS
 
 # Browser ID - Hits - Pages
-BEGIN_BROWSER 12
+BEGIN_BROWSER 13
+chrome72.0.3626.122 1 1
 chrome71.0.3578.99 4 4
-opera58.0.3135.107 1 1
-msie10.0 7 0
-chrome70.0.3538.102 2 0
-chrome73.0.3683.75 1 1
+chrome72.0.3626.121 232 232
+msie10.0 8 0
+chrome71.0.3578.126 1 1
+mozilla 7 7
+chrome64.0.3282.119 1 1
 chrome72.0.3626.119 2 1
 Unknown 9 9
-chrome72.0.3626.121 232 232
-chrome64.0.3282.119 1 1
-mozilla 7 7
-chrome72.0.3626.122 1 1
-chrome71.0.3578.126 1 1
+chrome71.0.3578.98 1 0
+chrome70.0.3538.102 2 0
+chrome73.0.3683.75 1 1
+opera58.0.3135.107 1 1
 END_BROWSER
 
 # Screen size - Hits
@@ -193,8 +194,8 @@ END_SCREENSIZE
 # Unknown referer OS - Last visit date
 BEGIN_UNKNOWNREFERER 3
 python-requests/2.18.4 20190318223939
-Cpanel-HTTP-Client/1.0 20190313231037
 Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20190313231040
+Cpanel-HTTP-Client/1.0 20190313231037
 END_UNKNOWNREFERER
 
 # Unknown referer Browser - Last visit date
@@ -207,7 +208,7 @@ END_UNKNOWNREFERERBROWSER
 BEGIN_ORIGIN 6
 From0 49 50
 From1 0 0
-From2 1 10
+From2 1 12
 From3 3 3
 From4 205 205
 From5 0 0
@@ -216,7 +217,7 @@ END_ORIGIN
 # Search engine referers ID - Pages - Hits
 BEGIN_SEREFERRALS 2
 www_google_com 1 1
-yandexru 0 9
+yandexru 0 11
 END_SEREFERRALS
 
 # External page referers - Pages - Hits
@@ -237,346 +238,358 @@ END_KEYWORDS
 
 # Errors - Hits - Bandwidth
 BEGIN_ERRORS 7
-302 1 0
-404 1613 1114564
-500 10 6940
-406 146 32996
 409 25 2075
-301 843 179911
-403 220 37124
+403 251 45100
+301 968 207021
+406 249 56274
+404 1820 1258222
+302 1 0
+500 10 6940
 END_ERRORS
 
 # URL with 404 errors - Hits - Last URL referrer
-BEGIN_SIDER_404 293
-/_manager/agreement_docs2.zip 1 -
-/_manager/visit.txt 1 -
-/imp/test.php 5 -
-/_manager/8-login-form.zip 1 -
-/_manager/2014gdocs.zip 1 -
-/_manager/dbfile.zip 1 -
-/_manager/cornell.zip 1 -
-/_manager/rof.txt 1 -
-/_manager/dp.zip 1 -
-/_manager/Zone1.zip 1 -
-/public/css/ion.rangeSlider.skinFlat.css 38 http://www.tripplanner.ge/tours/index/0/0/43
-/public/images/places/big/24.jpg 1 -
-/_manager/USAA2014.zip 1 -
-/_manager/yahoo.zip 1 -
-/_manager/bookmark.zip 1 -
-/_manager/Contact%20Logs.txt 1 -
-/_manager/adobelatest.zip 1 -
-/_manager/new2015.zip 1 -
-/_manager/review.zip 1 -
-/_manager/G550.zip 1 -
-/_manager/Aol.txt 1 -
-/_manager/remax.zip 1 -
-/_manager/drop.zip 1 -
-/_manager/app.zip 1 -
-/_manager/pageo.zip 1 -
-/_manager/vu.txt 1 -
-/_manager/log.txt 1 -
-/public/images/places/big/34.jpg 2 http://go.mail.ru/search_images
-/_manager/ourtime.zip 1 -
-/_manager/ID.txt 1 -
-/_manager/cnm.zip 1 -
-/public/images/places/big/116.jpg 1 http://go.mail.ru/search_images
-/_manager/document.zip 1 -
-/_manager/users.txt 1 -
-/.well-known/autoconfig/mail/config-v1.1.xml 2 -
-/_manager/IlOyTgNjFrGtHtEwVo.zip 1 -
-/_manager/laXa1a1.txt 1 -
-/_manager/secure.zip 1 -
+BEGIN_SIDER_404 303
+/_manager/STD.zip 1 -
+/_manager/dropnow%20(3).zip 1 -
+/_manager/godaddy.zip 1 -
+/files/tours/2/index.php 3 -
+/_manager/alibaba.zip 1 -
+/wp-content/plugins/cherry-plugin/admin/import-export/Raiz0__oqlbh.php 1 -
 /_manager/accepted_visitors.txt 1 -
-/_manager/credits.txt 1 -
-/_manager/in.zip 1 -
-/_manager/dhl.zip 1 -
-/_manager/office365.zip 1 -
-/_manager/cap1-360.zip 1 -
-/_manager/web1.zip 1 -
-/_manager/update.zip 1 -
-/_manager/google.zip 1 -
-/_manager/docx.zip 1 -
-/_manager/Drop.zip 1 -
-/public/js/ammap.js 2 http://tripplanner.ge/
-/public/images/tours/big/67/67.jpg 1 -
-/_manager/FE4Nt3a.zip 1 -
-/_manager/page.zip 1 -
+/_manager/db.zip 1 -
 /_manager/1.zip 1 -
-/_manager/dropbox.zip 1 -
-/_manager/logs.zip 1 -
-/_manager/man.txt 1 -
-/public/js/jquery.barrating.min.js 52 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
+/_manager/rhb.com.my.zip 1 -
+/_manager/newdocxb.zip 1 -
+/_manager/account.zip 1 -
+/_manager/Contact%20Logs.txt 1 -
+/_manager/DHL.zip 1 -
+/_manager/netflix.zip 1 -
+/_manager/dropboxz.zip 1 -
+/_manager/usaa.zip 1 -
+/_manager/m2u.zip 1 -
+/_manager/webmail.zip 1 -
+/_manager/drive.zip 1 -
+/_manager/secure.zip 1 -
+/_manager/la4BA0Re3L.zip 1 -
+/_manager/secure-dropbox.zip 1 -
+/_manager/changes.txt 1 -
+/_manager/IRS.zip 1 -
+/public/images/tours/big/66/661.jpg 1 -
+/properties/configuration.php 2 -
+/_manager/auth.zip 1 -
+/_manager/image.zip 1 -
+/_manager/pi9sI3ca6.zip 1 -
+/wp-content/uploads/wysija/themes/Master/un.php 1 -
+/_manager/revalidate.zip 1 -
+/_manager/drop.zip 1 -
+/maps/map.php 15 http://tripplanner.ge/tours/full/92/One-day-wine-tour-in-kakheti
+/wp-login.php 10 -
+/_manager/dp.zip 1 -
+/_manager/New.zip 1 -
+/_manager/christianmingle.zip 1 -
+/_manager/dhl.zip 1 -
+/_manager/ca7nA4la2.zip 1 -
+/_manager/file.zip 1 -
+/_manager/users.txt 1 -
+/_manager/Dropfile.zip 1 -
+/_manager/confirmation.zip 1 -
+/_manager.zip 1 -
+/_manager/logs.txt 1 -
+/_manager/b1.txt 1 -
+/_manager.7z 1 -
+/_manager/id.zip 1 -
+/_manager/pageo.zip 1 -
+/_manager/irs.zip 1 -
+/_manager/CO9La3.zip 1 -
+/_manager/adobelatest.zip 1 -
+/_manager/Account.zip 1 -
+/_manager/Verify_now.zip 1 -
+/_manager/chase.zip 1 -
+/_manager/chq.zip 1 -
+/public/images/tours/big/67/67.jpg 1 -
+/_manager/Full.txt 1 -
+/public/css/simple-sidebar.css 61 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
 /_manager/IR.zip 1 -
 /_manager/fA3NT3A.zip 1 -
-/_manager/Goododre.zip 1 -
-/_manager/Thiland.txt 1 -
-/invoice/Login/60a20d230ba6e30da1e9cd0a1086b9c5/Up-dating.php 3 -
-/img/img/post/e48cf5e9a2bd46ef10189583c0675577/3d.htm 20 -
-/_manager/GD1.zip 1 -
-/_manager/ayo1.zip 1 -
-/public/js/parallax.min.js 52 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
-/_manager/http.zip 1 -
-/public/css/site.min.css 38 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
-/_manager/account.zip 1 -
-/_manager/dropboxz.zip 1 -
-/_manager/domain.zip 1 -
-/_manager/doc.zip 1 -
-/_manager/PDF%20-01.zip 1 -
-/_manager/Alibaba.com.zip 1 -
-/_manager/gmail.zip 1 -
-/_manager/PDF.zip 1 -
-/_manager/License_linux.txt 1 -
-/header.php 2 -
-/_manager/yahoo%202.txt 1 -
-/_manager/newp.zip 1 -
-/_manager/gdoc.zip 1 -
-/_manager/china.zip 1 -
-/_manager/confirmation.zip 1 -
-/public/js/bootstrap-datepicker.min.js 49 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
-/_manager/CO9La3.zip 1 -
-/public/css/site.css 30 http://tripplanner.ge/tours/full/54/Dashbashi-Canyon
-/_manager/login.alibaba.com.zip 1 -
-/_manager/WellsLINK.zip 1 -
-/_manager/upgrade.zip 1 -
-/_manager/share.zip 1 -
-/_manager/ww.zip 1 -
-/_manager/new.zip 1 -
-/_manager/Ameli.zip 1 -
-/_manager/webmail.zip 1 -
-/public/css/font-awesome.min.css 55 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
-/_manager/office.zip 1 -
-/_manager/ipaad.zip 1 -
-/_manager/pawpaw.zip 1 -
-/_manager/drive.zip 1 -
-/_manager/USAA.zip 1 -
-/public/css/fontawesome-stars.css 43 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
-/_manager/Ed.zip 1 -
-/public/images/tours/big/311/3115.jpg 6 -
-/_manager/tor.zip 1 -
-/_manager/onedrive.zip 1 -
-/_manager/box.zip 1 -
-/public/images/tours/big/64/64.jpg 1 -
-/_manager/Arch.zip 1 -
-/_manager/web.zip 1 -
-/_manager/rhb.com.my.zip 1 -
-/_manager/christianmingle.zip 1 -
-/_manager/css.zip 1 -
-/_manager/note.txt 1 -
-/_manager/b4.txt 1 -
-/_manager/GOOGLENEWW.zip 1 -
-/_manager.rar 1 -
-/horde3/imp/test.php 5 -
-/_manager/adobe.zip 1 -
-/_manager/New.zip 1 -
-/_manager/citi.zip 1 -
-/_manager/la4BA0Re3L.zip 1 -
-/_manager/chq.zip 1 -
-/_manager/data.txt 1 -
-/_manager/mobile.free.fr.zip 1 -
-/invoice/Login/f2cec57687bc6de3a6e2d34557b69a4c/Up-dating.php 4 -
-/_manager/officedoc.zip 1 -
-/public/images/tours/big/135/1352.jpg 3 http://go.mail.ru/search_images
-/_manager.7z 1 -
-/_manager/login.zip 1 -
-/_manager/error_log.txt 1 -
-/_manager/godaddy.zip 1 -
-/images 1 -
-/_manager/cO9nI8C.zip 1 -
-/_manager.zip 1 -
-/public/js/notify.min.js 52 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
-/_manager/ali.txt 1 -
-/_manager/file.zip 1 -
-/_manager/Full.txt 1 -
-/_manager/alibaba.zip 1 -
-/_manager/gdocc.zip 1 -
-/_manager/TT.zip 1 -
-/_manager/secure-dropbox.zip 1 -
-/_manager/ipic.zip 1 -
-/_manager/IRS.zip 1 -
-/_manager/excel.zip 1 -
-/_manager/newdocxb.zip 1 -
-/_manager/revalidate.zip 1 -
-/_manager/docss.zip 1 -
-/_manager/base.zip 1 -
-/_manager/usaa.zip 1 -
-/invoice/Login/bfc4218eb70e54d0cb151a95c0f22096/Up-dating.php 8 -
-/_manager/AmEx.zip 1 -
-/_manager/1.txt 1 -
-/_manager/Verify_now.zip 1 -
-/_manager/id.zip 1 -
-/public/css/bootstrap-datepicker.min.css 47 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
-/horde/imp/test.php 5 -
-/admin/images/cal_date_over.gif 2 -
-/_manager/chase.zip 1 -
-/_manager/verify.zip 1 -
-/fckeditor/editor/filemanager/connectors/php/upload.php 1 -
-/public/js/bootstrap.js 48 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
-/xss.php 2 -
-/_manager/survey.zip 1 -
-/_manager/b1.txt 1 -
-/_manager/Yahoo.zip 1 -
-/_manager/www.zip 1 -
-/_manager/c5.zip 1 -
-/_manager/GoogleDoc.zip 1 -
-/wordpress/wp-login.php 1 -
-/_manager/wells.zip 1 -
-/maps/map.php 12 http://tripplanner.ge/tours/full/92/One-day-wine-tour-in-kakheti
-/_manager/art.zip 1 -
-/_manager/Dropbox.zip 1 -
-/blog_inside.html 1 -
-/_manager/gduc.zip 1 -
-/_manager/msn.zip 1 -
-/_manager/GD.zip 1 -
-/_manager/znD.zip 1 -
-/self_upgrade.html 1 -
-/_manager/info.zip 1 -
-/_manager/AOL.zip 1 -
-/_manager/logs.txt 1 -
-/public/js/georgiaLowEN.js 1 http://tripplanner.ge/
-/_manager/adobeCom.zip 1 -
-/_manager/db.zip 1 -
-/_manager/drpbox.zip 1 -
-/admin/login.php 2 -
-/_manager/mn.zip 1 -
-/public/images/places/big/180.jpg 5 -
-/_manager/BDBB.zip 1 -
-/_manager/live.com.zip 1 -
-/templates/system/css/system.css 2 -
-/_manager/hotmail.zip 1 -
-/public/js/jquery-1.12.3.min.js 45 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
-/_manager/m2u.zip 1 -
-/_manager/interac%20fixed%20perfect%20files.zip 1 -
-/_manager/u1.zip 1 -
-/public/images/tours/big/65/65.jpg 1 -
-/_manager/mam.txt 1 -
-/files/tours/2/index.php 3 -
-/_manager/2015.zip 1 -
-/_manager/Gdoc.zip 1 -
-/_manager/adbb123..zip 1 -
-/_manager/newhotmail.zip 1 -
-/_manager/2.zip 1 -
-/_manager/Ypage.zip 1 -
-/_manager/action.zip 1 -
-/_manager/eogpr.zip 1 -
-/_manager/aol..txt 1 -
-/_manager/host.zip 1 -
-/_manager/BT.txt 1 -
-/_manager/docs.zip 1 -
-/_manager/Counter.zip 1 -
-/public/css/bootstrap-select.css 49 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
-/_manager/ipad.zip 1 -
-/_manager/License_windows.txt 1 -
-/_manager/info.txt 1 -
-/public/css/css-stars.css 49 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
-/_manager/Goldbook.zip 1 -
-/_manager/linkedIn.zip 1 -
-/_manager/nD.zip 1 -
-/_manager/image.zip 1 -
-/_manager/googledoc.zip 1 -
-/_manager/Dropfile.zip 1 -
-/_manager/outlook.zip 1 -
-/public/css/simple-sidebar.css 54 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
-/_manager/dpbx.zip 1 -
-/admin.php 3 -
-/public/js/notify.js 50 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
-/_manager/Account.zip 1 -
 /portal.php 2 -
-/_manager/mgsnew..zip 1 -
-/img/img/post/e48cf5e9a2bd46ef10189583c0675577 2 https://yandex.ru/clck/jsredir
-/_manager/webpage.errors.logs.zip 1 -
+/_manager/docs.zip 1 -
+/_manager/rof.txt 1 -
+/robots.txt 275 -
+/_manager/Goododre.zip 1 -
+/_manager/note.txt 1 -
 /img/img/post/ 8 -
-/public/larisome/font-larisome.min.css 50 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
-/_manager/pagedoc.zip 1 -
-/_manager/pdf.zip 1 -
-/_manager/Adobe.zip 1 -
-/_manager/www.peakinternet.com.zip 1 -
-/_manager/pi9sI3ca6.zip 1 -
-/_manager/wp-content.zip 1 -
-/public/images/tours/big/62/621.jpg 1 -
-/_manager/ca7nA4la2.zip 1 -
-/_manager/melog-india.txt 1 -
-/_manager/l0gz.txt 1 -
-/_manager/paypal.zip 1 -
-/_manager/changes.txt 1 -
-/wp-login.php 7 -
-/_manager/g-doc-secure.zip 1 -
-/_manager/irs.zip 1 -
-/js/hpsum/hpsum-version.js 9 -
-/_manager/auth.zip 1 -
-/_manager/admin.zip 1 -
-/_manager/succes.txt 1 -
-/_manager/apple.zip 1 -
-/properties/configuration.php 2 -
-/_manager/netflix.zip 1 -
-/_manager/m.zip 1 -
-/public/images/tours/big/66/661.jpg 1 -
-/_manager/wp-admin.zip 1 -
-/_manager/STD.zip 1 -
-/sapmc/sapmc.html 2 -
-/robots.txt 241 -
-/_manager/as.txt 1 -
-/_manager/dropbox2016.zip 1 -
-/_manager/x.txt 1 -
-/_manager/googledocs.zip 1 -
-/_manager/Doc.zip 1 -
-/_manager/files.zip 1 -
-/_manager/home.zip 1 -
-/forum.php 2 -
-/_manager/aol.zip 1 -
-/_manager/Google.zip 1 -
-/_manager/dropnow%20(3).zip 1 -
-/public/css/bootstrap.css 57 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
-/_manager/godaddyac.zip 1 -
-/_manager/zonalzone.zip 1 -
-/public/css/ion.rangeSlider.css 45 http://tripplanner.ge/tours/index/0/0/288
-/_manager/Goldencat.zip 1 -
-/_manager/nordea.zip 1 -
+/_manager/Ameli.zip 1 -
 /_manager/yh.txt 1 -
-/_manager/bmg.zip 1 -
+/_manager/GD.zip 1 -
+/_manager/8-login-form.zip 1 -
+/public/css/ion.rangeSlider.css 52 http://tripplanner.ge/tours/index/0/0/288
+/public/css/css-stars.css 56 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
+/_manager/ipad.zip 1 -
+/forum.php 2 -
+/_manager/License_windows.txt 1 -
+/_manager/TT.zip 1 -
+/public/larisome/font-larisome.min.css 58 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
+/_manager/gdocc.zip 1 -
+/_manager/in.zip 1 -
+/_manager/2.zip 1 -
+/sapmc/sapmc.html 2 -
+/_manager/www.zip 1 -
+/public/js/jquery-1.12.3.min.js 54 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
+/_manager/adobe.zip 1 -
+/horde/imp/test.php 5 -
 /_manager/wellsfargo.zip 1 -
+/public/js/notify.min.js 60 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
+/_manager/upgrade.zip 1 -
+/_manager/visit.txt 1 -
+/invoice/Login/bfc4218eb70e54d0cb151a95c0f22096/Up-dating.php 8 -
+/_manager/Ypage.zip 1 -
+/public/js/jquery.barrating.min.js 59 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
+/public/js/ion.rangeSlider.min.js 49 http://www.tripplanner.ge/tours/index/0/0/43
+/_manager/wp-admin.zip 1 -
+/_manager/yahoo%202.txt 1 -
+/public/images/tours/big/311/3115.jpg 6 -
+/_manager/domain.zip 1 -
+/_manager/linkedIn.zip 1 -
+/_manager/ali.txt 1 -
+/_manager/admin.zip 1 -
+/_manager/l0gz.txt 1 -
+/invoice/Login/f2cec57687bc6de3a6e2d34557b69a4c/Up-dating.php 4 -
+/_manager.rar 1 -
+/_manager/Thiland.txt 1 -
+/_manager/home.zip 1 -
+/_manager/gduc.zip 1 -
+/_manager/c5.zip 1 -
+/_manager/msn.zip 1 -
+/_manager/Dropbox.zip 1 -
+/_manager/u1.zip 1 -
+/_manager/outlook.zip 1 -
+/public/js/notify.js 57 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
+/_manager/yahoo.zip 1 -
+/_manager/b4.txt 1 -
+/_manager/mgsnew..zip 1 -
+/_manager/webpage.errors.logs.zip 1 -
+/_manager/app.zip 1 -
+/_manager/vu.txt 1 -
+/_manager/googledocs.zip 1 -
+/_manager/base.zip 1 -
+/_manager/doc.zip 1 -
+/_manager/css.zip 1 -
+/_manager/log.txt 1 -
+/components/Raiz0WorM_1554041530.php 2 -
+/.well-known/autoconfig/mail/config-v1.1.xml 2 -
+/_manager/citi.zip 1 -
+/_manager/m.zip 1 -
+/_manager/tor.zip 1 -
+/public/js/bootstrap-select.js 59 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
+/_manager/web1.zip 1 -
+/_manager/2015.zip 1 -
+/admin.php 3 -
+/public/images/tours/big/65/65.jpg 1 -
+/_manager/login.alibaba.com.zip 1 -
+/_manager/G550.zip 1 -
+/_manager/Goldbook.zip 1 -
+/_manager/Aol.txt 1 -
+/XxX.php 2 -
+/_manager/nD.zip 1 -
+/_manager/dropbox2016.zip 1 -
+/_manager/share.zip 1 -
+/_manager/pagedoc.zip 1 -
+/public/js/parallax.min.js 59 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
+/_manager/ourtime.zip 1 -
+/_manager/ipic.zip 1 -
+/_manager/laXa1a1.txt 1 -
+/_manager/pawpaw.zip 1 -
+/_manager/bookmark.zip 1 -
+/_manager/docx.zip 1 -
+/_manager/GOOGLENEWW.zip 1 -
 /_manager/Login.zip 1 -
-/_manager/newpage.zip 1 -
-/_manager/googledrive.zip 1 -
+/_manager/Drop.zip 1 -
+/_manager/melog-india.txt 1 -
+/_manager/PDF.zip 1 -
+/public/css/site.min.css 46 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
+/public/images/places/big/24.jpg 1 -
+/wp-content/_input_3_raiz0.php5 2 -
+/_manager/Yahoo.zip 1 -
+/horde3/imp/test.php 5 -
+/_manager/nordea.zip 1 -
+/_manager/mobile.free.fr.zip 1 -
+/_manager/wells.zip 1 -
 /_manager/account-liemted.info.zip 1 -
-/_manager/DHL.zip 1 -
-/public/js/ion.rangeSlider.min.js 43 http://www.tripplanner.ge/tours/index/0/0/43
-/public/js/bootstrap-select.js 52 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
+/_manager/adbb123..zip 1 -
+/_manager/znD.zip 1 -
+/public/images/tours/big/64/64.jpg 1 -
+/_manager/eogpr.zip 1 -
+/_manager/aol.zip 1 -
+/_manager/googledoc.zip 1 -
+/_manager/web.zip 1 -
+/_manager/Alibaba.com.zip 1 -
+/_manager/china.zip 1 -
+/_manager/Zone1.zip 1 -
+/_manager/excel.zip 1 -
+/_manager/office365.zip 1 -
+/wp-content/uploads/assignments/Raiz0_1554041530.php. 2 -
+/_manager/login.zip 1 -
+/img/img/post/e48cf5e9a2bd46ef10189583c0675577 2 https://yandex.ru/clck/jsredir
+/_manager/review.zip 1 -
+/_manager/aol..txt 1 -
+/_manager/dropbox.zip 1 -
+/_manager/action.zip 1 -
+/_manager/USAA2014.zip 1 -
+/img/img/post/e48cf5e9a2bd46ef10189583c0675577/3d.htm 20 -
+/_manager/cO9nI8C.zip 1 -
+/_manager/cnm.zip 1 -
+/self_upgrade.html 1 -
+/_manager/cornell.zip 1 -
+/_manager/verify.zip 1 -
+/_manager/box.zip 1 -
+/wp-content/plugins/cherry-plugin/admin/import-export/Raiz0__veczb.php 1 -
+/_manager/Doc.zip 1 -
+/_manager/PDF%20-01.zip 1 -
+/_manager/succes.txt 1 -
+/_manager/AmEx.zip 1 -
+/_manager/BDBB.zip 1 -
+/_manager/Counter.zip 1 -
+/public/js/bootstrap-datepicker.min.js 57 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
+/_manager/dpbx.zip 1 -
+/templates/system/css/system.css 2 -
+/public/css/bootstrap-datepicker.min.css 55 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
+/public/images/places/big/116.jpg 1 http://go.mail.ru/search_images
+/_manager/googledrive.zip 1 -
+/_manager/onedrive.zip 1 -
+/xss.php 3 -
+/js/hpsum/hpsum-version.js 9 -
+/_manager/info.txt 1 -
+/_manager/x.txt 1 -
+/_manager/apple.zip 1 -
+/_manager/drpbox.zip 1 -
+/_manager/host.zip 1 -
+/_manager/logs.zip 1 -
+/public/images/places/big/34.jpg 2 http://go.mail.ru/search_images
+/_manager/credits.txt 1 -
+/_manager/google.zip 1 -
+/_manager/zonalzone.zip 1 -
+/_manager/Adobe.zip 1 -
+/wp-content/uploads/2018/01/Raiz0__oqlbh.php 1 -
+/_manager/License_linux.txt 1 -
+/public/css/bootstrap.css 64 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
+/_manager/bmg.zip 1 -
+/_manager/as.txt 1 -
+/_manager/godaddyac.zip 1 -
+/_manager/Goldencat.zip 1 -
+/public/js/georgiaLowEN.js 1 http://tripplanner.ge/
+/public/js/bootstrap.js 55 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
+/wordpress/wp-login.php 1 -
+/_manager/document.zip 1 -
+/_manager/gdoc.zip 1 -
+/blog_inside.html 1 -
+/_manager/docss.zip 1 -
+/_manager/data.txt 1 -
+/_manager/newhotmail.zip 1 -
+/_manager/files.zip 1 -
+/_manager/paypal.zip 1 -
+/public/css/ion.rangeSlider.skinFlat.css 44 http://www.tripplanner.ge/tours/index/0/0/43
+/public/css/bootstrap-select.css 56 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
+/_manager/interac%20fixed%20perfect%20files.zip 1 -
+/images 1 -
+/_manager/office.zip 1 -
+/public/css/site.css 34 http://tripplanner.ge/tours/full/54/Dashbashi-Canyon
+/elfinder/php/connector.minimal.php 2 -
+/_manager/error_log.txt 1 -
+/_manager/1.txt 1 -
+/_manager/IlOyTgNjFrGtHtEwVo.zip 1 -
+/_manager/adobeCom.zip 1 -
+/admin/login.php 2 -
+/_manager/BT.txt 1 -
+/_manager/newpage.zip 1 -
+/header.php 2 -
+/_manager/new.zip 1 -
+/_manager/remax.zip 1 -
+/_manager/FE4Nt3a.zip 1 -
+/_manager/ID.txt 1 -
+/_manager/GD1.zip 1 -
+/_manager/ww.zip 1 -
+/invoice/Login/60a20d230ba6e30da1e9cd0a1086b9c5/Up-dating.php 3 -
+/_manager/officedoc.zip 1 -
+/_manager/gmail.zip 1 -
+/_manager/GoogleDoc.zip 1 -
+/_manager/wp-content.zip 1 -
+/_manager/hotmail.zip 1 -
+/_manager/mn.zip 1 -
+/_manager/newp.zip 1 -
+/root.php 1 -
+/_manager/survey.zip 1 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 1 -
+/admin/images/cal_date_over.gif 2 -
+/_manager/update.zip 1 -
+/_manager/g-doc-secure.zip 1 -
+/public/images/places/big/180.jpg 5 -
+/_manager/2014gdocs.zip 1 -
+/_manager/agreement_docs2.zip 1 -
+/_manager/ayo1.zip 1 -
+/_manager/www.peakinternet.com.zip 1 -
+/_manager/cap1-360.zip 1 -
+/_manager/Arch.zip 1 -
+/_manager/USAA.zip 1 -
+/_manager/WellsLINK.zip 1 -
+/_manager/Ed.zip 1 -
+/_manager/ipaad.zip 1 -
+/_manager/http.zip 1 -
+/_manager/man.txt 1 -
+/_manager/new2015.zip 1 -
+/public/css/fontawesome-stars.css 51 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
+/_manager/AOL.zip 1 -
+/public/images/tours/big/62/621.jpg 1 -
+/public/css/font-awesome.min.css 63 http://tripplanner.ge/tours/full/520/Plan-a-one-day-trip-to-Javakheti-lakes-and-in-the-blue-village-Gorelovka
+/_manager/art.zip 1 -
+/public/js/ammap.js 2 http://tripplanner.ge/
+/_manager/live.com.zip 1 -
+/_manager/Gdoc.zip 1 -
+/_manager/pdf.zip 1 -
+/_manager/Google.zip 1 -
+/_manager/info.zip 1 -
+/_manager/page.zip 1 -
+/_manager/mam.txt 1 -
+/_manager/dbfile.zip 1 -
+/imp/test.php 5 -
+/public/images/tours/big/135/1352.jpg 3 http://go.mail.ru/search_images
 END_SIDER_404
 
 # Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
 # [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
 # The 25 first Hits must be first (order not required for others)
-BEGIN_VISITOR 26
+BEGIN_VISITOR 28
 41.250.155.0 89 89 1702671 20190317171838
 196.217.175.181 80 80 2205777 20190318183112
 105.154.44.88 31 31 795450 20190317173845
-105.159.244.13 13 13 1397986 20190317181036
 35.180.48.175 13 13 384650 20190316133501
+105.159.244.13 13 13 1397986 20190317181036
 192.254.186.169 11 11 796 20190313231040
 94.240.245.46 6 6 203340 20190323070848
 110.54.220.165 4 4 5862 20190318183729
 66.133.109.36 3 3 261 20190313231040
 35.237.187.152 2 2 0 20190318223939
-41.66.199.191 1 1 1416 20190318182242
-199.66.201.19 1 1 0 20190322132459
-66.249.88.6 1 1 0 20190320164143
-113.171.241.202 1 1 0 20190320205038
 104.132.20.84 1 1 0 20190320232012
+113.171.241.202 1 1 0 20190320205038
+66.249.88.6 1 1 0 20190320164143
+199.66.201.19 1 1 0 20190322132459
+41.66.199.191 1 1 1416 20190318182242
 78.161.26.215 1 1 31902 20190318092841
-5.3.190.109 0 1 293253 
+95.221.63.117 0 1 172250 
+37.145.10.63 0 1 91547 
+5.228.32.205 0 1 293253 
+95.24.201.54 0 1 349502 
 128.74.163.149 0 1 104561 
 185.189.112.229 0 1 3 
-93.80.129.106 0 1 77789 
-95.24.30.235 0 1 339487 
-188.32.144.32 0 1 293253 
-37.145.10.63 0 1 91547 
-5.3.235.33 0 1 104561 
 109.173.58.50 0 1 172250 
-5.228.32.205 0 1 293253 
+5.3.235.33 0 1 104561 
+188.32.144.32 0 1 293253 
+95.24.30.235 0 1 339487 
+5.3.190.109 0 1 293253 
+93.80.129.106 0 1 77789 
 END_VISITOR
 
 # Date - Pages - Hits - Bandwidth - Visits
-BEGIN_DAY 14
+BEGIN_DAY 16
 20190304 0 1 91547 0
 20190306 1 2 327143 1
 20190307 1 2 327143 1
@@ -591,15 +604,17 @@ BEGIN_DAY 14
 20190321 0 1 293253 0
 20190322 1 1 0 1
 20190323 1 1 33890 1
+20190330 0 1 172250 0
+20190331 0 1 349502 0
 END_DAY
 
 # Session range - Number of visits
 BEGIN_SESSION 5
-1h+ 3
-0s-30s 16
-30mn-1h 1
 15mn-30mn 2
 2mn-5mn 2
+1h+ 3
+30mn-1h 1
+0s-30s 16
 END_SESSION
 
 # URL - Pages - Bandwidth - Entry - Exit
@@ -611,22 +626,22 @@ BEGIN_SIDER 24
 /cpanel 6 203340 6 6
 /_manager/ 5 0 4 4
 /MA.php 3 41656 0 0
-/.well-known/acme-challenge/Bk66CjkYWz0LAwa4jdt40nYAk8JblCohVKLesvsGJcs 1 87 0 0
-/.well-known/acme-challenge/ZsGE26PfhEdS0hlsLT972sMlJpbSRmnFDaKy8cMMdls 1 87 0 1
-/M.php 1 3426 0 0
-/.well-known/acme-challenge/6K-TuF9HrMRCfRAGb1h-QY2fJHzcooK9GrzBe1Y6goE 1 87 0 0
-/export.php 1 2365 0 0
-/.well-known/acme-challenge/KDUQA-D2-0FKIODDSR09VBMP9VGP-359 1 64 0 0
-/.well-known/acme-challenge/xy52_IN-u6xECdZ5P9PQWrP9qKRXMYD5Ts2EWWHi3zA 1 87 0 1
-/.well-known/acme-challenge/AYKrjuClNd1r_B_nh1PWrZgSDBhwkw-sjUd1YU_wrLE 1 87 0 0
-/dir.php 1 30 0 0
-/.well-known/acme-challenge/TBYYGY01SJ761T75J7SWQI6-Y8YFMF3_ 1 64 0 0
-/.well-known/acme-challenge/DJXTrRHLu8bMA8MHgBZcDXOm-VAPzGcYAU1bKuywvm8 1 87 1 0
-/customer 1 0 1 1
-/.well-known/acme-challenge/JKI2URXKDBJNE1-E4RKJH5618R39EI1N 1 64 0 0
-/.well-known/acme-challenge/VEZGKGCCYK1Q1KD9B-ON387B-ZMYA88F 1 64 0 0
-/.well-known/acme-challenge/APPVB91X-UPAPOXHV-95TBIP1T0P3QMT 1 64 0 0
-/.well-known/acme-challenge/9XTUQO4OHCN7T7SPAUY8T2EUQ-JU9W9W 1 64 1 0
-/.well-known/acme-challenge/prupH7Wt7q4G340FaNcTfG9oCqhwjwSezGpoXJqmkCE 1 87 0 0
 /.well-known/acme-challenge/4OYDJZ888XD8Y9PNR38WVBQIIR3865_M 1 64 0 0
+/.well-known/acme-challenge/Bk66CjkYWz0LAwa4jdt40nYAk8JblCohVKLesvsGJcs 1 87 0 0
+/M.php 1 3426 0 0
+/.well-known/acme-challenge/APPVB91X-UPAPOXHV-95TBIP1T0P3QMT 1 64 0 0
+/.well-known/acme-challenge/prupH7Wt7q4G340FaNcTfG9oCqhwjwSezGpoXJqmkCE 1 87 0 0
+/.well-known/acme-challenge/9XTUQO4OHCN7T7SPAUY8T2EUQ-JU9W9W 1 64 1 0
+/.well-known/acme-challenge/6K-TuF9HrMRCfRAGb1h-QY2fJHzcooK9GrzBe1Y6goE 1 87 0 0
+/.well-known/acme-challenge/ZsGE26PfhEdS0hlsLT972sMlJpbSRmnFDaKy8cMMdls 1 87 0 1
+/.well-known/acme-challenge/AYKrjuClNd1r_B_nh1PWrZgSDBhwkw-sjUd1YU_wrLE 1 87 0 0
+/.well-known/acme-challenge/DJXTrRHLu8bMA8MHgBZcDXOm-VAPzGcYAU1bKuywvm8 1 87 1 0
+/.well-known/acme-challenge/KDUQA-D2-0FKIODDSR09VBMP9VGP-359 1 64 0 0
+/customer 1 0 1 1
+/dir.php 1 30 0 0
+/.well-known/acme-challenge/JKI2URXKDBJNE1-E4RKJH5618R39EI1N 1 64 0 0
+/export.php 1 2365 0 0
+/.well-known/acme-challenge/xy52_IN-u6xECdZ5P9PQWrP9qKRXMYD5Ts2EWWHi3zA 1 87 0 1
+/.well-known/acme-challenge/VEZGKGCCYK1Q1KD9B-ON387B-ZMYA88F 1 64 0 0
+/.well-known/acme-challenge/TBYYGY01SJ761T75J7SWQI6-Y8YFMF3_ 1 64 0 0
 END_SIDER

@@ -3128,3 +3128,111 @@ clear
 git status
 #1553853307
 git diff etc/tripplanner.ge/forget2.rcube.db
+#1553853322
+git add .
+#1553853333
+git commit -m "tmp mail cpanel"
+#1553853340
+git push origin master
+#1553853361
+cd public_html
+#1553853364
+git status
+#1553853397
+git add img/temp/*.jpg
+#1553853403
+git status
+#1553853425
+git add img/temp/*.JPG
+#1553853428
+git status
+#1553853439
+git add img/temp/*.jpeg
+#1553853444
+git add img/temp/*.png
+#1553853447
+git status
+#1553853458
+git add .
+#1553853470
+git commit -m "sql images xml"
+#1553853476
+git push origin master
+#1553853500
+cd _backup
+#1553853502
+ls
+#1553853514
+rm 23-03-2019.sql
+#1553853518
+rm 24-03-2019.sql
+#1553853523
+rm 25-03-2019.sql
+#1553853529
+rm 26-03-2019.sql
+#1553853534
+rm 27-03-2019.sql
+#1553853537
+clear
+#1553853540
+git status
+#1553853544
+ls
+#1553853549
+cd ../
+#1553853554
+cd ../beetrip.ge
+#1553853555
+ls
+#1553853562
+git status
+#1553853578
+git diff _website/ajax.php
+#1553853598
+git diff _website/templates/custom/cart.php
+#1553853610
+git add .
+#1553853618
+git commit -m "fixed"
+#1553853624
+git push origin master
+#1553853640
+cd ./
+#1553853643
+cd ../
+#1553853648
+exit
+#1554046996
+clear
+#1554047000
+cd public_html
+#1554047003
+git status
+#1554047025
+git add .
+#1554047037
+git commit -m "sql & error log"
+#1554047047
+git push origin master
+#1554047073
+cd _backup
+#1554047074
+ls
+#1554047082
+cd ../
+#1554047087
+cd ../beetrip.ge
+#1554047092
+git status
+#1554047099
+exit
+#1554215651
+clear
+#1554215657
+git status
+#1554215679
+git add mail/*
+#1554215688
+git add tmp/*
+#1554215692
+git status
