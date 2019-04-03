@@ -3236,3 +3236,141 @@ git add mail/*
 git add tmp/*
 #1554215692
 git status
+#1554215700
+git add .
+#1554215722
+git commit -m "tmp mail etc cpanel"
+#1554215730
+git push origin master
+#1554221135
+cd public_html
+#1554221139
+git status
+#1554221154
+git add .
+#1554221178
+git commit -m "sql img curr"
+#1554221186
+git push origin master
+#1554221216
+cd _backup
+#1554221217
+ls
+#1554221236
+rm 28-03-2019.sql
+#1554221243
+rm 29-03-2019.sql
+#1554221251
+rm 30-03-2019.sql
+#1554221257
+rm 31-03-2019.sql
+#1554221260
+ls
+#1554221264
+cd ../
+#1554221267
+cd ../
+#1554221271
+cdbeetrip.ge
+#1554221277
+cd beetrip.ge
+#1554221282
+git status
+#1554221288
+exit
+#1554290603
+cd public_html
+#1554290606
+git status
+#1554290624
+git add .
+#1554290635
+git commit -m "change admin folder"
+#1554290643
+git push origin master
+#1554290764
+git remove -v
+#1554290775
+git remote -v
+#1554290805
+git remote set-url https://github.com/tripplanner123/tripplanner.ge.git
+#1554290813
+git remote -v
+#1554290845
+git remote set-url https://github.com/tripplanner123/tripplanner.ge.git https://github.com/tripplanner123/production.git
+#1554290957
+git remote set-url --add origin https://github.com/tripplanner123/tripplanner.ge.git https://github.com/tripplanner123/production.git
+#1554290971
+git remote -v
+#1554291023
+git remote set-url origin https://github.com/tripplanner123/tripplanner.ge.git
+#1554291029
+git remote -v
+#1554291034
+clear
+#1554291038
+git status
+#1554291046
+git push origin master
+#1554291063
+ls
+#1554291071
+git status
+#1554291181
+cd ../
+#1554291191
+mkdir _test
+#1554291200
+cd _test
+#1554291223
+git clone --no-checkout https://github.com/tripplanner123/tripplanner.ge.git
+#1554291258
+ls
+#1554291276
+cd tripplanner.ge
+#1554291280
+ls
+#1554291308
+mv .git '../.git'
+#1554291310
+ls
+#1554291313
+cd ../
+#1554291315
+ls
+#1554291326
+rm -rf tripplanner.ge
+#1554291328
+ls
+#1554291351
+cd ../public_html
+#1554291353
+ls
+#1554291367
+rm -rf .git
+#1554291378
+cd ../
+#1554291384
+cd _test
+#1554291385
+ls
+#1554291408
+mv .git '../public_html/.git'
+#1554291410
+ls
+#1554291413
+cd ../
+#1554291419
+cd public_html
+#1554291420
+ls
+#1554291425
+git status
+#1554291531
+git add .
+#1554291591
+git status
+#1554291669
+cd ../
+#1554291673
+git status
