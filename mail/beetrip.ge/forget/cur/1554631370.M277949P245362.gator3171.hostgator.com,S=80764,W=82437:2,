@@ -1,0 +1,1673 @@
+Return-Path: <accor@mid.accor-mail.com>
+Delivered-To: forget@beetrip.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP id kFVzEMrKqVxyvgMA8w4q4w
+	for <forget@beetrip.ge>; Sun, 07 Apr 2019 05:02:50 -0500
+Return-path: <accor@mid.accor-mail.com>
+Envelope-to: forget@beetrip.ge
+Delivery-date: Sun, 07 Apr 2019 05:02:50 -0500
+Received: from r107-2.mid.accor-mail.com ([192.243.244.107]:6156)
+	by gator3171.hostgator.com with esmtp (Exim 4.91)
+	(envelope-from <accor@mid.accor-mail.com>)
+	id 1hD4dU-0013q6-Uk
+	for forget@beetrip.ge; Sun, 07 Apr 2019 05:02:50 -0500
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	s=neolane;
+	d=accor-mail.com;
+	h=domainkey-signature:from:date:subject:to:reply-to:mime-version:x-mailer:message-id:content-type:content-transfer-encoding;
+	bh=pJm2Y5SnhCze7V80C9bQcQME3P6vfb9QkNfk40WPvCg=;
+	b=0osnyTHavAWMtUZ1Jwa8o1XD4PdtaNKcu3X8+IsYNI0EwRx4EAdDTEB89I+C2DwuKhTWu1sryor845uTRYKaIj/HAyW6Ak4A4+2qbzUKRm9ZiUa2uxzFYmEoa0fwxxjk3efKsqlaD1H9zGttdYAQWYYcj30R0IFYIA4L+vIfozs=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns;
+	s=neolane;
+	d=accor-mail.com;
+	h=From:Date:Subject:To:Reply-To:MIME-Version:X-mailer:Message-ID:Content-Type:Content-Transfer-Encoding;
+	b=iLDlJPhQWZUeprLHLdy+9tqaxV87oWt779zhsMdPA8Rl5kueuqv8ubJFixmW/Ev2bL6c2bp39oIqsKdvcg2dtd0weKuGuWfEZ31NAAdST5PBZmK6KSXkMVDF7eGr4ERPo9gxs1obi13AFbFP57lRsWgapoKbjAbgHYpKac6tnOc=
+From: "AccorHotels.com" <news.accorhotels@accor-mail.com>
+Date: Sun, 07 Apr 2019 12:02:35 +0200
+Subject: =?utf-8?B?YW1pbmEsIGMnZXN0IGJpZW50w7R0IGxlIGTDqXBhcnQgcG91cg==?=
+ =?utf-8?B?IElzdGFuYnVsLiBTdWl2ZXogbGUgZ3VpZGUgIQ==?=
+To: <forget@beetrip.ge>
+Reply-To: "AccorHotels.com" <news.accorhotels@accor-mail.com>
+MIME-Version: 1.0
+X-mailer: nlserver, Build 6.7.0
+Message-ID: <NM66CBB40BB07BC8BEEaccor@mid.accor-mail.com>
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+X-Spam-Status: No, score=-4.0
+X-Spam-Score: -39
+X-Spam-Bar: ----
+X-Spam-Flag: NO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+function getHourMaxCheckIn(date){
+  var retour;
+  retour =3D evtReservation.dateMaxCheckin.getHours();
+  retour =3D 12;
+  if(langue=3D=3D'fr'||langue=3D=3D'pl'||langue=3D=3D'pt'){
+    if(retour<10) retour =3D '0'+retour;
+    return retour+'h00';
+    }
+  if(langue=3D=3D'ru'||langue=3D=3D'id'||langue=3D=3D'tr'||langue=3D=3D'pt-=
+br'){
+    if(retour<10) retour =3D '0'+retour;
+    return retour+':00';
+    }
+  if(langue=3D=3D'de'){
+    if(retour=3D=3D0) retour =3D '0'+retour;
+    return retour+':00 Uhr';
+    }
+  if(langue=3D=3D'it'||langue=3D=3D'nl'||langue=3D=3D'en'||langue=3D=3D'gb'=
+){
+    if(retour=3D=3D0) retour =3D 24;
+    if(retour<10) retour =3D '0'+retour;
+    return retour+':00';
+    }
+  if(langue=3D=3D'ko'){
+    if(retour=3D=3D0) return '12:00 AM';
+    if(retour<10) retour =3D '0'+retour;
+    if(retour<12){
+        return retour+':00 AM';
+        }
+    else{
+       retour=3Dretour-12;
+        return retour+':00 PM';
+        }
+    }
+    if(langue=3D=3D'es'){
+    if(retour=3D=3D0) retour =3D 24;
+    if(retour<10) retour =3D '0'+retour;
+    if(retour<=3D12){
+        return retour+':00';
+        }
+    else{
+       retour=3Dretour-12;
+        return retour+':00 p.m';
+        }
+    }
+    if(langue=3D=3D'zh'){
+    if(retour=3D=3D0) retour =3D 24;
+    return retour+'=E6=97=B6';
+    }
+    if(langue=3D=3D'ja'){
+    if(retour=3D=3D0){
+      return '=E6=B7=B1=E5=A4=9C0=E6=99=82';
+      }
+    else if(retour<12){
+        return '=E5=8D=88=E5=89=8D'+retour+'=E6=99=82';
+        }
+    else if(retour=3D=3D12){
+      return '=E6=AD=A3=E5=8D=88';
+        }
+    else{
+        return '=E5=8D=88=E5=BE=8C'+retour+'=E6=99=82';
+        }
+    }
+}
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<title>amina, c'est bient=C3=B4t le d=C3=A9part pour Istanbul. Suivez le gu=
+ide !</title>
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1,=
+ maximum-scale=3D1, user-scalable=3D0" />
+<meta property=3D"og:title" content=3D"accor" />
+
+<style type=3D"text/css">
+=2EExternalClass {width:100%;}
+=2EExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass fon=
+t, .ExternalClass td, .ExternalClass div {line-height:100%;}
+body {-webkit-text-size-adjust:none; -ms-text-size-adjust:none;}
+body {margin:0; padding:0;}
+body, #body_style {width:100% !important; min-height:1000px; color:#2D5F9F;=
+ background:#FFFFFF; font-family:Arial, sans-serif, Verdana; font-size:13px=
+; line-height:1.3;}
+table {border-spacing:0; border-collapse:collapse; mso-table-lspace:0pt; ms=
+o-table-rspace:0pt;}
+table td {border-collapse:collapse;}
+p {margin:0; padding:0; margin-bottom:0;}
+h1, h2, h3, h4, h5, h6 {color:#2D5F9F;; line-height:100%;}
+a:link    {color:#2D5F9F; text-decoration:none;}
+a:visited {color:#2D5F9F; text-decoration:none;}
+a:focus   {color:#2D5F9F !important;}
+a:hover   {color:#2D5F9F !important;}
+a.btn:hover {color:#fcffff !important;}
+a.btn2:hover {color:#0f3982 !important;}
+a[href^=3D"tel"], a[href^=3D"sms"] {text-decoration:none; color:#2D5F9F; po=
+inter-events:none; cursor:default;}
+=2Emobile_link a[href^=3D"tel"], .mobile_link a[href^=3D"sms"] {text-decora=
+tion:default; color:#2D5F9F !important; pointer-events:auto; cursor:default=
+;  text-align:left;}
+img {display:block; border:none; outline:none; text-decoration:none;}
+=2EdesktopHide {max-height: 0px;font-size: 0;display: none !important;}
+
+@media only screen and (max-width: 639px) {
+  td[class=3D"btn11"]{
+    width:108px !important;
+    
+    }
+  td[class=3D"btn22"]{
+    width:108px !important;
+  
+    }
+body[yahoo] .hide {display:none !important;}
+body[yahoo] .ctaSize {margin-right: 15px!important;}
+body[yahoo] .table {width:320px !important;}
+body[yahoo] .table22 {width:230px !important;}
+body[yahoo] .tableBorder {width:314px !important; border:1px solid #dddcdc!=
+important;}
+body[yahoo] .table300 {width:300px !important;}
+body[yahoo] .table310 {width:310px !important;}
+body[yahoo] .table314 {width:314px !important;}
+body[yahoo] .table302 {width:302px !important;}
+body[yahoo] .table200 {width:200px !important; padding: 5px 5px!important;}
+body[yahoo] .table289 {width:289px !important;}
+body[yahoo] .table200 {width:200px !important;}
+body[yahoo] .table250 {width:250px !important;}
+body[yahoo] .tableGuide {width:320px !important; background-color:#F2F2F2!i=
+mportant;}
+body[yahoo] .tableHotel {align:right !important; width: 190px!important;}
+body[yahoo] .pad {padding: 0 8px!important;}
+body[yahoo] .textCal {font-size:10px !important;}
+body[yahoo] .textReservation {font-size:14px!important; line-height:24px!im=
+portant; font-weight:200!important;}
+body[yahoo] .textPromo {padding-left:5px!important;}
+body[yahoo] .textPerso {font-size:12px!important; line-height:16px !importa=
+nt;}
+body[yahoo] .resizeText {font-size:14px!important; line-height:16px!importa=
+nt; font-weight:normal!important;}
+body[yahoo] .textFooter{line-height:20px!important; padding: 10px 0!importa=
+nt;}
+body[yahoo] .tdTopText {height: 60px!important; padding:0 10px!important;}
+body[yahoo] .collapseSepTop {width:320px !important; height: 21px!important=
+;}
+body[yahoo] .collapseTdSepMidPre {width:320px !important; background-color:=
+#dddcdc !important;}
+body[yahoo] .collapseSepMidPre {width:320px !important; height: 10px!import=
+ant;}
+body[yahoo] .collapseSepPartners {width:320px !important; height: 11px!impo=
+rtant;background-color:#ffffff!important;}
+body[yahoo] .collapseTitleTop {font-size:14px !important; font-weight:bold =
+!important;}
+body[yahoo] .collapseTitle2 {font-size:16px !important; font-weight:bold!im=
+portant; padding-left:10px!important;}
+body[yahoo] .titleMeteo{align:center !important; padding-left:10px!importan=
+t;}
+body[yahoo] .collapseTitle3 {align:center !important; font-size:16px !impor=
+tant; font-weight:bold!important; padding-left: 10px!important;}
+body[yahoo] .collapseTdPerso {width:320px !important; text-align:center !im=
+portant;}
+body[yahoo] .collapseImgMeteo {width:314px !important; height: 58px!importa=
+nt;}
+body[yahoo] .collapseImgCompte {width:320px !important; height: 76px!import=
+ant;}
+body[yahoo] .collapsePicto {width:90px !important; height: 44px!important; =
+padding-right:5px!important;}
+body[yahoo] .collapseImgHotel {width:120px !important; height: 84px!importa=
+nt;}
+body[yahoo] .collapseTitlePerso {font-size:14px!important; font-weight:bold=
+ !important;}
+body[yahoo] .bgPicto {background:url(http://t.accorhotels.com/img/emailing_=
+cls/accor/2014/pre-stay/images/picto-bg.gif) right repeat-y transparent!imp=
+ortant; text-align:left!important;}
+body[yahoo] .imgCompteMobile {background:url(http://t.accorhotels.com/img/e=
+mailing_cls/accor/2014/pre-stay/images/banner-profil-gb300-130.jpg) left no=
+-repeat transparent!important; width: 300px!important; height:130px!importa=
+nt; display:block !important; padding-top:20px!important;}
+body[yahoo] .bgbasInfo {background-color:#d5dfeb!important;}
+body[yahoo] .bgbasInfo2 {background-color:#ffffff!important; height:10px!im=
+portant;}
+body[yahoo] .bgbasInfo3 {border-bottom:3px solid #d5dfeb!important;border-t=
+op:2px solid white;}
+body[yahoo] .bgWhite {background-color:#ffffff!important; height:20px!impor=
+tant;}
+body[yahoo] .bgBlue {background-color:#05305A!important; height:20px!import=
+ant;}
+body[yahoo] .textWhite {color:#ffffff!important;}
+body[yahoo] .noBg {background-color:#ffffff!important;}
+body[yahoo] .noBorder {border:0!important;}
+body[yahoo] .bordBlue {border:5px solid #05305A!important;}
+body[yahoo] .bordGreen {border:5px solid #0f3982!important;}
+body[yahoo] .bordOcr {border:10px solid #e2dedb!important;}
+body[yahoo] .tableBtnInfo {padding:2px 0!important;}
+body[yahoo] .tableBtn {padding:2px 10px 0 0!important;}
+body[yahoo] .tdBtn {padding:0 5px!important;}
+body[yahoo] .textBtn {font-size: 16px!important; font-weight:400!important;=
+}
+body[yahoo] .btnTdTextPicto {width:263px !important; text-align:left!import=
+ant;}
+body[yahoo] .collapseApp {width:108px !important; height: 32px!important;}
+body[yahoo] .collapseAppBb {width:76px !important; height: 32px!important;}
+body[yahoo] .collapseImgPartners {width:150px !important; height: 74px!impo=
+rtant; padding:2px 0 !important;}
+body[yahoo] .collapseBlocPartners {width:150px !important;}
+body[yahoo] .collapseBlocPartTextLogo {width:216px !important;}
+body[yahoo] .collapseTdPricing {width:78px !important; font-size:16px !impo=
+rtant;}
+body[yahoo] .pubMobile {width:320px !important; height:5px!important;}
+body[yahoo] .lienMobile {color:red !important; text-decoration:underline; !=
+important; text-transform: !important; }
+body[yahoo] .imgCarte { font-weight:normal!important;display:block!importan=
+t;background-image: url(http://t.accorhotels.com/img/Loyalty_mobile/M_class=
+ic_fr.jpg)!important;background-position: 10px top!important;background-rep=
+eat:no-repeat!important;background-size: 300px 330px!important;  height:330=
+px;}
+body[yahoo] .imgCarte2 { font-weight:normal!important;display:block!importa=
+nt;background-image: url(http://t.accorhotels.com/img/Ban_Galaf_06_2016/314=
+x100_Banniere%20PRESTAY%20MAIL_ACCOR_fr.JPG)!important;background-position:=
+ 10px top!important;background-repeat:no-repeat!important;background-size: =
+300px 100px!important;  height:100px;}
+
+body[yahoo] .imgCarte3 { font-weight:normal!important;display:block!importa=
+nt;background-image: url(http://t.accorhotels.com/img/bibelib/bibelib_prest=
+ay_314x100.jpg)!important;background-position: 10px top!important;backgroun=
+d-repeat:no-repeat!important;background-size: 314px 100px!important;  heigh=
+t:100px;}
+
+body[yahoo] .imgCarteBuk { font-weight:normal!important;display:block!impor=
+tant;background-image: url(http://t.accorhotels.com/img/PS/B_m_gb_314X100.j=
+pg)!important;background-position: 10px top!important;background-repeat:no-=
+repeat!important;background-size: 300px 100px!important;  height:100px;}
+body[yahoo] .imgCarteBde { font-weight:normal!important;display:block!impor=
+tant;background-image: url(http://t.accorhotels.com/img/PS/B_m_de_314X100.j=
+pg)!important;background-position: 10px top!important;background-repeat:no-=
+repeat!important;background-size: 300px 100px!important;  height:100px;}
+
+body[yahoo] .imgClubM { font-weight:normal!important;display:block!importan=
+t;background-image: url(http://t.accorhotels.com/img/FFCaccorLC/PreStay_mem=
+bres_M_fr.jpg)!important;background-position: 10px top!important;background=
+-repeat:no-repeat!important;background-size: 300px 130px!important;  height=
+:130px;}
+
+body[yahoo] .imgClubNM { font-weight:normal!important;display:block!importa=
+nt;background-image: url(http://t.accorhotels.com/img/FFCaccorLC/PreStay_NM=
+_M_fr.jpg)!important;background-position: 10px top!important;background-rep=
+eat:no-repeat!important;background-size: 300px 130px!important;  height:130=
+px;}
+
+body[yahoo] .h10 {height:10px !important;}
+body[yahoo] .h20 {height:20px !important;}
+body[yahoo] .w250 {width:250px!important; display:block!important;}
+body[yahoo] .padTop20 {padding-top:20px !important;}
+body[yahoo] .padAll10 {padding:10px !important;}
+body[yahoo] .mTop20 {margin-top:20px !important;}
+body[yahoo] .noPad {padding:0 !important;}
+body[yahoo] .aLeft { text-align:left !important;padding-left:10px!important=
+;}
+body[yahoo] .desktopHide {display:block !important;width : auto !important;=
+max-height: inherit !important;overflow : visible !important;float : none !=
+important;}
+body[yahoo] .mobileHide {display:none!important;}
+body[yahoo] .btnMobile {width: 80% !important; border-collapse:separate!imp=
+ortant;-webkit-border-radius: 3px!important;-moz-border-radius: 3px!importa=
+nt; border-radius: 3px!important; background:#ffffff!important; border: 1px=
+ solid #0c2c64!important;}
+body[yahoo] .puceBtnMobile {display:block!important; width:17px!important;h=
+eight:17px!important;margin:5px 0 5px 20px!important; background-image:url(=
+http://t.accorhotels.com/img/emailing_cls/accor/2014/fast-checking/lot3_oct=
+2014/images/check-mark_whitetransp_34x34) ; background-position:top left!im=
+portant;background-size:17px 17px!important; background-color:#0f3982!impor=
+tant; }
+body[yahoo] .textBtnMobile {font-size: 16px!important; font-weight:300!impo=
+rtant; color:#0f3982!important; text-decoration:none!important; text-transf=
+orm:uppercase !important; padding:5px 15px 5px 0!important;}
+body[yahoo] .logoPushMobile {border-bottom:1px solid white!important;}
+body[yahoo] .padTop30 {padding-top:20px !important;}
+body[yahoo] .alogoClubMobile {display:block!important; background: url(http=
+://t.accorhotels.com/img/emailing_cls/accor/2014/pre-stay/lot2/images/accor=
+-welcome_mobile.png)no-repeat left;background-size:300px 90px!important; ba=
+ckground-position:5px 10px!important; padding-top:110px!important; font-siz=
+e:18px!important;}
+body[yahoo] .padH10 {padding:10px 0 !important;}
+body[yahoo] .mLeft5 {padding-left:5px!important;}
+body[yahoo] .hAuto {height:auto!important;}
+body[yahoo] .collapseImgPartners {width:150px !important; height: auto!impo=
+rtant; padding:2px 0 !important;}
+
+body[yahoo] .imgMobile2  {background:url(http://t.accorhotels.com/img/game_=
+092016/FR_mobile.jpg) left no-repeat transparent!important; width: 320px!im=
+portant; height:200px!important; display:block !important;}
+body[yahoo] .imgMobile  {background:url(http://t.accorhotels.com/img/parten=
+aires/cariboo-responsive-fr.jpg) center no-repeat transparent!important; wi=
+dth: 320px!important; height:200px!important; display:block !important;}
+}
+
+@media only screen and (min-width: 640px) and (max-width: 1024px) {}
+</style>
+
+</head>
+
+<body style=3D"width:100% !important; min-height:1000px;color:#2D5F9F; back=
+ground:#FFFFFF; font-family:Arial, sans-serif, Verdana; font-size:13px; lin=
+e-height:1.3;" alink=3D"#2D5F9F" link=3D"#2D5F9F" bgcolor=3D"#FFFFFF" text=
+=3D"#2D5F9F" yahoo=3D"fix" id=3D"yahoo">
+<div id=3D"body_style"> 
+
+<!------------ENTETE MIRROIR----------->
+
+
+
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"center" st=
+yle=3D"width:100% !important; margin:0; padding:0;">
+  <tr><td bgcolor=3D"#FFFFFF">
+
+<!--ENTETE-->
+<table width=3D"728" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" class=3D"hide"><tr>
+  <td align=3D"center" bgcolor=3D"#FFFFFF"><font face=3D"Arial, sans-serif,=
+ Verdana" color=3D"#AAAAAA" size=3D"1">Le guide complet de votre s=C3=A9jou=
+r<br />Pour visualiser correctement cette r=C3=A9servation,  <a href=3D"htt=
+p://t.mid.accor-mail.com/r/=3Fid=3Dha69aabf3,e74fc809,e74fc80a&p1=3D%40beEs=
+WpUozrICpOJB%2FbiWGZkdJf%2FUREU1eTBoyktgo58%3D" target=3D"_blank" _label=3D=
+"mi" _category=3D"mi"><u>cliquez ici</u></a></a></font></td></tr><tr><td al=
+ign=3D"center" bgcolor=3D"#FFFFFF">&nbsp;</td></tr></table>
+
+<!------------END ENTETE MIRROIR----------->
+
+<!--HEADER-->
+<table width=3D"728" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" bgcolor=3D"#ffffff" class=3D"table" ><tr><td valign=3D"bottom">
+  <table width=3D"364" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" ali=
+gn=3D"left"  class=3D"table">
+  <tr><td height=3D"76" align=3D"center" valign=3D"bottom"><a href=3D"http:=
+//t.mid.accor-mail.com/r/=3Fid=3Dha69aabf3,e74fc809,e74fc80b&p1=3Dfr&p2=3Df=
+rance&p3=3Da1be87931bbaa1d225af656143761ab15d0fda9658e0315a69fd1594a6cdc5bc=
+&p4=3Dml-ach-1904-j5-1-fr-fr-14-0&p5=3Dach-1904-j5-1-df-df-14-0&p6=3DOTHER-=
+DF-NA-NA" style=3D" font-family:Arial, Helvetica, sans-serif; color:#05305A=
+; font-size:24px;"><img src=3D"http://t.accorhotels.com/img/logos/AH/AH_dar=
+kBlue_v0_2018.png"  alt=3D"ACCORHOTELS.COM" border=3D"0" style=3D"display:b=
+lock;" /></a></td></tr></table>
+<table width=3D"300" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=
+=3D"right" class=3D"table"><tr class=3D"hide"><td align=3D"center"><table w=
+idth=3D"300" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"righ=
+t" class=3D"table"><tr><td width=3D"261" align=3D"right"><font face=3D"Aria=
+l, sans-serif, Verdana" color=3D"#B1B0B7" size=3D"1"><strong>J'imprime ma r=
+=C3=A9servation</strong></font></td><td width=3D"5">&nbsp;</td><td width=3D=
+"33" bgcolor=3D"#F2F2F2"><a href=3D"http://t.mid.accor-mail.com/r/=3Fid=3Dh=
+a69aabf3,e74fc809,e74fc80c&p1=3D%40beEsWpUozrICpOJB%2FbiWGZkdJf%2FUREU1eTBo=
+yktgo58%3D" target=3D"_blank" style=3D"font-family:Arial, Helvetica, sans-s=
+erif; color:#cecece; font-size:10px;"><img src=3D"http://t.accorhotels.com/=
+img/emailing_cls/accor/2014/pre-stay/lot2/images/picto-impr.gif" width=3D"3=
+3" height=3D"24" alt=3D"Impr." border=3D"0" style=3D"display:block;" /></a>=
+</td></tr></table></td></tr><tr><td height=3D"52" align=3D"left" valign=3D"=
+bottom" class=3D"tdTopText"><font face=3D"Arial, sans-serif, Verdana" color=
+=3D"#101010" size=3D"2" style=3D"font-size:12px; line-height:14px;" class=
+=3D"resizeText">Amina Belhaj, pr=C3=A9parez votre s=C3=A9jour =C3=A0  <stro=
+ng>Ibis Istanbul Tuzla Hotel</strong>  </strong></font></td></tr></table></=
+td></tr></table>
+<table width=3D"728" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" class=3D"hide"><tr class=3D"hide"><td width=3D"364" align=3D"le=
+ft" bgcolor=3D"#ffffff" style=3D" font-size:1px; line-height:1px;"><img src=
+=3D"http://t.accorhotels.com/img/emailing_cls/accor/2014/reactivation/image=
+s/vide10.gif" width=3D"364" height=3D"10" alt=3D"" border=3D"0" style=3D"di=
+splay:block; min-width: 364px;" class=3D"hide" /><td width=3D"364" align=3D=
+"left" bgcolor=3D"#ffffff" style=3D" font-size:1px; line-height:1px;"><tabl=
+e width=3D"364" border=3D"0" align=3D"center" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"table"><tr><td bgcolor=3D"#ffffff"><img src=3D"http://t.acc=
+orhotels.com/img/emailing_cls/accor/2014/reactivation/images/vide8.gif" wid=
+th=3D"364" height=3D"10" alt=3D"" border=3D"0" style=3D"display:block; min-=
+width: 364px;" class=3D"hide" /></td></tr></table></td></tr></table>
+
+ <!-- TITRE MESSAGE ACCUEIL--> 
+<table width=3D"728" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" bgcolor=3D"#ffffff" class=3D"table">
+<tr><td width=3D"728" bgcolor=3D"#F2F2F2"><img src=3D"http://t.accorhotels.=
+com/img/emailing_cls/accor/2014/pre-stay/lot2/images/septop_accorh.gif" wid=
+th=3D"728" height=3D"48" style=3D"display:block;" alt=3D"" border=3D"0" cla=
+ss=3D"collapseSepTop" /></td></tr></table>
+ <table width=3D"728" border=3D"0" align=3D"center" cellpadding=3D"0" cells=
+pacing=3D"0" class=3D"table" bgcolor=3D"#F2F2F2"><tr><td height=3D"10" alig=
+n=3D"center" style=3D" line-height:1px;"><table width=3D"698" border=3D"0" =
+cellspacing=3D"0" cellpadding=3D"0" bgcolor=3D"#ffffff" class=3D"tableGuide=
+"><tr><td align=3D"center" height=3D"50"><font face=3D"Arial, sans-serif, V=
+erdana" color=3D"#2D5F9F" size=3D"5" style=3D"font-size:30px; line-height:3=
+6px;"><span class=3D"collapseTitleTop">LE GUIDE COMPLET DE VOTRE S=C3=89JOU=
+R</span></font></td></tr></table></td></tr></table>
+ <!-- shadow--> 
+<table width=3D"728" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" class=3D"table" bgcolor=3D"#F2F2F2"><tr><td height=3D"10" align=
+=3D"center" style=3D" line-height:1px;"><table width=3D"698" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0" bgcolor=3D"#ffffff" class=3D"tableGuide"=
+><tr><td align=3D"center" ><img src=3D"http://t.accorhotels.com/img/emailin=
+g_cls/accor/2014/pre-stay/lot2/images/shadowtop.jpg" width=3D"698" height=
+=3D"13" style=3D"display:block;" alt=3D"" border=3D"0" class=3D"collapseSep=
+MidPre" /></td></tr></table></td></tr></table>
+
+ <!-- INFOS RES--> 
+<table width=3D"728" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" class=3D"table" bgcolor=3D"#F2F2F2"><tr><td width=3D"728" heigh=
+t=3D"5" align=3D"center"  ><table width=3D"698" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" class=3D"table"><tr><td bgcolor=3D"#FFFFFF"><table wi=
+dth=3D"450" border=3D"0" align=3D"left" cellpadding=3D"0" cellspacing=3D"0"=
+ class=3D"hide"><tr><td width=3D"24" height=3D"47"><img src=3D"http://t.acc=
+orhotels.com/img/emailing_cls/accor/2014/pre-stay/lot2/images/videtab24.gif=
+" width=3D"24" height=3D"1" alt=3D"" border=3D"0" style=3D"display:block;" =
+/></td><td width=3D"426" align=3D"left" valign=3D"bottom"><font face=3D"Ari=
+al, sans-serif, Verdana" color=3D"#B1B0B7" size=3D"2" style=3D"font-size:16=
+px; line-height:18px;"><strong><a href=3D"http://t.mid.accor-mail.com/r/=3F=
+id=3Dha69aabf3,e74fc809,e74fc80d&p1=3Daccorhotels&p2=3Da1be87931bbaa1d225af=
+656143761ab15d0fda9658e0315a69fd1594a6cdc5bc&p3=3D9544&p4=3Dml-ach-1904-j5-=
+1-fr-fr-14-0&p5=3Dml-ach-1904-j5-1-fr-fr-14-0" target=3D"_blank" style=3D"t=
+ext-decoration:none; color:#B1B0B7">Votre h&ocirc;tel : ibis Istanbul Tuzla=
+ Hotel</a></strong></font></td></tr><tr><td height=3D"4"><img src=3D"http:/=
+/t.accorhotels.com/img/emailing_cls/accor/2014/pre-stay/lot2/images/vide4.g=
+if" width=3D"24" height=3D"4" alt=3D"" border=3D"0" style=3D"display:block;=
+" /></td><td></td></tr></table><table width=3D"200" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0" align=3D"right" class=3D"table"><tr><td height=3D=
+"4" style=3D" line-height:1px;"><img src=3D"http://t.accorhotels.com/img/em=
+ailing_cls/accor/2014/pre-stay/lot2/images/vide4.gif" width=3D"4" height=3D=
+"4" alt=3D"" border=3D"0" style=3D"display:block;" /></td></tr><tr><td alig=
+n=3D"center" valign=3D"middle" bgcolor=3D"#05305A" class=3D"table"><font fa=
+ce=3D"Arial, sans-serif, Verdana" color=3D"#fcffff" size=3D"2" style=3D"fon=
+t-size:12px;"><span class=3D"textReservation">N=C2=B0 de r&eacute;servation=
+ : <br class=3D"hide" />HFWDGFHJ</span></font></td></tr></table></td></tr><=
+/table></td></tr></table>
+
+ <!-- MESSAGE--> 
+<table width=3D"728" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" class=3D"table" bgcolor=3D"#F2F2F2">
+  <tr>
+    <td height=3D"10" align=3D"center">
+      <table width=3D"728" border=3D"0" align=3D"center" cellpadding=3D"0" =
+cellspacing=3D"0" class=3D"table" bgcolor=3D"#F2F2F2">
+        <tr>
+          <td height=3D"10" align=3D"center" style=3D" line-height:1px;">
+            <table width=3D"698" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" bgcolor=3D"#ffffff" class=3D"table">
+              <tr>
+                <td>
+                  <table width=3D"450" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0" align=3D"left" class=3D"table">
+                    <tr>
+                      <td width=3D"200" valign=3D"top">
+                        <a href=3D"http://t.mid.accor-mail.com/r/=3Fid=3Dha=
+69aabf3,e74fc809,e74fc80e&p1=3Daccorhotels&p2=3Da1be87931bbaa1d225af6561437=
+61ab15d0fda9658e0315a69fd1594a6cdc5bc&p3=3D9544&p4=3Dml-ach-1904-j5-1-fr-fr=
+-14-0&p5=3Dml-ach-1904-j5-1-fr-fr-14-0" target=3D"_blank" style=3D" font-fa=
+mily:Arial, Helvetica, sans-serif; color:#cecece; font-size:10px;"><img src=
+=3D"http://t.accorhotels.com/img/FFCguide/IBH.jpg" width=3D"200" height=3D"=
+140"class=3D"collapseImgHotel"  alt=3D"" border=3D"0" style=3D"display:bloc=
+k;" />
+                        </a>
+                      </td>
+                      <td width=3D"10">&nbsp;</td>
+                      <td width=3D"240">
+                        <table width=3D"240" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0" class=3D"tableHotel">
+                          <tr>
+                            <td align=3D"left" width=3D"240"><font face=3D"=
+Arial, sans-serif, Verdana" color=3D"#101010" size=3D"2" style=3D"font-size=
+:12px; line-height:14px;" class=3D"resizeText">
+                              <a href=3D"http://t.mid.accor-mail.com/r/=3Fi=
+d=3Dha69aabf3,e74fc809,e74fc80f&p1=3Daccorhotels&p2=3Da1be87931bbaa1d225af6=
+56143761ab15d0fda9658e0315a69fd1594a6cdc5bc&p3=3D9544&p4=3Dml-ach-1904-j5-1=
+-fr-fr-14-0&p5=3Dml-ach-1904-j5-1-fr-fr-14-0" target=3D"_blank" style=3D"te=
+xt-decoration:none; color:#101010">
+                                        <strong>Toute l'&eacute;quipe de l'=
+h&ocirc;tel ibis Istanbul Tuzla Hotel vous attend pour 8 
+                                        
+                                           nuits &agrave; compter du
+                                        
+                                        12/04/2019</strong><span class=3D"h=
+ide">  et se tient &agrave; votre disposition pour que votre s&eacute;jour =
+soit le plus agr&eacute;able possible.  A ce titre, nous avons d&eacute;j&a=
+grave; s&eacute;lectionn&eacute; pour vous les informations utiles sur votr=
+e destination.
+                                      </span></a></font></td></tr><tr class=
+=3D"hide"><td height=3D"19" align=3D"right" valign=3D"bottom"><font face=3D=
+"Arial, sans-serif, Verdana" color=3D"#101010" size=3D"2" style=3D"font-siz=
+e:12px; line-height:14px;">L'&eacute;quipe AccorHotels.com 
+                                      
+      </font></td></tr></table></td></tr></table>
+<table width=3D"200" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=
+=3D"right" style=3D"background:url(http://t.accorhotels.com/img/emailing_cl=
+s/accor/2014/pre-stay/lot2/images/bg-info.jpg) repeat-y left;" class=3D"tab=
+le"><tr><td align=3D"center" valign=3D"top"><table width=3D"200" border=3D"=
+0" cellspacing=3D"0" cellpadding=3D"0" bgcolor=3D"#F9F9F9" class=3D"table" =
+> <tr><td width=3D"50" valign=3D"top" style=3D"background:url(http://t.acco=
+rhotels.com/img/emailing_cls/accor/2014/pre-stay/lot2/images/bg-info.jpg) r=
+epeat-y left;"><a href=3D"http://t.mid.accor-mail.com/r/=3Fid=3Dha69aabf3,e=
+74fc809,e74fc810&p1=3Daccorhotels&p2=3Da1be87931bbaa1d225af656143761ab15d0f=
+da9658e0315a69fd1594a6cdc5bc&p3=3D9544&p4=3Dml-ach-1904-j5-1-fr-fr-14-0" ta=
+rget=3D"_blank" style=3D"font-family:Arial, Helvetica, sans-serif; color:#c=
+ecece; font-size:10px;"><img src=3D"http://t.accorhotels.com/img/emailing_c=
+ls/accor/2014/pre-stay/lot2/images/picto-adress_accorh.jpg" width=3D"50" he=
+ight=3D"58"  alt=3D"Map" border=3D"0" style=3D"display:block;" /></a></td><=
+td width=3D"150" bgcolor=3D"#F9F9F9" align=3D"left" class=3D"btnTdTextPicto=
+"><font face=3D"Arial, sans-serif, Verdana" color=3D"#05305a" size=3D"2" st=
+yle=3D"font-size:12px; line-height:14px;" class=3D"resizeText"><a href=3D"h=
+ttp://t.mid.accor-mail.com/r/=3Fid=3Dha69aabf3,e74fc809,e74fc811&p1=3Daccor=
+hotels&p2=3Da1be87931bbaa1d225af656143761ab15d0fda9658e0315a69fd1594a6cdc5b=
+c&p3=3D9544&p4=3Dml-ach-1904-j5-1-fr-fr-14-0" title=3D"map" target=3D"_blan=
+k" style=3D"color:#05305a; text-decoration:none;">Aydintepe Mah.Selin Sok.N=
+o.7 - Tuzla<br /><strong>34947  - Istanbul <br /></strong></a></font></td><=
+/tr></table></td></tr><tr><td height=3D"3" valign=3D"top" bgcolor=3D"#d5dfe=
+b" style=3D" line-height:1px;"><img src=3D"http://t.accorhotels.com/img/ema=
+iling_cls/accor/2014/pre-stay/lot2/images/sepbtn.jpg" width=3D"200" height=
+=3D"3" class=3D"hide" alt=3D"" border=3D"0" style=3D"display:block;" /></td=
+></tr><tr><td align=3D"center" valign=3D"top"><table width=3D"200" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0"  bgcolor=3D"#F9F9F9"  class=3D"t=
+able" ><tr><td width=3D"50" valign=3D"top" style=3D"background:url(http://t=
+.accorhotels.com/img/emailing_cls/accor/2014/pre-stay/lot2/images/bg-info.j=
+pg) repeat-y left;"><a href=3D"mailto:H9544@accor.com" title=3D"email" targ=
+et=3D"_blank" style=3D" font-family:Arial, Helvetica, sans-serif; color:#ce=
+cece; font-size:10px;"><img src=3D"http://t.accorhotels.com/img/emailing_cl=
+s/accor/2014/pre-stay/lot2/images/picto-mail_accorh.jpg" width=3D"50" heigh=
+t=3D"36"  alt=3D"E-mail" border=3D"0" style=3D"display:block;" /></a></td><=
+td width=3D"150" bgcolor=3D"#f9f9f9" align=3D"left" class=3D"btnTdTextPicto=
+"><font face=3D"Arial, sans-serif, Verdana" color=3D"#05305a" size=3D"2" st=
+yle=3D"font-size:12px; line-height:14px;" class=3D"resizeText"><a href=3D"m=
+ailto:H9544@accor.com" title=3D"email" target=3D"_blank" style=3D"color:#05=
+305a; text-decoration:none;">H9544@accor.com</a></font></td></tr></table></=
+td></tr><tr><td bgcolor=3D"#d5dfeb" height=3D"3" valign=3D"top" style=3D" l=
+ine-height:1px;"><img src=3D"http://t.accorhotels.com/img/emailing_cls/acco=
+r/2014/pre-stay/lot2/images/sepbtn.jpg" width=3D"200" height=3D"3" class=3D=
+"hide" alt=3D"" border=3D"0" style=3D"display:block;" /></td></tr><tr><td a=
+lign=3D"center" valign=3D"top"><table width=3D"200" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0"  bgcolor=3D"#F9F9F9"  class=3D"table" ><tr><td wi=
+dth=3D"50" valign=3D"top" bgcolor=3D"#F9F9F9"  style=3D"background:url(http=
+://t.accorhotels.com/img/emailing_cls/accor/2014/pre-stay/lot2/images/bg-in=
+fo.jpg) repeat-y left;"><a href=3D"tel:+176214657" title=3D"" target=3D"_bl=
+ank" style=3D" font-family:Arial, Helvetica, sans-serif; color:#cecece; fon=
+t-size:10px;"><img src=3D"http://t.accorhotels.com/img/emailing_cls/accor/2=
+014/pre-stay/lot2/images/picto-mobile_accorh.jpg" width=3D"50" height=3D"41=
+" alt=3D"" border=3D"0" style=3D"display:block;" /></a></td><td width=3D"15=
+0" bgcolor=3D"#f9f9f9" align=3D"left" class=3D"btnTdTextPicto"><font face=
+=3D"Arial, sans-serif, Verdana" color=3D"#05305a" size=3D"2" style=3D"font-=
+size:12px; line-height:14px;" class=3D"resizeText"><a href=3D"tel:90 216/58=
+18800" title=3D"tel" target=3D"_blank" style=3D"color:#05305a; text-decorat=
+ion:none;">+90 216/5818800</a></font></td></tr></table></td></tr></table>
+</td></tr></table></td></tr></table></td></tr></table>
+
+<table width=3D"728" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" class=3D"table">
+  <tr><td bgcolor=3D"#F2F2F2" height=3D"4" class=3D"bgbasInfo" style=3D" li=
+ne-height:1px;"><img src=3D"http://t.accorhotels.com/img/emailing_cls/accor=
+/2014/pre-stay/lot2/images/vide4.gif" width=3D"4" height=3D"4" alt=3D"" bor=
+der=3D"0" style=3D"display:block;" /></td></tr>
+  <tr><td height=3D"4" bgcolor=3D"#F2F2F2" class=3D"bgbasInfo2" style=3D" l=
+ine-height:1px;"><img src=3D"http://t.accorhotels.com/img/emailing_cls/acco=
+r/2014/pre-stay/lot2/images/vide4.gif" width=3D"4" height=3D"4" alt=3D"" bo=
+rder=3D"0" style=3D"display:block;" /></td>
+</tr></table>
+
+<table width=3D"728" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" class=3D"hide"><tr><td width=3D"728" height=3D"8" bgcolor=3D"#F=
+2F2F2" class=3D"table" style=3D" line-height:1px;"><img src=3D"http://t.acc=
+orhotels.com/img/emailing_cls/accor/2014/pre-stay/lot2/images/vide8.gif" wi=
+dth=3D"8" height=3D"8" alt=3D"" border=3D"0" style=3D"display:block;" /></t=
+d></tr></table>  
+
+<!-- NEW BLOC 1 --><!-- FIN NEW BLOC 1 -->
+
+
+<table width=3D"728" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" class=3D"table"><tr><td width=3D"728" height=3D"8" bgcolor=3D"#=
+F2F2F2" class=3D"bgWhite" style=3D" line-height:1px;"><img src=3D"http://t.=
+accorhotels.com/img/emailing_cls/accor/2014/pre-stay/lot2/images/vide8.gif"=
+ width=3D"8" height=3D"8" alt=3D"" border=3D"0" style=3D"display:block;" />=
+</td></tr></table>  
+
+
+
+<!-- NEW BLOC 2 -->
+<table width=3D"728" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" class=3D"table" bgcolor=3D"#F2F2F2">
+  <tr>
+    <td align=3D"center" class=3D"bgWhite">
+      <table width=3D"698" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+ align=3D"center"  bgcolor=3D"#e2dedb" class=3D"table300">
+        <tr>
+          <td width=3D"698" bgcolor=3D"#e2dedb" class=3D"h20">
+            <table width=3D"698" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" class=3D"hide">
+              <tr>
+                <td width=3D"24">
+                  <img src=3D"http://t.accorhotels.com/img/emailing_cls/acc=
+or/2014/pre-stay/lot2/images/videtab24.gif" width=3D"24" height=3D"1" alt=
+=3D"" border=3D"0" style=3D"display:block;" />
+                 </td>
+                 <td width=3D"674" height=3D"50" align=3D"left" >
+                    <font face=3D"Arial, sans-serif, Verdana" color=3D"#896=
+D32" size=3D"3" style=3D"font-size:24px;" class=3D"hide">
+                      <a href=3D"http://t.mid.accor-mail.com/r/=3Fid=3Dha69=
+aabf3,e74fc809,e74fc812&p1=3Dfr&p2=3Dml-ach-1904-j5-1-fr-fr-14-0" target=3D=
+"_blank" style=3D"text-decoration:none; color:#896D32;">GAGNEZ DES POINTS R=
+EWARDS SUPPL=C3=89MENTAIRES</a>
+                    </font>
+                 </td>
+               </tr>
+             </table>
+           </td>
+          </tr>
+          <tr>
+            <td align=3D"center">
+              <table width=3D"658" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" align=3D"center" class=3D"table ">
+                <tr>
+                  <td width=3D"162" align=3D"center" valign=3D"middle">
+                    <table width=3D"119" border=3D"0" cellspacing=3D"0" cel=
+lpadding=3D"0">
+                      <tr>
+                        <td  class=3D"mLeft5">
+                          <a href=3D"http://t.mid.accor-mail.com/r/=3Fid=3D=
+ha69aabf3,e74fc809,e74fc813&p1=3Dfr&p2=3Dml-ach-1904-j5-1-fr-fr-14-0"><img =
+src=3D"http://t.accorhotels.com/img/LCAH_card/LCAH_CLASSIC_119.jpg" width=
+=3D"119" height=3D"76" alt=3D"Carte ACCOR" border=3D"0" style=3D"display:bl=
+ock;"/>
+                          </a>
+                        </td>
+                      </tr>
+                     </table>
+                   </td>
+                 <td width=3D"189" align=3D"left" valign=3D"middle">
+                  <table width=3D"188" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0" >
+                    <tr>
+                      <td width=3D"10">
+                        <img src=3D"http://t.accorhotels.com/img/emailing_c=
+ls/accor/2014/pre-stay/lot2/images/vide10.gif" width=3D"10" height=3D"10" a=
+lt=3D"" border=3D"0" style=3D"display:block;" />
+                      </td>
+                      <td width=3D"178" class=3D"hAuto">
+                        <font face=3D"Arial, sans-serif, Verdana" color=3D"=
+#5e5e5e" size=3D"2" style=3D"font-size:12px;">Votre statut :  <strong> CLAS=
+SIC &nbsp;</strong><br />
+
+
+
+</font></td></tr>
+<tr><td class=3D"hide"></td><td class=3D"hide"><font face=3D"Arial, sans-se=
+rif, Verdana" color=3D"#5e5e5e" size=3D"2" style=3D"font-size:12px;"><a hre=
+f=3D"http://t.mid.accor-mail.com/r/=3Fid=3Dha69aabf3,e74fc809,e74fc814&p1=
+=3Dfr&p2=3Dml-ach-1904-j5-1-fr-fr-14-0" target=3D"_blank" style=3D" color:#=
+5e5e5e; text-decoration:none;">Si vous n'avez pas encore re=C3=A7u votre ca=
+rte, imprimez-la directement sur </a><a href=3D"http://t.mid.accor-mail.com=
+/r/=3Fid=3Dha69aabf3,e74fc809,e74fc815&p1=3Dfr&p2=3Dml-ach-1904-j5-1-fr-fr-=
+14-0" target=3D"_blank" style=3D" color:#5e5e5e; text-decoration:underline;=
+">votre compte client.<br />iOS Android</a>.<a href=3D"http://t.mid.accor-m=
+ail.com/r/=3Fid=3Dha69aabf3,e74fc809,e74fc816&p1=3Dfr&p2=3Dml-ach-1904-j5-1=
+-fr-fr-14-0" target=3D"_blank" style=3D" color:#5e5e5e; text-decoration:und=
+erline;"></a></font></td></tr><tr><td>&nbsp;</td><td style=3D"max-height: 0=
+; width: 0; max-height: 0; overflow:hidden; float: left;" class=3D"desktopH=
+ide"><font face=3D"Arial, sans-serif, Verdana" color=3D"#5e5e5e" size=3D"2"=
+ style=3D"font-size:12px;">
+Pr=C3=A9sentez votre carte directement sur votre mobile en t=C3=A9l=C3=A9ch=
+argeant l'application accorhotels.com<br /><strong><a href=3D"http://t.mid.=
+accor-mail.com/r/=3Fid=3Dha69aabf3,e74fc809,e74fc817" target=3D"_blank" sty=
+le=3D"text-decoration:none; color:#5e5e5e">&#8250;&#8250; iPhone</a>&nbsp;&=
+nbsp; <a href=3D"http://t.mid.accor-mail.com/r/=3Fid=3Dha69aabf3,e74fc809,e=
+74fc818" target=3D"_blank" style=3D"text-decoration:none; color:#5e5e5e">&#=
+8250;&#8250; Andro&iuml;d</a></strong></font></td></tr></table></td><td wid=
+th=3D"10"><img src=3D"http://t.accorhotels.com/img/emailing_cls/accor/2014/=
+pre-stay/lot2/images/vide10.gif" width=3D"10" height=3D"10" alt=3D"" border=
+=3D"0" style=3D"display:block;" /></td><td width=3D"337" align=3D"left" val=
+ign=3D"top" class=3D"hide"><table width=3D"325" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"left" bgcolor=3D"#74a0cd" style=3D"border:1p=
+x solid #6290be;"><tr><td height=3D"50" bgcolor=3D"#74a0cd" style=3D"paddin=
+g-left :10px;"><font face=3D"Arial, sans-serif, Verdana" color=3D"#fafbfd" =
+size=3D"2" style=3D"font-size:14px;"><a href=3D"http://t.mid.accor-mail.com=
+/r/=3Fid=3Dha69aabf3,e74fc809,e74fc819&p1=3Dfr&p2=3Dml-ach-1904-j5-1-fr-fr-=
+14-0" target=3D"_blank" style=3D"text-decoration:none; color:#fcffff;" clas=
+s=3D"btn">Au check in =C3=A0 l'h=C3=B4tel, connectez-vous sur Places by Le =
+Club AccorHotels!</a></font></td></tr><tr><td><table width=3D"325" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td width=3D"96" align=3D"ce=
+nter" bgcolor=3D"#74a0cd"><a href=3D"http://t.mid.accor-mail.com/r/=3Fid=3D=
+ha69aabf3,e74fc809,e74fc81a&p1=3Dfr&p2=3Dml-ach-1904-j5-1-fr-fr-14-0" targe=
+t=3D"_blank"><img src=3D"http://t.accorhotels.com/img/prestayaccorhotels/lo=
+go-places-new.jpg" width=3D"75" height=3D"75" alt=3D"" border=3D"0" style=
+=3D"display:block;"/></a></td><td width=3D"217" bgcolor=3D"#74a0cd"><font f=
+ace=3D"Arial, sans-serif, Verdana" color=3D"#fafbfd" size=3D"2" style=3D"fo=
+nt-size:12px;"><a href=3D"http://t.mid.accor-mail.com/r/=3Fid=3Dha69aabf3,e=
+74fc809,e74fc81b&p1=3Dfr&p2=3Dml-ach-1904-j5-1-fr-fr-14-0" target=3D"_blank=
+" style=3D"text-decoration:none; color:#fcffff;" class=3D"btn">Une autre fa=
+=C3=A7on de cumuler des points Rewards gr=C3=A2ce =C3=A0 l'application   <a=
+ href=3D"http://t.mid.accor-mail.com/r/=3Fid=3Dha69aabf3,e74fc809,e74fc81d&=
+p1=3Dfr&p2=3Dml-ach-1904-j5-1-fr-fr-14-0" target=3D"_blank" style=3D"text-d=
+ecoration:none; color:#fcffff;" class=3D"btn"><u> Places by Le Club AccorHo=
+tels</u> </a> sur Facebook.</font></td><td width=3D"12" bgcolor=3D"#74a0cd"=
+>&nbsp;</td></tr></table></td></tr></table></td></tr></table></td></tr><tr>=
+<td bgcolor=3D"#E2DEDB"><img src=3D"http://t.accorhotels.com/img/emailing_c=
+ls/accor/2014/pre-stay/lot2/images/vide10.gif" width=3D"10" height=3D"10" a=
+lt=3D"" border=3D"0" style=3D"display:block;" /></td></tr></table></td></tr=
+></table>
+<!-- FIN NEW BLOC 2 -->
+
+
+
+
+
+
+
+<table width=3D"728" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" class=3D"table"><tr><td width=3D"728" height=3D"20" bgcolor=3D"=
+#F2F2F2" class=3D"bgWhite" style=3D" line-height:1px;"><img src=3D"http://t=
+.accorhotels.com/img/emailing_cls/accor/2014/pre-stay/lot2/images/vide1.gif=
+" width=3D"10" height=3D"20" alt=3D"" border=3D"0" style=3D"display:block;"=
+ /></td></tr></table>
+
+<!-- sejour-->
+<table width=3D"728" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" class=3D"table"><tr><td width=3D"728" bgcolor=3D"#F2F2F2" align=
+=3D"center" class=3D"table"><table width=3D"698" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" bgcolor=3D"#ffffff" align=3D"center" class=3D"tabl=
+e"><tr><td width=3D"1" bgcolor=3D"#dddcdc" class=3D"noBg"><img src=3D"http:=
+//t.accorhotels.com/img/emailing_cls/accor/2014/pre-stay/lot2/images/vide1.=
+gif" width=3D"1" height=3D"1" alt=3D"" border=3D"0" style=3D"display:block;=
+" /></td><td width=3D"660"><table width=3D"698" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" bgcolor=3D"#ffffff" align=3D"center" class=3D"tableBo=
+rder"><tr><td><table width=3D"698" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" bgcolor=3D"#ffffff" align=3D"center" class=3D"table314"><tr><td wi=
+dth=3D"698" align=3D"right" valign=3D"bottom" bgcolor=3D"#F2F2F2" class=3D"=
+collapseTdSepMidPre"><img src=3D"http://t.accorhotels.com/img/emailing_cls/=
+accor/2014/pre-stay/lot2/images/topblocinfo-698.gif" width=3D"698" height=
+=3D"17" class=3D"collapseSepMidPre" alt=3D"" border=3D"0" style=3D"display:=
+block;" /></td></tr><tr><td align=3D"center">
+<!-- Bloc Titre-->
+<table width=3D"654" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=
+=3D"center" class=3D"table314"><tr><td style=3D"font-family:Arial, Helvetic=
+a, sans-serif;font-size:24px; line-height:30px; text-align:center;color:#2D=
+5F9F;"><span class=3D"collapseTitle2"> POUR PR=C3=89PARER VOTRE VOYAGE </sp=
+an></td></tr></table>
+
+<!-- Bloc Meteo-->    
+
+<table width=3D"654" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=
+=3D"center" class=3D"table314">
+   <tr>
+      <td height=3D"25" valign=3D"bottom" class=3D"titleMeteo" style=3D"tex=
+t-decoration:none; text-align:center; color:#feb200; font-family:Arial, Hel=
+vetica, sans-serif; size:4; font-size:14px;">
+        <a href=3D"http://t.mid.accor-mail.com/r/=3Fid=3Dha69aabf3,e74fc809=
+,e74fc81e&p1=3D9544&p2=3Dibisgroup&p3=3Dfr" target=3D"_blank" style=3D"text=
+-decoration:none; color:#feb200;"><strong> M=C3=89T=C3=89O DE LA SEMAINE</s=
+trong></a>
+      </td>
+   </tr>
+   <tr>
+      <td height=3D"112" width=3D"602" align=3D"center" valign=3D"middle" c=
+lass=3D"collapseImgMeteo">
+        <a href=3D"http://t.mid.accor-mail.com/r/=3Fid=3Dha69aabf3,e74fc809=
+,e74fc81f&p1=3D9544&p2=3Dibisgroup&p3=3Dfr&p4=3Dml-ach-1904-j5-1-fr-fr-14-0=
+" target=3D"_blank" style=3D"text-decoration:none; color:#feb200;"><img src=
+=3D"http://accor.meteonews.net/9544.accorhor.fr.C.2019-04-12.png" width=3D"=
+600" height=3D"110" class=3D"collapseImgMeteo" alt=3D"M=C3=89T=C3=89O DE LA=
+ SEMAINE" border=3D"0" style=3D"display:block;" />
+        </a>
+      </td>
+   </tr>
+   <tr>
+      <td><img src=3D"http://t.accorhotels.com/img/emailing_cls/accor/2014/=
+pre-stay/lot2/images/vide8.gif" width=3D"8" height=3D"8" alt=3D"" border=3D=
+"0" style=3D"display:block;" /></td>
+   </tr>
+</table>
+
+<table>
+
+<!-- Bloc Info2 EUROPCAR -->
+<!-- FIN Bloc Info2 EUROPCAR -->     
+      
+      
+<!-- Bloc Info3 HOTEL TRANSFERT -->  
+
+
+
+        
+  <!-- FIN Bloc SYDNEY  -->      
+      
+      
+<!-- Bloc Info4 IDBUS -->   
+             
+<!-- fin TD 3 blocs info -->
+    </td></tr></table></td>
+    </tr></table>
+    </td><td width=3D"1" bgcolor=3D"#dddcdc" class=3D"noBg"  style=3D" line=
+-height:1px;"><img src=3D"http://t.accorhotels.com/img/emailing_cls/accor/2=
+014/pre-stay/lot2/images/vide1.gif" width=3D"1" height=3D"1" alt=3D"" borde=
+r=3D"0" style=3D"display:block;" /></td></tr>
+  <tr><td width=3D"1" bgcolor=3D"#dddcdc" class=3D"noBg"  style=3D" line-he=
+ight:1px;"><img src=3D"http://t.accorhotels.com/img/emailing_cls/accor/2014=
+/pre-stay/lot2/images/vide1.gif" width=3D"1" height=3D"1" alt=3D"" border=
+=3D"0" style=3D"display:block;" /></td><td bgcolor=3D"#dddcdc" class=3D"noB=
+g"  style=3D" line-height:1px;"><img src=3D"http://t.accorhotels.com/img/em=
+ailing_cls/accor/2014/pre-stay/lot2/images/vide1.gif" width=3D"1" height=3D=
+"1" alt=3D"" border=3D"0" style=3D"display:block;" /></td><td width=3D"1" b=
+gcolor=3D"#dddcdc" class=3D"noBg"  style=3D" line-height:1px;"><img src=3D"=
+http://t.accorhotels.com/img/emailing_cls/accor/2014/pre-stay/lot2/images/v=
+ide1.gif" width=3D"1" height=3D"1" alt=3D"" border=3D"0" style=3D"display:b=
+lock;" /></td>
+  </tr></table></td>
+</tr></table>
+<!-- fin sejour-->
+
+<!--sep-->
+<table width=3D"728" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" class=3D"table"><tr><td width=3D"728" height=3D"20" bgcolor=3D"=
+#F2F2F2" class=3D"bgWhite" style=3D" line-height:1px;"><img src=3D"http://t=
+.accorhotels.com/img/emailing_cls/accor/2014/pre-stay/lot2/images/vide1.gif=
+" width=3D"10" height=3D"20" alt=3D"" border=3D"0" style=3D"display:block;"=
+ /></td></tr></table> 
+
+<!-- CONDITION AFFICHAGE TITRE -->
+
+<!--TOP PARTNER-->
+<table width=3D"728" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" class=3D"table"><tr><td bgcolor=3D"#F2F2F2" align=3D"center"><t=
+able width=3D"698" bgcolor=3D"#ffffff" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0" align=3D"center" class=3D"table"><tr><td bgcolor=3D"#F2F2F2"><=
+span class=3D"collapseSepPartners"><img src=3D"http://t.accorhotels.com/img=
+/emailing_cls/accor/2014/pre-stay/lot2/images/sepmiddle_accorh.gif" width=
+=3D"698" height=3D"23" class=3D"collapseSepPartners" alt=3D"" border=3D"0" =
+style=3D"display:block;" /></span></td></tr></table></td>
+</tr></table> 
+
+<!--TITRE PARTNER-->
+<table width=3D"728" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" class=3D"table"><tr><td bgcolor=3D"#F2F2F2" align=3D"center"><t=
+able width=3D"698" bgcolor=3D"#ffffff" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0" align=3D"center" class=3D"table"><tr><td width=3D"24" class=3D=
+"hide"><img src=3D"http://t.accorhotels.com/img/emailing_cls/accor/2014/pre=
+-stay/lot2/images/videtab24.gif" width=3D"24" height=3D"1" alt=3D"" border=
+=3D"0" style=3D"display:block;" /></td><td width=3D"674" style=3D"text-deco=
+ration:none; text-align:center; color:#010000; size:5; font-family:Arial, H=
+elvetica, sans-serif; font-size:24px; line-height:30px;" ><span class=3D"co=
+llapseTitle3">UNE FOIS SUR PLACE</span></td></tr></table></td></tr></table>
+<!--PARTNER 2 BLOCS-->
+<table width=3D"728" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" class=3D"table"><tr><td bgcolor=3D"#F2F2F2" align=3D"center"><t=
+able width=3D"698" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" bgcolor=
+=3D"#ffffff" align=3D"center" class=3D"table"><tr><td align=3D"center">
+
+
+<!-- Bloc Thalassa -->
+
+
+<!-- Fin bloc Thalassa -->
+
+
+
+
+
+
+<!-- Bloc GYG G=C3=A9n=C3=A9rique FR GB DE IT ES PT NL -->
+<table width=3D"698" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" bgcol=
+or=3D"#ffffff" align=3D"center" class=3D"table">
+  <tr>
+    <td valign=3D"top" align=3D"center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width=3D"698" valign=3D"top" align=3D"center">
+      <table border=3D"0" width=3D"654" cellspacing=3D"0" cellpadding=3D"0"=
+ align=3D"center" class=3D"table">
+        <tr>
+          <td width=3D"550" height=3D"8" valign=3D"bottom" bgcolor=3D"#FFFF=
+FF" class=3D"collapseBlocPartTextLogo">
+            <table width=3D"550" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" class=3D"collapseBlocPartTextLogo">
+              <tr>
+                <td width=3D"550" align=3D"right" valign=3D"bottom" bgcolor=
+=3D"#FFFFFF"><font face=3D"Arial, sans-serif, Verdana" color=3D"#CCCCCC" si=
+ze=3D"1"><strong>En partenariat avec&nbsp;</strong></font></td>
+              </tr>
+              <tr>
+                <td bgcolor=3D"" style=3D" line-height:1px;"><img src=3D"ht=
+tp://t.accorhotels.com/img/emailing_cls/accor/2014/pre-stay/lot2/images/vid=
+e8.gif" width=3D"8" height=3D"8" alt=3D"" border=3D"0" style=3D"display:blo=
+ck;" /></td>
+              </tr>
+            </table>
+          </td>
+          <td width=3D"92" align=3D"center" valign=3D"bottom">
+            <a href=3D"http://t.mid.accor-mail.com/r/=3Fid=3Dha69aabf3,e74f=
+c809,e74fc833&p1=3Dwww.getyourguide.fr/=3Fpartner_id=3D54D94&cmp=3Dprestay_=
+email&utm_campaign=3Dfr,Homepage,prestay_email,PreM1&utm_medium=3Dota&utm_s=
+ource=3D54D94,Accor" target=3D"_blank" style=3D" font-family:Arial, Helveti=
+ca, sans-serif; color:#05305A; font-size:14px; font-weight:bold;"><img src=
+=3D"http://t.accorhotels.com/img/emailing_cls/accor/2014/pre-stay/lot2/imag=
+es/get.png" width=3D"92" height=3D"33" alt=3D"GetYourGuide" border=3D"0" st=
+yle=3D"display:block;" /></a>
+          </td>
+          <td width=3D"12" align=3D"right" valign=3D"bottom" bgcolor=3D"#FF=
+FFFF">
+            <table width=3D"12" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0">
+              <tr>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td bgcolor=3D"" style=3D" line-height:1px;"><img src=3D"ht=
+tp://t.accorhotels.com/img/emailing_cls/accor/2014/pre-stay/lot2/images/vid=
+e8.gif" width=3D"8" height=3D"8" alt=3D"" border=3D"0" style=3D"display:blo=
+ck;" /></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor=3D"#D5DDEA" style=3D" line-height:1px;"></td>
+          <td bgcolor=3D"#D5DDEA" style=3D" line-height:1px;"></td>
+          <td bgcolor=3D"#D5DDEA" style=3D" line-height:1px;"></td>
+        </tr>
+      </table>
+      <table border=3D"0" width=3D"654" cellspacing=3D"0" cellpadding=3D"0"=
+ align=3D"center" class=3D"table">
+        <tr>
+          <td width=3D"10" align=3D"center" bgcolor=3D"#D5DDEA"><img src=3D=
+"http://t.accorhotels.com/img/emailing_cls/accor/2014/pre-stay/lot2/images/=
+vide10.gif" width=3D"10" height=3D"10" alt=3D"" border=3D"0" style=3D"displ=
+ay:block;" /></td>
+          <td width=3D"270" valign=3D"top" bgcolor=3D"#D5DDEA" class=3D"col=
+lapseImgPartners">
+            <a href=3D"http://t.mid.accor-mail.com/r/=3Fid=3Dha69aabf3,e74f=
+c809,e74fc834&p1=3Dwww.getyourguide.fr/=3Fpartner_id=3D54D94&cmp=3Dprestay_=
+email&utm_campaign=3Dfr,Homepage,prestay_email,PreM1&utm_medium=3Dota&utm_s=
+ource=3D54D94,Accor" target=3D"_blank" style=3D" font-family:Arial, Helveti=
+ca, sans-serif; color:#05305A; font-size:30px;"><img src=3D"http://t.accorh=
+otels.com/img/pre-stay/gyg/generic_fr.jpg" width=3D"270" class=3D"collapseI=
+mgPartners" alt=3D"" border=3D"0" style=3D"display:block; padding: 5px 0;" =
+/></a>
+          </td>
+          <td width=3D"10" bgcolor=3D"#D5DDEA"><img src=3D"http://t.accorho=
+tels.com/img/emailing_cls/accor/2014/pre-stay/lot2/images/vide10.gif" width=
+=3D"10" height=3D"10" alt=3D"" border=3D"0" style=3D"display:block;" /></td=
+>
+          <td width=3D"364" bgcolor=3D"#D5DDEA" class=3D"collapseBlocPartne=
+rs">
+            <table width=3D"340" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" class=3D"collapseBlocPartners">
+              <tr>
+                <td align=3D"left" bgcolor=3D"#D5DDEA" ><font face=3D"Arial=
+, sans-serif, Verdana" color=3D"#010000" size=3D"2" style=3D"font-size:12px=
+; line-height:14px;" class=3D"textPartner"><strong><a href=3D"http://t.mid.=
+accor-mail.com/r/=3Fid=3Dha69aabf3,e74fc809,e74fc835&p1=3Dwww.getyourguide.=
+fr/=3Fpartner_id=3D54D94&cmp=3Dprestay_email&utm_campaign=3Dfr,Homepage,pre=
+stay_email,PreM1&utm_medium=3Dota&utm_source=3D54D94,Accor" target=3D"_blan=
+k" style=3D" color:#010000; text-decoration:none;">Des activit=C3=A9s parto=
+ut dans le monde</a><a href=3D"http://t.mid.accor-mail.com/r/=3Fid=3Dha69aa=
+bf3,e74fc809,e74fc836&p1=3Dwww.getyourguide.fr/=3Fpartner_id=3D54D94&cmp=3D=
+prestay_email&utm_campaign=3Dfr,Homepage,prestay_email,PreM1&utm_medium=3Do=
+ta&utm_source=3D54D94,Accor" style=3D" color:#010000; text-decoration:none;=
+"></a></strong></font></td>
+              </tr>
+              <tr class=3D"hide">
+                <td height=3D"90" align=3D"left" bgcolor=3D"#D5DDEA"><font =
+face=3D"Arial, sans-serif, Verdana" color=3D"#010000" size=3D"2" style=3D"f=
+ont-size:12px; line-height:14px;"><a href=3D"http://t.mid.accor-mail.com/r/=
+=3Fid=3Dha69aabf3,e74fc809,e74fc837&p1=3Dwww.getyourguide.fr/=3Fpartner_id=
+=3D54D94&cmp=3Dprestay_email&utm_campaign=3Dfr,Homepage,prestay_email,PreM1=
+&utm_medium=3Dota&utm_source=3D54D94,Accor" target=3D"_blank" style=3D" col=
+or:#010000; text-decoration:none;">R=C3=A9servez une activit=C3=A9 sur votr=
+e destination.<br/>Visites guid=C3=A9es, mus=C3=A9es, tours en bus, parcs d=
+'attractions...</a><a href=3D"http://t.mid.accor-mail.com/r/=3Fid=3Dha69aab=
+f3,e74fc809,e74fc838&p1=3Dwww.getyourguide.fr/=3Fpartner_id=3D54D94&cmp=3Dp=
+restay_email&utm_campaign=3Dfr,Homepage,prestay_email,PreM1&utm_medium=3Dot=
+a&utm_source=3D54D94,Accor" style=3D" color:#010000; text-decoration:none;"=
+></a></font></td>
+              </tr>
+              <tr >
+                <td align=3D"left" bgcolor=3D"#D5DDEA" class=3D"hide" ><fon=
+t face=3D"Arial, sans-serif, Verdana" color=3D"#010000" size=3D"3" style=3D=
+"font-size:12px; line-height:18px; color:#010000; text-decoration:none; "><=
+/font></td>
+              </tr>
+            </table>
+            <table align=3D"right" bgcolor=3D"#0A5386" border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0" style=3D"border-collapse:separate!important; b=
+order: 1px solid #003D68;-webkit-border-radius: 3px;-moz-border-radius: 3px=
+;border-radius: 3px; margin-right: 30px;">
+                <tr>
+                    <td align=3D"center" class=3D"tdBtn" height=3D"26" nowr=
+ap=3D"nowrap" style=3D"background:url(http://t.accorhotels.com/img/emailing=
+_cls/accor/2014/pre-stay/lot2/images/btn-bg_accorh.jpg) repeat-x; white-spa=
+ce: nowrap; padding:0 15px; width:145px"><font color=3D"#FCFFFF" face=3D"Ar=
+ial, sans-serif, Verdana" size=3D"2" style=3D"font-size:12px;">
+                    <strong><a class=3D"btn" href=3D"http://t.mid.accor-mai=
+l.com/r/=3Fid=3Dha69aabf3,e74fc809,e74fc839&p1=3Dwww.getyourguide.fr/=3Fpar=
+tner_id=3D54D94&cmp=3Dprestay_email&utm_campaign=3Dfr,Homepage,prestay_emai=
+l,PreM1&utm_medium=3Dota&utm_source=3D54D94,Accor" target=3D"_blank" title=
+=3D""><span class=3D"textBtn" style=3D"text-decoration:none ;color:#fcffff;=
+ font-size:12px;">R=C3=A9servez une activit=C3=A9</span></a></strong></font=
+></td>
+                </tr>
+           </table>
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+  <tr>
+    <td valign=3D"top" align=3D"center">&nbsp;</td>
+  </tr>
+</table>
+
+
+
+
+
+
+<!-- Bloc Food & Beverages -->  
+
+     <table align=3D"center" bgcolor=3D"#FFFFFF" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" class=3D"table" width=3D"698">
+        <tr><td valign=3D"top" align=3D"center">&nbsp;</td></tr>
+        <tr>
+            <td align=3D"center" valign=3D"top" width=3D"698">
+                <table align=3D"center" border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" class=3D"table" width=3D"654">
+                    <tr>
+                        <td align=3D"center" bgcolor=3D"#D5DDEA" width=3D"1=
+0"><img alt=3D"" border=3D"0" height=3D"10" src=3D"http://t.accorhotels.com=
+/img/emailing_cls/accor/2014/pre-stay/lot2/images/vide10.gif" style=3D"disp=
+lay:block;" width=3D"10"></td>
+                        <td bgcolor=3D"#D5DDEA" class=3D"collapseImgPartner=
+s" valign=3D"top" width=3D"270">
+                            <a href=3D"http://t.mid.accor-mail.com/r/=3Fid=
+=3Dha69aabf3,e74fc809,e74fc846&p1=3Drestaurants.accorhotels.com/fr/home/ind=
+ex.shtml=3Futm_medium=3Demail&utm_source=3Dlifecycle&utm_campaign=3Dml-ach-=
+1904-j5-1-fr-fr-14-0&utm_content=3DOTHER-DF-NA-NA" style=3D"font-family:Ari=
+al, Helvetica, sans-serif; color:#05305A; font-size:30px;" target=3D"_blank=
+"><img alt=3D"" border=3D"0" class=3D"collapseImgPartners" height=3D"180" s=
+rc=3D"http://t.accorhotels.com/img/post-booking/restaurants.jpg" style=3D"d=
+isplay:block; padding: 5px 0;" width=3D"270"></a>
+                        </td>
+                        <td bgcolor=3D"#D5DDEA" width=3D"10"><img alt=3D"" =
+border=3D"0" height=3D"10" src=3D"http://t.accorhotels.com/img/emailing_cls=
+/accor/2014/pre-stay/lot2/images/vide10.gif" style=3D"display:block;" width=
+=3D"10"></td>
+                        <td bgcolor=3D"#D5DDEA" class=3D"collapseBlocPartne=
+rs" width=3D"364">
+                            <span class=3D"hide"><font color=3D"#010000" fa=
+ce=3D"Arial, sans-serif, Verdana" size=3D"3" style=3D"font-size:12px; line-=
+height:18px; color:#010000; text-decoration:none;"><strong class=3D"collaps=
+eTdPricing" style=3D"font-size:18px; color:#2D5F9F;"></strong></font></span=
+><br>
+                            <table border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" class=3D"collapseBlocPartners" width=3D"340">
+                                <tr>
+                                    <td align=3D"left" bgcolor=3D"#D5DDEA">=
+<font class=3D"textPartner" color=3D"#010000" face=3D"Arial, sans-serif, Ve=
+rdana" size=3D"2" style=3D"font-size:12px; line-height:14px;"><strong><a hr=
+ef=3D"http://t.mid.accor-mail.com/r/=3Fid=3Dha69aabf3,e74fc809,e74fc847&p1=
+=3Drestaurants.accorhotels.com/fr/home/index.shtml=3Futm_medium=3Demail&utm=
+_source=3Dlifecycle&utm_campaign=3Dml-ach-1904-j5-1-fr-fr-14-0&utm_content=
+=3DOTHER-DF-NA-NA" style=3D" color:#010000; text-decoration:none;" target=
+=3D"_blank">Vous venez de r=C3=A9server votre chambre=E2=80=A6 o=C3=B9 alle=
+z-vous diner=C2=A0=3F</a></strong></font></td>
+                                </tr>
+                                <tr class=3D"hide">
+                                    <td align=3D"left" bgcolor=3D"#D5DDEA" =
+height=3D"90"><font color=3D"#010000" face=3D"Arial, sans-serif, Verdana" s=
+ize=3D"2" style=3D"font-size:12px; line-height:14px;"><a href=3D"http://t.m=
+id.accor-mail.com/r/=3Fid=3Dha69aabf3,e74fc809,e74fc848&p1=3Drestaurants.ac=
+corhotels.com/fr/home/index.shtml=3Futm_medium=3Demail&utm_source=3Dlifecyc=
+le&utm_campaign=3Dml-ach-1904-j5-1-fr-fr-14-0&utm_content=3DOTHER-DF-NA-NA"=
+ style=3D" color:#010000; text-decoration:none;" target=3D"_blank">D=C3=A9c=
+ouvrez et r=C3=A9servez votre prochaine =C3=A9tape gourmande sur notre site=
+ Restaurants by AccorHotels.<br/>Plus de 3000 restaurants =C3=A0 travers le=
+ monde=E2=80=A6</a></font></td>
+                                </tr>   
+                                <tr>
+                                  <td height=3D"10">&nbsp;</td>
+                                </tr>                             
+                            </table>
+                            <table width=3D"175" align=3D"right" style=3D"m=
+argin-right:45px;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=
+=3D"collapseBlocPartners ctaSize">
+                              <tr>
+                                <td height=3D"26" nowrap=3D"nowrap" align=
+=3D"center" style=3D"background:url(http://t.accorhotels.com/img/emailing_c=
+ls/accor/2014/pre-stay/lot2/images/btn-bg_accorh.jpg) repeat-x; white-space=
+: nowrap; padding:0 15px; width:145px" class=3D"tdBtn">
+                                  <font face=3D"Arial, sans-serif, Verdana"=
+ color=3D"#fcffff" size=3D"2" style=3D"font-size:12px;" ><strong>
+                                  <a href=3D"http://t.mid.accor-mail.com/r/=
+=3Fid=3Dha69aabf3,e74fc809,e74fc849&p1=3Drestaurants.accorhotels.com/fr/hom=
+e/index.shtml=3Futm_medium=3Demail&utm_source=3Dlifecycle&utm_campaign=3Dml=
+-ach-1904-j5-1-fr-fr-14-0&utm_content=3DOTHER-DF-NA-NA" title=3D"Je d=C3=A9=
+couvre" target=3D"_blank" class=3D"btn"><span class=3D"textBtn" style=3D"te=
+xt-decoration:none ;color:#fcffff; font-size:12px; ">R=C3=A9server d=C3=A8s=
+ maintenant !</span></a></strong>
+                                  </font>
+                                </td>
+                              </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>                
+            </td>
+        </tr>
+        <tr>
+            <td align=3D"center" valign=3D"top">&nbsp;</td>
+        </tr>
+    </table>
+
+
+<!-- Fin Bloc Food & Beverages -->
+
+<!-- PRESS DIGITAL 2019 traductions -->  
+
+
+<!-- Debut bloc PRESS DIGITAL 2019 -->
+
+
+
+
+     <table align=3D"center" bgcolor=3D"#FFFFFF" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" class=3D"table" width=3D"698">
+        <tr><td valign=3D"top" align=3D"center">&nbsp;</td></tr>
+        <tr>
+            <td align=3D"center" valign=3D"top" width=3D"698">
+                <table align=3D"center" border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" class=3D"table" width=3D"654">
+                    <tr>
+                        <td align=3D"center" bgcolor=3D"#D5DDEA" width=3D"1=
+0"><img alt=3D"" border=3D"0" height=3D"10" src=3D"http://t.accorhotels.com=
+/img/emailing_cls/accor/2014/pre-stay/lot2/images/vide10.gif" style=3D"disp=
+lay:block;" width=3D"10"></td>
+                        <td bgcolor=3D"#D5DDEA" class=3D"collapseImgPartner=
+s" valign=3D"top" width=3D"270">
+                            <img alt=3D"" border=3D"0" class=3D"collapseImg=
+Partners" height=3D"180" src=3D"http://t.accorhotels.com/img/pre-stay/2019/=
+DigitalPress_banner_270x180.jpg" style=3D"display:block; padding: 5px 0;" w=
+idth=3D"270"></a>
+                        </td>
+                        <td bgcolor=3D"#D5DDEA" width=3D"10"><img alt=3D"" =
+border=3D"0" height=3D"10" src=3D"http://t.accorhotels.com/img/emailing_cls=
+/accor/2014/pre-stay/lot2/images/vide10.gif" style=3D"display:block;" width=
+=3D"10"></td>
+                        <td bgcolor=3D"#D5DDEA" class=3D"collapseBlocPartne=
+rs" width=3D"364">
+                            <span class=3D"hide"><font color=3D"#010000" fa=
+ce=3D"Arial, sans-serif, Verdana" size=3D"3" style=3D"font-size:12px; line-=
+height:18px; color:#010000; text-decoration:none;"><strong class=3D"collaps=
+eTdPricing" style=3D"font-size:18px; color:#2D5F9F;"></strong></font></span=
+><br>
+                            <table border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" class=3D"collapseBlocPartners" width=3D"340">
+                                <tr>
+                                    <td align=3D"left" bgcolor=3D"#D5DDEA">=
+<font class=3D"textPartner" color=3D"#010000" face=3D"Arial, sans-serif, Ve=
+rdana" size=3D"2" style=3D"font-size:12px; line-height:14px;"><strong>Acc=
+=C3=A9dez gratuitement =C3=A0 la presse num=C3=A9rique</strong></font></td>
+                                </tr>
+                                <tr class=3D"hide">
+                                    <td align=3D"left" bgcolor=3D"#D5DDEA" =
+height=3D"90"><font color=3D"#010000" face=3D"Arial, sans-serif, Verdana" s=
+ize=3D"2" style=3D"font-size:12px; line-height:14px;">D=C3=A9couvrez notre =
+s=C3=A9lection de journaux, de magazines et de livres lorsque vous vous con=
+nectez au WIFI pendant votre s=C3=A9jour dans nos h=C3=B4tels.</font></td>
+                                </tr>   
+                                <tr>
+                                  <td height=3D"10">&nbsp;</td>
+                                </tr>                             
+                            </table>
+                            
+                        </td>
+                    </tr>
+                </table>                
+            </td>
+        </tr>
+        <tr>
+            <td align=3D"center" valign=3D"top">&nbsp;</td>
+        </tr>
+    </table>
+    
+    
+    <!-- Fin bloc PRESS DIGITAL 2019 -->
+
+
+<!--Bloc Offres Partenaires -->
+
+
+
+<!-- Bloc BHV -->
+
+
+<!-- Bloc NEXTDOOR -->
+
+<!-- Fin NEXTDOOR -->
+
+</td></tr></table></td></tr></table>
+
+<!-- sep -->
+<table width=3D"728" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" class=3D"table h10"><tr><td height=3D"20" bgcolor=3D"#F2F2F2"><=
+img src=3D"http://t.accorhotels.com/img/emailing_cls/accor/2014/pre-stay/lo=
+t2/images/vide10.gif" width=3D"10" height=3D"10" alt=3D"" border=3D"0" styl=
+e=3D"display:block;" /></td></tr></table>
+
+<!-- Gamification 09/2016 - 12/2016-->
+
+
+<!-- IMAGE COMPTE -->
+
+
+
+
+
+
+
+
+<table width=3D"728" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" class=3D"table">
+  <tr>
+    <td align=3D"center" bgcolor=3D"#F2F2F2">
+      
+      <a href=3D"http://t.mid.accor-mail.com/r/=3Fid=3Dha69aabf3,e74fc809,e=
+74fc852&p1=3Dfr&p2=3Da1be87931bbaa1d225af656143761ab15d0fda9658e0315a69fd15=
+94a6cdc5bc&p3=3Dml-ach-1904-j5-1-fr-fr-14-0&p4=3Dml-ach-1904-j5-1-fr-fr-14-=
+0" class=3D"imgCarte" target=3D"_blank"><img src=3D"http://t.accorhotels.co=
+m/img/Loyalty_desktop/D_classic_fr.jpg" width=3D"698" height=3D"158" alt=3D=
+"Je d=C3=A9couvre" border=3D"0" style=3D"display:block;" class=3D"hide" />
+      </a>
+      
+    </td>
+  </tr>
+</table>
+
+
+
+<!-- AVANTAGES -->
+<table width=3D"728" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" class=3D"hide"><tr><td bgcolor=3D"#F2F2F2" align=3D"center"><ta=
+ble width=3D"698" bgcolor=3D"#ffffff" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" align=3D"center"  style=3D"border-left:1px solid #dddcdc;border=
+-right:1px solid #dddcdc;"  class=3D"table"><tr><td width=3D"10" height=3D"=
+10"><img src=3D"http://t.accorhotels.com/img/emailing_cls/accor/2014/pre-st=
+ay/lot2/images/vide10.gif" width=3D"10" height=3D"10" alt=3D"" border=3D"0"=
+ style=3D"display:block;" /></td></tr></table></td></tr></table>
+<table width=3D"728" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" class=3D"hide"><tr><td bgcolor=3D"#F2F2F2" align=3D"center"><ta=
+ble width=3D"698" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D=
+"center" bgcolor=3D"#b0e9fd" class=3D"table"><tr><td width=3D"698" height=
+=3D"36" align=3D"center" valign=3D"bottom" bgcolor=3D"#ffffff"><table width=
+=3D"698" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-l=
+eft:1px solid #dddcdc;border-right:1px solid #dddcdc;" class=3D"table"><tr>=
+<td width=3D"536" height=3D"90" align=3D"right" valign=3D"top" bgcolor=3D"#=
+ffffff" ><table width=3D"520" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0"><tr><td style=3D"font-family:Arial, Helvetica, sans-serif;font-size:18p=
+x;color:#74a0cd;line-height:25px; text-align:left;">=E2=80=A6 ET DES AVANTA=
+GES OFFERTS PAR IBIS</font></td></tr><tr><td><table width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"center"><tr><td width=
+=3D"280"><font face=3D"Arial, sans-serif, Verdana" color=3D"#74a0cd" size=
+=3D"2" style=3D"font-size:12px;"><strong><trad language=3D"fr">
+  =E2=80=A2 D=C3=A9couvrez vite les exclusivit=C3=A9s
+  <br/>
+  que vous r=C3=A9servent votre statut
+</trad></strong></font></td><td width=3D"230" style=3D"padding:10px;"><tabl=
+e border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-collapse=
+:separate!important; border: 1px solid #74a0cd;-webkit-border-radius: 3px;-=
+moz-border-radius: 3px;border-radius: 3px;" bgcolor=3D"#74a0cd"><tr><td hei=
+ght=3D"26" nowrap=3D"nowrap" align=3D"center" bgcolor=3D"#74a0cd"  style=3D=
+"white-space: nowrap; padding:0 15px;" class=3D"tdBtn"><font face=3D"Arial,=
+ sans-serif, Verdana" color=3D"#fcffff" size=3D"2" style=3D"font-size:12px;=
+" ><strong><a href=3D"http://t.mid.accor-mail.com/r/=3Fid=3Dha69aabf3,e74fc=
+809,e74fc877&p1=3Dfr&p2=3Da1be87931bbaa1d225af656143761ab15d0fda9658e0315a6=
+9fd1594a6cdc5bc&p3=3Dml-ach-1904-j5-1-fr-fr-14-0&p4=3Dml-ach-1904-j5-1-fr-f=
+r-14-0" title=3D"Voir tous mes avantages" target=3D"_blank" class=3D"btn"><=
+span class=3D"textBtn" style=3D"text-decoration:none ;color:#fcffff; font-s=
+ize:12px;">Voir tous mes avantages</span></a></strong></font></td></tr></ta=
+ble></td></tr><tr><td><td><td><img src=3D"http://t.accorhotels.com/img/emai=
+ling_cls/accor/2014/pre-stay/lot2/images/vide10.gif" width=3D"20" height=3D=
+"10" alt=3D"" border=3D"0" style=3D"display:block;" /></td><td></td></tr>
+</table></td></tr></table></td><td width=3D"160" align=3D"left" valign=3D"t=
+op"><img src=3D"http://t.accorhotels.com/img/logo_0518/logo_ibis.jpg" alt=
+=3D"" border=3D"0" style=3D"display:block; margin-left: auto; margin-right:=
+ auto;"/></td></tr>
+</table>
+
+
+
+</td></tr>
+
+
+<tr><td height=3D"4" bgcolor=3D"#74a0cd" style=3D" line-height:1px;"><img s=
+rc=3D"http://t.accorhotels.com/img/emailing_cls/accor/2014/pre-stay/lot2/im=
+ages/vide4.gif" width=3D"4" height=3D"4" alt=3D"" border=3D"0" style=3D"dis=
+play:block;" /></td></tr><tr><td height=3D"4" bgcolor=3D"#74a0cd" style=3D"=
+ line-height:1px;"><img src=3D"http://t.accorhotels.com/img/emailing_cls/ac=
+cor/2014/pre-stay/lot2/images/vide4.gif" width=3D"4" height=3D"4" alt=3D"" =
+border=3D"0" style=3D"display:block;" /></td></tr></table></td></tr></table=
+>
+
+
+
+
+<!-- sep -->
+<table width=3D"728" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" class=3D"table h10"><tr><td height=3D"20" bgcolor=3D"#F2F2F2"><=
+img src=3D"http://t.accorhotels.com/img/emailing_cls/accor/2014/pre-stay/lo=
+t2/images/vide10.gif" width=3D"10" height=3D"10" alt=3D"" border=3D"0" styl=
+e=3D"display:block;" /></td></tr></table>
+
+
+
+
+
+
+
+
+
+
+<!-- LOYALITY -->
+
+
+
+
+  
+<!--Banni=C3=A8re Galeries Lafayette juillet septembre 2016-->
+
+
+
+<!--Visite Britain-->
+
+
+
+<!-- FIN visit Britain -->
+
+<!-- Bani=C3=A8re le club Pre Stay 05_2016-->
+
+
+ <!--<table width=3D"728" border=3D"0" align=3D"center" cellpadding=3D"0" c=
+ellspacing=3D"0" class=3D"table">
+  <tr>
+    <td align=3D"center" bgcolor=3D"#F2F2F2">
+    <a href=3D"http:// -->    <!--.go=3Fsourceid=3D -->   <!-- -b5l1&xtor=
+=3DEREC-13389-[ -->  <!--  ]" target=3D"_blank" class=3D"imgMobile2">
+      <img src=3D"http://t.accorhotels.com/img/ope_lcah/d_pre-campaign_imag=
+e_01_ -->  <!-- .jpg" width=3D"698" height=3D"158" alt=3D" -->  <!--  " bor=
+der=3D"0" style=3D"display:block;" class=3D"hide" /></a>
+    </td>
+   </tr>
+  </table>
+-->
+
+<!-- Fin bani=C3=A8re le club -->
+
+<!-- BLOC PICTOS APPLI -->
+        <table width=3D"728" border=3D"0" align=3D"center" cellpadding=3D"0=
+" cellspacing=3D"0" class=3D"table">
+          <tr>
+            <td bgcolor=3D"#f2f2f2"></td>
+          </tr>
+          <tr>
+            <td align=3D"center" style=3D'background: url("http://t.accorho=
+tels.com/img/emailing_cls/accor/2014/post-stay/images/bg-rs2.jpg") repeat-x=
+ bottom rgb(242, 242, 242);' bgcolor=3D"#f2f2f2"><table width=3D"496" align=
+=3D"left" class=3D"table" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                <tr>
+                  <td height=3D"20" style=3D"padding-left:65px;">
+                    <font face=3D"Arial, sans-serif, Verdana" color=3D"#b1b=
+0b7" size=3D"2" style=3D"font-size:12px; line-height:18px; font-weight:bold=
+"><span class=3D"textPerso"><a href=3D"http://t.mid.accor-mail.com/r/=3Fid=
+=3Dha69aabf3,e74fc809,e74fc884&p1=3Dfr&p2=3Da1be87931bbaa1d225af656143761ab=
+15d0fda9658e0315a69fd1594a6cdc5bc&p3=3Dach-1904-j5-1-df-df-14-0&p4=3Dach-19=
+04-j5-1-df-df-14-0&p5=3DOTHER-DF-NA-NA" target=3D"_blank" style=3D" text-de=
+coration:none; color:#b1b0b7; text-transform:uppercase;">Notre application =
+est disponible sur</a></span></font>
+                    </td>
+                </tr>
+                <tr>
+                 <td height=3D"65" class=3D"tdApp" valign=3D"middle"><table=
+ align=3D"left" class=3D"table" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0">
+                      <tr>
+                        <td width=3D"6"><img width=3D"4" height=3D"4" style=
+=3D"display: block;" alt=3D"" src=3D"http://t.accorhotels.com/img/emailing_=
+cls/accor/2014/post-stay/images/vide4.gif" border=3D"0"></td>
+                        <td width=3D"178"><a href=3D"http://t.mid.accor-mai=
+l.com/r/=3Fid=3Dha69aabf3,e74fc809,e74fc885&p1=3Dml-ach-1904-j5-1-fr-fr-14-=
+0&p2=3Dhttps://itunes.apple.com/fr/app/id489472613=3Fmt=3D8" target=3D"_bla=
+nk" style=3D" font-family:Arial, Helvetica, sans-serif; color:#2d5f9f; font=
+-size:14px; font-weight:bold; text-decoration:underline;" _category=3D"mo" =
+_label=3D"mo"><img width=3D"178" height=3D"52" class=3D"collapseApp" style=
+=3D"display: block;" alt=3D"AppStore" src=3D"http://t.accorhotels.com/img/e=
+mailing_cls/accor/2014/post-stay/images/appstore.jpg" border=3D"0"></a></td=
+>
+                        <td width=3D"4"><img width=3D"4" height=3D"10" styl=
+e=3D"display: block;" alt=3D"" src=3D"http://t.accorhotels.com/img/emailing=
+_cls/accor/2014/post-stay/images/vide4.gif" border=3D"0"></td>
+                        <td width=3D"177" align=3D"left"><a href=3D"http://=
+t.mid.accor-mail.com/r/=3Fid=3Dha69aabf3,e74fc809,e74fc886&p1=3Dml-ach-1904=
+-j5-1-fr-fr-14-0&p2=3Dhttps://play.google.com/store/apps/details=3Fid=3Dcom=
+.accor.appli.hybrid" target=3D"_blank" style=3D" font-family:Arial, Helveti=
+ca, sans-serif; color:#2d5f9f; font-size:14px; font-weight:bold;text-decora=
+tion:underline;" _category=3D"mo" _label=3D"mo"><img width=3D"177" height=
+=3D"52" class=3D"collapseApp" style=3D"display: block;" alt=3D"Google play"=
+ src=3D"http://t.accorhotels.com/img/emailing_cls/accor/2014/post-stay/imag=
+es/googleplay.jpg" border=3D"0"></a></td>
+                      </tr>
+                    </table>
+                </td>
+                </tr>
+              </table>
+              
+              <!-- fin Bloc APP - debut Bloc RS-->
+              
+              <table width=3D"224" align=3D"right" class=3D"table" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                <tr>
+                  <td height=3D"20" align=3D"center">
+                    <font face=3D"Arial, sans-serif, Verdana" color=3D"#b1b=
+0b7" size=3D"2" style=3D"font-size:12px; line-height:18px; font-weight:bold=
+"><span class=3D"textPerso">Retrouvez-nous sur </span></font>
+                   </td>
+                </tr>
+                <tr>
+                  <td height=3D"65" class=3D"tdRs" valign=3D"middle"><table=
+ width=3D"224" align=3D"center" class=3D"table" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0">
+                      <tr>
+                        <td><a href=3D"http://t.mid.accor-mail.com/r/=3Fid=
+=3Dha69aabf3,e74fc809,e74fc887&p1=3Dml-ach-1904-j5-1-fr-fr-14-0&p2=3Dhttp:/=
+/www.pinterest.com/accorhotels/" target=3D"_blank" style=3D" font-family:Ar=
+ial, Helvetica, sans-serif; color:#2d5f9f; font-size:10px; font-weight:bold=
+; text-decoration:underline;" _category=3D"rs" _label=3D"rs"><img src=3D"ht=
+tp://t.accorhotels.com/img/welcome-1403/Pinterest-Logo52.png" width=3D"52" =
+height=3D"52" alt=3D"Pinterest" border=3D"0" style=3D"display:block;" class=
+=3D"collapseRs" /></a></td>
+                        <td width=3D"4"><img width=3D"4" height=3D"10" styl=
+e=3D"display: block;" alt=3D"" src=3D"http://t.accorhotels.com/img/emailing=
+_cls/accor/2014/post-stay/images/vide4.gif" border=3D"0"></td>
+                        <td><a href=3D"http://t.mid.accor-mail.com/r/=3Fid=
+=3Dha69aabf3,e74fc809,e74fc888&p1=3Dml-ach-1904-j5-1-fr-fr-14-0&p2=3Dhttps:=
+//plus.google.com/+accorhotels/posts" target=3D"_blank" style=3D" font-fami=
+ly:Arial, Helvetica, sans-serif; color:#2d5f9f; font-size:10px; font-weight=
+:bold; text-decoration:underline;" _category=3D"rs" _label=3D"rs"><img src=
+=3D"http://t.accorhotels.com/img/welcome-1403/Google-Plus52.png" width=3D"5=
+2" height=3D"52" alt=3D"Google+" border=3D"0" style=3D"display:block;" clas=
+s=3D"collapseRs" /></a></td>
+                        <td width=3D"4"><img width=3D"4" height=3D"10" styl=
+e=3D"display: block;" alt=3D"" src=3D"http://t.accorhotels.com/img/emailing=
+_cls/accor/2014/post-stay/images/vide4.gif" border=3D"0"></td>
+                        <td><a href=3D"http://t.mid.accor-mail.com/r/=3Fid=
+=3Dha69aabf3,e74fc809,e74fc889&p1=3Dml-ach-1904-j5-1-fr-fr-14-0&p2=3Dhttps:=
+//www.facebook.com/accorhotels" target=3D"_blank" style=3D" font-family:Ari=
+al, Helvetica, sans-serif; color:#2d5f9f; font-size:10px; font-weight:bold;=
+ text-decoration:underline;" _category=3D"rs" _label=3D"rs"><img src=3D"htt=
+p://t.accorhotels.com/img/welcome-1403/facebook_logo52.png" width=3D"52" he=
+ight=3D"52" alt=3D"Facebook" border=3D"0" style=3D"display:block;" class=3D=
+"collapseRs"/></a></td>
+                        <td width=3D"4"><img width=3D"4" height=3D"10" styl=
+e=3D"display: block;" alt=3D"" src=3D"http://t.accorhotels.com/img/emailing=
+_cls/accor/2014/post-stay/images/vide4.gif" border=3D"0"></td>
+                        <td><a style=3D"color: rgb(5, 48, 90); font-family:=
+ Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; text-dec=
+oration: underline;" href=3D"http://t.mid.accor-mail.com/r/=3Fid=3Dha69aabf=
+3,e74fc809,e74fc88a&p1=3Dml-ach-1904-j5-1-fr-fr-14-0&p2=3Dhttps://twitter.c=
+om/AccorHotels" target=3D"_blank"><img width=3D"52" height=3D"52" class=3D"=
+collapseRs" style=3D"display: block;" alt=3D"Twitter" src=3D"http://t.accor=
+hotels.com/img/welcome-1403/twitter-logo52.png" border=3D"0"></a></td>
+                        <td width=3D"4"><img width=3D"4" height=3D"10" styl=
+e=3D"display: block;" alt=3D"" src=3D"http://t.accorhotels.com/img/emailing=
+_cls/accor/2014/post-stay/images/vide4.gif" border=3D"0"></td>
+                      </tr>
+                    </table></td>
+                </tr>
+              </table></td>
+          </tr>
+        </table>
+        
+        <!-- Fin Bloc APP+RS -->
+        
+      <!-- Frise des maques -->
+  <table width=3D"728" border=3D"0" align=3D"center" cellpadding=3D"0" cell=
+spacing=3D"0" class=3D"table">
+    <tr>
+      <td align=3D"center" bgcolor=3D"#F2F2F2" height=3D"10">
+        <img src=3D"http://t.accorhotels.com/img/frise_des_marques/frise_bl=
+ue.png" width=3D"728" border=3D"0" style=3D"display:block;" class=3D"hide"/=
+>
+      </td>
+    </tr>
+    <tr>
+      <td align=3D"center" bgcolor=3D"#05305A" style=3D" line-height:1px;">
+      <img src=3D"http://t.accorhotels.com/img/welcome-1403/vide8.gif" widt=
+h=3D"8" height=3D"8" alt=3D"" border=3D"0" style=3D"display:block;" />
+    </td>
+    </tr>
+  </table>
+  <table width=3D"728" border=3D"0" align=3D"center" cellpadding=3D"0" cell=
+spacing=3D"0" class=3D"table">
+  <tr>
+    <td height=3D"57" align=3D"center" bgcolor=3D"#f2f2f2" class=3D"textFoo=
+ter">
+      <font face=3D"Arial, sans-serif, Verdana" color=3D"#2d5f9f" size=3D"2=
+" style=3D"font-size:12px; line-height:14px;" class=3D"textFooter">
+        <a href=3D"http://t.mid.accor-mail.com/r/=3Fid=3Dha69aabf3,e74fc809=
+,e74fc88b&p1=3Dfr&p2=3Da1be87931bbaa1d225af656143761ab15d0fda9658e0315a69fd=
+1594a6cdc5bc&p3=3Dach-1904-j5-1-df-df-14-0&p4=3Dach-1904-j5-1-df-df-14-0&p5=
+=3DOTHER-DF-NA-NA" target=3D"_blank" _category=3D"l1" _label=3D"fo" style=
+=3D"color:#2d5f9f; text-decoration:none;">Contact</a> <span class=3D"pad">|=
+</span>
+        <a href=3D"http://t.mid.accor-mail.com/r/=3Fid=3Dha69aabf3,e74fc809=
+,e74fc88c&p1=3Da1be87931bbaa1d225af656143761ab15d0fda9658e0315a69fd1594a6cd=
+c5bc&p2=3Dach-1904-j5-1-df-df-14-0&p3=3Dforget@beetrip.ge&p4=3D2005096626&p=
+5=3Dach-1904-j5-1-df-df-14-0&p6=3DOTHER-DF-NA-NA" target=3D"_blank" _catego=
+ry=3D"l2" _label=3D"fo" style=3D"color:#2d5f9f; text-decoration:none;">G=C3=
+=A9rez vos donn=C3=A9es personnelles </a><span class=3D"hide">|</span>
+        <a href=3D"http://t.mid.accor-mail.com/r/=3Fid=3Dha69aabf3,e74fc809=
+,e74fc88d&p1=3Da1be87931bbaa1d225af656143761ab15d0fda9658e0315a69fd1594a6cd=
+c5bc&p2=3Dforget@beetrip.ge&p3=3D2005096626&p4=3Dach-1904-j5-1-df-df-14-0&p=
+5=3Dach-1904-j5-1-df-df-14-0&p6=3DOTHER-DF-NA-NA" _type=3D"optout" target=
+=3D"_blank" _category=3D"l3" _label=3D"fo" style=3D"color:#2d5f9f; text-dec=
+oration:none;">Se d=C3=A9sabonner </a><span class=3D"pad">|</span>
+        <a href=3D"http://t.mid.accor-mail.com/r/=3Fid=3Dha69aabf3,e74fc809=
+,e74fc88e&p1=3Dfr&p2=3Da1be87931bbaa1d225af656143761ab15d0fda9658e0315a69fd=
+1594a6cdc5bc&p3=3Dach-1904-j5-1-df-df-14-0&p4=3Dach-1904-j5-1-df-df-14-0&p5=
+=3DOTHER-DF-NA-NA" target=3D"_blank" _category=3D"l4" _label=3D"fo" style=
+=3D"color:#2d5f9f; text-decoration:none;">Charte de donn=C3=A9es personnell=
+es </a>
+      </font>
+    </td>
+  </tr>
+</table>
+  <!-- Fin frise des marques-->
+<table width=3D"728" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" class=3D"table">
+  <tr>
+    <td align=3D"center" bgcolor=3D"#F2F2F2"><font color=3D"#CCCCCC" face=
+=3D"Arial, sans-serif, Verdana" size=3D"1"><br/>Photo : Fotolia, Getty Imag=
+e, Phototh=C3=A8que AccorHotels<br /> &copy;2017 AccorHotels.com - Tous dro=
+its r=C3=A9serv=C3=A9s</font></td>
+  </tr>
+</table>
+</td></tr></table>
+</div>
+
+<img src=3D"http://www.accorhotels.com/a1be87931bbaa1d225af656143761ab15d0f=
+da9658e0315a69fd1594a6cdc5bc/px.gif" />
+
+
+<img height=3D'0' width=3D'0' alt=3D'' src=3D'http://t.mid.accor-mail.com/r=
+/=3Fid=3Dha69aabf3,e74fc809,1'/></body>
+</html>
+

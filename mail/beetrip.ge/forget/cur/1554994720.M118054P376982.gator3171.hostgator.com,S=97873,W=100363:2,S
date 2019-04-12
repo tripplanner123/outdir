@@ -1,0 +1,2490 @@
+Return-Path: <rt2@reservation.accor-mail.com>
+Delivered-To: forget@beetrip.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP id UJPeBiBWr1yWwAUA8w4q4w
+	for <forget@beetrip.ge>; Thu, 11 Apr 2019 09:58:40 -0500
+Return-path: <rt2@reservation.accor-mail.com>
+Envelope-to: forget@beetrip.ge
+Delivery-date: Thu, 11 Apr 2019 09:58:40 -0500
+Received: from r43.p49.neolane.net ([185.15.49.43]:62305)
+	by gator3171.hostgator.com with esmtp (Exim 4.91)
+	(envelope-from <rt2@reservation.accor-mail.com>)
+	id 1hEb9y-002dfR-Oa
+	for forget@beetrip.ge; Thu, 11 Apr 2019 09:58:40 -0500
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	s=neolane-rt;
+	d=reservation.accor-mail.com;
+	h=domainkey-signature:from:date:subject:to:reply-to:mime-version:x-mailer:message-id:content-type;
+	bh=PgZOirY7O9NU3ztsUev1iV9vjnBllcRdzQOkiFmSu34=;
+	b=pC7Jkqpg38/t6gJNyb7MZWHWA21nYzaq3NqPtbuyO6mYyU512MjrXFM6dAUoVzjufMKH+aVgjnLUJnHzpLnhv0Q1Esl2Xi+u/MWkwXJFsTIoPhugYF8v6yj8YuvRDCy/MxXmgm2CaPFYTpw0jpB2PViBKkBXEFGvU/zaLzzBZZk=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns;
+	s=neolane-rt;
+	d=reservation.accor-mail.com;
+	h=From:Date:Subject:To:Reply-To:MIME-Version:X-mailer:Message-ID:Content-Type;
+	b=HszwivyWuspd/uNMhBpHPOZqYNTVWR8Dy3uTmQVTTn3wrSV0F2QtyS4L1ikzeh4AqmeSXNJjwzCNItepAbpRpr3DGlIDM9Ymm8ZLLxCBCiogIQgcbgZldIt20XMWATqYIB04X3crJLNzERBEnPNLr0x4rbsAPRVETZ9TsJpV38g=
+From: "AccorHotels" <Accorhotels@reservation.accor-mail.com>
+Date: Thu, 11 Apr 2019 16:58:25 +0200
+Subject: Modification of your reservation: ibis Istanbul Tuzla Hotel No. HFWDGFHJ
+To: <forget@beetrip.ge>
+Reply-To: "ACCOR DGSIT" <no-reply@accor-mail.com>
+MIME-Version: 1.0
+X-mailer: nlserver, Build 6.1.1
+Message-ID: <NM605BA326C1067276Daccoreu_rt2@reservation.accor-mail.com>
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_900_93FD90D0.93FD90D0"
+X-Spam-Status: No, score=-1.2
+X-Spam-Score: -11
+X-Spam-Bar: -
+X-Spam-Flag: NO
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_900_93FD90D0.93FD90D0
+Content-Type: text/plain;
+	charset="windows-1252"
+Content-Transfer-Encoding: 8bit
+
+
+
+------=_NextPart_900_93FD90D0.93FD90D0
+Content-Type: text/html;
+	charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+
+<HEAD>
+
+<title>Confirmation</title><meta http-equiv=3D"X-UA-Compatible" content=3D"=
+IE=3Dedge" />
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1,=
+ minimum-scale=3D1, maximum-scale=3D1" /><style type=3D"text/css">
+=2EReadMsgBody {
+  width: 100%;
+  background-color: #FFFFFF;
+}
+=2EExternalClass {
+  width: 100%;
+  background-color: #FFFFFF;
+}
+=2EExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass fon=
+t, .ExternalClass td, .ExternalClass div {
+  line-height: 100%;
+}
+html {
+  width: 100%;
+}
+body {
+  -webkit-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  margin: 0;
+  padding: 0;
+}
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  table-layout: fixed;
+  margin: 0 auto;
+}
+table table table {
+  table-layout: auto;
+}
+img {
+  display: block !important;
+  over-flow: hidden !important;
+}
+table td {
+  border-collapse: collapse;
+}
+=2Eyshortcuts a {
+  border-bottom: none !important;
+}
+a {
+  color: #38b7ff;
+  text-decoration: none;
+}
+=2Etextbutton a {
+  color: #F9F9F9 !important;
+}
+=2Etextlink a {
+  color: #232936 !important;
+}
+=2Etable-btn {
+  min-width: 102px!important;
+}
+=2Etable-btn-lar {
+  min-width: 215px!important;
+}
+
+/*Responsive*/
+@media only screen and (max-width: 640px) {
+  body {
+   width: auto !important;
+  }
+  table[class=3D"table-inner"] {
+   width: 450px !important;
+   overflow: hidden;
+   text-align: center !important;
+   border-collapse: collapse;
+  }
+  table[class=3D"table-95"] {
+   width: 95% !important;
+   overflow: hidden;
+   text-align: center !important;
+  }
+  table[class=3D"table-inner"] {
+   width: 90% !important;
+   overflow: hidden;
+   text-align: center !important;
+   border-collapse: collapse;
+  }
+  td[class=3D"table2-2"], table[class=3D"table2-2"] {
+   width: 100% !important;
+   text-align: center !important;
+   display: block;
+  }
+  table[class=3D"table1-3"] {
+   width: 29% !important;
+  }
+  table[class=3D"table3-1"] {
+   width: 64% !important;
+   text-align: left !important;
+  }
+  table[class=3D"table-full"] {
+   width: 100% !important;
+   text-align: center !important;
+  }
+  table[class=3D"table-line"] {
+   width: auto;
+  }
+  table[class=3D"table-btn"] {
+   width: 90% !important;
+   text-align: center !important;
+   margin: 1%;
+   border-collapse: collapse;
+  }
+  table[class=3D"table-btn2"] {
+   width: 80% !important;
+   text-align: center !important;
+   margin: 1%;
+   border-collapse: collapse;
+  }
+  table[class=3D"table-btn-lar"] {
+   width: 98% !important;
+   text-align: center !important;
+   margin: 1%;
+  }
+  /* Image */
+  img[class=3D"img1"] {
+   width: 100% !important;
+   height: auto !important;
+  }
+  /* ETC */
+  td[class=3D"hide"] {
+   max-height: 0px !important;
+   height: 0px !important;
+   display: none;
+  }
+  img[class=3D"logo"] {
+   position: relative;
+   left: 100%;
+   margin-left: -100%;
+  }
+  img[class=3D"imgCompteMobile"] {
+   background-image: url(http://t.accorhotels.com/img/welcome-1403/LECLUBMO=
+Bgb2.jpg) !important;
+   background-size: 300px 130px!important;
+   background-repeat: no-repeat!important;
+   width: 300px !important;
+   height: 130px !important;
+   display: block !important;
+  }
+  .ro-pul img[class=3D"logo"] {
+   position: relative;
+   margin-left: -110%;
+  }
+  td[class=3D"img-welcome"] {
+   background-image: url(http://t.accorhotels.com/img/2015/mail-confirmatio=
+n/logo-welcome-m.jpg) !important;
+   background-size: 280px 98px!important;
+   background-repeat: no-repeat!important;
+   background-position:center!important;
+   display: block !important;
+  }
+  img[id=3Dplanet21] {
+    height:auto !important;
+    max-width:600px !important;
+    width: 100% !important;
+  }
+
+  img[id=3Dwipolo] {
+    height:auto !important;
+    max-width:600px !important;
+    width: 100% !important;
+  }
+
+  img[id=3Dclub_enroll] {
+    height:auto !important;
+    max-width:600px !important;
+    width: 100% !important;
+  }
+  img[id=3Dclub_gain] {
+    height:auto !important;
+    max-width:600px !important;
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  body {
+   width: auto !important;
+  }
+  table[class=3D"table-inner"] {
+   width: 290px !important;
+   text-align: center !important;
+  }
+  table[class=3D"table-inner"] {
+   width: 90% !important;
+   overflow: hidden;
+   text-align: center !important;
+  }
+  table[class=3D"table-95"] {
+   width: 95% !important;
+   overflow: hidden;
+   text-align: center !important;
+  }
+  td[class=3D"table2-2"], table[class=3D"table2-2"] {
+   width: 100% !important;
+   text-align: center !important;
+   display: block;
+  }
+  table[class=3D"table1-3"] {
+   width: 100% !important;
+  }
+  table[class=3D"table3-1"] {
+   width: 100% !important;
+   text-align: center !important;
+  }
+  table[class=3D"table-line"] {
+   width: auto;
+  }
+  table[class=3D"table-line2"] {
+   width: 30%;
+  }
+  table[class=3D"table-full"] {
+   width: 100% !important;
+   text-align: center !important;
+  }
+  table[class=3D"table-btn"] {
+   width: 90% !important;
+   text-align: center !important;
+   margin: 1%;
+  }
+  table[class=3D"table-btn2"] {
+   width: 80% !important;
+   text-align: center !important;
+   margin: 1%;
+  }
+  table[class=3D"table-btn-lar"] {
+   width: 98% !important;
+   text-align: center !important;
+   margin: 1%;
+  }
+  /* image */
+  img[class=3D"img1"] {
+   width: 100% !important;
+   height: auto !important;
+  }
+  /* ETC */
+  td[class=3D"hide"], table[class=3D"hide"], img[class=3D"hide"] {
+   display: none;
+  }
+  td[class=3D"fade"] {
+   background: none !important;
+  }
+  img[class=3D"logo"] {
+   position: relative;
+   left: 100%;
+   margin-left: -100%;
+  }
+  .ro-pul img[class=3D"logo"] {
+   position: relative;
+   margin-left: -120%;
+  }
+  td[class=3D"txt-redim10"] {
+   font-size: 11px!important;
+  }
+  td[class=3D"txt-redim12"] {
+   font-size: 12px!important;
+  }
+  td[class=3D"txt-redim14"] {
+   font-size: 14px!important;
+  }
+  td[class=3D"title-resize"] {
+   font-size: 16px!important;
+  }
+  img[class=3D"imgCompteMobile"] {
+   background-image: url(http://t.accorhotels.com/img/2015/mail-confirmatio=
+n/bann-lcahm-gb.jpg) !important;
+   background-size: 300px 130px!important;
+   background-repeat: no-repeat!important;
+   width: 300px !important;
+   height: 130px !important;
+   display: block !important;
+  }
+  td[class=3D"img-welcome"] {
+   background-image: url(http://t.accorhotels.com/img/2015/mail-confirmatio=
+n/logo-welcome-m.jpg) !important;
+   background-size: 280px 98px!important;
+   background-repeat: no-repeat!important;
+
+   display: block !important;
+    background-position:center!important;
+  }
+
+}
+
+@media only screen and (max-width: 400px) {
+  span[id=3Dswitcher] {
+    display: block;
+    background-image: url(http://t.accorhotels.com/img/watch/planet21_gb_30=
+0-2.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    width: 300px !important;
+    height: 80px !important;
+    margin: auto !important;
+  }
+  img[id=3Dplanet21] {display: none !important; }
+
+  span[id=3Dswitcher_wipolo] {
+    display: block;
+    background-image: url(http://t.accorhotels.com/img/wipolo/wipolo_mobile=
+_gb.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    width: 300px !important;
+    height: 141px !important;
+    margin: auto !important;
+  }
+  img[id=3Dwipolo] {display: none !important; }
+
+  span[id=3Dswitcher_club_enroll] {
+    display: block;
+    background-image: url(http://t.accorhotels.com/img/enroll/Enroll300x120=
+_gb.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    width: 300px !important;
+    height: 120px !important;
+    margin: auto !important;
+  }
+  img[id=3Dclub_enroll] {display: none !important; }
+
+  span[id=3Dswitcher_club_gain] {
+    display: block;
+    background-image: url(http://t.accorhotels.com/img/gain/Gain300x120_gb.=
+png) !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    width: 300px !important;
+    height: 120px !important;
+    margin: auto !important;
+  }
+  img[id=3Dclub_gain] {display: none !important; }
+  
+  span[id=3Dswitcher_tp] {
+    display: block;
+    background-image: url(http://t.accorhotels.com/img/AMC/TARS/banner-tp-g=
+b-300px.jpg) !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    width: 300px !important;
+    height: 143px !important;
+    margin: auto !important;
+  }
+  img[id=3Dtrustpilot] {display: none !important; }
+  
+  
+  
+  
+  span[id=3Dswitcher_apps] {
+    display: block;
+    background-image: url(http://t.accorhotels.com/img/AMC/TARS/banner_apps=
+_m_gb.jpg) !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    width: 300px !important;
+    height: 141px !important;
+    margin: auto !important;
+  }
+  img[id=3Dapps] {display: none !important; }
+  
+ 
+  
+  span[id=3Dswitcher_eelway] {
+    display: block;
+    background-image: url(http://t.accorhotels.com/img/AMC/TARS/banner-eelw=
+ay-gb-300px.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    width: 300px !important;
+    height: 150px !important;
+    margin: auto !important;
+  }
+  img[id=3Deelway] {display: none !important; }
+}
+</style>
+</HEAD>
+<BODY>
+<table summary=3D"mail-confirmation"  align=3D"center" bgcolor=3D"#FFFFFF" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+  <tr>
+    <td>
+    
+      <table summary=3D"mail-confirmation" class=3D"table-inner" align=3D"c=
+enter" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"600">
+        <tr>
+          <td bgcolor=3D"#FFFFFF" height=3D"15" style=3D"font-size:0px; lin=
+e-height:0px;"> </td>
+        </tr>
+        <tr>
+          <td bgcolor=3D"#F9F9F9" height=3D"15" style=3D"font-size:0px; lin=
+e-height:0px;"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table><table summary=3D"mail-confirmation"  align=3D"center" bgcolor=3D"#=
+FFFFFF" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+  <tr>
+    <td align=3D"center">
+      <table summary=3D"mail-confirmation" class=3D"table-inner" align=3D"c=
+enter" bgcolor=3D"#F9F9F9" border=3D"0" cellpadding=3D"0"cellspacing=3D"0" =
+width=3D"600">
+        <tr>
+          <td align=3D"center" bgcolor=3D"#F9F9F9">
+            <table summary=3D"mail-confirmation" class=3D"table-inner" alig=
+n=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550"=
+>
+              <tr>
+                <td style=3D"font-family: Arial, Helvetica, sans-serif; col=
+or:#666666; font-size:10px;line-height:auto;" align=3D"center" valign=3D"mi=
+ddle">IMPORTANT: This confirmation email has been generated automatically, =
+so please do not reply to this address. To view or cancel your reservation,=
+ please go to the View/Cancel section of our website and quote the confirma=
+tion or reservation number shown in this email.<br />
+                </td>
+              </tr>
+              <tr>
+                <td height=3D"10"  style=3D"line-height:0px; font-size:1px;=
+">&nbsp;</td>
+              </tr>
+
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor=3D"#F9F9F9" height=3D"8" style=3D"font-size:0px; line=
+-height:0px;"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table summary=3D"mail-confirmation" class=3D"table-inner" align=3D"center"=
+ border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600">
+              <tr>
+                <td class=3D"ro-ach"><span class=3D"ro-ach"><img style=3D"d=
+isplay:block; line-height:0px; font-size:0px; border:0px;" class=3D"logo" b=
+order=3D"0" src=3D"http://t.accorhotels.com/img/booking/mail/headerAH.jpg" =
+alt=3D"img"  width=3D"600" /></a></span></td>
+              </tr>
+            </table>
+<table summary=3D"mail-confirmation"  align=3D"center" bgcolor=3D"#FFFFFF" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+  <tr>
+    <td>
+    
+      <table summary=3D"mail-confirmation" class=3D"table-inner" align=3D"c=
+enter" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"600">
+        <tr>
+          <td bgcolor=3D"#FFFFFF" height=3D"15" style=3D"font-size:0px; lin=
+e-height:0px;"> </td>
+        </tr>
+        <tr>
+          <td bgcolor=3D"#F9F9F9" height=3D"15" style=3D"font-size:0px; lin=
+e-height:0px;"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table><table summary=3D"mail-confirmation"  align=3D"center" bgcolor=3D"#=
+FFFFFF" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+  <tr>
+    <td align=3D"center">
+      <table summary=3D"mail-confirmation" class=3D"table-inner" align=3D"c=
+enter" bgcolor=3D"#F9F9F9" border=3D"0" cellpadding=3D"0"cellspacing=3D"0" =
+width=3D"600">
+        <tr>
+          <td align=3D"center" bgcolor=3D"#F9F9F9">
+            <table summary=3D"mail-confirmation" class=3D"table-inner" alig=
+n=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550"=
+>
+              <tr>
+                <td style=3D"font-family: Arial, Helvetica, sans-serif; col=
+or:#232936; font-size:14px;line-height:auto;" align=3D"left" valign=3D"midd=
+le">Dear Mrs. BELHAJ,<br />
+                </td>
+              </tr>
+              <tr>
+                <td height=3D"10"  style=3D"line-height:0px; font-size:1px;=
+">&nbsp;</td>
+              </tr>
+<!-- /////////////////  Intro /////////////////-->              
+<!-- CAS OK -->
+<tr>
+<td style=3D"font-family: Arial, Helvetica, sans-serif; color:#232936; font=
+-size:14px;line-height:auto;" align=3D"left" valign=3D"middle">Please find =
+below a summary of your reservation as it currently stands.<br /> <br /> We=
+ hope you enjoy your stay!</td>
+</tr>
+<!-- /////////////////  FIN  Intro /////////////////--><tr>
+                <td height=3D"15"  style=3D"line-height:0px; font-size:1px;=
+">&nbsp;</td>
+              </tr>
+              <tr>
+                <td style=3D"font-family: Arial, Helvetica, sans-serif; col=
+or:#232936; font-size:14px; line-height: 18px;" align=3D"left">
+                  Kind regards, <br /> AccorHotels Customer Service
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td height=3D"15" bgcolor=3D"#F9F9F9"  style=3D"font-size:0px; li=
+ne-height:0px;"></td>
+        </tr>
+        <tr>
+          <td bgcolor=3D"#FFFFFF" height=3D"10" style=3D"font-size:0px; lin=
+e-height:0px;"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table summary=3D"mail-confirmation"  align=3D"center" bgcolor=3D"#FFFFFF" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"><tr>
+    <td align=3D"center">
+    
+      <table summary=3D"mail-confirmation"  align=3D"center" bgcolor=3D"#FF=
+FFFF" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+        <tr>
+          <td align=3D"center">
+            <table summary=3D"mail-confirmation" class=3D"table-inner" alig=
+n=3D"center" bgcolor=3D"#FFFFFF" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"600">
+              <tr>
+                <td  class=3D"table-inner" align=3D"center" bgcolor=3D"#ece=
+ced">
+ <!-- DEBUT QR CODE -->
+
+
+
+<style>
+@media only screen and (max-width: 640px) {
+=2EshowMobile { display: block !important; }
+=2EshowMobileQR { width: 300px!important;height: 170px!important; backgroun=
+d:#ececed url(http://m.mid.accor-mail.com/barcode/tQRCode/h170/w170/eH/vSEZ=
+XREdGSEo=3D/barcode.gif) no-repeat center; }
+}
+</style>
+
+<table summary=3D"mail-confirmation" class=3D"table-inner" align=3D"center"=
+ border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"540">
+  <tr>
+    <td height=3D"15" style=3D"line-height:0px; font-size:1px;">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width=3D"50%" style=3D"line-height:0px; font-size:1px;" class=3D"hi=
+de">&nbsp;</td>             
+    <td width=3D"40" style=3D"line-height: 0px;" class=3D"table2-2" align=
+=3D"center"><center><img border=3D"0" style=3D"display:block; line-height:0=
+px; font-size:0px; border:0px;" src=3D"http://t.accorhotels.com/img/tp-conf=
+irmation-2015/pic-ok.jpg" height=3D"40" width=3D"40" alt=3D"img"></center><=
+/td>
+    <td width=3D"50%" style=3D"line-height:0px; font-size:1px;" align=3D"ri=
+ght" class=3D"hide"><img border=3D"0" style=3D"display:block; line-height:0=
+px; font-size:0px; border:0px;" src=3D"http://m.mid.accor-mail.com/barcode/=
+tQRCode/h500/w500/eH/vSEZXREdGSEo=3D/barcode.gif" width=3D"100" height=3D"1=
+00"></td> 
+  </tr>
+  <tr style=3D"display:none;" class=3D"showMobile">
+    <td height=3D"10" style=3D"line-height:0px; font-size:1px;">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style=3D"line-height:0px; font-size:1px;" class=3D"showMobileQR" al=
+ign=3D"center"></td> 
+  </tr>
+</table>
+<!-- FIN QR CODE -->               
+                
+                  <table summary=3D"mail-confirmation" class=3D"table-inner=
+" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"540">
+                    <tr>
+                      <td height=3D"15" style=3D"line-height:0px; font-size=
+:1px;">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td style=3D"line-height: 0px;" align=3D"center">
+                        <table summary=3D"mail-confirmation" class=3D"table=
+-inner" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" w=
+idth=3D"550">
+                          <tr>
+                            <td  style=3D"font-family: 'lato-bold', Arial, =
+sans-serif; font-weight: bold; color:#232936; line-height:18px; font-size:1=
+6px;" class=3D"title-resize"  align=3D"center">Your reservation has been ch=
+anged.</td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td height=3D"15" style=3D"line-height:0px; font-size=
+:1px;">&nbsp;</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr><tr>
+                      <td align=3D"center">
+                        <table summary=3D"mail-confirmation" class=3D"table=
+-inner" align=3D"center" bgcolor=3D"#ececed" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" width=3D"600">
+                          <tr>
+                            <td  class=3D"table-inner" align=3D"center" bgc=
+olor=3D"#ececed">
+                              <table summary=3D"mail-confirmation" class=3D=
+"table-btn" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" >
+                                  <tr>
+                                    <td height=3D"15" style=3D"line-height:=
+0px; font-size:1px;">&nbsp;</td>
+                                  </tr>
+                                  <tr>
+                                    <td align=3D"center">
+                                      <table summary=3D"mail-confirmation" =
+ align=3D"center" bgcolor=3D"#ececed" width=3D"540" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" class=3D"table-inner">
+                                    <td style=3D"LINE-HEIGHT: 16px; FONT-FA=
+MILY: Arial, Helvetica, sans-serif; COLOR: #232936; FONT-SIZE: 12px" align=
+=3D"middle"></td>
+                                 <!--  </tr>  -->
+                              </table>
+                                  </td>
+                                </tr>
+
+                          <tr>
+                            <td height=3D"15" style=3D"line-height:0px; fon=
+t-size:1px;">&nbsp;</td>
+                          </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr><tr>
+      <td align=3D"center">
+        <TABLE border=3D0 cellSpacing=3D0 summary=3Dmail-confirmation cellP=
+adding=3D0 width=3D"100%" bgColor=3D#ffffff align=3Dcenter>
+          <TR>
+            <TD align=3Dmiddle>
+              <TABLE class=3Dtable-inner border=3D0 cellSpacing=3D0 summary=
+=3Dmail-confirmation cellPadding=3D0 width=3D600 bgColor=3D#ffffff align=3D=
+center>
+                <TR>
+                  <TD class=3Dtable-inner bgColor=3D#ececed align=3Dmiddle>
+                    <TABLE class=3Dtable-inner border=3D0 cellSpacing=3D0 s=
+ummary=3Dmail-confirmation cellPadding=3D0 width=3D540 bgColor=3D#ffffff al=
+ign=3Dcenter>
+                      <TR>
+                        <TD style=3D"LINE-HEIGHT: 0px; FONT-SIZE: 1px" heig=
+ht=3D5>&nbsp;</TD>
+                      </TR><!--content--><!--end content--><!--content-->  =
+ 
+                      <TR>
+                        <TD align=3Dmiddle>
+                          <TABLE class=3Dtable-inner border=3D0 cellSpacing=
+=3D0 summary=3Dmail-confirmation cellPadding=3D0 width=3D500 bgColor=3D#fff=
+fff align=3Dcenter>
+                            <TR>
+                              <TD style=3D"LINE-HEIGHT: 18px; FONT-FAMILY: =
+Arial, Helvetica, sans-serif; COLOR: #232936; FONT-SIZE: 14px" class=3Dtxt-=
+redim12 align=3Dleft></TD>
+                              <TD style=3D"LINE-HEIGHT: 18px; FONT-FAMILY: =
+Arial, Helvetica, sans-serif; COLOR: #232936; FONT-SIZE: 14px" class=3Dtxt-=
+redim12 align=3Dright><B></B></TD>
+                            </TR>
+                          </TABLE>
+                        </TD>
+                      </TR>
+                      <TR>
+                        <TD style=3D"LINE-HEIGHT: 0px; FONT-SIZE: 1px" heig=
+ht=3D5>&nbsp;</TD>
+                      </TR><!--end content--><!--content-->
+                      <TR>
+                        <TD align=3Dmiddle>
+                          <TABLE class=3Dtable-inner border=3D0 cellSpacing=
+=3D0 summary=3Dmail-confirmation cellPadding=3D0 width=3D500 bgColor=3D#fff=
+fff align=3Dcenter>
+                            <TR>
+                              <TD style=3D"LINE-HEIGHT: 18px; FONT-FAMILY: =
+Arial, Helvetica, sans-serif; COLOR: #232936; FONT-SIZE: 14px" class=3Dtxt-=
+redim12 align=3Dleft>Reservation number: </TD>
+                              <TD style=3D"LINE-HEIGHT: 18px; FONT-FAMILY: =
+Arial, Helvetica, sans-serif; COLOR: #38b7ff; FONT-SIZE: 14px" class=3Dtxt-=
+redim12 align=3Dright><B>HFWDGFHJ</B></TD>
+                            </TR>
+                          </TABLE>
+                        </TD>
+                      </TR>
+                      <TR>
+                        <TD style=3D"LINE-HEIGHT: 0px; FONT-SIZE: 1px" heig=
+ht=3D5>&nbsp;</TD>
+                      </TR><!--end content--><!--content OPTION OK-->
+                      <TR>
+                        <TD align=3Dmiddle><table summary=3D"mail-confirmat=
+ion" bgcolor=3D"#FFFFFF" class=3D"table-inner" align=3D"center" border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0" width=3D"500">
+  <tr >
+    <td align=3D"left" style=3D"font-family: Arial, Helvetica, sans-serif; =
+color:#232936; font-size:14px; line-height: 18px;" class=3D"txt-redim12">Tr=
+ansaction number:</td>
+    <td align=3D"right" style=3D"font-family: Arial, Helvetica, sans-serif;=
+ color:#232936; font-size:14px; line-height: 18px;" class=3D"txt-redim12"><=
+b>HFWDGFHJ_0100000122630426PP</b></td>
+  </tr>
+</table> </TD>
+                      </TR>
+                      <TR>
+                        <TD style=3D"LINE-HEIGHT: 0px; FONT-SIZE: 1px" heig=
+ht=3D5>&nbsp;</TD>
+                      </TR><!--end content OPTION OK-->
+                    </TABLE>
+                  </TD>
+                </TR><!--end content-->
+              </TABLE>
+            </TD>
+          </TR>
+        </TABLE>
+      </TD>
+    </TR>
+    
+<!-- Bloc information NightUse/DayUse -->
+    <TR>
+      <TD align=3D"center">
+        <TABLE border=3D0 cellSpacing=3D0 summary=3Dmail-confirmation cellP=
+adding=3D0 width=3D"100%" bgColor=3D#ffffff align=3Dcenter>
+          <TR>
+            <TD align=3Dmiddle>
+              <TABLE class=3Dtable-inner border=3D0 cellSpacing=3D0 summary=
+=3Dmail-confirmation cellPadding=3D0 width=3D600 bgColor=3D#ffffff align=3D=
+center>
+                <TR>
+                  <TD style=3D"LINE-HEIGHT: 0px; FONT-SIZE: 1px" bgColor=3D=
+#ececed height=3D10>&nbsp;</TD>
+                </TR>
+                <TR>
+                  <TD class=3Dtable-inner bgColor=3D#ececed align=3Dmiddle>
+                    <TABLE class=3Dtable-inner border=3D0 cellSpacing=3D0 s=
+ummary=3Dmail-confirmation cellPadding=3D0 width=3D540 bgColor=3D#ffffff al=
+ign=3Dcenter>
+                      <TR>
+                        <TD style=3D"LINE-HEIGHT: 0px; FONT-SIZE: 1px" heig=
+ht=3D5>&nbsp;</TD>
+                      </TR>
+                      <TR>
+                        <TD align=3Dmiddle>
+                          <TABLE class=3Dtable-inner border=3D0 cellSpacing=
+=3D0 summary=3Dmail-confirmation cellPadding=3D0 width=3D500 bgColor=3D#fff=
+fff align=3Dcenter>
+                            <TR>
+                              <TD style=3D"LINE-HEIGHT: 18px; FONT-FAMILY: =
+Arial, Helvetica, sans-serif; COLOR: #232936; FONT-SIZE: 14px" class=3Dtxt-=
+redim12 align=3Dleft>Date of stay:</TD>
+                              <TD style=3D"LINE-HEIGHT: 18px; FONT-FAMILY: =
+Arial, Helvetica, sans-serif; COLOR: #232936; FONT-SIZE: 14px" class=3Dtxt-=
+redim12 align=3Dright>From 12/04/2019 to 20/04/2019 </TD>
+                            </TR>
+                          </TABLE>
+                        </TD>
+                      </TR>
+                      <TR>
+                        <TD style=3D"LINE-HEIGHT: 0px; FONT-SIZE: 1px" heig=
+ht=3D5>&nbsp;</TD>
+                      </TR><!--end content--><!--content-->
+                      
+                      
+                     <!-- NightUse --> 
+                     
+                      <TR>
+                        <TD align=3Dmiddle>
+                          <TABLE class=3Dtable-inner border=3D0 cellSpacing=
+=3D0 summary=3Dmail-confirmation cellPadding=3D0 width=3D500 bgColor=3D#fff=
+fff align=3Dcenter>
+                            <TR>
+                              <TD style=3D"LINE-HEIGHT: 18px; FONT-FAMILY: =
+Arial, Helvetica, sans-serif; COLOR: #232936; FONT-SIZE: 14px" class=3Dtxt-=
+redim12 align=3Dleft>Your stay:</TD>
+                              <TD style=3D"LINE-HEIGHT: 18px; FONT-FAMILY: =
+Arial, Helvetica, sans-serif; COLOR: #232936; FONT-SIZE: 14px" class=3Dtxt-=
+redim12 align=3Dright>1 room,  8 nights</TD>
+                            </TR>
+                            <TR>
+                              <TD>
+                              </TD>
+                              <TD style=3D"LINE-HEIGHT: 18px; FONT-FAMILY: =
+Arial, Helvetica, sans-serif; COLOR: #232936; FONT-SIZE: 14px" class=3Dtxt-=
+redim12 align=3Dright>2 adults ,  0 child </TD>
+                            </TR>
+                          </TABLE>
+                        </TD>
+                      </TR>
+                      <TR>
+                        <TD style=3D"LINE-HEIGHT: 0px; FONT-SIZE: 1px" heig=
+ht=3D5>&nbsp;</TD>
+                      </TR>
+                     
+                     <!-- Fin - NightUse -->
+                  
+                  
+                  
+                    <!-- DayUse -->
+                     
+                    <!-- Fin - DayUse -->  
+                      
+
+                     <!--end content OPTION OK-->
+                    </TABLE>
+                  </TD>
+                </TR><!--end content-->
+              </TABLE>
+              <table class=3D"table-inner" border=3D"0" cellspacing=3D"0" s=
+ummary=3D"mail-confirmation" cellpadding=3D"0" width=3D"600" bgcolor=3D"#ff=
+ffff" align=3D"center">
+                <tbody><tr>
+                  <td style=3D"LINE-HEIGHT: 0px; FONT-SIZE: 1px" bgcolor=3D=
+"#ececed" height=3D"10">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td class=3D"table-inner" bgcolor=3D"#ececed" align=3D"mi=
+ddle">
+                    <table class=3D"table-inner" border=3D"0" cellspacing=
+=3D"0" summary=3D"mail-confirmation" cellpadding=3D"0" width=3D"540" bgcolo=
+r=3D"#ffffff" align=3D"center">
+                      <tbody><tr>
+                        <td style=3D"LINE-HEIGHT: 0px; FONT-SIZE: 1px" heig=
+ht=3D"5">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td align=3D"middle"><table class=3D"table-inner" b=
+order=3D"0" cellspacing=3D"0" summary=3D"mail-confirmation" cellpadding=3D"=
+0" width=3D"500" bgcolor=3D"#ffffff" align=3D"center">
+                            <tbody><tr height=3D"25">
+                              <td style=3D"LINE-HEIGHT: 18px; FONT-FAMILY: =
+Arial, Helvetica, sans-serif; COLOR: #232936; FONT-SIZE: 14px; width:25px;"=
+ class=3D"txt-redim12" align=3D"center"><img src=3D"http://t.accorhotels.co=
+m/img/AMC/TARS/fast-track/Welcome-Check_in-2.png"  width=3D"22" /></td>
+                              <td style=3D"LINE-HEIGHT: 18px; FONT-FAMILY: =
+Arial, Helvetica, sans-serif; COLOR: #232936; FONT-SIZE: 14px; width:470px;=
+ padding-left: 10px;" class=3D"txt-redim12" align=3D"left">Your online chec=
+k-in has been successful : your key will be ready for you when you arrive.<=
+/td>
+                            </tr>
+                            <tr>
+                            <td style=3D"LINE-HEIGHT: 0px; FONT-SIZE: 1px" =
+height=3D"2">&nbsp;</td>
+                            </tr>
+                          </tbody>
+                        </table></td>
+                      </tr>
+                      <tr>
+                        <td style=3D"LINE-HEIGHT: 0px; FONT-SIZE: 1px" heig=
+ht=3D"5">&nbsp;</td>
+                      </tr><!--end content--><!--content-->
+                    </tbody></table>
+                  </td>
+                </tr><!--end content-->
+                
+              </tbody></table> 
+            </TD>
+          </TR>
+        </TABLE>
+      </TD>
+    </TR>
+    
+<!-- Fin - Bloc information NightUse/DayUse --> 
+
+    <TR>
+      <TD align=3D"center">
+        <TABLE class=3Dtable-inner border=3D0 cellSpacing=3D0 summary=3Dmai=
+l-confirmation cellPadding=3D0 width=3D600 bgColor=3D#ecce00 align=3Dcenter=
+>
+          <TR>
+            <TD align=3Dmiddle>
+              <TABLE border=3D0 cellSpacing=3D0 summary=3Dmail-confirmation=
+ cellPadding=3D0 width=3D"100%" bgColor=3D#ececed align=3Dcenter>
+                <TR>
+                  <TD align=3Dmiddle>
+                    <TABLE class=3Dtable-inner border=3D0 cellSpacing=3D0 s=
+ummary=3Dmail-confirmation cellPadding=3D0 width=3D600 bgColor=3D#ffffff al=
+ign=3Dcenter>
+                      <TR>
+                        <TD class=3Dtable-inner bgColor=3D#ececed align=3Dm=
+iddle>
+                          <TABLE class=3Dtable-inner border=3D0 cellSpacing=
+=3D0 summary=3Dmail-confirmation cellPadding=3D0 width=3D540 align=3Dcenter=
+>
+                            <TR>
+                              <TD style=3D"LINE-HEIGHT: 0px; FONT-SIZE: 1px=
+" height=3D10>&nbsp;</TD>
+                            </TR>
+                            <TR align=3Dmiddle>
+                              <TD style=3D"LINE-HEIGHT: 14px; FONT-FAMILY: =
+Arial, Helvetica, sans-serif; COLOR: #232936; FONT-SIZE: 12px" align=3Dmidd=
+le></TD>
+                            </TR>
+                            <tr>
+                              <td height=3D"10" style=3D"line-height:0px; f=
+ont-size:1px;">&nbsp;</td>
+                            </tr>
+                            <TR align=3Dmiddle>
+                              <TD style=3D"LINE-HEIGHT: 14px; FONT-FAMILY: =
+Arial, Helvetica, sans-serif; COLOR: #232936; FONT-SIZE: 12px" align=3Dmidd=
+le>Please keep this reservation number safe, you will be asked to provide i=
+t for any information related to your stay.</TD>
+                            </TR>
+                            <tr>
+                              <td height=3D"10" style=3D"line-height:0px; f=
+ont-size:1px;">&nbsp;</td>
+                            </tr>
+                          </TABLE>
+                        </TD>
+                      </TR>
+                    </TABLE>
+                  </TD>
+                </TR>
+              </TABLE>
+            </TD>
+          </TR>
+        </TABLE>
+      </TD>
+    </TR><!-- fix RCH </table></td></tr> -->
+      <tr>
+        <td align=3D"center">
+          <!--SI PAIEMENT OK PENDING-->
+          
+ <!-- fix RCH d=E9but -->         
+          
+  <table summary=3D"mail-confirmation" align=3D"center" bgcolor=3D"#FFFFFF"=
+ border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"><tbody><tr=
+>
+    <td align=3D"center"><!--SI OK-->
+      <table summary=3D"mail-confirmation" align=3D"center" bgcolor=3D"#FFF=
+FFF" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+        <tr>
+          <td align=3D"center">        
+          
+  <!-- fix RCH fin -->         
+          
+          
+          
+          <table summary=3D"mail-confirmation" class=3D"table-inner" align=
+=3D"center" bgcolor=3D"#FFFFFF" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"600">
+            <tr>
+              <td  class=3D"table-inner" align=3D"center" bgcolor=3D"#ecece=
+d" >
+                <table summary=3D"mail-confirmation" class=3D"table-inner" =
+align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"=
+600">
+                  <tr>
+                    <td height=3D"15" style=3D"line-height:0px; font-size:1=
+px;">&nbsp;</td>
+                  </tr>
+                  <!--button-->
+                  <tr>
+                    <td align=3D"center"><TABLE class=3Dtable-btn border=3D=
+0 cellSpacing=3D0 summary=3Dmail-confirmation cellPadding=3D0 align=3Dleft>
+  <TBODY>
+    <TR>
+      <TD class=3Dhide width=3D30></TD>
+      <TD align=3Dright>
+        <TABLE class=3Dtable-btn border=3D0 cellSpacing=3D0 summary=3Dmail-=
+confirmation cellPadding=3D0 width=3D176 bgColor=3D#38b7ff align=3Dright>
+          <TBODY>
+            <TR>
+              <td valign=3D"middle" style=3D"font-family: Arial, Helvetica,=
+ sans-serif; color:#FFFFFF; vertical-align:middle; font-size:14px; padding-=
+left:5px;padding-top:0px;padding-right: 5px;" align=3D"center" height=3D"30=
+"> <a href=3D"http://rt2-t.reservation.accor-mail.com/r/=3Fid=3Dh5ba326c,10=
+67276d,10672771&p1=3Dgb" target=3D"_blank" _category=3D"b1" _label=3D"l1" s=
+tyle=3D"text-decoration: none; color:#FFFFFF; vertical-align:middle">View</=
+a> </td>
+            </TR>
+          </TBODY>
+        </TABLE>
+      </TD>
+      <TD class=3Dhide width=3D5></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE class=3Dtable-btn border=3D0 cellSpacing=3D0 summary=3Dmail-confirma=
+tion cellPadding=3D0 align=3Dleft>
+  <TBODY>
+    <TR>
+      <TD align=3Dright>
+        <TABLE class=3Dtable-btn border=3D0 cellSpacing=3D0 summary=3Dmail-=
+confirmation cellPadding=3D0 width=3D176 bgColor=3D#38b7ff align=3Dright>
+          <TBODY>
+            <TR>
+              <td valign=3D"middle" style=3D"font-family: Arial, Helvetica,=
+ sans-serif; color:#FFFFFF; vertical-align:middle; font-size:14px; padding-=
+left:5px;padding-top:0px;padding-right: 5px;" align=3D"center" height=3D"30=
+"> <a href=3D"http://rt2-t.reservation.accor-mail.com/r/=3Fid=3Dh5ba326c,10=
+67276d,10672772&p1=3Dgb" target=3D"_blank" _category=3D"b1" _label=3D"l1" s=
+tyle=3D"text-decoration: none; color:#FFFFFF; vertical-align:middle">Cancel=
+</a> </td>
+            </TR>
+          </TBODY>
+        </TABLE>
+      </TD>
+      <TD class=3Dhide width=3D5></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<!--right-->
+<TABLE class=3Dtable-btn border=3D0 cellSpacing=3D0 summary=3Dmail-confirma=
+tion cellPadding=3D0 align=3Dleft>
+  <TBODY>
+    <TR>
+      <TD align=3Dright>
+        <TABLE class=3Dtable-btn border=3D0 cellSpacing=3D0 summary=3Dmail-=
+confirmation cellPadding=3D0 width=3D176 bgColor=3D#38b7ff align=3Dright>
+          <TBODY>
+            <TR>
+              <td valign=3D"middle" style=3D"font-family: Arial, Helvetica,=
+ sans-serif; color:#FFFFFF; vertical-align:middle; font-size:14px; padding-=
+left:5px;padding-top:0px;padding-right: 5px;" align=3D"center" height=3D"30=
+"> <a href=3D"http://rt2-t.reservation.accor-mail.com/r/=3Fid=3Dh5ba326c,10=
+67276d,10672773&p1=3Dgb" target=3D"_blank" _category=3D"b1" _label=3D"l1" s=
+tyle=3D"text-decoration: none; color:#FFFFFF; vertical-align:middle">Book</=
+a> </td>
+              </TD>
+            </TR>
+          </TBODY>
+        </TABLE>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<!--End Space--><!--right--></td>
+                  </tr>
+                  <!--end button-->
+                  <tr>
+                    <td height=3D"15" style=3D"line-height:0px; font-size:1=
+px;">&nbsp;</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      
+  <!-- fix RCH d=E9but -->    
+      </table></td></tr>
+      
+  <!-- fix RCH fin -->
+      
+    </table>
+  </td>
+</tr></table>
+<TABLE border=3D0 cellSpacing=3D0 summary=3Dmail-confirmation cellPadding=
+=3D0 width=3D"100%" bgColor=3D#ffffff align=3Dcenter>
+
+<TR>
+<TD align=3Dmiddle>
+<TABLE class=3Dtable-inner border=3D0 cellSpacing=3D0 summary=3Dmail-confir=
+mation cellPadding=3D0 width=3D600 bgColor=3D#ffffff align=3Dcenter>
+
+<TR>
+<TD style=3D"LINE-HEIGHT: 0px; FONT-SIZE: 0px" height=3D15></TD></TR>
+<TR>
+<TD align=3Dmiddle><!-- titre-->
+<TABLE class=3Dtable-inner border=3D0 cellSpacing=3D0 summary=3Dmail-confir=
+mation cellPadding=3D0 align=3Dcenter><!--title-->
+
+<TR align=3Dmiddle>
+<TD style=3D"LINE-HEIGHT: 0px" width=3D50 align=3Dmiddle><IMG style=3D"BORD=
+ER-BOTTOM: 0px; BORDER-LEFT: 0px; LINE-HEIGHT: 0px; DISPLAY: block; FONT-SI=
+ZE: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px" class=3Dimg1 border=3D0 alt=3D=
+img src=3D"http://t.accorhotels.com/img/2015/mail-confirmation/pic-hotel.pn=
+g" width=3D37 height=3D34></TD>
+<TD style=3D"FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #232936; FON=
+T-SIZE: 20px">Your stay</B></TD></TR>
+<TR>
+<TD height=3D10 colSpan=3D2></TD></TR></TABLE><!--fin titre--></TD></TR></T=
+ABLE></TD></TR></TABLE><TABLE border=3D0 cellSpacing=3D0 summary=3Dmail-con=
+firmation cellPadding=3D0 width=3D"100%" bgColor=3D#ffffff align=3Dcenter>
+
+<TR>
+<TD align=3Dmiddle>
+<TABLE class=3Dtable-inner border=3D0 cellSpacing=3D0 summary=3Dmail-confir=
+mation cellPadding=3D0 width=3D600 bgColor=3D#ffffff align=3Dcenter>
+
+<TR>
+<TD style=3D"BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px sol=
+id; BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid">
+
+<!--content-->
+<!--
+<TABLE class=3Dtable-full border=3D0 cellSpacing=3D0 summary=3Dmail-confirm=
+ation cellPadding=3D0 width=3D598 align=3Dcenter>
+-->
+<!--spacer-->
+<!--
+<TR>
+<TD height=3D10 colSpan=3D3></TD></TR>
+-->
+
+<!--end spacer-->
+
+<!--
+<TR align=3Dmiddle>
+<TD width=3D10></TD>
+<TD class=3Dtable-inner height=3D30 vAlign=3Dcenter>
+-->
+
+<!-- titre-->
+
+<!--
+<TABLE class=3Dtable-full border=3D0 cellSpacing=3D0 summary=3Dmail-confirm=
+ation cellPadding=3D0 width=3D550 align=3Dleft>
+--><!--
+
+<TR>
+<TD style=3D"LINE-HEIGHT: 18px; FONT-FAMILY: Arial, Helvetica, sans-serif; =
+COLOR: #232936; FONT-SIZE: 18px" height=3D30 vAlign=3Dcenter>
+<P align=3Dcenter>From 12/04/2019 to 20/04/2019 =96 <SPAN style=3D"COLOR: #=
+010101"><B>8 nights</B>
+
+--><!--
+
+</SPAN></P></TD></TR>
+
+</TABLE>
+-->
+
+<!--fin titre-->
+
+<!--
+</TD>
+--><!--
+<TD width=3D10></TD></TR>
+-->
+
+
+<!--end content-->
+<!--spacer-->
+
+<!--
+<TR>
+<TD style=3D"BORDER-BOTTOM: #cccccc 1px solid" height=3D10 colSpan=3D3></TD=
+></TR></TABLE>
+-->
+
+
+<!--spacer-->
+
+<TABLE class=3Dtable-full border=3D0 cellSpacing=3D0 summary=3Dmail-confirm=
+ation cellPadding=3D0 width=3D598 align=3Dcenter>
+
+<TR>
+<TD class=3Dtable2-2 vAlign=3Dtop width=3D295 align=3Dleft><!--img--><!--im=
+g-->
+<TABLE class=3Dtable-full border=3D0 cellSpacing=3D0 summary=3Dmail-confirm=
+ation cellPadding=3D0 width=3D295 align=3Dleft>
+
+<TR>
+<TD style=3D"LINE-HEIGHT: 0px" width=3D295 align=3Dmiddle><IMG style=3D"BOR=
+DER-BOTTOM: 0px; BORDER-LEFT: 0px; LINE-HEIGHT: 0px; DISPLAY: block; FONT-S=
+IZE: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px" class=3Dimg1 border=3D0 alt=
+=3Dimg src=3D"https://www.ahstatic.com/photos/9544_ho_00_p_346x260.jpg" wid=
+th=3D295 height=3D219></TD></TR></TABLE></TD>
+<TD class=3Dtable2-2><!--End Space-->
+<TABLE class=3Dtable-95 border=3D0 cellSpacing=3D0 summary=3Dmail-confirmat=
+ion cellPadding=3D0 width=3D275 align=3Dcenter>
+
+<TR>
+<TD style=3D"LINE-HEIGHT: 0px; FONT-SIZE: 1px" height=3D5>&nbsp;</TD></TR><=
+!--title-->
+<TR align=3Dleft>
+<TD style=3D"TEXT-TRANSFORM: uppercase; FONT-FAMILY: 'lato-black', Arial, s=
+ans-serif; COLOR: #010101; FONT-SIZE: 18px; FONT-WEIGHT: bold" class=3Dtxt-=
+redim14>ibis Istanbul Tuzla Hotel</TD></TR><!--end title-->
+<TR>
+<TD class=3Dtable-inner>
+<TABLE class=3Dtable-inner border=3D0 cellSpacing=3D0 summary=3Dmail-confir=
+mation cellPadding=3D0 width=3D275 bgColor=3D#ffffff align=3Dcenter>
+
+<TR>
+<TD style=3D"LINE-HEIGHT: 0px; FONT-SIZE: 1px" height=3D10>&nbsp;</TD></TR>
+<TR>
+<TD align=3Dleft>
+<TABLE class=3Dtable-inner border=3D0 cellSpacing=3D0 summary=3Dmail-confir=
+mation cellPadding=3D0 width=3D275 align=3Dleft>
+
+<TR>
+<TD><!--left-->
+<TABLE border=3D0 cellSpacing=3D0 summary=3Dmail-confirmation cellPadding=
+=3D0 width=3D90 align=3Dleft><!--img-->
+
+<TR>
+ <TD style=3D"line-height: 0px;" align=3D"left"></TD>
+</TR>
+<TD style=3D"LINE-HEIGHT: 0px; FONT-SIZE: 1px" height=3D5>&nbsp;</TD></TR><=
+/TABLE></TD></TR><!--content-->
+<TR align=3Dleft>
+<TD style=3D"BORDER-TOP: #cccccc 1px solid">
+<TABLE class=3Dtable-full border=3D0 cellSpacing=3D0 summary=3Dmail-confirm=
+ation cellPadding=3D0 width=3D280 align=3Dcenter>
+
+<TR>
+<TD style=3D"LINE-HEIGHT: 0px; FONT-SIZE: 1px" height=3D5>&nbsp;</TD></TR>
+<TR>
+<TD style=3D"LINE-HEIGHT: 18px; FONT-FAMILY: Arial, Helvetica, sans-serif; =
+COLOR: #232936; FONT-SIZE: 12px" align=3Dleft>Aydintepe Mah.Selin Sok.No.7,=
+  Tuzla <BR>34947 Istanbul - TURKEY<BR><SPAN style=3D"COLOR: #38b7ff">     =
+</SPAN></TD></TR></TABLE></TD></TR><!--end content-->
+<TR>
+<TD style=3D"LINE-HEIGHT: 0px; FONT-SIZE: 1px" height=3D5>&nbsp;</TD></TR><=
+!--content-->
+<TR align=3Dleft>
+<TD>
+<TABLE class=3Dtable-inner border=3D0 cellSpacing=3D0 summary=3Dmail-confir=
+mation cellPadding=3D0 width=3D280 align=3Dcenter>
+
+<TR>
+<TD style=3D"LINE-HEIGHT: 0px" vAlign=3Dtop width=3D19 align=3Dmiddle><IMG =
+style=3D"BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; LINE-HEIGHT: 0px; DISPLAY: b=
+lock; FONT-SIZE: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px" class=3Dimg1 bord=
+er=3D0 alt=3Dimg src=3D"http://t.accorhotels.com/img/2015/mail-confirmation=
+/pic-geo.png" width=3D19 height=3D19></TD>
+<TD style=3D"LINE-HEIGHT: 18px; FONT-FAMILY: Arial, Helvetica, sans-serif; =
+COLOR: #232936; FONT-SIZE: 14px" align=3Dleft><a style=3D"COLOR: #232936; T=
+EXT-DECORATION: underline" href=3D"http://rt2-t.reservation.accor-mail.com/=
+r/=3Fid=3Dh5ba326c,1067276d,1067277d&p1=3D9544&p2=3Dgb" target=3D"_blank" _=
+category=3D"b4" _label=3D"l1"><B>View the map</B></A></TD></TR></TABLE></TD=
+></TR>
+<TR>
+<TD style=3D"LINE-HEIGHT: 0px; FONT-SIZE: 1px" height=3D10>&nbsp;</TD></TR>
+<TR>
+<TD style=3D"BORDER-TOP: #cccccc 1px solid" height=3D10></TD></TR><!--end c=
+ontent-->
+<TR align=3Dleft>
+<TD>
+<TABLE class=3Dtable2-2 border=3D0 cellSpacing=3D0 summary=3Dmail-confirmat=
+ion cellPadding=3D0 align=3Dleft>
+
+<TR>
+<TD align=3Dright>
+<TABLE class=3Dtable2-2 border=3D0 cellSpacing=3D0 summary=3Dmail-confirmat=
+ion cellPadding=3D0 align=3Dright>
+
+<TR>
+<TD style=3D"LINE-HEIGHT: 18px; FONT-FAMILY: Arial, Helvetica, sans-serif; =
+COLOR: #91949a; FONT-SIZE: 12px" width=3D120>Tel : 90 216/5818800 <BR>H9544=
+@accor.com </TD></TR></TABLE></TD></TR>
+<TR>
+<TD style=3D"LINE-HEIGHT: 0px; FONT-SIZE: 1px" height=3D5>&nbsp;</TD></TR><=
+/TABLE><!--end left-->
+<TABLE class=3Dhide border=3D0 cellSpacing=3D0 summary=3Dmail-confirmation =
+cellPadding=3D0 width=3D1 align=3Dleft>
+
+<TR>
+<TD style=3D"LINE-HEIGHT: 0px; BORDER-COLLAPSE: collapse; FONT-SIZE: 0px" c=
+lass=3Dhide height=3D25>
+<P style=3D"PADDING-LEFT: 10px">&nbsp;</P></TD></TR></TABLE><!--bouton-->
+<TABLE class=3Dtable-inner border=3D0 cellSpacing=3D0 summary=3Dmail-confir=
+mation cellPadding=3D0 align=3Dcenter>
+
+<TR>
+<TD align=3Dmiddle>
+<TABLE style=3D"BORDER-BOTTOM: #38b7ff 1px solid; BORDER-LEFT: #38b7ff 1px =
+solid; BORDER-TOP: #38b7ff 1px solid; BORDER-RIGHT: #38b7ff 1px solid" clas=
+s=3Dtable-btn border=3D0 cellSpacing=3D0 summary=3Dmail-confirmation cellPa=
+dding=3D0 bgColor=3D#ffffff align=3Dcenter>
+
+<TR>
+<TD style=3D"PADDING-LEFT: 10px; PADDING-RIGHT: 10px; FONT-FAMILY: Arial, H=
+elvetica, sans-serif; COLOR: #38b7ff; FONT-SIZE: 12px; VERTICAL-ALIGN: midd=
+le" height=3D26 vAlign=3Dcenter align=3Dmiddle><a style=3D"COLOR: #38b7ff; =
+TEXT-DECORATION: none" href=3D"http://rt2-t.reservation.accor-mail.com/r/=
+=3Fid=3Dh5ba326c,1067276d,1067277e&p1=3D9544&p2=3Dgb" target=3D"_blank" _ca=
+tegory=3D"b4" _label=3D"l2">Find out more about the hotel</A></TD></TR></TA=
+BLE></TD></TR></TABLE></TD></TR>
+<TR>
+<TD style=3D"LINE-HEIGHT: 0px; FONT-SIZE: 1px" height=3D10>&nbsp;</TD></TR>=
+</TABLE></TD></TR></TABLE></TD></TR></TABLE></TD></TR></TABLE></TD></TR></T=
+ABLE></TD></TR></TABLE>
+
+<TABLE border=3D0 cellSpacing=3D0 summary=3Dmail-confirmation cellPadding=
+=3D0 width=3D"100%" bgColor=3D#ffffff align=3Dcenter>
+  <TBODY>
+    <TR>
+      <TD align=3Dmiddle>
+        <TABLE class=3Dtable-inner border=3D0 cellSpacing=3D0 summary=3Dmai=
+l-confirmation cellPadding=3D0 width=3D600 bgColor=3D#ffffff align=3Dcenter=
+>
+          <TBODY>
+            <TR>
+              <TD style=3D"BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #=
+cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px =
+solid">
+                <TABLE class=3Dtable-full border=3D0 cellSpacing=3D0 summar=
+y=3Dmail-confirmation cellPadding=3D0 width=3D"100%" align=3Dcenter>
+                  <TBODY>
+                    <TR>
+                      <TD align=3Dmiddle>
+                        <TABLE class=3Dtable-full border=3D0 cellSpacing=3D=
+0 summary=3Dmail-confirmation cellPadding=3D0 width=3D"100%" bgColor=3D#fff=
+fff align=3Dcenter>
+                          <!--title-->
+                          <TBODY>
+                            <TR>
+                              <TD bgColor=3D#232936 align=3Dmiddle>
+                                <TABLE class=3Dtable-full border=3D0 cellSp=
+acing=3D0 summary=3Dmail-confirmation cellPadding=3D0 width=3D"100%" align=
+=3Dcenter>
+                                  <!--spacer-->
+                                  <TBODY>
+                                    <TR>
+                                      <TD height=3D10 colSpan=3D3></TD>
+                                    </TR>
+                                    <!--end spacer-->
+                                    <TR align=3Dmiddle>
+                                      <TD width=3D10></TD>
+                                      <TD height=3D30 vAlign=3Dcenter>
+                                        <TABLE class=3Dtable2-2 border=3D0 =
+cellSpacing=3D0 summary=3Dmail-confirmation cellPadding=3D0 align=3Dleft>
+                                          <TBODY>
+                                            <TR>
+                                              <TD style=3D"LINE-HEIGHT: 18p=
+x; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #ffffff; FONT-SIZE: 14=
+px" height=3D30>Room </TD>
+                                            </TR>
+                                          </TBODY>
+                                        </TABLE>
+                                        <TABLE class=3Dhide border=3D0 cell=
+Spacing=3D0 summary=3Dmail-confirmation cellPadding=3D0 width=3D1 align=3Dl=
+eft>
+                                          <TBODY>
+                                            <TR>
+                                              <TD style=3D"LINE-HEIGHT: 0px=
+; BORDER-COLLAPSE: collapse; FONT-SIZE: 0px" class=3Dhide height=3D30>
+                                                <P style=3D"PADDING-LEFT: 1=
+4px">&nbsp;</P>
+                                              </TD>
+                                            </TR>
+                                          </TBODY>
+                                        </TABLE>
+                                      </TD>
+                                      <TD width=3D10></TD>
+                                    </TR>
+                                    <!--end content--><!--spacer-->
+                                    <TR>
+                                      <TD height=3D10 colSpan=3D3></TD>
+                                    </TR>
+                                  </TBODY>
+                                </TABLE>
+                              </TD>
+                            </TR>
+                          </TBODY>
+                        </TABLE>
+                      </TD>
+                    </TR>
+                    <TR>
+                      <TD>
+                        <TABLE class=3Dtable-full border=3D0 cellSpacing=3D=
+0 summary=3Dmail-confirmation cellPadding=3D0 width=3D598 align=3Dcenter>
+                          <TBODY>
+                            <TR>
+                              <TD align=3Dmiddle>
+                                <TABLE class=3Dtable-inner border=3D0 cellS=
+pacing=3D0 summary=3Dmail-confirmation cellPadding=3D0 width=3D580 align=3D=
+center>
+                                  <TBODY>
+                                    <TR>
+                                      <TD style=3D"LINE-HEIGHT: 0px; FONT-S=
+IZE: 1px" height=3D10>&nbsp;</TD>
+                                    </TR>
+
+<!-- Bloc Cancellation - ABA -->
+  
+
+                                  <!-- Guest -->
+                                  <TR align=3Dleft>
+                                    <TD style=3D"LINE-HEIGHT: 18px; FONT-FA=
+MILY: Arial, Helvetica, sans-serif; COLOR: #232936; FONT-SIZE: 13px">Reserv=
+ation made in the name of : <strong>Mrs. amina BELHAJ</strong></TD>
+                                  </TR>
+                                  <TR>
+                                    <TD style=3D"LINE-HEIGHT: 0px; FONT-SIZ=
+E: 1px" height=3D5>&nbsp;</TD>
+                                  </TR>
+                                  <!-- Fin Guest -->
+                                  <!-- FactTtarck -->
+                                    <TR>
+                                    <TD style=3D"FONT-FAMILY: 'lato-black',=
+ Arial, sans-serif; COLOR: #FA0808; FONT-SIZE: 13px;"></TD>
+                                    </TR>
+                                    
+                                    
+                                    <TR>
+                                    <TD style=3D"LINE-HEIGHT: 0px; FONT-SIZ=
+E: 1px" height=3D10>&nbsp;</TD>
+                                    </TR>
+                                  <!-- Fin FastTrack -->
+
+                                    <TR align=3Dleft>
+                                      <TD style=3D"TEXT-TRANSFORM: uppercas=
+e; FONT-FAMILY: 'lato-black', Arial, sans-serif; COLOR: #010101; FONT-SIZE:=
+ 15px; FONT-WEIGHT: bold">Standard Room with 1 Double Bed</TD>
+                                    </TR>
+                                    <TR>
+                                      <TD style=3D"LINE-HEIGHT: 0px; FONT-S=
+IZE: 1px" height=3D5>&nbsp;</TD>
+                                    </TR>
+
+            <!-- RCH -->
+            
+                                    <TR>
+                                    <TD style=3D"LINE-HEIGHT: 18px; FONT-FA=
+MILY: Arial, Helvetica, sans-serif; COLOR: #232936; FONT-SIZE: 12px" align=
+=3Dleft>2&nbsp;Adults  , 0&nbsp;Child</TD>
+                                    </TR>
+            
+
+                                    <TR>
+                                      <TD style=3D"LINE-HEIGHT: 18px; FONT-=
+FAMILY: Arial, Helvetica, sans-serif; COLOR: #232936; FONT-SIZE: 12px" alig=
+n=3Dleft>Modern and inviting, the ibis room has everything you need: en-sui=
+te bathroom, comfortable queen-size bed with duvet, contemporary decor, woo=
+den floor, flat screen TV and free WIFI access. </TD>
+                                    </TR>
+                                    <TR>
+                                      <TD style=3D"LINE-HEIGHT: 0px; FONT-S=
+IZE: 1px" height=3D20>&nbsp;</TD>
+                                    </TR>
+                                  </TBODY>
+                                </TABLE>
+                              </TD>
+                            </TR>
+                          </TBODY>
+                        </TABLE>
+                      </TD>
+                    </TR>
+
+
+
+<!-- Bloc Cancellation - ABA -->
+
+<!-- Fin - Bloc Cancellation - ABA -->
+
+                    </TBODY>
+                  </TABLE>
+<!-- Bloc Cancellation - ABA -->
+                  
+                  <table summary=3D"mail-confirmation"  align=3D"center" bg=
+color=3D"#FFFFFF"  class=3D"table-full" border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0"  >
+              <tr>
+                <td align=3D"center"><!--OPTION 1-->
+                  
+                  <table summary=3D"mail-confirmation" class=3D"table-full"=
+ align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D=
+"598">
+                  <tr><td><table summary=3D"mail-confirmation" class=3D"tab=
+le-full" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+width=3D"580" style=3D"BORDER-TOP: #cccccc 1px solid">
+                    <tr><td></td></tr></table></td></tr>                  
+                    <tr>
+                      <td align=3D"center"><TR>
+  <TD><TABLE class=3Dtable-full border=3D0 cellSpacing=3D0 summary=3Dmail-c=
+onfirmation cellPadding=3D0 width=3D580 align=3Dcenter>
+<TBODY>
+<TR align=3Dleft>
+<TD style=3D"TEXT-TRANSFORM: uppercase; FONT-FAMILY: 'lato-black', Arial, s=
+ans-serif; COLOR: #010101; FONT-SIZE: 13px; FONT-WEIGHT: bold">ADVANCE SAVE=
+R RATE,  Room only</TD></TR>
+<TR>
+<TD style=3D"LINE-HEIGHT: 0px; FONT-SIZE: 1px" height=3D10>&nbsp;</TD></TR>
+<TR>
+<TD><!--left-->
+<TABLE class=3Dtable-line border=3D0 cellSpacing=3D0 summary=3Dmail-confirm=
+ation cellPadding=3D0 width=3D200 align=3Dleft><!--content-->
+<TBODY>
+<TR align=3Dleft>
+<TD width=3D5></TD>
+<TD style=3D"FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #232936; FON=
+T-SIZE: 12px" class=3Dtxt-redim10 vAlign=3Dcenter align=3Dleft>8x&nbsp;EUR =
+35.15 per night </TD></TR><!--end content--></TBODY></TABLE><!--end left-->=
+<!--Space-->
+<TABLE class=3Dtable-line2 border=3D0 cellSpacing=3D0 summary=3Dmail-confir=
+mation cellPadding=3D0 width=3D167 align=3Dleft>
+<TBODY>
+<TR align=3Dmiddle>
+<TD style=3D"FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #232936; FON=
+T-SIZE: 12px" class=3Dtxt-redim10 align=3Dmiddle>12/04/2019 to 20/04/2019 <=
+/TD></TR></TBODY></TABLE><!--End Space--><!--right-->
+<TABLE class=3Dtable-line border=3D0 cellSpacing=3D0 summary=3Dmail-confirm=
+ation cellPadding=3D0 width=3D167 align=3Dright><!--content-->
+<TBODY>
+<TR align=3Dright>
+<TD style=3D"FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #232936; FON=
+T-SIZE: 12px" align=3Dright><B>EUR 281.20</B></TD>
+<TD width=3D5></TD></TR><!--end content--></TBODY></TABLE><BR/><BR/><!--end=
+ right--></TD></TR></TBODY></TABLE></TD>
+</TR>
+<TR>
+  <TD style=3D"LINE-HEIGHT: 0px; FONT-SIZE: 1px" height=3D10>&nbsp;</TD>
+</TR></td>
+                    </tr>
+                 </table> <table summary=3D"mail-confirmation"  align=3D"ce=
+nter" bgcolor=3D"#FFFFFF" border=3D"0" cellpadding=3D"0" class=3D"table-ful=
+l" cellspacing=3D"0">
+  <tr>
+    <td align=3D"center">
+<table summary=3D"mail-confirmation" bgcolor=3D"#F9F9F9" style=3D"border-to=
+p: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;" class=3D"table-full=
+" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"598">
+  <!--title-->
+  <tr>
+    <td align=3D"center" bgcolor=3D"#f4f4f5">
+<table summary=3D"mail-confirmation" class=3D"table-inner" align=3D"center"=
+ border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"580">
+        <tr>
+          <td height=3D"10" style=3D"line-height:0px; font-size:1px;">&nbsp=
+;</td>
+        </tr>
+        <tr >
+          <td align=3D"left" style=3D"font-family: Arial, Helvetica, sans-s=
+erif;  color:#232936; font-size:15px;"><b>Your options guaranteed</b></td>
+        </tr>
+        <tr>
+          <td height=3D"10" style=3D"line-height:0px; font-size:1px;">&nbsp=
+;</td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+<table summary=3D"mail-confirmation"  class=3D"table-full" bgcolor=3D"#F9F9=
+F9" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%">
+  <tr>
+    <td align=3D"center">
+ 
+  <table summary=3D"mail-confirmation" class=3D"table-inner" align=3D"cente=
+r" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"580" >
+                          <tr>
+                            <td height=3D"15" style=3D"line-height:0px; fon=
+t-size:1px;">&nbsp;</td>
+                          </tr>
+                          <tr align=3D"left">
+                            <td style=3D"font-family: 'lato-black', Arial, =
+sans-serif; font-weight: bold; text-transform:uppercase; color:#010101; fon=
+t-size:13px;">All-you-can-eat breakfast buffet</td>
+                          </tr>
+                          <tr>
+                            <td height=3D"5" style=3D"line-height:0px; font=
+-size:1px;">&nbsp;</td>
+                          </tr>
+                          <tr align=3D"left"><td><table summary=3D"mail-con=
+firmation" class=3D"table-full" align=3D"center" bgcolor=3D"#ffffff" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"580">
+                  <tr>
+                    <td align=3D"center"><table summary=3D"mail-confirmatio=
+n" class=3D"table-full" align=3D"center" border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" width=3D"580" >
+                      <tr>
+                        <td height=3D"10" style=3D"line-height:0px; font-si=
+ze:1px;">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td><!--left-->
+                          
+                          <table summary=3D"mail-confirmation" class=3D"tab=
+le-line" align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"200">
+                            <!--content-->
+                            <tr align=3D"left">
+                              <td width=3D"5"></td>
+                              <td valign=3D"middle" style=3D"font-family: A=
+rial, Helvetica, sans-serif; color:#232936; font-size:12px;" align=3D"left"=
+ class=3D"txt-redim10"> 2&nbsp;x EUR 9.00 </td>
+                            </tr>
+                            <!--end content-->
+                          </table>
+                          
+                          <!--end left--> 
+                          <!--Space-->
+                          
+                          <table class=3D"table-line2" border=3D"0" cellSpa=
+cing=3D"0" summary=3D"mail-confirmation" cellPadding=3D"0" width=3D"167" al=
+ign=3D"left">
+                            <tr align=3Dmiddle>
+                              <TD style=3D"FONT-FAMILY: Arial, Helvetica, s=
+ans-serif; COLOR: #232936; FONT-SIZE: 12px" class=3Dtxt-redim10 align=3Dmid=
+dle></td>
+                            </tr>
+                          </table>
+                          
+                          <!--End Space--> 
+                          <!--right-->
+                          
+                          <table summary=3D"mail-confirmation" class=3D"tab=
+le-line" align=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" w=
+idth=3D"167">
+                            <!--content-->
+                            <tr align=3D"right">
+                              <td style=3D"font-family: Arial, Helvetica, s=
+ans-serif; color:#232936; font-size:12px;" align=3D"right"><B>EUR 144.00</B=
+></td>
+                              <td width=3D"5"></td>
+                            </tr>
+                            <!--end content-->
+                          </table>
+                         <!--end right--></td>
+                      </tr><TR><TD height=3D"10">&nbsp;</TD></TR>
+</table>
+       </td>
+    </tr>
+ </table></td></tr></td>
+              </tr>
+            </table>
+          </td>
+              </tr>
+            </table>
+            
+            
+            
+            
+              </td>
+              </tr>
+            </table>
+            </td>
+              </tr>
+            </table>
+
+              </TD>
+            </TR>
+          </TBODY>
+        </TABLE>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+
+<!-- //////  TABLEAU RECAPITULATIF SEJOUR ////// -->  
+
+<!-- A AFFICHER POUR CAS OK + MODIFICATION -->
+
+<table summary=3D"mail-confirmation"  align=3D"center" bgcolor=3D"#FFFFFF" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+  <tr>
+    <td align=3D"center">
+      <table summary=3D"mail-confirmation" class=3D"table-inner" align=3D"c=
+enter" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"600">
+        <tr>
+          <td style=3D"border: 1px solid #CCCCCC;">
+            
+            
+            
+            <table summary=3D"mail-confirmation" class=3D"table-full" align=
+=3D"center" bgcolor=3D"#F9F9F9" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%">
+              <tr>
+                <td align=3D"center">
+                  <table summary=3D"mail-confirmation" class=3D"table-full"=
+ align=3D"center" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellsp=
+acing=3D"0" width=3D"100%"><!--title-->
+                    <tr>
+                      <td align=3D"center" bgcolor=3D"#4f545e">
+                        <table summary=3D"mail-confirmation" class=3D"table=
+-inner" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" w=
+idth=3D"580">
+                          <tr>
+                            <td height=3D"10" style=3D"line-height:0px; fon=
+t-size:1px;">&nbsp;</td>
+                          </tr>
+                          <tr >
+                            <td align=3D"left" style=3D"font-family: Arial,=
+ Helvetica, sans-serif;  color:#FFFFFF; font-size:15px;"><b>Total price of =
+stay</b></td>
+                          </tr>
+                          <tr>
+                            <td height=3D"10" style=3D"line-height:0px; fon=
+t-size:1px;">&nbsp;</td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr><tr>
+                      <td align=3D"center">
+                        <table summary=3D"mail-confirmation" class=3D"table=
+-inner" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" w=
+idth=3D"580" style=3D"border-bottom: 1px solid #FFFFFF;">
+                          <tr>
+                            <td>
+                              <!--left-->
+                              <table summary=3D"mail-confirmation" class=3D=
+"table-line" align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" width=3D"255">
+                                <tr>
+                                  <td height=3D"5" style=3D"line-height:0px=
+; font-size:1px;">&nbsp;</td>
+                                </tr>
+                                <!--content-->
+                                <tr align=3D"left">
+                                  <td style=3D"font-family: Arial, Helvetic=
+a, sans-serif; color:#232936; font-size:14px; line-height: 30px;" align=3D"=
+left"><b> Total amount </b></td>
+                                </tr>
+                                <!--end content-->
+                                <tr>
+                                  <td height=3D"10" style=3D"line-height:0p=
+x; font-size:1px;">&nbsp;</td>
+                                </tr>
+                                <!--link-->
+                              </table>
+                              <!--end left-->
+                              <!--Space-->
+                              <table summary=3D"mail-confirmation" align=3D=
+"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1">
+                                <tr>
+                                  <td style=3D"font-size: 0;line-height: 0p=
+x;border-collapse: collapse;" height=3D"25">
+                                    <p style=3D"padding-left: 24px;">&nbsp;=
+</p>
+                                  </td>
+                                </tr>
+                              </table>
+                              <!--End Space-->
+                              <!--right-->
+                              <table summary=3D"mail-confirmation" class=3D=
+"table-line" align=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" width=3D"255">
+                                <tr>
+                                  <td height=3D"5" style=3D"line-height:0px=
+; font-size:1px;">&nbsp;</td>
+                                </tr>
+                                <!--content-->
+                                <tr align=3D"left">
+                                  <td style=3D"font-family: Arial, Helvetic=
+a, sans-serif; color:#232936; font-size:18px; line-height: 30px;" align=3D"=
+right"><b>EUR 425.20</b></td>
+                                </tr>
+                                <!--end content-->
+                                <tr>
+                                  <td height=3D"10" style=3D"line-height:0p=
+x; font-size:1px;">&nbsp;</td>
+                                </tr>
+                              </table>
+                              <!--end right-->
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr><tr>
+                      <td align=3D"center" bgcolor=3D"#F9F9F9" >
+                        <table summary=3D"mail-confirmation" class=3D"table=
+-full" align=3D"center" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" width=3D"100%">
+                          <!--title-->
+                          <tr>
+                            <td align=3D"center" bgcolor=3D"#4f545e">
+                              <table summary=3D"mail-confirmation" class=3D=
+"table-inner" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"580">
+                                <tr>
+                                  <td height=3D"10" style=3D"line-height:0p=
+x; font-size:1px;">&nbsp;</td>
+                                </tr>
+                                <tr >
+                                  <td align=3D"left" style=3D"font-family: =
+Arial, Helvetica, sans-serif;  color:#FFFFFF; font-size:15px;"><b>Your paym=
+ent</b></td>
+                                </tr>
+                                <tr>
+                                  <td height=3D"10" style=3D"line-height:0p=
+x; font-size:1px;">&nbsp;</td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table><table bgcolor=3D"#F9F9F9" summary=3D"mail-=
+confirmation" class=3D"table-inner" align=3D"center" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" width=3D"598" >
+                          <tr>
+                            <td align=3D"center" bgcolor=3D"#F9F9F9" >
+                              <table summary=3D"mail-confirmation" class=3D=
+"table-full" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"580">
+                                <tr>
+                                  <td height=3D"10" style=3D"line-height:0p=
+x; font-size:1px;">&nbsp;</td>
+                                </tr><tr>
+                                  <td  bgcolor=3D"#F9F9F9" height=3D"40">
+                                    <table summary=3D"mail-confirmation" cl=
+ass=3D"table-full" align=3D"right" border=3D"0" cellpadding=3D"0" bgcolor=
+=3D"#FFFFFF" cellspacing=3D"0" width=3D"400" style=3D"margin:5px;">
+                                      <!--content-->
+                                      <tr align=3D"right">
+                                        <td width=3D"5"></td>
+                                        <td height=3D"30" style=3D"font-fam=
+ily: Arial, Helvetica, sans-serif; color:#232936; font-size:14px; line-heig=
+ht: 18px;" align=3D"left">Amount prepaid</td>
+                                        <td  style=3D"font-family: Arial, H=
+elvetica, sans-serif; color:#232936; font-size:14px; line-height: 18px;" al=
+ign=3D"right">- EUR 425.20 </td>
+                                        <td width=3D"5"></td>
+                                      </tr>
+                                      <!--end content-->
+                                    </table>
+                                  </td>
+                                </tr><tr>
+                                  <td  bgcolor=3D"#F9F9F9" height=3D"40">
+                                    <table summary=3D"mail-confirmation" cl=
+ass=3D"table-full" align=3D"right" border=3D"0" cellpadding=3D"0" bgcolor=
+=3D"#FFFFFF" cellspacing=3D"0" width=3D"400" style=3D"margin:5px;">
+                                      <!--content-->
+                                      <tr align=3D"right">
+                                        <td width=3D"5"></td>
+                                        <td height=3D"30" style=3D"font-fam=
+ily: Arial, Helvetica, sans-serif; color:#232936; font-size:14px; line-heig=
+ht: 18px;" align=3D"left"><b>Balance to pay at the hotel</b></td>
+                                        <td  style=3D"font-family: Arial, H=
+elvetica, sans-serif; color:#232936; font-size:18px; line-height: 18px;" al=
+ign=3D"right"><b>EUR 0.00</b></td>
+                                        <td width=3D"5"></td>
+                                      </tr>
+                                      <!--end content-->
+                                    </table>
+                                  </td>
+                                </tr></table>
+                            </td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                    <tr>
+                      <td height=3D"15" bgcolor=3D"#F9F9F9"></td>
+                    </tr>
+                  </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- FIN SPACER --><!-- TABLEAU INFORMATION PRATIQUE : AFFICHER POUR CAS OK=
+  -->
+<table summary=3D"mail-confirmation"  align=3D"center" bgcolor=3D"#FFFFFF" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+  <tr>
+    <td align=3D"center">  
+      <table summary=3D"mail-confirmation" class=3D"table-inner" align=3D"c=
+enter" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"600">
+        <tr>
+          <td height=3D"15" style=3D"line-height:0px; font-size:1px;">&nbsp=
+;</td>
+        </tr>
+        <tr>
+          <td align=3D"center">
+            <table summary=3D"mail-confirmation" class=3D"table-inner" alig=
+n=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"580"=
+>
+              <tr align=3D"left">
+                <td  class=3D"txt-redim12" style=3D"font-family: 'Open Sans=
+', Arial, sans-serif; font-weight: bold; color:#232936; font-size:20px;">Sp=
+ecific requests</td>
+              </tr>
+              <tr>
+                <td height=3D"10" style=3D"line-height:0px; font-size:1px;"=
+>&nbsp;</td>
+              </tr>
+              <tr>
+                <td height=3D"10" style=3D"border-top:1px solid #232936"></=
+td>
+              </tr>
+              <tr>
+                <td class=3D"txt-redim10" style=3D"font-family: Arial, Helv=
+etica, sans-serif; color:#232936; font-size:14px; line-height: 18px;" align=
+=3D"left">If you have specific requests to help facilitate your stay (for e=
+xample, assistance for a person with disabilities, allergies), please do no=
+t hesitate to contact the hotel directly for more information. If, as part =
+of your reservation, you made requests that are listed as non-guaranteed, t=
+hese are subject to availability at the hotel. The teams will do their utmo=
+st to fulfill these requests.<br></td>
+              </tr>
+              <tr>
+                <td height=3D"15"  style=3D"line-height:0px; font-size:1px;=
+"></td>
+              </tr>
+            </table>   
+          </td>   
+        </tr>
+      </table>    
+    </td>
+  </tr>
+</table>
+
+<table summary=3D"mail-confirmation"  align=3D"center" bgcolor=3D"#FFFFFF" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+  <tr>
+    <td height=3D"15"  style=3D"line-height:0px; font-size:1px;">&nbsp;</td=
+>
+  </tr>
+</table>
+<table align=3D"center" bgcolor=3D"#FFFFFF" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" width=3D"100%">
+  <tr>
+    <td align=3D"center"><table summary=3D"mail-confirmation" class=3D"tabl=
+e-inner" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+width=3D"600">
+        <tr>
+          <td valign=3D"middle" class=3D"table2-2" align=3D"left"><span id=
+=3D"switcher_club_gain"><img id=3D"club_gain" src=3D"http://t.accorhotels.c=
+om/img/gain/Gain600x160_gb.png" alt=3D""></span></a></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+<!-- BANNIERE WIPOLO -->
+<table summary=3D"mail-confirmation"  align=3D"center" bgcolor=3D"#FFFFFF" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+  <tr>
+    <td height=3D"15"  style=3D"line-height:0px; font-size:1px;">&nbsp;</td=
+>
+  </tr>
+</table>
+<table align=3D"center" bgcolor=3D"#FFFFFF" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" width=3D"100%">
+  <tr>
+    <td align=3D"center"><table summary=3D"mail-confirmation" class=3D"tabl=
+e-inner" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+width=3D"600">
+        <tr>
+          <td valign=3D"middle" class=3D"table2-2" align=3D"left"><a href=
+=3D"http://rt2-t.reservation.accor-mail.com/r/=3Fid=3Dh5ba326c,1067276d,106=
+72783" target=3D"_blank"><span id=3D"switcher_apps"><img id=3D"apps" src=3D=
+"http://t.accorhotels.com/img/AMC/TARS/banner_apps_d_gb.jpg" alt=3D""></spa=
+n></a></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+<!-- BANNIERE PLANET21 -->
+<table summary=3D"mail-confirmation"  align=3D"center" bgcolor=3D"#FFFFFF" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+  <tr>
+    <td height=3D"15"  style=3D"line-height:0px; font-size:1px;">&nbsp;</td=
+>
+  </tr>
+</table>
+<table align=3D"center" bgcolor=3D"#FFFFFF" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" width=3D"100%">
+  <tr>
+    <td align=3D"center"><table summary=3D"mail-confirmation" class=3D"tabl=
+e-inner" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+width=3D"600">
+        <tr>
+          <td valign=3D"middle" class=3D"table2-2" align=3D"left"  height=
+=3D"120"><a href=3D"http://rt2-t.reservation.accor-mail.com/r/=3Fid=3Dh5ba3=
+26c,1067276d,10672784" target=3D"_blank"><span id=3D"switcher"><img id=3D"p=
+lanet21" src=3D"http://t.accorhotels.com/img/watch/planet21_gb_600-2.png" a=
+lt=3D""></span></a></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+
+<!-- SPACER s=E9paration des cas -->
+<table summary=3D"mail-confirmation"  align=3D"center" bgcolor=3D"#FFFFFF" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+  <tr>
+    <td  height=3D"15" style=3D"font-size:0px; line-height:0px;"></td>
+  </tr>
+</table>
+<!-- FIN SPACER --><!-- FIN SPACER --><!-- TABLEAU INFORMATION PRATIQUE : A=
+FFICHER POUR CAS OK  -->
+<table summary=3D"mail-confirmation"  align=3D"center" bgcolor=3D"#FFFFFF" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+  <tr>
+    <td align=3D"center">
+      <table summary=3D"mail-confirmation" class=3D"table-inner" align=3D"c=
+enter" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"600">
+        <tr>
+          <td height=3D"15" style=3D"line-height:0px; font-size:1px;">&nbsp=
+;</td>
+        </tr>
+        <tr>
+          <td align=3D"center">
+            <table summary=3D"mail-confirmation" class=3D"table-inner" alig=
+n=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"580"=
+>
+              <tr align=3D"left">
+                <td  class=3D"txt-redim12" style=3D"font-family: 'Open Sans=
+', Arial, sans-serif; font-weight: bold; color:#232936; font-size:20px;">Pr=
+actical information</td>
+              </tr>
+              <tr>
+                <td height=3D"10" style=3D"line-height:0px; font-size:1px;"=
+>&nbsp;</td>
+              </tr>
+              <tr>
+                <td height=3D"10" style=3D"border-top:1px solid #232936"></=
+td>
+              </tr>
+              <tr>
+                <td class=3D"txt-redim10" style=3D"font-family: Arial, Helv=
+etica, sans-serif; color:#232936; font-size:14px; line-height: 18px;" align=
+=3D"left">Important: Unless specifically stated otherwise by the country yo=
+u are staying in, this reservation request does not commit the hotel to ass=
+isting with a guest=92s request for assistance from the consular authoritie=
+s. </td>
+              </tr>
+              <tr>
+                <td height=3D"15"  style=3D"line-height:0px; font-size:1px;=
+"></td>
+              </tr>
+            </table><table summary=3D"mail-confirmation" align=3D"center" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"580" class=3D"tabl=
+e-inner">
+              <tr align=3D"left">
+                <td  class=3D"txt-redim10"  style=3D"font-family: 'Open San=
+s', Arial, sans-serif; font-weight: bold; color:#232936; font-size:16px;"> =
+Guarantee </td>
+              </tr>
+              <tr>
+                <td height=3D"5" style=3D"line-height:0px; font-size:1px;">=
+&nbsp;</td>
+              </tr>
+              <tr>
+                <td height=3D"10" style=3D"border-top:1px solid #232936"></=
+td>
+              </tr>
+              <tr>
+                <td class=3D"txt-redim10" style=3D"font-family: Arial, Helv=
+etica, sans-serif; color:#232936; font-size:14px; line-height: 18px;" align=
+=3D"left">APOL PREPAYMENT<br /></td>
+              </tr>
+              <tr>
+                <td height=3D"20"  style=3D"line-height:0px; font-size:1px;=
+">&nbsp;</td>
+              </tr>
+            </table><table summary=3D"mail-confirmation" class=3D"table-inn=
+er" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"580">
+              <tr align=3D"left">
+                <td  class=3D"txt-redim10" style=3D"font-family: 'Open Sans=
+', Arial, sans-serif; font-weight: bold; color:#232936; font-size:16px;">Sa=
+les conditions</td>
+              </tr>
+              <tr>
+                <td height=3D"5" style=3D"line-height:0px; font-size:1px;">=
+&nbsp;</td>
+              </tr>
+              <tr>
+                <td height=3D"10" style=3D"border-top:1px solid #232936"></=
+td>
+              </tr><tr>
+  <td class=3D"txt-redim10" style=3D"font-family: Arial, Helvetica, sans-se=
+rif; color:#232936; font-size:14px; line-height: 18px;" align=3D"left">The =
+price indicated is per room for the number of persons and dates selected in=
+ advance, unless otherwise specified (fixed price). However, additional tax=
+es may apply and be payable on arrival at the hotel, depending on local reg=
+ulations. Only the local currency of the country is guaranteed. Any amount =
+specified in a currency other than the local currency is for informational =
+purposes only and non-contractual.</td>
+</tr>
+<tr>
+  <td height=3D"5" style=3D"line-height:0px; font-size:1px;">&nbsp;</td>
+</tr><!--link only internet-->
+  <tr align=3D"left">
+    <td style=3D"font-family: Arial, Helvetica, sans-serif; color:#38b7ff; =
+font-size:12px; line-height: 18px;"><a href=3D"http://rt2-t.reservation.acc=
+or-mail.com/r/=3Fid=3Dh5ba326c,1067276d,1067278e&p1=3Dgb" target=3D"_blank"=
+ _category=3D"" _label=3D"" style=3D"text-decoration: none; color:#38b7ff;"=
+> >See the general terms and conditions of sale.</a></td>
+  </tr> 
+<!--end link--><tr>
+  <td height=3D"15"  style=3D"line-height:0px; font-size:1px;"></td>
+</tr><TR>
+    <TD  class=3D"txt-redim10"  style=3D"font-family: Arial, Helvetica, san=
+s-serif; color:#232936; font-size:14px; line-height: 18px;" align=3D"left">=
+<B>Cancellation Policy: </B><BR/>
+      The amount due is not refundable even if the booking is cancelled or =
+modified.<BR/><BR/>
+    </TD>
+</TR><TR>
+    <TD  class=3D"txt-redim10"  style=3D"font-family: Arial, Helvetica, san=
+s-serif; color:#232936; font-size:14px; line-height: 18px;" align=3D"left">=
+<B>Check in Policy: </B><BR/>
+      C/in time is 14:00. Guests are kindly requested to show the credit ca=
+rd used for reservation upon C/in. Please note that the name of the guest n=
+eeds to correspond with the name on the credit card used to make the bookin=
+g.<BR/><BR/>
+    </TD>
+</TR><TR>
+    <TD  class=3D"txt-redim10"  style=3D"font-family: Arial, Helvetica, san=
+s-serif; color:#232936; font-size:14px; line-height: 18px;" align=3D"left">=
+<B>Check out Policy: </B><BR/>
+      The room must be vacated by 12:00 at the latest.<BR/><BR/>
+    </TD>
+</TR><TR>
+    <TD  class=3D"txt-redim10"  style=3D"font-family: Arial, Helvetica, san=
+s-serif; color:#232936; font-size:14px; line-height: 18px;" align=3D"left">=
+<B>Guarantee Policy: </B><BR/>
+      Full amount of stay is payable in advance by credit card  at booking =
+time.<BR/><BR/>
+    </TD>
+</TR><TR>
+    <TD  class=3D"txt-redim10"  style=3D"font-family: Arial, Helvetica, san=
+s-serif; color:#232936; font-size:14px; line-height: 18px;" align=3D"left">=
+<B>Members rate conditions: </B><BR/>
+      Be or become a member of Le Club Accorhotels. Members must present th=
+eir card upon check in at the hotel or their member number if they have not=
+ yet received their card Maximum 2 rooms at the Members Rate can be book pe=
+r member  per staying date<BR/><BR/>
+    </TD>
+</TR></TABLE>
+<table summary=3D"mail-confirmation" class=3D"table-inner" align=3D"center"=
+ border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"580">
+              <tr align=3D"left">
+                <td  class=3D"txt-redim10"  style=3D"font-family: 'Open San=
+s', Arial, sans-serif; font-weight: bold; color:#232936; font-size:16px;"> =
+Taxes </td>
+              </tr>
+              <tr>
+                <td height=3D"5" style=3D"line-height:0px; font-size:0px;">=
+&nbsp;</td>
+              </tr>
+              <tr>
+                <td height=3D"10" style=3D"border-top:1px solid #232936"></=
+td>
+              </tr>
+<tr>
+ <td  class=3D"txt-redim10"  style=3D"font-family: Arial, Helvetica, sans-s=
+erif; color:#232936; font-size:14px; line-height: 18px;" align=3D"left"><b>=
+The total amount of your reservation includes the following taxes:</b><br /=
+>VAT National taxes on F&B : 18.00 % per Room AND per Night <BR>VAT Nationa=
+l taxes on accommodation : 8.00 % per Room AND per Night <BR><br /><b>The p=
+repaid amount includes the following taxes:</b><br />VAT National taxes on =
+F&B: 18.00 % per Room AND per Night <br />VAT National taxes on accommodati=
+on: 8.00 % per Room AND per Night <br /></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!--  FIN TABLEAU INFORMATION PRATIQUE  -->
+<!-- SPACER --> 
+<table summary=3D"mail-confirmation"  align=3D"center" bgcolor=3D"#FFFFFF" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+  <tr>
+    <td>
+      <table summary=3D"mail-confirmation" class=3D"table-inner" align=3D"c=
+enter" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"600">
+        <tr>
+          <td bgcolor=3D"#FFFFFF" height=3D"20" style=3D"font-size:0px; lin=
+e-height:0px;"></td>
+        </tr>
+        <tr>
+          <td bgcolor=3D"#FFFFFF"  height=3D"10" style=3D"border-top:5px so=
+lid #2196d9; font-size:0px; line-height:0px;"></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+<!-- FIN SPACER --> 
+
+<table summary=3D"mail-confirmation"  align=3D"center" bgcolor=3D"#FFFFFF" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tr>
+    <td align=3D"center">
+        <table summary=3D"EnewsAccorHotels" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" width=3D"510" align=3D"center" class=3D"table-inner" styl=
+e=3D"width:510px;">
+            <tbody>
+          <tr>
+          <td align=3D"center">
+            <table summary=3D"EnewsAccorHotels" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"border-collapse:collapse; mso-table-lspace:0=
+pt; mso-table-rspace:0pt;margin-bottom:10px;" align=3D"left" class=3D"table=
+-full">
+              <tbody>
+                  <tr>
+                  <td height=3D"5" style=3D"font-size:1px;line-height:1px;h=
+eight:5px;">&nbsp;</td>
+                </tr>
+                  <tr>
+                  <td style=3D"font-family:Arial,Helvetica,sans-serif;font-=
+size:14px;color:#333333;text-align:center;font-weight:bold;text-transform:u=
+ppercase;" class=3D"T11"> 
+                                    ALL SERVICES<br> 
+                                    AVAILABLE IN OUR APP 
+                                </td>
+                  </tr>
+                <tr>
+                  <td height=3D"15" style=3D"font-size:1px;line-height:1px;=
+height:15px;">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>
+                      <table summary=3D"EnewsAccorHotels" border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" align=3D"center" class=3D"table-full">
+                      <tbody>
+                          <tr>
+                          <td width=3D"10" style=3D"font-size:1px;line-heig=
+ht:1px;width:10px;">&nbsp;</td>
+                          <td align=3D"center" width=3D"114" height=3D"34" =
+style=3D"line-height:1px;font-size:1px;width:114px;height:32px;"><a href=3D=
+"http://rt2-t.reservation.accor-mail.com/r/=3Fid=3Dh5ba326c,1067276d,106727=
+91" _label=3D"na" _category=3D"l1" style=3D"text-decoration:none;color:#0f2=
+f7e;" target=3D"_blank"><img src=3D"http://t.accorhotels.com/img/ach-enews-=
+refonte-1608/appstore.jpg" width=3D"116" height=3D"32" border=3D"0" style=
+=3D"display: block;" alt=3D""></a></td>
+                          <td width=3D"10" style=3D"font-size:1px;line-heig=
+ht:1px;width:10px;">&nbsp;</td>
+                          <td align=3D"center" width=3D"102" height=3D"34" =
+style=3D"line-height:1px;font-size:1px;width:102px;height:34px;"><a href=3D=
+"http://rt2-t.reservation.accor-mail.com/r/=3Fid=3Dh5ba326c,1067276d,106727=
+92" _label=3D"na" _category=3D"l1" style=3D"text-decoration:none;color:#0f2=
+f7e;" target=3D"_blank"><img src=3D"http://t.accorhotels.com/img/ach-enews-=
+refonte-1608/googleplay.jpg" width=3D"116" height=3D"32" border=3D"0" style=
+=3D"display: block;" alt=3D""></a></td>
+                            <td width=3D"10" style=3D"font-size:1px;line-he=
+ight:1px;width:10px;">&nbsp;</td>
+                          </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+              <table summary=3D"EnewsAccorHotels" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"border-collapse:collapse; mso-table-lspac=
+e:0pt; mso-table-rspace:0pt;" align=3D"right" class=3D"table-full">
+                  <tbody>
+                  <tr>
+                  <td height=3D"5" style=3D"font-size:1px;line-height:1px;h=
+eight:5px;" class=3D"H20">&nbsp;</td>
+                  </tr>
+                    <tr>
+                  <td style=3D"font-family:Arial,Helvetica,sans-serif;font-=
+size:14px;color:#333333;text-align:center;font-weight:bold;text-transform:u=
+ppercase;" class=3D"T11">Find us<br>on</td>
+                </tr>
+                <tr>
+                  <td height=3D"15" style=3D"font-size:1px;line-height:1px;=
+height:15px;">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>
+                      <table summary=3D"EnewsAccorHotels" border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" align=3D"center">
+                        <tbody>
+                          <tr>
+                          <td width=3D"10" style=3D"font-size:1px;line-heig=
+ht:1px;width:10px;">&nbsp;</td>
+                          <td align=3D"center" width=3D"35" height=3D"34" s=
+tyle=3D"line-height:1px;font-size:1px;width:35px;height:34px;"><a href=3D"h=
+ttp://rt2-t.reservation.accor-mail.com/r/=3Fid=3Dh5ba326c,1067276d,10672793=
+" _label=3D"rs" _category=3D"rs" style=3D"text-decoration:none;color:#0f2f7=
+e;" target=3D"_blank"><img src=3D"http://t.accorhotels.com/img/ach-enews-re=
+fonte-1608/picto_facebook.jpg" width=3D"35" height=3D"34" border=3D"0" styl=
+e=3D"display: block;" alt=3D""></a></td>
+                          <td width=3D"10" style=3D"font-size:1px;line-heig=
+ht:1px;width:10px;">&nbsp;</td>
+                          <td align=3D"center" width=3D"35" height=3D"34" s=
+tyle=3D"line-height:1px;font-size:1px;width:35px;height:34px;"><a href=3D"h=
+ttp://rt2-t.reservation.accor-mail.com/r/=3Fid=3Dh5ba326c,1067276d,10672794=
+" _label=3D"rs" _category=3D"rs" style=3D"text-decoration:none;color:#0f2f7=
+e;" target=3D"_blank"><img src=3D"http://t.accorhotels.com/img/ach-enews-re=
+fonte-1608/picto_twitter.jpg" width=3D"35" height=3D"34" border=3D"0" style=
+=3D"display: block;" alt=3D""></a></td>
+                          <td width=3D"10" style=3D"font-size:1px;line-heig=
+ht:1px;width:10px;">&nbsp;</td>
+                          <td align=3D"center" width=3D"35" height=3D"34" s=
+tyle=3D"line-height:1px;font-size:1px;width:35px;height:34px;"><a href=3D"h=
+ttp://rt2-t.reservation.accor-mail.com/r/=3Fid=3Dh5ba326c,1067276d,10672795=
+" _label=3D"rs" _category=3D"rs" style=3D"text-decoration:none;color:#0f2f7=
+e;" target=3D"_blank"><img src=3D"http://t.accorhotels.com/img/ach-enews-re=
+fonte-1608/picto_googleplus.jpg" width=3D"35" height=3D"34" border=3D"0" st=
+yle=3D"display: block;" alt=3D""></a></td>
+                          <td width=3D"10" style=3D"font-size:1px;line-heig=
+ht:1px;width:10px;">&nbsp;</td>
+                          <td align=3D"center" width=3D"35" height=3D"34" s=
+tyle=3D"line-height:1px;font-size:1px;width:35px;height:34px;"><a href=3D"h=
+ttp://rt2-t.reservation.accor-mail.com/r/=3Fid=3Dh5ba326c,1067276d,10672796=
+" _label=3D"rs" _category=3D"rs" style=3D"text-decoration:none;color:#0f2f7=
+e;" target=3D"_blank"><img src=3D"http://t.accorhotels.com/img/ach-enews-re=
+fonte-1608/picto_instagram.jpg" width=3D"35" height=3D"34" border=3D"0" sty=
+le=3D"display: block;" alt=3D""></a></td>
+                          <td width=3D"10" style=3D"font-size:1px;line-heig=
+ht:1px;width:10px;">&nbsp;</td>
+                          <td align=3D"center" width=3D"35" height=3D"34" s=
+tyle=3D"line-height:1px;font-size:1px;width:35px;height:34px;"><a href=3D"h=
+ttp://rt2-t.reservation.accor-mail.com/r/=3Fid=3Dh5ba326c,1067276d,10672797=
+" _label=3D"rs" _category=3D"rs" style=3D"text-decoration:none;color:#0f2f7=
+e;" target=3D"_blank"><img src=3D"http://t.accorhotels.com/img/ach-enews-re=
+fonte-1608/picto_pinterest.jpg" width=3D"35" height=3D"34" border=3D"0" sty=
+le=3D"display: block;" alt=3D""></a></td>
+                            <td width=3D"10" style=3D"font-size:1px;line-he=
+ight:1px;width:10px;">&nbsp;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                  </td>
+                </tr>
+                  </tbody>
+            </table>
+          </td>
+                </tr>
+
+                <tr>
+                    <td height=3D"10" style=3D"font-size:1px; line-height:1=
+px;height:10px;">&nbsp;</td>
+                </tr>
+
+            </tbody>
+    </table>
+  </td>
+</tr>
+</table>
+
+<!-- FIN SPACER --> 
+<table summary=3D"mail-confirmation"  align=3D"center" bgcolor=3D"#FFFFFF" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+  <tr>
+    <td><!--  RESEAUX SOCIAUX -->
+      <table summary=3D"mail-confirmation" class=3D"table-inner" align=3D"c=
+enter" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"600">
+        <tr>
+          <td bgcolor=3D"#FFFFFF" height=3D"20" style=3D"font-size:0px; lin=
+e-height:0px;"></td>
+        </tr>
+        <tr>
+          <td bgcolor=3D"#FFFFFF"  height=3D"10" style=3D"border-top:5px so=
+lid #2196d9; font-size:0px; line-height:0px;"></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+<!-- FIN SPACER -->
+<table summary=3D"mail-confirmation"  align=3D"center" bgcolor=3D"#FFFFFF" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+  <tr>
+    <td align=3D"center"><table summary=3D"mail-confirmation" class=3D"tabl=
+e-inner" align=3D"center" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" width=3D"600">
+        <tr>
+          <td align=3D"center"><table summary=3D"mail-confirmation" class=
+=3D"table-inner" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" width=3D"580">
+              <tr>
+                <td height=3D"10" style=3D"line-height:0px; font-size:1px;"=
+>&nbsp;</td>
+              </tr>
+              <tr>
+                <td   class=3D"txt-redim10"  style=3D"font-family: Arial, H=
+elvetica, sans-serif; text-align:justify;  color:#91949a; font-size:12px;  =
+line-height:18px;">The collected data are processed by Accor SA, and are ma=
+ndatory for the purposes of managing your bookings and sending you informat=
+ion on Accor Group products and services. The data are intended to Accor SA=
+, Accor SA legal entities, Accor SA hotels and Accor SA service providers t=
+hat might be based outside the European Union. The data are transferred for=
+ the purposes of managing and following-up of your file in the framework of=
+ pre-contractual measures intended to fulfil the booking, of implementing t=
+he booking or on the basis of an authorisation by the French Data Protectio=
+n Authority. In accordance with the Data Protection Act of 6 January 1978, =
+you have a right to interrogate, to access, to rectify and to object to the=
+ processing to the Data privacy department of Accor SA =96 data.privacy@acc=
+or.com.</A>
+<br />
+<br />
+The Hotel, as data controller, processes your personal data in the purposes=
+ of bookings and guests management, billing and payment, canvassing, specia=
+l offers and sales events, commercial surveys and satisfaction enquiries. T=
+he data are intended to the Hotel as well as its services providers and the=
+ various Accor SA departments, to the extent of each entity involvement. In=
+ accordance with the Data Protection Act of 6 January 1978, you have a righ=
+t to interrogate, to access, to rectify, to object on legitimate grounds to=
+ the processing, and to object to direct marketing. You can exercise such r=
+ight by writing to the Hotel manger=91s office to the address above-mention=
+ed.
+<br />
+<br />
+Note: for some rates, cancelation of a reservation may be subject to condit=
+ions. Please see the terms and conditions of sale associated with the rate =
+to find out more. You are reminded that prepaid rates cannot be reimbursed =
+and cannot be cancelled.
+<br />
+<br />
+Accor, a public limited company, registered in the Trade and Companies Regi=
+ster under no. RCS NANTERRE B 602 036 444, with its head office at 82 rue H=
+enri Farman, 92130 Issy-les-Moulineaux, France, with intra-community VAT no=
+. FR 93 602 036 444, registered in the Register of Travel Agents and Other =
+Tour Operators under no. IM091100035.</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td height=3D"25"  style=3D"line-height:0px; font-size:1px;">&nbs=
+p;</td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+<img height=3D'0' width=3D'0' alt=3D'' src=3D'http://rt2-t.reservation.acco=
+r-mail.com/r/=3Fid=3Dh5ba326c,1067276d,1'/></BODY>
+</HTML>
+
+------=_NextPart_900_93FD90D0.93FD90D0--
+

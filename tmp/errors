@@ -1,0 +1,5 @@
+[10-Apr-2019 22:13:56 America/Chicago] Unexpected condition from IMAP server, closed or corrupt connection to IMAP. Possible mailbox corruption.
+[10-Apr-2019 22:13:56 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, null given in /usr/local/cpanel/base/3rdparty/roundcube/program/lib/Roundcube/rcube_imap_generic.php on line 226
+[11-Apr-2019 00:49:49 -0500]: <mi5hgf2d> IMAP Error: Login failed for forget2@tripplanner.ge from 104.129.6.164(X-Forwarded-For: 104.129.6.164, 104.129.6.164). Could not connect to localhost:143: Le réseau n'est pas accessible in /usr/local/cpanel/base/3rdparty/roundcube/program/lib/Roundcube/rcube_imap.php on line 196 (POST /cpsess6199987951/3rdparty/roundcube/index.php?_task=mail&_action=refresh)
+[11-Apr-2019 10:18:01 America/Chicago] Unexpected condition from IMAP server, closed or corrupt connection to IMAP. Possible mailbox corruption.
+[11-Apr-2019 10:18:01 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, null given in /usr/local/cpanel/base/3rdparty/roundcube/program/lib/Roundcube/rcube_imap_generic.php on line 226

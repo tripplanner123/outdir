@@ -3374,3 +3374,75 @@ git status
 cd ../
 #1554291673
 git status
+#1554291711
+git add .
+#1554291724
+git commit -m "comm"
+#1554291731
+git push origin master
+#1554314027
+ping colosseummarina.ge
+#1554314063
+ping 404.ge
+#1554314079
+sudo ping colosseummarina.ge
+#1554314386
+sudo sysctl net.ipv4.ip_forward
+#1554314403
+exit
+#1554715452
+xit
+#1554715458
+exit
+#1554715563
+exit
+#1554715621
+exit
+#1554715987
+exit
+#1554716664
+exit
+#1554716696
+exit
+#1554806823
+clear
+#1554806906
+git status
+#1554806925
+cd public_html
+#1554806926
+clear
+#1554806929
+git status
+#1554806945
+cd _backup
+#1554806947
+ls
+#1554806966
+rm 01-04-2019.sql
+#1554806972
+rm 02-04-2019.sql
+#1554806978
+rm 03-04-2019.sql
+#1554806984
+rm 04-04-2019.sql
+#1554806989
+rm 05-04-2019.sql
+#1554806994
+rm 06-04-2019.sql
+#1554807003
+rm 07-04-2019.sql
+#1554807011
+rm 08-04-2019.sql
+#1554807013
+ls
+#1554807015
+clear
+#1554807017
+cd ../
+#1554816780
+exit
+#1555090841
+clear
+#1555090847
+git status

@@ -1,0 +1,1117 @@
+Return-Path: <salome@internetsaitebi.ge>
+Delivered-To: info@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP id wIDMH3lhqVzBvwYA8w4q4w
+	for <info@tripplanner.ge>; Sat, 06 Apr 2019 21:33:29 -0500
+Return-path: <salome@internetsaitebi.ge>
+Envelope-to: info@tripplanner.ge
+Delivery-date: Sat, 06 Apr 2019 21:33:29 -0500
+Received: from server.internetsaitebi.ge ([69.10.37.36]:57402)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <salome@internetsaitebi.ge>)
+	id 1hCxce-001sOt-D5
+	for info@tripplanner.ge; Sat, 06 Apr 2019 21:33:29 -0500
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=internetsaitebi.ge; s=default; h=List-Id:List-Unsubscribe:Content-Type:
+	MIME-Version:To:Reply-To:From:Subject:Date:Message-ID:Sender:Cc:
+	Content-Transfer-Encoding:Content-ID:Content-Description:Resent-Date:
+	Resent-From:Resent-Sender:Resent-To:Resent-Cc:Resent-Message-ID:In-Reply-To:
+	References:List-Help:List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=9Fylo2RTbUOq5dEPsGeI0EWoCGh91abFpZtMuQ+4EXY=; b=Xchdrz36mNXQ5IEyMh8azJxgsQ
+	EoTd7Wk5Gf+QcraFEeVcnPfpWr7wctHZivJ0XdEH9BuSOnC7jhlEfb03oxH4QtB6gq4mH7Zzf5qmx
+	gYQS0cTCyWugVEq2llxY9a3xvDGVv/n0IY5LkHaKOVFZtVkupl1h0xpD2DW+bOHQz7eHONlZbpaqO
+	tvuWwV1OJfjURxZQqvoI6KDAwhX7TfNIs04Jtc8VVnCsAgdowAx6Axwsf/UYkTBIufyy++PWth7SI
+	ZuecA/AO44uQ86aSpgG+jUC/5qdxMX9dxDwyTkjSfAVQ9beUa19ljus+21OZpL4oerswiEyUvjq2B
+	jmcHt8ZA==;
+Received: from [69.10.37.36] (port=33186 helo=internetsaitebi.ge)
+	by server.internetsaitebi.ge with esmtpa (Exim 4.91)
+	(envelope-from <salome@internetsaitebi.ge>)
+	id 1hCxcR-0003wW-Qv
+	for info@tripplanner.ge; Sun, 07 Apr 2019 02:33:15 +0000
+Message-ID: <fcf913833f2331397dd2a8c3aded0c1f@internetsaitebi.ge>
+Date: Sun, 07 Apr 2019 02:33:15 +0000
+Subject: =?utf-8?Q?=E1=83=9B=E1=83=90=E1=83=A0=E1=83=99?=
+ =?utf-8?Q?=E1=83=94=E1=83=A2=E1=83=98=E1=83=9C?=
+ =?utf-8?Q?=E1=83=92=E1=83=98_=E1=83=93=E1=83=90_=E1=83=92=E1=83=90?=
+ =?utf-8?Q?=E1=83=A7=E1=83=98=E1=83=93=E1=83=95?=
+ =?utf-8?Q?=E1=83=94=E1=83=91=E1=83=98_=E1=83=A2=E1=83=9D=E1=83=9E-?=
+ =?utf-8?Q?=E1=83=9B=E1=83=94=E1=83=9C=E1=83=94?=
+ =?utf-8?Q?=E1=83=AF=E1=83=94=E1=83=A0=E1=83=94?=
+ =?utf-8?Q?=E1=83=91=E1=83=98=E1=83=A1=E1=83=97?=
+ =?utf-8?Q?=E1=83=95=E1=83=98=E1=83=A1!_=E1=83=A1=E1=83=90=E1=83=A9?=
+ =?utf-8?Q?=E1=83=A3=E1=83=A5=E1=83=A0=E1=83=90?=
+ =?utf-8?Q?=E1=83=93_=E1=83=AC=E1=83=98=E1=83=92=E1=83=9C=E1=83=98_?=
+ =?utf-8?Q?=E1=83=9A=E1=83=98=E1=83=93=E1=83=94?=
+ =?utf-8?Q?=E1=83=A0=E1=83=9D=E1=83=91=E1=83=90_=E1=83=93=E1=83=90_?=
+ =?utf-8?Q?=E1=83=9B=E1=83=90=E1=83=A0=E1=83=97?=
+ =?utf-8?Q?=E1=83=95=E1=83=90_=E1=83=9E?=
+ =?utf-8?Q?=E1=83=A0=E1=83=90=E1=83=A5=E1=83=A2?=
+ =?utf-8?Q?=E1=83=98=E1=83=99=E1=83=90=E1=83=A8=E1=83=98!?=
+ info@tripplanner.ge
+From: gamarjoba gamarjoba <salome@internetsaitebi.ge>
+Reply-To: gamarjoba gamarjoba <webmaster@internetsaitebi.ge>
+To: "info@tripplanner.ge" <info@tripplanner.ge>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_v4_1554604395_670ba5cc57064c873df37bfa5560ce6c_=_"
+X-Sender: salome@internetsaitebi.ge
+X-Report-Abuse: Please report abuse for this campaign here:
+ http://internetsaitebi.ge/index.php/campaigns/qb9684ofr6318/report-abuse/cb9952p66r826/yn283y1xpedd9
+X-Receiver: info@tripplanner.ge
+X-Gxst-Tracking-Did: 0
+X-Gxst-Subscriber-Uid: yn283y1xpedd9
+X-Gxst-Mailer: SwiftMailer - 5.4.x
+X-Gxst-EBS: http://internetsaitebi.ge/index.php/lists/block-address
+X-Gxst-Delivery-Sid: 2
+X-Gxst-Customer-Uid: qg214vtoog595
+X-Gxst-Customer-Gid: 0
+X-Gxst-Campaign-Uid: qb9684ofr6318
+Precedence: bulk
+List-Unsubscribe: <http://internetsaitebi.ge/index.php/lists/cb9952p66r826/unsubscribe/yn283y1xpedd9/qb9684ofr6318/unsubscribe-direct?source=email-client-unsubscribe-button>,
+ <mailto:webmaster@internetsaitebi.ge?subject=Campaign-Uid:qb9684ofr6318 /
+ Subscriber-Uid:yn283y1xpedd9 - Unsubscribe request&body=Please unsubscribe
+ me!>
+List-Id: cb9952p66r826 =?utf-8?Q?=3C=E1=83=94=E1=83=95=E1=83=A0?=
+ =?utf-8?Q?=E1=83=9D=E1=83=9E=E1=83=98=E1=83=A1?=
+ =?utf-8?Q?_=E1=83=91=E1=83=98=E1=83=96=E1=83=9C=E1=83=94=E1=83=A1_?=
+ =?utf-8?Q?=E1=83=A1=E1=83=99=E1=83=9D=E1=83=9A?=
+ =?utf-8?Q?=E1=83=90_=E1=83=93=E1=83=90_=E1=83=99=E1=83=9D=E1=83=9C?=
+ =?utf-8?Q?=E1=83=A1=E1=83=90=E1=83=9A=E1=83=A2?=
+ =?utf-8?Q?=E1=83=98=E1=83=9C=E1=83=92=E1=83=98=3E?=
+Feedback-ID: qb9684ofr6318:yn283y1xpedd9:cb9952p66r826:qg214vtoog595
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - server.internetsaitebi.ge
+X-AntiAbuse: Original Domain - tripplanner.ge
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - internetsaitebi.ge
+X-Get-Message-Sender-Via: server.internetsaitebi.ge: authenticated_id: salome@internetsaitebi.ge
+X-Authenticated-Sender: server.internetsaitebi.ge: salome@internetsaitebi.ge
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Spam-Status: No, score=-1.5
+X-Spam-Score: -14
+X-Spam-Bar: -
+X-Spam-Flag: NO
+
+
+--_=_swift_v4_1554604395_670ba5cc57064c873df37bfa5560ce6c_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+-=E1=83=AC=E1=83=98=E1=83=92=E1=83=9C=E1=83=98 =E1=83=A1=E1=83=90=E1=83=
+=A9=E1=83=A3=E1=83=A5=E1=83=A0=E1=83=90=E1=83=93 =E1=83=A9=E1=83=95=
+=E1=83=94=E1=83=9C=E1=83=98
+=E1=83=9E=E1=83=98=E1=83=A0=E1=83=95=E1=83=
+=94=E1=83=9A=E1=83=98 =E1=83=A3=E1=83=A0=E1=83=97=E1=83=98=E1=83=94=
+=E1=83=A0=E1=83=97=E1=83=9D=E1=83=91=E1=83=98=E1=83=A1=E1=83=97=E1=83=95=
+=E1=83=98=E1=83=A1
+=E2=80=9E=E1=83=9A=E1=83=98=E1=83=93=E1=83=94=E1=83=
+=A0=E1=83=9D=E1=83=91=E1=83=90 =E1=83=93=E1=83=90 =E1=83=9B=E1=83=90=
+=E1=83=A0=E1=83=97=E1=83=95=E1=83=90
+=E1=83=9E=E1=83=A0=E1=83=90=E1=83=
+=A5=E1=83=A2=E1=83=98=E1=83=99=E1=83=90=E1=83=A8=E1=83=98=E2=80=9C PDF-=
+=E1=83=95=E1=83=94=E1=83=A0=E1=83=A1=E1=83=98=E1=83=90.
+#=E1=83=A2=
+=E1=83=9D=E1=83=9E=E1=83=9B=E1=83=94=E1=83=9C=E1=83=94=E1=83=AF=E1=83=9B=
+=E1=83=94=E1=83=9C=E1=83=A2=E1=83=98
+http://internetsaitebi.ge/index.php/=
+campaigns/qb9684ofr6318/track-url/yn283y1xpedd9/8f47ff473073a09859815661341=
+a978f4b1c86e3=C2=A0
+=E1=83=A2=E1=83=A0=E1=83=94=E1=83=9C=E1=83=98=
+=E1=83=9C=E1=83=92=E1=83=98=E1=83=A1 =E1=83=90=E1=83=9C=E1=83=9D=E1=83=
+=9C=E1=83=A1=E1=83=98:
+=E1=83=9B=E1=83=90=E1=83=A0=E1=83=99=E1=83=94=
+=E1=83=A2=E1=83=98=E1=83=9C=E1=83=92=E1=83=98 =E1=83=93=E1=83=90 =E1=83=
+=92=E1=83=90=E1=83=A7=E1=83=98=E1=83=93=E1=83=95=E1=83=94=E1=83=91=E1=83=
+=98
+=E1=83=A2=E1=83=9D=E1=83=9E-=E1=83=9B=E1=83=94=E1=83=9C=E1=83=94=
+=E1=83=AF=E1=83=94=E1=83=A0=E1=83=94=E1=83=91=E1=83=98=E1=83=A1=E1=83=97=
+=E1=83=95=E1=83=98=E1=83=A1!
+- =E1=83=A7=E1=83=95=E1=83=94=E1=83=9A=
+=E1=83=90=E1=83=A1 =E1=83=95=E1=83=98=E1=83=A1=E1=83=90=E1=83=AA =E1=83=
+=A1=E1=83=A3=E1=83=A0=E1=83=A1
+=E1=83=93=E1=83=90=E1=83=94=E1=83=A3=
+=E1=83=A4=E1=83=9A=E1=83=9D=E1=83=A1 =E1=83=A1=E1=83=A2=E1=83=A0=E1=83=
+=90=E1=83=A2=E1=83=94=E1=83=92=E1=83=98=E1=83=A3=E1=83=9A=E1=83=98
+=
+=E1=83=9B=E1=83=90=E1=83=A0=E1=83=99=E1=83=94=E1=83=A2=E1=83=98=E1=83=9C=
+=E1=83=92=E1=83=98=E1=83=A1=E1=83=90 =E1=83=93=E1=83=90
+=E1=83=92=
+=E1=83=90=E1=83=A7=E1=83=98=E1=83=93=E1=83=95=E1=83=94=E1=83=91=E1=83=98=
+=E1=83=A1 =E1=83=90=E1=83=9C=E1=83=90=E1=83=9A=E1=83=98=E1=83=A2=E1=83=
+=98=E1=83=99=E1=83=98=E1=83=A1
+=E1=83=A3=E1=83=9C=E1=83=90=E1=83=A0=
+=E1=83=94=E1=83=91=E1=83=A1 =E1=83=94=E1=83=95=E1=83=A0=E1=83=9D=E1=83=
+=9E=E1=83=A3=E1=83=9A=E1=83=98
+=E1=83=A1=E1=83=A2=E1=83=90=E1=83=9C=
+=E1=83=93=E1=83=90=E1=83=A0=E1=83=A2=E1=83=94=E1=83=91=E1=83=98=E1=83=97.=
+
+- =E1=83=A2=E1=83=A0=E1=83=94=E1=83=9C=E1=83=98=E1=83=9C=E1=83=92=
+=E1=83=98 =E1=83=92=E1=83=90=E1=83=9C=E1=83=99=E1=83=A3=E1=83=97=E1=83=
+=95=E1=83=9C=E1=83=98=E1=83=9A=E1=83=98=E1=83=90:
+=E1=83=99=E1=83=9D=
+=E1=83=9B=E1=83=9E=E1=83=90=E1=83=9C=E1=83=98=E1=83=98=E1=83=A1 =E1=83=
+=92=E1=83=94=E1=83=9C=E1=83=94=E1=83=A0=E1=83=90=E1=83=9A=E1=83=A3=E1=83=
+=A0=E1=83=98
+=E1=83=9B=E1=83=94=E1=83=9C=E1=83=94=E1=83=AF=E1=83=94=
+=E1=83=A0=E1=83=94=E1=83=91=E1=83=98=E1=83=A1=E1=83=97=E1=83=95=E1=83=98=
+=E1=83=A1,=E1=83=93=E1=83=90=E1=83=9B=E1=83=A4=E1=83=A3=E1=83=AB=E1=83=
+=9C=E1=83=94=E1=83=91=E1=83=9A=E1=83=94=E1=83=91=E1=83=98=E1=83=A1=E1=83=
+=97=E1=83=95=E1=83=98=E1=83=A1,=E1=83=93=E1=83=94=E1=83=9E=E1=83=90=
+=E1=83=A0=E1=83=A2=E1=83=90=E1=83=9B=E1=83=94=E1=83=9C=E1=83=A2=E1=83=98=
+=E1=83=A1
+=E1=83=AE=E1=83=94=E1=83=9A=E1=83=9B=E1=83=AB=E1=83=A6=E1=83=
+=95=E1=83=90=E1=83=9C=E1=83=94=E1=83=9A=E1=83=94=E1=83=91=E1=83=98=E1=83=
+=A1=E1=83=97=E1=83=95=E1=83=98=E1=83=A1.
+=E1=83=A0=E1=83=94=E1=83=92=
+=E1=83=98=E1=83=A1=E1=83=A2=E1=83=A0=E1=83=90=E1=83=AA=E1=83=98=E1=83=90: h=
+ttp://bit.do/eMYN8
+http://internetsaitebi.ge/index.php/campaigns/qb9684of=
+r6318/track-url/yn283y1xpedd9/a32ffca6a9a2cc32a04bcc034a2c7943b130b7c5
+=
+=E1=83=90=E1=83=9C =E1=83=93=E1=83=90=E1=83=92=E1=83=95=E1=83=98=E1=83=
+=99=E1=83=90=E1=83=95=E1=83=A8=E1=83=98=E1=83=A0=E1=83=93=E1=83=98=E1=83=
+=97: =E1=83=A5=E1=83=90=E1=83=9A: (032) 2
+83 03 73 =C2=A0- =E1=83=9B=
+=E1=83=9D=E1=83=91: 577347373
+=E1=83=99=E1=83=A3=E1=83=A0=E1=83=A1=
+=E1=83=98=E1=83=A1 =E1=83=90=E1=83=A6=E1=83=AC=E1=83=94=E1=83=A0=E1=83=
+=90:
+=E2=9C=85=E1=83=9B=E1=83=90=E1=83=A0=E1=83=99=E1=83=94=E1=83=A2=
+=E1=83=98=E1=83=9C=E1=83=92=E1=83=98 =E1=83=93=E1=83=90 =E1=83=92=E1=83=
+=90=E1=83=A7=E1=83=98=E1=83=93=E1=83=95=E1=83=94=E1=83=91=E1=83=98:
+-=
+=E1=83=9B=E1=83=90=E1=83=99=E1=83=A0=E1=83=9D =E1=83=9B=E1=83=90=E1=83=
+=A0=E1=83=99=E1=83=94=E1=83=A2=E1=83=98=E1=83=9C=E1=83=92=E1=83=A3=E1=83=
+=9A=E1=83=98
+=E1=83=92=E1=83=90=E1=83=A0=E1=83=94=E1=83=9B=E1=83=9D-PESTL=
+
+-=E1=83=9B=E1=83=98=E1=83=99=E1=83=A0=E1=83=9D =E1=83=9B=E1=83=90=
+=E1=83=A0=E1=83=99=E1=83=94=E1=83=A2=E1=83=98=E1=83=9C=E1=83=92=E1=83=A3=
+=E1=83=9A=E1=83=98
+=E1=83=92=E1=83=90=E1=83=A0=E1=83=94=E1=83=9B=E1=83=
+=9D-CCS
+-=E1=83=9B=E1=83=9D=E1=83=9B=E1=83=AE=E1=83=9B=E1=83=90=E1=83=
+=A0=E1=83=94=E1=83=91=E1=83=9A=E1=83=98=E1=83=A1 =E1=83=90=E1=83=9C=
+=E1=83=90=E1=83=9A=E1=83=98=E1=83=96=E1=83=98-Target
+Segment.
+-=
+=E1=83=99=E1=83=9D=E1=83=9C=E1=83=99=E1=83=A3=E1=83=A0=E1=83=94=E1=83=9C=
+=E1=83=AA=E1=83=98=E1=83=98=E1=83=A1 =E1=83=90=E1=83=9C=E1=83=90=E1=83=
+=9A=E1=83=98=E1=83=96=E1=83=98-Direct
+Competition.
+-=E1=83=9B=E1=83=
+=9D=E1=83=9B=E1=83=AC=E1=83=9D=E1=83=93=E1=83=94=E1=83=91=E1=83=9A=E1=83=
+=94=E1=83=91=E1=83=98=E1=83=A1 =E1=83=90=E1=83=9C=E1=83=90=E1=83=9A=
+=E1=83=98=E1=83=96=E1=83=98-Supply
+Chain.
+-=E1=83=99=E1=83=9D=E1=83=
+=9C=E1=83=99=E1=83=A3=E1=83=A0=E1=83=94=E1=83=9C=E1=83=A2=E1=83=A3=E1=83=
+=9A=E1=83=98
+=E1=83=A3=E1=83=9E=E1=83=98=E1=83=A0=E1=83=90=E1=83=A2=
+=E1=83=94=E1=83=A1=E1=83=9D=E1=83=91=E1=83=90-Competitive advantage.
+-=
+=E1=83=9E=E1=83=A0=E1=83=9D=E1=83=93=E1=83=A3=E1=83=A5=E1=83=A2/=E1=83=
+=90=E1=83=A1=E1=83=9D=E1=83=A0=E1=83=A2=E1=83=98=E1=83=9B=E1=83=94=E1=83=
+=9C=E1=83=A2
+=E1=83=A1=E1=83=A2=E1=83=A0=E1=83=90=E1=83=A2=E1=83=94=
+=E1=83=92=E1=83=98=E1=83=90-Product strategy.
+-=E1=83=A1=E1=83=90=
+=E1=83=A4=E1=83=90=E1=83=A1=E1=83=9D =E1=83=9E=E1=83=9D=E1=83=9A=E1=83=
+=98=E1=83=A2=E1=83=98=E1=83=99=E1=83=90-Price strategy.
+-=E1=83=A1=
+=E1=83=90=E1=83=93=E1=83=98=E1=83=A1=E1=83=A2=E1=83=A0=E1=83=98=E1=83=91=
+=E1=83=A3=E1=83=AA=E1=83=98=E1=83=9D
+=E1=83=90=E1=83=A0=E1=83=AE=E1=83=
+=94=E1=83=91=E1=83=98-Distributions channels.
+-=E1=83=98=E1=83=9C=
+=E1=83=A2=E1=83=94=E1=83=92=E1=83=A0=E1=83=98=E1=83=A0=E1=83=94=E1=83=91=
+=E1=83=A3=E1=83=9A=E1=83=98
+=E1=83=99=E1=83=9D=E1=83=9B=E1=83=A3=E1=83=
+=9C=E1=83=98=E1=83=99=E1=83=90=E1=83=AA=E1=83=98=E1=83=94=E1=83=91=E1=83=
+=98=E1=83=A1 =E1=83=92=E1=83=94=E1=83=92=E1=83=9B=E1=83=90-ICP.
+-=
+=E1=83=9E=E1=83=94=E1=83=A0=E1=83=A1=E1=83=9D=E1=83=9C=E1=83=90=E1=83=9A=
+=E1=83=98,=E1=83=9E=E1=83=A0=E1=83=9D=E1=83=AA=E1=83=94=E1=83=93=E1=83=
+=A3=E1=83=A0=E1=83=94=E1=83=91=E1=83=98,=E1=83=A8=E1=83=94=E1=83=A1=
+=E1=83=A7=E1=83=98=E1=83=93=E1=83=95=E1=83=94=E1=83=91=E1=83=98-PPP.
+-=
+=E1=83=A4=E1=83=98=E1=83=9C=E1=83=90=E1=83=9C=E1=83=A1=E1=83=A3=E1=83=A0=
+=E1=83=98
+=E1=83=90=E1=83=9C=E1=83=90=E1=83=9A=E1=83=98=E1=83=96=E1=83=
+=98-Sales,Penetration,market share.
+-=E1=83=99=E1=83=A3=E1=83=A0=E1=83=
+=A1=E1=83=A1 =E1=83=A3=E1=83=AB=E1=83=A6=E1=83=95=E1=83=94=E1=83=91=
+=E1=83=90: =E1=83=92=E1=83=98=E1=83=9D=E1=83=A0=E1=83=92=E1=83=98
+=
+=E1=83=99=E1=83=A3=E1=83=AD=E1=83=A3=E1=83=AE=E1=83=98=E1=83=AB=E1=83=94. =
+=E1=83=9B=E1=83=A0=E1=83=90=E1=83=95=E1=83=90=E1=83=9A=E1=83=AC=E1=83=9A=
+=E1=83=98=E1=83=90=E1=83=9C=E1=83=98
+=E1=83=A2=E1=83=9D=E1=83=9E-=
+=E1=83=9B=E1=83=94=E1=83=9C=E1=83=94=E1=83=AF=E1=83=94=E1=83=A0=E1=83=A3=
+=E1=83=9A=E1=83=98
+=E1=83=92=E1=83=90=E1=83=9B=E1=83=9D=E1=83=AA=E1=83=
+=93=E1=83=98=E1=83=9A=E1=83=94=E1=83=91=E1=83=90,EMC-=E1=83=90=E1=83=99=
+=E1=83=A0=E1=83=94=E1=83=93=E1=83=98=E1=83=A2=E1=83=90=E1=83=AA=E1=83=98=
+=E1=83=90,=E1=83=A2=E1=83=A0=E1=83=94=E1=83=9C=E1=83=94=E1=83=A0=E1=83=
+=98,=E1=83=91=E1=83=98=E1=83=96=E1=83=9C=E1=83=94=E1=83=A1
+=E1=83=99=
+=E1=83=9D=E1=83=9C=E1=83=A1=E1=83=A3=E1=83=9A=E1=83=A2=E1=83=90=E1=83=9C=
+=E1=83=A2=E1=83=98,
+=E1=83=AC=E1=83=98=E1=83=92=E1=83=9C=E1=83=94=
+=E1=83=91=E1=83=98=E1=83=A1 =E1=83=90=E1=83=95=E1=83=A2=E1=83=9D=E1=83=
+=A0=E1=83=98:
+"=E1=83=A4=E1=83=98=E1=83=9C=E1=83=90=E1=83=9C=E1=83=A1=
+=E1=83=94=E1=83=91=E1=83=98-=E1=83=90=E1=83=A0=E1=83=90=E1=83=A4=E1=83=
+=98=E1=83=9C=E1=83=90=E1=83=9C=E1=83=A1=E1=83=98=E1=83=A1=E1=83=A2=E1=83=
+=94=E1=83=91=E1=83=98=E1=83=A1=E1=83=97=E1=83=95=E1=83=98=E1=83=A1
+=
+=E1=83=9E=E1=83=A0=E1=83=90=E1=83=A5=E1=83=A2=E1=83=98=E1=83=99=E1=83=90=
+=E1=83=A8=E1=83=98" =E2=80=9E=E1=83=9A=E1=83=98=E1=83=93=E1=83=94=E1=83=
+=A0=E1=83=9D=E1=83=91=E1=83=90 =E1=83=93=E1=83=90
+=E1=83=9B=E1=83=90=
+=E1=83=A0=E1=83=97=E1=83=95=E1=83=90 =E1=83=9E=E1=83=A0=E1=83=90=E1=83=
+=A5=E1=83=A2=E1=83=98=E1=83=99=E1=83=90=E1=83=A8=E1=83=98=E2=80=9C
+=
+=E2=80=9E=E1=83=9B=E1=83=90=E1=83=A0=E1=83=99=E1=83=94=E1=83=A2=E1=83=98=
+=E1=83=9C=E1=83=92=E1=83=98 =E1=83=93=E1=83=A6=E1=83=94=E1=83=A1=E2=80=
+=9C. =E1=83=99=E1=83=A3=E1=83=A0=E1=83=A1=E1=83=A1
+=E1=83=A3=E1=83=AB=
+=E1=83=A6=E1=83=95=E1=83=94=E1=83=91=E1=83=98=E1=83=90=E1=83=9C =E1=83=
+=90=E1=83=A1=E1=83=94=E1=83=95=E1=83=94 =E1=83=9B=E1=83=9D=E1=83=AC=
+=E1=83=95=E1=83=94=E1=83=A3=E1=83=9A=E1=83=98
+=E1=83=A1=E1=83=90=E1=83=
+=94=E1=83=A0=E1=83=97=E1=83=90=E1=83=A8=E1=83=9D=E1=83=A0=E1=83=98=E1=83=
+=A1=E1=83=9D =E1=83=A2=E1=83=A0=E1=83=94=E1=83=9C=E1=83=94=E1=83=A0=
+=E1=83=94=E1=83=91=E1=83=98.
+-=E1=83=AF=E1=83=92=E1=83=A3=E1=83=A4=
+=E1=83=A8=E1=83=98 =E1=83=93=E1=83=90=E1=83=A1=E1=83=AC=E1=83=A0=E1=83=
+=94=E1=83=91=E1=83=90
+=E1=83=A8=E1=83=94=E1=83=96=E1=83=A6=E1=83=A3=
+=E1=83=93=E1=83=A3=E1=83=9A=E1=83=98=E1=83=90: =E1=83=9B=E1=83=90=E1=83=
+=A5=E1=83=A1=E1=83=98=E1=83=9B=E1=83=A3=E1=83=9B 12
+=E1=83=9B=E1=83=9D=
+=E1=83=9C=E1=83=90=E1=83=AC=E1=83=98=E1=83=98=E1=83=9A=E1=83=94.(=E1=83=
+=92=E1=83=90=E1=83=A1=E1=83=90=E1=83=A3=E1=83=91=E1=83=A0=E1=83=94=E1=83=
+=91=E1=83=98=E1=83=A1
+=E1=83=A1=E1=83=90=E1=83=A4=E1=83=A3=E1=83=AB=
+=E1=83=95=E1=83=94=E1=83=9A=E1=83=96=E1=83=94)
+-=E1=83=AE=E1=83=90=
+=E1=83=9C=E1=83=92=E1=83=A0=E1=83=AB=E1=83=9A=E1=83=98=E1=83=95=E1=83=9D=
+=E1=83=91=E1=83=90:12 =E1=83=A2=E1=83=A0=E1=83=94=E1=83=9C=E1=83=98=
+=E1=83=9C=E1=83=92
+=E1=83=A1=E1=83=94=E1=83=A1=E1=83=98=E1=83=90 (6 =
+=E1=83=A8=E1=83=94=E1=83=AE=E1=83=95=E1=83=94=E1=83=93=E1=83=A0=E1=83=90)=
+
+-=E1=83=93=E1=83=90=E1=83=A1=E1=83=90=E1=83=AC=E1=83=A7=E1=83=98=
+=E1=83=A1=E1=83=98: 21 =E1=83=90=E1=83=9E=E1=83=A0=E1=83=98=E1=83=9A=
+=E1=83=98 2019
+=E1=83=AC=E1=83=94=E1=83=9A=E1=83=98.
+-=E1=83=93=
+=E1=83=A6=E1=83=94=E1=83=94=E1=83=91=E1=83=98:
+=E1=83=9D=E1=83=A0=
+=E1=83=A8=E1=83=90=E1=83=91=E1=83=90=E1=83=97=E1=83=98-=E1=83=9D=E1=83=
+=97=E1=83=AE=E1=83=A8=E1=83=90=E1=83=91=E1=83=90=E1=83=97=E1=83=98
+=
+=E1=83=90=E1=83=9C,=E1=83=A1=E1=83=90=E1=83=9B=E1=83=A8=E1=83=90=E1=83=
+=91=E1=83=90=E1=83=97=E1=83=98-=E1=83=AE=E1=83=A3=E1=83=97=E1=83=A8=
+=E1=83=90=E1=83=91=E1=83=90=E1=83=97=E1=83=98,
+-=E1=83=93=E1=83=A0=
+=E1=83=9D=E1=83=94=E1=83=91=E1=83=98:19:00-22:00
+-=E1=83=A1=E1=83=90=
+=E1=83=A4=E1=83=90=E1=83=A1=E1=83=A3=E1=83=A0=E1=83=98: 790 =E1=83=9A=
+=E1=83=90=E1=83=A0=E1=83=98=C2=A0
+- =E1=83=A4=E1=83=90=E1=83=A1=E1=83=
+=98 =E1=83=9B=E1=83=9D=E1=83=98=E1=83=AA=E1=83=90=E1=83=95=E1=83=A1 =
+=E1=83=A7=E1=83=95=E1=83=94=E1=83=9A=E1=83=90
+=E1=83=93=E1=83=90=E1=83=
+=9B=E1=83=AE=E1=83=90=E1=83=A0=E1=83=94 =E1=83=9B=E1=83=90=E1=83=A1=
+=E1=83=90=E1=83=9A=E1=83=90=E1=83=A1 =E1=83=93=E1=83=90 =E1=83=A7=E1=83=
+=90=E1=83=95=E1=83=98=E1=83=A1
+=E1=83=A8=E1=83=94=E1=83=A1=E1=83=95=
+=E1=83=94=E1=83=9C=E1=83=94=E1=83=91=E1=83=90=E1=83=A1,=E1=83=90=E1=83=
+=A1=E1=83=94=E1=83=95=E1=83=94
+=E1=83=A2=E1=83=A0=E1=83=94=E1=83=9C=
+=E1=83=98=E1=83=9C=E1=83=92=E1=83=98=E1=83=A1 =E1=83=95=E1=83=98=E1=83=
+=93=E1=83=94=E1=83=9D =E1=83=93=E1=83=90 =E1=83=90=E1=83=A3=E1=83=93=
+=E1=83=98=E1=83=9D
+=E1=83=9B=E1=83=90=E1=83=A1=E1=83=90=E1=83=9A=E1=83=
+=94=E1=83=91=E1=83=A1.
+=E1=83=A0=E1=83=94=E1=83=92=E1=83=98=E1=83=A1=
+=E1=83=A2=E1=83=A0=E1=83=90=E1=83=AA=E1=83=98=E1=83=90: http://bit.do/eMYN8=
+
+http://internetsaitebi.ge/index.php/campaigns/qb9684ofr6318/track-url/yn=
+283y1xpedd9/a32ffca6a9a2cc32a04bcc034a2c7943b130b7c5
+=E1=83=90=E1=83=
+=9C =E1=83=93=E1=83=90=E1=83=92=E1=83=95=E1=83=98=E1=83=99=E1=83=90=
+=E1=83=95=E1=83=A8=E1=83=98=E1=83=A0=E1=83=93=E1=83=98=E1=83=97: =E1=83=
+=A5=E1=83=90=E1=83=9A: (032) 2
+83 03 73 =C2=A0- =E1=83=9B=E1=83=9D=
+=E1=83=91: 577347373
+=E1=83=A9=E1=83=90=E1=83=9B=E1=83=9D=E1=83=A2=
+=E1=83=95=E1=83=98=E1=83=A0=E1=83=97=E1=83=94=E1=83=97 =E1=83=A1=E1=83=
+=90=E1=83=A9=E1=83=A3=E1=83=A5=E1=83=90=E1=83=A0=E1=83=98
+=E1=83=AC=
+=E1=83=98=E1=83=92=E1=83=9C=E1=83=98 =E1=83=A8=E1=83=94=E1=83=9B=E1=83=
+=93=E1=83=94=E1=83=92 =E1=83=9A=E1=83=98=E1=83=9C=E1=83=99=E1=83=96=
+=E1=83=94: =E1=83=9A=E1=83=98=E1=83=9C=E1=83=99=E1=83=98
+http://internets=
+aitebi.ge/index.php/campaigns/qb9684ofr6318/track-url/yn283y1xpedd9/4c3e83b=
+1e9c25aa8456d036e3d25844c8e9809e2=C2=A0
+=E1=83=90=E1=83=9C =E1=83=A9=
+=E1=83=90=E1=83=A1=E1=83=95=E1=83=98=E1=83=97 =E1=83=91=E1=83=A0=E1=83=
+=90=E1=83=A3=E1=83=96=E1=83=94=E1=83=A0=E1=83=A8=E1=83=98
+=E1=83=A8=
+=E1=83=94=E1=83=9B=E1=83=93=E1=83=94=E1=83=92=E1=83=98 =E1=83=9A=E1=83=
+=98=E1=83=9C=E1=83=99=E1=83=98 =E1=83=93=E1=83=90 =E1=83=92=E1=83=90=
+=E1=83=93=E1=83=90=E1=83=93=E1=83=98=E1=83=97
+=E1=83=9A=E1=83=98=E1=83=
+=9C=E1=83=99=E1=83=96=E1=83=94
+https://drive.google.com/file/d/194K6pYr8C=
+rQ7HtjBp_MHIntRCXNnb-p1/view?usp=3Dsharing
+http://internetsaitebi.ge/inde=
+x.php/campaigns/qb9684ofr6318/track-url/yn283y1xpedd9/4c3e83b1e9c25aa8456d0=
+36e3d25844c8e9809e2
+http://internetsaitebi.ge/index.php/lists/cb9952p66r8=
+26/unsubscribe/yn283y1xpedd9/qb9684ofr6318
+=E1=83=94=E1=83=95=E1=83=A0=
+=E1=83=9D=E1=83=9E=E1=83=98=E1=83=A1 =E1=83=91=E1=83=98=E1=83=96=E1=83=
+=9C=E1=83=94=E1=83=A1 =E1=83=A1=E1=83=99=E1=83=9D=E1=83=9A=E1=83=90 =
+=E1=83=93=E1=83=90
+=E1=83=99=E1=83=9D=E1=83=9C=E1=83=A1=E1=83=90=E1=83=
+=9A=E1=83=A2=E1=83=98=E1=83=9C=E1=83=92=E1=83=98
+=E1=83=94=E1=83=95=
+=E1=83=A0=E1=83=9D=E1=83=9E=E1=83=98=E1=83=A1 =E1=83=91=E1=83=98=E1=83=
+=96=E1=83=9C=E1=83=94=E1=83=A1 =E1=83=A1=E1=83=99=E1=83=9D=E1=83=9A=
+=E1=83=90 =E1=83=93=E1=83=90
+=E1=83=99=E1=83=9D=E1=83=9C=E1=83=A1=
+=E1=83=90=E1=83=9A=E1=83=A2=E1=83=98=E1=83=9C=E1=83=92=E1=83=98
+=E1=83=
+=97=E1=83=91=E1=83=98=E1=83=9A=E1=83=98=E1=83=A1=E1=83=98 45545
+Georgia
+
+--_=_swift_v4_1554604395_670ba5cc57064c873df37bfa5560ce6c_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+=09<title></title>
+</head>
+<body>
+<p class=3D"MsoNormal"><span lang=3D"GEO/KAT" style=3D"font-family: &quot;S=
+ylfaen&quot;,serif; font-size: 10.5pt;">-=E1=83=AC=E1=83=98=E1=83=92=
+=E1=83=9C=E1=83=98 =E1=83=A1=E1=83=90=E1=83=A9=E1=83=A3=E1=83=A5=E1=83=
+=A0=E1=83=90=E1=83=93 =E1=83=A9=E1=83=95=E1=83=94=E1=83=9C=E1=83=98 =
+=E1=83=9E=E1=83=98=E1=83=A0=E1=83=95=E1=83=94=E1=83=9A=E1=83=98 =E1=83=
+=A3=E1=83=A0=E1=83=97=E1=83=98=E1=83=94=E1=83=A0=E1=83=97=E1=83=9D=E1=83=
+=91=E1=83=98=E1=83=A1=E1=83=97=E1=83=95=E1=83=98=E1=83=A1 =E2=80=9E=
+=E1=83=9A=E1=83=98=E1=83=93=E1=83=94=E1=83=A0=E1=83=9D=E1=83=91=E1=83=90 =
+=E1=83=93=E1=83=90 =E1=83=9B=E1=83=90=E1=83=A0=E1=83=97=E1=83=95=E1=83=
+=90 =E1=83=9E=E1=83=A0=E1=83=90=E1=83=A5=E1=83=A2=E1=83=98=E1=83=99=
+=E1=83=90=E1=83=A8=E1=83=98=E2=80=9C </span><span style=3D"font-family: &qu=
+ot;Sylfaen&quot;,serif; font-size: 10.5pt;">PDF</span><span lang=3D"GEO/KAT=
+" style=3D"font-family: &quot;Sylfaen&quot;,serif; font-size: 10.5pt;">-=
+=E1=83=95=E1=83=94=E1=83=A0=E1=83=A1=E1=83=98=E1=83=90.</span></p>
+
+<p class=3D"MsoNormal"><span style=3D"color: rgb(29, 33, 41); font-family: =
+&quot;Helvetica&quot;,sans-serif; font-size: 10.5pt;"><a data-saferedirectu=
+rl=3D"https://www.google.com/url?q=3Dhttps://www.facebook.com/hashtag/%25E1=
+%2583%25A2%25E1%2583%259D%25E1%2583%259E%25E1%2583%259B%25E1%2583%2594%25E1=
+%2583%259C%25E1%2583%2594%25E1%2583%25AF%25E1%2583%259B%25E1%2583%2594%25E1=
+%2583%259C%25E1%2583%25A2%25E1%2583%2598?source%3Dfeed_text%26epa%3DHASHTAG=
+%26__xts__%255B0%255D%3D68.ARCtIRENHVDvsPlObo1WNgw12Q3Lzi_R-ZP1XEUKLGIPC96n=
+BYp0vAAmQqYd0LE5N9Vn_kfTs3CQX0Vdf2xSuHbyXfy2ac54hil-DcNI1KvAhTK0t3Oq3KW21eB=
+6-Wr7ycflXxX0IhOsoqwelVx6jXSNoRpWeIAKqv6tLb9qYKb7SGTaO0OUXD3ZUUSxvxMyXfinVa=
+rKz_AX7aQyaQepkQMvTQbEo-kFFYjBHkrroAOmMdDo7jhU-y511xxnYTktAn_DFP77JpdNlYG9S=
+Tz6-uQRghfyz_xPqk3V29O0W0hT5DRJcwL7v0xuovjerv33kE8qK9ICXDKPD2l8bWvJVtDPs0OT=
+%26__tn__%3D%252ANK-R&amp;source=3Dgmail&amp;ust=3D1553870331174000&amp;usg=
+=3DAFQjCNFzLein8XVk22rCtC06mV_3YG9-FQ" href=3D"http://internetsaitebi.ge/in=
+dex.php/campaigns/qb9684ofr6318/track-url/yn283y1xpedd9/8f47ff473073a098598=
+15661341a978f4b1c86e3" target=3D"_blank"><span style=3D"color: rgb(54, 88, =
+153); font-family: &quot;Times New Roman&quot;,serif; text-decoration: none=
+;">#</span><span style=3D"color: rgb(54, 88, 153); font-family: &quot;Sylfa=
+en&quot;,serif; text-decoration: none;">=E1=83=A2=E1=83=9D=E1=83=9E=
+=E1=83=9B=E1=83=94=E1=83=9C=E1=83=94=E1=83=AF=E1=83=9B=E1=83=94=E1=83=9C=
+=E1=83=A2=E1=83=98</span></a></span><span style=3D"font-family: &quot;Times=
+ New Roman&quot;,serif; font-size: 12pt;">=C2=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"background: white; margin-bottom: 4.5pt;"><=
+b><span style=3D"color: rgb(29, 33, 41); font-family: &quot;Segoe UI Emoji&=
+quot;,sans-serif; font-size: 12pt;"><img alt=3D"&#x1f449;" class=3D"CToWUd"=
+ data-goomoji=3D"1f449" data-image-whitelisted=3D"" goomoji=3D"1f449" src=
+=3D"https://mail.google.com/mail/e/1f449" style=3D"margin: 0px 0.2ex; verti=
+cal-align: middle; max-height: 24px;" /></span></b><b><span style=3D"font-f=
+amily: &quot;Sylfaen&quot;,serif; font-size: 12pt;"> </span></b><span style=
+=3D"color: rgb(29, 33, 41); font-family: &quot;Sylfaen&quot;,serif; font-si=
+ze: 10.5pt;">=E1=83=A2=E1=83=A0=E1=83=94=E1=83=9C=E1=83=98=E1=83=9C=
+=E1=83=92=E1=83=98</span><span lang=3D"GEO/KAT" style=3D"color: rgb(29, 33,=
+ 41); font-family: &quot;Sylfaen&quot;,serif; font-size: 10.5pt;">=E1=83=
+=A1 =E1=83=90=E1=83=9C=E1=83=9D=E1=83=9C=E1=83=A1=E1=83=98</span><span styl=
+e=3D"color: rgb(29, 33, 41); font-family: &quot;Helvetica&quot;,sans-serif;=
+ font-size: 10.5pt;">: </span><b><span lang=3D"GEO/KAT" style=3D"color: rgb=
+(29, 33, 41); font-family: &quot;Sylfaen&quot;,serif; font-size: 10.5pt;">=
+=E1=83=9B=E1=83=90=E1=83=A0=E1=83=99=E1=83=94=E1=83=A2=E1=83=98=E1=83=9C=
+=E1=83=92=E1=83=98 =E1=83=93=E1=83=90 =E1=83=92=E1=83=90=E1=83=A7=E1=83=
+=98=E1=83=93=E1=83=95=E1=83=94=E1=83=91=E1=83=98 =E1=83=A2=E1=83=9D=
+=E1=83=9E-=E1=83=9B=E1=83=94=E1=83=9C=E1=83=94=E1=83=AF=E1=83=94=E1=83=
+=A0=E1=83=94=E1=83=91=E1=83=98=E1=83=A1=E1=83=97=E1=83=95=E1=83=98=E1=83=
+=A1!</span></b></p>
+
+<p class=3D"MsoNormal" style=3D"background: white; margin-right: 0in; margi=
+n-bottom: 4.5pt; margin-left: 0in;"><span lang=3D"GEO/KAT" style=3D"font-fa=
+mily: &quot;Sylfaen&quot;,serif; font-size: 10.5pt;">- </span><span style=
+=3D"color: rgb(29, 33, 41); font-family: &quot;Sylfaen&quot;,serif; font-si=
+ze: 10.5pt;">=E1=83=A7=E1=83=95=E1=83=94=E1=83=9A=E1=83=90=E1=83=A1</span><=
+span style=3D"color: rgb(29, 33, 41); font-family: &quot;Helvetica&quot;,sa=
+ns-serif; font-size: 10.5pt;"> </span><span style=3D"color: rgb(29, 33, 41)=
+; font-family: &quot;Sylfaen&quot;,serif; font-size: 10.5pt;">=E1=83=95=
+=E1=83=98=E1=83=A1=E1=83=90=E1=83=AA</span><span style=3D"color: rgb(29, 33=
+, 41); font-family: &quot;Helvetica&quot;,sans-serif; font-size: 10.5pt;"> =
+</span><span style=3D"color: rgb(29, 33, 41); font-family: &quot;Sylfaen&qu=
+ot;,serif; font-size: 10.5pt;">=E1=83=A1=E1=83=A3=E1=83=A0=E1=83=A1</span><=
+span style=3D"color: rgb(29, 33, 41); font-family: &quot;Helvetica&quot;,sa=
+ns-serif; font-size: 10.5pt;"> </span><span style=3D"color: rgb(29, 33, 41)=
+; font-family: &quot;Sylfaen&quot;,serif; font-size: 10.5pt;">=E1=83=93=
+=E1=83=90=E1=83=94=E1=83=A3=E1=83=A4=E1=83=9A=E1=83=9D=E1=83=A1</span><span=
+ style=3D"color: rgb(29, 33, 41); font-family: &quot;Helvetica&quot;,sans-s=
+erif; font-size: 10.5pt;"> </span><span style=3D"color: rgb(29, 33, 41); fo=
+nt-family: &quot;Sylfaen&quot;,serif; font-size: 10.5pt;">=E1=83=A1=
+=E1=83=A2=E1=83=A0=E1=83=90=E1=83=A2=E1=83=94=E1=83=92=E1=83=98=E1=83=A3=
+=E1=83=9A=E1=83=98</span><span style=3D"color: rgb(29, 33, 41); font-family=
+: &quot;Helvetica&quot;,sans-serif; font-size: 10.5pt;"> </span><span lang=
+=3D"GEO/KAT" style=3D"font-family: &quot;Sylfaen&quot;,serif; font-size: 10=
+.5pt;">=E1=83=9B=E1=83=90=E1=83=A0=E1=83=99=E1=83=94=E1=83=A2=E1=83=98=
+=E1=83=9C=E1=83=92=E1=83=98=E1=83=A1=E1=83=90 =E1=83=93=E1=83=90 =E1=83=
+=92=E1=83=90=E1=83=A7=E1=83=98=E1=83=93=E1=83=95=E1=83=94=E1=83=91=E1=83=
+=98=E1=83=A1 </span><span style=3D"color: rgb(29, 33, 41); font-family: &qu=
+ot;Sylfaen&quot;,serif; font-size: 10.5pt;">=E1=83=90=E1=83=9C=E1=83=90=
+=E1=83=9A=E1=83=98=E1=83=A2=E1=83=98=E1=83=99=E1=83=98=E1=83=A1</span><span=
+ style=3D"color: rgb(29, 33, 41); font-family: &quot;Helvetica&quot;,sans-s=
+erif; font-size: 10.5pt;"> </span><span style=3D"color: rgb(29, 33, 41); fo=
+nt-family: &quot;Sylfaen&quot;,serif; font-size: 10.5pt;">=E1=83=A3=
+=E1=83=9C=E1=83=90=E1=83=A0=E1=83=94=E1=83=91=E1=83=A1</span><span style=3D=
+"color: rgb(29, 33, 41); font-family: &quot;Helvetica&quot;,sans-serif; fon=
+t-size: 10.5pt;"> </span><span style=3D"color: rgb(29, 33, 41); font-family=
+: &quot;Sylfaen&quot;,serif; font-size: 10.5pt;">=E1=83=94=E1=83=95=
+=E1=83=A0=E1=83=9D=E1=83=9E=E1=83=A3=E1=83=9A=E1=83=98</span><span style=3D=
+"color: rgb(29, 33, 41); font-family: &quot;Helvetica&quot;,sans-serif; fon=
+t-size: 10.5pt;"> </span><span style=3D"color: rgb(29, 33, 41); font-family=
+: &quot;Sylfaen&quot;,serif; font-size: 10.5pt;">=E1=83=A1=E1=83=A2=
+=E1=83=90=E1=83=9C=E1=83=93=E1=83=90=E1=83=A0=E1=83=A2=E1=83=94=E1=83=91=
+=E1=83=98=E1=83=97</span><span style=3D"color: rgb(29, 33, 41); font-family=
+: &quot;Helvetica&quot;,sans-serif; font-size: 10.5pt;">.</span></p>
+
+<p class=3D"MsoNormal" style=3D"background: white; margin-bottom: 4.5pt;"><=
+span lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); font-family: &quot;S=
+ylfaen&quot;,serif; font-size: 10.5pt;">- </span><b><span style=3D"color: r=
+gb(29, 33, 41); font-family: &quot;Sylfaen&quot;,serif; font-size: 10.5pt;"=
+>=E1=83=A2=E1=83=A0=E1=83=94=E1=83=9C=E1=83=98=E1=83=9C=E1=83=92=E1=83=
+=98</span></b><b><span style=3D"color: rgb(29, 33, 41); font-family: &quot;=
+Times New Roman&quot;,serif; font-size: 10.5pt;"> </span></b><b><span style=
+=3D"color: rgb(29, 33, 41); font-family: &quot;Sylfaen&quot;,serif; font-si=
+ze: 10.5pt;">=E1=83=92=E1=83=90=E1=83=9C=E1=83=99=E1=83=A3=E1=83=97=
+=E1=83=95=E1=83=9C=E1=83=98=E1=83=9A=E1=83=98=E1=83=90</span></b><b><span s=
+tyle=3D"color: rgb(29, 33, 41); font-family: &quot;Times New Roman&quot;,se=
+rif; font-size: 10.5pt;">:</span></b><span style=3D"color: rgb(29, 33, 41);=
+ font-family: &quot;Times New Roman&quot;,serif; font-size: 10.5pt;"> </spa=
+n><span style=3D"color: rgb(29, 33, 41); font-family: &quot;Sylfaen&quot;,s=
+erif; font-size: 10.5pt;">=E1=83=99=E1=83=9D=E1=83=9B=E1=83=9E=E1=83=90=
+=E1=83=9C=E1=83=98=E1=83=98=E1=83=A1</span><span style=3D"color: rgb(29, 33=
+, 41); font-family: &quot;Times New Roman&quot;,serif; font-size: 10.5pt;">=
+ </span><span style=3D"color: rgb(29, 33, 41); font-family: &quot;Sylfaen&q=
+uot;,serif; font-size: 10.5pt;">=E1=83=92=E1=83=94=E1=83=9C=E1=83=94=
+=E1=83=A0=E1=83=90=E1=83=9A=E1=83=A3=E1=83=A0=E1=83=98</span><span style=3D=
+"color: rgb(29, 33, 41); font-family: &quot;Times New Roman&quot;,serif; fo=
+nt-size: 10.5pt;"> </span><span style=3D"color: rgb(29, 33, 41); font-famil=
+y: &quot;Sylfaen&quot;,serif; font-size: 10.5pt;">=E1=83=9B=E1=83=94=
+=E1=83=9C=E1=83=94=E1=83=AF=E1=83=94=E1=83=A0=E1=83=94=E1=83=91=E1=83=98=
+=E1=83=A1=E1=83=97=E1=83=95=E1=83=98=E1=83=A1</span><span style=3D"color: r=
+gb(29, 33, 41); font-family: &quot;Times New Roman&quot;,serif; font-size: =
+10.5pt;">,</span><span lang=3D"GEO/KAT" style=3D"font-family: &quot;Sylfaen=
+&quot;,serif; font-size: 10.5pt;">=E1=83=93=E1=83=90=E1=83=9B=E1=83=A4=
+=E1=83=A3=E1=83=AB=E1=83=9C=E1=83=94=E1=83=91=E1=83=9A=E1=83=94=E1=83=91=
+=E1=83=98=E1=83=A1<wbr />=E1=83=97=E1=83=95=E1=83=98=E1=83=A1,=E1=83=93=
+=E1=83=94=E1=83=9E=E1=83=90=E1=83=A0=E1=83=A2=E1=83=90=E1=83=9B=E1=83=94=
+=E1=83=9C=E1=83=A2=E1=83=98=E1=83=A1 =E1=83=AE=E1=83=94=E1=83=9A=E1=83=
+=9B=E1=83=AB=E1=83=A6=E1=83=95=E1=83=90=E1=83=9C=E1=83=94=E1=83=9A=E1=83=
+=94=E1=83=91=E1=83=98=E1=83=A1=E1=83=97=E1=83=95=E1=83=98=E1=83=A1.</span><=
+/p>
+
+<p class=3D"MsoNormal" style=3D"background: white; margin-right: 0in; margi=
+n-bottom: 4.5pt; margin-left: 0in;"><span lang=3D"GEO/KAT" style=3D"color: =
+rgb(29, 33, 41); font-family: &quot;Segoe UI Emoji&quot;,sans-serif; font-s=
+ize: 12pt;"><img alt=3D"&#x1f449;" class=3D"CToWUd" data-goomoji=3D"1f449" =
+data-image-whitelisted=3D"" goomoji=3D"1f449" src=3D"https://mail.google.co=
+m/mail/e/1f449" style=3D"margin: 0px 0.2ex; vertical-align: middle; max-hei=
+ght: 24px;" /></span><span lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41)=
+; font-family: &quot;Sylfaen&quot;,serif; font-size: 10.5pt;">=E1=83=A0=
+=E1=83=94=E1=83=92=E1=83=98=E1=83=A1=E1=83=A2=E1=83=A0=E1=83=90=E1=83=AA=
+=E1=83=98</span><span lang=3D"GEO/KAT" style=3D"font-family: &quot;Sylfaen&=
+quot;,serif; font-size: 10.5pt;">=E1=83=90</span><span lang=3D"GEO/KAT" sty=
+le=3D"color: rgb(29, 33, 41); font-family: &quot;Times New Roman&quot;,seri=
+f; font-size: 10.5pt;">: </span><u><span lang=3D"GEO/KAT" style=3D"font-fam=
+ily: &quot;Sylfaen&quot;,serif;"><a data-saferedirecturl=3D"https://www.goo=
+gle.com/url?q=3Dhttp://bit.do/eMYN8&amp;source=3Dgmail&amp;ust=3D1553870331=
+175000&amp;usg=3DAFQjCNEGtqn9mtQIE9qMWeOE89quAFl8hg" href=3D"http://interne=
+tsaitebi.ge/index.php/campaigns/qb9684ofr6318/track-url/yn283y1xpedd9/a32ff=
+ca6a9a2cc32a04bcc034a2c7943b130b7c5" target=3D"_blank">http://bit.do/eMYN8<=
+/a></span></u></p>
+
+<p class=3D"MsoNormal" style=3D"background: white; margin-right: 0in; margi=
+n-bottom: 4.5pt; margin-left: 0in;"><span lang=3D"GEO/KAT" style=3D"color: =
+rgb(29, 33, 41); font-family: &quot;Sylfaen&quot;,serif; font-size: 10.5pt;=
+">=E1=83=90=E1=83=9C</span><span lang=3D"GEO/KAT" style=3D"color: rgb(29, 3=
+3, 41); font-family: &quot;Times New Roman&quot;,serif; font-size: 10.5pt;"=
+> </span><span lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); font-famil=
+y: &quot;Sylfaen&quot;,serif; font-size: 10.5pt;">=E1=83=93=E1=83=90=
+=E1=83=92=E1=83=95=E1=83=98=E1=83=99=E1=83=90=E1=83=95=E1=83=A8=E1=83=98=
+=E1=83=A0=E1=83=93=E1=83=98=E1=83=97</span><span lang=3D"GEO/KAT" style=3D"=
+color: rgb(29, 33, 41); font-family: &quot;Times New Roman&quot;,serif; fon=
+t-size: 10.5pt;">: </span><span lang=3D"GEO/KAT" style=3D"font-family: &quo=
+t;Sylfaen&quot;,serif; font-size: 10.5pt;">=E1=83=A5=E1=83=90=E1=83=9A: </s=
+pan><span lang=3D"GEO/KAT" style=3D"background: white; color: rgb(28, 30, 3=
+3); font-family: &quot;Helvetica&quot;,sans-serif; font-size: 10.5pt;">(032=
+) 2 83 03 73</span><span lang=3D"GEO/KAT" style=3D"background: white; color=
+: rgb(28, 30, 33); font-family: &quot;Sylfaen&quot;,serif; font-size: 10.5p=
+t;"> </span><span lang=3D"GEO/KAT" style=3D"font-family: &quot;Times New Ro=
+man&quot;,serif; font-size: 12pt;">=C2=A0</span><span lang=3D"GEO/KAT" styl=
+e=3D"font-family: &quot;Sylfaen&quot;,serif; font-size: 12pt;">- =E1=83=
+=9B=E1=83=9D=E1=83=91: 577347373</span></p>
+
+<p class=3D"MsoNormal" style=3D"background: white; margin-right: 0in; margi=
+n-bottom: 4.5pt; margin-left: 0in;"><b><span lang=3D"GEO/KAT" style=3D"font=
+-family: &quot;Sylfaen&quot;,serif;">=E1=83=99=E1=83=A3=E1=83=A0=E1=83=
+=A1=E1=83=98=E1=83=A1 =E1=83=90=E1=83=A6=E1=83=AC=E1=83=94=E1=83=A0=
+=E1=83=90:</span></b></p>
+
+<p class=3D"MsoNormal" style=3D"background: white; margin-right: 0in; margi=
+n-bottom: 4.5pt; margin-left: 0in;"><b><span lang=3D"GEO/KAT" style=3D"back=
+ground: white; color: rgb(28, 30, 33); font-family: &quot;Segoe UI Emoji&qu=
+ot;,sans-serif; font-size: 12pt;">=E2=9C=85</span></b><b><span lang=3D"GEO/=
+KAT" style=3D"background: white; color: rgb(28, 30, 33); font-family: &quot=
+;Sylfaen&quot;,serif; font-size: 10.5pt;">=E1=83=9B=E1=83=90=E1=83=A0=
+=E1=83=99=E1=83=94=E1=83=A2=E1=83=98=E1=83=9C=E1=83=92=E1=83=98</span></b><=
+b><span lang=3D"GEO/KAT" style=3D"background: white; color: rgb(28, 30, 33)=
+; font-family: &quot;Helvetica&quot;,sans-serif; font-size: 10.5pt;"> </spa=
+n></b><b><span lang=3D"GEO/KAT" style=3D"background: white; color: rgb(28, =
+30, 33); font-family: &quot;Sylfaen&quot;,serif; font-size: 10.5pt;">=
+=E1=83=93=E1=83=90</span></b><b><span lang=3D"GEO/KAT" style=3D"background:=
+ white; color: rgb(28, 30, 33); font-family: &quot;Helvetica&quot;,sans-ser=
+if; font-size: 10.5pt;"> </span></b><b><span lang=3D"GEO/KAT" style=3D"back=
+ground: white; color: rgb(28, 30, 33); font-family: &quot;Sylfaen&quot;,ser=
+if; font-size: 10.5pt;">=E1=83=92=E1=83=90=E1=83=A7=E1=83=98=E1=83=93=
+=E1=83=95=E1=83=94=E1=83=91=E1=83=98</span></b><b><span lang=3D"GEO/KAT" st=
+yle=3D"background: white; color: rgb(28, 30, 33); font-family: &quot;Helvet=
+ica&quot;,sans-serif; font-size: 10.5pt;">:</span></b><br />
+<span lang=3D"GEO/KAT" style=3D"color: rgb(28, 30, 33); font-family: &quot;=
+Helvetica&quot;,sans-serif; font-size: 10.5pt;"><span style=3D"background: =
+white;">-</span></span><span lang=3D"GEO/KAT" style=3D"background: white; c=
+olor: rgb(28, 30, 33); font-family: &quot;Sylfaen&quot;,serif; font-size: 1=
+0.5pt;">=E1=83=9B=E1=83=90=E1=83=99=E1=83=A0=E1=83=9D</span><span lang=3D"G=
+EO/KAT" style=3D"background: white; color: rgb(28, 30, 33); font-family: &q=
+uot;Helvetica&quot;,sans-serif; font-size: 10.5pt;"> </span><span lang=3D"G=
+EO/KAT" style=3D"background: white; color: rgb(28, 30, 33); font-family: &q=
+uot;Sylfaen&quot;,serif; font-size: 10.5pt;">=E1=83=9B=E1=83=90=E1=83=A0=
+=E1=83=99=E1=83=94=E1=83=A2=E1=83=98=E1=83=9C=E1=83=92=E1=83=A3=E1=83=9A=
+=E1=83=98</span><span lang=3D"GEO/KAT" style=3D"background: white; color: r=
+gb(28, 30, 33); font-family: &quot;Helvetica&quot;,sans-serif; font-size: 1=
+0.5pt;"> </span><span lang=3D"GEO/KAT" style=3D"background: white; color: r=
+gb(28, 30, 33); font-family: &quot;Sylfaen&quot;,serif; font-size: 10.5pt;"=
+>=E1=83=92=E1=83=90=E1=83=A0=E1=83=94=E1=83=9B=E1=83=9D</span><span lang=3D=
+"GEO/KAT" style=3D"background: white; color: rgb(28, 30, 33); font-family: =
+&quot;Helvetica&quot;,sans-serif; font-size: 10.5pt;">-PESTL</span><br />
+<span lang=3D"GEO/KAT" style=3D"color: rgb(28, 30, 33); font-family: &quot;=
+Helvetica&quot;,sans-serif; font-size: 10.5pt;"><span style=3D"background: =
+white;">-</span></span><span lang=3D"GEO/KAT" style=3D"background: white; c=
+olor: rgb(28, 30, 33); font-family: &quot;Sylfaen&quot;,serif; font-size: 1=
+0.5pt;">=E1=83=9B=E1=83=98=E1=83=99=E1=83=A0=E1=83=9D</span><span lang=3D"G=
+EO/KAT" style=3D"background: white; color: rgb(28, 30, 33); font-family: &q=
+uot;Helvetica&quot;,sans-serif; font-size: 10.5pt;"> </span><span lang=3D"G=
+EO/KAT" style=3D"background: white; color: rgb(28, 30, 33); font-family: &q=
+uot;Sylfaen&quot;,serif; font-size: 10.5pt;">=E1=83=9B=E1=83=90=E1=83=A0=
+=E1=83=99=E1=83=94=E1=83=A2=E1=83=98=E1=83=9C=E1=83=92=E1=83=A3=E1=83=9A=
+=E1=83=98</span><span lang=3D"GEO/KAT" style=3D"background: white; color: r=
+gb(28, 30, 33); font-family: &quot;Helvetica&quot;,sans-serif; font-size: 1=
+0.5pt;"> </span><span lang=3D"GEO/KAT" style=3D"background: white; color: r=
+gb(28, 30, 33); font-family: &quot;Sylfaen&quot;,serif; font-size: 10.5pt;"=
+>=E1=83=92=E1=83=90=E1=83=A0=E1=83=94=E1=83=9B=E1=83=9D</span><span lang=3D=
+"GEO/KAT" style=3D"background: white; color: rgb(28, 30, 33); font-family: =
+&quot;Helvetica&quot;,sans-serif; font-size: 10.5pt;">-CCS</span><br />
+<span lang=3D"GEO/KAT" style=3D"color: rgb(28, 30, 33); font-family: &quot;=
+Helvetica&quot;,sans-serif; font-size: 10.5pt;"><span style=3D"background: =
+white;">-</span></span><span lang=3D"GEO/KAT" style=3D"background: white; c=
+olor: rgb(28, 30, 33); font-family: &quot;Sylfaen&quot;,serif; font-size: 1=
+0.5pt;">=E1=83=9B=E1=83=9D=E1=83=9B=E1=83=AE=E1=83=9B=E1=83=90=E1=83=A0=
+=E1=83=94=E1=83=91=E1=83=9A=E1=83=98=E1=83=A1</span><span lang=3D"GEO/KAT" =
+style=3D"background: white; color: rgb(28, 30, 33); font-family: &quot;Helv=
+etica&quot;,sans-serif; font-size: 10.5pt;"> </span><span lang=3D"GEO/KAT" =
+style=3D"background: white; color: rgb(28, 30, 33); font-family: &quot;Sylf=
+aen&quot;,serif; font-size: 10.5pt;">=E1=83=90=E1=83=9C=E1=83=90=E1=83=
+=9A=E1=83=98=E1=83=96=E1=83=98</span><span lang=3D"GEO/KAT" style=3D"backgr=
+ound: white; color: rgb(28, 30, 33); font-family: &quot;Helvetica&quot;,san=
+s-serif; font-size: 10.5pt;">-Target Segment.</span><br />
+<span lang=3D"GEO/KAT" style=3D"color: rgb(28, 30, 33); font-family: &quot;=
+Helvetica&quot;,sans-serif; font-size: 10.5pt;"><span style=3D"background: =
+white;">-</span></span><span lang=3D"GEO/KAT" style=3D"background: white; c=
+olor: rgb(28, 30, 33); font-family: &quot;Sylfaen&quot;,serif; font-size: 1=
+0.5pt;">=E1=83=99=E1=83=9D=E1=83=9C=E1=83=99=E1=83=A3=E1=83=A0=E1=83=94=
+=E1=83=9C=E1=83=AA=E1=83=98=E1=83=98=E1=83=A1</span><span lang=3D"GEO/KAT" =
+style=3D"background: white; color: rgb(28, 30, 33); font-family: &quot;Helv=
+etica&quot;,sans-serif; font-size: 10.5pt;"> </span><span lang=3D"GEO/KAT" =
+style=3D"background: white; color: rgb(28, 30, 33); font-family: &quot;Sylf=
+aen&quot;,serif; font-size: 10.5pt;">=E1=83=90=E1=83=9C=E1=83=90=E1=83=
+=9A=E1=83=98=E1=83=96=E1=83=98</span><span lang=3D"GEO/KAT" style=3D"backgr=
+ound: white; color: rgb(28, 30, 33); font-family: &quot;Helvetica&quot;,san=
+s-serif; font-size: 10.5pt;">-Direct Competition.</span><br />
+<span lang=3D"GEO/KAT" style=3D"color: rgb(28, 30, 33); font-family: &quot;=
+Helvetica&quot;,sans-serif; font-size: 10.5pt;"><span style=3D"background: =
+white;">-</span></span><span lang=3D"GEO/KAT" style=3D"background: white; c=
+olor: rgb(28, 30, 33); font-family: &quot;Sylfaen&quot;,serif; font-size: 1=
+0.5pt;">=E1=83=9B=E1=83=9D=E1=83=9B=E1=83=AC=E1=83=9D=E1=83=93=E1=83=94=
+=E1=83=91=E1=83=9A=E1=83=94=E1=83=91=E1=83=98=E1=83=A1</span><span lang=3D"=
+GEO/KAT" style=3D"background: white; color: rgb(28, 30, 33); font-family: &=
+quot;Helvetica&quot;,sans-serif; font-size: 10.5pt;"> </span><span lang=3D"=
+GEO/KAT" style=3D"background: white; color: rgb(28, 30, 33); font-family: &=
+quot;Sylfaen&quot;,serif; font-size: 10.5pt;">=E1=83=90=E1=83=9C=E1=83=
+=90=E1=83=9A=E1=83=98=E1=83=96=E1=83=98</span><span lang=3D"GEO/KAT" style=
+=3D"background: white; color: rgb(28, 30, 33); font-family: &quot;Helvetica=
+&quot;,sans-serif; font-size: 10.5pt;">-Supply Chain.</span><br />
+<span lang=3D"GEO/KAT" style=3D"color: rgb(28, 30, 33); font-family: &quot;=
+Helvetica&quot;,sans-serif; font-size: 10.5pt;"><span style=3D"background: =
+white;">-</span></span><span lang=3D"GEO/KAT" style=3D"background: white; c=
+olor: rgb(28, 30, 33); font-family: &quot;Sylfaen&quot;,serif; font-size: 1=
+0.5pt;">=E1=83=99=E1=83=9D=E1=83=9C=E1=83=99=E1=83=A3=E1=83=A0=E1=83=94=
+=E1=83=9C=E1=83=A2=E1=83=A3=E1=83=9A=E1=83=98</span><span lang=3D"GEO/KAT" =
+style=3D"background: white; color: rgb(28, 30, 33); font-family: &quot;Helv=
+etica&quot;,sans-serif; font-size: 10.5pt;"> </span><span lang=3D"GEO/KAT" =
+style=3D"background: white; color: rgb(28, 30, 33); font-family: &quot;Sylf=
+aen&quot;,serif; font-size: 10.5pt;">=E1=83=A3=E1=83=9E=E1=83=98=E1=83=
+=A0=E1=83=90=E1=83=A2=E1=83=94=E1=83=A1=E1=83=9D=E1=83=91=E1=83=90</span><s=
+pan lang=3D"GEO/KAT" style=3D"background: white; color: rgb(28, 30, 33); fo=
+nt-family: &quot;Helvetica&quot;,sans-serif; font-size: 10.5pt;">-Competiti=
+ve advantage.</span><br />
+<span lang=3D"GEO/KAT" style=3D"color: rgb(28, 30, 33); font-family: &quot;=
+Helvetica&quot;,sans-serif; font-size: 10.5pt;"><span style=3D"background: =
+white;">-</span></span><span lang=3D"GEO/KAT" style=3D"background: white; c=
+olor: rgb(28, 30, 33); font-family: &quot;Sylfaen&quot;,serif; font-size: 1=
+0.5pt;">=E1=83=9E=E1=83=A0=E1=83=9D=E1=83=93=E1=83=A3=E1=83=A5=E1=83=A2</sp=
+an><span lang=3D"GEO/KAT" style=3D"background: white; color: rgb(28, 30, 33=
+); font-family: &quot;Helvetica&quot;,sans-serif; font-size: 10.5pt;">/</sp=
+an><span lang=3D"GEO/KAT" style=3D"background: white; color: rgb(28, 30, 33=
+); font-family: &quot;Sylfaen&quot;,serif; font-size: 10.5pt;">=E1=83=90=
+=E1=83=A1=E1=83=9D=E1=83=A0=E1=83=A2=E1=83=98=E1=83=9B=E1=83=94=E1=83=9C=
+=E1=83=A2</span><span lang=3D"GEO/KAT" style=3D"background: white; color: r=
+gb(28, 30, 33); font-family: &quot;Helvetica&quot;,sans-serif; font-size: 1=
+0.5pt;"> </span><span lang=3D"GEO/KAT" style=3D"background: white; color: r=
+gb(28, 30, 33); font-family: &quot;Sylfaen&quot;,serif; font-size: 10.5pt;"=
+>=E1=83=A1=E1=83=A2=E1=83=A0=E1=83=90=E1=83=A2=E1=83=94=E1=83=92=E1=83=
+=98=E1=83=90</span><span lang=3D"GEO/KAT" style=3D"background: white; color=
+: rgb(28, 30, 33); font-family: &quot;Helvetica&quot;,sans-serif; font-size=
+: 10.5pt;">-Product strategy.</span><br />
+<span lang=3D"GEO/KAT" style=3D"color: rgb(28, 30, 33); font-family: &quot;=
+Helvetica&quot;,sans-serif; font-size: 10.5pt;"><span style=3D"background: =
+white;">-</span></span><span lang=3D"GEO/KAT" style=3D"background: white; c=
+olor: rgb(28, 30, 33); font-family: &quot;Sylfaen&quot;,serif; font-size: 1=
+0.5pt;">=E1=83=A1=E1=83=90=E1=83=A4=E1=83=90=E1=83=A1=E1=83=9D</span><span =
+lang=3D"GEO/KAT" style=3D"background: white; color: rgb(28, 30, 33); font-f=
+amily: &quot;Helvetica&quot;,sans-serif; font-size: 10.5pt;"> </span><span =
+lang=3D"GEO/KAT" style=3D"background: white; color: rgb(28, 30, 33); font-f=
+amily: &quot;Sylfaen&quot;,serif; font-size: 10.5pt;">=E1=83=9E=E1=83=9D=
+=E1=83=9A=E1=83=98=E1=83=A2=E1=83=98=E1=83=99=E1=83=90</span><span lang=3D"=
+GEO/KAT" style=3D"background: white; color: rgb(28, 30, 33); font-family: &=
+quot;Helvetica&quot;,sans-serif; font-size: 10.5pt;">-Price strategy.</span=
+><br />
+<span lang=3D"GEO/KAT" style=3D"color: rgb(28, 30, 33); font-family: &quot;=
+Helvetica&quot;,sans-serif; font-size: 10.5pt;"><span style=3D"background: =
+white;">-</span></span><span lang=3D"GEO/KAT" style=3D"background: white; c=
+olor: rgb(28, 30, 33); font-family: &quot;Sylfaen&quot;,serif; font-size: 1=
+0.5pt;">=E1=83=A1=E1=83=90=E1=83=93=E1=83=98=E1=83=A1=E1=83=A2=E1=83=A0=
+=E1=83=98=E1=83=91=E1=83=A3=E1=83=AA=E1=83=98=E1=83=9D</span><span lang=3D"=
+GEO/KAT" style=3D"background: white; color: rgb(28, 30, 33); font-family: &=
+quot;Helvetica&quot;,sans-serif; font-size: 10.5pt;"> </span><span lang=3D"=
+GEO/KAT" style=3D"background: white; color: rgb(28, 30, 33); font-family: &=
+quot;Sylfaen&quot;,serif; font-size: 10.5pt;">=E1=83=90=E1=83=A0=E1=83=
+=AE=E1=83=94=E1=83=91=E1=83=98</span><span lang=3D"GEO/KAT" style=3D"backgr=
+ound: white; color: rgb(28, 30, 33); font-family: &quot;Helvetica&quot;,san=
+s-serif; font-size: 10.5pt;">-Distributions channels.</span><br />
+<span lang=3D"GEO/KAT" style=3D"color: rgb(28, 30, 33); font-family: &quot;=
+Helvetica&quot;,sans-serif; font-size: 10.5pt;"><span style=3D"background: =
+white;">-</span></span><span lang=3D"GEO/KAT" style=3D"background: white; c=
+olor: rgb(28, 30, 33); font-family: &quot;Sylfaen&quot;,serif; font-size: 1=
+0.5pt;">=E1=83=98=E1=83=9C=E1=83=A2=E1=83=94=E1=83=92=E1=83=A0=E1=83=98=
+=E1=83=A0=E1=83=94=E1=83=91=E1=83=A3=E1=83=9A=E1=83=98</span><span lang=3D"=
+GEO/KAT" style=3D"background: white; color: rgb(28, 30, 33); font-family: &=
+quot;Helvetica&quot;,sans-serif; font-size: 10.5pt;"> </span><span lang=3D"=
+GEO/KAT" style=3D"background: white; color: rgb(28, 30, 33); font-family: &=
+quot;Sylfaen&quot;,serif; font-size: 10.5pt;">=E1=83=99=E1=83=9D=E1=83=
+=9B=E1=83=A3=E1=83=9C=E1=83=98=E1=83=99=E1=83=90=E1=83=AA=E1=83=98=E1=83=
+=94=E1=83=91=E1=83=98=E1=83=A1</span><span lang=3D"GEO/KAT" style=3D"backgr=
+ound: white; color: rgb(28, 30, 33); font-family: &quot;Helvetica&quot;,san=
+s-serif; font-size: 10.5pt;"> </span><span lang=3D"GEO/KAT" style=3D"backgr=
+ound: white; color: rgb(28, 30, 33); font-family: &quot;Sylfaen&quot;,serif=
+; font-size: 10.5pt;">=E1=83=92=E1=83=94=E1=83=92=E1=83=9B=E1=83=90</span><=
+span lang=3D"GEO/KAT" style=3D"background: white; color: rgb(28, 30, 33); f=
+ont-family: &quot;Helvetica&quot;,sans-serif; font-size: 10.5pt;">-ICP.</sp=
+an><br />
+<span lang=3D"GEO/KAT" style=3D"color: rgb(28, 30, 33); font-family: &quot;=
+Helvetica&quot;,sans-serif; font-size: 10.5pt;"><span style=3D"background: =
+white;">-</span></span><span lang=3D"GEO/KAT" style=3D"background: white; c=
+olor: rgb(28, 30, 33); font-family: &quot;Sylfaen&quot;,serif; font-size: 1=
+0.5pt;">=E1=83=9E=E1=83=94=E1=83=A0=E1=83=A1=E1=83=9D=E1=83=9C=E1=83=90=
+=E1=83=9A=E1=83=98</span><span lang=3D"GEO/KAT" style=3D"background: white;=
+ color: rgb(28, 30, 33); font-family: &quot;Helvetica&quot;,sans-serif; fon=
+t-size: 10.5pt;">,</span><span lang=3D"GEO/KAT" style=3D"background: white;=
+ color: rgb(28, 30, 33); font-family: &quot;Sylfaen&quot;,serif; font-size:=
+ 10.5pt;">=E1=83=9E=E1=83=A0=E1=83=9D=E1=83=AA=E1=83=94=E1=83=93=E1=83=
+=A3=E1=83=A0=E1=83=94=E1=83=91=E1=83=98</span><span lang=3D"GEO/KAT" style=
+=3D"background: white; color: rgb(28, 30, 33); font-family: &quot;Helvetica=
+&quot;,sans-serif; font-size: 10.5pt;">,</span><span lang=3D"GEO/KAT" style=
+=3D"background: white; color: rgb(28, 30, 33); font-family: &quot;Sylfaen&q=
+uot;,serif; font-size: 10.5pt;">=E1=83=A8=E1=83=94=E1=83=A1=E1=83=A7=
+=E1=83=98=E1=83=93=E1=83=95<wbr />=E1=83=94=E1=83=91=E1=83=98</span><span l=
+ang=3D"GEO/KAT" style=3D"background: white; color: rgb(28, 30, 33); font-fa=
+mily: &quot;Helvetica&quot;,sans-serif; font-size: 10.5pt;">-PPP.</span><br=
+ />
+<span lang=3D"GEO/KAT" style=3D"color: rgb(28, 30, 33); font-family: &quot;=
+Helvetica&quot;,sans-serif; font-size: 10.5pt;"><span style=3D"background: =
+white;">-</span></span><span lang=3D"GEO/KAT" style=3D"background: white; c=
+olor: rgb(28, 30, 33); font-family: &quot;Sylfaen&quot;,serif; font-size: 1=
+0.5pt;">=E1=83=A4=E1=83=98=E1=83=9C=E1=83=90=E1=83=9C=E1=83=A1=E1=83=A3=
+=E1=83=A0=E1=83=98</span><span lang=3D"GEO/KAT" style=3D"background: white;=
+ color: rgb(28, 30, 33); font-family: &quot;Helvetica&quot;,sans-serif; fon=
+t-size: 10.5pt;"> </span><span lang=3D"GEO/KAT" style=3D"background: white;=
+ color: rgb(28, 30, 33); font-family: &quot;Sylfaen&quot;,serif; font-size:=
+ 10.5pt;">=E1=83=90=E1=83=9C=E1=83=90=E1=83=9A=E1=83=98=E1=83=96=E1=83=
+=98</span><span lang=3D"GEO/KAT" style=3D"background: white; color: rgb(28,=
+ 30, 33); font-family: &quot;Helvetica&quot;,sans-serif; font-size: 10.5pt;=
+">-Sales,Penetration,<wbr />market share.</span></p>
+
+<p class=3D"MsoNormal" style=3D"background: white; margin-right: 0in; margi=
+n-bottom: 4.5pt; margin-left: 0in;"><span lang=3D"GEO/KAT" style=3D"color: =
+rgb(29, 33, 41); font-family: &quot;Sylfaen&quot;,serif; font-size: 10.5pt;=
+">-=E1=83=99=E1=83=A3=E1=83=A0=E1=83=A1=E1=83=A1</span><span lang=3D"GEO/KA=
+T" style=3D"color: rgb(29, 33, 41); font-family: &quot;Times New Roman&quot=
+;,serif; font-size: 10.5pt;"> </span><span lang=3D"GEO/KAT" style=3D"color:=
+ rgb(29, 33, 41); font-family: &quot;Sylfaen&quot;,serif; font-size: 10.5pt=
+;">=E1=83=A3=E1=83=AB=E1=83=A6=E1=83=95=E1=83=94=E1=83=91=E1=83=90</span><s=
+pan lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); font-family: &quot;Ti=
+mes New Roman&quot;,serif; font-size: 10.5pt;">:</span><span lang=3D"GEO/KA=
+T" style=3D"color: rgb(29, 33, 41); font-family: &quot;Sylfaen&quot;,serif;=
+ font-size: 10.5pt;"> =E1=83=92=E1=83=98=E1=83=9D=E1=83=A0=E1=83=92=
+=E1=83=98</span><span lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); fon=
+t-family: &quot;Times New Roman&quot;,serif; font-size: 10.5pt;"> </span><s=
+pan lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); font-family: &quot;Sy=
+lfaen&quot;,serif; font-size: 10.5pt;">=E1=83=99=E1=83=A3=E1=83=AD=E1=83=
+=A3=E1=83=AE=E1=83=98=E1=83=AB=E1=83=94</span><span lang=3D"GEO/KAT" style=
+=3D"color: rgb(29, 33, 41); font-family: &quot;Times New Roman&quot;,serif;=
+ font-size: 10.5pt;">. </span><span lang=3D"GEO/KAT" style=3D"color: rgb(29=
+, 33, 41); font-family: &quot;Sylfaen&quot;,serif; font-size: 10.5pt;">=
+=E1=83=9B=E1=83=A0=E1=83=90=E1=83=95=E1=83=90=E1=83=9A=E1=83=AC=E1=83=9A=
+=E1=83=98=E1=83=90=E1=83=9C=E1=83=98</span><span lang=3D"GEO/KAT" style=3D"=
+color: rgb(29, 33, 41); font-family: &quot;Times New Roman&quot;,serif; fon=
+t-size: 10.5pt;"> </span><span lang=3D"GEO/KAT" style=3D"color: rgb(29, 33,=
+ 41); font-family: &quot;Sylfaen&quot;,serif; font-size: 10.5pt;">=E1=83=
+=A2=E1=83=9D=E1=83=9E</span><span lang=3D"GEO/KAT" style=3D"color: rgb(29, =
+33, 41); font-family: &quot;Times New Roman&quot;,serif; font-size: 10.5pt;=
+">-</span><span lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); font-fami=
+ly: &quot;Sylfaen&quot;,serif; font-size: 10.5pt;">=E1=83=9B=E1=83=94=
+=E1=83=9C=E1=83=94=E1=83=AF=E1=83=94=E1=83=A0=E1=83=A3=E1=83=9A=E1=83=98</s=
+pan><span lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); font-family: &q=
+uot;Times New Roman&quot;,serif; font-size: 10.5pt;"> </span><span lang=3D"=
+GEO/KAT" style=3D"color: rgb(29, 33, 41); font-family: &quot;Sylfaen&quot;,=
+serif; font-size: 10.5pt;">=E1=83=92=E1=83=90=E1=83=9B=E1=83=9D=E1=83=AA=
+=E1=83=93=E1=83=98=E1=83=9A=E1=83=94=E1=83=91=E1=83=90</span><span lang=3D"=
+GEO/KAT" style=3D"color: rgb(29, 33, 41); font-family: &quot;Times New Roma=
+n&quot;,serif; font-size: 10.5pt;">,EMC-</span><span lang=3D"GEO/KAT" style=
+=3D"color: rgb(29, 33, 41); font-family: &quot;Sylfaen&quot;,serif; font-si=
+ze: 10.5pt;">=E1=83=90=E1=83=99=E1=83=A0=E1=83=94=E1=83=93=E1=83=98=
+=E1=83=A2=E1=83=90=E1=83=AA=E1=83=98=E1=83=90</span><span lang=3D"GEO/KAT" =
+style=3D"color: rgb(29, 33, 41); font-family: &quot;Times New Roman&quot;,s=
+erif; font-size: 10.5pt;">,</span><span lang=3D"GEO/KAT" style=3D"color: rg=
+b(29, 33, 41); font-family: &quot;Sylfaen&quot;,serif; font-size: 10.5pt;">=
+=E1=83=A2=E1=83=A0<wbr />=E1=83=94=E1=83=9C=E1=83=94=E1=83=A0=E1=83=98</spa=
+n><span lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); font-family: &quo=
+t;Times New Roman&quot;,serif; font-size: 10.5pt;">,</span><span lang=3D"GE=
+O/KAT" style=3D"color: rgb(29, 33, 41); font-family: &quot;Sylfaen&quot;,se=
+rif; font-size: 10.5pt;">=E1=83=91=E1=83=98=E1=83=96=E1=83=9C=E1=83=94=
+=E1=83=A1</span><span lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); fon=
+t-family: &quot;Times New Roman&quot;,serif; font-size: 10.5pt;"> </span><s=
+pan lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); font-family: &quot;Sy=
+lfaen&quot;,serif; font-size: 10.5pt;">=E1=83=99=E1=83=9D=E1=83=9C=E1=83=
+=A1=E1=83=A3=E1=83=9A=E1=83=A2=E1=83=90=E1=83=9C=E1=83=A2=E1=83=98</span><s=
+pan lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); font-family: &quot;Ti=
+mes New Roman&quot;,serif; font-size: 10.5pt;">,</span><br />
+<span lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); font-family: &quot;=
+Sylfaen&quot;,serif; font-size: 10.5pt;">=E1=83=AC=E1=83=98=E1=83=92=
+=E1=83=9C=E1=83=94=E1=83=91=E1=83=98=E1=83=A1</span><span lang=3D"GEO/KAT" =
+style=3D"color: rgb(29, 33, 41); font-family: &quot;Times New Roman&quot;,s=
+erif; font-size: 10.5pt;"> </span><span lang=3D"GEO/KAT" style=3D"color: rg=
+b(29, 33, 41); font-family: &quot;Sylfaen&quot;,serif; font-size: 10.5pt;">=
+=E1=83=90=E1=83=95=E1=83=A2=E1=83=9D=E1=83=A0=E1=83=98</span><span lang=3D"=
+GEO/KAT" style=3D"color: rgb(29, 33, 41); font-family: &quot;Times New Roma=
+n&quot;,serif; font-size: 10.5pt;">: "</span><span lang=3D"GEO/KAT" style=
+=3D"color: rgb(29, 33, 41); font-family: &quot;Sylfaen&quot;,serif; font-si=
+ze: 10.5pt;">=E1=83=A4=E1=83=98=E1=83=9C=E1=83=90=E1=83=9C=E1=83=A1=
+=E1=83=94=E1=83=91=E1=83=98</span><span lang=3D"GEO/KAT" style=3D"color: rg=
+b(29, 33, 41); font-family: &quot;Times New Roman&quot;,serif; font-size: 1=
+0.5pt;">-</span><span lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); fon=
+t-family: &quot;Sylfaen&quot;,serif; font-size: 10.5pt;">=E1=83=90=E1=83=
+=A0=E1=83=90=E1=83=A4=E1=83=98=E1=83=9C=E1=83=90=E1=83=9C=E1=83=A1=E1=83=
+=98=E1=83=A1=E1=83=A2=E1=83=94=E1=83=91=E1=83=98=E1=83=A1=E1=83=97=E1=83=
+=95=E1=83=98<wbr />=E1=83=A1</span><span lang=3D"GEO/KAT" style=3D"color: r=
+gb(29, 33, 41); font-family: &quot;Times New Roman&quot;,serif; font-size: =
+10.5pt;"> </span><span lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); fo=
+nt-family: &quot;Sylfaen&quot;,serif; font-size: 10.5pt;">=E1=83=9E=
+=E1=83=A0=E1=83=90=E1=83=A5=E1=83=A2=E1=83=98=E1=83=99=E1=83=90=E1=83=A8=
+=E1=83=98</span><span lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); fon=
+t-family: &quot;Times New Roman&quot;,serif; font-size: 10.5pt;">" </span><=
+span lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); font-family: &quot;S=
+ylfaen&quot;,serif; font-size: 10.5pt;">=E2=80=9E=E1=83=9A=E1=83=98=
+=E1=83=93=E1=83=94=E1=83=A0=E1=83=9D=E1=83=91=E1=83=90 =E1=83=93=E1=83=
+=90 =E1=83=9B=E1=83=90=E1=83=A0=E1=83=97=E1=83=95=E1=83=90 =E1=83=9E=
+=E1=83=A0=E1=83=90=E1=83=A5=E1=83=A2=E1=83=98=E1=83=99=E1=83=90=E1=83=A8=
+=E1=83=98=E2=80=9C =E2=80=9E=E1=83=9B=E1=83=90=E1=83=A0=E1=83=99=E1=83=
+=94=E1=83=A2=E1=83=98=E1=83=9C=E1=83=92=E1=83=98 =E1=83=93=E1=83=A6=
+=E1=83=94=E1=83=A1=E2=80=9C. <b>=E1=83=99=E1=83=A3=E1=83=A0=E1=83=A1=
+=E1=83=A1 =E1=83=A3=E1=83=AB=E1=83=A6=E1=83=95=E1=83=94=E1=83=91=E1=83=
+=98=E1=83=90=E1=83=9C =E1=83=90=E1=83=A1=E1=83=94=E1=83=95=E1=83=94 =
+=E1=83=9B=E1=83=9D=E1=83=AC=E1=83=95=E1=83=94=E1=83=A3=E1=83=9A=E1=83=98 =
+=E1=83=A1=E1=83=90=E1=83=94=E1=83=A0=E1=83=97=E1=83=90=E1=83=A8=E1=83=9D=
+=E1=83=A0=E1=83=98=E1=83=A1=E1=83=9D =E1=83=A2=E1=83=A0=E1=83=94=E1=83=
+=9C=E1=83=94=E1=83=A0=E1=83=94=E1=83=91=E1=83=98.</b></span></p>
+
+<p class=3D"MsoNormal" style=3D"background: white; margin-bottom: 4.5pt;"><=
+span lang=3D"GEO/KAT" style=3D"background: white; font-family: &quot;Sylfae=
+n&quot;,serif;">-</span><span lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, =
+41); font-family: &quot;Sylfaen&quot;,serif; font-size: 10.5pt;">=E1=83=
+=AF=E1=83=92=E1=83=A3=E1=83=A4=E1=83=A8=E1=83=98</span><span lang=3D"GEO/KA=
+T" style=3D"color: rgb(29, 33, 41); font-family: &quot;Times New Roman&quot=
+;,serif; font-size: 10.5pt;"> </span><span lang=3D"GEO/KAT" style=3D"color:=
+ rgb(29, 33, 41); font-family: &quot;Sylfaen&quot;,serif; font-size: 10.5pt=
+;">=E1=83=93=E1=83=90=E1=83=A1=E1=83=AC=E1=83=A0=E1=83=94=E1=83=91=E1=83=
+=90</span><span lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); font-fami=
+ly: &quot;Times New Roman&quot;,serif; font-size: 10.5pt;"> </span><span la=
+ng=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); font-family: &quot;Sylfaen&=
+quot;,serif; font-size: 10.5pt;">=E1=83=A8=E1=83=94=E1=83=96=E1=83=A6=
+=E1=83=A3=E1=83=93=E1=83=A3=E1=83=9A=E1=83=98=E1=83=90</span><span lang=3D"=
+GEO/KAT" style=3D"color: rgb(29, 33, 41); font-family: &quot;Times New Roma=
+n&quot;,serif; font-size: 10.5pt;">: </span><span lang=3D"GEO/KAT" style=3D=
+"color: rgb(29, 33, 41); font-family: &quot;Sylfaen&quot;,serif; font-size:=
+ 10.5pt;">=E1=83=9B=E1=83=90=E1=83=A5=E1=83=A1=E1=83=98=E1=83=9B=E1=83=
+=A3=E1=83=9B</span><span lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); =
+font-family: &quot;Times New Roman&quot;,serif; font-size: 10.5pt;"> 12 </s=
+pan><span lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); font-family: &q=
+uot;Sylfaen&quot;,serif; font-size: 10.5pt;">=E1=83=9B=E1=83=9D=E1=83=9C=
+=E1=83=90=E1=83=AC=E1=83=98=E1=83=98=E1=83=9A=E1=83=94</span><span lang=3D"=
+GEO/KAT" style=3D"color: rgb(29, 33, 41); font-family: &quot;Times New Roma=
+n&quot;,serif; font-size: 10.5pt;">.(</span><span lang=3D"GEO/KAT" style=3D=
+"color: rgb(29, 33, 41); font-family: &quot;Sylfaen&quot;,serif; font-size:=
+ 10.5pt;">=E1=83=92=E1=83=90=E1=83=A1=E1=83=90=E1=83=A3=E1=83=91=E1=83=
+=A0=E1=83=94=E1=83=91=E1=83=98=E1=83=A1</span><span lang=3D"GEO/KAT" style=
+=3D"color: rgb(29, 33, 41); font-family: &quot;Times New Roman&quot;,serif;=
+ font-size: 10.5pt;"> </span><span lang=3D"GEO/KAT" style=3D"color: rgb(29,=
+ 33, 41); font-family: &quot;Sylfaen&quot;,serif; font-size: 10.5pt;">=
+=E1=83=A1=E1=83=90=E1=83=A4=E1=83=A3=E1=83=AB=E1=83=95=E1=83=94=E1=83=9A=
+=E1=83=96=E1=83=94</span><span lang=3D"GEO/KAT" style=3D"color: rgb(29, 33,=
+ 41); font-family: &quot;Times New Roman&quot;,serif; font-size: 10.5pt;">)=
+</span><br />
+<span lang=3D"GEO/KAT" style=3D"font-family: &quot;Sylfaen&quot;,serif; fon=
+t-size: 10.5pt;">-<span style=3D"color: rgb(29, 33, 41);">=E1=83=AE=
+=E1=83=90=E1=83=9C=E1=83=92=E1=83=A0=E1=83=AB=E1=83=9A=E1=83=98=E1=83=95=
+=E1=83=9D=E1=83=91=E1=83=90</span></span><span lang=3D"GEO/KAT" style=3D"co=
+lor: rgb(29, 33, 41); font-family: &quot;Times New Roman&quot;,serif; font-=
+size: 10.5pt;">:12 </span><span lang=3D"GEO/KAT" style=3D"color: rgb(29, 33=
+, 41); font-family: &quot;Sylfaen&quot;,serif; font-size: 10.5pt;">=
+=E1=83=A2=E1=83=A0=E1=83=94=E1=83=9C=E1=83=98=E1=83=9C=E1=83=92</span><span=
+ lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); font-family: &quot;Times=
+ New Roman&quot;,serif; font-size: 10.5pt;"> </span><span lang=3D"GEO/KAT" =
+style=3D"color: rgb(29, 33, 41); font-family: &quot;Sylfaen&quot;,serif; fo=
+nt-size: 10.5pt;">=E1=83=A1=E1=83=94=E1=83=A1=E1=83=98=E1=83=90</span><span=
+ lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); font-family: &quot;Times=
+ New Roman&quot;,serif; font-size: 10.5pt;"> (6 </span><span lang=3D"GEO/KA=
+T" style=3D"color: rgb(29, 33, 41); font-family: &quot;Sylfaen&quot;,serif;=
+ font-size: 10.5pt;">=E1=83=A8=E1=83=94=E1=83=AE=E1=83=95=E1=83=94=E1=83=
+=93=E1=83=A0=E1=83=90</span><span lang=3D"GEO/KAT" style=3D"color: rgb(29, =
+33, 41); font-family: &quot;Times New Roman&quot;,serif; font-size: 10.5pt;=
+">)</span><br />
+<span lang=3D"GEO/KAT" style=3D"font-family: &quot;Sylfaen&quot;,serif; fon=
+t-size: 10.5pt;">-<span style=3D"color: rgb(29, 33, 41);">=E1=83=93=
+=E1=83=90=E1=83=A1=E1=83=90=E1=83=AC=E1=83=A7=E1=83=98=E1=83=A1=E1=83=98</s=
+pan></span><span lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); font-fam=
+ily: &quot;Times New Roman&quot;,serif; font-size: 10.5pt;">: 21 </span><sp=
+an lang=3D"GEO/KAT" style=3D"font-family: &quot;Sylfaen&quot;,serif; font-s=
+ize: 10.5pt;">=E1=83=90=E1=83=9E=E1=83=A0=E1=83=98=E1=83=9A=E1=83=98 </span=
+><span lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); font-family: &quot=
+;Times New Roman&quot;,serif; font-size: 10.5pt;">2019 </span><span lang=3D=
+"GEO/KAT" style=3D"color: rgb(29, 33, 41); font-family: &quot;Sylfaen&quot;=
+,serif; font-size: 10.5pt;">=E1=83=AC=E1=83=94=E1=83=9A=E1=83=98</span><spa=
+n lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); font-family: &quot;Time=
+s New Roman&quot;,serif; font-size: 10.5pt;">.</span><br />
+<span lang=3D"GEO/KAT" style=3D"font-family: &quot;Sylfaen&quot;,serif; fon=
+t-size: 10.5pt;">-<span style=3D"color: rgb(29, 33, 41);">=E1=83=93=
+=E1=83=A6=E1=83=94=E1=83=94=E1=83=91=E1=83=98</span></span><span lang=3D"GE=
+O/KAT" style=3D"color: rgb(29, 33, 41); font-family: &quot;Times New Roman&=
+quot;,serif; font-size: 10.5pt;">: </span><span lang=3D"GEO/KAT" style=3D"c=
+olor: rgb(29, 33, 41); font-family: &quot;Sylfaen&quot;,serif; font-size: 1=
+0.5pt;">=E1=83=9D=E1=83=A0=E1=83=A8=E1=83=90=E1=83=91=E1=83=90=E1=83=97=
+=E1=83=98</span><span lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); fon=
+t-family: &quot;Times New Roman&quot;,serif; font-size: 10.5pt;">-</span><s=
+pan lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); font-family: &quot;Sy=
+lfaen&quot;,serif; font-size: 10.5pt;">=E1=83=9D=E1=83=97=E1=83=AE=E1=83=
+=A8=E1=83=90=E1=83=91=E1=83=90=E1=83=97=E1=83=98</span><span lang=3D"GEO/KA=
+T" style=3D"color: rgb(29, 33, 41); font-family: &quot;Times New Roman&quot=
+;,serif; font-size: 10.5pt;"> </span><span lang=3D"GEO/KAT" style=3D"color:=
+ rgb(29, 33, 41); font-family: &quot;Sylfaen&quot;,serif; font-size: 10.5pt=
+;">=E1=83=90=E1=83=9C</span><span lang=3D"GEO/KAT" style=3D"color: rgb(29, =
+33, 41); font-family: &quot;Times New Roman&quot;,serif; font-size: 10.5pt;=
+">,</span><span lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); font-fami=
+ly: &quot;Sylfaen&quot;,serif; font-size: 10.5pt;">=E1=83=A1=E1=83=90=
+=E1=83=9B=E1=83=A8=E1=83=90=E1=83=91=E1=83=90=E1=83=97=E1=83=98</span><span=
+ lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); font-family: &quot;Times=
+ New Roman&quot;,serif; font-size: 10.5pt;">-</span><span lang=3D"GEO/KAT" =
+style=3D"color: rgb(29, 33, 41); font-family: &quot;Sylfaen&quot;,serif; fo=
+nt-size: 10.5pt;">=E1=83=AE=E1=83=A3=E1=83=97=E1=83=A8=E1=83=90=E1=83=91=
+=E1=83=90=E1=83=97=E1=83=98</span><span lang=3D"GEO/KAT" style=3D"font-fami=
+ly: &quot;Sylfaen&quot;,serif; font-size: 10.5pt;">,</span><br />
+<span lang=3D"GEO/KAT" style=3D"font-family: &quot;Sylfaen&quot;,serif; fon=
+t-size: 10.5pt;">-<span style=3D"color: rgb(29, 33, 41);">=E1=83=93=
+=E1=83=A0=E1=83=9D=E1=83=94=E1=83=91=E1=83=98</span></span><span lang=3D"GE=
+O/KAT" style=3D"color: rgb(29, 33, 41); font-family: &quot;Times New Roman&=
+quot;,serif; font-size: 10.5pt;">:19:00-22:00</span><br />
+<span lang=3D"GEO/KAT" style=3D"font-family: &quot;Sylfaen&quot;,serif; fon=
+t-size: 10.5pt;">-<span style=3D"color: rgb(29, 33, 41);">=E1=83=A1=
+=E1=83=90=E1=83=A4=E1=83=90=E1=83=A1=E1=83=A3=E1=83=A0=E1=83=98</span></spa=
+n><span lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); font-family: &quo=
+t;Times New Roman&quot;,serif; font-size: 10.5pt;">: 790 </span><span lang=
+=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); font-family: &quot;Sylfaen&qu=
+ot;,serif; font-size: 10.5pt;">=E1=83=9A=E1=83=90=E1=83=A0=E1=83=98</span><=
+span lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); font-family: &quot;T=
+imes New Roman&quot;,serif; font-size: 10.5pt;">=C2=A0</span><br />
+<span lang=3D"GEO/KAT" style=3D"font-family: &quot;Sylfaen&quot;,serif; fon=
+t-size: 10.5pt;">- <span style=3D"color: rgb(29, 33, 41);">=E1=83=A4=
+=E1=83=90=E1=83=A1=E1=83=98</span></span><span lang=3D"GEO/KAT" style=3D"co=
+lor: rgb(29, 33, 41); font-family: &quot;Times New Roman&quot;,serif; font-=
+size: 10.5pt;"> </span><span lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 4=
+1); font-family: &quot;Sylfaen&quot;,serif; font-size: 10.5pt;">=E1=83=
+=9B=E1=83=9D=E1=83=98=E1=83=AA=E1=83=90=E1=83=95=E1=83=A1</span><span lang=
+=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); font-family: &quot;Times New =
+Roman&quot;,serif; font-size: 10.5pt;"> </span><span lang=3D"GEO/KAT" style=
+=3D"color: rgb(29, 33, 41); font-family: &quot;Sylfaen&quot;,serif; font-si=
+ze: 10.5pt;">=E1=83=A7=E1=83=95=E1=83=94=E1=83=9A=E1=83=90</span><span lang=
+=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); font-family: &quot;Times New =
+Roman&quot;,serif; font-size: 10.5pt;"> </span><span lang=3D"GEO/KAT" style=
+=3D"color: rgb(29, 33, 41); font-family: &quot;Sylfaen&quot;,serif; font-si=
+ze: 10.5pt;">=E1=83=93=E1=83=90=E1=83=9B=E1=83=AE=E1=83=90=E1=83=A0=
+=E1=83=94</span><span lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); fon=
+t-family: &quot;Times New Roman&quot;,serif; font-size: 10.5pt;"> </span><s=
+pan lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); font-family: &quot;Sy=
+lfaen&quot;,serif; font-size: 10.5pt;">=E1=83=9B=E1=83=90=E1=83=A1=E1=83=
+=90=E1=83=9A=E1=83=90=E1=83=A1</span><span lang=3D"GEO/KAT" style=3D"color:=
+ rgb(29, 33, 41); font-family: &quot;Times New Roman&quot;,serif; font-size=
+: 10.5pt;"> </span><span lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); =
+font-family: &quot;Sylfaen&quot;,serif; font-size: 10.5pt;">=E1=83=93=
+=E1=83=90</span><span lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); fon=
+t-family: &quot;Times New Roman&quot;,serif; font-size: 10.5pt;"> </span><s=
+pan lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); font-family: &quot;Sy=
+lfaen&quot;,serif; font-size: 10.5pt;">=E1=83=A7=E1=83=90=E1=83=95=E1=83=
+=98=E1=83=A1</span><span lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); =
+font-family: &quot;Times New Roman&quot;,serif; font-size: 10.5pt;"> </span=
+><span lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); font-family: &quot=
+;Sylfaen&quot;,serif; font-size: 10.5pt;">=E1=83=A8=E1=83=94=E1=83=A1=
+=E1=83=95=E1=83=94=E1=83=9C=E1=83=94=E1=83=91=E1=83=90=E1=83=A1</span><span=
+ lang=3D"GEO/KAT" style=3D"font-family: &quot;Sylfaen&quot;,serif; font-siz=
+e: 10.5pt;">,=E1=83=90=E1=83=A1=E1=83=94=E1=83=95=E1=83=94 =E1=83=A2=
+=E1=83=A0=E1=83=94=E1=83=9C=E1=83=98=E1=83=9C=E1=83=92=E1=83=98=E1=83=A1 =
+=E1=83=95=E1=83=98=E1=83=93=E1=83=94=E1=83=9D =E1=83=93=E1=83=90 =E1=83=
+=90=E1=83=A3=E1=83=93=E1=83=98=E1=83=9D =E1=83=9B=E1=83=90=E1=83=A1=
+=E1=83=90=E1=83=9A=E1=83=94=E1=83=91=E1=83=A1.</span></p>
+
+<p class=3D"MsoNormal" style=3D"background: white; margin-bottom: 4.5pt;"><=
+span lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); font-family: &quot;S=
+egoe UI Emoji&quot;,sans-serif; font-size: 12pt;"><img alt=3D"&#x1f449;" cl=
+ass=3D"CToWUd" data-goomoji=3D"1f449" data-image-whitelisted=3D"" goomoji=
+=3D"1f449" src=3D"https://mail.google.com/mail/e/1f449" style=3D"margin: 0p=
+x 0.2ex; vertical-align: middle; max-height: 24px;" /></span><span lang=3D"=
+GEO/KAT" style=3D"color: rgb(29, 33, 41); font-family: &quot;Sylfaen&quot;,=
+serif; font-size: 10.5pt;">=E1=83=A0=E1=83=94=E1=83=92=E1=83=98=E1=83=A1=
+=E1=83=A2=E1=83=A0=E1=83=90=E1=83=AA=E1=83=98</span><span lang=3D"GEO/KAT" =
+style=3D"font-family: &quot;Sylfaen&quot;,serif; font-size: 10.5pt;">=
+=E1=83=90</span><span lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); fon=
+t-family: &quot;Times New Roman&quot;,serif; font-size: 10.5pt;">: </span><=
+u><span lang=3D"GEO/KAT" style=3D"font-family: &quot;Sylfaen&quot;,serif;">=
+<a data-saferedirecturl=3D"https://www.google.com/url?q=3Dhttp://bit.do/eMY=
+N8&amp;source=3Dgmail&amp;ust=3D1553870331175000&amp;usg=3DAFQjCNEGtqn9mtQI=
+E9qMWeOE89quAFl8hg" href=3D"http://internetsaitebi.ge/index.php/campaigns/q=
+b9684ofr6318/track-url/yn283y1xpedd9/a32ffca6a9a2cc32a04bcc034a2c7943b130b7=
+c5" target=3D"_blank">http://bit.do/eMYN8</a></span></u><br />
+<span lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); font-family: &quot;=
+Sylfaen&quot;,serif; font-size: 10.5pt;">=E1=83=90=E1=83=9C</span><span lan=
+g=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); font-family: &quot;Times New=
+ Roman&quot;,serif; font-size: 10.5pt;"> </span><span lang=3D"GEO/KAT" styl=
+e=3D"color: rgb(29, 33, 41); font-family: &quot;Sylfaen&quot;,serif; font-s=
+ize: 10.5pt;">=E1=83=93=E1=83=90=E1=83=92=E1=83=95=E1=83=98=E1=83=99=
+=E1=83=90=E1=83=95=E1=83=A8=E1=83=98=E1=83=A0=E1=83=93=E1=83=98=E1=83=97</s=
+pan><span lang=3D"GEO/KAT" style=3D"color: rgb(29, 33, 41); font-family: &q=
+uot;Times New Roman&quot;,serif; font-size: 10.5pt;">: </span><span lang=3D=
+"GEO/KAT" style=3D"font-family: &quot;Sylfaen&quot;,serif; font-size: 10.5p=
+t;">=E1=83=A5=E1=83=90=E1=83=9A: </span><span lang=3D"GEO/KAT" style=3D"bac=
+kground: white; color: rgb(28, 30, 33); font-family: &quot;Helvetica&quot;,=
+sans-serif; font-size: 10.5pt;">(032) 2 83 03 73</span><span lang=3D"GEO/KA=
+T" style=3D"background: white; color: rgb(28, 30, 33); font-family: &quot;S=
+ylfaen&quot;,serif; font-size: 10.5pt;"> </span><span lang=3D"GEO/KAT" styl=
+e=3D"font-family: &quot;Times New Roman&quot;,serif; font-size: 12pt;">=
+=C2=A0</span><span lang=3D"GEO/KAT" style=3D"font-family: &quot;Sylfaen&quo=
+t;,serif; font-size: 12pt;">- =E1=83=9B=E1=83=9D=E1=83=91: 577347373</span>=
+</p>
+
+<p class=3D"MsoNormal" style=3D"background: white; margin-bottom: 4.5pt;"><=
+span lang=3D"GEO/KAT" style=3D"font-family: &quot;Sylfaen&quot;,serif; font=
+-size: 12pt;"><strong>=E1=83=A9=E1=83=90=E1=83=9B=E1=83=9D=E1=83=A2=
+=E1=83=95=E1=83=98=E1=83=A0=E1=83=97=E1=83=94=E1=83=97 =E1=83=A1=E1=83=
+=90=E1=83=A9=E1=83=A3=E1=83=A5=E1=83=90=E1=83=A0=E1=83=98 =E1=83=AC=
+=E1=83=98=E1=83=92=E1=83=9C=E1=83=98 =E1=83=A8=E1=83=94=E1=83=9B=E1=83=
+=93=E1=83=94=E1=83=92 =E1=83=9A=E1=83=98=E1=83=9C=E1=83=99=E1=83=96=
+=E1=83=94: </strong><a href=3D"http://internetsaitebi.ge/index.php/campaign=
+s/qb9684ofr6318/track-url/yn283y1xpedd9/4c3e83b1e9c25aa8456d036e3d25844c8e9=
+809e2"><strong>=E1=83=9A=E1=83=98=E1=83=9C=E1=83=99=E1=83=98</strong></a><s=
+trong>=C2=A0<br />
+=E1=83=90=E1=83=9C =E1=83=A9=E1=83=90=E1=83=A1=E1=83=95=E1=83=98=E1=83=
+=97 =E1=83=91=E1=83=A0=E1=83=90=E1=83=A3=E1=83=96=E1=83=94=E1=83=A0=
+=E1=83=A8=E1=83=98 =E1=83=A8=E1=83=94=E1=83=9B=E1=83=93=E1=83=94=E1=83=
+=92=E1=83=98 =E1=83=9A=E1=83=98=E1=83=9C=E1=83=99=E1=83=98 =E1=83=93=
+=E1=83=90 =E1=83=92=E1=83=90=E1=83=93=E1=83=90=E1=83=93=E1=83=98=E1=83=
+=97 =E1=83=9A=E1=83=98=E1=83=9C=E1=83=99=E1=83=96=E1=83=94</strong><br />
+<a href=3D"http://internetsaitebi.ge/index.php/campaigns/qb9684ofr6318/trac=
+k-url/yn283y1xpedd9/4c3e83b1e9c25aa8456d036e3d25844c8e9809e2"><strong>https=
+://drive.google.com/file/d/194K6pYr8CrQ7HtjBp_MHIntRCXNnb-p1/view?usp=3Dsha=
+ring</strong></a></span><br />
+<br />
+<br />
+<br />
+<span style=3D"font-size:8px;"><span style=3D"color:#ffffff;">http://intern=
+etsaitebi.ge/index.php/lists/cb9952p66r826/unsubscribe/yn283y1xpedd9/qb9684=
+ofr6318 =E1=83=94=E1=83=95=E1=83=A0=E1=83=9D=E1=83=9E=E1=83=98=E1=83=A1 =
+=E1=83=91=E1=83=98=E1=83=96=E1=83=9C=E1=83=94=E1=83=A1 =E1=83=A1=E1=83=
+=99=E1=83=9D=E1=83=9A=E1=83=90 =E1=83=93=E1=83=90 =E1=83=99=E1=83=9D=
+=E1=83=9C=E1=83=A1=E1=83=90=E1=83=9A=E1=83=A2=E1=83=98=E1=83=9C=E1=83=92=
+=E1=83=98<br />
+=E1=83=94=E1=83=95=E1=83=A0=E1=83=9D=E1=83=9E=E1=83=98=
+=E1=83=A1 =E1=83=91=E1=83=98=E1=83=96=E1=83=9C=E1=83=94=E1=83=A1 =E1=83=
+=A1=E1=83=99=E1=83=9D=E1=83=9A=E1=83=90 =E1=83=93=E1=83=90 =E1=83=99=
+=E1=83=9D=E1=83=9C=E1=83=A1=E1=83=90=E1=83=9A=E1=83=A2=E1=83=98=E1=83=9C=
+=E1=83=92=E1=83=98 <br />
+=E1=83=97=E1=83=91=E1=83=98=E1=83=9A=E1=83=
+=98=E1=83=A1=E1=83=98  45545<br />
+Georgia<br />
+</span></span></p>
+<img width=3D"1" height=3D"1" src=3D"http://internetsaitebi.ge/index.php/ca=
+mpaigns/qb9684ofr6318/track-opening/yn283y1xpedd9" alt=3D"" />
+</body>
+</html>
+
+
+--_=_swift_v4_1554604395_670ba5cc57064c873df37bfa5560ce6c_=_--
+
