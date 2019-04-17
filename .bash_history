@@ -3446,3 +3446,155 @@ exit
 clear
 #1555090847
 git status
+#1555090910
+git add .
+#1555090929
+git commit -m lots of thing"
+
+clear
+#1555091158
+git status
+#1555091173
+git commit -m "lots of thing done"
+#1555091180
+git push origin master
+#1555091207
+cd public_html
+#1555091210
+git status
+#1555091228
+git add img/*
+#1555091232
+git status
+#1555091243
+cd _backup
+#1555091245
+ls
+#1555091261
+rm 09-04-2019.sql
+#1555091266
+rm 10-04-2019.sql
+#1555091272
+rm 11-04-2019.sql
+#1555091275
+clear
+#1555091277
+cd ../
+#1555091280
+git status
+#1555091287
+git add .
+#1555091306
+git commit -m "images & function & currency"
+#1555091313
+git push origin master
+#1555091374
+cd ./
+#1555091377
+cd ../
+#1555091381
+cd beetrip.ge
+#1555091383
+ls
+#1555091388
+git status
+#1555091392
+exit
+#1555264187
+cd public_html
+#1555264189
+ls
+#1555264194
+git status
+#1555264207
+cd _backup
+#1555264209
+ls
+#1555264221
+rm 12-04-2019.sql
+#1555264231
+rm 13-04-2019.sql
+#1555264237
+cd ../
+#1555264243
+cd ../
+#1555264247
+git status
+#1555264277
+exit
+#1555493051
+clear
+#1555493058
+cd public_html
+#1555493063
+git status
+#1555493190
+git add img/*
+#1555493196
+git status
+#1555493203
+cd _backup
+#1555493204
+ls
+#1555493217
+rm 14-04-2019.sql
+#1555493224
+rm 15-04-2019.sql
+#1555493231
+rm 16-04-2019.sql
+#1555493241
+cd ../
+#1555493246
+git status
+#1555493265
+git add .
+#1555493270
+git status
+#1555493290
+git commit -m "img currency sql"
+#1555493304
+git push origin master
+#1555493328
+cd img
+#1555493331
+cd temp
+#1555493333
+ls
+#1555493337
+cd ../
+#1555493351
+rm -rf temp/*
+#1555493361
+cd temp
+#1555493362
+ls
+#1555493854
+exit
+#1555512664
+clear
+#1555512684
+cd public_html
+#1555512686
+git status
+#1555512723
+git add img/*
+#1555512727
+git status
+#1555512749
+git add files/*
+#1555512753
+git status
+#1555512773
+git add files/.*
+#1555512776
+git status
+#1555512816
+git commit -m "transfer new prices added admin"
+#1555512826
+git push origin master
+#1555512851
+clear
+#1555512854
+cd ../
+#1555512860
+git status

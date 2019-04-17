@@ -1,7 +1,7 @@
-# Webalizer V2.23-08 Incremental Data - 04/11/2019 20:03:03
-2019 4 11 20 3 3
-28 21 7 19 3 7 5615 10 7 0
-4 4 18 9 11
+# Webalizer V2.23-08 Incremental Data - 04/16/2019 23:08:24
+2019 4 16 23 8 24
+57 30 7 28 3 7 14131 30 12 0
+2 9 24 9 16
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -13,11 +13,11 @@
 19 18 1653 3 1 1
 0 0 0 0 0 0
 9 3 3962 4 9 6
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
+4 0 1588 1 4 1
+4 0 1588 1 4 1
+4 0 1588 1 4 1
+4 0 1588 1 4 1
+13 9 2164 2 4 1
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -53,10 +53,18 @@
 0 0 0 0
 0 0 0 0
 0 0 0 0
-4 0 1588 4
+24 0 9528 24
 0 0 0 0
 18 18 1359 0
-0 0 0 0
+9 9 576 0
+0
+0
+0
+30
+0
+0
+0
+0
 0
 0
 0
@@ -68,17 +76,9 @@
 0
 0
 0
+0
+0
 6
-0
-0
-0
-0
-0
-0
-0
-0
-0
-1
 0
 0
 0
@@ -99,11 +99,17 @@
 0
 0
 # -urls- 
+/.well-known/acme-challenge/MH5U559H7HE34SO0BC9J6L-QDPUMVXI2
+0 1 0 64 0 0
 /.well-known/acme-challenge/7A-NFKH_HR0GU6WC5VYLFT20G1OVE9AP
 0 1 0 64 0 0
 /.well-known/acme-challenge/_E1WH6UU6F4H0MLT_WSATRKRV2QO6VN6
 0 1 0 64 0 0
 /.well-known/acme-challenge/YRE_P0WL-377S6UZAPO5Y42WWDF6N8U_
+0 1 0 64 0 0
+/.well-known/acme-challenge/I6010E7GVQDZM542Q3NNWQ65XXUT_AGG
+0 1 0 64 0 0
+/.well-known/acme-challenge/VVLO-BSOAHU0E5TQ2FHXI05R85S3--YE
 0 1 0 64 0 0
 /.well-known/acme-challenge/LBT_KTVRSM3MFGK45VAWRAQF4B6FN3VP
 0 1 0 64 0 0
@@ -111,6 +117,8 @@
 0 1 0 64 0 0
 /.well-known/acme-challenge/moj-CG9DRbpa2t0dA5aathbtBkl3Gn7El059DeSJcus
 0 1 0 87 0 0
+/.well-known/acme-challenge/YEY1J66CKXZY442XG-ATR-_32-JQJWEO
+0 1 0 64 0 0
 /.well-known/acme-challenge/zwAZTBZ7OOB4WnALAusmz08Fj73XeaVQHrvu0GVDbx8
 0 1 0 87 0 0
 /.well-known/acme-challenge/X-GPN7EAFB49_V_GKON3Z5M5HEY4A0Y5
@@ -123,20 +131,30 @@
 0 1 0 64 0 0
 /.well-known/acme-challenge/bf_Ql3z9Zvp2Vy0eQJDeqBV667OQAG-ZT3-QcvNtdZw
 0 1 0 87 0 0
+/.well-known/acme-challenge/MMW6N6P7SAFT-L7PU4EJ5Q0B31-5HQ6_
+0 1 0 64 0 0
 /.well-known/acme-challenge/8M7KWMg23e8KOrDKdOLAn6zpA5A6ujn_WaX503b3n94
 0 1 0 87 0 0
 /.well-known/acme-challenge/kCSFrZ7DOxhEu5dGYje-hVPe0hKMO7TStWISDFJpSBE
 0 1 0 87 0 0
 /.well-known/acme-challenge/wMPDDs-u_3-0nx-eMRg0LdpQa40QGEx7o1gNiTgo4OQ
 0 1 0 87 0 0
+/.well-known/acme-challenge/4FH9QCDE2WA8V9L_46IEDUMZL5DATQSX
+0 1 0 64 0 0
 /.well-known/acme-challenge/S_1M8SOLQAAZWE-Z88G6QIX3VD7L42H1
 0 1 0 64 0 0
 /
-0 3 0 2076 6 2
+0 3 0 2076 11 2
 /.well-known/acme-challenge/u8Nc9AKCP6u7Rcz2VVAGqM-RqPAv_ZT_Aj-K6zMA7so
 0 1 0 87 0 0
+/.well-known/acme-challenge/QUT7K0FDVOTCFHVNV-CCM6PWH5RQWIN-
+0 1 0 64 0 0
+/.well-known/acme-challenge/I27Y3SVF9YH_M3BSZQABUHSDRTTA6VA_
+0 1 0 64 0 0
 /.well-known/acme-challenge/1UhZl5-YKUONOLepy0jHYG1LfS-J7Mz6z9wujYJoCqQ
 0 1 0 87 0 0
+/.well-known/acme-challenge/VSR5B8WQP32IYWTPUAK-3S_ED8SZL2G-
+0 1 0 64 0 0
 # End Of Table - urls
 # -sites- (monthly)
 ec2-13-127-92-235.ap-south-1.compute.amazonaws.com
@@ -149,7 +167,7 @@ mehmet.onyphe.io
 0 3 2 1688 3 1554965605
 /
 192.254.186.169
-0 13 13 924 0 0
+0 22 22 1500 0 0
 -
 94.240.245.46
 0 1 0 294 1 1554792678
@@ -158,36 +176,30 @@ outbound1.letsencrypt.org
 0 5 5 435 0 0
 -
 smartscan04.sitelock.com
-0 4 0 1588 1 1555012983
+0 24 0 9528 6 1555446119
 -
 # End Of Table - sites (monthly)
 # -sites- (daily)
-ec2-13-127-92-235.ap-south-1.compute.amazonaws.com
-0 1 0 0 1 1554986363
-/
-monika.onyphe.io
-0 1 1 686 1 1554961713
-/
-mehmet.onyphe.io
-0 3 2 1688 3 1554965605
-/
+192.254.186.169
+0 9 9 576 0 0
+-
 smartscan04.sitelock.com
-0 4 0 1588 1 1555012983
+0 4 0 1588 1 1555446119
 -
 # End Of Table - sites (daily)
 # -referrers- 
 http://www.google.com/url
-0 2
+0 12
 - (Direct Request)
-0 25
+0 39
 http://www.triplanner.ge
-0 1
+0 6
 # End Of Table - referrers
 # -agents- 
 Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/6.0)
-0 3
+0 18
 SiteLockSpider [en] (WinNT; I ;Nav)
-0 1
+0 6
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
 0 1
 Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)
@@ -195,7 +207,7 @@ Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencry
 CheckMarkNetwork/1.0 (+http://www.checkmarknetwork.com/spider.html)
 0 1
 Cpanel-HTTP-Client/1.0
-0 9
+0 18
 Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0
 0 4
 # End Of Table - agents

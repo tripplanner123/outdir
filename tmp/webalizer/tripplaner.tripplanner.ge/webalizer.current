@@ -1,7 +1,7 @@
-# Webalizer V2.23-08 Incremental Data - 04/11/2019 11:48:48
-2019 4 11 11 48 48
-33 21 9 19 3 9 8183 13 10 0
-4 4 20 9 11
+# Webalizer V2.23-08 Incremental Data - 04/16/2019 23:08:25
+2019 4 16 23 8 25
+74 30 13 28 3 13 21835 41 23 0
+5 9 20 9 16
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -13,11 +13,11 @@
 21 18 2641 4 2 2
 4 0 1580 2 3 3
 8 3 3962 4 8 5
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
+5 0 1882 2 5 2
+4 0 1588 1 4 1
+5 0 1882 2 5 2
+9 0 3862 4 7 4
+18 9 4438 5 7 4
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -38,29 +38,29 @@
 0 0 0 0
 2 1 984 2
 3 0 1286 2
+3 0 882 3
 1 0 294 1
-1 0 294 1
 0 0 0 0
 0 0 0 0
 0 0 0 0
 0 0 0 0
-4 0 1588 4
+24 0 9528 24
 0 0 0 0
 0 0 0 0
 0 0 0 0
 0 0 0 0
+2 0 588 2
+0 0 0 0
+4 0 1980 2
 0 0 0 0
 0 0 0 0
 0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-20 18 2347 1
-0 0 0 0
+24 18 4327 3
+9 9 576 0
 0
 0
 0
-21
+30
 0
 0
 0
@@ -68,7 +68,7 @@
 0
 0
 0
-9
+32
 0
 0
 0
@@ -78,7 +78,7 @@
 0
 0
 0
-3
+12
 0
 0
 0
@@ -101,15 +101,29 @@
 # -urls- 
 /.well-known/acme-challenge/IGUFZOQCGRHKWHHLP_V85ZOMBY6A3MU3
 0 1 0 64 0 0
+/.well-known/acme-challenge/L8Y5EKFCR9222Z-G5MAXSEEXXPOCRQ8X
+0 1 8104630428228479849 64 0 0
+/.well-known/acme-challenge/1O7LXW6FQMF9GONEYRQA5JBS32472YM9
+0 1 109 64 0 0
+/.well-known/acme-challenge/EK8268HY082KD76XQ5TZBVIWS2FKLR4Z
+0 1 0 64 0 0
+/.well-known/acme-challenge/L__-0ICKYAB9KQCV4U5_VMOYTJTN8JDP
+0 1 0 64 0 0
 /.well-known/acme-challenge/y3QTo0SzManF-A9LDKSmN3DC9UGifEgzchtRFThj0H4
 0 1 0 87 0 0
 /.well-known/acme-challenge/uZt54YcLcWCC8n6ZtdUKugKy_7IZVcforrb1_jdRtiA
 0 1 0 87 0 0
+/.well-known/acme-challenge/YOBENHZTGZFAPZG0PJAAYZITN40IM5JQ
+0 1 3690472494200991284 64 0 0
 /.well-known/acme-challenge/D3IM0H0-DT3M59MY07O8Q5DWZAXDC888
 0 1 0 64 0 0
 /.well-known/acme-challenge/OBNNR05_HFYKZ04E3T-2KIH8PJ-51F-X
 0 1 0 64 0 0
+/.well-known/acme-challenge/CY1ARP41FYU-XH1MC2PP0XGBOP8Q2L41
+0 1 0 64 0 0
 /.well-known/acme-challenge/ZX1JATD8W4R76G_JUQF431DR04GQXXTC
+0 1 0 64 0 0
+/.well-known/acme-challenge/OHI9FWQPI45A7EA1-4FTUVNZGTPFMS-D
 0 1 0 64 0 0
 /.well-known/acme-challenge/5_9G7VWV-BA3CBSJZFSIFF5CX9QU3DBT
 0 1 0 64 0 0
@@ -117,6 +131,8 @@
 0 1 0 64 0 0
 /.well-known/acme-challenge/Z8_KRaMT3BDxWCIsz9dL7WFYF2vLCzDG--4bzgqbVhg
 0 1 0 87 0 0
+/.well-known/acme-challenge/T989TFECE65FP1ZI0J1DTBICCZ3-MEV6
+0 1 0 64 0 0
 /.well-known/acme-challenge/WVsgCDKk6WpuaFVVk-npuyKUgwTItNgTwgCs2DT_lZ0
 0 1 0 87 0 0
 /.well-known/acme-challenge/khh1p8nnYVTsd8j0RZ9SUdGBJdjNPjoeODfpl4w-nLE
@@ -124,10 +140,12 @@
 /.well-known/acme-challenge/SUVuQDmBHKeaxVE5ndXcT7tGjJucCGuvFo4P-YwpYP8
 0 1 0 87 0 0
 /
-0 3 0 2076 5 1
+0 3 0 2076 18 4
 /.well-known/acme-challenge/FHGZJ84CA5AM3KTBZ-SWIZ5X26UE92OD
 0 1 0 64 0 0
 /.well-known/acme-challenge/ZLH8HIE77A1YKTZMDUFNI1ECFETAR1HE
+0 1 0 64 0 0
+/.well-known/acme-challenge/WK6Y-FVKB76N4WW71DI0JP6GOM_7V7Z-
 0 1 0 64 0 0
 /.well-known/acme-challenge/321VX9XG2DT-WOZ-G_9CT-XVP2VHI_AP
 0 1 0 64 0 0
@@ -145,66 +163,89 @@ hurley.onyphe.io
 daniela.onyphe.io
 0 1 1 693 1 1554947649
 /
+31.146.66.59
+0 2 0 588 2 1555345504
+/
 monika.onyphe.io
 0 1 1 686 1 1554952863
 /
+80.92.189.201
+0 1 0 294 1 1555219369
+/
+93-158-161-171.spider.yandex.com
+0 4 0 1980 2 1555439314
+/
+188.121.197.210
+0 1 0 294 1 1555391568
+/
 192.254.186.169
-0 13 13 924 0 0
+0 22 22 1500 0 0
 -
 94.240.245.46
 0 1 0 294 1 1554792682
 -
 5-255-250-128.spider.yandex.com
-0 4 0 1980 2 1554871359
--
+0 8 0 3960 4 1555439314
+/
 outbound1.letsencrypt.org
 0 5 5 435 0 0
 -
 smartscan04.sitelock.com
-0 4 0 1588 1 1554983328
+0 24 0 9528 6 1555415561
 -
 188-169-161-146.dsl.utg.ge
 0 2 0 588 2 1554873812
 -
 # End Of Table - sites (monthly)
 # -sites- (daily)
-hurley.onyphe.io
-0 2 1 995 2 1554952526
+93-158-161-171.spider.yandex.com
+0 2 0 988 1 1555439314
 /
-daniela.onyphe.io
-0 1 1 693 1 1554947649
+188.121.197.210
+0 1 0 294 1 1555391568
 /
-monika.onyphe.io
-0 1 1 686 1 1554952863
+192.254.186.169
+0 9 9 576 0 0
+-
+5-255-250-128.spider.yandex.com
+0 2 0 992 1 1555439314
 /
 smartscan04.sitelock.com
-0 4 0 1588 1 1554983328
+0 4 0 1588 1 1555415561
 -
 # End Of Table - sites (daily)
 # -referrers- 
 http://www.google.com/url
-0 2
+0 12
 http://www.tripplaner.ge
-0 1
+0 6
 - (Direct Request)
-0 30
+0 56
 # End Of Table - referrers
 # -agents- 
 Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/6.0)
-0 3
+0 18
 SiteLockSpider [en] (WinNT; I ;Nav)
-0 1
+0 6
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
 0 1
 Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)
 0 9
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.3 Safari/605.1.15
 0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36 OPR/58.0.3
+0 1
 Cpanel-HTTP-Client/1.0
-0 9
+0 18
 Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
-0 4
+0 12
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
 0 1
 Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0
 0 4

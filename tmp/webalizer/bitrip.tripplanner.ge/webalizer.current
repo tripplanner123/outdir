@@ -1,7 +1,7 @@
-# Webalizer V2.23-08 Incremental Data - 04/12/2019 01:26:44
-2019 4 12 1 26 44
-56 23 13 19 2 12 11431 28 15 0
-1 1 18 9 12
+# Webalizer V2.23-08 Incremental Data - 04/17/2019 05:36:08
+2019 4 17 5 36 8
+97 38 21 28 3 18 25279 53 33 0
+2 1 18 9 17
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -13,7 +13,12 @@
 21 20 3031 4 3 3
 23 0 3390 3 14 4
 11 3 4876 6 10 7
-1 0 134 1 1 1
+8 2 3050 3 8 5
+7 0 1666 5 4 3
+5 2 2634 3 5 4
+3 0 1274 2 3 2
+17 11 4846 6 5 4
+2 0 512 2 1 1
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -28,47 +33,34 @@
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0
-2 0 424 2
+1 0 694 0
+4 0 936 3
 2 0 980 1
-2 2 1375 2
+3 2 1665 3
 1 0 286 1
-1 1 689 1
+2 1 915 1
 1 0 286 1
 0 0 0 0
 0 0 0 0
 0 0 0 0
 14 0 1876 8
-7 0 938 4
+8 0 1228 5
 2 0 268 2
 1 1 693 1
-1 1 693 1
-0 0 0 0
-0 0 0 0
-3 0 1274 3
-0 0 0 0
-0 0 0 0
+4 3 2357 4
+2 0 166 0
+2 0 134 2
+14 0 6328 14
+3 1 1673 2
+2 1 979 2
 1 0 290 1
-0 0 0 0
-18 18 1359 0
-0 0 0 0
+1 1 682 1
+19 19 2041 1
+10 9 802 0
 0
 0
 0
-23
-0
-0
-0
-0
-0
-0
-0
-7
+38
 0
 0
 0
@@ -76,14 +68,22 @@
 0
 0
 0
+19
 0
-24
+0
+0
+0
+0
+0
+0
+0
+26
+9
+0
+3
+0
+0
 2
-0
-0
-0
-0
-0
 0
 0
 0
@@ -103,36 +103,54 @@
 0 1 0 64 0 0
 /.well-known/acme-challenge/B7Z2UEPUFR9Y7YY5X7MOL6H6WY7-0ZLP
 0 1 0 64 0 0
+/.well-known/acme-challenge/GOFLMPTCB9NRIWOJPY4CPVGKCDD443P1
+0 1 0 64 0 0
 /.well-known/acme-challenge/w_T9B9HGroMYUD2h7YFFEea475yQrsbrZLSzRltGJLc
 0 1 0 87 0 0
+/.well-known/acme-challenge/KX2GIUEZXZ34A7G6A_VOF2_7QIU-IQER
+0 1 0 64 0 0
 /.well-known/acme-challenge/5_ISPWT8CQOA-1G2SBSV__ZXY-OWH-1D
 0 1 0 64 0 0
 /.well-known/acme-challenge/1E6IH2VZ_86UT836TZJIEXH1V29RDOX0
 0 1 0 64 0 0
 /.well-known/acme-challenge/qrslV5cnzdgSVHLG1O4H7Y3EzfN4LoZKo3fKdlLZiig
 0 1 0 87 0 0
+/.well-known/acme-challenge/-L2D29DJRK9P65DFRDC7X2CQ8-MP9SGH
+0 1 0 64 0 0
+/.well-known/acme-challenge/3E4M28OEGJU4UW25--D80BDNUIDSI9U1
+0 1 0 64 0 0
+/.well-known/acme-challenge/PB6R98RXMQ8VYOAV50ERHRFUD9ZO6_5D
+0 1 0 64 0 0
 /.well-known/acme-challenge/O7L-92-JTV42A6_3BV1WNIY-DXHS4RCU
 0 1 0 64 0 0
 /.well-known/acme-challenge/K-tl7if4tHuJA1-lgD70wO74YJpo6iwY2v6dqTgGoEE
 0 1 0 87 0 0
 /.well-known/acme-challenge/K8K5H9IpP05g-5H0TY04Bdu63HW8W258WZI8FFc-XD0
 0 1 0 87 0 0
+/.well-known/acme-challenge/RE2HCZVF4KCHJR38JH6GW7HN56B_VCAN
+0 1 0 64 0 0
 /.well-known/acme-challenge/C99310m1h3hYPrSG6JnHUwAbgu5AiWVlNn4rPZekq5k
 0 1 0 87 0 0
 /.well-known/acme-challenge/STQ2ZD7JPINC8ROPROGG4GBBFE2H6SU8
+0 1 0 64 0 0
+/.well-known/acme-challenge/EOGOD6U9C_77CK4HHRBICTE59EDKJS_F
 0 1 0 64 0 0
 /.well-known/acme-challenge/htsRdrcuM6q4Io1-dVi4kBmTgQJvr9NKZYdQWTMeLY4
 0 1 0 87 0 0
 /.well-known/acme-challenge/42Q3ScDp84XFa3-rywMxtxwdwPQDYl60KDc3tZjWmBc
 0 1 0 87 0 0
+/.well-known/acme-challenge/ZXAMT6312_HEVSHVF62ZKXEBDT2XXO5W
+0 1 0 64 0 0
 /.well-known/acme-challenge/EonxZKxM4wNzoT1ZQGGSfaeE_dsPKGLOpnZc8QXpU74
 0 1 0 87 0 0
 /.well-known/acme-challenge/3TM0KJ8P0866R9FNHFFOFSJMMU-F1878
 0 1 0 64 0 0
 /
-0 5 0 3450 14 3
+0 11 0 7578 32 13
 /.well-known/acme-challenge/8tsVVUsIFsjC1WvBV4uCO_v99Rbx_gzf4sBoYcBychM
 0 1 0 87 0 0
+/.well-known/acme-challenge/ZFFW1_3UKM_ECOBX0UP73DM9LH4KZ0DX
+0 1 0 64 0 0
 /.well-known/acme-challenge/Z8RFA9Q71VNUUDPX9SPRG73WW12GMK-O
 0 1 0 64 0 0
 /.well-known/acme-challenge/3PT92TJDBE0RVDAKN4NZ8O4T6SW3SYKL
@@ -145,14 +163,29 @@ hurley.onyphe.io
 daniela.onyphe.io
 0 2 1 972 2 1554954015
 /
+ip-54-36-150-64.a.ahrefs.com
+0 1 0 226 0 0
+-
 60.191.38.77
-0 2 2 1386 2 1554818690
+0 9 8 5800 7 1555441290
+/
+pretty.denial.volia.net
+0 1 0 286 1 1555464601
+/
+ec2-3-91-246-86.compute-1.amazonaws.com
+0 1 0 286 1 1555269912
 /
 static.88-198-39-184.clients.your-server.de
-0 3 0 402 2 1555032404
+0 5 0 670 4 1555089553
 /
 192.254.186.169
-0 13 13 924 0 0
+0 22 22 1500 0 0
+-
+ec2-13-48-23-206.eu-north-1.compute.amazonaws.com
+0 1 0 0 1 1555172084
+/
+185.234.217.9
+0 2 0 166 0 0
 -
 94.240.245.46
 0 1 0 286 1 1554792664
@@ -161,60 +194,86 @@ static.88-198-39-184.clients.your-server.de
 0 21 0 2814 2 1554894582
 -
 5-255-250-128.spider.yandex.com
-0 2 0 980 1 1554949441
+0 4 0 1960 2 1555439376
 /
+ip-54-36-149-63.a.ahrefs.com
+0 1 0 226 0 0
+-
 outbound1.letsencrypt.org
 0 5 5 435 0 0
 -
+207.246.67.77.vultr.com
+0 1 0 694 0 0
+-
 smartscan04.sitelock.com
-0 3 0 1274 1 1555002254
+0 13 0 6194 6 1555434257
 -
 macgregor.onyphe.io
 0 1 1 689 1 1554959558
 /
+ip-54-36-148-169.a.ahrefs.com
+0 1 0 226 0 0
+-
 188-169-161-146.dsl.utg.ge
 0 1 0 286 1 1554869885
 /
 ec2-52-53-201-78.us-west-1.compute.amazonaws.com
-0 1 0 290 1 1554926920
+0 3 0 870 3 1555326511
 /
 # End Of Table - sites (monthly)
 # -sites- (daily)
-static.88-198-39-184.clients.your-server.de
-0 1 0 134 1 1555032404
+pretty.denial.volia.net
+0 1 0 286 1 1555464601
 /
+ip-54-36-149-63.a.ahrefs.com
+0 1 0 226 0 0
+-
 # End Of Table - sites (daily)
 # -referrers- 
 http://www.google.com/url
-0 2
+0 12
 - (Direct Request)
-0 54
+0 84
+http://bitrip.ge/
+0 1
 # End Of Table - referrers
 # -agents- 
 Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0
 0 21
 Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/6.0)
-0 2
+0 12
 SiteLockSpider [en] (WinNT; I ;Nav)
 0 1
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
 0 1
 Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)
 0 9
+CheckMarkNetwork/1.0 (+http://www.checkmarknetwork.com/spider.html)
+0 1
+Mozilla/5.0 (compatible; AhrefsBot/6.1; +http://ahrefs.com/robot/)
+0 3
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+0 3
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36
 0 1
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.3 Safari/605.1.15
 0 1
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0
-0 2
-Cpanel-HTTP-Client/1.0
 0 9
+Cpanel-HTTP-Client/1.0
+0 18
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+0 1
 Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
-0 2
+0 4
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0
+0 1
 Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/6.0;)
-0 3
+0 5
 Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0
 0 4
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+0 2
 # End Of Table - agents
 # -search strings- 
 # End Of Table - search strings

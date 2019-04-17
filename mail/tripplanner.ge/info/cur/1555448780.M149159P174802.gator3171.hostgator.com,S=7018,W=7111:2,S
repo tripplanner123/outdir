@@ -1,0 +1,93 @@
+Return-Path: <0102016a27f89dc1-eb9933e6-fd52-4f26-bfd0-e7fafa118f26-000000@eu-west-1.amazonses.com>
+Delivered-To: info@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP id sAzRCMxDtlzSqgIA8w4q4w
+	for <info@tripplanner.ge>; Tue, 16 Apr 2019 16:06:20 -0500
+Return-path: <0102016a27f89dc1-eb9933e6-fd52-4f26-bfd0-e7fafa118f26-000000@eu-west-1.amazonses.com>
+Envelope-to: info@tripplanner.ge
+Delivery-date: Tue, 16 Apr 2019 16:06:20 -0500
+Received: from a7-50.smtp-out.eu-west-1.amazonses.com ([54.240.7.50]:55398)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <0102016a27f89dc1-eb9933e6-fd52-4f26-bfd0-e7fafa118f26-000000@eu-west-1.amazonses.com>)
+	id 1hGVHX-000jbN-HN
+	for info@tripplanner.ge; Tue, 16 Apr 2019 16:06:20 -0500
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=ittbuwqxylharqazgrekgozjc6j4wxrp; d=tonkosti.ru; t=1555448766;
+	h=To:Subject:From:Reply-To:MIME-Version:Content-Type:Message-Id:Date;
+	bh=Z9BNKS3FB05BoGVWmujLAXrESFggldEY9uL4cCyUP0s=;
+	b=FgkfZcn1TXdfE8naXwDkLJARQxjskqzFrfUHFww3c+CVxPQJZe5NpG95FZpjO5Ur
+	oO/rcr/1HndiBgbazF8fMMjit5B0eTnGYwOv7gDSOpWIDGsWiMhuYV92VOFgwcaFikV
+	3TNPWj3MqBKhMdFl3dZbfI2XCoU31ZO6nkN80PC8=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=ihchhvubuqgjsxyuhssfvqohv7z3u4hn; d=amazonses.com; t=1555448766;
+	h=To:Subject:From:Reply-To:MIME-Version:Content-Type:Message-Id:Date:Feedback-ID;
+	bh=Z9BNKS3FB05BoGVWmujLAXrESFggldEY9uL4cCyUP0s=;
+	b=EY1bHcKcBYHanLaiIF+jFAsYUUCjn6EFMe+AQHuqmKBIDvjOOyDDM2FPiTLCRs2g
+	m17or3bTwkTyNffYy936bigEKmxm1fAtN3ttHdvAXlBZ8U9eJaDizszuPTLtvrWVOV3
+	No3M9i+BQxA6uzepp/OGVUKhaUqLgP+sGCsInj+M=
+To: info@tripplanner.ge
+Subject: =?UTF-8?B?0J3QsNC/0L7QvNC40L3QsNC90LjQtSDQviDQstCw0YjQtdC8INC30LDQutCw0LfQtQ==?=
+From: =?UTF-8?B?VG9ua29zdGkucnUgLSDQk9C40LTRiyDQuCDRjdC60YHQutGD0YDRgdC40Lgg0L3QsCDQotC+0L3QutC+0YHRgtGP0YU=?=<guides@tonkosti.ru>
+Reply-To: guides@tonkosti.ru
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Message-ID: <0102016a27f89dc1-eb9933e6-fd52-4f26-bfd0-e7fafa118f26-000000@eu-west-1.amazonses.com>
+Date: Tue, 16 Apr 2019 21:06:05 +0000
+X-SES-Outgoing: 2019.04.16-54.240.7.50
+Feedback-ID: 1.eu-west-1.DgewrcENvg6U/RU9n1HTaFvhtn1FWBC5gZXwjFVN390=:AmazonSES
+X-Spam-Status: No, score=1.0
+X-Spam-Score: 10
+X-Spam-Bar: +
+X-Spam-Flag: NO
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<body>
+
+<table border="0" cellspacing="0" cellpadding="0" width="100%" style="font-family: Roboto,sans-serif; width:100%;">
+  <tr>
+    <td valign="middle" style="vertical-align:middle;padding-bottom:10px;padding-top:10px;">
+      <span style="padding-right:40px;padding-bottom:20px;float: left;"><a href="https://tonkosti.ru/" target="_blank"><img src="https://static.tonkosti.ru/img/logo_main.png" width="130" height="47" alt="Тонкости туризма" align="left"></a></span>
+      <div style="float: left;padding-top:6px;">
+        <a href="https://tonkosti.ru/%D0%9E%D1%82%D0%B5%D0%BB%D0%B8" target="_blank" style="color:#137da3;padding-right:40px;text-transform:uppercase;text-decoration:none;font-size:15px;line-height:32px;white-space:nowrap;">Отели</a>
+        <a href="https://tonkosti.ru/%D0%90%D0%B2%D0%B8%D0%B0%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D1%8B" target="_blank" style="color:#137da3;padding-right:40px;text-transform:uppercase;text-decoration:none;font-size:15px;line-height:32px;white-space:nowrap;">Авиабилеты</a>
+        <a href="https://tonkosti.ru/%D0%90%D1%80%D0%B5%D0%BD%D0%B4%D0%B0_%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D0%B5%D0%B9" target="_blank" style="color:#137da3;padding-right:40px;text-transform:uppercase;text-decoration:none;font-size:15px;line-height:32px;white-space:nowrap;">Аренда авто</a>
+        <a href="https://tonkosti.ru/%D0%93%D0%B8%D0%B4%D1%8B" target="_blank" style="color:#137da3;text-transform:uppercase;text-decoration:none;font-size:15px;line-height:32px;white-space:nowrap;">Гиды и экскурсии</a>
+      </div>
+    </td>
+  </tr>
+<tr><td style="font-size:15px;color:#333;line-height:24px;padding-top:30px;padding-bottom:30px;border-top:1px solid #61b3cf;border-bottom:1px solid #61b3cf;">
+
+<span style="font-size:24px;color:#333;line-height:32px;">Напоминание о вашем заказе</span><br>
+
+<p>Tripplanner.ge, здравствуйте!</p>
+
+<p>6&nbsp;дней назад вы создали в своем личном кабинете гида на портале &laquo;Тонкости туризма&raquo; (<a href="https://tonkosti.ru" target="_blank" style="color:#05769e;text-decoration:none;">tonkosti.ru</a>) заявку №&nbsp;148878 (<a href="https://guides.tonkosti.ru/account/invoice.phtml?id=148878" target="_blank" style="color:#05769e;text-decoration:none;">https://guides.tonkosti.ru/account/invoice.phtml?id=148878</a>) — подписка на публикацию экскурсий в следующих городах/регионах:</p>
+
+<ul>
+    <li>Тбилиси с 11.04.2019 по 10.04.2020</li>
+
+</ul>
+
+<p>Оплатить счет по этой заявке вы можете любым удобным вам способом: банковской картой, банковским переводом, с кошелька Webmoney, Яндекс.Деньгами или через PayPal. Подробная информация найдется в вашем личном кабинете в разделе &laquo;Счета&raquo;.</p>
+
+<p>Если счет не будет оплачен, то завтра он будет аннулирован автоматически.</p>
+
+<p>Напомним, что управлять своими экскурсиями и подписками вы можете в личном кабинете <a href="https://guides.tonkosti.ru/account/" target="_blank" style="color:#05769e;text-decoration:none;">https://guides.tonkosti.ru/account/</a>, введя адрес электронной почты и пароль, указанные при регистрации.</p>
+
+</td></tr>
+  <tr>
+    <td style="font-size:11px;color:#a9a9a9;line-height:16px;padding-top:30px;">С уважением,<br> команда портала Tonkosti.ru, программа &laquo;Гиды на Тонкостях&raquo;<br>
+      <a style="font-size:11px;color:#a9a9a9;text-decoration:none;" href="mailto:guides@tonkosti.ru">guides@tonkosti.ru</a>, +7&nbsp;499&nbsp;685-48-21<br><br>
+      Мы Вконтакте: <a href="https://vk.com/tonkosti_ru" target="_blank" style="font-size:11px;color:#a9a9a9;text-decoration:none;">vk.com/tonkosti_ru</a> и на Фейсбуке <a href="https://www.facebook.com/Tonkosti.Turizma" target="_blank" style="font-size:11px;color:#a9a9a9;text-decoration:none;">facebook.com/Tonkosti.Turizma</a>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
