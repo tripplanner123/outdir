@@ -3598,3 +3598,191 @@ clear
 cd ../
 #1555512860
 git status
+#1555512880
+git add .
+#1555512895
+git commit -m "all in"
+#1555512903
+git push origin master
+#1555512926
+cdbeetrip.ge
+#1555512929
+cd beetrip.ge
+#1555512934
+git status
+#1555512941
+cd ../public_html
+#1555512942
+clear
+#1555513673
+git status
+#1555513685
+git add .
+#1555513704
+git commit -m "planner new prices added admin"
+#1555513736
+git push origin master
+#1555513762
+claer
+#1555513764
+clear
+#1555518180
+git status
+#1555518184
+git add .
+#1555518193
+git commit -m "0-50"
+#1555518199
+git push origin master
+#1555526988
+git status
+#1555527003
+git add .
+#1555527023
+git commit -m "transfer prices object created"
+#1555527045
+git push origin master
+#1555530553
+exit
+#1555579635
+cd public_html
+#1555579639
+git status
+#1555579652
+git add img/*
+#1555579656
+git status
+#1555579669
+git add .
+#1555579696
+git commit -m "transfer count front-end Done"
+#1555579702
+git push origin master
+#1555586721
+git status
+#1555586728
+git add img/
+#1555586732
+git status
+#1555586744
+git add files/*
+#1555586748
+git add files/.*
+#1555586752
+git status
+#1555586797
+git commit -m "transport count price back-end done"
+#1555586806
+git push origin master
+#1555592468
+git status
+#1555592478
+git add img/*
+#1555592481
+git status
+#1555592493
+git add .
+#1555592514
+git commit -m "planner prices front-end done"
+#1555592520
+git push origin master
+#1555592533
+git push origin master
+#1555592550
+clear
+#1555597834
+exit
+#1555664139
+cd public_html
+#1555664142
+git status
+#1555664161
+git add img/*
+#1555664165
+git status
+#1555664173
+git add .
+#1555664197
+git commit -m "transfer added bus done"
+#1555664204
+git push origin master
+#1555670423
+git status
+#1555670430
+git add .
+#1555670445
+git commit -m "planner added bus"
+#1555670452
+git push origin master
+#1555691693
+exit
+#1555783966
+cd public_html
+#1555783969
+git status
+#1555783981
+git add img/*
+#1555783985
+git status
+#1555783993
+git add .
+#1555784004
+git commit -m "product count done"
+#1555784011
+git push origin master
+#1555784033
+cd _backup
+#1555784034
+ls
+#1555784044
+rm 17-04-2019.sql
+#1555784050
+rm 18-04-2019.sql
+#1555784057
+rm 19-04-2019.sql
+#1555784062
+cd ../
+#1555784063
+ls
+#1555784076
+exit
+#1555833535
+cd public_html
+#1555833540
+git status
+#1555833557
+git diff error
+#1555833563
+git diff error_log
+#1555838613
+git status
+#1555838623
+git add .
+#1555838709
+git commit -m "ongoing tour count bus add "
+#1555838717
+git push origin master
+#1555838742
+git push origin master
+#1555842551
+cd _backup
+#1555842552
+ls
+#1555843224
+exit
+#1555843534
+cd public_html
+#1555843538
+git status
+#1555843549
+git add .
+#1555843579
+git commit -m "double same way discount added in admin"
+#1555843586
+git push origin master
+#1555843603
+clear
+#1555843605
+cd
+#1555843610
+git status
