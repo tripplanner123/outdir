@@ -1,7 +1,7 @@
-# Webalizer V2.23-08 Incremental Data - 04/20/2019 03:55:40
-2019 4 20 3 55 40
-43 30 12 28 3 10 8049 15 10 0
-1 4 18 9 20
+# Webalizer V2.23-08 Incremental Data - 04/22/2019 03:50:00
+2019 4 22 3 50 0
+51 30 12 28 3 10 11219 23 12 0
+1 12 18 9 22
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -22,8 +22,8 @@
 0 0 0 0 0 0
 2 0 987 1 1 1
 4 0 1585 1 4 1
-0 0 0 0 0 0
-0 0 0 0 0 0
+4 0 1585 1 4 1
+4 0 1585 1 4 1
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -36,7 +36,7 @@
 1 0 293 1
 1 0 694 0
 1 0 293 1
-5 1 2270 5
+13 1 5440 13
 3 1 1286 3
 0 0 0 0
 2 1 985 2
@@ -68,7 +68,7 @@
 0
 0
 0
-11
+17
 0
 0
 0
@@ -78,7 +78,7 @@
 0
 0
 0
-2
+4
 0
 0
 0
@@ -142,11 +142,11 @@
 /.well-known/acme-challenge/Yu9YkTBPMydsO0HO_GQLAF2EQribMdh4muctOL_XhL0
 0 1 0 87 0 0
 /.well-known/acme-challenge/G2EINFXDIHCXF4KJLDT7QRCC4L6VWE0U
-0 1 7017734119350075392 64 0 0
+0 1 3690750687738724608 64 0 0
 /.well-known/acme-challenge/GZC4TBNKD3C9BF4QOE2YU_V5VZ7Z0AXJ
-0 1 3832895559684915456 64 0 0
+0 1 3257003246118711597 64 0 0
 /
-0 3 0 2073 6 0
+0 3 0 2073 8 0
 /.well-known/acme-challenge/KWMPX4OFPHHBDSEX57SW7_ONEL8JQ30D
 0 1 0 64 0 0
 /.well-known/acme-challenge/3F1L6T9B7LAX86GJPI574AV1746WRMH4
@@ -188,7 +188,7 @@ outbound1.letsencrypt.org
 0 5 5 435 0 0
 -
 smartscan04.sitelock.com
-0 4 0 1585 1 1555732540
+0 12 0 4755 3 1555905000
 -
 188-169-161-146.dsl.utg.ge
 0 1 0 293 1 1554869850
@@ -196,22 +196,22 @@ smartscan04.sitelock.com
 # End Of Table - sites (monthly)
 # -sites- (daily)
 smartscan04.sitelock.com
-0 4 0 1585 1 1555732540
+0 4 0 1585 1 1555905000
 -
 # End Of Table - sites (daily)
 # -referrers- 
 http://www.google.com/url
-0 2
+0 6
 - (Direct Request)
-0 40
+0 42
 http://www.triplaner.ge
-0 1
+0 3
 # End Of Table - referrers
 # -agents- 
 Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/6.0)
-0 3
+0 9
 SiteLockSpider [en] (WinNT; I ;Nav)
-0 1
+0 3
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
 0 1
 Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)

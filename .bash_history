@@ -3786,3 +3786,73 @@ clear
 cd
 #1555843610
 git status
+#1555843626
+git add .
+#1555843641
+git commit -m "outside files changed"
+#1555843650
+git push origin master
+#1555843670
+cd beetrip.ge
+#1555843671
+ls
+#1555843674
+git status
+#1555843684
+git diff error_log
+#1555843732
+clear
+#1555843741
+cd ../
+#1555843743
+exit
+#1555843747
+exit
+#1555928051
+cd public_html
+#1555928054
+git status
+#1555928065
+git add .
+#1555954603
+git statuds
+#1555954607
+git status
+#1555954615
+git add .
+#1555954626
+git commit -m "transfer done"
+#1555954634
+git push origin master
+#1555965358
+exit
+#1556019400
+cd public_html
+#1556019403
+git status
+#1556019414
+git add .
+#1556019427
+git commit -m "fix planner kmprice bug"
+#1556019434
+git push origin master
+#1556019455
+cd _backup
+#1556019457
+ls
+#1556019468
+rm 20-04-2019.sql
+#1556019473
+rm 21-04-2019.sql
+#1556019479
+rm 22-04-2019.sql
+#1556019482
+clear
+#1556019485
+cd ../
+#1556019486
+ls
+#1556019490
+cd
+#1556019494
+git status

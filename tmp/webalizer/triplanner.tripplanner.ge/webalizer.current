@@ -1,7 +1,7 @@
-# Webalizer V2.23-08 Incremental Data - 04/19/2019 20:11:38
-2019 4 19 20 11 38
-71 30 8 28 3 8 19883 43 16 0
-2 4 24 9 19
+# Webalizer V2.23-08 Incremental Data - 04/21/2019 20:04:34
+2019 4 21 20 4 34
+79 30 8 28 3 8 23059 51 18 0
+1 12 24 9 21
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -21,8 +21,8 @@
 4 0 1588 1 4 1
 4 0 1588 1 4 1
 6 0 2576 2 5 2
-0 0 0 0 0 0
-0 0 0 0 0 0
+4 0 1588 1 4 1
+4 0 1588 1 4 1
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -53,7 +53,7 @@
 0 0 0 0
 0 0 0 0
 0 0 0 0
-36 0 14292 36
+44 0 17468 44
 0 0 0 0
 18 18 1359 0
 9 9 576 0
@@ -68,7 +68,7 @@
 0
 0
 0
-31
+37
 0
 0
 0
@@ -78,7 +78,7 @@
 0
 0
 0
-10
+12
 0
 0
 0
@@ -142,9 +142,9 @@
 /.well-known/acme-challenge/4FH9QCDE2WA8V9L_46IEDUMZL5DATQSX
 0 1 0 64 0 0
 /.well-known/acme-challenge/S_1M8SOLQAAZWE-Z88G6QIX3VD7L42H1
-0 1 0 64 0 0
+0 1 8314600822297276530 64 0 0
 /
-0 3 0 2076 15 2
+0 3 7020393837977665536 2076 17 2
 /.well-known/acme-challenge/u8Nc9AKCP6u7Rcz2VVAGqM-RqPAv_ZT_Aj-K6zMA7so
 0 1 0 87 0 0
 /.well-known/acme-challenge/QUT7K0FDVOTCFHVNV-CCM6PWH5RQWIN-
@@ -179,30 +179,27 @@ outbound1.letsencrypt.org
 0 5 5 435 0 0
 -
 smartscan04.sitelock.com
-0 36 0 14292 9 1555704698
+0 44 0 17468 11 1555877074
 -
 # End Of Table - sites (monthly)
 # -sites- (daily)
-researchscanner03.eecs.berkeley.edu
-0 2 0 988 1 1555680759
-/
 smartscan04.sitelock.com
-0 4 0 1588 1 1555704698
+0 4 0 1588 1 1555877074
 -
 # End Of Table - sites (daily)
 # -referrers- 
 http://www.google.com/url
-0 18
+0 22
 - (Direct Request)
-0 44
+0 46
 http://www.triplanner.ge
-0 9
+0 11
 # End Of Table - referrers
 # -agents- 
 Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/6.0)
-0 27
+0 33
 SiteLockSpider [en] (WinNT; I ;Nav)
-0 9
+0 11
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
 0 1
 Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)

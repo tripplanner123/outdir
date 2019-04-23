@@ -8,17 +8,17 @@ AWSTATS DATA FILE 7.7 (build 20180105)
 # update).
 BEGIN_MAP 28
 POS_GENERAL 2026                
-POS_TIME 2700                
+POS_TIME 2699                
 POS_VISITOR 5853                
-POS_DAY 6074                
+POS_DAY 6091                
 POS_DOMAIN 3211                
 POS_LOGIN 3457                
 POS_ROBOT 3612                
 POS_WORMS 3744                
 POS_EMAILSENDER 3875                
 POS_EMAILRECEIVER 4018                
-POS_SESSION 6189                
-POS_SIDER 6347                
+POS_SESSION 6226                
+POS_SIDER 6384                
 POS_FILETYPES 4153                
 POS_DOWNLOADS 4233                
 POS_OS 4281                
@@ -31,7 +31,7 @@ POS_SEREFERRALS 4910
 POS_PAGEREFS 5054                
 POS_SEARCHWORDS 5202                
 POS_KEYWORDS 5354                
-POS_MISC 2364                
+POS_MISC 2363                
 POS_ERRORS 5413                
 POS_CLUSTER 3313                
 POS_SIDER_404 5521                
@@ -46,11 +46,11 @@ END_MAP
 # MonthHostsKnown   = Number of hosts known
 # MonthHostsUnKnown = Number of hosts unknown
 BEGIN_GENERAL 8
-LastLine 20190420062517 3 372 12781282865290
+LastLine 20190422004754 2 191 9780084029974
 FirstTime 20190409234228
-LastTime 20190414222902
-LastUpdate 20190420070350 3 0 3 0 0
-TotalVisits 4                   
+LastTime 20190422004754
+LastUpdate 20190422071432 2 0 2 0 0
+TotalVisits 5                   
 TotalUnique 4                   
 MonthHostsKnown 0                   
 MonthHostsUnknown 4                   
@@ -58,21 +58,21 @@ END_GENERAL
 
 # Misc ID - Pages - Hits - Bandwidth
 BEGIN_MISC 10
-RealPlayerSupport 0 0 0
 WindowsMediaPlayerSupport 0 0 0
-AddToFavourites 0 0 0
-PDFSupport 0 0 0
-JavascriptDisabled 0 0 0
-JavaEnabled 0 0 0
 FlashSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
 TotalMisc 0 0 0
-DirectorSupport 0 0 0
 QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+AddToFavourites 0 0 0
+JavaEnabled 0 0 0
 END_MISC
 
 # Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
 BEGIN_TIME 24
-0 1 1 685 1 2 513
+0 3 3 2051 2 3 800
 1 0 0 0 1 1 291
 2 0 0 0 0 1 226
 3 0 0 0 1 1 291
@@ -101,8 +101,8 @@ END_TIME
 # Domain - Pages - Hits - Bandwidth
 # The 25 first Pages must be first (order not required for others)
 BEGIN_DOMAIN 3
+cn 4 4 2732
 us 3 3 2064
-cn 2 2 1366
 ca 1 1 685
 END_DOMAIN
 
@@ -137,7 +137,7 @@ END_EMAILRECEIVER
 
 # Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
 BEGIN_FILETYPES 1
-html 6 4115 0 0
+html 8 5481 0 0
 END_FILETYPES
 
 # Downloads - Hits - Bandwidth
@@ -146,19 +146,19 @@ END_DOWNLOADS
 
 # OS ID - Hits
 BEGIN_OS ID - Hits - Pages 5
+macosx11 4 4
+win7 1 1
+win10 1 1
 linuxandroid 1 1
 macosx12 1 1
-win10 1 1
-win7 1 1
-macosx11 2 2
 END_OS
 
 # Browser ID - Hits - Pages
 BEGIN_BROWSER 4
-chrome53.0.2785.143 2 2
-firefox47.0 2 2
-firefox55.0 1 1
 chrome47.0.2526.80 1 1
+firefox47.0 4 4
+firefox55.0 1 1
+chrome53.0.2785.143 2 2
 END_BROWSER
 
 # Screen size - Hits
@@ -175,7 +175,7 @@ END_UNKNOWNREFERERBROWSER
 
 # Origin - Pages - Hits 
 BEGIN_ORIGIN 6
-From0 6 6
+From0 8 8
 From1 0 0
 From2 0 0
 From3 0 0
@@ -204,9 +204,9 @@ END_KEYWORDS
 
 # Errors - Hits - Bandwidth
 BEGIN_ERRORS 3
-406 4 904
 404 1 694
-301 13 3177
+406 4 904
+301 14 3464
 END_ERRORS
 
 # URL with 404 errors - Hits - Last URL referrer
@@ -218,27 +218,28 @@ END_SIDER_404
 # [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
 # The 25 first Hits must be first (order not required for others)
 BEGIN_VISITOR 4
+60.191.38.77 4 4 2732 20190422004754 20190422002717 /
 205.153.155.0 2 2 1373 20190409234230
-60.191.38.77 2 2 1366 20190414222902
 104.192.172.3 1 1 685 20190410000807
 205.153.155.2 1 1 691 20190409234229
 END_VISITOR
 
 # Date - Pages - Hits - Bandwidth - Visits
-BEGIN_DAY 3
+BEGIN_DAY 4
 20190409 3 3 2064 2
 20190410 1 1 685 1
 20190414 2 2 1366 1
+20190422 2 2 1366 1
 END_DAY
 
 # Session range - Number of visits
 BEGIN_SESSION 2
-0s-30s 3
 15mn-30mn 1
+0s-30s 3
 END_SESSION
 
 # URL - Pages - Bandwidth - Entry - Exit
 # The 25 first Pages must be first (order not required for others)
 BEGIN_SIDER 1
-/ 6 4115 4 4
+/ 8 5481 5 4
 END_SIDER

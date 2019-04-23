@@ -1,0 +1,607 @@
+Return-Path: <anastasia@tonkosti.ru>
+Delivered-To: info@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP
+	id ODCvKRHyvlwvhA0A8w4q4w
+	(envelope-from <anastasia@tonkosti.ru>)
+	for <info@tripplanner.ge>; Tue, 23 Apr 2019 06:08:01 -0500
+Return-path: <anastasia@tonkosti.ru>
+Envelope-to: info@tripplanner.ge
+Delivery-date: Tue, 23 Apr 2019 06:08:01 -0500
+Received: from mail-lf1-f47.google.com ([209.85.167.47]:46836)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <anastasia@tonkosti.ru>)
+	id 1hItHM-003ooA-7H
+	for info@tripplanner.ge; Tue, 23 Apr 2019 06:08:01 -0500
+Received: by mail-lf1-f47.google.com with SMTP id k18so11378854lfj.13
+        for <info@tripplanner.ge>; Tue, 23 Apr 2019 04:07:54 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=tonkosti-ru.20150623.gappssmtp.com; s=20150623;
+        h=subject:to:references:from:message-id:date:user-agent:mime-version
+         :in-reply-to:content-language;
+        bh=yStuh3/Lfrt82YMNjMbGPljGDcqBq9IRocXIJ4oXAtk=;
+        b=ZTFIyI7af7QZjhOFhHx4J9V/V5hkoHntjDqzwGVqFcfHT+6kB/j1hhpQ/m2zQfZewz
+         6XkS07xkaJGz0OPig2/+nzaC/4JiLq/nL9gEbXzKnZEkkVinpawfo1GOeF11vKna9u6c
+         j1WZ3XHxzLYwPjFYxmjybpdM5Ta3usrv9urcCya2pJzTy0crwh2wxOy61t8xRqK2fgyg
+         jEuLLnB4h/9KTTA3c75JHUiWmp//5tiHBvzzH2x5oQoH+mYO4UAOnpWXNt6WnDbCo3CV
+         R0889znfmp0QemOd4DglvTF83sAgwp1cbmBDipARvi2KkXzNq5+J3nVBVU6BUhsvMH8u
+         I/Rw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:subject:to:references:from:message-id:date
+         :user-agent:mime-version:in-reply-to:content-language;
+        bh=yStuh3/Lfrt82YMNjMbGPljGDcqBq9IRocXIJ4oXAtk=;
+        b=W5WF6q4hn8u/LtMdy19sY3FuPXLjIgMaOpK64Ti+OO8bGWeRHyPoUqMv+ZNM9pRq+x
+         gelgQv9TYTauV/lG0WOQhST0mGwtvFeBnufp803wDit88Vmv4m5jOer1ilCa0wXn3kUX
+         VVTGuyc6QImpKkcsUBnpZYn75zaqJgzrXcOKqMs/23dIK/+FF9fXdNDy2DHAm7wyM07F
+         GjbjaiYQpMuyzvm/s/JRK07wyBBDbb4l3lX9qcS7Yo99Hydc7w3yIhp466x1SmYnVQhh
+         NGEe7sewDjkLu5mXQl410TIBmmE8OMi3wcUEWHH4AKUctQTKKSlGS02/ewxbibjMAs4h
+         cIxQ==
+X-Gm-Message-State: APjAAAWAdNAgIVTvs7KalUAOVKigiklmjCVvucA3HQldvVjJFstSzRdW
+	lQfGiMcbHdeWq3U+j6FePniGm/exTf8nVg==
+X-Google-Smtp-Source: APXvYqxg3ZaSYhHUA2bjJEAOSLWFC240RARcIfNX6zt0PXthnwHyK5dHa4kd2vD7XnByQ7W328fBdA==
+X-Received: by 2002:ac2:4192:: with SMTP id z18mr11829869lfh.96.1556017667708;
+        Tue, 23 Apr 2019 04:07:47 -0700 (PDT)
+Received: from [192.168.133.157] ([94.79.61.146])
+        by smtp.gmail.com with ESMTPSA id z8sm3293256ljc.50.2019.04.23.04.07.46
+        for <info@tripplanner.ge>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 23 Apr 2019 04:07:47 -0700 (PDT)
+Subject: =?UTF-8?B?UmU6INCQ0LrRhtC40Y8g0L7RgiDQotC+0L3QutC+0YHRgtC10LkuINCT?=
+ =?UTF-8?B?0L7RgtC+0LLRiyDRhdC+0YDQvtGI0L4g0L/QvtGA0LDQsdC+0YLQsNGC0Ywg0Ls=?=
+ =?UTF-8?B?0LXRgtC+0Lw/?=
+To: Eka <info@tripplanner.ge>
+References: <bf6e485c-cbbd-5497-19c8-898ddeec742f@tonkosti.ru>
+ <089C6D72-918D-4037-8D0A-1BEB4664B9A5@tripplanner.ge>
+ <ed04dfab-25a7-0f76-a04e-723ba08a68b2@tonkosti.ru>
+ <AD84A634-0638-4293-9F54-33735CE5CBC2@tripplanner.ge>
+ <30d8681f-6c93-a3d3-d855-9637dee1a273@tonkosti.ru>
+ <D1B761AC-811F-4F25-BC2B-84B6C8DF5E0D@tripplanner.ge>
+From: =?UTF-8?B?0JDQvdCw0YHRgtCw0YHQuNGPINCY0LLQsNC90L7QstCw?=
+ <anastasia@tonkosti.ru>
+Message-ID: <4c525ea1-b9db-a10f-a92a-31e764773c14@tonkosti.ru>
+Date: Tue, 23 Apr 2019 14:07:44 +0300
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:60.0) Gecko/20100101
+ Thunderbird/60.6.1
+MIME-Version: 1.0
+In-Reply-To: <D1B761AC-811F-4F25-BC2B-84B6C8DF5E0D@tripplanner.ge>
+Content-Type: multipart/alternative;
+ boundary="------------1AD896771C76E476B3ED4A3F"
+Content-Language: ru
+X-Spam-Status: No, score=2.9
+X-Spam-Score: 29
+X-Spam-Bar: ++
+X-Spam-Flag: NO
+
+This is a multi-part message in MIME format.
+--------------1AD896771C76E476B3ED4A3F
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+Екатерина, я могу формировать для Вас счет в личном кабинете на 117$?
+
+На всякий случай, напоминаю, что промо-блок будет действовать с июня.
+
+Размещение в гидах пока не планируете?
+
+
+С уважением, Анастасия
+
+23.04.2019 13:50, Eka пишет:
+> Здраствуйте,
+> да, приняли решение сделаем промо-блок в разделе “Грузия 
+> <https://tonkosti.ru/%D0%93%D1%80%D1%83%D0%B7%D0%B8%D1%8F>” на 3 
+> месяца за 117$,
+> сегодня если успею сделаю
+>
+> Спасибо
+>
+>> On Apr 23, 2019, at 2:39 PM, Анастасия Иванова <anastasia@tonkosti.ru 
+>> <mailto:anastasia@tonkosti.ru>> wrote:
+>>
+>> Добрый день, Екатерина!
+>>
+>> Подскажите, пожалуйста, приняли ли Вы решение о размещении у нас на 
+>> сайте?
+>>
+>> С уважением, Анастасия
+>>
+>>
+>> 22.04.2019 13:07, Eka пишет:
+>>> Анастасия,
+>>> Спасибо
+>>>
+>>>> On Apr 22, 2019, at 2:06 PM, Анастасия Иванова 
+>>>> <anastasia@tonkosti.ru <mailto:anastasia@tonkosti.ru>> wrote:
+>>>>
+>>>> Екатерина, Добрый  день!
+>>>>
+>>>> Акция не распространяется на раздел "гиды и экскурсии".
+>>>>
+>>>> Промо-блок будет стоит на 3 месяца в рамках акции  7500 руб
+>>>>
+>>>>
+>>>> С уважением, Анастасия
+>>>>
+>>>> 22.04.2019 12:56, Eka пишет:
+>>>>> Анастасия, Добрый день!
+>>>>> Я осмотрела ваше предложение, есть вопрос,
+>>>>> если мы подпишемся на один город из отдела “гиды и экскурсии” и 
+>>>>> возьмем один промо блок, за сколько это нам обойдется и будет ли 
+>>>>> косятся это акция?
+>>>>>
+>>>>> С увожением
+>>>>> Екатерина Тархнишвили
+>>>>> tripplanner.ge
+>>>>> e.tarkhnishvili@tripplanner.ge <mailto:e.tarkhnishvili@tripplanner.ge>
+>>>>> +995 591 712345
+>>>>>
+>>>>>
+>>>>>> On Apr 19, 2019, at 2:15 PM, Анастасия Иванова 
+>>>>>> <anastasia@tonkosti.ru <mailto:anastasia@tonkosti.ru>> wrote:
+>>>>>>
+>>>>>> Екатерина, Добрый день!
+>>>>>>
+>>>>>> Общались с Вами пару дней назад.
+>>>>>>
+>>>>>> Хотела бы уточнить, приняли ли Вы решение о размещение у нас на 
+>>>>>> сайте в разделе "гиды и экскурсии"?
+>>>>>>
+>>>>>> Возможно  Вас заинтересует  акция, которая у нас стартовала.
+>>>>>>
+>>>>>>
+>>>>>> *Только в апреле для всех, кто готов хорошо поработать летом, 
+>>>>>> «Тонкости» дарят скидку 50%*
+>>>>>> *любой вид рекламы кроме раздела "гиды и экскурсии"
+>>>>>>
+>>>>>> Условия акции:
+>>>>>> - бронируй и оплачивай в апреле размещение в «Тонкостях» на все 
+>>>>>> лето (до конца августа)
+>>>>>> - получай минус 50% от цены
+>>>>>> - и бонус: дополнительное размещение в разделе «Горящие туры».
+>>>>>>
+>>>>>> Один из вариантов размещения рекламы это промо-блок в разделе 
+>>>>>> "Грузия <https://tonkosti.ru/%D0%93%D1%80%D1%83%D0%B7%D0%B8%D1%8F>"
+>>>>>>
+>>>>>> Промо-блоки предъявляются на всех страницах, относящихся к 
+>>>>>> стране: главная страница страны, страницы регионов, курортов и 
+>>>>>> городов, страницы отелей, погоды и другие. Расположены 
+>>>>>> непосредственно в поле основного контента. Блоки каждый раз будут 
+>>>>>> предъявляться в произвольном порядке.
+>>>>>>
+>>>>>> Пример: НастинаГрузия, Tkemaki tour, Flamingo tour и другие по 
+>>>>>> центру страницы (скриншот во вложении)
+>>>>>>
+>>>>>> Стоимость: /5 000 руб /в месяц (78$)
+>>>>>>
+>>>>>> - 3 месяца /15 000 руб ( по акции: 7 500 руб)- 117$
+>>>>>> /
+>>>>>> - 6 месяцев /30 000 руб //( по акции: 15 000 руб)- 234$
+>>>>>> /
+>>>>>> - 12 месяцев /60 000 руб//( по акции: 30 000 руб)/
+>>>>>>
+>>>>>> Статистика: за месяц    в среднем 77'365 показов,  423 перехода
+>>>>>>
+>>>>>> Если у Вас остались вопросы, будут рада на них ответить.
+>>>>>>
+>>>>>> Хорошего дня!
+>>>>>> -- 
+>>>>>> С уважением, Анастасия Иванова
+>>>>>> ООО «Тонкости продаж»
+>>>>>> тел.: (499) 685-48-21
+>>>>>> WhatsApp 89651045051
+>>>>>> www.tonkosti.ru
+>>>>>> skypeanastasia@tonkosti.ru
+>>>>>> icq 372640762
+>>>>>> http://vk.com/guides.tonkosti
+>>>>>> https://www.facebook.com/guides.tonkosti
+>>>>>> https://www.instagram.com/tonkosti_ru/
+>>>>>> <Грузия.png>
+>>>>>
+>>>> -- 
+>>>> С уважением, Анастасия Иванова
+>>>> ООО «Тонкости продаж»
+>>>> тел.: (499) 685-48-21
+>>>> WhatsApp 89651045051
+>>>> www.tonkosti.ru
+>>>> skypeanastasia@tonkosti.ru
+>>>> icq 372640762
+>>>> http://vk.com/guides.tonkosti
+>>>> https://www.facebook.com/guides.tonkosti
+>>>> https://www.instagram.com/tonkosti_ru/
+>>>
+>> -- 
+>> С уважением, Анастасия Иванова
+>> ООО «Тонкости продаж»
+>> тел.: (499) 685-48-21
+>> WhatsApp 89651045051
+>> www.tonkosti.ru
+>> skypeanastasia@tonkosti.ru
+>> icq 372640762
+>> http://vk.com/guides.tonkosti
+>> https://www.facebook.com/guides.tonkosti
+>> https://www.instagram.com/tonkosti_ru/
+>
+-- 
+С уважением, Анастасия Иванова
+ООО «Тонкости продаж»
+тел.: (499) 685-48-21
+WhatsApp 89651045051
+www.tonkosti.ru
+skype anastasia@tonkosti.ru
+icq 372640762
+http://vk.com/guides.tonkosti
+https://www.facebook.com/guides.tonkosti
+https://www.instagram.com/tonkosti_ru/
+
+
+--------------1AD896771C76E476B3ED4A3F
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  </head>
+  <body text="#000000" bgcolor="#FFFFFF">
+    <p>Екатерина, я могу формировать для Вас счет в личном кабинете на
+      117$?</p>
+    <p>На всякий случай, напоминаю, что промо-блок будет действовать с
+      июня.</p>
+    <p>Размещение в гидах пока не планируете?</p>
+    <p><br>
+    </p>
+    <p>С уважением, Анастасия<br>
+    </p>
+    <div class="moz-cite-prefix">23.04.2019 13:50, Eka пишет:<br>
+    </div>
+    <blockquote type="cite"
+      cite="mid:D1B761AC-811F-4F25-BC2B-84B6C8DF5E0D@tripplanner.ge">
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      Здраствуйте,
+      <div class="">да, приняли решение сделаем промо-блок в разделе “<a
+href="https://tonkosti.ru/%D0%93%D1%80%D1%83%D0%B7%D0%B8%D1%8F" class=""
+          moz-do-not-send="true">Грузия</a>” на 3 месяца за 117$,</div>
+      <div class="">сегодня если успею сделаю</div>
+      <div class=""><br class="">
+      </div>
+      <div class="">Спасибо</div>
+      <div class="">
+        <div><br class="">
+          <blockquote type="cite" class="">
+            <div class="">On Apr 23, 2019, at 2:39 PM, Анастасия Иванова
+              &lt;<a href="mailto:anastasia@tonkosti.ru" class=""
+                moz-do-not-send="true">anastasia@tonkosti.ru</a>&gt;
+              wrote:</div>
+            <br class="Apple-interchange-newline">
+            <div class="">
+              <meta http-equiv="Content-Type" content="text/html;
+                charset=UTF-8" class="">
+              <div text="#000000" bgcolor="#FFFFFF" class="">
+                <p class="">Добрый день, Екатерина!</p>
+                <p class="">Подскажите, пожалуйста, приняли ли Вы
+                  решение о размещении у нас на сайте?</p>
+                <p class="">С уважением, Анастасия</p>
+                <p class=""><br class="">
+                </p>
+                <div class="moz-cite-prefix">22.04.2019 13:07, Eka
+                  пишет:<br class="">
+                </div>
+                <blockquote type="cite"
+                  cite="mid:AD84A634-0638-4293-9F54-33735CE5CBC2@tripplanner.ge"
+                  class="">
+                  <meta http-equiv="Content-Type" content="text/html;
+                    charset=UTF-8" class="">
+                  Анастасия,
+                  <div class="">Спасибо<br class="">
+                    <div class=""><br class="">
+                      <blockquote type="cite" class="">
+                        <div class="">On Apr 22, 2019, at 2:06 PM,
+                          Анастасия Иванова &lt;<a
+                            href="mailto:anastasia@tonkosti.ru" class=""
+                            moz-do-not-send="true">anastasia@tonkosti.ru</a>&gt;
+                          wrote:</div>
+                        <br class="Apple-interchange-newline">
+                        <div class="">
+                          <meta http-equiv="Content-Type"
+                            content="text/html; charset=UTF-8" class="">
+                          <div text="#000000" bgcolor="#FFFFFF" class="">
+                            <p class="">Екатерина, Добрый  день!</p>
+                            <p class="">Акция не распространяется на
+                              раздел "гиды и экскурсии".</p>
+                            <p class="">Промо-блок будет стоит на 3
+                              месяца в рамках акции  7500 руб</p>
+                            <p class=""><br class="">
+                            </p>
+                            <p class="">С уважением, Анастасия<br
+                                class="">
+                            </p>
+                            <div class="moz-cite-prefix">22.04.2019
+                              12:56, Eka пишет:<br class="">
+                            </div>
+                            <blockquote type="cite"
+                              cite="mid:089C6D72-918D-4037-8D0A-1BEB4664B9A5@tripplanner.ge"
+                              class="">
+                              <meta http-equiv="Content-Type"
+                                content="text/html; charset=UTF-8"
+                                class="">
+                              Анастасия, Добрый день!
+                              <div class="">Я осмотрела ваше
+                                предложение, есть вопрос, </div>
+                              <div class="">если мы подпишемся на один
+                                город из отдела “гиды и экскурсии” и
+                                возьмем один промо блок, за сколько это
+                                нам обойдется и будет ли косятся это
+                                акция?</div>
+                              <div class=""><br class="">
+                              </div>
+                              <div class="">С увожением</div>
+                              <div class="">Екатерина Тархнишвили</div>
+                              <div class="">tripplanner.ge</div>
+                              <div class=""><a
+                                  href="mailto:e.tarkhnishvili@tripplanner.ge"
+                                  class="" moz-do-not-send="true">e.tarkhnishvili@tripplanner.ge</a></div>
+                              <div class="">+995 591 712345</div>
+                              <div class=""><br class="">
+                                <div class=""><br class="">
+                                  <blockquote type="cite" class="">
+                                    <div class="">On Apr 19, 2019, at
+                                      2:15 PM, Анастасия Иванова &lt;<a
+href="mailto:anastasia@tonkosti.ru" class="" moz-do-not-send="true">anastasia@tonkosti.ru</a>&gt;
+                                      wrote:</div>
+                                    <br
+                                      class="Apple-interchange-newline">
+                                    <div class="">
+                                      <meta http-equiv="content-type"
+                                        content="text/html;
+                                        charset=UTF-8" class="">
+                                      <div text="#000000"
+                                        bgcolor="#FFFFFF" class="">
+                                        <p class="">Екатерина, Добрый
+                                          день!</p>
+                                        <p class="">Общались с Вами пару
+                                          дней назад.<br class="">
+                                        </p>
+                                        <p class="">Хотела бы уточнить,
+                                          приняли ли Вы решение о
+                                          размещение у нас на сайте в
+                                          разделе "гиды и экскурсии"?</p>
+                                        <p class="">Возможно  Вас
+                                          заинтересует  акция, которая у
+                                          нас стартовала.<br class="">
+                                        </p>
+                                        <div dir="auto" class=""><br
+                                            class="">
+                                        </div>
+                                        <div dir="auto" class=""><b
+                                            class="">Только в апреле для
+                                            всех, кто готов хорошо
+                                            поработать летом, «Тонкости»
+                                            дарят скидку 50%</b><br
+                                            class="">
+                                        </div>
+                                        <div dir="auto" class="">*любой
+                                          вид рекламы кроме раздела
+                                          "гиды и экскурсии"</div>
+                                        <div dir="auto" class=""><br
+                                            class="">
+                                        </div>
+                                        <div dir="auto" class="">Условия
+                                          акции:</div>
+                                        <div dir="auto" class="">-
+                                          бронируй и оплачивай в апреле
+                                          размещение в «Тонкостях» на
+                                          все лето (до конца августа)
+                                          <div dir="auto" class="">-
+                                            получай минус 50% от цены</div>
+                                          <div dir="auto" class="">- и
+                                            бонус: дополнительное
+                                            размещение в разделе
+                                            «Горящие туры».</div>
+                                          <div dir="auto" class=""><br
+                                              class="">
+                                          </div>
+                                          <div dir="auto" class="">Один
+                                            из вариантов размещения
+                                            рекламы это промо-блок в
+                                            разделе "<a
+                                              href="https://tonkosti.ru/%D0%93%D1%80%D1%83%D0%B7%D0%B8%D1%8F"
+                                              class=""
+                                              moz-do-not-send="true">Грузия</a>"<span
+                                              style="font-family: Arial,
+                                              Tahoma; font-size:
+                                              14.6667px; font-style:
+                                              normal;
+                                              font-variant-ligatures:
+                                              normal; font-variant-caps:
+                                              normal; font-weight: 400;
+                                              letter-spacing: normal;
+                                              orphans: 2; text-align:
+                                              start; text-indent: 0px;
+                                              text-transform: none;
+                                              white-space: normal;
+                                              widows: 2; word-spacing:
+                                              0px;
+                                              -webkit-text-stroke-width:
+                                              0px; background-color:
+                                              rgb(255, 255, 255); float:
+                                              none; display: inline
+                                              !important;" class=""></span><span
+                                              style="font-family: Arial,
+                                              Tahoma; font-size:
+                                              14.6667px; font-style:
+                                              normal;
+                                              font-variant-ligatures:
+                                              normal; font-variant-caps:
+                                              normal; font-weight: 400;
+                                              letter-spacing: normal;
+                                              orphans: 2; text-align:
+                                              start; text-indent: 0px;
+                                              text-transform: none;
+                                              white-space: normal;
+                                              widows: 2; word-spacing:
+                                              0px;
+                                              -webkit-text-stroke-width:
+                                              0px; background-color:
+                                              rgb(255, 255, 255); float:
+                                              none; display: inline
+                                              !important;" class=""></span><br
+                                              class="">
+                                            <span style="font-family:
+                                              Arial, Tahoma; font-size:
+                                              14.6667px; font-style:
+                                              normal;
+                                              font-variant-ligatures:
+                                              normal; font-variant-caps:
+                                              normal; font-weight: 400;
+                                              letter-spacing: normal;
+                                              orphans: 2; text-align:
+                                              start; text-indent: 0px;
+                                              text-transform: none;
+                                              white-space: normal;
+                                              widows: 2; word-spacing:
+                                              0px;
+                                              -webkit-text-stroke-width:
+                                              0px; background-color:
+                                              rgb(255, 255, 255); float:
+                                              none; display: inline
+                                              !important;" class=""> </span>
+                                          </div>
+                                          <div dir="auto" class=""><br
+                                              class="">
+                                          </div>
+                                          <div dir="auto" class="">Промо-блоки
+                                            предъявляются на всех
+                                            страницах, относящихся к
+                                            стране: главная страница
+                                            страны, страницы регионов,
+                                            курортов и городов, страницы
+                                            отелей, погоды и другие.
+                                            Расположены непосредственно
+                                            в поле основного контента.
+                                            Блоки каждый раз будут
+                                            предъявляться в произвольном
+                                            порядке.</div>
+                                          <div dir="auto" class=""><br
+                                              class="">
+                                          </div>
+                                          <div dir="auto" class="">Пример:
+                                            НастинаГрузия, Tkemaki tour,
+                                            Flamingo tour и другие по
+                                            центру страницы (скриншот во
+                                            вложении) </div>
+                                          <div dir="auto" class=""><br
+                                              class="">
+                                          </div>
+                                          <div dir="auto" class="">Стоимость:
+                                            <i class="">5 000 руб </i>в
+                                            месяц (78$)<br class="">
+                                          </div>
+                                          <div dir="auto" class=""><br
+                                              class="">
+                                          </div>
+                                          <div dir="auto" class="">- 3
+                                            месяца <i class="">15 000
+                                              руб ( по акции: 7 500
+                                              руб)- 117$<br class="">
+                                            </i></div>
+                                          <div dir="auto" class="">- 6
+                                            месяцев <i class="">30 000
+                                              руб </i><i class="">( по
+                                              акции: 15 000 руб)- 234$<br
+                                                class="">
+                                            </i></div>
+                                          <div dir="auto" class="">- 12
+                                            месяцев  <i class="">60 000
+                                              руб</i><i class=""> ( по
+                                              акции: 30 000 руб)</i></div>
+                                        </div>
+                                        <div dir="auto" class=""><br
+                                            class="">
+                                        </div>
+                                        <div dir="auto" class="">Статистика:
+                                          за месяц    в среднем 77'365
+                                          показов,  423 перехода</div>
+                                        <div dir="auto" class=""><br
+                                            class="">
+                                        </div>
+                                        <div dir="auto" class="">Если у
+                                          Вас остались вопросы, будут
+                                          рада на них ответить.</div>
+                                        <div dir="auto" class=""><br
+                                            class="">
+                                        </div>
+                                        <div dir="auto" class="">Хорошего
+                                          дня!</div>
+                                        <pre class="moz-signature" cols="72">-- 
+С уважением, Анастасия Иванова
+ООО «Тонкости продаж»
+тел.: (499) 685-48-21
+WhatsApp 89651045051
+<a class="moz-txt-link-abbreviated" href="http://www.tonkosti.ru/" moz-do-not-send="true">www.tonkosti.ru</a>
+skype <a class="moz-txt-link-abbreviated" href="mailto:anastasia@tonkosti.ru" moz-do-not-send="true">anastasia@tonkosti.ru</a>
+icq 372640762
+<a class="moz-txt-link-freetext" href="http://vk.com/guides.tonkosti" moz-do-not-send="true">http://vk.com/guides.tonkosti</a>
+<a class="moz-txt-link-freetext" href="https://www.facebook.com/guides.tonkosti" moz-do-not-send="true">https://www.facebook.com/guides.tonkosti</a>
+<a class="moz-txt-link-freetext" href="https://www.instagram.com/tonkosti_ru/" moz-do-not-send="true">https://www.instagram.com/tonkosti_ru/</a></pre>
+                                      </div>
+                                      <span
+                                        id="cid:87BEC640-9AC9-4CF1-B23C-287EA9F0A3C2"
+                                        class="">&lt;Грузия.png&gt;</span></div>
+                                  </blockquote>
+                                </div>
+                                <br class="">
+                              </div>
+                            </blockquote>
+                            <pre class="moz-signature" cols="72">-- 
+С уважением, Анастасия Иванова
+ООО «Тонкости продаж»
+тел.: (499) 685-48-21
+WhatsApp 89651045051
+<a class="moz-txt-link-abbreviated" href="http://www.tonkosti.ru/" moz-do-not-send="true">www.tonkosti.ru</a>
+skype <a class="moz-txt-link-abbreviated" href="mailto:anastasia@tonkosti.ru" moz-do-not-send="true">anastasia@tonkosti.ru</a>
+icq 372640762
+<a class="moz-txt-link-freetext" href="http://vk.com/guides.tonkosti" moz-do-not-send="true">http://vk.com/guides.tonkosti</a>
+<a class="moz-txt-link-freetext" href="https://www.facebook.com/guides.tonkosti" moz-do-not-send="true">https://www.facebook.com/guides.tonkosti</a>
+<a class="moz-txt-link-freetext" href="https://www.instagram.com/tonkosti_ru/" moz-do-not-send="true">https://www.instagram.com/tonkosti_ru/</a></pre>
+                          </div>
+                        </div>
+                      </blockquote>
+                    </div>
+                    <br class="">
+                  </div>
+                </blockquote>
+                <pre class="moz-signature" cols="72">-- 
+С уважением, Анастасия Иванова
+ООО «Тонкости продаж»
+тел.: (499) 685-48-21
+WhatsApp 89651045051
+<a class="moz-txt-link-abbreviated" href="http://www.tonkosti.ru/" moz-do-not-send="true">www.tonkosti.ru</a>
+skype <a class="moz-txt-link-abbreviated" href="mailto:anastasia@tonkosti.ru" moz-do-not-send="true">anastasia@tonkosti.ru</a>
+icq 372640762
+<a class="moz-txt-link-freetext" href="http://vk.com/guides.tonkosti" moz-do-not-send="true">http://vk.com/guides.tonkosti</a>
+<a class="moz-txt-link-freetext" href="https://www.facebook.com/guides.tonkosti" moz-do-not-send="true">https://www.facebook.com/guides.tonkosti</a>
+<a class="moz-txt-link-freetext" href="https://www.instagram.com/tonkosti_ru/" moz-do-not-send="true">https://www.instagram.com/tonkosti_ru/</a></pre>
+              </div>
+            </div>
+          </blockquote>
+        </div>
+        <br class="">
+      </div>
+    </blockquote>
+    <pre class="moz-signature" cols="72">-- 
+С уважением, Анастасия Иванова
+ООО «Тонкости продаж»
+тел.: (499) 685-48-21
+WhatsApp 89651045051
+<a class="moz-txt-link-abbreviated" href="http://www.tonkosti.ru">www.tonkosti.ru</a>
+skype <a class="moz-txt-link-abbreviated" href="mailto:anastasia@tonkosti.ru">anastasia@tonkosti.ru</a>
+icq 372640762
+<a class="moz-txt-link-freetext" href="http://vk.com/guides.tonkosti">http://vk.com/guides.tonkosti</a>
+<a class="moz-txt-link-freetext" href="https://www.facebook.com/guides.tonkosti">https://www.facebook.com/guides.tonkosti</a>
+<a class="moz-txt-link-freetext" href="https://www.instagram.com/tonkosti_ru/">https://www.instagram.com/tonkosti_ru/</a></pre>
+  </body>
+</html>
+
+--------------1AD896771C76E476B3ED4A3F--
