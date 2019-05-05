@@ -3856,3 +3856,155 @@ ls
 cd
 #1556019494
 git status
+#1556019506
+git add .
+#1556019519
+git commit -m "mail cpanel change"
+#1556019526
+git push origin master
+#1556030667
+exit
+#1556171087
+exit
+#1556172483
+cd public_html
+#1556172487
+git status
+#1556172501
+git add .
+#1556172522
+git commit -m "beetrip db columns added"
+#1556172530
+git push origin master
+#1556172548
+cd
+#1556172553
+cd beetrip.ge
+#1556172555
+clear
+#1556172835
+cd ../public_html
+#1556172838
+git status
+#1556172843
+git add .
+#1556172860
+git commit -m "remove backup sql files older then 2 day"
+#1556172866
+git push origin master
+#1556172880
+cd
+#1556172883
+cd beetrip.ge
+#1556172886
+clear
+#1556174531
+git status
+#1556174561
+cat 'dkjw]'
+#1556174584
+ls
+#1556174598
+rm 'dkjw]'
+#1556174600
+ls
+#1556174610
+clear
+#1556174612
+git status
+#1556174621
+git add .
+#1556174663
+git commit -m "markup added minibus"
+#1556174674
+git push origin master
+#1556194105
+git status
+#1556194110
+git add .
+#1556194130
+git commit -m "count price front-end Done"
+#1556194136
+git push origin master
+#1556194153
+cd ../
+#1556194157
+cd public_html
+#1556194159
+git status
+#1556194169
+git add .
+#1556194196
+git commit -m "samewayprice added for beetrip"
+#1556194203
+git push origin master
+#1556207944
+git status
+#1556207951
+cd ../beetrip.ge
+#1556207953
+ls
+#1556207956
+git status
+#1556207962
+git add .
+#1556207973
+git commit -m "count backend"
+#1556207980
+git push origin master
+#1556207996
+cd
+#1556207998
+clear
+#1556208001
+exit
+#1556350308
+cd public_html/_backup
+#1556350310
+ls
+#1556353220
+exit
+#1556644762
+cd public_html/_backup
+#1556644763
+ls
+#1556644774
+cd
+#1556644777
+exit
+#1556697960
+cd public_html/_backup
+#1556697961
+ls
+#1556698034
+exit
+#1556776612
+cd public_html/_backup
+#1556776614
+ls
+#1556776629
+cd ../
+#1556776632
+git status
+#1556776656
+git diff error_log
+#1557052670
+cd public_html
+#1557052674
+git status
+#1557052700
+git add .
+#1557052711
+git commit -m "updates"
+#1557052719
+git push origin master
+#1557052740
+cd
+#1557052746
+cd beetrip.ge
+#1557052749
+git status
+#1557052752
+cd
+#1557052755
+git status

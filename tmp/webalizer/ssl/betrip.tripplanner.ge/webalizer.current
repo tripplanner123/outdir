@@ -1,29 +1,10 @@
-# Webalizer V2.23-08 Incremental Data - 04/22/2019 00:47:54
-2019 4 22 0 47 54
-27 8 15 1 2 11 10543 23 17 0
-1 3 4 9 22
+# Webalizer V2.23-08 Incremental Data - 05/03/2019 21:45:42
+2019 5 3 21 45 42
+3 0 2 0 1 2 861 3 2 0
+1 2 2 2 3
 0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-4 3 2351 3 4 3
-3 1 685 2 3 2
-1 0 291 1 1 1
-4 0 1559 3 4 3
-0 0 0 0 0 0
-3 2 1657 2 3 2
-1 0 226 1 0 0
-0 0 0 0 0 0
-4 0 969 4 1 1
-0 0 0 0 0 0
-3 0 861 2 3 2
-1 0 291 1 1 1
 1 0 287 1 1 1
-2 2 1366 1 2 1
+2 0 574 1 2 1
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -33,42 +14,49 @@
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
-6 3 2851 5
-1 0 291 1
-1 0 226 0
-1 0 291 1
-3 0 226 2
-1 0 291 1
-1 0 291 1
-1 0 291 1
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
 1 0 287 1
-1 0 287 1
 0 0 0 0
-1 0 694 1
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
 0 0 0 0
 2 0 574 2
 0 0 0 0
 0 0 0 0
-0 0 0 0
-2 2 1366 2
-5 3 2577 4
-0
-0
-0
-8
-0
-0
-0
-0
-0
-0
-0
-14
 0
 0
 0
@@ -78,9 +66,21 @@
 0
 0
 0
-1
 0
-4
+0
+3
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
 0
 0
 0
@@ -99,90 +99,29 @@
 0
 0
 # -urls- 
-/
-0 8 8243129286180037221 5481 17 6
 # End Of Table - urls
 # -sites- (monthly)
-ip-54-36-149-90.a.ahrefs.com
-0 1 0 226 0 0
--
 60.191.38.77
-0 8 4 3880 4 1555894074
-/
-ec2-54-202-165-99.us-west-2.compute.amazonaws.com
-0 1 0 287 1 1555632284
-/
-hydrogen044.a.ahrefs.com
-0 1 0 226 0 0
+0 2 0 574 1 1556919942
 -
-ns1.proservice.ge
-0 2 0 0 1 1554870137
-/
-205.153.155.2
-0 1 1 691 1 1554853349
-/
-216.162.214.222
-0 1 0 287 1 1554853631
-/
-111.206.52.124
-0 1 0 291 1 1555053763
-/
-h104-192-172-3.ip4.unmetered.zone
-0 1 1 685 1 1554854887
-/
-159.203.81.46
-0 1 0 694 1 1555087595
-/
-205.153.155.0
-0 2 2 1373 1 1554853350
-/
-ec2-34-215-179-1.us-west-2.compute.amazonaws.com
-0 1 0 287 1 1555805891
-/
-ec2-13-57-233-99.us-west-1.compute.amazonaws.com
-0 4 0 1164 4 1555741517
-/
-ip-54-36-148-214.a.ahrefs.com
-0 1 0 226 0 0
--
-ip-54-36-149-70.a.ahrefs.com
-0 1 0 226 0 0
+ec2-34-212-97-54.us-west-2.compute.amazonaws.com
+0 1 0 287 1 1556755826
 -
 # End Of Table - sites (monthly)
 # -sites- (daily)
 60.191.38.77
-0 2 2 1366 1 1555894074
-/
+0 2 0 574 1 1556919942
+-
 # End Of Table - sites (daily)
 # -referrers- 
-betrip.ge
-0 1
 - (Direct Request)
-0 26
+0 3
 # End Of Table - referrers
 # -agents- 
-Mozilla/5.0 (Linux; Android 4.4.3; KFTHWI Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Silk/47.1.79 like Chrome/47.0.
-0 1
-Mozilla/5.0 (Linux; Android 6.0.1; Nexus 6P Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.133 Mobile 
-0 1
-Mozilla/5.0 (compatible; AhrefsBot/6.1; +http://ahrefs.com/robot/)
-0 4
-Mozilla/5.1 (Windows NT 6.0; WOW64) AppleWebKit/533.36 (KHTML, like Gecko) Chrome/46.0.2754.75 Safari/533.36
-0 1
-Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-0 4
-Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
-0 1
 Go-http-client/2.0
-0 2
+0 1
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0
-0 8
-Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
-0 1
-Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
-0 1
-Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0
-0 1
+0 2
 # End Of Table - agents
 # -search strings- 
 # End Of Table - search strings

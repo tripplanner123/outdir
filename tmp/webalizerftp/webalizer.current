@@ -1,7 +1,7 @@
-# Webalizer V2.23-08 Incremental Data - 04/22/2019 05:11:32
-2019 4 22 5 11 32
-233 233 1 62 0 0 8254467 23 15 1
-1 4 52 3 22
+# Webalizer V2.23-08 Incremental Data - 04/25/2019 10:54:12
+2019 4 25 10 54 12
+304 304 1 70 0 0 11552996 28 19 1
+1 4 52 3 25
 0 0 0 0 0 0
 0 0 0 0 0 0
 53 53 366006 1 3 1
@@ -23,29 +23,29 @@
 36 36 1146177 1 7 3
 16 16 418066 1 4 4
 15 15 950324 1 1 1
-7 7 348829 1 1 1
+20 20 917586 1 3 3
+10 10 464721 1 2 1
+0 0 0 0 0 0
+48 48 2265051 1 1 1
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0
-0 0 0 0
+3 3 117826 1
+17 17 597380 0
 28 28 1089751 5
-14 14 802045 1
-10 10 470225 1
-46 46 1524845 7
-66 66 1372359 4
-9 9 329409 1
+20 20 1075547 1
+11 11 507549 1
+49 49 1804155 8
+87 87 2220731 5
+11 11 435931 1
 5 5 288879 1
-26 26 1052927 1
-14 14 762550 0
-8 8 275200 1
-0 0 0 0
+27 27 1146203 1
+26 26 1434313 1
+10 10 456663 1
+3 3 91791 1
 7 7 286277 1
 0 0 0 0
 0 0 0 0
@@ -60,7 +60,7 @@
 0
 0
 0
-233
+304
 0
 0
 0
@@ -106,7 +106,7 @@
 /home4/tripplanner/public_html/_tripadmin/templates/actions/_lists.php
 0 1 0 17308 0 0
 /home4/tripplanner/public_html/_website/ajax.php
-0 11 0 1637733 0 0
+0 15 0 2196571 0 0
 /home4/tripplanner/public_html/_tripadmin/templates/actions/filemanager.php
 0 1 0 491 0 0
 /home4/tripplanner/public_html/_tripadmin/templates/actions/poll_forms.php
@@ -114,7 +114,7 @@
 /home4/tripplanner/public_html/_manager/config.php
 0 3 0 9776 0 0
 /home4/tripplanner/public_html/_website/js/planner.js
-0 17 0 593599 0 0
+0 23 0 776226 0 0
 /home4/tripplanner/public_html/_tripadmin/templates/actions/settings_list.php
 0 1 0 2749 0 0
 /home4/tripplanner/public_html/_tripadmin/templates/actions/audiogallery_list.php
@@ -132,27 +132,39 @@
 /home4/tripplanner/public_html/job.php
 0 1 0 1189 0 0
 /home4/tripplanner/public_html/_tripadmin/templates/actions/_lists_document_forms.php
-0 37 0 937009 0 0
+0 42 0 1102542 0 0
+/home4/tripplanner/beetrip.ge/_website/styles/css/style-ru.css
+0 3 0 1773 0 0
 /home4/tripplanner/public_html/_tripadmin/templates/actions/imagegallery_forms.php
 0 1 0 5365 0 0
+/home4/tripplanner/beetrip.ge/_website/styles/css/style-ge.css
+0 3 0 25074 0 0
 /home4/tripplanner/public_html/ipprotect.php
-0 2 0 212 0 0
+0 2 3835146535858825216 212 0 0
 /home4/tripplanner/public_html/_tripadmin/templates/actions/help.php
-0 1 0 2607 0 0
+0 1 3329628183861933101 2607 0 0
 /home4/tripplanner/public_html/_website/js/gscript.js
-0 9 7658942916684939264 273125 0 0
+0 9 0 273125 0 0
 /home4/tripplanner/public_html/_website/templates/custom/plan_your_trip.php
-0 5 3329628183861933101 223445 0 0
+0 5 0 223445 0 0
 /home4/tripplanner/public_html/_tripadmin/templates/header.php
 0 1 0 2520 0 0
 /home4/tripplanner/public_html/_tripadmin/templates/actions/topics_list.php
 0 1 0 4300 0 0
+/home4/tripplanner/beetrip.ge/_website/ajax.php
+0 5 47774559363448 469536 0 0
+/home4/tripplanner/beetrip.ge/_website/functions.php
+0 2 0 151664 0 0
+/home4/tripplanner/beetrip.ge/_website/styles/css/bootstrap-datepicker.min.css
+0 1 0 32846 0 0
 /home4/tripplanner/public_html/_tripadmin/templates/actions/videogallery_forms.php
 0 1 0 6167 0 0
 /home4/tripplanner/public_html/_tripadmin/templates/actions/log_list.php
 0 1 0 3321 0 0
 /home4/tripplanner/public_html/_tripadmin/templates/actions/backup.php
 0 1 0 3068 0 0
+/home4/tripplanner/beetrip.ge/_website/js/transfer.js
+0 10 0 510862 0 0
 /home4/tripplanner/public_html/_tripadmin/functions.php
 0 1 0 36123 0 0
 /home4/tripplanner/public_html/_tripadmin/templates/actions/_lists_banner.php
@@ -162,17 +174,17 @@
 /home4/tripplanner/public_html/_tripadmin/templates/actions/directions.php
 0 1 0 5111 0 0
 /home4/tripplanner/public_html/_tripadmin/class.manager.php
-0 21 0 1748629 0 0
+0 23 0 1918954 0 0
 /home4/tripplanner/public_html/_tripadmin/templates/actions/topics_forms.php
 0 1 0 4629 0 0
 /home4/tripplanner/public_html/_tripadmin/templates/actions/poll_list.php
 0 1 0 4794 0 0
 /home4/tripplanner/public_html/_tripadmin/templates/actions/siteusers_list.php
 0 1 0 7261 0 0
-/home4/tripplanner/public_html/_tripadmin/templates/actions/cart_list.php
-0 1 0 15054 0 0
 /home4/tripplanner/public_html/_tripadmin/templates/actions/user_access_list.php
 0 1 0 10074 0 0
+/home4/tripplanner/public_html/_tripadmin/templates/actions/cart_list.php
+0 1 0 15054 0 0
 /home4/tripplanner/public_html/_tripadmin/templates/actions/privacy.php
 0 1 0 613 0 0
 /home4/tripplanner/public_html/_tripadmin/templates/actions/terms.php
@@ -185,10 +197,14 @@
 0 1 0 19169 0 0
 /home4/tripplanner/public_html/_tripadmin/templates/actions/textconverter.php
 0 1 0 2435 0 0
+/home4/tripplanner/beetrip.ge/_website/styles/css/style-en.css
+0 4 0 220131 0 0
 /home4/tripplanner/public_html/_tripadmin/templates/actions/catalog_list.php
 0 1 0 8799 0 0
+/home4/tripplanner/beetrip.ge/_website/templates/custom/transfers.php
+0 10 0 332685 0 0
 /home4/tripplanner/public_html/_website/js/transfers.js
-0 22 0 919593 0 0
+0 33 0 1387796 0 0
 /home4/tripplanner/public_html/_website/functions.php
 0 3 0 307260 0 0
 /home4/tripplanner/public_html/_tripadmin/templates/layout.php
@@ -198,7 +214,7 @@
 /home4/tripplanner/public_html/_tripadmin/bootstrap.php
 0 1 0 4495 0 0
 /home4/tripplanner/public_html/__sublime_sftp_offset
-0 9 0 360 8 5
+0 11 0 440 10 5
 /home4/tripplanner/public_html/_tripadmin/templates/actions/users_forms.php
 0 1 0 4359 0 0
 /home4/tripplanner/public_html/_tripadmin/templates/actions/_lists_faq.php
@@ -210,7 +226,7 @@
 /home4/tripplanner/public_html/_javascript/tinymce/filemanager/config/config.php
 0 7 0 92147 0 0
 /home4/tripplanner/public_html/
-0 14 0 39154 7 9
+0 17 0 47506 9 13
 /home4/tripplanner/public_html/_tripadmin/templates/actions/home.php
 0 1 0 15988 0 0
 /home4/tripplanner/public_html/_website/templates/product.php
@@ -226,13 +242,13 @@
 # End Of Table - urls
 # -sites- (monthly)
 94.240.245.46
-0 233 233 8254467 15 1555909892
-/home4/tripplanner/public_html/
+0 304 304 11552996 19 1556153856
+/home4/tripplanner/public_html/__sublime_sftp_offset
 # End Of Table - sites (monthly)
 # -sites- (daily)
 94.240.245.46
-0 7 7 348829 1 1555909892
-/home4/tripplanner/public_html/
+0 48 48 2265051 1 1556153856
+/home4/tripplanner/public_html/__sublime_sftp_offset
 # End Of Table - sites (daily)
 # -referrers- 
 # End Of Table - referrers
@@ -242,5 +258,5 @@
 # End Of Table - search strings
 # -usernames- 
 tripplanner
-0 233 233 8254467 15 1555909892
+0 304 304 11552996 19 1556153856
 # End Of Table - usernames
