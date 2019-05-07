@@ -4008,3 +4008,33 @@ git status
 cd
 #1557052755
 git status
+#1557052788
+git add .
+#1557052805
+git commit -m "updates"
+#1557052814
+git push origin master
+#1557052849
+exit
+#1557244592
+clear
+#1557244600
+cd public_html
+#1557244607
+git status
+#1557244617
+git add .
+#1557244627
+git commit -m "updates"
+#1557244634
+git push origin master
+#1557244659
+cd _backup
+#1557244661
+ls
+#1557244671
+cd ../
+#1557244673
+cd ../
+#1557244676
+git status

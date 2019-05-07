@@ -1,13 +1,13 @@
-# Webalizer V2.23-08 Incremental Data - 05/04/2019 01:48:15
-2019 5 4 1 48 15
-16 0 8 0 2 7 5759 13 10 0
-1 1 3 1 4
+# Webalizer V2.23-08 Incremental Data - 05/06/2019 21:13:37
+2019 5 6 21 13 37
+25 1 11 1 3 10 9976 22 16 0
+2 2 3 1 6
 4 0 1405 3 3 2
 3 0 1322 2 3 2
 8 0 2806 5 6 5
-1 0 226 1 1 1
-0 0 0 0 0 0
-0 0 0 0 0 0
+4 1 1951 3 4 3
+3 0 1170 2 3 2
+3 0 1322 2 3 2
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -38,11 +38,11 @@
 0 0 0 0
 0 0 0 0
 0 0 0 0
+1 0 134 1
 0 0 0 0
 0 0 0 0
 0 0 0 0
-0 0 0 0
-0 0 0 0
+2 1 975 2
 0 0 0 0
 0 0 0 0
 0 0 0 0
@@ -54,12 +54,21 @@
 0 0 0 0
 0 0 0 0
 0 0 0 0
-7 0 3394 7
+13 0 6502 13
 1 0 286 1
 0 0 0 0
 0
 0
 0
+1
+0
+0
+0
+0
+0
+0
+0
+12
 0
 0
 0
@@ -68,17 +77,8 @@
 0
 0
 0
-8
-0
-0
-0
-0
-0
-0
-0
-0
-0
-4
+1
+7
 0
 1
 0
@@ -99,8 +99,16 @@
 0
 0
 # -urls- 
+/
+0 1 8243129286180037221 689 6 0
 # End Of Table - urls
 # -sites- (monthly)
+ec2-34-234-63-101.compute-1.amazonaws.com
+0 1 1 689 1 1556961977
+/
+ip241.ip-54-39-254.net
+0 1 0 286 1 1557134022
+/
 ec2-34-217-13-162.us-west-2.compute.amazonaws.com
 0 1 0 286 1 1556755841
 -
@@ -113,6 +121,9 @@ sv1.aibuz.org
 jobqueue-listener.jobqueue.netcraft.com-u88bbf6ea6dc211e994912a64838d6ab1u-digitalocean-2gb
 0 1 0 226 1 1556934495
 -
+62-210-202-81.rev.poneytelecom.eu
+0 1 0 134 1 1557035726
+/
 ns3289421.ip-5-135-183.eu
 0 1 0 286 1 1556897653
 -
@@ -120,27 +131,36 @@ ns3289421.ip-5-135-183.eu
 0 2 0 166 0 0
 -
 smartscan04.sitelock.com
-0 6 0 3108 3 1556917646
+0 12 0 6216 6 1557177217
 -
 solo.axinet.fr
 0 1 0 83 0 0
 -
 # End Of Table - sites (monthly)
 # -sites- (daily)
-jobqueue-listener.jobqueue.netcraft.com-u88bbf6ea6dc211e994912a64838d6ab1u-digitalocean-2gb
-0 1 0 226 1 1556934495
+ip241.ip-54-39-254.net
+0 1 0 286 1 1557134022
+/
+smartscan04.sitelock.com
+0 2 0 1036 1 1557177217
 -
 # End Of Table - sites (daily)
 # -referrers- 
 http://www.google.com/url
-0 6
+0 12
+http://search.aol.com/aol/search
+0 1
 - (Direct Request)
-0 10
+0 12
 # End Of Table - referrers
 # -agents- 
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36
+0 1
 Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/6.0)
-0 6
+0 12
 Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+0 1
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36
 0 1
 Go-http-client/1.1
 0 1
@@ -150,6 +170,8 @@ Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47
 0 3
 Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0
 0 2
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/6.0;)
+0 1
 Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
 0 2
 # End Of Table - agents

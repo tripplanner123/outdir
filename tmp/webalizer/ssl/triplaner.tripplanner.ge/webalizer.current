@@ -1,22 +1,13 @@
-# Webalizer V2.23-08 Incremental Data - 04/11/2019 02:08:49
-2019 4 11 2 8 49
-7 5 7 1 1 6 4046 7 7 0
-1 2 4 9 11
+# Webalizer V2.23-08 Incremental Data - 05/06/2019 16:26:48
+2019 5 6 16 26 48
+9 0 9 0 1 1 2034 9 9 0
+9 3 8 6 6
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-4 4 2764 4 4 4
-2 0 588 2 2 2
-1 1 694 1 1 1
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
+9 0 2034 9 9 9
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -33,9 +24,15 @@
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
-1 0 294 1
-0 0 0 0
-2 1 988 2
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
 0 0 0 0
 0 0 0 0
 0 0 0 0
@@ -51,24 +48,15 @@
 0 0 0 0
 0 0 0 0
 0 0 0 0
+6 0 1356 6
+3 0 678 3
 0 0 0 0
 0 0 0 0
 0 0 0 0
 0 0 0 0
 0 0 0 0
-4 4 2764 4
-0
-0
-0
-5
-0
-0
-0
-0
-0
-0
-0
-2
+0 0 0 0
+0 0 0 0
 0
 0
 0
@@ -81,6 +69,18 @@
 0
 0
 0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+9
 0
 0
 0
@@ -99,54 +99,72 @@
 0
 0
 # -urls- 
-/
-0 5 0 3458 7 0
 # End Of Table - urls
 # -sites- (monthly)
-daniela.onyphe.io
-0 1 1 694 1 1554948529
-/
-205.153.155.2
-0 1 1 694 1 1554853354
-/
-205.153.155.0
-0 1 1 688 1 1554853351
-/
-209.19.186.96
-0 1 1 694 1 1554853887
-/
-64.71.192.87
-0 1 1 688 1 1554853889
-/
-185.197.28.124
-0 1 0 294 1 1554857288
-/
-158.222.125.222
-0 1 0 294 1 1554862152
-/
+142.93.77.46
+0 1 0 226 1 1557156013
+-
+jobqueue-listener.jobqueue.netcraft.com-u5dbfd224704f11e9a4889223838d6ab1u-digitalocean-ccg
+0 1 0 226 1 1557159578
+-
+142.93.181.165
+0 1 0 226 1 1557155209
+-
+159.203.124.235
+0 1 0 226 1 1557159787
+-
+159.203.164.9
+0 1 0 226 1 1557157920
+-
+159.203.105.83
+0 1 0 226 1 1557154895
+-
+142.93.76.199
+0 1 0 226 1 1557155953
+-
+node-1.energy-5000304.homemade.altadata.io
+0 1 0 226 1 1557155204
+-
+142.93.186.21
+0 1 0 226 1 1557160008
+-
 # End Of Table - sites (monthly)
 # -sites- (daily)
-daniela.onyphe.io
-0 1 1 694 1 1554948529
-/
+142.93.77.46
+0 1 0 226 1 1557156013
+-
+jobqueue-listener.jobqueue.netcraft.com-u5dbfd224704f11e9a4889223838d6ab1u-digitalocean-ccg
+0 1 0 226 1 1557159578
+-
+142.93.181.165
+0 1 0 226 1 1557155209
+-
+159.203.124.235
+0 1 0 226 1 1557159787
+-
+159.203.164.9
+0 1 0 226 1 1557157920
+-
+159.203.105.83
+0 1 0 226 1 1557154895
+-
+142.93.76.199
+0 1 0 226 1 1557155953
+-
+node-1.energy-5000304.homemade.altadata.io
+0 1 0 226 1 1557155204
+-
+142.93.186.21
+0 1 0 226 1 1557160008
+-
 # End Of Table - sites (daily)
 # -referrers- 
 - (Direct Request)
-0 7
+0 9
 # End Of Table - referrers
 # -agents- 
-Mozilla/5.0 (Linux; Android 6.0.1; Nexus 6P Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.133 Mobile 
-0 2
-Mozilla/5.0 (Linux; Android 7.1.1; Nexus 6P Build/NOF27C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.81 Mobile S
-0 1
-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
-0 1
-Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30
-0 1
-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36
-0 1
-Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0
-0 1
+Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+0 9
 # End Of Table - agents
 # -search strings- 
 # End Of Table - search strings

@@ -1,4 +1,4 @@
-AWSTATS DATA FILE 7.6 (build 20161204)
+AWSTATS DATA FILE 7.7 (build 20180105)
 # If you remove this file, all statistics for date 201904 will be lost/reset.
 # Last config file used to build this data file was /home4/tripplanner/tmp/awstats/ssl/awstats.triplaner.tripplanner.ge.conf.
 
@@ -10,15 +10,15 @@ BEGIN_MAP 28
 POS_GENERAL 2029                
 POS_TIME 2701                
 POS_VISITOR 5755                
-POS_DAY 6027                
+POS_DAY 6010                
 POS_DOMAIN 3187                
 POS_LOGIN 3421                
 POS_ROBOT 3576                
 POS_WORMS 3708                
 POS_EMAILSENDER 3839                
 POS_EMAILRECEIVER 3982                
-POS_SESSION 6122                
-POS_SIDER 6268                
+POS_SESSION 6105                
+POS_SIDER 6251                
 POS_FILETYPES 4117                
 POS_DOWNLOADS 4197                
 POS_OS 4245                
@@ -46,10 +46,10 @@ END_MAP
 # MonthHostsKnown   = Number of hosts known
 # MonthHostsUnKnown = Number of hosts unknown
 BEGIN_GENERAL 8
-LastLine 20190411020849 1 0 11365965825734
+LastLine 20190506150135 1 0 12538865233319
 FirstTime 20190409234231
 LastTime 20190411020849
-LastUpdate 20190411071246 1 0 1 0 0
+LastUpdate 20190507071353 1 0 0 0 0
 TotalVisits 5                   
 TotalUnique 5                   
 MonthHostsKnown 0                   
@@ -58,16 +58,16 @@ END_GENERAL
 
 # Misc ID - Pages - Hits - Bandwidth
 BEGIN_MISC 10
-PDFSupport 0 0 0
-DirectorSupport 0 0 0
-RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
 WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
 FlashSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+AddToFavourites 0 0 0
+DirectorSupport 0 0 0
 TotalMisc 0 0 0
 QuickTimeSupport 0 0 0
-AddToFavourites 0 0 0
-JavaEnabled 0 0 0
-JavascriptDisabled 0 0 0
 END_MISC
 
 # Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
@@ -152,10 +152,10 @@ END_OS
 
 # Browser ID - Hits - Pages
 BEGIN_BROWSER 4
-chrome61.0.3163.81 1 1
 chrome53.0.2785.116 1 1
 firefox58.0 1 1
 chrome44.0.2403.133 2 2
+chrome61.0.3163.81 1 1
 END_BROWSER
 
 # Screen size - Hits
@@ -212,11 +212,11 @@ END_SIDER_404
 # [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
 # The 25 first Hits must be first (order not required for others)
 BEGIN_VISITOR 5
-205.153.155.0 1 1 688 20190409234231
-64.71.192.87 1 1 688 20190409235129
-209.19.186.96 1 1 694 20190409235127
 205.153.155.2 1 1 694 20190409234234
-51.15.191.81 1 1 694 20190411020849 20190411020849 /
+205.153.155.0 1 1 688 20190409234231
+209.19.186.96 1 1 694 20190409235127
+51.15.191.81 1 1 694 20190411020849
+64.71.192.87 1 1 688 20190409235129
 END_VISITOR
 
 # Date - Pages - Hits - Bandwidth - Visits
@@ -227,11 +227,11 @@ END_DAY
 
 # Session range - Number of visits
 BEGIN_SESSION 1
-0s-30s 4
+0s-30s 5
 END_SESSION
 
 # URL - Pages - Bandwidth - Entry - Exit
 # The 25 first Pages must be first (order not required for others)
 BEGIN_SIDER 1
-/ 5 3458 5 4
+/ 5 3458 5 5
 END_SIDER

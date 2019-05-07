@@ -1,10 +1,13 @@
-# Webalizer V2.23-08 Incremental Data - 05/04/2019 03:53:43
-2019 5 4 3 53 43
-16 0 1 0 3 2 6548 16 4 0
-1 48 48 1 4
+# Webalizer V2.23-08 Incremental Data - 05/07/2019 03:50:47
+2019 5 7 3 50 47
+32 1 3 1 3 4 13487 31 9 0
+1 8 48 1 7
 4 0 1637 1 4 1
 4 0 1637 1 4 1
 4 0 1637 1 4 1
+6 1 2622 2 6 2
+6 0 2680 2 5 2
+4 0 1637 1 4 1
 4 0 1637 1 4 1
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -30,14 +33,10 @@
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
 0 0 0 0
 0 0 0 0
 0 0 0 0
-16 0 6548 16
-0 0 0 0
+28 0 11459 28
 0 0 0 0
 0 0 0 0
 0 0 0 0
@@ -45,7 +44,7 @@
 0 0 0 0
 0 0 0 0
 0 0 0 0
-0 0 0 0
+2 1 985 2
 0 0 0 0
 0 0 0 0
 0 0 0 0
@@ -55,8 +54,21 @@
 0 0 0 0
 0 0 0 0
 0 0 0 0
+2 0 1043 1
 0 0 0 0
 0 0 0 0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+23
 0
 0
 0
@@ -66,19 +78,7 @@
 0
 0
 0
-0
-0
-12
-0
-0
-0
-0
-0
-0
-0
-0
-0
-4
+8
 0
 0
 0
@@ -99,30 +99,42 @@
 0
 0
 # -urls- 
+/
+0 1 0 692 4 0
 # End Of Table - urls
 # -sites- (monthly)
+ec2-3-84-255-144.compute-1.amazonaws.com
+0 2 1 985 1 1556968240
+/
 smartscan04.sitelock.com
-0 16 0 6548 4 1556942023
+0 28 0 11459 7 1557201047
 -
+ipv4-64-246-165-10.greenhousedata.net
+0 2 0 1043 1 1557091887
+/
 # End Of Table - sites (monthly)
 # -sites- (daily)
 smartscan04.sitelock.com
-0 4 0 1637 1 1556942023
+0 4 0 1637 1 1557201047
 -
 # End Of Table - sites (daily)
 # -referrers- 
 http://www.google.com/url
-0 8
+0 14
 - (Direct Request)
-0 4
+0 11
 http://www.triplaner.ge
-0 4
+0 7
 # End Of Table - referrers
 # -agents- 
 Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/6.0)
-0 12
+0 21
 SiteLockSpider [en] (WinNT; I ;Nav)
-0 4
+0 7
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36
+0 2
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:59.0) Gecko/20100101 Firefox/59.0
+0 2
 # End Of Table - agents
 # -search strings- 
 # End Of Table - search strings

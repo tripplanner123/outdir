@@ -8,33 +8,33 @@ AWSTATS DATA FILE 7.7 (build 20180105)
 # update).
 BEGIN_MAP 28
 POS_GENERAL 2026                
-POS_TIME 2674                
-POS_VISITOR 5636                
-POS_DAY 5708                
-POS_DOMAIN 3160                
-POS_LOGIN 3371                
-POS_ROBOT 3526                
-POS_WORMS 3658                
-POS_EMAILSENDER 3789                
-POS_EMAILRECEIVER 3932                
-POS_SESSION 5764                
-POS_SIDER 5901                
-POS_FILETYPES 4067                
-POS_DOWNLOADS 4131                
-POS_OS 4179                
-POS_BROWSER 4244                
-POS_SCREENSIZE 4294                
-POS_UNKNOWNREFERER 4368                
-POS_UNKNOWNREFERERBROWSER 4455                
-POS_ORIGIN 4537                
-POS_SEREFERRALS 4667                
-POS_PAGEREFS 4811                
-POS_SEARCHWORDS 4959                
-POS_KEYWORDS 5111                
-POS_MISC 2338                
-POS_ERRORS 5170                
-POS_CLUSTER 3227                
-POS_SIDER_404 5279                
+POS_TIME 2688                
+POS_VISITOR 5739                
+POS_DAY 5847                
+POS_DOMAIN 3186                
+POS_LOGIN 3408                
+POS_ROBOT 3563                
+POS_WORMS 3695                
+POS_EMAILSENDER 3826                
+POS_EMAILRECEIVER 3969                
+POS_SESSION 5922                
+POS_SIDER 6068                
+POS_FILETYPES 4104                
+POS_DOWNLOADS 4183                
+POS_OS 4231                
+POS_BROWSER 4306                
+POS_SCREENSIZE 4380                
+POS_UNKNOWNREFERER 4454                
+POS_UNKNOWNREFERERBROWSER 4541                
+POS_ORIGIN 4623                
+POS_SEREFERRALS 4753                
+POS_PAGEREFS 4897                
+POS_SEARCHWORDS 5045                
+POS_KEYWORDS 5197                
+POS_MISC 2352                
+POS_ERRORS 5256                
+POS_CLUSTER 3264                
+POS_SIDER_404 5366                
 END_MAP
 
 # LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
@@ -46,28 +46,28 @@ END_MAP
 # MonthHostsKnown   = Number of hosts known
 # MonthHostsUnKnown = Number of hosts unknown
 BEGIN_GENERAL 8
-LastLine 20190503233653 5 854 12203794822748
+LastLine 20190506131254 8 1402 10251522916818
 FirstTime 0
-LastTime 0
-LastUpdate 20190504070716 5 0 5 0 0
-TotalVisits 0                   
-TotalUnique 0                   
+LastTime 20190504111040
+LastUpdate 20190507071351 8 0 8 0 0
+TotalVisits 1                   
+TotalUnique 1                   
 MonthHostsKnown 0                   
-MonthHostsUnknown 0                   
+MonthHostsUnknown 1                   
 END_GENERAL
 
 # Misc ID - Pages - Hits - Bandwidth
 BEGIN_MISC 10
-QuickTimeSupport 0 0 0
-AddToFavourites 0 0 0
-WindowsMediaPlayerSupport 0 0 0
-JavaEnabled 0 0 0
-FlashSupport 0 0 0
-PDFSupport 0 0 0
 DirectorSupport 0 0 0
+AddToFavourites 0 0 0
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
 JavascriptDisabled 0 0 0
-TotalMisc 0 0 0
 RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
 END_MISC
 
 # Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
@@ -82,14 +82,14 @@ BEGIN_TIME 24
 7 0 0 0 0 0 0
 8 0 0 0 0 0 0
 9 0 0 0 0 0 0
-10 0 0 0 0 0 0
-11 0 0 0 12 12 4920
+10 0 0 0 2 4 2084
+11 1 1 693 25 25 10134
 12 0 0 0 0 0 0
-13 0 0 0 0 0 0
+13 0 0 0 2 4 2084
 14 0 0 0 0 0 0
 15 0 0 0 0 0 0
 16 0 0 0 0 0 0
-17 0 0 0 0 0 0
+17 0 0 0 1 2 1044
 18 0 0 0 0 0 0
 19 0 0 0 0 0 0
 20 0 0 0 0 0 0
@@ -100,7 +100,8 @@ END_TIME
 
 # Domain - Pages - Hits - Bandwidth
 # The 25 first Pages must be first (order not required for others)
-BEGIN_DOMAIN 0
+BEGIN_DOMAIN 1
+us 1 1 693
 END_DOMAIN
 
 # Cluster ID - Pages - Hits - Bandwidth
@@ -133,7 +134,8 @@ BEGIN_EMAILRECEIVER 0
 END_EMAILRECEIVER
 
 # Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
-BEGIN_FILETYPES 0
+BEGIN_FILETYPES 1
+html 1 693 0 0
 END_FILETYPES
 
 # Downloads - Hits - Bandwidth
@@ -141,11 +143,13 @@ BEGIN_DOWNLOADS 0
 END_DOWNLOADS
 
 # OS ID - Hits
-BEGIN_OS ID - Hits - Pages 0
+BEGIN_OS ID - Hits - Pages 1
+linux 1 1
 END_OS
 
 # Browser ID - Hits - Pages
-BEGIN_BROWSER 0
+BEGIN_BROWSER 1
+chrome60.0.3112.101 1 1
 END_BROWSER
 
 # Screen size - Hits
@@ -162,7 +166,7 @@ END_UNKNOWNREFERERBROWSER
 
 # Origin - Pages - Hits 
 BEGIN_ORIGIN 6
-From0 0 0
+From0 1 1
 From1 0 0
 From2 0 0
 From3 0 0
@@ -191,31 +195,36 @@ END_KEYWORDS
 
 # Errors - Hits - Bandwidth
 BEGIN_ERRORS 3
-301 11 3270
-404 3 2238
+404 11 8206
+301 26 7728
 406 1 226
 END_ERRORS
 
 # URL with 404 errors - Hits - Last URL referrer
-BEGIN_SIDER_404 1
-/th1s_1s_a_4o4.html 3 http://www.google.com/url
+BEGIN_SIDER_404 2
+/th1s_1s_a_4o4.html 6 http://www.google.com/url
+/robots.txt 5 -
 END_SIDER_404
 
 # Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
 # [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
 # The 25 first Hits must be first (order not required for others)
-BEGIN_VISITOR 0
+BEGIN_VISITOR 1
+3.84.255.144 1 1 693 20190504111040
 END_VISITOR
 
 # Date - Pages - Hits - Bandwidth - Visits
-BEGIN_DAY 0
+BEGIN_DAY 1
+20190504 1 1 693 1
 END_DAY
 
 # Session range - Number of visits
-BEGIN_SESSION 0
+BEGIN_SESSION 1
+0s-30s 1
 END_SESSION
 
 # URL - Pages - Bandwidth - Entry - Exit
 # The 25 first Pages must be first (order not required for others)
-BEGIN_SIDER 0
+BEGIN_SIDER 1
+/ 1 693 1 1
 END_SIDER

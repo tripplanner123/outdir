@@ -1,13 +1,13 @@
-# Webalizer V2.23-08 Incremental Data - 05/03/2019 23:36:53
-2019 5 3 23 36 53
-15 0 4 0 3 5 5734 15 6 0
-2 1 8 1 3
+# Webalizer V2.23-08 Incremental Data - 05/06/2019 13:12:54
+2019 5 6 13 12 54
+39 1 10 1 3 8 16853 34 15 0
+3 4 10 1 6
 4 0 1640 1 4 1
 6 0 2228 3 6 3
 5 0 1866 2 5 2
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
+10 1 4711 6 8 4
+6 0 2684 2 5 2
+8 0 3724 3 6 3
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -43,14 +43,14 @@
 0 0 0 0
 0 0 0 0
 0 0 0 0
+4 0 2084 2
+26 1 10827 26
 0 0 0 0
-12 0 4920 12
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
+4 0 2084 2
 0 0 0 0
 0 0 0 0
+0 0 0 0
+2 0 1044 1
 0 0 0 0
 0 0 0 0
 0 0 0 0
@@ -59,6 +59,16 @@
 1 0 226 1
 0
 0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+26
 0
 0
 0
@@ -69,16 +79,6 @@
 0
 0
 11
-0
-0
-0
-0
-0
-0
-0
-0
-0
-3
 0
 1
 0
@@ -99,44 +99,73 @@
 0
 0
 # -urls- 
+/
+0 1 0 693 6 0
 # End Of Table - urls
 # -sites- (monthly)
 jobqueue-listener.jobqueue.netcraft.com-u87d68ab06df911e99aa5fa23838d6ab1u-digitalocean-2gb
 0 1 0 226 1 1556926613
 -
+ec2-3-84-255-144.compute-1.amazonaws.com
+0 2 1 987 1 1556968240
+/
+93-158-161-149.spider.yandex.com
+0 1 0 298 1 1556966331
+-
+93-158-161-171.spider.yandex.com
+0 3 0 1786 1 1557148374
+/
 91.151.136.77
 0 1 0 294 1 1556775377
 -
+ipv4-64-246-165-150.greenhousedata.net
+0 2 0 1044 1 1557075959
+/
+5-255-250-128.spider.yandex.com
+0 3 0 1338 2 1557148374
+/
+141-8-143-167.spider.yandex.com
+0 1 0 746 0 0
+-
 smartscan04.sitelock.com
-0 12 0 4920 3 1556884199
+0 24 0 9840 6 1557143482
 -
 94.100.234.238
 0 1 0 294 1 1556774928
 -
 # End Of Table - sites (monthly)
 # -sites- (daily)
-jobqueue-listener.jobqueue.netcraft.com-u87d68ab06df911e99aa5fa23838d6ab1u-digitalocean-2gb
-0 1 0 226 1 1556926613
--
+93-158-161-171.spider.yandex.com
+0 2 0 1040 1 1557148374
+/
+5-255-250-128.spider.yandex.com
+0 2 0 1044 1 1557148374
+/
 smartscan04.sitelock.com
-0 4 0 1640 1 1556884199
+0 4 0 1640 1 1557143482
 -
 # End Of Table - sites (daily)
 # -referrers- 
 http://www.google.com/url
-0 6
+0 12
 http://www.tripplaner.ge
-0 3
-- (Direct Request)
 0 6
+- (Direct Request)
+0 21
 # End Of Table - referrers
 # -agents- 
 Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/6.0)
-0 9
+0 18
 Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
 0 1
 SiteLockSpider [en] (WinNT; I ;Nav)
-0 3
+0 6
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36
+0 2
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:59.0) Gecko/20100101 Firefox/59.0
+0 2
+Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
+0 8
 Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Mobile/15E148 Sa
 0 1
 Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-G950F Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/

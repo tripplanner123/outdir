@@ -1,11 +1,14 @@
-# Webalizer V2.23-08 Incremental Data - 05/04/2019 06:24:23
-2019 5 4 6 24 23
-38 1 24 1 3 16 31074 27 27 0
-4 2 5 1 4
+# Webalizer V2.23-08 Incremental Data - 05/07/2019 06:02:57
+2019 5 7 6 2 57
+61 1 35 1 5 21 40328 44 44 0
+1 1 5 1 7
 11 1 22610 8 7 7
 12 0 4263 7 6 6
 11 0 3171 10 10 10
-4 0 1030 4 4 4
+11 0 4424 8 8 8
+8 0 2628 8 7 7
+7 0 2935 6 5 5
+1 0 297 1 1 1
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -30,32 +33,29 @@
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-1 0 287 1
+2 0 578 2
 2 0 309 1
 3 0 463 1
-1 0 287 1
+4 0 1611 3
 0 0 0 0
 1 0 287 1
-3 0 804 3
+4 0 1101 4
 0 0 0 0
-4 0 873 4
-1 0 291 1
-0 0 0 0
+8 0 2043 8
+3 0 1328 2
 2 0 1033 1
+4 0 2066 2
 1 0 319 1
 1 0 287 1
 1 0 291 1
-2 1 19758 0
+5 1 21082 2
 4 0 972 4
-0 0 0 0
-0 0 0 0
+2 0 1033 1
+2 0 578 2
 1 0 287 1
 5 0 2618 1
 3 0 1324 2
-1 0 287 1
+2 0 421 2
 1 0 297 1
 0
 0
@@ -68,7 +68,7 @@
 0
 0
 0
-24
+40
 0
 0
 0
@@ -77,8 +77,8 @@
 0
 0
 0
-0
-6
+1
+12
 0
 2
 0
@@ -103,14 +103,20 @@
 0 1 8243129286180037221 19012 0 0
 # End Of Table - urls
 # -sites- (monthly)
+ip241.ip-54-39-254.net
+0 1 0 287 1 1557112548
+-
 209.17.96.210.cloudsystemnetworks.com
 0 1 0 311 1 1556899998
 -
 112.37.198-5.dc74.net
 0 1 0 287 1 1556680232
 -
+ns3061207.ip-193-70-34.eu
+0 1 0 297 1 1557044371
+-
 crawl-66-249-75-76.googlebot.com
-0 1 0 746 0 0
+0 3 0 1328 2 1557114487
 -
 209.17.96.58.cloudsystemnetworks.com
 0 1 0 297 1 1556926537
@@ -124,14 +130,26 @@ jobqueue-listener.jobqueue.netcraft.com-ua39573026d9e11e9b2e7b74d838d6ab1u-digit
 121.201.127.230
 0 1 0 83 1 1556899333
 -
+209.17.97.122.cloudsystemnetworks.com
+0 1 0 297 1 1557208977
+-
+87.253.50.40
+0 1 0 287 1 1557167585
+-
 crawl-66-249-75-78.googlebot.com
 0 2 0 582 2 1556951063
 -
 180.163.220.4
 0 1 0 287 1 1556816154
 -
+113x35x251x98.ap113.ftth.ucom.ne.jp
+0 1 0 287 1 1557069714
+-
 ns539693.ip-158-69-247.net
 0 5 0 2618 1 1556827720
+-
+62-210-202-81.rev.poneytelecom.eu
+0 1 0 134 1 1557095829
 -
 jobqueue-listener.jobqueue.netcraft.com-u544c0f506dc011e994912a64838d6ab1u-digitalocean-2gb
 0 1 0 226 1 1556950414
@@ -148,23 +166,38 @@ ns3289421.ip-5-135-183.eu
 web1467.kinghost.net
 0 1 0 291 1 1556875037
 -
+crawl-66-249-79-237.googlebot.com
+0 2 0 1033 1 1556989832
+-
 ec2-18-191-28-109.us-east-2.compute.amazonaws.com
 0 1 0 0 1 1556871779
 -
 193.169.255.8
 0 2 0 166 0 0
 -
+crawl-66-249-79-178.googlebot.com
+0 3 0 1328 2 1557017748
+-
 209.17.97.114.cloudsystemnetworks.com
 0 2 0 578 2 1556949509
 -
 5-255-250-128.spider.yandex.com
-0 4 1 20791 1 1556711110
+0 8 1 22857 3 1557142598
 -
 68.183.90.68
 0 1 0 83 0 0
 -
 smartscan04.sitelock.com
-0 3 0 873 3 1556870711
+0 6 0 1746 6 1557129845
+-
+crawl-66-249-79-182.googlebot.com
+0 1 0 291 1 1557049688
+-
+crawl-66-249-79-180.googlebot.com
+0 1 0 746 0 0
+-
+crawl-66-249-75-74.googlebot.com
+0 1 0 746 0 0
 -
 ec2-34-214-184-8.us-west-2.compute.amazonaws.com
 0 1 0 287 1 1556738347
@@ -177,34 +210,31 @@ ec2-34-214-184-8.us-west-2.compute.amazonaws.com
 -
 # End Of Table - sites (monthly)
 # -sites- (daily)
-jobqueue-listener.jobqueue.netcraft.com-ua39573026d9e11e9b2e7b74d838d6ab1u-digitalocean-2gb
-0 1 0 226 1 1556932984
--
-crawl-66-249-75-78.googlebot.com
-0 1 0 291 1 1556951063
--
-jobqueue-listener.jobqueue.netcraft.com-u544c0f506dc011e994912a64838d6ab1u-digitalocean-2gb
-0 1 0 226 1 1556950414
--
-209.17.97.114.cloudsystemnetworks.com
-0 1 0 287 1 1556949509
+209.17.97.122.cloudsystemnetworks.com
+0 1 0 297 1 1557208977
 -
 # End Of Table - sites (daily)
 # -referrers- 
 http://www.google.com/url
-0 3
+0 6
+http://search.aol.com/aol/search
+0 1
+android-app://com.google.android.googlequicksearchbox
+0 1
 https://king.host/
 0 1
 - (Direct Request)
-0 34
+0 52
 # End Of Table - referrers
 # -agents- 
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36
+0 1
 Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)
-0 7
+0 8
 Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)
 0 1
 Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/6.0)
-0 3
+0 6
 Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
 0 2
 Mozilla/5.0 (Linux; Android 6.0; 5085J) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.99 Mobile Safari/537.36
@@ -212,23 +242,31 @@ Mozilla/5.0 (Linux; Android 6.0; 5085J) AppleWebKit/537.36 (KHTML, like Gecko) C
 CheckMarkNetwork/1.0 (+http://www.checkmarknetwork.com/spider.html)
 0 1
 Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
-0 3
+0 13
 Go-http-client/1.1
 0 1
 Scrapy/1.6.0 (+https://scrapy.org)
+0 1
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 7.0; SM-N920C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.136 Mobile Safari/537.36
 0 1
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0
 0 3
 Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2930.83 Safari/537.36
 0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36
+0 1
 Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
-0 3
+0 7
 Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0
 0 5
 Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0
 0 2
 Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Sa
 0 2
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/6.0;)
+0 1
 Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
 0 2
 # End Of Table - agents

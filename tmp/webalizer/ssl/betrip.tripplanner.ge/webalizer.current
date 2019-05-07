@@ -1,13 +1,13 @@
-# Webalizer V2.23-08 Incremental Data - 05/03/2019 21:45:42
-2019 5 3 21 45 42
-3 0 2 0 1 2 861 3 2 0
-1 2 2 2 3
+# Webalizer V2.23-08 Incremental Data - 05/06/2019 16:09:34
+2019 5 6 16 9 34
+5 0 4 0 1 3 1313 5 4 0
+2 2 2 2 6
 0 0 0 0 0 0
 1 0 287 1 1 1
 2 0 574 1 2 1
 0 0 0 0 0 0
 0 0 0 0 0 0
-0 0 0 0 0 0
+2 0 452 2 2 2
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -49,7 +49,7 @@
 0 0 0 0
 0 0 0 0
 0 0 0 0
-0 0 0 0
+2 0 452 2
 0 0 0 0
 0 0 0 0
 0 0 0 0
@@ -80,7 +80,7 @@
 0
 0
 0
-0
+2
 0
 0
 0
@@ -107,17 +107,28 @@
 ec2-34-212-97-54.us-west-2.compute.amazonaws.com
 0 1 0 287 1 1556755826
 -
+45.55.56.187
+0 1 0 226 1 1557158974
+-
+142.93.70.95
+0 1 0 226 1 1557158821
+-
 # End Of Table - sites (monthly)
 # -sites- (daily)
-60.191.38.77
-0 2 0 574 1 1556919942
+45.55.56.187
+0 1 0 226 1 1557158974
+-
+142.93.70.95
+0 1 0 226 1 1557158821
 -
 # End Of Table - sites (daily)
 # -referrers- 
 - (Direct Request)
-0 3
+0 5
 # End Of Table - referrers
 # -agents- 
+Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+0 2
 Go-http-client/2.0
 0 1
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0

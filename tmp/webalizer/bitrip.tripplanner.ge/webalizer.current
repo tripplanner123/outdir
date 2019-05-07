@@ -1,13 +1,13 @@
-# Webalizer V2.23-08 Incremental Data - 05/04/2019 01:17:51
-2019 5 4 1 17 51
-17 2 8 1 2 7 7054 15 10 0
-1 1 2 1 4
+# Webalizer V2.23-08 Incremental Data - 05/06/2019 18:13:21
+2019 5 6 18 13 21
+39 5 16 1 3 14 17472 29 21 0
+7 1 7 1 6
 6 0 2437 4 4 3
 3 0 1322 2 3 2
 7 2 3069 3 7 4
-1 0 226 1 1 1
-0 0 0 0 0 0
-0 0 0 0 0 0
+9 1 3435 7 6 5
+2 0 1036 1 2 1
+12 2 6173 7 7 6
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -40,18 +40,18 @@
 0 0 0 0
 0 0 0 0
 0 0 0 0
-1 0 286 1
+2 1 968 2
 0 0 0 0
-0 0 0 0
-0 0 0 0
+6 2 3692 2
 2 0 1032 1
+4 0 2064 2
 1 0 286 1
 0 0 0 0
 0 0 0 0
 0 0 0 0
 1 0 83 1
-6 0 3108 6
-0 0 0 0
+16 0 6802 14
+1 0 286 1
 0 0 0 0
 0 0 0 0
 2 1 975 2
@@ -60,7 +60,7 @@
 0
 0
 0
-2
+5
 0
 0
 0
@@ -68,7 +68,7 @@
 0
 0
 0
-8
+15
 0
 0
 0
@@ -77,13 +77,13 @@
 0
 0
 0
-0
-4
+1
+12
 0
 1
 0
 0
-2
+5
 0
 0
 0
@@ -100,9 +100,18 @@
 0
 # -urls- 
 /
-0 2 27953936 1378 2 1
+0 5 8243129286180037221 3431 13 1
 # End Of Table - urls
 # -sites- (monthly)
+ec2-34-234-63-101.compute-1.amazonaws.com
+0 1 1 689 1 1556961977
+/
+ip241.ip-54-39-254.net
+0 1 0 286 1 1557166401
+/
+ns3061207.ip-193-70-34.eu
+0 1 1 682 1 1557128431
+/
 5-144-130-12.static.hostiran.name
 0 1 0 83 1 1556899495
 -
@@ -113,47 +122,96 @@ vs14vme.vinetworks.net
 0 1 0 83 0 0
 -
 93-158-161-171.spider.yandex.com
-0 2 0 1032 1 1556711110
--
+0 4 0 2064 2 1556966326
+/
+62-210-202-81.rev.poneytelecom.eu
+0 1 0 134 1 1557163906
+/
 jobqueue-listener.jobqueue.netcraft.com-u5456adac6dc011e994912a64838d6ab1u-digitalocean-2gb
 0 1 0 226 1 1556932671
 /
+ns3289421.ip-5-135-183.eu
+0 1 0 286 1 1556989326
+/
+193.169.255.8
+0 2 0 166 0 0
+-
 ec2-54-202-204-234.us-west-2.compute.amazonaws.com
 0 1 0 286 1 1556801549
 -
+5-255-250-128.spider.yandex.com
+0 2 0 1032 1 1557142594
+/
+ns500498.ip-192-99-0.net
+0 5 1 3003 1 1557136327
+/
 smartscan04.sitelock.com
-0 6 0 3108 3 1556903249
+0 12 0 6216 6 1557162174
 -
 46.160.110.146.format-tv.net
 0 1 0 286 1 1556696189
 -
 # End Of Table - sites (monthly)
 # -sites- (daily)
-jobqueue-listener.jobqueue.netcraft.com-u5456adac6dc011e994912a64838d6ab1u-digitalocean-2gb
-0 1 0 226 1 1556932671
+ip241.ip-54-39-254.net
+0 1 0 286 1 1557166401
 /
+ns3061207.ip-193-70-34.eu
+0 1 1 682 1 1557128431
+/
+93-158-161-171.spider.yandex.com
+0 1 0 746 0 0
+-
+62-210-202-81.rev.poneytelecom.eu
+0 1 0 134 1 1557163906
+/
+5-255-250-128.spider.yandex.com
+0 1 0 286 1 1557142594
+/
+ns500498.ip-192-99-0.net
+0 5 1 3003 1 1557136327
+/
+smartscan04.sitelock.com
+0 2 0 1036 1 1557162174
+-
 # End Of Table - sites (daily)
 # -referrers- 
 http://www.google.com/url
-0 6
+0 12
+http://search.aol.com/aol/search
+0 1
 - (Direct Request)
-0 11
+0 26
 # End Of Table - referrers
 # -agents- 
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36
+0 1
 Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/6.0)
-0 6
+0 12
 Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
 0 1
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36
+0 1
 Go-http-client/1.1
+0 1
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
 0 1
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0
 0 4
 Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
-0 2
+0 6
+python-requests/2.21.0
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0
+0 5
 Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0
 0 2
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/6.0;)
+0 1
 Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
 0 1
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+0 2
 # End Of Table - agents
 # -search strings- 
 # End Of Table - search strings
