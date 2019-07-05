@@ -1,0 +1,65 @@
+Return-Path: <gionabaxteveli@yahoo.com>
+Delivered-To: info@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP
+	id GJBoMAYmBV1GQwAA8w4q4w
+	(envelope-from <gionabaxteveli@yahoo.com>)
+	for <info@tripplanner.ge>; Sat, 15 Jun 2019 12:08:22 -0500
+Return-path: <gionabaxteveli@yahoo.com>
+Envelope-to: info@tripplanner.ge
+Delivery-date: Sat, 15 Jun 2019 12:08:22 -0500
+Received: from sonic314-20.consmr.mail.ne1.yahoo.com ([66.163.189.146]:32992)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.92)
+	(envelope-from <gionabaxteveli@yahoo.com>)
+	id 1hcCAA-0005qG-D0
+	for info@tripplanner.ge; Sat, 15 Jun 2019 12:08:22 -0500
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1560618490; bh=JqRMMw66nEACkWcP9rbIba73RN5j4yzapR7uWlbNaXA=; h=Date:From:Reply-To:To:Subject:References:From:Subject; b=fPRo4q6St6L0a9mDvpDMTNj8ArL/aBO19eKE9SilTxoO1q2adC5h+IOYOBHQ1OC4M7N1t+18xawkYCSXjq3cX9RY9yw9EvjFue/ix0hAfE292ci7kN8akbgl5988Un6lowaLkeucdUPkbW9FOYHjeYDAJiCI9ueutqe4fMmqBF+zFUyE697GSxjEds33dwNuFPac+VruYeBE4BBFd0E7BBfIldTwpXUjkCCRkC/7qBgL0VL+UKS/tOXxO1ZL4C9S+QTv699wuUtjLMbosw3b55dqOArbC8hbx5vGDqf11cT0+litjF4D0grBtl3b+q/II4kRstR3BUNg3wOH8KWJoQ==
+X-YMail-OSG: 2U33keIVM1nUxS6TSUNYLWz3g9t21mAKVS22ISEr8UjvR8HXQK2PBOiJJ7ostCh
+ eIHI4GrA5_64TiYyUbO9O2RA7BaMw0zsk054jnoDeMQeg.VyKEaFA.m29YrCc5mZ6Nq.jP.Uu.Ft
+ EnI_OCt79UNJPxSlnEhRYiUZrUL2LOaKjMRAJluU5WeL7HQtuSrDSLugxO6z10NpK6fsbEaVMGnP
+ Ndnq.ewt8t5riUn_LpHNoEztUCbH.w_e3ArbL55GRVxpZ9GoTpLAz_inIlbMDDZf5PKfyLOWy58u
+ ysVLeFmTNb7OtE6lPE1.wL99v31B75C85DgI8LBHckB176xhzMvCNeNwbJ7SeqktbyW0fpUN7tIg
+ B7wH1rCk2dfIZcxkHP9QaEc0hyjO9rSBBsYekKZJ4N8HRQKSf73qIgdtcueRrjYlTvDMfL_NRV0b
+ Q5EoglHzavzncjEt.QtXrth5.mgoF3fSEFbp1cfL0t590WPqYNlv6cZom59BhlXJPRqDyFU1qCih
+ QkhDzdTeRTjGrxGFGCW6oPFzvIchX5rQD1zeRlFMpaF_9nFSZ6Qzqy2yieTugeBKkQ3Kqxzn.8r8
+ feH3V4L_asjQCPV9ihI3a0nPry4BK6qlaZK.vx.Y92CqRG2TW29ivkn6aLnPC_YChVHLyt0dgNNr
+ offWTe45AWU0F_WiqLj0f8ZEnpI619ExUBUUIPJOTrzy440gyn5YljhhR9yXToavYfy2Uhw4xpda
+ fY.Vm0AmAeBc_IYIjDH6BUmf_w7FPa6ZYq.z_6.N_WZ7BUvxP8AQQEKPuxoHPuGS_R2iYuJYvaEO
+ ijGlp34hmEQFhlKmDrmHeP3KMCTaWaA2HwQZOPYOXgYvns7W1YtBzr3brpiPlQ9ZTVvK4VJGd62V
+ dOTis2NFgj6lzc4y5ae9SATsunw137fuKWj8EPsyUB4dTzQGBMMqADM3KOM9D_PMkB39Ls0zVOtq
+ x67M4haie5IJsLfHqjba6xh9CrvI8WlQgVuMPhHcSQlJnfIJFKOn3mysagXa6DKbbtFbe2doAMIt
+ PqAu84hJ6YovGQyf2bQdR0o58oMj5GLmYPA6rjUMIHX8mX9..WjshiKquVTY6CuqvIeJXsuCnY.A
+ iegxOzvX8Ywlq9HIaDJMVD_XpkbXKO_FkVyl_2ZV7o3q1dI3KNJn2tjDS1kLKosqlu0aOFMtnuVI
+ y8nrnpig7b0ou74cD6ul1cWSeR5kwtA_CvTXR7F.i5mx0uOzVfXwhKGCcH5PGLyQ-
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic314.consmr.mail.ne1.yahoo.com with HTTP; Sat, 15 Jun 2019 17:08:10 +0000
+Date: Sat, 15 Jun 2019 17:08:09 +0000 (UTC)
+From: gio nabakhteveli <gionabaxteveli@yahoo.com>
+Reply-To: "gionabakhteveli@yahoo.com" <gionabakhteveli@yahoo.com>
+To: "info@tripplanner.ge" <info@tripplanner.ge>
+Message-ID: <1952262352.1944887.1560618489213@mail.yahoo.com>
+Subject: 
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1944886_1422951986.1560618489212"
+References: <1952262352.1944887.1560618489213.ref@mail.yahoo.com>
+X-Mailer: WebService/1.1.13837 YahooMailAndroidMobile YMobile/1.0 (com.yahoo.mobile.client.android.mail/5.40.2; Android/8.0.0; R16NW; on5xelte; samsung; SM-G570F; 4.97; 1280x720;)
+Content-Length: 649
+X-Spam-Status: No, score=1.5
+X-Spam-Score: 15
+X-Spam-Bar: +
+X-Spam-Flag: NO
+
+------=_Part_1944886_1422951986.1560618489212
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+hsej
+Sent from Yahoo Mail on Android
+------=_Part_1944886_1422951986.1560618489212
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<br>hsej<br><div id="ymail_android_signature"><a id="ymail_android_signature_link" href="https://go.onelink.me/107872968?pid=InProduct&amp;c=Global_Internal_YGrowth_AndroidEmailSig__AndroidUsers&amp;af_wl=ym&amp;af_sub1=Internal&amp;af_sub2=Global_YGrowth&amp;af_sub3=EmailSignature">Sent from Yahoo Mail on Android</a></div>
+------=_Part_1944886_1422951986.1560618489212--

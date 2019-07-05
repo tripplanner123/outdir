@@ -1,0 +1,729 @@
+Return-Path: <survey-noreply@t.outbound.surveymonkey.com>
+Delivered-To: e.tarkhnishvili@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP
+	id 8KYkF1pWDF1lrwgA8w4q4w
+	(envelope-from <survey-noreply@t.outbound.surveymonkey.com>)
+	for <e.tarkhnishvili@tripplanner.ge>; Thu, 20 Jun 2019 23:00:26 -0500
+Return-path: <survey-noreply@t.outbound.surveymonkey.com>
+Envelope-to: e.tarkhnishvili@tripplanner.ge
+Delivery-date: Thu, 20 Jun 2019 23:00:26 -0500
+Received: from mta1a2.outbound.surveymonkey.com ([52.40.63.2]:3535)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.92)
+	(envelope-from <survey-noreply@t.outbound.surveymonkey.com>)
+	id 1heAiv-002Rxm-N1
+	for e.tarkhnishvili@tripplanner.ge; Thu, 20 Jun 2019 23:00:26 -0500
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=t.outbound.surveymonkey.com; s=scph; t=1561089613;
+	i=@t.outbound.surveymonkey.com;
+	bh=sSJuJuvzfchrIKeaUWO3rg3ERIkqHvCEWywC9WceJKs=;
+	h=Content-Type:Message-ID:From:To:Subject:Date;
+	b=Vh94kGphmwXRE0ZWAPl/4gZo2jL0bXFgHfQSyNoyrrV0YEMm5uiwKea28oNPqJbCD
+	 tUYBCrU02PbTZ/RA3e+r1dTdMakGKlFVqOhMUNp80KYUqySF72AlsX0slmqaeckpNG
+	 owD0BURdWMM3d0tWItGwGRrEuD2km1Jt0LYyB3J8=
+X-MSFBL: clIPS4n9KZlpeeFjni+28fsgt6zPYIbu4jsZtVg9tRM=|eyJjdXN0b21lcl9pZCI
+	6IjEiLCJzdWJhY2NvdW50X2lkIjoiMTAyIiwibWVzc2FnZV9pZCI6IjAwMDA0ZDU
+	2MGM1ZDUzMjNkNTE0IiwiciI6ImUudGFya2huaXNodmlsaUB0cmlwcGxhbm5lci5
+	nZSIsInRlbmFudF9pZCI6InN1cnZleW1vbmtleSJ9
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+Authentication-Results:  a.mta2vsmtp.cc.prd.sparkpost smtp.user=<hidden>; auth=pass (PLAIN)
+Received: from [64.191.16.134] ([64.191.16.134:49085] helo=n9emlsvc414mgp1.n9.jungle.tech-event_subscriber_process)
+	by a.mta2vsmtp.cc.prd.sparkpost (envelope-from <survey-noreply@t.outbound.surveymonkey.com>)
+	(ecelerity 4.3.0.68236 r(Core:4.3.0.24)) with ESMTPSA (cipher=AES-256-GCM) 
+	id 5D/41-09043-D465C0D5; Fri, 21 Jun 2019 04:00:13 +0000
+Message-ID: <5D.41.09043.D465C0D5@a.mta2vsmtp.cc.prd.sparkpost>
+MIME-Version: 1.0
+From: SurveyMonkey <surveymonkey@t.outbound.surveymonkey.com>
+To: e.tarkhnishvili@tripplanner.ge
+Date: Fri, 21 Jun 2019 04:00:13 +0000
+Reply-To: newsletter@surveymonkey.com
+X-Spam-Status: Yes, score=8.1
+X-Spam-Score: 81
+X-Spam-Bar: ++++++++
+X-Spam-Report: Spam detection software, running on the system "gator3171.hostgator.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  See what people have to say. Here's today's recap of all
+   your newest survey responses. Sign in to your SurveyMonkey account.‌ ‌
+    ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ [...]
+    
+ 
+ Content analysis details:   (8.1 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  2.0 CHAR_PERIODS           Too Many Periods
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: surveymonkey.com]
+  3.0 RCVD_IN_SORBS_WEB      RBL: SORBS: sender is an abusable web server
+                             [64.191.16.134 listed in dnsbl.sorbs.net]
+ -0.5 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 HTML_IMAGE_RATIO_08    BODY: HTML has a low ratio of text to image
+                             area
+  1.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  2.5 DCC_CHECK              No description available.
+ -0.0 AWL                    AWL: Adjusted score from AWL reputation of From: address
+X-Spam-Flag: YES
+Subject: [SPAM] Your newest survey responses
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">=0A<html xmlns=3D"http://www.=
+w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/1999/xhtml">=0A <head>=0A  <m=
+eta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type" />=
+=0A  <meta content=3D"width=3Ddevice-width, initial-scale=3D1" name=3D"view=
+port" />=0A  <meta content=3D"IE=3Dedge" http-equiv=3D"X-UA-Compatible" />=
+=0A  <style type=3D"text/css">=0A   #outlook a {padding:0;}=0A=09=09a:link =
+{color:#2c9ab7;}=0A=09=09a:visited {color:#2c9ab7;}=0A=09=09a:hover {color:=
+#2c9ab7;}=0A=09=09a:active {color:#2c9ab7;}=0A=09=09a {text-decoration: non=
+e;}=0A=09=09a img {border:none;}=0A=09=09body{width:100% !important; -webki=
+t-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0;}=
+=0A=09=09.ExternalClass {width:100%;}=0A=09=09#backgroundTable {margin:0; p=
+adding:0; width:100% !important; }=0A=09=09img {outline:none; text-decorati=
+on:none; -ms-interpolation-mode: bicubic;}=0A=09=09span.yshortcuts { color:=
+#000; background-color:none; border:none;}=0A=09=09span.yshortcuts:hover,=
+=0A=09=09span.yshortcuts:active,=0A=09=09span.yshortcuts:focus {color:#000;=
+ background-color:none; border:none;}=0A=09=09@media screen and (max-width:=
+ 599px) {table[id=3D"spacer-600"] {display: none !important;}}=0A=09=09.gma=
+ilfix {display:none;display:none!important;}=0A=09=09.full-width-bg{width:1=
+00% !important; }=0A=0A=09=09@media only screen and (max-width: 480px), onl=
+y screen and (max-device-width: 480px)=0A=09=09{=0A=09=09.appleLinks a {col=
+or:#9DA5AA; text-decoration: none;}=0A=09=09.hide { display: none !importan=
+t; }=0A=09=09.table { width: 100% !important; }=0A=09=09.table50 { width: 5=
+0% !important; }=0A=09=09.table90 { width: 90% !important; }=0A=09=09.table=
+60 { width: 60% !important; }=0A=09=09.table40 { width: 40% !important; }=
+=0A=09=09.table20 { width: 27% !important; }=0A=09=09.table80 { width: 73% =
+!important; }=0A=09=09.tablePadTop { width: 100% !important; padding-top:10=
+px; }=0A=09=09.image { width: 100%; }=0A=09=09td.block {display: block; wid=
+th:100% !important;}=0A=09=09.mobileImage { width:100%; height:auto;}=0A=09=
+=09.mobileText { font-size:25px !important; line-height:28px !important; di=
+splay:block; padding-left:20px; }=0A=09=09.imageDivLine { width: 100%; heig=
+ht:20px; padding-top:7px; }=0A=09=09.td334top { width: 100%; padding-top:12=
+px; }=0A=09=09.td310 { width: 100%; }=0A=09=09.td320 { padding: 2px !import=
+ant; width: 0px !important;}=0A=09=09.td290 { width: 100% !important; }=0A=
+=09=09.logo2 { height: 30px; }=0A=09=09.padLeft { padding-left:10px; }=0A=
+=09=09.headline { font-size:25px; }=0A=09=09.tablePad { text-align: left;  =
+}=0A=09=09.tablePad2 { padding-right:10px;  }=0A=09=09.smart-phone-fontsize=
+ { font-size: 24px; font-weight: 400; line-height:1.3; display: block; padd=
+ing: 0px !important; }=0A=09=09.smart-phone-fontsize2 { font-size: 19px; fo=
+nt-weight: 400; line-height:1.3; display: block; }=0A=09=09.smart-phone-cta=
+ {font-size: 14px; line-height: 33px;}=0A=09=09.img-not-hide { display: blo=
+ck !important; margin-top: 20px; }=0A=09=09.desktop-number { font-size: 41p=
+x !important; font-weight: bold; }=0A=09=09.tableVisibleFeature {display:bl=
+ock !important;  margin:auto !important; width:100% !important; height:auto=
+ !important; max-height:inherit !important; overflow:visible !important;}=
+=0A=09=09}=0A  </style>=0A </head>=0A <body align=3D"center" bgcolor=3D"#ff=
+ffff" style=3D"-webkit-font-smoothing: antialiased; width:100% !important; =
+background:#ffffff; -webkit-text-size-adjust:none;">=0A  <div style=3D"disp=
+lay:none;font-size:1px;color:#333333;line-height:1px;max-height:0px;max-wid=
+th:0px;opacity:0;overflow:hidden;">=0A   See what people have to say. Here'=
+s today's recap of all your newest survey responses. Sign in to your Survey=
+Monkey account.&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=0A  </div>=0A  <tabl=
+e bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" clas=
+s=3D"table" width=3D"100%">=0A   <tr>=0A    <td align=3D"center" bgcolor=3D=
+"#ffffff" class=3D"table" style=3D"border-collapse: collapse;" valign=3D"to=
+p" width=3D"100%">=0A     <table bgcolor=3D"#ffffff" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" class=3D"table" width=3D"100%">=0A      <tr>=0A =
+      <td align=3D"center" bgcolor=3D"#ffffff" class=3D"table" style=3D"bor=
+der-collapse:collapse" valign=3D"top" width=3D"100%">=0A        <!-- space =
+table -->=0A        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ class=3D"table" width=3D"670">=0A         <tr>=0A          <td bgcolor=3D"=
+#ffffff" class=3D"table" height=3D"15" style=3D"border-collapse:collapse" w=
+idth=3D"670">=0A           <img alt=3D"" class=3D"image" height=3D"10" src=
+=3D"https://www.surveymonkey.com/tr/images/spacer.png" style=3D"outline:non=
+e;text-decoration:none;display:block" width=3D"670" />=0A          </td>=0A=
+         </tr>=0A        </table>=0A        <!-- Logo and sign in button ta=
+ble -->=0A        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" c=
+lass=3D"table90" width=3D"670">=0A         <tr>=0A          <td bgcolor=3D"=
+#ffffff" class=3D"hide" height=3D"35" style=3D"border-collapse:collapse" wi=
+dth=3D"10">=0A           <img alt=3D"" height=3D"35" src=3D"https://www.sur=
+veymonkey.com/tr/images/spacer.png" style=3D"outline:none;text-decoration:n=
+one;display:block" width=3D"10" />=0A          </td>=0A          <td align=
+=3D"left" bgcolor=3D"#ffffff" class=3D"logo" height=3D"35" style=3D"border-=
+collapse:collapse" width=3D"300">=0A           <a href=3D"https://www.surve=
+ymonkey.com" target=3D"_blank">=0A            <img alt=3D"" border=3D"0" cl=
+ass=3D"logo2" height=3D"35" src=3D"https://www.surveymonkey.com/tr/images/s=
+m_logo.png" style=3D"outline:none;text-decoration:none;display:block" />=0A=
+           </a>=0A          </td>=0A          <td align=3D"right" bgcolor=
+=3D"#ffffff" class=3D"hide" height=3D"35" style=3D"border-collapse:collapse=
+" width=3D"289">=0A          </td>=0A          <td align=3D"right" bgcolor=
+=3D"#ffffff" style=3D"border-collapse:collapse">=0A           <a href=3D"ht=
+tps://www.surveymonkey.com/tr/v1/te/akU_2BQc2vAhAsa_2B264x1g6_2FpF_2Fhy3Ehx=
+bpxJDHYpYZT3Sj3b4_2FEjdjs8VkdjL5nu5wMfbtiGLynJ3GV8arzyqyAiVzZUlR2Owu7ZhkZyO=
+JZVZMuica9imAHHVojXwoZN5GXBpyhVbzWJK6SiGbZop7bj6YtdeFQk0iK1eYSHo037gDzI2PQk=
+Jo_2FePWLhTVsWkArG5hoUGw0995i1DMfIjTQ_3D_3D" target=3D"_blank">=0A         =
+   <font style=3D"color:#00bf6f;font-family:Arial,Helvetica,sans-serif;font=
+-size:13px;line-height:24px;border-radius:2px;outline:none;font-weight:bold=
+;white-space:nowrap;text-decoration:none;display:inline-block;border:solid =
+1px #00bf6f;background-color:#fff;text-align:center;width:100px">=0A       =
+       Sign In =0A            </font>=0A           </a>=0A          </td>=
+=0A          <td bgcolor=3D"#ffffff" class=3D"hide" height=3D"35" style=3D"=
+border-collapse:collapse" width=3D"16">=0A           <img alt=3D"" class=3D=
+"image" height=3D"35" src=3D"https://www.surveymonkey.com/tr/images/spacer.=
+png" style=3D"outline:none;text-decoration:none;display:block" width=3D"16"=
+ />=0A          </td>=0A         </tr>=0A        </table>=0A        <!-- sp=
+ace table -->=0A        <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"table" width=3D"100%">=0A         <tr>=0A          <td bgco=
+lor=3D"#ffffff" class=3D"table" height=3D"15" style=3D"border-collapse:coll=
+apse" width=3D"100%">=0A           <img alt=3D"" class=3D"table" height=3D"=
+20" src=3D"https://www.surveymonkey.com/tr/images/spacer.png" style=3D"outl=
+ine:none;text-decoration:none;display:block" width=3D"100%" />=0A          =
+</td>=0A         </tr>=0A        </table>=0A        <!-- The responses keep=
+ coming -->=0A        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" class=3D"table90" width=3D"670">=0A         <tr>=0A          <td align=
+=3D"center" class=3D"table" style=3D"border-collapse:collapse;line-height:1=
+7px" valign=3D"top" width=3D"670">=0A           <font style=3D"text-decorat=
+ion:none;color:#333e48;font-size:33px;line-height:31px;font-weight:bold;fon=
+t-family:helvetica,arial,sans-serif">=0A            <span class=3D"headline=
+">=0A             The responses keep coming!=0A            </span>=0A      =
+     </font>=0A          </td>=0A         </tr>=0A         <tr>=0A         =
+ <td align=3D"center" class=3D"table" style=3D"border-collapse:collapse;lin=
+e-height:17px" valign=3D"top" width=3D"670">=0A           <font style=3D"di=
+splay:block;margin:0px;padding:0px;padding-top:20px;text-decoration:none;te=
+xt-align:center;color:#666666;font-size:22px; line-height:28px;font-family:=
+helvetica,arial,sans-serif">=0A            Here's today's recap of all your=
+ newest survey responses:=0A           </font>=0A          </td>=0A        =
+ </tr>=0A        </table>=0A        <!-- survey body region  -->=0A        =
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"table" wid=
+th=3D"670">=0A         <tr>=0A          <td bgcolor=3D"#ffffff" class=3D"hi=
+de" style=3D"border-collapse:collapse" width=3D"10">=0A           <img alt=
+=3D"" height=3D"10" src=3D"https://www.surveymonkey.com/tr/images/spacer.pn=
+g" style=3D"outline:none;text-decoration:none;display:block" width=3D"10" /=
+>=0A          </td>=0A          <td align=3D"center" bgcolor=3D"#ffffff" cl=
+ass=3D"table" style=3D"border-collapse:collapse" valign=3D"top" width=3D"67=
+0">=0A           <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"table" width=3D"670">=0A            <tr>=0A             <td style=3D=
+"border-collapse:collapse">=0A              <img alt=3D"" class=3D"image" h=
+eight=3D"27" src=3D"https://www.surveymonkey.com/tr/images/spacer.png" styl=
+e=3D"outline:none;text-decoration:none;display:block" width=3D"20" />=0A   =
+          </td>=0A            </tr>=0A           </table>=0A           <tab=
+le border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"table" height=
+=3D"20px" width=3D"670">=0A            <tr>=0A             <td style=3D"bor=
+der-collapse:collapse">=0A              <img alt=3D"" class=3D"image" heigh=
+t=3D"4" src=3D"https://www.surveymonkey.com/tr/images/spacer.png" style=3D"=
+outline:none;text-decoration:none;display:block" width=3D"682" />=0A       =
+      </td>=0A            </tr>=0A           </table>=0A           =0A=09=
+=09=09=09=09=09=09=09 =0A=09=09=09=09=09=09=09=09 =0A=09=09=09=09=09=09=09=
+=09 =0A=09=09=09=09=09=09=09=09 =0A=09=09=09=09=09=09=09=09 =0A=09=09=09=09=
+=09=09=09=09 =0A=09=09=09=09=09=09=09=09 =0A=09=09=09=09=09=09=09=09 =0A=09=
+=09=09=09=09=09=09=09 =0A=09=09=09=09=09=09=09=09 =0A=09=09=09=09=09=09=09 =
+    =0A=09=09=09=09=09=09=09=09 =0A=09=09=09=09=09=09=09     =0A           =
+<!-- a repeated survey block  -->=0A           <table border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" class=3D"table" width=3D"670">=0A            <t=
+r>=0A             <td align=3D"left" bgcolor=3D"#f4f5f5" style=3D"border-co=
+llapse:collapse;border-bottom-left-radius:5px;border-bottom-right-radius:5p=
+x;outline:none;border:1px solid #f4f5f5;border-right-color:#f4f5f5;border-b=
+ottom-color:#f4f5f5;background-color:#f4f5f5" width=3D"670">=0A            =
+  <!-- survey table -->=0A              <table border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" class=3D"table" width=3D"670">=0A               <tr>=
+=0A                <td bgcolor=3D"#f4f5f5" class=3D"hide" style=3D"border-c=
+ollapse:collapse;padding-top:10px;padding-bottom:10px" width=3D"10">=0A    =
+             <img alt=3D"" class=3D"image" height=3D"2" src=3D"https://www.=
+surveymonkey.com/tr/images/spacer.png" style=3D"outline:none;text-decoratio=
+n:none;display:block" width=3D"10" />=0A                </td>=0A           =
+     <td align=3D"center" class=3D"table" style=3D"border-collapse:collapse=
+;padding-bottom:20px;padding-top:20px" valign=3D"middle" width=3D"650">=0A =
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cla=
+ss=3D"table90" width=3D"650">=0A                  <tr>=0A                  =
+ <td align=3D"left" bgcolor=3D"#f4f5f5" class=3D"table" height=3D"5" style=
+=3D"border-collapse:collapse;padding-top:12px" valign=3D"top" width=3D"650"=
+>=0A                    <table align=3D"left" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" class=3D"table" width=3D"326">=0A                     <=
+tr>=0A                      <td align=3D"left" class=3D"table50" style=3D"b=
+order-collapse:collapse" valign=3D"top" width=3D"326">=0A                  =
+     <!-- survey title table -->=0A                       <table align=3D"l=
+eft" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"table" width=
+=3D"210">=0A                        <tr>=0A                         <td ali=
+gn=3D"left" bgcolor=3D"#f4f5f5" class=3D"tablePad2" height=3D"5" style=3D"b=
+order-collapse:collapse;padding-left:10px;text-decoration:none" valign=3D"t=
+op" width=3D"210">=0A                          <a href=3D"https://www.surve=
+ymonkey.com/tr/v1/te/akU_2BQc2vAhAsa_2B264x1g6_2FpF_2Fhy3EhxbpxJDHYpYZT3Sj3=
+b4_2FEjdjs8VkdjL5nu5wSwKJyKOxZHuejPqZtbWUHh13gAY01e4s7OrVq8VoB6zGMau1FGjatK=
+T0mdQVQ5qoLfPa_2BZD3Td_2Fm_2FQhQ1fUeCJp6RSHOET_2FVpZIO4_2Fr6wrjZkexrSZ6enan=
+ptPhEm5dTzXIPZw1cYP1YCqj7TBh_2BjdlC1fiDzqqyo74rV92hEBS2oEDaD2WOd8dx3HfmC_2F=
+I2XQ_2BhLWRxAJ9sbxVqNTgrfaMnZ2v_2B1EheCsYBJ7w_2F7Q_3D" style=3D"border-coll=
+apse:collapse;padding-top:10px;text-decoration:none;color:#333e48;font-size=
+:16px;font-weight:bold;font-family:helvetica,arial,sans-serif;text-decorati=
+on:none" target=3D"_blank">=0A                           tripplanner.ge=0A =
+                         </a>=0A                         </td>=0A          =
+              </tr>=0A                       </table>=0A                   =
+   </td>=0A                      <td align=3D"left" class=3D"table50" style=
+=3D"border-collapse:collapse" valign=3D"top" width=3D"326">=0A             =
+          <table align=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"table" width=3D"96">=0A                        <tr>=0A     =
+                    <td align=3D"left" bgcolor=3D"#f4f5f5" height=3D"5" sty=
+le=3D"border-collapse:collapse;padding-left:10px;text-decoration:none;line-=
+height:12px;" valign=3D"top" width=3D"96">=0A                          =0A=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=0A=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09<a href=3D"https://www.surveymonkey.com/tr/v1=
+/te/akU_2BQc2vAhAsa_2B264x1g6_2FpF_2Fhy3EhxbpxJDHYpYZT3Sj3b4_2FEjdjs8VkdjL5=
+nu5wSwKJyKOxZHuejPqZtbWUHh13gAY01e4s7OrVq8VoB6zGMau1FGjatKT0mdQVQ5qoLfPa_2B=
+ZD3Td_2Fm_2FQhQ1fUeCJp6RSHOET_2FVpZIO4_2Fr6wrjZkexrSZ6enanptPhEm5diuccyt0T0=
+P8ADoRlUdm3leSA60FXWqRkeXZygAiAjbaGNbaSZ58vbhvYKLVPP7hikv4lDfqFpMAyyMRhhR2q=
+1p0aIO0U14tShTpMvRavA6U_3D" style=3D"color:#333333;font-size:30px;font-weig=
+ht:bold;font-family:helvetica,arial,sans-serif;text-decoration:none;line-he=
+ight:28px;" target=3D"_blank"><span class=3D"sl_plural">2</span></a><br /><=
+a style=3D"color:#666666;font-size:11px;font-family:helvetica,arial,sans-se=
+rif;text-decoration:none">new responses</a>=0A=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=0A                                                =
+                =0A                         </td>=0A                       =
+ </tr>=0A                       </table>=0A                      </td>=0A  =
+                   </tr>=0A                    </table>=0A                 =
+   <table align=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+class=3D"table" width=3D"284">=0A                     <tr>=0A              =
+        <td align=3D"left" class=3D"table50" valign=3D"top" width=3D"284">=
+=0A                       <table align=3D"left" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" class=3D"tablePadTop" width=3D"116">=0A              =
+          <tr>=0A                         <td align=3D"left" bgcolor=3D"#f4=
+f5f5" height=3D"5" style=3D"border-collapse:collapse;padding-left:10px;colo=
+r:#6c777d;font-size:11px;font-family:helvetica,arial,sans-serif;text-decora=
+tion:none;line-height:15px;" valign=3D"top" width=3D"116">=0A              =
+            =0A<font style=3D"color:#666666;font-size:11px;font-family:helv=
+etica,arial,sans-serif;text-decoration:none">=0A=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09 =0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09 This survey is <a style=3D"color:#00bf6f;font-size:14px;font-weight:=
+bold;font-family:helvetica,arial,sans-serif;text-decoration:none">OPEN</a>.=
+=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =0A=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09 </font>=0A=0A                          <b=
+r />=0A                          <a href=3D"https://www.surveymonkey.com/tr=
+/v1/te/akU_2BQc2vAhAsa_2B264x1g6_2FpF_2Fhy3EhxbpxJDHYpYZT3Sj3b4_2FEjdjs8Vkd=
+jL5nu5wSwKJyKOxZHuejPqZtbWUHh13gAY01e4s7OrVq8VoB6zGMau1FGjatKT0mdQVQ5qA6FtP=
+YTEjUWT_2B2kb7rFln_2B0RtO7fQRf4ALCzVAjkrhkb7lxBo9dKkw2kRIbXKlwa5GMyP2ySsKlD=
+3yoTj7oEDptCIRZtoHUiJ4kYMrae_2Fzlbl1mpJIqvwFwJQrjEY1VWOwqBQeeYC3Gm9R40wtZvw=
+iFslL7cOxviiCwF9sbUDetg9hKP1BxFVtz_2BMk9NFsTa48MDXm1zmx1BTRNMAd0_2F2HNYaaiR=
+Dtzn44J1MFAVUn8NoOxtrRwwslDeeO4q3cO8" style=3D"text-decoration:none;color:#=
+666666;font-size:11px;font-family:helvetica,arial,sans-serif" target=3D"_bl=
+ank">=0A                           Manage this alert.=0A                   =
+       </a>=0A                         </td>=0A                        </tr=
+>=0A                       </table>=0A                      </td>=0A       =
+               <td align=3D"left" class=3D"table50" valign=3D"top" width=3D=
+"284">=0A                       <!-- See responses -->=0A                  =
+     <table align=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" class=3D"tablePadTop" width=3D"158">=0A                        <tr>=0A   =
+                      <td align=3D"left" bgcolor=3D"#f4f5f5" height=3D"5" s=
+tyle=3D"border-collapse:collapse;padding-bottom:10px;padding-left:10px" val=
+ign=3D"top" width=3D"108">=0A                          <a href=3D"https://w=
+ww.surveymonkey.com/tr/v1/te/akU_2BQc2vAhAsa_2B264x1g6_2FpF_2Fhy3EhxbpxJDHY=
+pYZT3Sj3b4_2FEjdjs8VkdjL5nu5wSwKJyKOxZHuejPqZtbWUHh13gAY01e4s7OrVq8VoB6zGMa=
+u1FGjatKT0mdQVQ5qoLfPa_2BZD3Td_2Fm_2FQhQ1fUeCJp6RSHOET_2FVpZIO4_2Fr6wrjZkex=
+rSZ6enanptPhEm5dB9veiGg1LYYaKH_2FyKZINXw4uY70i0BkONgO3ViH_2BvS7kg4P_2F25kwY=
+FXEFjl_2Fn8bHSxrx9PLZiWJ_2B_2BB6Gg2tZsR_2FH444GSy1dWVMCal9OiFk_3D" style=3D=
+"font-family:Helvetica,Arial,sans-serif; font-size:14px; font-weight:bold; =
+border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; co=
+lor: #f4f5f5; text-decoration: none; background-color: #00bf6f; border-top:=
+ 12px solid #00bf6f; border-bottom: 12px solid #00bf6f; border-left: 22px s=
+olid #00bf6f; border-right: 22px solid #00bf6f; display: inline-block; mso-=
+table-lspace:0pt; mso-table-rspace:0pt;">=0A                           See =
+Responses=0A                          </a>=0A                         </td>=
+=0A                        </tr>=0A                       </table>=0A      =
+                </td>=0A                     </tr>=0A                    </=
+table>=0A                   </td>=0A                  </tr>=0A             =
+    </table>=0A                </td>=0A                <td bgcolor=3D"#f4f5=
+f5" class=3D"hide" style=3D"border-collapse:collapse;padding-top:10px;paddi=
+ng-bottom:10px" width=3D"10">=0A                 <img alt=3D"" class=3D"ima=
+ge" height=3D"2" src=3D"https://www.surveymonkey.com/tr/images/spacer.png" =
+style=3D"outline:none;text-decoration:none;display:block" width=3D"10" />=
+=0A                </td>=0A               </tr>=0A              </table>=0A=
+              =0A              <!--who else need to know banner -->=0A     =
+         <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"t=
+able" width=3D"670">=0A               <tr>=0A                <td bgcolor=3D=
+"#f4f5f5" class=3D"td320" style=3D"border-collapse:collapse" width=3D"4">=
+=0A                 <img alt=3D"" class=3D"image" height=3D"2" src=3D"https=
+://www.surveymonkey.com/tr/images/spacer.png" style=3D"outline:none;text-de=
+coration:none;display:block" width=3D"4" />=0A                </td>=0A     =
+           <td bgcolor=3D"#f4f5f5" class=3D"table" style=3D"border-collapse=
+:collapse">=0A                 <img alt=3D"" class=3D"image" height=3D"4" s=
+rc=3D"https://www.surveymonkey.com/tr/images/spacer.png" style=3D"outline:n=
+one;text-decoration:none;display:block" />=0A                </td>=0A      =
+          <td bgcolor=3D"#f4f5f5" class=3D"td320" style=3D"border-collapse:=
+collapse" width=3D"4">=0A                 <img alt=3D"" class=3D"image" hei=
+ght=3D"2" src=3D"https://www.surveymonkey.com/tr/images/spacer.png" style=
+=3D"outline:none;text-decoration:none;display:block" width=3D"4" />=0A     =
+           </td>=0A               </tr>=0A               <tr>=0A           =
+     <td bgcolor=3D"#f4f5f5" class=3D"td320" style=3D"border-collapse:colla=
+pse;padding-top:10px;padding-bottom:10px" width=3D"4">=0A                 <=
+img alt=3D"" class=3D"image" height=3D"2" src=3D"https://www.surveymonkey.c=
+om/tr/images/spacer.png" style=3D"outline:none;text-decoration:none;display=
+:block" width=3D"4" />=0A                </td>=0A                <td class=
+=3D"table" height=3D"50" style=3D"background-color:#fff" valign=3D"middle">=
+=0A                 <a align=3D"center" data-saferedirecturl=3D"https://www=
+=2Egoogle.com/url=3Fhl=3Den&amp;q=3D#&amp;source=3Dgmail&amp;ust=3D15229530=
+08899000&amp;usg=3DAFQjCNHX40aXyHH0s6z9Y2dWEzL9nMXi4g" href=3D"#" target=3D=
+"_blank" valign=3D"middle">=0A                  <!-- Who else need to know =
+banner -->=0A                  </a><table border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" class=3D"table" width=3D"670">=0A                   <tr>=0A=
+                    <td align=3D"center" bgcolor=3D"#ffffff" class=3D"block=
+" style=3D"border-collapse:collapse" width=3D"4">=0A                     <!=
+-- Who else need to know banner -->=0A                     <table align=3D"=
+center" cellpadding=3D"5" cellspacing=3D"5" class=3D"table" style=3D"text-a=
+lign:center;font-family:helvetica,arial,sans-serif">=0A                    =
+  <tr>=0A                       <td align=3D"right" class=3D"table20" valig=
+n=3D"middle">=0A                        <img border=3D"0" src=3D"https://ww=
+w.surveymonkey.com/tr/images/alert_notification_bell.png" valign=3D"middle"=
+ width=3D"28" />=0A                       </td>=0A                       <t=
+d align=3D"left" class=3D"table80" style=3D"font-size:15px;color:#00bf6f;fo=
+nt-size:15px;line-height:24px;outline:none;font-weight:bold;white-space:now=
+rap;" valign=3D"middle">=0A                        Who else needs to know=
+=3F=0A                       </td>=0A                      </tr>=0A        =
+             </table>=0A                    </td>=0A                    <td=
+ align=3D"center" bgcolor=3D"#ffffff" class=3D"block" style=3D"border-colla=
+pse:collapse" width=3D"4">=0A                     <!-- Try it out -->=0A   =
+                  <table align=3D"center" cellpadding=3D"5" cellspacing=3D"=
+5" class=3D"table90" style=3D"text-align:center;font-family:helvetica,arial=
+,sans-serif">=0A                      <tr>=0A                       <td ali=
+gn=3D"left" class=3D"table60" style=3D"color:#333e48;font-size:15px;line-he=
+ight:24px;outline:none;white-space:nowrap;vertical-align:middle;" valign=3D=
+"middle">=0A                        Share these notifications with others=
+=0A                       </td>=0A                       <td align=3D"right=
+" class=3D"table40" valign=3D"middle">=0A                        <table ali=
+gn=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">=0A           =
+              <tr>=0A                          <td align=3D"center" style=
+=3D"border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px=
+; background-color: #ffffff; border: 1px solid #111111; border-collapse:col=
+lapse; mso-table-lspace:0pt; mso-table-rspace:0pt; font-size:13px; line-hei=
+ght: 15px; font-family: helvetica, Arial, sans-serif;">=0A                 =
+          <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0">=0A                            <tr>=0A                             =
+<td style=3D"padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;=
+ background-color: #ffffff; line-height:0px;">=0A                          =
+    <img border=3D"0" height=3D"6" src=3D"https://www.surveymonkey.com/tr/i=
+mages/spacer.png" style=3D"display:block;border-width:0;" width=3D"20" />=
+=0A                             </td>=0A                            </tr>=
+=0A                            <tr>=0A                             <td alig=
+n=3D"center" style=3D"border-radius: 0px; -webkit-border-radius: 0px; -moz-=
+border-radius: 0px; background-color: #ffffff; border: 0px solid #ffffff; b=
+order-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; font-s=
+ize:13px; line-height: 15px; font-family: helvetica, Arial, sans-serif;">=
+=0A                              <span>=0A                               <a=
+ href=3D"https://www.surveymonkey.com/tr/v1/te/akU_2BQc2vAhAsa_2B264x1g6_2F=
+pF_2Fhy3EhxbpxJDHYpYZT3Sj3b4_2FEjdjs8VkdjL5nu5wSwKJyKOxZHuejPqZtbWUHh13gAY0=
+1e4s7OrVq8VoB6zGMau1FGjatKT0mdQVQ5q8NGeXEADkDj5IoU0eKH2SRjrSyr0CK3NhCWwYXPK=
+wX5OLgz3OlKEDiKK1IgGUIZ0K6gJkj9onjZUL63EBSgWOezeDni7UblcY63x7ehduJAZdQRb9PZ=
+AtoQFs9Qt_2FOwawmHfiVQE9GkOgagGPuXQ6176n_2FivtoGQQiEZMLXe6ais4UsiHQOkRRQs0v=
+GkG8xz" style=3D"text-decoration: none; background-color: #ffffff; border-t=
+op: 1px solid #ffffff; border-bottom: 1px solid #ffffff; border-left: 15px =
+solid #ffffff; border-right: 15px solid #ffffff; display: inline-block; wid=
+th:60px; mso-table-lspace:0pt; mso-table-rspace:0pt; color: #111111;">=0A  =
+                              Try it out=0A                               <=
+/a>=0A                              </span>=0A                             =
+</td>=0A                            </tr>=0A                            <tr=
+>=0A                             <td style=3D"padding-top:0;padding-bottom:=
+0;padding-right:0;padding-left:0; background-color: #ffffff; line-height:0p=
+x;">=0A                              <img border=3D"0" height=3D"6" src=3D"=
+https://www.surveymonkey.com/tr/images/spacer.png" style=3D"display:block;b=
+order-width:0;" width=3D"20" />=0A                             </td>=0A    =
+                        </tr>=0A                           </table>=0A     =
+                     </td>=0A                         </tr>=0A             =
+           </table>=0A                       </td>=0A                      =
+</tr>=0A                     </table>=0A                    </td>=0A       =
+            </tr>=0A                  </table>=0A                 =0A      =
+          </td>=0A                <td bgcolor=3D"#f4f5f5" class=3D"td320" s=
+tyle=3D"border-collapse:collapse;padding-top:10px;padding-bottom:10px" widt=
+h=3D"4">=0A                 <img alt=3D"" class=3D"image" height=3D"2" src=
+=3D"https://www.surveymonkey.com/tr/images/spacer.png" style=3D"outline:non=
+e;text-decoration:none;display:block" width=3D"4" />=0A                </td=
+>=0A               </tr>=0A               <tr>=0A                <td bgcolo=
+r=3D"#f4f5f5" class=3D"td320" style=3D"border-collapse:collapse" width=3D"4=
+">=0A                 <img alt=3D"" class=3D"image" height=3D"2" src=3D"htt=
+ps://www.surveymonkey.com/tr/images/spacer.png" style=3D"outline:none;text-=
+decoration:none;display:block" width=3D"4" />=0A                </td>=0A   =
+             <td bgcolor=3D"#f4f5f5" class=3D"table" style=3D"border-collap=
+se:collapse">=0A                 <img alt=3D"" class=3D"image" height=3D"4"=
+ src=3D"https://www.surveymonkey.com/tr/images/spacer.png" style=3D"outline=
+:none;text-decoration:none;display:block" />=0A                </td>=0A    =
+            <td bgcolor=3D"#f4f5f5" class=3D"td320" style=3D"border-collaps=
+e:collapse" width=3D"4">=0A                 <img alt=3D"" class=3D"image" h=
+eight=3D"2" src=3D"https://www.surveymonkey.com/tr/images/spacer.png" style=
+=3D"outline:none;text-decoration:none;display:block" width=3D"4" />=0A     =
+           </td>=0A               </tr>=0A              </table>=0A        =
+      =0A              <!-- response limit banner -->=0A              =0A  =
+           </td>=0A            </tr>=0A           </table>=0A           <ta=
+ble border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"table" height=
+=3D"20px" width=3D"670">=0A            <tr>=0A             <td style=3D"bor=
+der-collapse:collapse">=0A              <img alt=3D"" class=3D"image" heigh=
+t=3D"4" src=3D"https://www.surveymonkey.com/tr/images/spacer.png" style=3D"=
+outline:none;text-decoration:none;display:block" width=3D"682" />=0A       =
+      </td>=0A            </tr>=0A           </table>=0A           =0A     =
+     </td>=0A          <td bgcolor=3D"#ffffff" class=3D"hide" style=3D"bord=
+er-collapse:collapse" width=3D"16">=0A           <img alt=3D"" height=3D"2"=
+ src=3D"https://www.surveymonkey.com/tr/images/spacer.png" style=3D"outline=
+:none;text-decoration:none;display:block" width=3D"16" />=0A          </td>=
+=0A         </tr>=0A        </table>=0A        <!-- CX EScalator banner -->=
+=0A        =0A=09=09=09=09=0A        <table align=3D"center" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" class=3D"hide" width=3D"650">=0A        =
+ <tr>=0A          <td align=3D"center" bgcolor=3D"#ffffff" class=3D"table" =
+style=3D"border-collapse:collapse">=0A           <table border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" class=3D"table" width=3D"650">=0A            =
+<tr>=0A             <td align=3D"center" bgcolor=3D"#ffffff" class=3D"table=
+" style=3D"border-collapse:collapse">=0A              <img alt=3D"" class=
+=3D"table" height=3D"30" src=3D"https://www.surveymonkey.com/tr/images/spac=
+er.png" style=3D"outline:none;text-decoration:none;display:block" width=3D"=
+650" />=0A             </td>=0A            </tr>=0A           </table>=0A  =
+         <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"t=
+able" width=3D"650">=0A            <tr>=0A             <td align=3D"center"=
+ bgcolor=3D"#ffffff" class=3D"tableWhite" style=3D"border-collapse:collapse=
+" valign=3D"top" width=3D"650">=0A              <table align=3D"left" borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"hide" width=3D"220">=
+=0A               <tr>=0A                <td align=3D"left" bgcolor=3D"#fff=
+fff" class=3D"center" height=3D"2" style=3D"border-collapse: collapse; padd=
+ing-top:5px;" width=3D"44">=0A                 <a href=3D"https://www.surve=
+ymonkey.com/tr/v1/te/muTwzizu0D9vDJr4rAELdOPF8KzFRpN1eCWsRy9fuTv5BuEpa8HizE=
+M54oFhSHBBrkpdJf0MYNHZDkoSG0c2btck7DfOJ3XA9TS7tsr4gl_2FqpPUGvhNy4M5qYwrsLDw=
+XxS8uoe_2B7Fh_2FEeRjx6uzP38zwCgsckjzvoF0DAuZvPvQ_3D" rilt=3D"footer_twitter=
+" target=3D"_blank">=0A                  <img alt=3D"" border=3D"0" src=3D"=
+https://www.surveymonkey.com/tr/images/twitter_desktop_2x.png" style=3D"out=
+line:none; text-decoration:none; -ms-interpolation-mode: bicubic; display:b=
+lock;" width=3D"20" />=0A                 </a>=0A                </td>=0A  =
+              <td align=3D"left" bgcolor=3D"#ffffff" class=3D"center" style=
+=3D"border-collapse: collapse; padding-top:5px;" width=3D"44">=0A          =
+       <a href=3D"https://www.surveymonkey.com/tr/v1/te/akU_2BQc2vAhAsa_2B2=
+64x1g683hp2AEvB8mr89JXvmdSspa_2F_2FrBF9nrSZWD_2FwQRH3hlCtrU4KHd3_2BxoZ_2Fbq=
+naAGG7WJvU8WFxjQxPSFvu2VdKhEFq2vb5Ddh6eH7J4RgNuGXZlZSGM3sd8b_2BOLgw4z534b3S=
+mrpTvA7z2IG4QdHnI9e8SQMulqFKPTMPa4whmNd_2BKBDdXscVj_2BIhanGSutMKA_3D_3D" ri=
+lt=3D"footer_facebook" target=3D"_blank">=0A                  <img alt=3D""=
+ border=3D"0" src=3D"https://www.surveymonkey.com/tr/images/facebook_deskto=
+p_2x.png" style=3D"outline:none; text-decoration:none; -ms-interpolation-mo=
+de: bicubic; display:block;" width=3D"10" />=0A                 </a>=0A    =
+            </td>=0A                <td align=3D"left" bgcolor=3D"#ffffff" =
+class=3D"center" style=3D"border-collapse: collapse; padding-top:5px;" widt=
+h=3D"44">=0A                 <a href=3D"https://www.surveymonkey.com/tr/v1/=
+te/akU_2BQc2vAhAsa_2B264x1g6_2FpF_2Fhy3EhxbpxJDHYpYZT3xlz_2Fl9UyIF1oBJPmeOe=
+s7toeUfrUfCj0_2Fnocw1A_2FsEBtzm_2F02Af6yAzL5Q_2F1bHCwvz0Jek1rFycEEHWoPtfEbb=
+6tk731Mi8EAwXVsHdBgGnlD6aboqrI4iytcJ2XEQFo_3D" rilt=3D"footer_blog" target=
+=3D"_blank">=0A                  <img alt=3D"" border=3D"0" src=3D"https://=
+www.surveymonkey.com/tr/images/blog_desktop_2x.png" style=3D"outline:none; =
+text-decoration:none; -ms-interpolation-mode: bicubic; display:block;" widt=
+h=3D"18" />=0A                 </a>=0A                </td>=0A             =
+   <td align=3D"left" bgcolor=3D"#ffffff" class=3D"center" style=3D"border-=
+collapse: collapse; padding-top:5px;" width=3D"44">=0A                 <a h=
+ref=3D"https://www.surveymonkey.com/tr/v1/te/akU_2BQc2vAhAsa_2B264x1g62Lxam=
+nI9hsm5hJxD7CvElvEOLMvEoGJ5DGGYBDxRrqytqUCId4IipMMkb63fOKgUDYD9MZ7A1H6UCR_2=
+BGbtgL3vOc1Z_2BcHrd2aFiBvgc35cxU0GwcDF6jPvvO_2FE_2FXfWM1O8toAO63qQjMqhxNWX_=
+2Byr5KKazgvD93O6zfzEOhXtBJ" rilt=3D"footer_linkedin" target=3D"_blank">=0A =
+                 <img alt=3D"" border=3D"0" src=3D"https://www.surveymonkey=
+=2Ecom/tr/images/linkedin_desktop_2x.png" style=3D"outline:none; text-decor=
+ation:none; -ms-interpolation-mode: bicubic; display:block;" width=3D"20" /=
+>=0A                 </a>=0A                </td>=0A               </tr>=0A=
+              </table>=0A              <table align=3D"right" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" class=3D"hide" width=3D"260">=0A       =
+        <tr>=0A                <td align=3D"right" class=3D"table" style=3D=
+"border-collapse: collapse;" valign=3D"top">=0A                 <a href=3D"=
+https://www.surveymonkey.com/tr/v1/te/j901c6b_2Fk0czvj80mZAf7k8f8ZfHF62zr4Y=
+oqcYhBrY187tzaBhl4lFVid_2Ff7gE61_2FeCzPVLP_2BdF9HiN0DsvpMUnDrL4viN2rkT5uSVC=
+HxA0TJVYAl7HwMSXYibXmkK1hEiEx3llTz7mOlptogtQZA_3D_3D" target=3D"_blank">=0A=
+                  <img border=3D"0" height=3D"35" src=3D"https://www.survey=
+monkey.com/tr/images/en_app_store_icon.png" />=0A                 </a>=0A  =
+               <a href=3D"https://www.surveymonkey.com/tr/v1/te/j901c6b_2Fk=
+0czvj80mZAf7k8f8ZfHF62zr4YoqcYhBrY187tzaBhl4lFVid_2Ff7gE6B4JNFWFTX_2B2bwsgu=
+JbeAhWApkcMhJMulrDNqecJ8tItq66N6Q_2Bothc50yZHrFODAhi78kbaPnWPgYHyVJwMMbA_3D=
+_3D" target=3D"_blank">=0A                  <img border=3D"0" height=3D"35"=
+ src=3D"https://www.surveymonkey.com/tr/images/en_google_play_icon.png" sty=
+le=3D"padding-left:10px;" />=0A                 </a>=0A                </td=
+>=0A               </tr>=0A              </table>=0A             </td>=0A  =
+          </tr>=0A           </table>=0A          </td>=0A         </tr>=0A=
+        </table>=0A        <!--[if !mso 9]><!-->=0A        <div class=3D"ta=
+bleVisibleFeature" style=3D"display:none; width:0px; max-height:0px; overfl=
+ow:hidden; mso-hide:all;">=0A         <table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" width=3D"table">=0A          <tr>=0A           <td bgcol=
+or=3D"#ffffff" height=3D"30" style=3D"border-collapse:collapse">=0A        =
+    <img alt=3D"" height=3D"30" src=3D"https://www.surveymonkey.com/tr/imag=
+es/spacer.png" style=3D"outline:none;text-decoration:none;display:block" wi=
+dth=3D"100%" />=0A           </td>=0A          </tr>=0A         </table>=0A=
+         <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"t=
+able90%">=0A          <tr>=0A           <td align=3D"center" bgcolor=3D"#ff=
+ffff" class=3D"center" height=3D"2" style=3D"border-collapse: collapse;" wi=
+dth=3D"44">=0A            <a href=3D"https://www.surveymonkey.com/tr/v1/te/=
+muTwzizu0D9vDJr4rAELdOPF8KzFRpN1eCWsRy9fuTv5BuEpa8HizEM54oFhSHBBrkpdJf0MYNH=
+ZDkoSG0c2btck7DfOJ3XA9TS7tsr4gl_2FqpPUGvhNy4M5qYwrsLDwXxS8uoe_2B7Fh_2FEeRjx=
+6uzP38zwCgsckjzvoF0DAuZvPvQ_3D" rilt=3D"footer_twitter" target=3D"_blank">=
+=0A             <img alt=3D"" border=3D"0" src=3D"https://www.surveymonkey.=
+com/tr/images/twitter_desktop_2x.png" style=3D"outline:none; text-decoratio=
+n:none; -ms-interpolation-mode: bicubic; display:block;" width=3D"20" />=0A=
+            </a>=0A           </td>=0A           <td align=3D"center" bgcol=
+or=3D"#ffffff" class=3D"center" style=3D"border-collapse: collapse;" width=
+=3D"44">=0A            <a href=3D"https://www.surveymonkey.com/tr/v1/te/akU=
+_2BQc2vAhAsa_2B264x1g683hp2AEvB8mr89JXvmdSspa_2F_2FrBF9nrSZWD_2FwQRH3hlCtrU=
+4KHd3_2BxoZ_2FbqnaAGG7WJvU8WFxjQxPSFvu2VdKhEFq2vb5Ddh6eH7J4RgNuGXZlZSGM3sd8=
+b_2BOLgw4z534b3SmrpTvA7z2IG4QdHnI9e8SQMulqFKPTMPa4whmNd_2BKBDdXscVj_2BIhanG=
+SutMKA_3D_3D" rilt=3D"footer_facebook" target=3D"_blank">=0A             <i=
+mg alt=3D"" border=3D"0" src=3D"https://www.surveymonkey.com/tr/images/face=
+book_desktop_2x.png" style=3D"outline:none; text-decoration:none; -ms-inter=
+polation-mode: bicubic; display:block;" width=3D"10" />=0A            </a>=
+=0A           </td>=0A           <td align=3D"center" bgcolor=3D"#ffffff" c=
+lass=3D"center" style=3D"border-collapse: collapse;" width=3D"44">=0A      =
+      <a href=3D"https://www.surveymonkey.com/tr/v1/te/akU_2BQc2vAhAsa_2B26=
+4x1g6_2FpF_2Fhy3EhxbpxJDHYpYZT3xlz_2Fl9UyIF1oBJPmeOes7toeUfrUfCj0_2Fnocw1A_=
+2FsEBtzm_2F02Af6yAzL5Q_2F1bHCwvz0Jek1rFycEEHWoPtfEbb6tk731Mi8EAwXVsHdBgGnlD=
+6aboqrI4iytcJ2XEQFo_3D" rilt=3D"footer_blog" target=3D"_blank">=0A         =
+    <img alt=3D"" border=3D"0" src=3D"https://www.surveymonkey.com/tr/image=
+s/blog_desktop_2x.png" style=3D"outline:none; text-decoration:none; -ms-int=
+erpolation-mode: bicubic; display:block;" width=3D"18" />=0A            </a=
+>=0A           </td>=0A           <td align=3D"center" bgcolor=3D"#ffffff" =
+class=3D"center" style=3D"border-collapse: collapse;" width=3D"44">=0A     =
+       <a href=3D"https://www.surveymonkey.com/tr/v1/te/akU_2BQc2vAhAsa_2B2=
+64x1g62LxamnI9hsm5hJxD7CvElvEOLMvEoGJ5DGGYBDxRrqytqUCId4IipMMkb63fOKgUDYD9M=
+Z7A1H6UCR_2BGbtgL3vOc1Z_2BcHrd2aFiBvgc35cxU0GwcDF6jPvvO_2FE_2FXfWM1O8toAO63=
+qQjMqhxNWX_2Byr5KKazgvD93O6zfzEOhXtBJ" rilt=3D"footer_linkedin" target=3D"_=
+blank">=0A             <img alt=3D"" border=3D"0" src=3D"https://www.survey=
+monkey.com/tr/images/linkedin_desktop_2x.png" style=3D"outline:none; text-d=
+ecoration:none; -ms-interpolation-mode: bicubic; display:block;" width=3D"2=
+0" />=0A            </a>=0A           </td>=0A          </tr>=0A         </=
+table>=0A         <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" w=
+idth=3D"100%">=0A          <tr>=0A           <td bgcolor=3D"#ffffff" height=
+=3D"20" style=3D"border-collapse: collapse;">=0A            <img alt=3D"" h=
+eight=3D"25" src=3D"https://www.surveymonkey.com/tr/images/spacer.png" styl=
+e=3D"outline:none; text-decoration:none; -ms-interpolation-mode: bicubic; d=
+isplay:block;" width=3D"100%" />=0A           </td>=0A          </tr>=0A   =
+      </table>=0A         <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%">=0A          <tr>=0A           <td align=3D"center" c=
+lass=3D"table" style=3D"border-collapse: collapse;" valign=3D"middle">=0A  =
+          <a href=3D"https://www.surveymonkey.com/tr/v1/te/j901c6b_2Fk0czvj=
+80mZAf7k8f8ZfHF62zr4YoqcYhBrY187tzaBhl4lFVid_2Ff7gE61_2FeCzPVLP_2BdF9HiN0Ds=
+vpMUnDrL4viN2rkT5uSVCHxA0TJVYAl7HwMSXYibXmkK1hEiEx3llTz7mOlptogtQZA_3D_3D" =
+target=3D"_blank">=0A             <img border=3D"0" height=3D"32" src=3D"ht=
+tps://www.surveymonkey.com/tr/images/en_app_store_icon.png" />=0A          =
+  </a>=0A            <a href=3D"https://www.surveymonkey.com/tr/v1/te/j901c=
+6b_2Fk0czvj80mZAf7k8f8ZfHF62zr4YoqcYhBrY187tzaBhl4lFVid_2Ff7gE6B4JNFWFTX_2B=
+2bwsguJbeAhWApkcMhJMulrDNqecJ8tItq66N6Q_2Bothc50yZHrFODAhi78kbaPnWPgYHyVJwM=
+MbA_3D_3D" target=3D"_blank">=0A             <img border=3D"0" height=3D"32=
+" src=3D"https://www.surveymonkey.com/tr/images/en_google_play_icon.png" st=
+yle=3D"padding-left:10px;" />=0A            </a>=0A           </td>=0A     =
+     </tr>=0A         </table>=0A         <table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%">=0A          <tr>=0A           <td =
+bgcolor=3D"#ffffff" height=3D"20" style=3D"border-collapse: collapse;">=0A =
+           <img alt=3D"" height=3D"25" src=3D"https://www.surveymonkey.com/=
+tr/images/spacer.png" style=3D"outline:none; text-decoration:none; -ms-inte=
+rpolation-mode: bicubic; display:block;" width=3D"100%" />=0A           </t=
+d>=0A          </tr>=0A         </table>=0A         <table align=3D"center"=
+ border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">=0A       =
+   <tr>=0A           <td align=3D"center" bgcolor=3D"#ffffff" style=3D"bord=
+er-collapse: collapse; line-height:14px; padding-left:25px; padding-right:2=
+5px;" valign=3D"top">=0A            <font style=3D"font-family:arial; font-=
+size:12px; line-height:24px; color:#999999;">=0A             This e-mail wa=
+s sent to <a href=3D"mailto:e.tarkhnishvili@tripplanner.ge" style=3D"color:=
+#999999; text-decoration: none;">e.tarkhnishvili@tripplanner.ge</a> and con=
+tains information directly related to your account.=0A             <br />=
+=0A             <br />=0A             <a href=3D"https://www.surveymonkey.c=
+om/tr/v1/te/akU_2BQc2vAhAsa_2B264x1g6_2FpF_2Fhy3EhxbpxJDHYpYZT2oBu5C9xna_2B=
+uvKblZv4xk3LDGhp6S5mMfIz1kMzoT0CmY76rVA4S_2BcvMmXjIj72Om_2BasKVTwznKCmr8uCi=
+ytZrEbYu9m5pKD9r3Kcaj8NGYCI842n9HwLUBl8lWUxPY_2Bw0zq2CQvopvzuoC2nYBb_2B9g6t=
+x5qq5kbTB3xRSJVo1sms0gfxq2TLE2RW1_2FpSv9_2Bo_3D" style=3D"font-family:arial=
+; font-size:11px; color:#999999; text-decoration:none;" target=3D"_blank">=
+=0A              Privacy=0A             </a>=0A             &#160;&#160;&#1=
+60;|&#160;&#160;&#160;=0A             <a href=3D"https://www.surveymonkey.c=
+om/tr/v1/te/QgNoOCWzi_2FRmUMiiRwV2yUo7bGjycfYWjFThRbh2_2FeVyqoIHhKCnqyfBpcn=
+K8ze2fmVoolUD8FyBbewJ_2BXKIq6V8jbqIYSYVm0Wlc9x1fw2FJ25ushM45WjzOalONa39YlZ6=
+cZNGoSbVICMSPaYx2aCB0AlnKhqYPcbao_2Fv6VAJiV_2BT2qCElK5RdpQrk4FGjAgFd8qpGl34=
+7IRXTy2_2Fing_3D_3D" style=3D"font-family:arial; font-size:12px; color:#999=
+999; text-decoration:none;" target=3D"_blank">=0A              Help=0A     =
+        </a>=0A             <br />=0A             <br />=0A             =0A=
+             <span class=3D"appleLinks">=0A              &#169; 2019 Survey=
+Monkey Europe UC, 2nd Floor 2 Shelbourne Buildings, Shelbourne Road, Dublin=
+, Ireland.=0A             </span>=0A             =0A             <br />=0A =
+            <br />=0A             Apple and the Apple logo are trademarks o=
+f Apple Inc., registered in the U.S. and other countries. App Store is a se=
+rvice mark of Apple Inc.=0A            </font>=0A           </td>=0A       =
+   </tr>=0A         </table>=0A         <table align=3D"center" border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">=0A          <tr>=0A  =
+         <td bgcolor=3D"#ffffff" height=3D"42" style=3D"border-collapse: co=
+llapse;">=0A            <img alt=3D"" height=3D"42" src=3D"https://www.surv=
+eymonkey.com/tr/images/spacer.png" style=3D"outline:none; text-decoration:n=
+one; -ms-interpolation-mode: bicubic; display:block;" width=3D"100%" />=0A =
+          </td>=0A          </tr>=0A         </table>=0A        </div>=0A  =
+      <!--<![endif]-->=0A        <table align=3D"center" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" class=3D"hide" width=3D"650">=0A         <tr=
+>=0A          <td align=3D"center" bgcolor=3D"#ffffff" class=3D"table" styl=
+e=3D"border-collapse: collapse;">=0A           <img alt=3D"" height=3D"10" =
+src=3D"https://www.surveymonkey.com/tr/images/spacer.png" width=3D"64" />=
+=0A           <br />=0A           <table border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" class=3D"hide" width=3D"650">=0A            <tr>=0A         =
+    <td align=3D"center" bgcolor=3D"#ffffff" class=3D"table" style=3D"borde=
+r-collapse: collapse;">=0A              <table align=3D"left" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" class=3D"hide" width=3D"220">=0A       =
+        <tr>=0A                <td align=3D"left" style=3D"border-collapse:=
+ collapse; line-height:14px;" valign=3D"top">=0A                 <font styl=
+e=3D"font-family:arial; font-size:11px; line-height:14px; color:#999999;">=
+=0A                  This e-mail was sent to <a href=3D"mailto:e.tarkhnishv=
+ili@tripplanner.ge" style=3D"color:#999999; text-decoration: none;">e.tarkh=
+nishvili@tripplanner.ge</a> and contains information directly related to yo=
+ur account.=0A                  <br />=0A                  <br />=0A       =
+           <a href=3D"https://www.surveymonkey.com/tr/v1/te/akU_2BQc2vAhAsa=
+_2B264x1g6_2FpF_2Fhy3EhxbpxJDHYpYZT2oBu5C9xna_2BuvKblZv4xk3LDGhp6S5mMfIz1kM=
+zoT0CmY76rVA4S_2BcvMmXjIj72Om_2BasKVTwznKCmr8uCiytZrEbYu9m5pKD9r3Kcaj8NGYCI=
+842n9HwLUBl8lWUxPY_2Bw0zq2CQvopvzuoC2nYBb_2B9g6tx5qq5kbTB3xRSJVo1sms0gfxq2T=
+LE2RW1_2FpSv9_2Bo_3D" style=3D"font-family:arial; font-size:11px; color:#99=
+9999; text-decoration:none;" target=3D"_blank">=0A                   Privac=
+y=0A                  </a>=0A                  &#160;&#160;&#160;|&#160;&#1=
+60;&#160;=0A                  <a href=3D"https://www.surveymonkey.com/tr/v1=
+/te/QgNoOCWzi_2FRmUMiiRwV2yUo7bGjycfYWjFThRbh2_2FeVyqoIHhKCnqyfBpcnK8ze2fmV=
+oolUD8FyBbewJ_2BXKIq6V8jbqIYSYVm0Wlc9x1fw2FJ25ushM45WjzOalONa39YlZ6cZNGoSbV=
+ICMSPaYx2aCB0AlnKhqYPcbao_2Fv6VAJiV_2BT2qCElK5RdpQrk4FGjAgFd8qpGl347IRXTy2_=
+2Fing_3D_3D" style=3D"font-family:arial; font-size:11px; color:#999999; tex=
+t-decoration:none;" target=3D"_blank">=0A                   Help=0A        =
+          </a>=0A                  <br />=0A                  <br />=0A    =
+             </font>=0A                </td>=0A               </tr>=0A     =
+         </table>=0A              <table align=3D"right" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" class=3D"hide" width=3D"250">=0A            =
+   <tr>=0A                <td align=3D"left" style=3D"border-collapse: coll=
+apse; line-height:14px;" valign=3D"top">=0A                 <font style=3D"=
+font-family:arial; font-size:11px; line-height:14px; color:#999999;">=0A   =
+               =0A                  <span class=3D"appleLinks">=0A         =
+          &#169; 2019 SurveyMonkey Europe UC, 2nd Floor 2 Shelbourne Buildi=
+ngs, Shelbourne Road, Dublin, Ireland.=0A                  </span>=0A      =
+            =0A                  <br />=0A                  <br />=0A      =
+            Apple and the Apple logo are trademarks of Apple Inc., register=
+ed in the U.S. and other countries. App Store is a service mark of Apple In=
+c.=0A                 </font>=0A                </td>=0A               </tr=
+>=0A              </table>=0A             </td>=0A            </tr>=0A     =
+       <tr>=0A             <td bgcolor=3D"#ffffff" class=3D"table" style=3D=
+"border-collapse: collapse;">=0A              <img alt=3D"" height=3D"50" s=
+rc=3D"https://www.surveymonkey.com/tr/images/spacer.png" style=3D"outline:n=
+one; text-decoration:none; -ms-interpolation-mode: bicubic; display:block;"=
+ width=3D"1" />=0A             </td>=0A            </tr>=0A           </tab=
+le>=0A          </td>=0A         </tr>=0A        </table>=0A       </td>=0A=
+      </tr>=0A     </table>=0A     <!-- prevent gmail app from auto-resizin=
+g email -->=0A     <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+class=3D"hide" id=3D"spacer-700" style=3D"width:700px;max-width:700px;min-w=
+idth:700px; bgcolor:#ffffff;" width=3D"700">=0A      <tr>=0A       <td bgco=
+lor=3D"#ffffff">=0A        <img border=3D"0" height=3D"1" hspace=3D"0" src=
+=3D"https://media.sailthru.com/2xn/1k1/c/m/5a3d601aaca2d.gif" style=3D"widt=
+h:700px;min-width:700px" vspace=3D"0" width=3D"700" />=0A       </td>=0A   =
+   </tr>=0A     </table>=0A     <div class=3D"gmailfix" style=3D"white-spac=
+e:nowrap; font:15px courier; line-height:0; bgcolor:#ffffff;">=0A      &#16=
+0; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#=
+160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; =
+&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;=0A     </div>=0A   =
+  <br />=0A      <table cellpadding=3D"0" cellspacing=3D"0" style=3D"border=
+: 0px; padding: 0px; margin: 0px; position: absolute; display: none; float:=
+ left; bgcolor:#ffffff;">=0A       <tr>=0A        <td height=3D"1" style=3D=
+"font-size: 1px; line-height: 1px; padding: 0px;">=0A         <br />=0A    =
+     =0A        </td>=0A       </tr>=0A      </table>=0A     =0A    </td>=
+=0A   </tr>=0A  </table>=0A <img src=3D"https://www.surveymonkey.com/tr/v1/=
+te/lZ2yJ2o4XWBPqNojghuHtOFifFfZOLUcIWj0DsKFSjw4ryWBZJtISFXMaTUcz1gobLEzH1dD=
+o6aE8923EaPxxqDQPNBiVLe3CfuoJnMMflo_3D.png" alt=3D"" width=3D"1px" height=
+=3D"1px" />=0D=0A<img border=3D"0" width=3D"1" height=3D"1" alt=3D"" src=3D=
+"http://click.outbound.surveymonkey.com/q/NIHrO8iDpw4emwLPb-Bg7g~~/AAAAAQA~=
+/RgRe7YnNPlcMc3VydmV5bW9ua2V5QgoAAE1WDF1TI9UUUh5lLnRhcmtobmlzaHZpbGlAdHJpcH=
+BsYW5uZXIuZ2VYBAAAAGY~">=0D=0A</body>=0A</html>
+

@@ -1,0 +1,278 @@
+Return-Path: <>
+Delivered-To: info@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP
+	id +IX+Ix7tBF2KdAcA8w4q4w
+	(envelope-from <>)
+	for <info@tripplanner.ge>; Sat, 15 Jun 2019 08:05:34 -0500
+Return-path: <>
+Envelope-to: info@tripplanner.ge
+Delivery-date: Sat, 15 Jun 2019 08:05:34 -0500
+Received: from gateway32.websitewelcome.com ([192.185.145.123]:16429)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92)
+	id 1hc8NB-0027ex-Tl
+	for info@tripplanner.ge; Sat, 15 Jun 2019 08:05:34 -0500
+Received: by gateway32.websitewelcome.com (Postfix)
+	id 02EA22D18F7; Sat, 15 Jun 2019 08:05:33 -0500 (CDT)
+Date: Sat, 15 Jun 2019 08:05:33 -0500 (CDT)
+From: MAILER-DAEMON@gateway32.websitewelcome.com (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: info@tripplanner.ge
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="3092423A37.1560603933/gateway32.websitewelcome.com"
+Message-Id: <20190615130533.02EA22D18F7@gateway32.websitewelcome.com>
+X-Spam-Status: No, score=1.0
+X-Spam-Score: 10
+X-Spam-Bar: +
+X-Spam-Flag: NO
+
+This is a MIME-encapsulated message.
+
+--3092423A37.1560603933/gateway32.websitewelcome.com
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host gateway32.websitewelcome.com.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<picturesquegeorgia@gmail.com>: host
+    alt2.gmail-smtp-in.l.google.com[209.85.144.27] said: 421-4.7.0
+    [192.185.145.123      15] Our system has detected an unusual rate of
+    421-4.7.0 unsolicited mail originating from your IP address. To protect our
+    421-4.7.0 users from spam, mail sent from your IP address has been
+    temporarily 421-4.7.0 rate limited. Please visit 421-4.7.0
+    https://support.google.com/mail/?p=UnsolicitedRateLimitError to 421 4.7.0
+    review our Bulk Email Senders Guidelines. g58si3681375qtg.255 - gsmtp (in
+    reply to end of DATA command)
+
+--3092423A37.1560603933/gateway32.websitewelcome.com
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; gateway32.websitewelcome.com
+X-Postfix-Queue-ID: 3092423A37
+X-Postfix-Sender: rfc822; info@tripplanner.ge
+Arrival-Date: Sat, 15 Jun 2019 05:33:05 -0500 (CDT)
+
+Final-Recipient: rfc822; picturesquegeorgia@gmail.com
+Original-Recipient: rfc822;picturesquegeorgia@gmail.com
+Action: failed
+Status: 4.7.0
+Remote-MTA: dns; alt2.gmail-smtp-in.l.google.com
+Diagnostic-Code: smtp; 421-4.7.0 [192.185.145.123      15] Our system has
+    detected an unusual rate of 421-4.7.0 unsolicited mail originating from
+    your IP address. To protect our 421-4.7.0 users from spam, mail sent from
+    your IP address has been temporarily 421-4.7.0 rate limited. Please visit
+    421-4.7.0  https://support.google.com/mail/?p=UnsolicitedRateLimitError to
+    421 4.7.0 review our Bulk Email Senders Guidelines. g58si3681375qtg.255 -
+    gsmtp
+
+--3092423A37.1560603933/gateway32.websitewelcome.com
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+
+Return-Path: <info@tripplanner.ge>
+Received: from cm17.websitewelcome.com (cm17.websitewelcome.com [100.42.49.20])
+	by gateway32.websitewelcome.com (Postfix) with ESMTP id 3092423A37
+	for <picturesquegeorgia@gmail.com>; Sat, 15 Jun 2019 05:33:05 -0500 (CDT)
+Received: from gator3171.hostgator.com ([198.57.247.135])
+	by cmsmtp with SMTP
+	id c5zchaXBG90onc5zdhaSew; Sat, 15 Jun 2019 05:33:05 -0500
+X-Authority-Reason: ss=1
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=tripplanner.ge; s=default; h=Message-Id:In-Reply-To:To:References:Date:
+	Subject:Mime-Version:Content-Type:From:Sender:Reply-To:Cc:
+	Content-Transfer-Encoding:Content-ID:Content-Description:Resent-Date:
+	Resent-From:Resent-Sender:Resent-To:Resent-Cc:Resent-Message-ID:List-Id:
+	List-Help:List-Unsubscribe:List-Subscribe:List-Post:List-Owner:List-Archive;
+	 bh=IGfEVpjBxIWO6Dh3ZV/ZoXyK/qoEqwdYTUVC017Nj/A=; b=uNHWx7sQ+UlY0J67BUnbegWIn
+	XK20YmLFBKxRDEPhXAj1M4BDPgLCf5ZSy2lLAXav8XhOVmZdUXpsmB1A3zKalV0Cx4/nGkFymjFtF
+	WNnUMBRU+re9wWHqnoglTUIVoMa7xVp6EAR5njh+YG1TLbmR745fKBUu06UYWHWovxbc0Lnilx6hj
+	IucCf2alnC+VfBkS0lRcEmB+EtaBC2BoPnXiXittH6rVqEFK2oW8MM9hNyHHiJGKpeH3yodj16re3
+	2tq3COVXOaIDgUvgVX2YIlDe8ic2jDEYujVGQ8ykqsjOaEjTQr+AoDYHAGqf9qyZZDCX0ss+udniO
+	6lV0IsEtA==;
+Received: from [5.178.160.146] (port=49463 helo=[192.168.1.9])
+	by gator3171.hostgator.com with esmtpsa (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92)
+	(envelope-from <info@tripplanner.ge>)
+	id 1hc5zc-000hsx-0I
+	for picturesquegeorgia@gmail.com; Sat, 15 Jun 2019 05:33:04 -0500
+From: "tripplanner.ge" <info@tripplanner.ge>
+Content-Type: multipart/alternative;
+	boundary="Apple-Mail=_088C67FD-01DD-47E0-956D-F6F3FD14DE15"
+Mime-Version: 1.0 (Mac OS X Mail 12.4 \(3445.104.11\))
+Subject: =?utf-8?B?UmU6IOGDkuGDmOGDk+GDmOGDoSDhg5Phg5Ag4YOb4YOr4YOm4YOd?=
+ =?utf-8?B?4YOa4YOY4YOhIOGDm+GDneGDm+GDoeGDkOGDruGDo+GDoOGDlOGDkeGDkA==?=
+Date: Sat, 15 Jun 2019 14:32:59 +0400
+References: <CAHH9No29YB3aeU3=NLB4yCSWf+1hQdtBFJujP26JA-18VoTV9w@mail.gmail.com>
+To: Anna Kharazishvili <picturesquegeorgia@gmail.com>
+In-Reply-To: <CAHH9No29YB3aeU3=NLB4yCSWf+1hQdtBFJujP26JA-18VoTV9w@mail.gmail.com>
+Message-Id: <32A8AEE5-24CD-46E7-BE3D-7B951734A190@tripplanner.ge>
+X-Mailer: Apple Mail (2.3445.104.11)
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - gator3171.hostgator.com
+X-AntiAbuse: Original Domain - gmail.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - tripplanner.ge
+X-BWhitelist: no
+X-Source-IP: 5.178.160.146
+X-Source-L: No
+X-Exim-ID: 1hc5zc-000hsx-0I
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Source-Sender: ([192.168.1.9]) [5.178.160.146]:49463
+X-Source-Auth: info@tripplanner.ge
+X-Email-Count: 2
+X-Org: HG=hgshared;ORG=hostgator;
+X-Source-Cap: dHJpcHBsYW5uZXI7dHJpcHBsYW5uZXI7Z2F0b3IzMTcxLmhvc3RnYXRvci5jb20=
+X-Local-Domain: yes
+
+
+--Apple-Mail=_088C67FD-01DD-47E0-956D-F6F3FD14DE15
+Content-Transfer-Encoding: base64
+Content-Type: text/plain;
+	charset=utf-8
+
+4YOb4YOQ4YOT4YOa4YOd4YOR4YOiIOGDmOGDnOGDpOGDneGDoOGDm+GDkOGDquGDmOGDmOGDoeGD
+l+GDleGDmOGDoSwg4YOh4YOQ4YOt4YOY4YOg4YOd4YOU4YOR4YOY4YOhIOGDqOGDlOGDm+GDouGD
+ruGDleGDlOGDleGDkOGDqOGDmCDhg5Phg5Dhg5Lhg5jhg5nhg5Dhg5Xhg6jhg5jhg6Dhg5Phg5Th
+g5Hhg5jhg5cNCg0KVHJpcHBsYW5uZXIuZ2UNCg0KPiBPbiBKdW4gMTUsIDIwMTksIGF0IDI6MjYg
+UE0sIEFubmEgS2hhcmF6aXNodmlsaSA8cGljdHVyZXNxdWVnZW9yZ2lhQGdtYWlsLmNvbT4gd3Jv
+dGU6DQo+IA0KPiDhg5Lhg5Dhg5vhg5Dhg6Dhg6/hg53hg5Hhg5AsDQo+IA0KPiDhg6nhg5Xhg5Th
+g5wg4YOV4YOQ4YOg4YOXIOGDkOGDnOGDkCDhg67hg5Dhg6Dhg5Dhg5bhg5jhg6jhg5Xhg5jhg5rh
+g5gg4YOT4YOQIOGDkeGDkOGDqeGDnSDhg5rhg53hg5vhg5Dhg5jhg5AuICDhg5Lhg5fhg5Dhg5Xh
+g5Dhg5bhg53hg5Hhg5cg4YOX4YOQ4YOc4YOQ4YOb4YOo4YOg4YOd4YOb4YOa4YOd4YOR4YOQ4YOh
+ICDhg5Lhg5jhg5Phg5jhg6Eg4YOT4YOQIOGDm+GDq+GDpuGDneGDmuGDmOGDoSDhg5vhg53hg5vh
+g6Hhg5Dhg67hg6Phg6Dhg5Thg5Hhg5jhg6Eg4YOh4YOQ4YOu4YOY4YOXIC4gICANCj4g4YOS4YOV
+4YOn4YOQ4YOV4YOhIOGDm+GDkOGDoOGDquGDruGDlOGDnOGDkOGDoeGDkOGDreGDmOGDkOGDnOGD
+mCAgSG9uZGEgQ1JWIDIwMDYg4YOs4YOa4YOY4YOhLCDhg5Hhg5Thg5zhg5bhg5jhg5zhg5bhg5Qu
+ICDhg5vhg53hg6rhg5Thg5vhg6Phg5rhg5gg4YOb4YOQ4YOc4YOl4YOQ4YOc4YOY4YOXIOGDnOGD
+kOGDm+GDp+GDneGDpOGDmCDhg5Xhg5Dhg6Dhg5cg4YOi4YOj4YOg4YOU4YOR4YOo4YOYIOGDoeGD
+kOGDpeGDkOGDoOGDl+GDleGDlOGDmuGDneGDoSDhg5fhg5jhg5fhg6Xhg5vhg5jhg6Eg4YOn4YOV
+4YOU4YOa4YOQIOGDoOGDlOGDkuGDmOGDneGDnOGDqOGDmC4gDQo+IOGDkuGDmOGDk+GDmOGDoSDh
+g6Hhg57hg5Thg6rhg5jhg5Dhg5rhg5jhg5bhg5Dhg6rhg5jhg5Dhg5Ag4YOY4YOc4YOS4YOa4YOY
+4YOh4YOj4YOgIOGDk+GDkCDhg6Dhg6Phg6Hhg6Phg5rhg5Thg5zhg53hg5Xhg5Dhg5wg4YOi4YOj
+4YOg4YOY4YOh4YOi4YOU4YOR4YOX4YOQ4YOcIOGDm+GDo+GDqOGDkOGDneGDkeGDkC4gDQo+IOGD
+qOGDlOGDkuGDleGDmOGDq+GDmuGDmOGDkCDhg5Xhg5jhg5vhg6Phg6jhg5Dhg53hg5cg4YOg4YOd
+4YOS4YOd4YOg4YOqIOGDlOGDoOGDl+GDkOGDkyAsIOGDkOGDoeGDlOGDleGDlCDhg6rhg5Dhg5ot
+4YOq4YOQ4YOa4YOZ4YOULiAgDQo+IA0KPiDhg5Phg5Thg6Lhg5Dhg5rhg6Phg6Dhg5gg4YOY4YOc
+4YOk4YOd4YOg4YOb4YOQ4YOq4YOY4YOY4YOh4YOX4YOV4YOY4YOhICDhg5jhg67hg5jhg5rhg5Th
+g5cg4YOp4YOV4YOU4YOc4YOYIEZhY2Vib29rIOGDkuGDleGDlOGDoOGDk+GDmCA6IFBpY3R1cmVz
+cXVlR2VvcmdpYSANCj4g4YOe4YOY4YOg4YOT4YOQ4YOe4YOY4YOg4YOYIOGDkeGDm+GDo+GDmuGD
+mDogIGh0dHBzOi8vd3d3LmZhY2Vib29rLmNvbS9QaWN0dXJlc3F1ZUdlb3JnaWEvP21vZGFsPWFk
+bWluX3RvZG9fdG91ciA8aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL1BpY3R1cmVzcXVlR2Vvcmdp
+YS8/bW9kYWw9YWRtaW5fdG9kb190b3VyPiANCj4gDQo+IOGDoeGDkOGDmeGDneGDnOGDouGDkOGD
+peGDouGDnSDhg5zhg53hg5vhg6Dhg5Thg5Hhg5ggOiAgNTk5IDI3IDI3IDIxIDsgIDU1NyA5MCAy
+NCA4MiANCj4gDQo+IOGDnuGDkOGDouGDmOGDleGDmOGDoeGDquGDlOGDm+GDmOGDlywgDQo+IEFC
+LSBQaWN0dXJlc3F1ZSBHZW9yZ2lhDQoNCg==
+--Apple-Mail=_088C67FD-01DD-47E0-956D-F6F3FD14DE15
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=utf-8
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; =
+charset=3Dutf-8"></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; line-break: after-white-space;" =
+class=3D"">=E1=83=9B=E1=83=90=E1=83=93=E1=83=9A=E1=83=9D=E1=83=91=E1=83=A2=
+ =E1=83=98=E1=83=9C=E1=83=A4=E1=83=9D=E1=83=A0=E1=83=9B=E1=83=90=E1=83=AA=E1=
+=83=98=E1=83=98=E1=83=A1=E1=83=97=E1=83=95=E1=83=98=E1=83=A1, =
+=E1=83=A1=E1=83=90=E1=83=AD=E1=83=98=E1=83=A0=E1=83=9D=E1=83=94=E1=83=91=E1=
+=83=98=E1=83=A1 =E1=83=A8=E1=83=94=E1=83=9B=E1=83=A2=E1=83=AE=E1=83=95=E1=83=
+=94=E1=83=95=E1=83=90=E1=83=A8=E1=83=98 =
+=E1=83=93=E1=83=90=E1=83=92=E1=83=98=E1=83=99=E1=83=90=E1=83=95=E1=83=A8=E1=
+=83=98=E1=83=A0=E1=83=93=E1=83=94=E1=83=91=E1=83=98=E1=83=97<div =
+class=3D""><br class=3D""></div><div class=3D"">Tripplanner.ge<br =
+class=3D""><div><br class=3D""><blockquote type=3D"cite" class=3D""><div =
+class=3D"">On Jun 15, 2019, at 2:26 PM, Anna Kharazishvili &lt;<a =
+href=3D"mailto:picturesquegeorgia@gmail.com" =
+class=3D"">picturesquegeorgia@gmail.com</a>&gt; wrote:</div><br =
+class=3D"Apple-interchange-newline"><div class=3D""><div dir=3D"ltr" =
+class=3D""><div class=3D"">=E1=83=92=E1=83=90=E1=83=9B=E1=83=90=E1=83=A0=E1=
+=83=AF=E1=83=9D=E1=83=91=E1=83=90,</div><div class=3D""><br =
+class=3D"">=E1=83=A9=E1=83=95=E1=83=94=E1=83=9C =E1=83=95=E1=83=90=E1=83=A0=
+=E1=83=97 =E1=83=90=E1=83=9C=E1=83=90 =E1=83=AE=E1=83=90=E1=83=A0=E1=83=90=
+=E1=83=96=E1=83=98=E1=83=A8=E1=83=95=E1=83=98=E1=83=9A=E1=83=98 =E1=83=93=E1=
+=83=90 =E1=83=91=E1=83=90=E1=83=A9=E1=83=9D =E1=83=9A=E1=83=9D=E1=83=9B=E1=
+=83=90=E1=83=98=E1=83=90.&nbsp;
+
+=E1=83=92=E1=83=97=E1=83=90=E1=83=95=E1=83=90=E1=83=96=E1=83=9D=E1=83=91=E1=
+=83=97 =E1=83=97=E1=83=90=E1=83=9C=E1=83=90=E1=83=9B=E1=83=A8=E1=83=A0=E1=83=
+=9D=E1=83=9B=E1=83=9A=E1=83=9D=E1=83=91=E1=83=90=E1=83=A1&nbsp; =
+=E1=83=92=E1=83=98=E1=83=93=E1=83=98=E1=83=A1 =E1=83=93=E1=83=90 =
+=E1=83=9B=E1=83=AB=E1=83=A6=E1=83=9D=E1=83=9A=E1=83=98=E1=83=A1 =
+=E1=83=9B=E1=83=9D=E1=83=9B=E1=83=A1=E1=83=90=E1=83=AE=E1=83=A3=E1=83=A0=E1=
+=83=94=E1=83=91=E1=83=98=E1=83=A1 =E1=83=A1=E1=83=90=E1=83=AE=E1=83=98=E1=83=
+=97 .&nbsp;&nbsp;=20
+
+<br class=3D"">=E1=83=92=E1=83=95=E1=83=A7=E1=83=90=E1=83=95=E1=83=A1 =
+=E1=83=9B=E1=83=90=E1=83=A0=E1=83=AA=E1=83=AE=E1=83=94=E1=83=9C=E1=83=90=E1=
+=83=A1=E1=83=90=E1=83=AD=E1=83=98=E1=83=90=E1=83=9C=E1=83=98&nbsp; Honda =
+CRV 2006 =E1=83=AC=E1=83=9A=E1=83=98=E1=83=A1, =
+=E1=83=91=E1=83=94=E1=83=9C=E1=83=96=E1=83=98=E1=83=9C=E1=83=96=E1=83=94.&=
+nbsp; =E1=83=9B=E1=83=9D=E1=83=AA=E1=83=94=E1=83=9B=E1=83=A3=E1=83=9A=E1=83=
+=98 =E1=83=9B=E1=83=90=E1=83=9C=E1=83=A5=E1=83=90=E1=83=9C=E1=83=98=E1=83=97=
+ =E1=83=9C=E1=83=90=E1=83=9B=E1=83=A7=E1=83=9D=E1=83=A4=E1=83=98 =
+=E1=83=95=E1=83=90=E1=83=A0=E1=83=97 =E1=83=A2=E1=83=A3=E1=83=A0=E1=83=94=E1=
+=83=91=E1=83=A8=E1=83=98 =E1=83=A1=E1=83=90=E1=83=A5=E1=83=90=E1=83=A0=E1=83=
+=97=E1=83=95=E1=83=94=E1=83=9A=E1=83=9D=E1=83=A1 =E1=83=97=E1=83=98=E1=83=97=
+=E1=83=A5=E1=83=9B=E1=83=98=E1=83=A1 =E1=83=A7=E1=83=95=E1=83=94=E1=83=9A=E1=
+=83=90 =E1=83=A0=E1=83=94=E1=83=92=E1=83=98=E1=83=9D=E1=83=9C=E1=83=A8=E1=83=
+=98. <br class=3D"">
+=E1=83=92=E1=83=98=E1=83=93=E1=83=98=E1=83=A1 =
+=E1=83=A1=E1=83=9E=E1=83=94=E1=83=AA=E1=83=98=E1=83=90=E1=83=9A=E1=83=98=E1=
+=83=96=E1=83=90=E1=83=AA=E1=83=98=E1=83=90=E1=83=90 =
+=E1=83=98=E1=83=9C=E1=83=92=E1=83=9A=E1=83=98=E1=83=A1=E1=83=A3=E1=83=A0 =
+=E1=83=93=E1=83=90 =E1=83=A0=E1=83=A3=E1=83=A1=E1=83=A3=E1=83=9A=E1=83=94=E1=
+=83=9C=E1=83=9D=E1=83=95=E1=83=90=E1=83=9C =
+=E1=83=A2=E1=83=A3=E1=83=A0=E1=83=98=E1=83=A1=E1=83=A2=E1=83=94=E1=83=91=E1=
+=83=97=E1=83=90=E1=83=9C =E1=83=9B=E1=83=A3=E1=83=A8=E1=83=90=E1=83=9D=E1=83=
+=91=E1=83=90.=20
+
+<br class=3D"">
+=E1=83=A8=E1=83=94=E1=83=92=E1=83=95=E1=83=98=E1=83=AB=E1=83=9A=E1=83=98=E1=
+=83=90 =E1=83=95=E1=83=98=E1=83=9B=E1=83=A3=E1=83=A8=E1=83=90=E1=83=9D=E1=83=
+=97 =E1=83=A0=E1=83=9D=E1=83=92=E1=83=9D=E1=83=A0=E1=83=AA =
+=E1=83=94=E1=83=A0=E1=83=97=E1=83=90=E1=83=93 , =E1=83=90=E1=83=A1=E1=83=94=
+=E1=83=95=E1=83=94 =E1=83=AA=E1=83=90=E1=83=9A-=E1=83=AA=E1=83=90=E1=83=9A=
+=E1=83=99=E1=83=94.&nbsp; <br class=3D""></div><div class=3D""><br =
+class=3D""></div><div class=3D"">=E1=83=93=E1=83=94=E1=83=A2=E1=83=90=E1=83=
+=9A=E1=83=A3=E1=83=A0=E1=83=98 =
+=E1=83=98=E1=83=9C=E1=83=A4=E1=83=9D=E1=83=A0=E1=83=9B=E1=83=90=E1=83=AA=E1=
+=83=98=E1=83=98=E1=83=A1=E1=83=97=E1=83=95=E1=83=98=E1=83=A1&nbsp; =
+=E1=83=98=E1=83=AE=E1=83=98=E1=83=9A=E1=83=94=E1=83=97 =E1=83=A9=E1=83=95=E1=
+=83=94=E1=83=9C=E1=83=98 Facebook =E1=83=92=E1=83=95=E1=83=94=E1=83=A0=E1=83=
+=93=E1=83=98 :=20
+PicturesqueGeorgia
+
+<br class=3D"">=E1=83=9E=E1=83=98=E1=83=A0=E1=83=93=E1=83=90=E1=83=9E=E1=83=
+=98=E1=83=A0=E1=83=98 =E1=83=91=E1=83=9B=E1=83=A3=E1=83=9A=E1=83=98:&nbsp;=
+ <a =
+href=3D"https://www.facebook.com/PicturesqueGeorgia/?modal=3Dadmin_todo_to=
+ur" =
+class=3D"">https://www.facebook.com/PicturesqueGeorgia/?modal=3Dadmin_todo=
+_tour</a> <br class=3D""><br class=3D""></div><div =
+class=3D"">=E1=83=A1=E1=83=90=E1=83=99=E1=83=9D=E1=83=9C=E1=83=A2=E1=83=90=
+=E1=83=A5=E1=83=A2=E1=83=9D =E1=83=9C=E1=83=9D=E1=83=9B=E1=83=A0=E1=83=94=E1=
+=83=91=E1=83=98 :&nbsp; 599 27 27 21 ;&nbsp; 557 90 24 82 <br =
+class=3D""></div><div class=3D""><br class=3D""></div><div =
+class=3D"">=E1=83=9E=E1=83=90=E1=83=A2=E1=83=98=E1=83=95=E1=83=98=E1=83=A1=
+=E1=83=AA=E1=83=94=E1=83=9B=E1=83=98=E1=83=97, <br class=3D""></div><div =
+class=3D"">AB- Picturesque Georgia<br class=3D""></div></div>
+</div></blockquote></div><br class=3D""></div></body></html>=
+
+--Apple-Mail=_088C67FD-01DD-47E0-956D-F6F3FD14DE15--
+
+--3092423A37.1560603933/gateway32.websitewelcome.com--

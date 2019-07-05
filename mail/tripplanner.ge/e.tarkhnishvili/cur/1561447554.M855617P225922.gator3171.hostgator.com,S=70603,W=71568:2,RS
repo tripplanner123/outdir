@@ -1,0 +1,965 @@
+Return-Path: <m.chitaia@yahoo.com>
+Delivered-To: e.tarkhnishvili@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP
+	id AEfRMoLMEV2CcgMA8w4q4w
+	(envelope-from <m.chitaia@yahoo.com>)
+	for <e.tarkhnishvili@tripplanner.ge>; Tue, 25 Jun 2019 02:25:54 -0500
+Return-path: <m.chitaia@yahoo.com>
+Envelope-to: e.tarkhnishvili@tripplanner.ge
+Delivery-date: Tue, 25 Jun 2019 02:25:54 -0500
+Received: from sonic317-34.consmr.mail.ne1.yahoo.com ([66.163.184.45]:37920)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.92)
+	(envelope-from <m.chitaia@yahoo.com>)
+	id 1hffpx-0012Tk-Hz
+	for e.tarkhnishvili@tripplanner.ge; Tue, 25 Jun 2019 02:25:54 -0500
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1561447542; bh=W51NFKzEvllXY/N7BLGtCXUwttyiQhTyNRT/bbYBjps=; h=Date:From:To:In-Reply-To:References:Subject:From:Subject; b=dc7AcKmjAc436TtXCFY0DG2qSb4lSjPqwixlvR2dNs7XjB+wWY1jGEKSYBfArYIMWqAC0kNElXbw9AJYLH+ZVNJlwv9SdJgAamgXpS/MZIwEoFYnXVP5k0F3+SI8hnZHB+QXOPK0gitmSG7I9ixpuUmTr8xAG6uDQi4cnbT9xHFlTDD+JeGKhyp5SHD89I1kN8G0rM2rEGA9la8D0kD0W01EJco1LZGyVnEKHnmtNb+kWAPR9E6U7aGwPqvxuRBH+YR0YMv+smmecYq9Kf9iKJrX1f9A4IqDKsfMlNDw/Lew9qWXTWndiBhs+MO0s7/pc7by3amxQwYMZQCiFdDsMg==
+X-YMail-OSG: zX5ucF0VM1nxmC8yfsHKwqcVOcsKBiZsN5PAxIv8eNInj6NYXocslPeSO8iEKXT
+ U7Ouf3h7mFBviw9yIVQxf7Gk5WSYVaQ_Tc5JBqNWapQRQaJrSxSd1Y8odqxrMtNxqu6jXPrAGVhg
+ aBX9McQ6XXlW.FFpfGftxSdxUV8dSauAvr2K8ZNGCS1XTp1YB0_bfhyOqPbTnz78wz7Hv6sN9Qxq
+ IBUBgimQ.9guR19eiDAG4GRHon2bvz0eX47Ao6kpQJN3qWxdcpkZXHQMCbfulCC5sG.niCyUmre3
+ G5lCGzftbjWnaETFHTC4TBza147QWC2V4JsxuT9gK20ot99afcpvKP8VgVdEnVVDN.x8hKsPEntk
+ xioiZ7JwzzowRhXpfPFImtzw_Tr1eCXqR2JRtyqHDzkcJhYPwiBNnM8Y0xVhzN54OzzbStuFXGpO
+ 1Vvqr9H2JzTLmr58Vda.W83Rsqd_NqXUL_0JKs1ZGCnKqexVwMsVn7dY4J9SXBkRZY4uyMlSWjIu
+ p6xUiI9YCND05Aih_77V5r7p7GfvlzOjTcOnC8UKw0FNf0wZ0pLxxxwDz7G2XF.UJgZ7ejAkirZG
+ O0ghe1UDptIJF2idZkZnGjhjJbFZxiiJ3gQsMnqIHxXYqODO4LjfmZDqV2iASfuKNA1GA9aqm1IL
+ T8z_JfxUY2vZZ6Ydxqpw625Ut6Zu71VXgeRX514nKT5ZnTvyYAW50m6ONIVWhWw8.GvIbNPLBvEu
+ MUHI6iTB70HwlNA.NqdOyPS8l4VI8CEGpF9fIXIvAjULjRK8fKuMVnKeclTvlogPzesNygtqHIb8
+ JI2HHb3uu0od5RscVjSNaRD.d82Vx6IKy4aIsxxOY_ywbhX_crBpeU1PZoU3D2Q3m3XgxWBIakHR
+ zKgwwvgtZo3v8Id56j3hqv__mpkAuUQ52VWihLH8uQwuEpC6MH8Vu1iLzu2LCJwy2yNUK3xsw0qd
+ pW2HPX5tL4xzO44LwpS3fKp3CJ.r0jwniJjrSrmkuT12PbadZTgFdhpS2Xn4tb0R2KFsJhlRZMaB
+ tUTHqwYBrOD9EDxen3yAMKAqx5F2WDki0BP2ekCciyDsNcKbl5HRk3mlFCSOqOjLtCuVnm_ZdCaJ
+ cN3mG8uOgVndrZ.LNAusldY4yEAfspTZxORBRHpbqYpkOMybKBYJCs2SKkCA.fgRlG7OmtdENgfp
+ W28QLgdWJFsZOQtslCe7_tqKg96kIxk2xGZKUl2ELrI9ALruQdmhE2ki9y4uSONqU0whMxf3rASk
+ DsOCoTL00Ar7DNS9rmcJQJrnP198-
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic317.consmr.mail.ne1.yahoo.com with HTTP; Tue, 25 Jun 2019 07:25:42 +0000
+Date: Tue, 25 Jun 2019 07:25:37 +0000 (UTC)
+From: Maia Chitaia <m.chitaia@yahoo.com>
+To: "e.tarkhnishvili@tripplanner.ge" <e.tarkhnishvili@tripplanner.ge>
+Message-ID: <1606109847.1517531.1561447537426@mail.yahoo.com>
+In-Reply-To: <1560756829.903969021@f34.my.com>
+References: <1560524077.948423801@f9.my.com> <1560756829.903969021@f34.my.com>
+Subject: =?UTF-8?B?UmU6IFJlWzJdOiBSZVsyXTog4YOh4YOQ4YOY4YOi4YOY4YOhIA==?=
+ =?UTF-8?B?4YOb4YOd4YOR4YOY4YOa4YOj4YOg4YOYIOGDleGDlOGDoOGDoQ==?=
+ =?UTF-8?B?4YOY4YOY4YOhIOGDouGDlOGDoeGDouGDmOGDoOGDlOGDkeGDkA==?=
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_1517530_827001951.1561447537426"
+X-Mailer: WebService/1.1.13837 YMailNorrin Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Content-Length: 66942
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Spam-Flag: NO
+
+------=_Part_1517530_827001951.1561447537426
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1517529_177618936.1561447537327"
+
+------=_Part_1517529_177618936.1561447537327
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: base64
+
+IOGDm+GDneGDkuGDlOGDoeGDkOGDmuGDm+GDlOGDkeGDmOGDlywK4YOS4YOY4YOS4YOW4YOQ4YOV
+4YOc4YOY4YOXIOGDouGDlOGDoeGDouGDmOGDoOGDlOGDkeGDmOGDoSDhg6jhg5Thg5Phg5Thg5Lh
+g5Dhg5Mg4YOQ4YOm4YOb4YOd4YOp4YOU4YOc4YOY4YOa4YOYIOGDruGDkOGDoOGDleGDlOGDluGD
+lOGDkeGDmOGDoSDhg5Dhg6bhg6zhg5Thg6Dhg5Thg5Hhg6EuIOGDl+GDmOGDl+GDneGDlOGDo+GD
+miDhg5vhg5Dhg5fhg5Lhg5Dhg5zhg6Eg4YOQ4YOl4YOV4YOhIOGDqOGDlOGDoeGDkOGDkeGDkOGD
+m+GDmOGDoeGDmCDhg5Xhg5jhg5Phg5Thg50g4YOp4YOQ4YOc4YOQ4YOs4YOU4YOg4YOYLCDhg6Dh
+g53hg5vhg5Thg5rhg6Hhg5Dhg6ogV2V0cmFuc2Zlci3hg5jhg5cg4YOS4YOQ4YOb4YOd4YOS4YOY
+4YOS4YOW4YOQ4YOV4YOc4YOY4YOXLuGDkOGDpuGDrOGDlOGDoOGDmOGDoSDhg5Phg5Ag4YOV4YOY
+4YOT4YOU4YOd4YOhIOGDqOGDlOGDoeGDkOGDkeGDkOGDm+GDmOGDoeGDneGDkeGDkCDhg5Dhg6bh
+g6zhg5Thg6Dhg5jhg6EgSUQt4YOY4YOXIOGDk+GDkCDhg5Xhg5jhg5Phg5Thg53hg6Eg4YOT4YOQ
+4YOh4YOQ4YOu4YOU4YOa4YOU4YOR4YOQ4YOo4YOYIOGDkuGDkOGDm+GDneGDp+GDlOGDnOGDlOGD
+keGDo+GDmuGDmCDhg6Dhg5jhg6rhg67hg5Xhg5jhg5cg4YOo4YOU4YOS4YOY4YOr4YOa4YOY4YOQ
+4YOXLsKgCuGDnuGDkOGDouGDmOGDleGDmOGDoeGDquGDlOGDm+GDmOGDlywg4YOb4YOQ4YOY4YOQ
+CiAgICBPbiBNb25kYXksIEp1bmUgMTcsIDIwMTksIDExOjMzOjU0IEFNIEdNVCs0LCA8ZS50YXJr
+aG5pc2h2aWxpQHRyaXBwbGFubmVyLmdlPiB3cm90ZTogIAogCiAK4YOb4YOQ4YOY4YOQwqDhg5Lh
+g5Dhg5vhg5Dhg6Dhg6/hg53hg5Hhg5AsCgoKCgrhg5fhg5Dhg5zhg67hg5jhg6HCoOGDnOGDkOGD
+ruGDlOGDleGDkOGDoOGDmMKg4YOS4YOQ4YOT4YOb4YOd4YOS4YOY4YOg4YOY4YOq4YOu4YOQwqDh
+g6nhg5Thg5vhg5vhg5DCoOGDnuGDkOGDoOGDouGDnOGDmOGDneGDoOGDm+GDkMKg4YOS4YOY4YOd
+4YOg4YOS4YOYwqDhg5Lhg5Xhg5Dhg5bhg5Dhg5Xhg5Dhg5sswqDhg6jhg5Thg5Lhg5jhg6vhg5rh
+g5jhg5DCoOGDk+GDkOGDmOGDrOGDp+GDnSzCoAoKCgoK4YOT4YOY4YOT4YOYwqDhg5vhg5Dhg5Ph
+g5rhg53hg5Hhg5AKCgoKCuGDlOGDmeGDkAoKCgpTZW50IGZyb20gbXlNYWlsIGZvciBpT1MKCgpT
+dW5kYXksIEp1bmUgMTYsIDIwMTksIDEyOjU1ICswNDAwIGZyb20gbS5jaGl0YWlhIDxtLmNoaXRh
+aWFAeWFob28uY29tPjoKIAogICAK4YOU4YOZ4YOQLCDhg5Phg6bhg5Thg6Eg4YOT4YOQ4YOV4YOY
+4YOs4YOn4YOU4YORIOGDouGDlOGDoeGDouGDmOGDoOGDlOGDkeGDkOGDoS7hg5nhg5Dhg6Dhg5Lh
+g5gg4YOY4YOl4YOc4YOU4YOR4YOQIOGDl+GDoyDhg5zhg5Dhg67hg5Thg5Xhg5Dhg6Dhg6Eg4YOp
+4YOQ4YOb4YOY4YOg4YOY4YOq4YOu4YOQ4YOV4YOXLiDhg5Phg5Dhg5zhg5Dhg6Dhg6nhg5Thg5zh
+g6Eg4YOZ4YOYIOGDnuGDmOGDoOGDleGDlOGDmuGDkOGDk+GDmCDhg6Lhg5Thg6Hhg6Lhg5jhg6Dh
+g5Thg5Hhg5jhg6Eg4YOT4YOQ4YOh4YOg4YOj4YOa4YOU4YOR4YOY4YOhIOGDqOGDlOGDm+GDk+GD
+lOGDki7hg5Lhg5jhg5Lhg5bhg5Dhg5Xhg5zhg5jhg5cg4YOp4YOU4YOb4YOhIOGDkOGDnOGDkuGD
+kOGDoOGDmOGDqOGDmOGDoSDhg5zhg53hg5vhg5Thg6Dhg6EuwqAKR0UzNFRCNzk0MjQ0NTA2MTEw
+MDAwMuGDm+GDmOGDm+GDpuGDlOGDkeGDmDog4YOb4YOQ4YOY4YOQIOGDqeGDmOGDouGDkOGDmOGD
+kArhg57hg5Dhg6Lhg5jhg5Xhg5jhg6Hhg6rhg5Thg5vhg5jhg5csIOGDm+GDkOGDmOGDkAoKU2Vu
+dCBmcm9tIG15IFNhbXN1bmcgR2FsYXh5IHNtYXJ0cGhvbmUuCi0tLS0tLS0tIE9yaWdpbmFsIG1l
+c3NhZ2UgLS0tLS0tLS1Gcm9tOiBlLnRhcmtobmlzaHZpbGlAdHJpcHBsYW5uZXIuZ2UgRGF0ZTog
+Ni8xNC8xOSAxODo1NCAoR01UKzA0OjAwKSBUbzogIm0uY2hpdGFpYSIgPG0uY2hpdGFpYUB5YWhv
+by5jb20+IFN1YmplY3Q6IFJlWzJdOiDhg6Hhg5Dhg5jhg6Lhg5jhg6Eg4YOb4YOd4YOR4YOY4YOa
+4YOj4YOg4YOYIOGDleGDlOGDoOGDoeGDmOGDmOGDoSDhg6Lhg5Thg6Hhg6Lhg5jhg6Dhg5Thg5Hh
+g5AgCuGDkuGDkOGDm+GDkOGDoOGDr+GDneGDkeGDkCwK4YOb4YOU4YOS4YOd4YOc4YOQIOGDnuGD
+kOGDoeGDo+GDruGDmCDhg6Phg5nhg5Xhg5Qg4YOb4YOd4YOs4YOU4YOg4YOY4YOa4YOYIOGDm+GD
+peGDneGDnOGDk+GDkCwg4YOj4YOZ4YOQ4YOq4YOg4YOQ4YOV4YOQ4YOTIOGDk+GDkOGDkuGDleGD
+mOGDkOGDnOGDlOGDkeGDmOGDoeGDl+GDleGDmOGDoSwg4YOX4YOQ4YOc4YOu4YOb4YOd4YOR4YOQ
+4YOhIOGDkuGDkOGDq+GDmuGDlOGDleGDlywg4YOo4YOU4YOS4YOY4YOr4YOa4YOY4YOQ4YOXIOGD
+k+GDkOGDmOGDrOGDp+GDneGDlyDhg6Lhg5Thg6Hhg6Lhg5jhg6Dhg5Thg5Hhg5AuIOGDl+GDkOGD
+nOGDruGDkCDhg6Dhg53hg5Phg5jhg6Eg4YOj4YOc4YOT4YOQIOGDqeGDkOGDleGDoOGDmOGDquGD
+ruGDnSDhg5Phg5Dhg6Hhg5Dhg6zhg6fhg5jhg6Hhg6jhg5gg4YOX4YOjIOGDkeGDneGDmuGDneGD
+oT8K4YOS4YOb4YOQ4YOT4YOa4YOd4YOR4YOXCuGDlOGDmeGDkAoKClNlbnQgZnJvbSBteU1haWwg
+Zm9yIGlPUwoKClRodXJzZGF5LCBKdW5lIDEzLCAyMDE5LCAxODoyNyArMDQwMCBmcm9tIG0uY2hp
+dGFpYUB5YWhvby5jb20gPG0uY2hpdGFpYUB5YWhvby5jb20+OgogCiAgIOGDlOGDmeGDkCwg4YOb
+4YOQ4YOo4YOY4YOcIOGDqeGDlOGDm+GDmCDhg5vhg67hg6Dhg5jhg5Phg5Dhg5wg4YOb4YOY4YOc
+4YOY4YOb4YOQ4YOa4YOj4YOgIOGDluGDpuGDleGDkOGDoOGDoSDhg5Lhg5Thg6Lhg6fhg5Xhg5jh
+g5cgLSAzMDAg4YOa4YOQ4YOg4YOYLiDhg5Dhg5sg4YOg4YOU4YOY4YOc4YOv4YOo4YOYIOGDmOGD
+peGDnOGDlOGDkeGDkCDhg5vhg5jhg6Hhg5Dhg6bhg5Thg5Hhg5gu4YOb4YOS4YOd4YOc4YOYIOGD
+l+GDkOGDnOGDkOGDm+GDqOGDoOGDneGDm+GDmuGDmOGDoSDhg5vhg53hg6Lhg5jhg5Xhg5jhg6Dh
+g5Thg5Hhg6Phg5rhg53hg5Hhg5Ag4YOh4YOQ4YOl4YOb4YOY4YOh4YOX4YOV4YOY4YOhIOGDkOGD
+oOGDkOGDnOGDkOGDmeGDmuGDlOGDkSDhg5vhg5zhg5jhg6jhg5Xhg5zhg5Thg5rhg53hg5Xhg5Dh
+g5zhg5jhg5Au4YOV4YOU4YOa4YOYIOGDl+GDpeGDleGDlOGDnOGDoSDhg5Lhg5Dhg5Phg5Dhg6zh
+g6fhg5Xhg5Thg6Lhg5jhg5rhg5Thg5Hhg5Dhg6EuwqAK4YOe4YOQ4YOi4YOY4YOV4YOY4YOh4YOq
+4YOU4YOb4YOY4YOXLCDhg5vhg5Dhg5jhg5AKCgpTZW50IGZyb20gbXkgU2Ftc3VuZyBHYWxheHkg
+c21hcnRwaG9uZS4KLS0tLS0tLS0gT3JpZ2luYWwgbWVzc2FnZSAtLS0tLS0tLUZyb206IEVrYSA8
+ZS50YXJraG5pc2h2aWxpQHRyaXBwbGFubmVyLmdlPiBEYXRlOiA2LzEzLzE5IDE2OjAxIChHTVQr
+MDQ6MDApIFRvOiAibS5jaGl0YWlhIiA8bS5jaGl0YWlhQHlhaG9vLmNvbT4gU3ViamVjdDogUmU6
+IOGDoeGDkOGDmOGDouGDmOGDoSDhg5vhg53hg5Hhg5jhg5rhg6Phg6Dhg5gg4YOV4YOU4YOg4YOh
+4YOY4YOY4YOhIOGDouGDlOGDoeGDouGDmOGDoOGDlOGDkeGDkCAK4YOb4YOQ4YOY4YOQIOGDkuGD
+kOGDm+GDkOGDoOGDr+GDneGDkeGDkCzhg5Dhg6Ag4YOb4YOY4YOc4YOT4YOQIOGDlOGDoSDhg6Hh
+g5Dhg5nhg5jhg5fhg67hg5gg4YOV4YOQ4YOt4YOg4YOd4YOR4YOQ4YOTIOGDqeGDkOGDm+GDlOGD
+l+GDleGDkOGDmuGDneGDkyDhg6Phg5Hhg6Dhg5Dhg5rhg53hg5Mg4YOQ4YObIOGDl+GDkOGDnOGD
+ruGDkOGDoSDhg5Dhg6Ag4YOV4YOU4YOa4YOd4YOT4YOYLCDhg6Dhg5Dhg5Phg5Lhg5Dhg5wg4YOs
+4YOY4YOc4YOQIOGDk+GDkOGDouGDlOGDoeGDouGDleGDmOGDoSDhg5fhg5Dhg5zhg67hg5Ag4YOb
+4YOd4YOR4YOY4YOa4YOj4YOg4YOYK+GDk+GDlOGDoeGDmeGDmOGDoSDhg5Xhg5Thg6Dhg6Hhg5jh
+g5Ag4YOX4YOQ4YOV4YOY4YOh4YOYIOGDm+GDlOGDneGDoOGDkOGDk+GDmCDhg5Lhg5Dhg5Phg5Dh
+g5vhg53hg6zhg5vhg5Thg5Hhg5jhg5cgNTAwIOGDmuGDkOGDoOGDmCDhg5Phg5Dhg5Lhg5Xhg5jh
+g6/hg5Phg5AsIOGDk+GDkCDhg67hg53hg5sg4YOQ4YOgIOGDqOGDlOGDmOGDq+GDmuGDlOGDkeGD
+neGDk+GDkCDhg5Dhg5sg4YOh4YOQ4YOZ4YOY4YOX4YOu4YOY4YOhIOGDkuGDkOGDk+GDkOGDruGD
+lOGDk+GDleGDkD/hg5vhg5jhg5Xhg5jhg6bhg5Thg5Eg4YOn4YOV4YOU4YOa4YOQ4YOc4YOQ4YOY
+4YOgIOGDnuGDkOGDoeGDo+GDruGDoSwg4YOX4YOjIOGDoeGDruGDkOGDlSDhg5fhg5Dhg5zhg67h
+g5Ag4YOX4YOl4YOV4YOU4YOc4YOX4YOV4YOY4YOhIOGDm+GDmOGDo+GDpuGDlOGDkeGDlOGDmuGD
+mOGDkCDhg5Dhg6Ag4YOQ4YOg4YOY4YOhIOGDnuGDoOGDneGDkeGDmuGDlOGDm+GDkC4K4YOS4YOb
+4YOQ4YOT4YOa4YOd4YOR4YOXCuGDlOGDmeGDkMKgCgoKT24gSnVuIDEyLCAyMDE5LCBhdCA2OjQ2
+IFBNLCBtLmNoaXRhaWEgPG0uY2hpdGFpYUB5YWhvby5jb20+IHdyb3RlOgrhg5Thg5nhg5AsCuGD
+kuGDkOGDoeGDkOGDkuGDlOGDkeGDmOGDkCDhg5fhg6Xhg5Xhg5Thg5zhg5gg4YOe4YOQ4YOh4YOj
+4YOu4YOYLsKg4YOg4YOd4YOS4YOd4YOg4YOqIOGDkuGDmOGDl+GDruGDkOGDoOGDmOGDlywg4YOe
+4YOY4YOg4YOV4YOU4YOa4YOQ4YOT4YOYIOGDouGDlOGDoeGDouGDmOGDoOGDlOGDkeGDmOGDoeGD
+l+GDleGDmOGDoSAxIOGDmeGDleGDmOGDoOGDkCDhg5Phg5Dhg5vhg63hg5jhg6Dhg5Phg5Thg5Hh
+g5AuIOGDm+GDlOGDneGDoOGDkOGDk+GDmCDhg6Lhg5Thg6Hhg6Lhg5jhg6Dhg5Thg5Hhg5Ag4YOX
+4YOl4YOV4YOU4YOcIOGDm+GDmOGDlOGDoCDhg5Phg5Dhg5nhg53hg5zhg6Lhg5Dhg6Xhg6Lhg5Th
+g5Hhg5jhg6Eg4YOo4YOU4YOb4YOT4YOU4YOSIOGDm+GDneGDruGDk+GDlOGDkeGDkCDhg5Phg5Ag
+4YOh4YOQ4YOV4YOQ4YOg4YOQ4YOj4YOT4YOd4YOTIDItMyDhg5Phg6bhg5Qg4YOh4YOQ4YOZ4YOb
+4YOQ4YOg4YOY4YOh4YOYIOGDmOGDpeGDnOGDlOGDkeGDkCAo4YOT4YOQ4YOb4YOd4YOZ4YOY4YOT
+4YOU4YOR4YOj4YOa4YOY4YOQIOGDnuGDmOGDoOGDleGDlOGDmuGDkOGDk+GDmCDhg6Lhg5Thg6Hh
+g6Lhg5jhg6Dhg5Thg5Hhg5jhg6Eg4YOo4YOU4YOT4YOU4YOS4YOU4YOR4YOW4YOUKS7hg5nhg5Dh
+g5rhg5nhg6Phg5rhg5Dhg6rhg5jhg5Thg5Hhg5bhg5Qg4YOg4YOd4YOS4YOd4YOg4YOqIOGDm+GD
+neGDm+GDrOGDlOGDoOGDlOGDlywg4YOb4YOu4YOd4YOa4YOd4YOTIOGDm+GDkOGDqOGDmOGDnCDh
+g5Lhg5Dhg5Xhg5Dhg5vhg5Dhg67hg5Xhg5jhg5rhg5Thg5Eg4YOn4YOj4YOg4YOQ4YOT4YOm4YOU
+4YOR4YOQ4YOhIOGDl+GDoyDhg5rhg53hg5Lhg5jhg5nhg6Phg6Ag4YOp4YOQ4YOg4YOp4YOd4YOh
+IOGDkuGDkOGDoeGDquGDk+GDkCAo4YOb4YOQ4YOS4YOQ4YOa4YOY4YOX4YOQ4YOTIOGDkuGDkOGD
+leGDluGDkOGDoOGDk+GDlCDhg5vhg53hg5zhg5Dhg6zhg5jhg5rhg5Thg5fhg5Ag4YOg4YOY4YOq
+4YOu4YOV4YOYIOGDk+GDkCDhg6jhg5Thg5vhg6rhg5jhg6Dhg5Phg5Ag4YOi4YOj4YOg4YOY4YOh
+IOGDpuGDmOGDoOGDlOGDkeGDo+GDmuGDlOGDkeGDkCku4YOb4YOd4YOS4YOQ4YOs4YOV4YOT4YOY
+4YOXIOGDkeGDkOGDkuGDlOGDkeGDmOGDoSDhg5Dhg6bhg6zhg5Thg6Dhg5Thg5Hhg6Eg4YOs4YOU
+4YOg4YOY4YOa4YOd4YOR4YOY4YOXLuGDm+GDl+GDlOGDmuGDmCDhg5Dhg5sg4YOh4YOQ4YOb4YOj
+4YOo4YOQ4YOd4YOh4YOX4YOV4YOY4YOhIOGDleGDmOGDl+GDruGDneGDlSA0MDAg4YOa4YOQ4YOg
+4YOhLgrhg5Xhg5Thg5rhg53hg5Phg5Thg5Hhg5gg4YOX4YOl4YOV4YOU4YOc4YOhIOGDkuGDkOGD
+m+GDneGDruGDm+GDkOGDo+GDoOGDlOGDkeGDkOGDoS4K4YOe4YOQ4YOi4YOY4YOV4YOY4YOh4YOq
+4YOU4YOb4YOY4YOXLCDhg5vhg5Dhg5jhg5AKCgpTZW50IGZyb20gbXkgU2Ftc3VuZyBHYWxheHkg
+c21hcnRwaG9uZS4KLS0tLS0tLS0gT3JpZ2luYWwgbWVzc2FnZSAtLS0tLS0tLUZyb206IEVrYSA8
+ZS50YXJraG5pc2h2aWxpQHRyaXBwbGFubmVyLmdlPiBEYXRlOiA2LzEyLzE5IDEzOjI1IChHTVQr
+MDQ6MDApIFRvOiAibS5jaGl0YWlhIiA8bS5jaGl0YWlhQHlhaG9vLmNvbT4gU3ViamVjdDogUmU6
+IOGDoeGDkOGDmOGDouGDmOGDoSDhg5vhg53hg5Hhg5jhg5rhg6Phg6Dhg5gg4YOV4YOU4YOg4YOh
+4YOY4YOY4YOhIOGDouGDlOGDoeGDouGDmOGDoOGDlOGDkeGDkCAK4YOb4YOd4YOS4YOU4YOh4YOQ
+4YOa4YOb4YOU4YOR4YOYLArhg6Lhg5Thg6Hhg6Lhg5jhg6Dhg5Thg5Hhg5Ag4YOS4YOV4YOY4YOc
+4YOT4YOQIOGDm+GDruGDneGDmuGDneGDkyDhg5vhg53hg5Hhg5jhg5rhg6Phg6Dhg5gg4YOV4YOU
+4YOg4YOh4YOY4YOY4YOhLCDhg67hg5Thg5rhg5vhg5Thg53hg6Dhg5Thg5Mg4YOS4YOQ4YOT4YOQ
+4YOb4YOd4YOs4YOb4YOU4YOR4YOY4YOXLsKg4YOg4YOQ4YOqIOGDqOGDlOGDlOGDruGDlOGDkeGD
+kCDhg5nhg5Dhg5rhg5nhg6Phg5rhg5Dhg6rhg5jhg5Dhg6EsIOGDquGDneGDouGDkCDhg5vhg5Th
+g6Dhg5fhg6Phg5rhg5Thg5Hhg5Ag4YOQ4YOb4YOY4YOhIOGDkOGDruGDoeGDnOGDkCDhg5Phg5Ag
+4YOQ4YOg4YOqIOGDoOGDkOGDm+GDlCDhg5vhg5Dhg6Xhg5Xhg6Eg4YOZ4YOd4YOc4YOZ4YOg4YOU
+4YOi4YOj4YOa4YOYIOGDoOGDneGDmyDhg6Hhg5Dhg67hg5Thg5rhg5vhg6vhg6bhg5Xhg5Dhg5zh
+g5Thg5rhg53hg5Mg4YOb4YOd4YOS4YOQ4YOs4YOd4YOT4YOd4YOXLCDhg6jhg5Thg6Hhg5Dhg5Hh
+g5Dhg5vhg5jhg6Hhg5Dhg5Mg4YOU4YOhIOGDnOGDkOGDrOGDmOGDmuGDmCDhg6jhg5Thg5Lhg5jh
+g6vhg5rhg5jhg5Dhg5cg4YOS4YOQ4YOb4YOd4YOi4YOd4YOV4YOY4YOXLCDhg5vhg67hg53hg5rh
+g53hg5Mg4YOY4YOb4YOQ4YOhIOGDm+GDmOGDkOGDpeGDquGDmOGDlOGDlyDhg6fhg6Phg6Dhg5Dh
+g5Phg6bhg5Thg5Hhg5Ag4YOg4YOQ4YOb4YOT4YOU4YOc4YOQ4YOTIOGDoeGDrOGDneGDoOGDlOGD
+kyDhg6Phg6nhg5Xhg5Thg5zhg5Thg5Hhg6Eg4YOV4YOQ4YOa4YOj4YOi4YOQ4YOhIOGDk+GDkCDh
+g5fhg6Mg4YOU4YOl4YOV4YOU4YOb4YOT4YOU4YOR4YOQ4YOg4YOU4YOR4YOQIOGDpuGDmOGDmuGD
+kOGDmeGDlOGDkeGDluGDlCDhg5Phg5Dhg63hg5Thg6Dhg5jhg6Hhg5Dhg6Eg4YOX4YOQ4YOc4YOu
+4YOY4YOhIOGDquGDleGDmuGDmOGDmuGDlOGDkeGDkC4g4YOb4YOu4YOd4YOa4YOd4YOTIOGDoeGD
+kOGDlOGDreGDleGDnSDhg5fhg6Mg4YOY4YOl4YOc4YOU4YOR4YOQIOGDmOGDoSDhg5jhg5vhg5Dh
+g6Eg4YOb4YOY4YOQ4YOs4YOq4YOY4YOU4YOXIOGDm+GDlOGDouGDmCDhg6fhg6Phg6Dhg5Dhg5Ph
+g6bhg5Thg5Hhg5Ag4YOQ4YObIOGDm+GDruGDoOGDmOGDlS4K4YOS4YOb4YOQ4YOT4YOa4YOd4YOR
+CuGDnuGDkOGDouGDmOGDleGDmOGDoeGDquGDlOGDm+GDmOGDl+GDlOGDmeGDkAoKCk9uIEp1biAx
+MiwgMjAxOSwgYXQgMTI6MzAgQU0sIG0uY2hpdGFpYSA8bS5jaGl0YWlhQHlhaG9vLmNvbT4gd3Jv
+dGU6CuGDm+GDneGDkuGDlOGDoeGDkOGDmuGDm+GDlOGDkeGDmOGDlywK4YOS4YOQ4YOV4YOU4YOq
+4YOQ4YOc4YOYIOGDl+GDpeGDleGDlOGDnCDhg5vhg5jhg5Thg6Ag4YOb4YOd4YOs4YOd4YOT4YOU
+4YOR4YOj4YOaIOGDoeGDkOGDmOGDouGDoSwg4YOV4YOc4YOQ4YOu4YOUIOGDq+GDmOGDoOGDmOGD
+l+GDkOGDk+GDmCDhg6Thg6Phg5zhg6Xhg6rhg5jhg5Thg5Hhg5gg4YOT4YOQIOGDm+GDkOGDpeGD
+leGDoSDhg5vhg53hg5zhg5Dhg67hg5Dhg5bhg5gg4YOp4YOV4YOU4YOc4YOhIOGDl+GDkOGDnOGD
+kOGDm+GDqOGDoOGDneGDm+GDmuGDneGDkeGDkOGDoeGDl+GDkOGDnCDhg5Phg5Dhg5nhg5Dhg5Xh
+g6jhg5jhg6Dhg5Thg5Hhg5jhg5cu4YOV4YOk4YOY4YOl4YOg4YOd4YORLCDhg6Dhg53hg5sg4YOh
+4YOY4YOm4YOg4YOb4YOY4YOh4YOU4YOj4YOa4YOQ4YOTIOGDkuGDkOGDoeGDkOGDouGDlOGDoeGD
+ouGDkOGDkyDhg5Thg6Dhg5fhg5gg4YOZ4YOV4YOY4YOg4YOQIOGDk+GDkOGDm+GDreGDmOGDoOGD
+k+GDlOGDkeGDkC4g4YOQ4YObIOGDleGDkOGDk+GDkOGDqOGDmCDhg5vhg53hg5Lhg5Dhg6zhg5Xh
+g5Phg5jhg5cg4YOu4YOQ4YOg4YOV4YOU4YOW4YOU4YOR4YOY4YOhIOGDkOGDpuGDrOGDlOGDoOGD
+lOGDkeGDoSDhg5Phg5Ag4YOh4YOl4YOg4YOY4YOc4YOo4YOd4YOX4YOU4YOR4YOhLsKg4YOQ4YOl
+4YOV4YOUIOGDm+GDmOGDnOGDk+GDkCDhg5Phg5Dhg5Xhg5Dhg5bhg6Phg6Hhg6Lhg50g4YOg4YOQ
+4YOb4YOT4YOU4YOc4YOY4YOb4YOUIOGDoeGDkOGDmeGDmOGDl+GDruGDmDog4YOi4YOU4YOh4YOi
+4YOY4YOg4YOU4YOR4YOQIOGDo+GDnOGDk+GDkCDhg5vhg53hg67hg5Phg5Thg6Eg4YOb4YOu4YOd
+4YOa4YOd4YOTIOGDm+GDneGDkeGDmOGDmuGDo+GDoOGDmCDhg5Xhg5Thg6Dhg6Hhg5jhg5jhg6E/
+IOGDm+GDruGDneGDmuGDneGDkyDhg57hg5jhg6Dhg5Xhg5Thg5rhg5Dhg5Phg5gg4YOi4YOU4YOh
+4YOi4YOY4YOg4YOU4YOR4YOQIOGDkuGDoeGDo+GDoOGDlyDhg5fhg6Mg4YOS4YOQ4YOh4YOs4YOd
+4YOg4YOU4YOR4YOY4YOhIOGDqOGDlOGDm+GDk+GDlOGDkuGDkOGDqj8g4YOg4YOQ4YOqIOGDqOGD
+lOGDlOGDruGDlOGDkeGDkCDhg5nhg5Dhg5rhg5nhg6Phg5rhg5Dhg6rhg5jhg5Thg5Hhg6EsIOGD
+oeGDkOGDk+GDkOGDqiDhg5Dhg5zhg5Lhg5Dhg6Dhg5jhg6jhg5Phg5Thg5Hhg5Ag4YOi4YOj4YOg
+4YOY4YOhIOGDpuGDmOGDoOGDlOGDkeGDo+GDmuGDlOGDkeGDkCwg4YOg4YOQ4YOY4YOb4YOUIOGD
+rOGDp+GDkOGDoOGDneGDoSDhg5vhg53hg5vhg5Dhg6zhg5Xhg5Phg5jhg5cg4YOg4YOY4YOX4YOY
+4YOqIOGDleGDmOGDruGDlOGDmuGDm+GDq+GDpuGDleGDkOGDnOGDlOGDmuGDlOGDkSDhg6Dhg53h
+g5sg4YOh4YOY4YOW4YOj4YOh4YOi4YOUIOGDk+GDkOGDleGDkOGDk+GDkuGDmOGDnOGDnT8K4YOX
+4YOl4YOV4YOU4YOc4YOYIOGDnuGDkOGDoeGDo+GDruGDlOGDkeGDmOGDoSDhg6jhg5Thg6Hhg5Dh
+g5Hhg5Dhg5vhg5jhg6Hhg5Dhg5Mg4YOb4YOd4YOS4YOQ4YOs4YOV4YOT4YOY4YOXIOGDqeGDlOGD
+m+GDoSDhg6jhg5Thg6Thg5Dhg6Hhg5Thg5Hhg5Dhg6Eg4YOR4YOY4YOj4YOv4YOU4YOi4YOX4YOQ
+4YOcIOGDk+GDkOGDmeGDkOGDleGDqOGDmOGDoOGDlOGDkeGDmOGDly4K4YOe4YOQ4YOi4YOY4YOV
+4YOY4YOh4YOq4YOU4YOb4YOY4YOXLCDhg5vhg5Dhg5jhg5AKCgpTZW50IGZyb20gbXkgU2Ftc3Vu
+ZyBHYWxheHkgc21hcnRwaG9uZS4KCgoKICAKIA==
+------=_Part_1517529_177618936.1561447537327
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head></head><body><div class=3D"ydp5515cfabyahoo-style-wrap" style=
+=3D"font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:16px=
+;"><div></div>
+        <div><div><div style=3D"color: rgb(0, 0, 0); font-family: Helvetica=
+ Neue, Helvetica, Arial, sans-serif; font-size: 16px;">=E1=83=9B=E1=83=9D=
+=E1=83=92=E1=83=94=E1=83=A1=E1=83=90=E1=83=9A=E1=83=9B=E1=83=94=E1=83=91=E1=
+=83=98=E1=83=97,</div><div style=3D"color: rgb(0, 0, 0); font-family: Helve=
+tica Neue, Helvetica, Arial, sans-serif; font-size: 16px;"><br></div><div s=
+tyle=3D"color: rgb(0, 0, 0); font-family: Helvetica Neue, Helvetica, Arial,=
+ sans-serif; font-size: 16px;">=E1=83=92=E1=83=98=E1=83=92=E1=83=96=E1=83=
+=90=E1=83=95=E1=83=9C=E1=83=98=E1=83=97 =E1=83=A2=E1=83=94=E1=83=A1=E1=83=
+=A2=E1=83=98=E1=83=A0=E1=83=94=E1=83=91=E1=83=98=E1=83=A1 =E1=83=A8=E1=83=
+=94=E1=83=93=E1=83=94=E1=83=92=E1=83=90=E1=83=93 =E1=83=90=E1=83=A6=E1=83=
+=9B=E1=83=9D=E1=83=A9=E1=83=94=E1=83=9C=E1=83=98=E1=83=9A=E1=83=98 =E1=83=
+=AE=E1=83=90=E1=83=A0=E1=83=95=E1=83=94=E1=83=96=E1=83=94=E1=83=91=E1=83=98=
+=E1=83=A1 =E1=83=90=E1=83=A6=E1=83=AC=E1=83=94=E1=83=A0=E1=83=94=E1=83=91=
+=E1=83=A1. =E1=83=97=E1=83=98=E1=83=97=E1=83=9D=E1=83=94=E1=83=A3=E1=83=9A =
+=E1=83=9B=E1=83=90=E1=83=97=E1=83=92=E1=83=90=E1=83=9C=E1=83=A1 =E1=83=90=
+=E1=83=A5=E1=83=95=E1=83=A1 =E1=83=A8=E1=83=94=E1=83=A1=E1=83=90=E1=83=91=
+=E1=83=90=E1=83=9B=E1=83=98=E1=83=A1=E1=83=98 =E1=83=95=E1=83=98=E1=83=93=
+=E1=83=94=E1=83=9D =E1=83=A9=E1=83=90=E1=83=9C=E1=83=90=E1=83=AC=E1=83=94=
+=E1=83=A0=E1=83=98, =E1=83=A0=E1=83=9D=E1=83=9B=E1=83=94=E1=83=9A=E1=83=A1=
+=E1=83=90=E1=83=AA Wetransfer-=E1=83=98=E1=83=97 =E1=83=92=E1=83=90=E1=83=
+=9B=E1=83=9D=E1=83=92=E1=83=98=E1=83=92=E1=83=96=E1=83=90=E1=83=95=E1=83=9C=
+=E1=83=98=E1=83=97.</div><div style=3D"color: rgb(0, 0, 0); font-family: He=
+lvetica Neue, Helvetica, Arial, sans-serif; font-size: 16px;">=E1=83=90=E1=
+=83=A6=E1=83=AC=E1=83=94=E1=83=A0=E1=83=98=E1=83=A1 =E1=83=93=E1=83=90 =E1=
+=83=95=E1=83=98=E1=83=93=E1=83=94=E1=83=9D=E1=83=A1 =E1=83=A8=E1=83=94=E1=
+=83=A1=E1=83=90=E1=83=91=E1=83=90=E1=83=9B=E1=83=98=E1=83=A1=E1=83=9D=E1=83=
+=91=E1=83=90 =E1=83=90=E1=83=A6=E1=83=AC=E1=83=94=E1=83=A0=E1=83=98=E1=83=
+=A1 ID-=E1=83=98=E1=83=97 =E1=83=93=E1=83=90 =E1=83=95=E1=83=98=E1=83=93=E1=
+=83=94=E1=83=9D=E1=83=A1 =E1=83=93=E1=83=90=E1=83=A1=E1=83=90=E1=83=AE=E1=
+=83=94=E1=83=9A=E1=83=94=E1=83=91=E1=83=90=E1=83=A8=E1=83=98 =E1=83=92=E1=
+=83=90=E1=83=9B=E1=83=9D=E1=83=A7=E1=83=94=E1=83=9C=E1=83=94=E1=83=91=E1=83=
+=A3=E1=83=9A=E1=83=98 =E1=83=A0=E1=83=98=E1=83=AA=E1=83=AE=E1=83=95=E1=83=
+=98=E1=83=97 =E1=83=A8=E1=83=94=E1=83=92=E1=83=98=E1=83=AB=E1=83=9A=E1=83=
+=98=E1=83=90=E1=83=97.&nbsp;</div></div><br></div><div>=E1=83=9E=E1=83=90=
+=E1=83=A2=E1=83=98=E1=83=95=E1=83=98=E1=83=A1=E1=83=AA=E1=83=94=E1=83=9B=E1=
+=83=98=E1=83=97, =E1=83=9B=E1=83=90=E1=83=98=E1=83=90</div><div><br></div>
+       =20
+        </div><div id=3D"yahoo_quoted_1453629892" class=3D"yahoo_quoted">
+            <div style=3D"font-family:'Helvetica Neue', Helvetica, Arial, s=
+ans-serif;font-size:13px;color:#26282a;">
+               =20
+                <div>
+                    On Monday, June 17, 2019, 11:33:54 AM GMT+4,  &lt;e.tar=
+khnishvili@tripplanner.ge&gt; wrote:
+                </div>
+                <div><br></div>
+                <div><br></div>
+                <div><div id=3D"yiv1122905982"><div><div id=3D"yiv112290598=
+2composeWebView_editable_content" style=3D"text-align:left;"><div><p class=
+=3D"yiv1122905982p1" style=3D"margin:0px;font-stretch:normal;line-height:no=
+rmal;"><span class=3D"yiv1122905982s1" style=3D"font-size:17pt;">=E1=83=9B=
+=E1=83=90=E1=83=98=E1=83=90&nbsp;</span><span class=3D"yiv1122905982s2" sty=
+le=3D""></span><span class=3D"yiv1122905982s1" style=3D"font-size:17pt;">=
+=E1=83=92=E1=83=90=E1=83=9B=E1=83=90=E1=83=A0=E1=83=AF=E1=83=9D=E1=83=91=E1=
+=83=90</span><span class=3D"yiv1122905982s2" style=3D"">,</span></p><p clas=
+s=3D"yiv1122905982p1" style=3D"margin:0px;font-stretch:normal;line-height:n=
+ormal;"><span class=3D"yiv1122905982s2" style=3D""><br clear=3D"none"></spa=
+n></p><p class=3D"yiv1122905982p1" style=3D"margin:0px;font-stretch:normal;=
+line-height:normal;"><span class=3D"yiv1122905982s1" style=3D"font-size:17p=
+t;">=E1=83=97=E1=83=90=E1=83=9C=E1=83=AE=E1=83=98=E1=83=A1&nbsp;</span><spa=
+n class=3D"yiv1122905982s2" style=3D""></span><span class=3D"yiv1122905982s=
+1" style=3D"font-size:17pt;">=E1=83=9C=E1=83=90=E1=83=AE=E1=83=94=E1=83=95=
+=E1=83=90=E1=83=A0=E1=83=98&nbsp;</span><span class=3D"yiv1122905982s2" sty=
+le=3D""></span><span class=3D"yiv1122905982s1" style=3D"font-size:17pt;">=
+=E1=83=92=E1=83=90=E1=83=93=E1=83=9B=E1=83=9D=E1=83=92=E1=83=98=E1=83=A0=E1=
+=83=98=E1=83=AA=E1=83=AE=E1=83=90&nbsp;</span><span class=3D"yiv1122905982s=
+2" style=3D""></span><span class=3D"yiv1122905982s1" style=3D"font-size:17p=
+t;">=E1=83=A9=E1=83=94=E1=83=9B=E1=83=9B=E1=83=90&nbsp;</span><span class=
+=3D"yiv1122905982s2" style=3D""></span><span class=3D"yiv1122905982s1" styl=
+e=3D"font-size:17pt;">=E1=83=9E=E1=83=90=E1=83=A0=E1=83=A2=E1=83=9C=E1=83=
+=98=E1=83=9D=E1=83=A0=E1=83=9B=E1=83=90&nbsp;</span><span class=3D"yiv11229=
+05982s2" style=3D""></span><span class=3D"yiv1122905982s1" style=3D"font-si=
+ze:17pt;">=E1=83=92=E1=83=98=E1=83=9D=E1=83=A0=E1=83=92=E1=83=98&nbsp;</spa=
+n><span class=3D"yiv1122905982s2" style=3D""></span><span class=3D"yiv11229=
+05982s1" style=3D"font-size:17pt;">=E1=83=92=E1=83=95=E1=83=90=E1=83=96=E1=
+=83=90=E1=83=95=E1=83=90=E1=83=9B</span><span class=3D"yiv1122905982s2" sty=
+le=3D"">,&nbsp;</span><span class=3D"yiv1122905982s1" style=3D"font-size:17=
+pt;">=E1=83=A8=E1=83=94=E1=83=92=E1=83=98=E1=83=AB=E1=83=9A=E1=83=98=E1=83=
+=90&nbsp;</span><span class=3D"yiv1122905982s2" style=3D""></span><span cla=
+ss=3D"yiv1122905982s1" style=3D"font-size:17pt;">=E1=83=93=E1=83=90=E1=83=
+=98=E1=83=AC=E1=83=A7=E1=83=9D</span><span class=3D"yiv1122905982s2" style=
+=3D"">,&nbsp;</span></p><p class=3D"yiv1122905982p2" style=3D"margin:0px;fo=
+nt-stretch:normal;line-height:normal;"><span class=3D"yiv1122905982s2" styl=
+e=3D""></span><br clear=3D"none"></p><p class=3D"yiv1122905982p1" style=3D"=
+margin:0px;font-stretch:normal;line-height:normal;"><span class=3D"yiv11229=
+05982s1" style=3D"font-size:17pt;">=E1=83=93=E1=83=98=E1=83=93=E1=83=98&nbs=
+p;</span><span class=3D"yiv1122905982s2" style=3D""></span><span class=3D"y=
+iv1122905982s1" style=3D"font-size:17pt;">=E1=83=9B=E1=83=90=E1=83=93=E1=83=
+=9A=E1=83=9D=E1=83=91=E1=83=90</span></p><p class=3D"yiv1122905982p2" style=
+=3D"margin:0px;font-stretch:normal;line-height:normal;"><span class=3D"yiv1=
+122905982s2" style=3D""></span><br clear=3D"none"></p><p class=3D"yiv112290=
+5982p1" style=3D"margin:0px;font-stretch:normal;line-height:normal;"><span =
+class=3D"yiv1122905982s1" style=3D"font-size:17pt;">=E1=83=94=E1=83=99=E1=
+=83=90</span></p></div><div><br clear=3D"none"></div><div id=3D"yiv11229059=
+82mail-app-auto-default-signature"><br clear=3D"none"><br clear=3D"none">Se=
+nt from myMail for iOS<br clear=3D"none"></div><br clear=3D"none"><br clear=
+=3D"none">Sunday, June 16, 2019, 12:55 +0400 from m.chitaia  &lt;m.chitaia@=
+yahoo.com&gt;:<br clear=3D"none">    <div id=3D"yiv1122905982composeWebView=
+_previouse_content"><blockquote id=3D"yiv1122905982mail-app-auto-quote" sty=
+le=3D"border-left-width:1px;border-left-style:solid;border-left-color:rgb(2=
+52, 44, 56);margin:10px 0px 10px 5px;padding:0px 0px 0px 10px;display:inher=
+it;"><div class=3D"yiv1122905982js-helper yiv1122905982js-readmsg-msg">
+=09<style type=3D"text/css"></style>
+ =09<div>
+=09=09</div></div></blockquote></div></div></div><base><div><div id=3D"yiv1=
+122905982style_15606753150000000176_BODY"><div class=3D"yiv1122905982class_=
+1560684665"><div>=E1=83=94=E1=83=99=E1=83=90, =E1=83=93=E1=83=A6=E1=83=94=
+=E1=83=A1 =E1=83=93=E1=83=90=E1=83=95=E1=83=98=E1=83=AC=E1=83=A7=E1=83=94=
+=E1=83=91 =E1=83=A2=E1=83=94=E1=83=A1=E1=83=A2=E1=83=98=E1=83=A0=E1=83=94=
+=E1=83=91=E1=83=90=E1=83=A1.</div><div>=E1=83=99=E1=83=90=E1=83=A0=E1=83=92=
+=E1=83=98 =E1=83=98=E1=83=A5=E1=83=9C=E1=83=94=E1=83=91=E1=83=90 =E1=83=97=
+=E1=83=A3 =E1=83=9C=E1=83=90=E1=83=AE=E1=83=94=E1=83=95=E1=83=90=E1=83=A0=
+=E1=83=A1 =E1=83=A9=E1=83=90=E1=83=9B=E1=83=98=E1=83=A0=E1=83=98=E1=83=AA=
+=E1=83=AE=E1=83=90=E1=83=95=E1=83=97. =E1=83=93=E1=83=90=E1=83=9C=E1=83=90=
+=E1=83=A0=E1=83=A9=E1=83=94=E1=83=9C=E1=83=A1 =E1=83=99=E1=83=98 =E1=83=9E=
+=E1=83=98=E1=83=A0=E1=83=95=E1=83=94=E1=83=9A=E1=83=90=E1=83=93=E1=83=98 =
+=E1=83=A2=E1=83=94=E1=83=A1=E1=83=A2=E1=83=98=E1=83=A0=E1=83=94=E1=83=91=E1=
+=83=98=E1=83=A1 =E1=83=93=E1=83=90=E1=83=A1=E1=83=A0=E1=83=A3=E1=83=9A=E1=
+=83=94=E1=83=91=E1=83=98=E1=83=A1 =E1=83=A8=E1=83=94=E1=83=9B=E1=83=93=E1=
+=83=94=E1=83=92.</div><div>=E1=83=92=E1=83=98=E1=83=92=E1=83=96=E1=83=90=E1=
+=83=95=E1=83=9C=E1=83=98=E1=83=97 =E1=83=A9=E1=83=94=E1=83=9B=E1=83=A1 =E1=
+=83=90=E1=83=9C=E1=83=92=E1=83=90=E1=83=A0=E1=83=98=E1=83=A8=E1=83=98=E1=83=
+=A1 =E1=83=9C=E1=83=9D=E1=83=9B=E1=83=94=E1=83=A0=E1=83=A1.&nbsp;</div><div=
+><br clear=3D"none"></div><div>GE34TB7942445061100002</div><div>=E1=83=9B=
+=E1=83=98=E1=83=9B=E1=83=A6=E1=83=94=E1=83=91=E1=83=98: =E1=83=9B=E1=83=90=
+=E1=83=98=E1=83=90 =E1=83=A9=E1=83=98=E1=83=A2=E1=83=90=E1=83=98=E1=83=90</=
+div><div><br clear=3D"none"></div><div>=E1=83=9E=E1=83=90=E1=83=A2=E1=83=98=
+=E1=83=95=E1=83=98=E1=83=A1=E1=83=AA=E1=83=94=E1=83=9B=E1=83=98=E1=83=97, =
+=E1=83=9B=E1=83=90=E1=83=98=E1=83=90</div><div><br clear=3D"none"></div><di=
+v><br clear=3D"none"></div><div id=3D"yiv1122905982composer_signature_mailr=
+u_css_attribute_postfix"><div style=3D"font-size:85%;color:#575757;">Sent f=
+rom my Samsung Galaxy smartphone.</div></div><div><br clear=3D"none"></div>=
+<div class=3D"yiv1122905982yqt2204802505" id=3D"yiv1122905982yqt40618"><div=
+ style=3D"font-size:100%;color:#000000;"><div>-------- Original message ---=
+-----</div><div>From: <a rel=3D"nofollow" shape=3D"rect" ymailto=3D"mailto:=
+e.tarkhnishvili@tripplanner.ge" target=3D"_blank" href=3D"mailto:e.tarkhnis=
+hvili@tripplanner.ge">e.tarkhnishvili@tripplanner.ge</a> </div><div>Date: 6=
+/14/19  18:54  (GMT+04:00) </div><div>To: "m.chitaia" &lt;<a rel=3D"nofollo=
+w" shape=3D"rect" ymailto=3D"mailto:m.chitaia@yahoo.com" target=3D"_blank" =
+href=3D"mailto:m.chitaia@yahoo.com">m.chitaia@yahoo.com</a>&gt; </div><div>=
+Subject: Re[2]: =E1=83=A1=E1=83=90=E1=83=98=E1=83=A2=E1=83=98=E1=83=A1 =E1=
+=83=9B=E1=83=9D=E1=83=91=E1=83=98=E1=83=9A=E1=83=A3=E1=83=A0=E1=83=98 =E1=
+=83=95=E1=83=94=E1=83=A0=E1=83=A1=E1=83=98=E1=83=98=E1=83=A1 =E1=83=A2=E1=
+=83=94=E1=83=A1=E1=83=A2=E1=83=98=E1=83=A0=E1=83=94=E1=83=91=E1=83=90 </div=
+><div><br clear=3D"none"></div></div><div id=3D"yiv1122905982composeWebView=
+_editable_content_mailru_css_attribute_postfix" style=3D"text-align:left;">=
+<div><span style=3D"font-family:UICTFontTextStyleBody;">=E1=83=92=E1=83=90=
+=E1=83=9B=E1=83=90=E1=83=A0=E1=83=AF=E1=83=9D=E1=83=91=E1=83=90,</span><div=
+ dir=3D"ltr" id=3D"yiv1122905982AppleMailSignature_mailru_css_attribute_pos=
+tfix" style=3D"font-family:UICTFontTextStyleBody;"></div><div style=3D"font=
+-family:UICTFontTextStyleBody;"><br clear=3D"none"></div><div style=3D"font=
+-family:UICTFontTextStyleBody;">=E1=83=9B=E1=83=94=E1=83=92=E1=83=9D=E1=83=
+=9C=E1=83=90 =E1=83=9E=E1=83=90=E1=83=A1=E1=83=A3=E1=83=AE=E1=83=98 =E1=83=
+=A3=E1=83=99=E1=83=95=E1=83=94 =E1=83=9B=E1=83=9D=E1=83=AC=E1=83=94=E1=83=
+=A0=E1=83=98=E1=83=9A=E1=83=98 =E1=83=9B=E1=83=A5=E1=83=9D=E1=83=9C=E1=83=
+=93=E1=83=90, =E1=83=A3=E1=83=99=E1=83=90=E1=83=AA=E1=83=A0=E1=83=90=E1=83=
+=95=E1=83=90=E1=83=93 =E1=83=93=E1=83=90=E1=83=92=E1=83=95=E1=83=98=E1=83=
+=90=E1=83=9C=E1=83=94=E1=83=91=E1=83=98=E1=83=A1=E1=83=97=E1=83=95=E1=83=98=
+=E1=83=A1, =E1=83=97=E1=83=90=E1=83=9C=E1=83=AE=E1=83=9B=E1=83=9D=E1=83=91=
+=E1=83=90=E1=83=A1 =E1=83=92=E1=83=90=E1=83=AB=E1=83=9A=E1=83=94=E1=83=95=
+=E1=83=97, =E1=83=A8=E1=83=94=E1=83=92=E1=83=98=E1=83=AB=E1=83=9A=E1=83=98=
+=E1=83=90=E1=83=97 =E1=83=93=E1=83=90=E1=83=98=E1=83=AC=E1=83=A7=E1=83=9D=
+=E1=83=97 =E1=83=A2=E1=83=94=E1=83=A1=E1=83=A2=E1=83=98=E1=83=A0=E1=83=94=
+=E1=83=91=E1=83=90. =E1=83=97=E1=83=90=E1=83=9C=E1=83=AE=E1=83=90 =E1=83=A0=
+=E1=83=9D=E1=83=93=E1=83=98=E1=83=A1 =E1=83=A3=E1=83=9C=E1=83=93=E1=83=90 =
+=E1=83=A9=E1=83=90=E1=83=95=E1=83=A0=E1=83=98=E1=83=AA=E1=83=AE=E1=83=9D =
+=E1=83=93=E1=83=90=E1=83=A1=E1=83=90=E1=83=AC=E1=83=A7=E1=83=98=E1=83=A1=E1=
+=83=A8=E1=83=98 =E1=83=97=E1=83=A3 =E1=83=91=E1=83=9D=E1=83=9A=E1=83=9D=E1=
+=83=A1?</div><div style=3D"font-family:UICTFontTextStyleBody;"><br clear=3D=
+"none"></div><div style=3D"font-family:UICTFontTextStyleBody;">=E1=83=92=E1=
+=83=9B=E1=83=90=E1=83=93=E1=83=9A=E1=83=9D=E1=83=91=E1=83=97</div><div styl=
+e=3D"font-family:UICTFontTextStyleBody;"><br clear=3D"none"></div><div styl=
+e=3D"font-family:UICTFontTextStyleBody;">=E1=83=94=E1=83=99=E1=83=90</div><=
+/div><div><br clear=3D"none"></div><div id=3D"yiv1122905982mail-app-auto-de=
+fault-signature_mailru_css_attribute_postfix"><br clear=3D"none"><br clear=
+=3D"none">Sent from myMail for iOS<br clear=3D"none"></div><br clear=3D"non=
+e"><br clear=3D"none">Thursday, June 13, 2019, 18:27 +0400 from <a rel=3D"n=
+ofollow" shape=3D"rect" ymailto=3D"mailto:m.chitaia@yahoo.com" target=3D"_b=
+lank" href=3D"mailto:m.chitaia@yahoo.com">m.chitaia@yahoo.com</a>  &lt;<a r=
+el=3D"nofollow" shape=3D"rect" ymailto=3D"mailto:m.chitaia@yahoo.com" targe=
+t=3D"_blank" href=3D"mailto:m.chitaia@yahoo.com">m.chitaia@yahoo.com</a>&gt=
+;:<br clear=3D"none">    <div id=3D"yiv1122905982composeWebView_previouse_c=
+ontent_mailru_css_attribute_postfix"><blockquote id=3D"yiv1122905982mail-ap=
+p-auto-quote_mailru_css_attribute_postfix" style=3D"border-left-width:1px;b=
+order-left-style:solid;border-left-color:rgb(252, 44, 56);margin:10px 0px 1=
+0px 5px;padding:0px 0px 0px 10px;display:inherit;"><div class=3D"yiv1122905=
+982js-helper_mailru_css_attribute_postfix yiv1122905982js-readmsg-msg_mailr=
+u_css_attribute_postfix">
+=09<style></style>
+ =09<div>
+=09=09
+=09=09
+=09=09=09<div id=3D"yiv1122905982style_15604360450000000172_BODY_mailru_css=
+_attribute_postfix"><div class=3D"yiv1122905982class_1560461342_mailru_css_=
+attribute_postfix"><div>=E1=83=94=E1=83=99=E1=83=90, =E1=83=9B=E1=83=90=E1=
+=83=A8=E1=83=98=E1=83=9C =E1=83=A9=E1=83=94=E1=83=9B=E1=83=98 =E1=83=9B=E1=
+=83=AE=E1=83=A0=E1=83=98=E1=83=93=E1=83=90=E1=83=9C =E1=83=9B=E1=83=98=E1=
+=83=9C=E1=83=98=E1=83=9B=E1=83=90=E1=83=9A=E1=83=A3=E1=83=A0 =E1=83=96=E1=
+=83=A6=E1=83=95=E1=83=90=E1=83=A0=E1=83=A1 =E1=83=92=E1=83=94=E1=83=A2=E1=
+=83=A7=E1=83=95=E1=83=98=E1=83=97 - 300 =E1=83=9A=E1=83=90=E1=83=A0=E1=83=
+=98. =E1=83=90=E1=83=9B =E1=83=A0=E1=83=94=E1=83=98=E1=83=9C=E1=83=AF=E1=83=
+=A8=E1=83=98 =E1=83=98=E1=83=A5=E1=83=9C=E1=83=94=E1=83=91=E1=83=90 =E1=83=
+=9B=E1=83=98=E1=83=A1=E1=83=90=E1=83=A6=E1=83=94=E1=83=91=E1=83=98.</div><d=
+iv>=E1=83=9B=E1=83=92=E1=83=9D=E1=83=9C=E1=83=98 =E1=83=97=E1=83=90=E1=83=
+=9C=E1=83=90=E1=83=9B=E1=83=A8=E1=83=A0=E1=83=9D=E1=83=9B=E1=83=9A=E1=83=98=
+=E1=83=A1 =E1=83=9B=E1=83=9D=E1=83=A2=E1=83=98=E1=83=95=E1=83=98=E1=83=A0=
+=E1=83=94=E1=83=91=E1=83=A3=E1=83=9A=E1=83=9D=E1=83=91=E1=83=90 =E1=83=A1=
+=E1=83=90=E1=83=A5=E1=83=9B=E1=83=98=E1=83=A1=E1=83=97=E1=83=95=E1=83=98=E1=
+=83=A1 =E1=83=90=E1=83=A0=E1=83=90=E1=83=9C=E1=83=90=E1=83=99=E1=83=9A=E1=
+=83=94=E1=83=91 =E1=83=9B=E1=83=9C=E1=83=98=E1=83=A8=E1=83=95=E1=83=9C=E1=
+=83=94=E1=83=9A=E1=83=9D=E1=83=95=E1=83=90=E1=83=9C=E1=83=98=E1=83=90.</div=
+><div>=E1=83=95=E1=83=94=E1=83=9A=E1=83=98 =E1=83=97=E1=83=A5=E1=83=95=E1=
+=83=94=E1=83=9C=E1=83=A1 =E1=83=92=E1=83=90=E1=83=93=E1=83=90=E1=83=AC=E1=
+=83=A7=E1=83=95=E1=83=94=E1=83=A2=E1=83=98=E1=83=9A=E1=83=94=E1=83=91=E1=83=
+=90=E1=83=A1.&nbsp;</div><div><br clear=3D"none"></div><div>=E1=83=9E=E1=83=
+=90=E1=83=A2=E1=83=98=E1=83=95=E1=83=98=E1=83=A1=E1=83=AA=E1=83=94=E1=83=9B=
+=E1=83=98=E1=83=97, =E1=83=9B=E1=83=90=E1=83=98=E1=83=90</div><div><br clea=
+r=3D"none"></div><div><br clear=3D"none"></div><div><br clear=3D"none"></di=
+v><div id=3D"yiv1122905982composer_signature_mailru_css_attribute_postfix_m=
+ailru_css_attribute_postfix"><div style=3D"font-size:85%;color:#575757;">Se=
+nt from my Samsung Galaxy smartphone.</div></div><div><br clear=3D"none"></=
+div><div style=3D"font-size:100%;color:#000000;"><div>-------- Original mes=
+sage --------</div><div>From: Eka &lt;<a rel=3D"nofollow" shape=3D"rect" ym=
+ailto=3D"mailto:e.tarkhnishvili@tripplanner.ge" target=3D"_blank" href=3D"m=
+ailto:e.tarkhnishvili@tripplanner.ge">e.tarkhnishvili@tripplanner.ge</a>&gt=
+; </div><div>Date: 6/13/19  16:01  (GMT+04:00) </div><div>To: "m.chitaia" &=
+lt;<a rel=3D"nofollow" shape=3D"rect" ymailto=3D"mailto:m.chitaia@yahoo.com=
+" target=3D"_blank" href=3D"mailto:m.chitaia@yahoo.com">m.chitaia@yahoo.com=
+</a>&gt; </div><div>Subject: Re: =E1=83=A1=E1=83=90=E1=83=98=E1=83=A2=E1=83=
+=98=E1=83=A1 =E1=83=9B=E1=83=9D=E1=83=91=E1=83=98=E1=83=9A=E1=83=A3=E1=83=
+=A0=E1=83=98 =E1=83=95=E1=83=94=E1=83=A0=E1=83=A1=E1=83=98=E1=83=98=E1=83=
+=A1 =E1=83=A2=E1=83=94=E1=83=A1=E1=83=A2=E1=83=98=E1=83=A0=E1=83=94=E1=83=
+=91=E1=83=90 </div><div><br clear=3D"none"></div></div>=E1=83=9B=E1=83=90=
+=E1=83=98=E1=83=90 =E1=83=92=E1=83=90=E1=83=9B=E1=83=90=E1=83=A0=E1=83=AF=
+=E1=83=9D=E1=83=91=E1=83=90,<div class=3D"yiv1122905982">=E1=83=90=E1=83=A0=
+ =E1=83=9B=E1=83=98=E1=83=9C=E1=83=93=E1=83=90 =E1=83=94=E1=83=A1 =E1=83=A1=
+=E1=83=90=E1=83=99=E1=83=98=E1=83=97=E1=83=AE=E1=83=98 =E1=83=95=E1=83=90=
+=E1=83=AD=E1=83=A0=E1=83=9D=E1=83=91=E1=83=90=E1=83=93 =E1=83=A9=E1=83=90=
+=E1=83=9B=E1=83=94=E1=83=97=E1=83=95=E1=83=90=E1=83=9A=E1=83=9D=E1=83=93 =
+=E1=83=A3=E1=83=91=E1=83=A0=E1=83=90=E1=83=9A=E1=83=9D=E1=83=93 =E1=83=90=
+=E1=83=9B =E1=83=97=E1=83=90=E1=83=9C=E1=83=AE=E1=83=90=E1=83=A1 =E1=83=90=
+=E1=83=A0 =E1=83=95=E1=83=94=E1=83=9A=E1=83=9D=E1=83=93=E1=83=98, =E1=83=A0=
+=E1=83=90=E1=83=93=E1=83=92=E1=83=90=E1=83=9C =E1=83=AC=E1=83=98=E1=83=9C=
+=E1=83=90 =E1=83=93=E1=83=90=E1=83=A2=E1=83=94=E1=83=A1=E1=83=A2=E1=83=95=
+=E1=83=98=E1=83=A1 =E1=83=97=E1=83=90=E1=83=9C=E1=83=AE=E1=83=90 =E1=83=9B=
+=E1=83=9D=E1=83=91=E1=83=98=E1=83=9A=E1=83=A3=E1=83=A0=E1=83=98+=E1=83=93=
+=E1=83=94=E1=83=A1=E1=83=99=E1=83=98=E1=83=A1 =E1=83=95=E1=83=94=E1=83=A0=
+=E1=83=A1=E1=83=98=E1=83=90 =E1=83=97=E1=83=90=E1=83=95=E1=83=98=E1=83=A1=
+=E1=83=98 =E1=83=9B=E1=83=94=E1=83=9D=E1=83=A0=E1=83=90=E1=83=93=E1=83=98 =
+=E1=83=92=E1=83=90=E1=83=93=E1=83=90=E1=83=9B=E1=83=9D=E1=83=AC=E1=83=9B=E1=
+=83=94=E1=83=91=E1=83=98=E1=83=97 500 =E1=83=9A=E1=83=90=E1=83=A0=E1=83=98 =
+=E1=83=93=E1=83=90=E1=83=92=E1=83=95=E1=83=98=E1=83=AF=E1=83=93=E1=83=90, =
+=E1=83=93=E1=83=90 =E1=83=AE=E1=83=9D=E1=83=9B =E1=83=90=E1=83=A0 =E1=83=A8=
+=E1=83=94=E1=83=98=E1=83=AB=E1=83=9A=E1=83=94=E1=83=91=E1=83=9D=E1=83=93=E1=
+=83=90 =E1=83=90=E1=83=9B =E1=83=A1=E1=83=90=E1=83=99=E1=83=98=E1=83=97=E1=
+=83=AE=E1=83=98=E1=83=A1 =E1=83=92=E1=83=90=E1=83=93=E1=83=90=E1=83=AE=E1=
+=83=94=E1=83=93=E1=83=95=E1=83=90?</div><div class=3D"yiv1122905982">=E1=83=
+=9B=E1=83=98=E1=83=95=E1=83=98=E1=83=A6=E1=83=94=E1=83=91 =E1=83=A7=E1=83=
+=95=E1=83=94=E1=83=9A=E1=83=90=E1=83=9C=E1=83=90=E1=83=98=E1=83=A0 =E1=83=
+=9E=E1=83=90=E1=83=A1=E1=83=A3=E1=83=AE=E1=83=A1, =E1=83=97=E1=83=A3 =E1=83=
+=A1=E1=83=AE=E1=83=90=E1=83=95 =E1=83=97=E1=83=90=E1=83=9C=E1=83=AE=E1=83=
+=90 =E1=83=97=E1=83=A5=E1=83=95=E1=83=94=E1=83=9C=E1=83=97=E1=83=95=E1=83=
+=98=E1=83=A1 =E1=83=9B=E1=83=98=E1=83=A3=E1=83=A6=E1=83=94=E1=83=91=E1=83=
+=94=E1=83=9A=E1=83=98=E1=83=90 =E1=83=90=E1=83=A0 =E1=83=90=E1=83=A0=E1=83=
+=98=E1=83=A1 =E1=83=9E=E1=83=A0=E1=83=9D=E1=83=91=E1=83=9A=E1=83=94=E1=83=
+=9B=E1=83=90.</div><div class=3D"yiv1122905982"><br clear=3D"none" class=3D=
+"yiv1122905982"></div><div class=3D"yiv1122905982">=E1=83=92=E1=83=9B=E1=83=
+=90=E1=83=93=E1=83=9A=E1=83=9D=E1=83=91=E1=83=97</div><div class=3D"yiv1122=
+905982"><br clear=3D"none" class=3D"yiv1122905982"></div><div class=3D"yiv1=
+122905982">=E1=83=94=E1=83=99=E1=83=90&nbsp;<br clear=3D"none" class=3D"yiv=
+1122905982"><div><br clear=3D"none" class=3D"yiv1122905982"><blockquote cla=
+ss=3D"yiv1122905982" type=3D"cite" style=3D"margin-right:0px;"><div class=
+=3D"yiv1122905982">On Jun 12, 2019, at 6:46 PM, m.chitaia &lt;<a rel=3D"nof=
+ollow" shape=3D"rect" class=3D"yiv1122905982" ymailto=3D"mailto:m.chitaia@y=
+ahoo.com" target=3D"_blank" href=3D"mailto:m.chitaia@yahoo.com">m.chitaia@y=
+ahoo.com</a>&gt; wrote:</div><br clear=3D"none" class=3D"yiv1122905982Apple=
+-interchange-newline_mailru_css_attribute_postfix_mailru_css_attribute_post=
+fix"><div class=3D"yiv1122905982"><div class=3D"yiv1122905982"><div class=
+=3D"yiv1122905982">=E1=83=94=E1=83=99=E1=83=90,</div><div class=3D"yiv11229=
+05982"><br clear=3D"none" class=3D"yiv1122905982"></div><div class=3D"yiv11=
+22905982">=E1=83=92=E1=83=90=E1=83=A1=E1=83=90=E1=83=92=E1=83=94=E1=83=91=
+=E1=83=98=E1=83=90 =E1=83=97=E1=83=A5=E1=83=95=E1=83=94=E1=83=9C=E1=83=98 =
+=E1=83=9E=E1=83=90=E1=83=A1=E1=83=A3=E1=83=AE=E1=83=98.&nbsp;</div><div cla=
+ss=3D"yiv1122905982">=E1=83=A0=E1=83=9D=E1=83=92=E1=83=9D=E1=83=A0=E1=83=AA=
+ =E1=83=92=E1=83=98=E1=83=97=E1=83=AE=E1=83=90=E1=83=A0=E1=83=98=E1=83=97, =
+=E1=83=9E=E1=83=98=E1=83=A0=E1=83=95=E1=83=94=E1=83=9A=E1=83=90=E1=83=93=E1=
+=83=98 =E1=83=A2=E1=83=94=E1=83=A1=E1=83=A2=E1=83=98=E1=83=A0=E1=83=94=E1=
+=83=91=E1=83=98=E1=83=A1=E1=83=97=E1=83=95=E1=83=98=E1=83=A1 1 =E1=83=99=E1=
+=83=95=E1=83=98=E1=83=A0=E1=83=90 =E1=83=93=E1=83=90=E1=83=9B=E1=83=AD=E1=
+=83=98=E1=83=A0=E1=83=93=E1=83=94=E1=83=91=E1=83=90. =E1=83=9B=E1=83=94=E1=
+=83=9D=E1=83=A0=E1=83=90=E1=83=93=E1=83=98 =E1=83=A2=E1=83=94=E1=83=A1=E1=
+=83=A2=E1=83=98=E1=83=A0=E1=83=94=E1=83=91=E1=83=90 =E1=83=97=E1=83=A5=E1=
+=83=95=E1=83=94=E1=83=9C =E1=83=9B=E1=83=98=E1=83=94=E1=83=A0 =E1=83=93=E1=
+=83=90=E1=83=99=E1=83=9D=E1=83=9C=E1=83=A2=E1=83=90=E1=83=A5=E1=83=A2=E1=83=
+=94=E1=83=91=E1=83=98=E1=83=A1 =E1=83=A8=E1=83=94=E1=83=9B=E1=83=93=E1=83=
+=94=E1=83=92 =E1=83=9B=E1=83=9D=E1=83=AE=E1=83=93=E1=83=94=E1=83=91=E1=83=
+=90 =E1=83=93=E1=83=90 =E1=83=A1=E1=83=90=E1=83=95=E1=83=90=E1=83=A0=E1=83=
+=90=E1=83=A3=E1=83=93=E1=83=9D=E1=83=93 2-3 =E1=83=93=E1=83=A6=E1=83=94 =E1=
+=83=A1=E1=83=90=E1=83=99=E1=83=9B=E1=83=90=E1=83=A0=E1=83=98=E1=83=A1=E1=83=
+=98 =E1=83=98=E1=83=A5=E1=83=9C=E1=83=94=E1=83=91=E1=83=90 (=E1=83=93=E1=83=
+=90=E1=83=9B=E1=83=9D=E1=83=99=E1=83=98=E1=83=93=E1=83=94=E1=83=91=E1=83=A3=
+=E1=83=9A=E1=83=98=E1=83=90 =E1=83=9E=E1=83=98=E1=83=A0=E1=83=95=E1=83=94=
+=E1=83=9A=E1=83=90=E1=83=93=E1=83=98 =E1=83=A2=E1=83=94=E1=83=A1=E1=83=A2=
+=E1=83=98=E1=83=A0=E1=83=94=E1=83=91=E1=83=98=E1=83=A1 =E1=83=A8=E1=83=94=
+=E1=83=93=E1=83=94=E1=83=92=E1=83=94=E1=83=91=E1=83=96=E1=83=94).</div><div=
+ class=3D"yiv1122905982">=E1=83=99=E1=83=90=E1=83=9A=E1=83=99=E1=83=A3=E1=
+=83=9A=E1=83=90=E1=83=AA=E1=83=98=E1=83=94=E1=83=91=E1=83=96=E1=83=94 =E1=
+=83=A0=E1=83=9D=E1=83=92=E1=83=9D=E1=83=A0=E1=83=AA =E1=83=9B=E1=83=9D=E1=
+=83=9B=E1=83=AC=E1=83=94=E1=83=A0=E1=83=94=E1=83=97, =E1=83=9B=E1=83=AE=E1=
+=83=9D=E1=83=9A=E1=83=9D=E1=83=93 =E1=83=9B=E1=83=90=E1=83=A8=E1=83=98=E1=
+=83=9C =E1=83=92=E1=83=90=E1=83=95=E1=83=90=E1=83=9B=E1=83=90=E1=83=AE=E1=
+=83=95=E1=83=98=E1=83=9A=E1=83=94=E1=83=91 =E1=83=A7=E1=83=A3=E1=83=A0=E1=
+=83=90=E1=83=93=E1=83=A6=E1=83=94=E1=83=91=E1=83=90=E1=83=A1 =E1=83=97=E1=
+=83=A3 =E1=83=9A=E1=83=9D=E1=83=92=E1=83=98=E1=83=99=E1=83=A3=E1=83=A0 =E1=
+=83=A9=E1=83=90=E1=83=A0=E1=83=A9=E1=83=9D=E1=83=A1 =E1=83=92=E1=83=90=E1=
+=83=A1=E1=83=AA=E1=83=93=E1=83=90 (=E1=83=9B=E1=83=90=E1=83=92=E1=83=90=E1=
+=83=9A=E1=83=98=E1=83=97=E1=83=90=E1=83=93 =E1=83=92=E1=83=90=E1=83=95=E1=
+=83=96=E1=83=90=E1=83=A0=E1=83=93=E1=83=94 =E1=83=9B=E1=83=9D=E1=83=9C=E1=
+=83=90=E1=83=AC=E1=83=98=E1=83=9A=E1=83=94=E1=83=97=E1=83=90 =E1=83=A0=E1=
+=83=98=E1=83=AA=E1=83=AE=E1=83=95=E1=83=98 =E1=83=93=E1=83=90 =E1=83=A8=E1=
+=83=94=E1=83=9B=E1=83=AA=E1=83=98=E1=83=A0=E1=83=93=E1=83=90 =E1=83=A2=E1=
+=83=A3=E1=83=A0=E1=83=98=E1=83=A1 =E1=83=A6=E1=83=98=E1=83=A0=E1=83=94=E1=
+=83=91=E1=83=A3=E1=83=9A=E1=83=94=E1=83=91=E1=83=90).</div><div class=3D"yi=
+v1122905982">=E1=83=9B=E1=83=9D=E1=83=92=E1=83=90=E1=83=AC=E1=83=95=E1=83=
+=93=E1=83=98=E1=83=97 =E1=83=91=E1=83=90=E1=83=92=E1=83=94=E1=83=91=E1=83=
+=98=E1=83=A1 =E1=83=90=E1=83=A6=E1=83=AC=E1=83=94=E1=83=A0=E1=83=94=E1=83=
+=91=E1=83=A1 =E1=83=AC=E1=83=94=E1=83=A0=E1=83=98=E1=83=9A=E1=83=9D=E1=83=
+=91=E1=83=98=E1=83=97.</div><div class=3D"yiv1122905982">=E1=83=9B=E1=83=97=
+=E1=83=94=E1=83=9A=E1=83=98 =E1=83=90=E1=83=9B =E1=83=A1=E1=83=90=E1=83=9B=
+=E1=83=A3=E1=83=A8=E1=83=90=E1=83=9D=E1=83=A1=E1=83=97=E1=83=95=E1=83=98=E1=
+=83=A1 =E1=83=95=E1=83=98=E1=83=97=E1=83=AE=E1=83=9D=E1=83=95 400 =E1=83=9A=
+=E1=83=90=E1=83=A0=E1=83=A1.</div><div class=3D"yiv1122905982"><br clear=3D=
+"none" class=3D"yiv1122905982"></div><div class=3D"yiv1122905982">=E1=83=95=
+=E1=83=94=E1=83=9A=E1=83=9D=E1=83=93=E1=83=94=E1=83=91=E1=83=98 =E1=83=97=
+=E1=83=A5=E1=83=95=E1=83=94=E1=83=9C=E1=83=A1 =E1=83=92=E1=83=90=E1=83=9B=
+=E1=83=9D=E1=83=AE=E1=83=9B=E1=83=90=E1=83=A3=E1=83=A0=E1=83=94=E1=83=91=E1=
+=83=90=E1=83=A1.</div><div class=3D"yiv1122905982"><br clear=3D"none" class=
+=3D"yiv1122905982"></div><div class=3D"yiv1122905982">=E1=83=9E=E1=83=90=E1=
+=83=A2=E1=83=98=E1=83=95=E1=83=98=E1=83=A1=E1=83=AA=E1=83=94=E1=83=9B=E1=83=
+=98=E1=83=97, =E1=83=9B=E1=83=90=E1=83=98=E1=83=90</div><div class=3D"yiv11=
+22905982"><br clear=3D"none" class=3D"yiv1122905982"></div><div class=3D"yi=
+v1122905982"><br clear=3D"none" class=3D"yiv1122905982"></div><div class=3D=
+"yiv1122905982"><br clear=3D"none" class=3D"yiv1122905982"></div><div class=
+=3D"yiv1122905982" id=3D"yiv1122905982composer_signature_mailru_css_attribu=
+te_postfix_mailru_css_attribute_postfix"><div class=3D"yiv1122905982" style=
+=3D"font-size:85%;color:#575757;">Sent from my Samsung Galaxy smartphone.</=
+div></div><div class=3D"yiv1122905982"><br clear=3D"none" class=3D"yiv11229=
+05982"></div><div class=3D"yiv1122905982" style=3D"font-size:100%;"><div cl=
+ass=3D"yiv1122905982">-------- Original message --------</div><div class=3D=
+"yiv1122905982">From: Eka &lt;<a rel=3D"nofollow" shape=3D"rect" class=3D"y=
+iv1122905982" ymailto=3D"mailto:e.tarkhnishvili@tripplanner.ge" target=3D"_=
+blank" href=3D"mailto:e.tarkhnishvili@tripplanner.ge">e.tarkhnishvili@tripp=
+lanner.ge</a>&gt; </div><div class=3D"yiv1122905982">Date: 6/12/19  13:25  =
+(GMT+04:00) </div><div class=3D"yiv1122905982">To: "m.chitaia" &lt;<a rel=
+=3D"nofollow" shape=3D"rect" class=3D"yiv1122905982" ymailto=3D"mailto:m.ch=
+itaia@yahoo.com" target=3D"_blank" href=3D"mailto:m.chitaia@yahoo.com">m.ch=
+itaia@yahoo.com</a>&gt; </div><div class=3D"yiv1122905982">Subject: Re: =E1=
+=83=A1=E1=83=90=E1=83=98=E1=83=A2=E1=83=98=E1=83=A1 =E1=83=9B=E1=83=9D=E1=
+=83=91=E1=83=98=E1=83=9A=E1=83=A3=E1=83=A0=E1=83=98 =E1=83=95=E1=83=94=E1=
+=83=A0=E1=83=A1=E1=83=98=E1=83=98=E1=83=A1 =E1=83=A2=E1=83=94=E1=83=A1=E1=
+=83=A2=E1=83=98=E1=83=A0=E1=83=94=E1=83=91=E1=83=90 </div><div class=3D"yiv=
+1122905982"><br clear=3D"none" class=3D"yiv1122905982"></div></div>=E1=83=
+=9B=E1=83=9D=E1=83=92=E1=83=94=E1=83=A1=E1=83=90=E1=83=9A=E1=83=9B=E1=83=94=
+=E1=83=91=E1=83=98,<div class=3D"yiv1122905982"><br clear=3D"none" class=3D=
+"yiv1122905982"></div><div class=3D"yiv1122905982">=E1=83=A2=E1=83=94=E1=83=
+=A1=E1=83=A2=E1=83=98=E1=83=A0=E1=83=94=E1=83=91=E1=83=90 =E1=83=92=E1=83=
+=95=E1=83=98=E1=83=9C=E1=83=93=E1=83=90 =E1=83=9B=E1=83=AE=E1=83=9D=E1=83=
+=9A=E1=83=9D=E1=83=93 =E1=83=9B=E1=83=9D=E1=83=91=E1=83=98=E1=83=9A=E1=83=
+=A3=E1=83=A0=E1=83=98 =E1=83=95=E1=83=94=E1=83=A0=E1=83=A1=E1=83=98=E1=83=
+=98=E1=83=A1, =E1=83=AE=E1=83=94=E1=83=9A=E1=83=9B=E1=83=94=E1=83=9D=E1=83=
+=A0=E1=83=94=E1=83=93 =E1=83=92=E1=83=90=E1=83=93=E1=83=90=E1=83=9B=E1=83=
+=9D=E1=83=AC=E1=83=9B=E1=83=94=E1=83=91=E1=83=98=E1=83=97.&nbsp;</div><div =
+class=3D"yiv1122905982">=E1=83=A0=E1=83=90=E1=83=AA =E1=83=A8=E1=83=94=E1=
+=83=94=E1=83=AE=E1=83=94=E1=83=91=E1=83=90 =E1=83=99=E1=83=90=E1=83=9A=E1=
+=83=99=E1=83=A3=E1=83=9A=E1=83=90=E1=83=AA=E1=83=98=E1=83=90=E1=83=A1, =E1=
+=83=AA=E1=83=9D=E1=83=A2=E1=83=90 =E1=83=9B=E1=83=94=E1=83=A0=E1=83=97=E1=
+=83=A3=E1=83=9A=E1=83=94=E1=83=91=E1=83=90 =E1=83=90=E1=83=9B=E1=83=98=E1=
+=83=A1 =E1=83=90=E1=83=AE=E1=83=A1=E1=83=9C=E1=83=90 =E1=83=93=E1=83=90 =E1=
+=83=90=E1=83=A0=E1=83=AA =E1=83=A0=E1=83=90=E1=83=9B=E1=83=94 =E1=83=9B=E1=
+=83=90=E1=83=A5=E1=83=95=E1=83=A1 =E1=83=99=E1=83=9D=E1=83=9C=E1=83=99=E1=
+=83=A0=E1=83=94=E1=83=A2=E1=83=A3=E1=83=9A=E1=83=98 =E1=83=A0=E1=83=9D=E1=
+=83=9B =E1=83=A1=E1=83=90=E1=83=AE=E1=83=94=E1=83=9A=E1=83=9B=E1=83=AB=E1=
+=83=A6=E1=83=95=E1=83=90=E1=83=9C=E1=83=94=E1=83=9A=E1=83=9D=E1=83=93 =E1=
+=83=9B=E1=83=9D=E1=83=92=E1=83=90=E1=83=AC=E1=83=9D=E1=83=93=E1=83=9D=E1=83=
+=97, =E1=83=A8=E1=83=94=E1=83=A1=E1=83=90=E1=83=91=E1=83=90=E1=83=9B=E1=83=
+=98=E1=83=A1=E1=83=90=E1=83=93 =E1=83=94=E1=83=A1 =E1=83=9C=E1=83=90=E1=83=
+=AC=E1=83=98=E1=83=9A=E1=83=98 =E1=83=A8=E1=83=94=E1=83=92=E1=83=98=E1=83=
+=AB=E1=83=9A=E1=83=98=E1=83=90=E1=83=97 =E1=83=92=E1=83=90=E1=83=9B=E1=83=
+=9D=E1=83=A2=E1=83=9D=E1=83=95=E1=83=98=E1=83=97, =E1=83=9B=E1=83=AE=E1=83=
+=9D=E1=83=9A=E1=83=9D=E1=83=93 =E1=83=98=E1=83=9B=E1=83=90=E1=83=A1 =E1=83=
+=9B=E1=83=98=E1=83=90=E1=83=A5=E1=83=AA=E1=83=98=E1=83=94=E1=83=97 =E1=83=
+=A7=E1=83=A3=E1=83=A0=E1=83=90=E1=83=93=E1=83=A6=E1=83=94=E1=83=91=E1=83=90=
+ =E1=83=A0=E1=83=90=E1=83=9B=E1=83=93=E1=83=94=E1=83=9C=E1=83=90=E1=83=93 =
+=E1=83=A1=E1=83=AC=E1=83=9D=E1=83=A0=E1=83=94=E1=83=93 =E1=83=A3=E1=83=A9=
+=E1=83=95=E1=83=94=E1=83=9C=E1=83=94=E1=83=91=E1=83=A1 =E1=83=95=E1=83=90=
+=E1=83=9A=E1=83=A3=E1=83=A2=E1=83=90=E1=83=A1 =E1=83=93=E1=83=90 =E1=83=97=
+=E1=83=A3 =E1=83=94=E1=83=A5=E1=83=95=E1=83=94=E1=83=9B=E1=83=93=E1=83=94=
+=E1=83=91=E1=83=90=E1=83=A0=E1=83=94=E1=83=91=E1=83=90 =E1=83=A6=E1=83=98=
+=E1=83=9A=E1=83=90=E1=83=99=E1=83=94=E1=83=91=E1=83=96=E1=83=94 =E1=83=93=
+=E1=83=90=E1=83=AD=E1=83=94=E1=83=A0=E1=83=98=E1=83=A1=E1=83=90=E1=83=A1 =
+=E1=83=97=E1=83=90=E1=83=9C=E1=83=AE=E1=83=98=E1=83=A1 =E1=83=AA=E1=83=95=
+=E1=83=9A=E1=83=98=E1=83=9A=E1=83=94=E1=83=91=E1=83=90. =E1=83=9B=E1=83=AE=
+=E1=83=9D=E1=83=9A=E1=83=9D=E1=83=93 =E1=83=A1=E1=83=90=E1=83=94=E1=83=AD=
+=E1=83=95=E1=83=9D =E1=83=97=E1=83=A3 =E1=83=98=E1=83=A5=E1=83=9C=E1=83=94=
+=E1=83=91=E1=83=90 =E1=83=98=E1=83=A1 =E1=83=98=E1=83=9B=E1=83=90=E1=83=A1 =
+=E1=83=9B=E1=83=98=E1=83=90=E1=83=AC=E1=83=AA=E1=83=98=E1=83=94=E1=83=97 =
+=E1=83=9B=E1=83=94=E1=83=A2=E1=83=98 =E1=83=A7=E1=83=A3=E1=83=A0=E1=83=90=
+=E1=83=93=E1=83=A6=E1=83=94=E1=83=91=E1=83=90 =E1=83=90=E1=83=9B =E1=83=9B=
+=E1=83=AE=E1=83=A0=E1=83=98=E1=83=95.</div><div class=3D"yiv1122905982"><br=
+ clear=3D"none" class=3D"yiv1122905982"></div><div class=3D"yiv1122905982">=
+=E1=83=92=E1=83=9B=E1=83=90=E1=83=93=E1=83=9A=E1=83=9D=E1=83=91</div><div c=
+lass=3D"yiv1122905982"><br clear=3D"none" class=3D"yiv1122905982"></div><di=
+v class=3D"yiv1122905982">=E1=83=9E=E1=83=90=E1=83=A2=E1=83=98=E1=83=95=E1=
+=83=98=E1=83=A1=E1=83=AA=E1=83=94=E1=83=9B=E1=83=98=E1=83=97</div><div clas=
+s=3D"yiv1122905982">=E1=83=94=E1=83=99=E1=83=90<br clear=3D"none" class=3D"=
+yiv1122905982"><div class=3D"yiv1122905982"><br clear=3D"none" class=3D"yiv=
+1122905982"><blockquote class=3D"yiv1122905982" type=3D"cite" style=3D"marg=
+in:0px;padding:0px;"><div class=3D"yiv1122905982">On Jun 12, 2019, at 12:30=
+ AM, m.chitaia &lt;<a rel=3D"nofollow" shape=3D"rect" class=3D"yiv112290598=
+2" ymailto=3D"mailto:m.chitaia@yahoo.com" target=3D"_blank" href=3D"mailto:=
+m.chitaia@yahoo.com">m.chitaia@yahoo.com</a>&gt; wrote:</div><br clear=3D"n=
+one" class=3D"yiv1122905982Apple-interchange-newline_mailru_css_attribute_p=
+ostfix_mailru_css_attribute_postfix"><div class=3D"yiv1122905982"><div clas=
+s=3D"yiv1122905982"><div class=3D"yiv1122905982">=E1=83=9B=E1=83=9D=E1=83=
+=92=E1=83=94=E1=83=A1=E1=83=90=E1=83=9A=E1=83=9B=E1=83=94=E1=83=91=E1=83=98=
+=E1=83=97,</div><div class=3D"yiv1122905982"><br clear=3D"none" class=3D"yi=
+v1122905982"></div><div class=3D"yiv1122905982">=E1=83=92=E1=83=90=E1=83=95=
+=E1=83=94=E1=83=AA=E1=83=90=E1=83=9C=E1=83=98 =E1=83=97=E1=83=A5=E1=83=95=
+=E1=83=94=E1=83=9C =E1=83=9B=E1=83=98=E1=83=94=E1=83=A0 =E1=83=9B=E1=83=9D=
+=E1=83=AC=E1=83=9D=E1=83=93=E1=83=94=E1=83=91=E1=83=A3=E1=83=9A =E1=83=A1=
+=E1=83=90=E1=83=98=E1=83=A2=E1=83=A1, =E1=83=95=E1=83=9C=E1=83=90=E1=83=AE=
+=E1=83=94 =E1=83=AB=E1=83=98=E1=83=A0=E1=83=98=E1=83=97=E1=83=90=E1=83=93=
+=E1=83=98 =E1=83=A4=E1=83=A3=E1=83=9C=E1=83=A5=E1=83=AA=E1=83=98=E1=83=94=
+=E1=83=91=E1=83=98 =E1=83=93=E1=83=90 =E1=83=9B=E1=83=90=E1=83=A5=E1=83=95=
+=E1=83=A1 =E1=83=9B=E1=83=9D=E1=83=9C=E1=83=90=E1=83=AE=E1=83=90=E1=83=96=
+=E1=83=98 =E1=83=A9=E1=83=95=E1=83=94=E1=83=9C=E1=83=A1 =E1=83=97=E1=83=90=
+=E1=83=9C=E1=83=90=E1=83=9B=E1=83=A8=E1=83=A0=E1=83=9D=E1=83=9B=E1=83=9A=E1=
+=83=9D=E1=83=91=E1=83=90=E1=83=A1=E1=83=97=E1=83=90=E1=83=9C =E1=83=93=E1=
+=83=90=E1=83=99=E1=83=90=E1=83=95=E1=83=A8=E1=83=98=E1=83=A0=E1=83=94=E1=83=
+=91=E1=83=98=E1=83=97.</div><div class=3D"yiv1122905982">=E1=83=95=E1=83=A4=
+=E1=83=98=E1=83=A5=E1=83=A0=E1=83=9D=E1=83=91, =E1=83=A0=E1=83=9D=E1=83=9B =
+=E1=83=A1=E1=83=98=E1=83=A6=E1=83=A0=E1=83=9B=E1=83=98=E1=83=A1=E1=83=94=E1=
+=83=A3=E1=83=9A=E1=83=90=E1=83=93 =E1=83=92=E1=83=90=E1=83=A1=E1=83=90=E1=
+=83=A2=E1=83=94=E1=83=A1=E1=83=A2=E1=83=90=E1=83=93 =E1=83=94=E1=83=A0=E1=
+=83=97=E1=83=98 =E1=83=99=E1=83=95=E1=83=98=E1=83=A0=E1=83=90 =E1=83=93=E1=
+=83=90=E1=83=9B=E1=83=AD=E1=83=98=E1=83=A0=E1=83=93=E1=83=94=E1=83=91=E1=83=
+=90. =E1=83=90=E1=83=9B =E1=83=95=E1=83=90=E1=83=93=E1=83=90=E1=83=A8=E1=83=
+=98 =E1=83=9B=E1=83=9D=E1=83=92=E1=83=90=E1=83=AC=E1=83=95=E1=83=93=E1=83=
+=98=E1=83=97 =E1=83=AE=E1=83=90=E1=83=A0=E1=83=95=E1=83=94=E1=83=96=E1=83=
+=94=E1=83=91=E1=83=98=E1=83=A1 =E1=83=90=E1=83=A6=E1=83=AC=E1=83=94=E1=83=
+=A0=E1=83=94=E1=83=91=E1=83=A1 =E1=83=93=E1=83=90 =E1=83=A1=E1=83=A5=E1=83=
+=A0=E1=83=98=E1=83=9C=E1=83=A8=E1=83=9D=E1=83=97=E1=83=94=E1=83=91=E1=83=A1=
+.&nbsp;</div><div class=3D"yiv1122905982">=E1=83=90=E1=83=A5=E1=83=95=E1=83=
+=94 =E1=83=9B=E1=83=98=E1=83=9C=E1=83=93=E1=83=90 =E1=83=93=E1=83=90=E1=83=
+=95=E1=83=90=E1=83=96=E1=83=A3=E1=83=A1=E1=83=A2=E1=83=9D =E1=83=A0=E1=83=
+=90=E1=83=9B=E1=83=93=E1=83=94=E1=83=9C=E1=83=98=E1=83=9B=E1=83=94 =E1=83=
+=A1=E1=83=90=E1=83=99=E1=83=98=E1=83=97=E1=83=AE=E1=83=98: =E1=83=A2=E1=83=
+=94=E1=83=A1=E1=83=A2=E1=83=98=E1=83=A0=E1=83=94=E1=83=91=E1=83=90 =E1=83=
+=A3=E1=83=9C=E1=83=93=E1=83=90 =E1=83=9B=E1=83=9D=E1=83=AE=E1=83=93=E1=83=
+=94=E1=83=A1 =E1=83=9B=E1=83=AE=E1=83=9D=E1=83=9A=E1=83=9D=E1=83=93 =E1=83=
+=9B=E1=83=9D=E1=83=91=E1=83=98=E1=83=9A=E1=83=A3=E1=83=A0=E1=83=98 =E1=83=
+=95=E1=83=94=E1=83=A0=E1=83=A1=E1=83=98=E1=83=98=E1=83=A1? =E1=83=9B=E1=83=
+=AE=E1=83=9D=E1=83=9A=E1=83=9D=E1=83=93 =E1=83=9E=E1=83=98=E1=83=A0=E1=83=
+=95=E1=83=94=E1=83=9A=E1=83=90=E1=83=93=E1=83=98 =E1=83=A2=E1=83=94=E1=83=
+=A1=E1=83=A2=E1=83=98=E1=83=A0=E1=83=94=E1=83=91=E1=83=90 =E1=83=92=E1=83=
+=A1=E1=83=A3=E1=83=A0=E1=83=97 =E1=83=97=E1=83=A3 =E1=83=92=E1=83=90=E1=83=
+=A1=E1=83=AC=E1=83=9D=E1=83=A0=E1=83=94=E1=83=91=E1=83=98=E1=83=A1 =E1=83=
+=A8=E1=83=94=E1=83=9B=E1=83=93=E1=83=94=E1=83=92=E1=83=90=E1=83=AA? =E1=83=
+=A0=E1=83=90=E1=83=AA =E1=83=A8=E1=83=94=E1=83=94=E1=83=AE=E1=83=94=E1=83=
+=91=E1=83=90 =E1=83=99=E1=83=90=E1=83=9A=E1=83=99=E1=83=A3=E1=83=9A=E1=83=
+=90=E1=83=AA=E1=83=98=E1=83=94=E1=83=91=E1=83=A1, =E1=83=A1=E1=83=90=E1=83=
+=93=E1=83=90=E1=83=AA =E1=83=90=E1=83=9C=E1=83=92=E1=83=90=E1=83=A0=E1=83=
+=98=E1=83=A8=E1=83=93=E1=83=94=E1=83=91=E1=83=90 =E1=83=A2=E1=83=A3=E1=83=
+=A0=E1=83=98=E1=83=A1 =E1=83=A6=E1=83=98=E1=83=A0=E1=83=94=E1=83=91=E1=83=
+=A3=E1=83=9A=E1=83=94=E1=83=91=E1=83=90, =E1=83=A0=E1=83=90=E1=83=98=E1=83=
+=9B=E1=83=94 =E1=83=AC=E1=83=A7=E1=83=90=E1=83=A0=E1=83=9D=E1=83=A1 =E1=83=
+=9B=E1=83=9D=E1=83=9B=E1=83=90=E1=83=AC=E1=83=95=E1=83=93=E1=83=98=E1=83=97=
+ =E1=83=A0=E1=83=98=E1=83=97=E1=83=98=E1=83=AA =E1=83=95=E1=83=98=E1=83=AE=
+=E1=83=94=E1=83=9A=E1=83=9B=E1=83=AB=E1=83=A6=E1=83=95=E1=83=90=E1=83=9C=E1=
+=83=94=E1=83=9A=E1=83=94=E1=83=91 =E1=83=A0=E1=83=9D=E1=83=9B =E1=83=A1=E1=
+=83=98=E1=83=96=E1=83=A3=E1=83=A1=E1=83=A2=E1=83=94 =E1=83=93=E1=83=90=E1=
+=83=95=E1=83=90=E1=83=93=E1=83=92=E1=83=98=E1=83=9C=E1=83=9D?</div><div cla=
+ss=3D"yiv1122905982"><br clear=3D"none" class=3D"yiv1122905982"></div><div =
+class=3D"yiv1122905982">=E1=83=97=E1=83=A5=E1=83=95=E1=83=94=E1=83=9C=E1=83=
+=98 =E1=83=9E=E1=83=90=E1=83=A1=E1=83=A3=E1=83=AE=E1=83=94=E1=83=91=E1=83=
+=98=E1=83=A1 =E1=83=A8=E1=83=94=E1=83=A1=E1=83=90=E1=83=91=E1=83=90=E1=83=
+=9B=E1=83=98=E1=83=A1=E1=83=90=E1=83=93 =E1=83=9B=E1=83=9D=E1=83=92=E1=83=
+=90=E1=83=AC=E1=83=95=E1=83=93=E1=83=98=E1=83=97 =E1=83=A9=E1=83=94=E1=83=
+=9B=E1=83=A1 =E1=83=A8=E1=83=94=E1=83=A4=E1=83=90=E1=83=A1=E1=83=94=E1=83=
+=91=E1=83=90=E1=83=A1 =E1=83=91=E1=83=98=E1=83=A3=E1=83=AF=E1=83=94=E1=83=
+=A2=E1=83=97=E1=83=90=E1=83=9C =E1=83=93=E1=83=90=E1=83=99=E1=83=90=E1=83=
+=95=E1=83=A8=E1=83=98=E1=83=A0=E1=83=94=E1=83=91=E1=83=98=E1=83=97.</div><d=
+iv class=3D"yiv1122905982"><br clear=3D"none" class=3D"yiv1122905982"></div=
+><div class=3D"yiv1122905982">=E1=83=9E=E1=83=90=E1=83=A2=E1=83=98=E1=83=95=
+=E1=83=98=E1=83=A1=E1=83=AA=E1=83=94=E1=83=9B=E1=83=98=E1=83=97, =E1=83=9B=
+=E1=83=90=E1=83=98=E1=83=90</div><div class=3D"yiv1122905982"><br clear=3D"=
+none" class=3D"yiv1122905982"></div><div class=3D"yiv1122905982"><br clear=
+=3D"none" class=3D"yiv1122905982"></div><div class=3D"yiv1122905982"><br cl=
+ear=3D"none" class=3D"yiv1122905982"></div><div class=3D"yiv1122905982" id=
+=3D"yiv1122905982composer_signature_mailru_css_attribute_postfix_mailru_css=
+_attribute_postfix"><div class=3D"yiv1122905982" style=3D"font-size:85%;col=
+or:#575757;">Sent from my Samsung Galaxy smartphone.</div></div></div></div=
+></blockquote></div><br clear=3D"none" class=3D"yiv1122905982"></div></div>=
+</div></blockquote></div><br clear=3D"none" class=3D"yiv1122905982"></div><=
+/div></div>
+=09=09=09
+=09=09
+=09=09
+=09</div>
+
+=09
+</div></blockquote></div></div></div></div></div>
+=09=09=09
+=09=09
+=09=09</div><base></div></div>
+            </div>
+        </div></body></html>
+------=_Part_1517529_177618936.1561447537327--
+
+------=_Part_1517530_827001951.1561447537426
+Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Tripplanner_test_results.xlsx"
+Content-ID: <44808613-c4f4-e9ca-ee28-91d014d36144@yahoo.com>
+
+UEsDBBQABgAIAAAAIQBi7p1oXgEAAJAEAAATAAgCW0NvbnRlbnRfVHlwZXNdLnhtbCCiBAIooAAC
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACs
+lMtOwzAQRfdI/EPkLUrcskAINe2CxxIqUT7AxJPGqmNbnmlp/56J+xBCoRVqN7ESz9x7MvHNaLJu
+bbaCiMa7UgyLgcjAVV4bNy/Fx+wlvxcZknJaWe+gFBtAMRlfX41mmwCYcbfDUjRE4UFKrBpoFRY+
+gOOd2sdWEd/GuQyqWqg5yNvB4E5W3hE4yqnTEOPRE9RqaSl7XvPjLUkEiyJ73BZ2XqVQIVhTKWJS
+uXL6l0u+cyi4M9VgYwLeMIaQvQ7dzt8Gu743Hk00GrKpivSqWsaQayu/fFx8er8ojov0UPq6NhVo
+Xy1bnkCBIYLS2ABQa4u0Fq0ybs99xD8Vo0zL8MIg3fsl4RMcxN8bZLqej5BkThgibSzgpceeRE85
+NyqCfqfIybg4wE/tYxx8bqbRB+QERfj/FPYR6brzwEIQycAhJH2H7eDI6Tt77NDlW4Pu8ZbpfzL+
+BgAA//8DAFBLAwQUAAYACAAAACEAtVUwI/QAAABMAgAACwAIAl9yZWxzLy5yZWxzIKIEAiigAAIA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKyS
+TU/DMAyG70j8h8j31d2QEEJLd0FIuyFUfoBJ3A+1jaMkG92/JxwQVBqDA0d/vX78ytvdPI3qyCH2
+4jSsixIUOyO2d62Gl/pxdQcqJnKWRnGs4cQRdtX11faZR0p5KHa9jyqruKihS8nfI0bT8USxEM8u
+VxoJE6UchhY9mYFaxk1Z3mL4rgHVQlPtrYawtzeg6pPPm3/XlqbpDT+IOUzs0pkVyHNiZ9mufMhs
+IfX5GlVTaDlpsGKecjoieV9kbMDzRJu/E/18LU6cyFIiNBL4Ms9HxyWg9X9atDTxy515xDcJw6vI
+8MmCix+o3gEAAP//AwBQSwMEFAAGAAgAAAAhALLNXFZGAwAArwcAAA8AAAB4bC93b3JrYm9vay54
+bWysVdtunDoUfa90/gH5nWBzB2VSzQygRmqrKE3bl0iVAyZYA5hjm8xEUf+928wwSZo+5KRnxNj4
+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
+AIACAAAaKwAAAAA=
+
+------=_Part_1517530_827001951.1561447537426--

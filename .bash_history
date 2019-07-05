@@ -4038,3 +4038,617 @@ cd ../
 cd ../
 #1557244676
 git status
+#1557244765
+git add .
+#1557244774
+git commit -m "updates"
+#1557244785
+git push origin master
+#1557244807
+cd beetrip.ge
+#1557244811
+git status
+#1557244815
+exit
+#1557314726
+cd public_html
+#1557314729
+git status
+#1557323939
+exit
+#1557484427
+pwd
+#1557484430
+cd ../
+#1557484432
+ls
+#1557484437
+cd ../
+#1557484439
+ls
+#1557484446
+sudo ls
+#1557484462
+ls
+#1557484468
+cd home4
+#1557484469
+ls
+#1557484475
+cd tripplanner
+#1557484477
+ls
+#1557484484
+cd etc
+#1557484488
+ls
+#1557484500
+cd tripplanner.ge
+#1557484502
+ls
+#1557484518
+cd passwd
+#1557484540
+cat passwd
+#1557484585
+cd
+#1557484587
+ls
+#1557510235
+clear
+#1557510241
+cd beetrip.ge
+#1557510244
+git status
+#1557510248
+git add .
+#1557510268
+git commit -m "transport chnage bug fixed"
+#1557510275
+git push origin master
+#1557763784
+cd beetrip.ge
+#1557763787
+git status
+#1557763806
+git diff _website/js/transfer.js
+#1557763829
+clear
+#1557763850
+cat '.gitignore'
+#1557764562
+clear
+#1557767411
+git status
+#1557767415
+git add .
+#1557767464
+git commit -m "income procent added"
+#1557767477
+git push origin master
+#1557767503
+cd ../public_html
+#1557767539
+git status
+#1557767644
+git add .
+#1557767848
+git commit -m "before change save"
+#1557767857
+git push origin master
+#1557818298
+cd public_html
+#1557818301
+git status
+#1557818315
+git add .
+#1557818329
+git commit -m "income price added planner"
+#1557818336
+git push origin master
+#1557832564
+cd public_html
+#1557832567
+git status
+#1557832595
+git add .
+#1557832614
+git commit -m "trying to fix filemanager upload bug"
+#1557832622
+git push origin master
+#1557833339
+git status
+#1557833364
+git diff files/shorapanifortress.jpg
+#1557835229
+cd
+#1557835244
+User name
+#1557835275
+ls
+#1557835284
+cd ../
+#1557835286
+ls
+#1557835291
+cd ~
+#1557835294
+cd etc
+#1557835299
+ls
+#1557835316
+cd tripplanner.ge
+#1557835317
+ls
+#1557835323
+cd passwd
+#1557835336
+cat passwd
+#1557835649
+cd
+#1557835654
+cd public_html
+#1557835709
+ls -la /
+#1557835715
+sudo ls -la /
+#1557835721
+sudo ls -la
+#1557835728
+ls -la
+#1558010589
+pwd
+#1558024921
+exit
+#1558179522
+cd beetrip.ge
+#1558179531
+mkdir testing
+#1558179536
+cd testing
+#1558293753
+cd public_html
+#1558293757
+git status
+#1558293804
+git add .
+#1558293876
+git commit -m "big last changes"
+#1558293886
+git push origin master
+#1558293910
+cd ../beetrip.ge
+#1558293911
+ls
+#1558293915
+git status
+#1558293924
+cat .htaccess
+#1558293965
+exit
+#1558439310
+exit
+#1558552170
+cd public_html'
+
+
+#1558552184
+cd public_html
+#1558552187
+clear
+#1558552190
+git status
+#1558552215
+cat error_log
+#1558552258
+clear
+#1558552261
+git status
+#1558552271
+git add img/*
+#1558552276
+git status
+#1558552294
+cd files/Atsunta/
+#1558552296
+ls
+#1558552315
+cd ../../
+#1558552318
+clear
+#1558552321
+git status
+#1558552333
+git add files/
+#1558552340
+git status
+#1558552366
+cd _website
+#1558552369
+cd js
+#1558552380
+rm -rf minified
+#1558552385
+cd ../../
+#1558552387
+clear
+#1558552390
+git status
+#1558552396
+git add .
+#1558552402
+git status
+#1558552412
+git commit -m "new updates"
+#1558552419
+git push origin master
+#1558553049
+clear
+#1558553058
+git status
+#1558553068
+cd _website/css
+#1558553080
+rm -rf minified
+#1558553082
+ls
+#1558553084
+cd
+#1558553089
+cd public_html
+#1558553092
+git status
+#1558596907
+cd public_html
+#1558596910
+git status
+#1558598399
+git status
+#1558598412
+cd _website/js/minified/
+#1558598416
+cd ../
+#1558598430
+rm -rf minified
+#1558598435
+git status
+#1558710755
+cd public_html
+#1558710758
+git status
+#1558710772
+git add .
+#1558710781
+git commit -m "updates"
+#1558710789
+git push origin master
+#1558710814
+cd ../
+#1558710820
+cd beetrip.ge
+#1558710823
+git status
+#1558710833
+git diff .htaccess
+#1558710849
+lear
+#1558710852
+clear
+#1558710855
+exit
+#1558710864
+cd
+#1558710866
+clear
+#1558710869
+exit
+#1559806727
+clear
+#1559806735
+cd public_html
+#1559806740
+git status
+#1559806765
+git add .
+#1559806785
+git commit -m "new updates"
+#1559806794
+git push origin master
+#1559806907
+clear
+#1559806927
+wget https://tripplanner.ge
+#1559806941
+ls
+#1559806997
+rm index.html
+#1559806999
+ls
+#1559807024
+echo ' ' >> index.html
+#1559807026
+ls
+#1559807049
+rm index.html
+#1559808740
+cd _website
+#1559808743
+cd css
+#1559808744
+ls
+#1559809540
+cd
+#1559809544
+cd public_html
+#1559809547
+git status
+#1559809566
+git add .
+#1559809581
+git commit -m "compressed css and js files"
+#1559809588
+git push origin master
+#1559809606
+git push origin master
+#1559809969
+pwd
+#1559810006
+git status
+#1559810018
+git add .
+#1559810027
+git commit -m "save"
+#1559810060
+git push -u origin master
+#1559827225
+cd public_html
+#1559827265
+ls
+#1559827295
+mv img/gif.png _website/img/gif.png
+#1559827309
+mv img/gift.png _website/img/gift.png
+#1559827330
+mv img/pop.jpg _website/img/pop.jpg
+#1559910942
+cd public_html
+#1559910943
+ls
+#1559910947
+clear
+#1559910961
+echo 'hi' >> vai.html
+#1559910964
+exit
+#1559910993
+cd public_html
+#1559910999
+rm vai.html
+#1559911013
+exit
+#1559916924
+cd public_html
+#1559916927
+git status
+#1559916947
+git commit -m "save"
+#1559916954
+git add .
+#1559916971
+git commit -m "gift module added"
+#1559916979
+git push origin master
+#1559917000
+exit
+#1559917190
+cd public_html
+#1559917343
+git status
+#1559917354
+cat .gitingone
+#1559917359
+ls
+#1559917372
+cat .gitignore
+#1559917388
+nano .gitignore
+#1559917424
+nano .gitignore
+#1559917429
+clear
+#1559917435
+git status
+#1559917454
+nano .gitignore
+#1559917483
+git status
+#1559917624
+git check-ignore *
+#1559917638
+nano .gitignore
+#1559917736
+ls
+#1559917772
+nano .gitignore
+#1559917798
+git check-ignore *
+#1559917835
+git rm -r --cached .
+#1559917842
+git check-ignore *
+#1559917850
+nano .gitignore
+#1559917890
+git check-ignore *
+#1559917898
+git status
+#1559918367
+git check-ignore *
+#1559918382
+nano .gitignore
+#1559918403
+git check-ignore *
+#1559918411
+nano .gitignore
+#1559918431
+git check-ignore *
+#1559918677
+rm -rf .git
+#1559918685
+git status
+#1559918706
+git init
+#1559918712
+git status
+#1559918723
+nano .gitignore
+#1559921078
+cd _tripadmin
+#1559921104
+echo '/config.php' >> .gitignore
+#1559921111
+cd ../_website
+#1559921116
+echo '/config.php' >> .gitignore
+#1559921119
+cd ../
+#1559921122
+git status
+#1559921157
+git add .
+#1559921365
+git commit -m "first commit"
+#1559921381
+git remote add origin https://github.com/tripplanner123/https.tripplanner.ge.git
+#1559921391
+git push -u origin master
+#1559922475
+git check-ignore *
+#1559922482
+cd _tripadmin
+#1559922485
+git check-ignore *
+#1559922493
+cd
+#1560237282
+exit
+#1560419477
+cd public_html
+#1560419479
+clear
+#1560419482
+ls
+#1560419510
+cd img
+#1560419511
+ls
+#1560419524
+rm -rf temp/*
+#1560419612
+apt-get install webp
+#1560419656
+yum install webp
+#1560419735
+rm -rf temp/*
+#1560434775
+exit
+#1561188793
+cd public_html
+#1561188797
+git status
+#1561188841
+git add img/*
+#1561188867
+git add infotour/*
+#1561188880
+git add invoice/*
+#1561188884
+git status
+#1561188933
+git add .
+#1561188950
+git commit -m "lots of things changes"
+#1561188963
+git push origin master
+#1561192022
+cd ../beetrip.ge
+#1561192023
+ls
+#1561192026
+git status
+#1561192042
+cat .htaccess
+#1561192058
+cd
+#1561192059
+exit
+#1561296145
+exit
+#1562255587
+clear
+#1562255592
+cd public_html
+#1562255596
+git status
+#1562277574
+clear
+#1562277578
+git status
+#1562277586
+git add .
+#1562277604
+git commit -m "last fixes"
+#1562277612
+git push origin master
+#1562277645
+cd ../beetrip.ge
+#1562277649
+git status
+#1562277657
+cat .htaccess
+#1562277665
+clear
+#1562277666
+cd
+#1562277668
+clear
+#1562277671
+git status
+#1562278428
+cd mail/tripplanner.ge/forget2/new/
+#1562278432
+cd ../
+#1562278434
+ls
+#1562278448
+rm -rf new/*
+#1562278454
+cd
+#1562278456
+clear
+#1562278459
+git status
+#1562278468
+cd mail/tripplanner.ge/forget2/new/
+#1562278470
+ls
+#1562278472
+cd ../
+#1562278475
+cd cur
+#1562278477
+ls
+#1562278481
+cd ../
+#1562278497
+rm -rf cur/*
+#1562278504
+clear
+#1562278505
+cd
+#1562278509
+git status
+#1562278528
+git add .
+#1562321608
+git status

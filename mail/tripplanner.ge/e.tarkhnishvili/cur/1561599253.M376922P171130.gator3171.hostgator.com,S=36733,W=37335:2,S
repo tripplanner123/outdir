@@ -1,0 +1,602 @@
+Return-Path: <g.gvazava7@gmail.com>
+Delivered-To: e.tarkhnishvili@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP
+	id 6AtLFhUdFF16nAIA8w4q4w
+	(envelope-from <g.gvazava7@gmail.com>)
+	for <e.tarkhnishvili@tripplanner.ge>; Wed, 26 Jun 2019 20:34:13 -0500
+Return-path: <g.gvazava7@gmail.com>
+Envelope-to: e.tarkhnishvili@tripplanner.ge
+Delivery-date: Wed, 26 Jun 2019 20:34:13 -0500
+Received: from mail-lj1-f182.google.com ([209.85.208.182]:45424)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.92)
+	(envelope-from <g.gvazava7@gmail.com>)
+	id 1hgJIi-000o2z-03
+	for e.tarkhnishvili@tripplanner.ge; Wed, 26 Jun 2019 20:34:13 -0500
+Received: by mail-lj1-f182.google.com with SMTP id m23so513782lje.12
+        for <e.tarkhnishvili@tripplanner.ge>; Wed, 26 Jun 2019 18:34:06 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+        bh=f/KrCxA8w+PrVkEsuxVfeibSCvjK6T8kiP8dvQE0+Vs=;
+        b=FDzhQ3J+zK4XRkbhziBJvCX9LwbcBAYrtLS3eCzz0jHez4aLPflJH3ydsxAGvGT83u
+         3nvrlyB/ysC/czWlhkEDYz2m4zR+l1SJG4dUsTsWIQRjXph5fDclQBOsxpDtAltLmADy
+         hRZDnEtyACDP2ruXOhyXpdP4f9hlMuUOhcCz15jzdTrNN4bLb9M+Z2Tzitd6rPXQ7Q9H
+         Bgn72eWqzRp2GsgLxZ1PhzBVj1ffyfUdxCl9DqWYNc/lfxpvJZAU8T0jE9tawO7cRQA2
+         eZ04JifzFvvYGPJohNqNY1Hq7t14LqAoLUUjg45DiR8AoZbH+rtFhnzR/ORaVOusgowr
+         Va4w==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to;
+        bh=f/KrCxA8w+PrVkEsuxVfeibSCvjK6T8kiP8dvQE0+Vs=;
+        b=PyZWIAk0RLju4MxAIvLHb/Yco2EmszGi3sPtEWS0cFzPtYfO9Ad01+Co6D4q4a5F8d
+         ixw5CRb2jichNYKRbs/o4f8oIpgoyX6KsSCUTA4U1VdO0z3LVyoSGrKX1Hup7QyA9AOm
+         i2dNFfr1LyDKTRJNB8Sd1Ka1BQveICq539nKMORMkV7z/LrWHJ3CUMSoLFCjNEVUG2XI
+         aoSOuD1P2+j5CTW4QMx/pgyNpLIKKEz4xo022JcUevBLQuSGHW+AfH6aO60aeDutEgLl
+         RC/BDBIJoAZC9Z5eYYBrtKUSJsPQyaFiJFcN0anRMt4oE4a0gB08hS2QBaZjSUnevgxi
+         4ZPw==
+X-Gm-Message-State: APjAAAWiC6NCLpl+DeipFwiihM8RdP5Yu2ykyhlP0zWEWP8KdTe4iYkE
+	NvU/2qNrTEdxlxv8hknus0tVuLxEXxET0IuqQ20=
+X-Google-Smtp-Source: APXvYqwc6X4nJw/cpEQOR/4LkMhx9XNTW4jd0VrMsF/6i6XIRMk+65dESbHajt81ijogbbc3NLpEoKekwJDyYNoz0To=
+X-Received: by 2002:a05:651c:92:: with SMTP id 18mr773685ljq.35.1561599239342;
+ Wed, 26 Jun 2019 18:33:59 -0700 (PDT)
+MIME-Version: 1.0
+References: <CAD9ny+xDKd9mPzuk-rAymRRULAaCZsqWOdkjS1rw1+qCWJJmtA@mail.gmail.com>
+In-Reply-To: <CAD9ny+xDKd9mPzuk-rAymRRULAaCZsqWOdkjS1rw1+qCWJJmtA@mail.gmail.com>
+From: George Gvazava <g.gvazava7@gmail.com>
+Date: Thu, 27 Jun 2019 03:30:17 +0200
+Message-ID: <CAM239n64Y5j1KGvMGARUeP1NGK1Ezh-TgeEPhxRYkdwfeUyjFQ@mail.gmail.com>
+Subject: Re: Congratulations, you have been selected to participate at
+ Seedstars Tbilisi
+To: Daria <daria.khlopova@seedstars.com>, 
+	Ekaterine Tarkhnishvili <e.tarkhnishvili@tripplanner.ge>
+Content-Type: multipart/alternative; boundary="000000000000f14dde058c442768"
+X-Spam-Status: No, score=0.6
+X-Spam-Score: 6
+X-Spam-Bar: /
+X-Spam-Flag: NO
+
+--000000000000f14dde058c442768
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Daria, thanks for that mail. Sounds too helpful for our startup. I'm not in
+Georgia and I'll only be back to country on 3rd of July. Please my partner
+-Ekaterine Tarkhnishvili (CEO of the company and co-founder) will represent
+company at that stage. Putting her to our conversation too. Yeap, we are
+ready go ahead and get the global experience from organized bootcamp and
+work out on additional investment for further development of company.
+
+Team of Tripplanner
+
+Giorgi
+
+On Wed, 26 Jun 2019, 13:14 Daria, <daria.khlopova@seedstars.com> wrote:
+
+> Congratulations Giorgi,
+>
+> Tripplanner has been selected as one of the best seed-stage startups in
+> Tbilisi and you are invited to take part at Seedstars =E2=80=9CHow to get
+> investment ready=E2=80=9D bootcamp and get a chance to pitch in front of =
+the jury
+> panel!
+>
+> WHAT YOU'RE COMPETING FOR:
+>
+> One startup will be selected as the "Seedstars Tbilisi Winner" which
+> includes:
+>
+>
+>    -
+>
+>    a free trip to Seedstars Summit CEE to participate in bootcamps,
+>    workshops, 1-1 investor meetings, networking activities by the end of =
+the
+>    year
+>    -
+>
+>    3 months free of our Investment Readiness Program
+>    <https://seedstars-dot-yamm-track.appspot.com/Redirect?ukey=3D1cphJ19W=
+V2IJ2vRJs7KfLhroty6JX2QNE4A1ETNQdQo8-2056096301&key=3DYAMMID-47674972&link=
+=3Dhttp%3A%2F%2Firp.seedstars.com>
+>    -
+>
+>    a chance to get a free trip to Seedstars Summit in Switzerland to
+>    participate in a weeklong bootcamp, investor forum and conference next=
+ April
+>    -
+>
+>    a chance to become the Global Winner and receive up to $500k of fundin=
+g
+>    -
+>
+>    an opportunity to be selected to join the 3 months Growth Program
+>    -
+>
+>    an opportunity to pitch and meet a global audience of investors,
+>    corporates and media
+>    -
+>
+>    an opportunity to join a global network of entrepreneurs
+>
+>
+> The finalists from Tbilisi will get a free trial month of our ongoing Inv=
+estment
+> Readiness Program
+> <https://seedstars-dot-yamm-track.appspot.com/Redirect?ukey=3D1cphJ19WV2I=
+J2vRJs7KfLhroty6JX2QNE4A1ETNQdQo8-2056096301&key=3DYAMMID-47674972&link=3Dh=
+ttps%3A%2F%2Fwww.seedspace.co%2Fen%2Foffers%2Finvestment-readiness-program%=
+2F>
+> .
+>
+> Below you can find important information about the event, so please read
+> carefully and until the end as there are critical steps that need to be
+> done in order to confirm your participation.
+>
+> INVESTMENT READINESS BOOTCAMP
+>
+> On June, 29 we are organizing a full day bootcamp to help you improve you=
+r
+> startup and work through your business with our selected mentors. The
+> training will focus on getting investment ready, mentorship and feedback
+> sessions.
+>
+> We are looking forward to seeing you at the Seedstars Tbilisi u on at Tbi=
+lisi
+> Best Western Tbilisi Art Hotel (11 Apakidze Str). The event will start at
+> 10:30 and you can check the event website
+> <https://seedstars-dot-yamm-track.appspot.com/Redirect?ukey=3D1cphJ19WV2I=
+J2vRJs7KfLhroty6JX2QNE4A1ETNQdQo8-2056096301&key=3DYAMMID-47674972&link=3Dh=
+ttps%3A%2F%2Fwww.seedstarsworld.com%2Fevent%2Fseedstars-tbilisi-2019>
+> for more information on the schedule, sponsors and the jury members.
+>
+>
+> PITCHING COMPETITION
+>
+> On June, 30 we will invite the finalists to pitch to in front of the jury
+> panel and attendees (3 mins pitch + 5 mins Q&A). The winner will be
+> selected based on the results of this activity. The pitching event is goi=
+ng
+> to take place in Borjomi Likani Hotel. We'll meet at 8:30 at Rose
+> Revolution Square in Tbilisi (near the bicycle statue) to go there
+> together.
+>
+> We will be happy to see all the training participants with us at the main
+> event. Please let me know if you are willing to come anyhow to the main
+> event (and how many of your teammates) so we can reserve spots at the bus=
+es
+> for you.
+>
+> WHAT WE NEED FROM YOU NOW (REPLY TO THIS EMAIL):
+>
+> 1) Send us your pitch deck for the pitching competition (3 mins) before J=
+une,
+> 28 at 11:59pm.
+>
+> Presentations sent after this deadline will not be considered.
+>
+>
+>
+> We accept only presentations in the following formats: PowerPoint, Keynot=
+e
+> and .pdf. Make sure all your fonts are attached, as no additional
+> modifications will be possible at the day of the event. Please follow the
+> guidelines and advice here
+> <https://seedstars-dot-yamm-track.appspot.com/Redirect?ukey=3D1cphJ19WV2I=
+J2vRJs7KfLhroty6JX2QNE4A1ETNQdQo8-2056096301&key=3DYAMMID-47674972&link=3Dh=
+ttps%3A%2F%2Flinks7.mixmaxusercontent.com%2F5c7268231758284e7f02d655%2Fl%2F=
+iK2D3tXuukV4AiotO%3FmessageId%3Dpidg8vlqWsEyykeIN%26rn%3DgIvtmcp1kI%26re%3D=
+i02bj5ybvhWY5BUO482aylWbugnI%26sc%3Dfalse>
+> to prepare your presentation.
+>
+>
+>
+> 2) Confirm that you are attending the event
+>
+> In your reply email, confirm whether you are attending the bootcamp
+>
+>
+> Reply to this email with the information requested above and of course le=
+t
+> us know if you have any questions :)
+>
+> See you soon!
+>
+> Daria
+>
+>
+> --
+>
+> Daria Khlopova
+> Community & Events Manager, CEE & Central Asia
+> Seedstars
+> m: +79257369476
+> w: www.seedstars.com
+> <https://seedstars-dot-yamm-track.appspot.com/Redirect?ukey=3D1cphJ19WV2I=
+J2vRJs7KfLhroty6JX2QNE4A1ETNQdQo8-2056096301&key=3DYAMMID-47674972&link=3Dh=
+ttp%3A%2F%2Fwww.seedstars.com%2F>
+>
+>
+> <https://seedstars-dot-yamm-track.appspot.com/Redirect?ukey=3D1cphJ19WV2I=
+J2vRJs7KfLhroty6JX2QNE4A1ETNQdQo8-2056096301&key=3DYAMMID-47674972&link=3Dh=
+ttps%3A%2F%2Fwww.facebook.com%2Fseedstars%2F>
+>
+> <https://seedstars-dot-yamm-track.appspot.com/Redirect?ukey=3D1cphJ19WV2I=
+J2vRJs7KfLhroty6JX2QNE4A1ETNQdQo8-2056096301&key=3DYAMMID-47674972&link=3Dh=
+ttps%3A%2F%2Ftwitter.com%2Fseedstars>
+>
+> <https://seedstars-dot-yamm-track.appspot.com/Redirect?ukey=3D1cphJ19WV2I=
+J2vRJs7KfLhroty6JX2QNE4A1ETNQdQo8-2056096301&key=3DYAMMID-47674972&link=3Dh=
+ttps%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fseedstars-world%2F>
+> <https://seedstars-dot-yamm-track.appspot.com/Redirect?ukey=3D1cphJ19WV2I=
+J2vRJs7KfLhroty6JX2QNE4A1ETNQdQo8-2056096301&key=3DYAMMID-47674972&link=3Dh=
+ttps%3A%2F%2Fwww.instagram.com%2Fseedsta.rs%2F>
+>
+>
+> [image: beacon]
+>
+> <https://www.seedstarsworld.com/?utm_source=3Dsignature-banner&utm_medium=
+=3Demail&utm_campaign=3Dssw-events-team>
+
+--000000000000f14dde058c442768
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto">Daria, thanks for that mail. Sounds too helpful for our s=
+tartup. I&#39;m not in Georgia and I&#39;ll only be back to country on 3rd =
+of July. Please my partner -Ekaterine Tarkhnishvili (CEO of the company and=
+ co-founder) will represent company at that stage. Putting her to our conve=
+rsation too. Yeap, we are ready go ahead and get the global experience from=
+ organized bootcamp and work out on additional investment for further devel=
+opment of company.<div dir=3D"auto"><br></div><div dir=3D"auto">Team of Tri=
+pplanner</div><div dir=3D"auto"><br></div><div dir=3D"auto">Giorgi</div></d=
+iv><br><div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_attr">On =
+Wed, 26 Jun 2019, 13:14 Daria, &lt;<a href=3D"mailto:daria.khlopova@seedsta=
+rs.com">daria.khlopova@seedstars.com</a>&gt; wrote:<br></div><blockquote cl=
+ass=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;p=
+adding-left:1ex"><div dir=3D"ltr"><span id=3D"m_6591603906265203985gmail-do=
+cs-internal-guid-60055570-7fff-77cb-9db9-a53ca5bb3ef9"><p dir=3D"ltr" style=
+=3D"line-height:1.2;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-s=
+ize:10pt;font-family:Muli,sans-serif;color:rgb(51,51,51);font-variant-numer=
+ic:normal;font-variant-east-asian:normal;vertical-align:baseline;white-spac=
+e:pre-wrap">Congratulations</span><font color=3D"#000000"><span style=3D"fo=
+nt-size:10pt;font-family:Muli,sans-serif;font-variant-numeric:normal;font-v=
+ariant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap"> Gio=
+rgi</span><span style=3D"font-size:10pt;font-family:Muli,sans-serif;font-va=
+riant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline=
+;white-space:pre-wrap">,</span></font></p><font color=3D"#000000"><br></fon=
+t><p dir=3D"ltr" style=3D"line-height:1.2;margin-top:0pt;margin-bottom:0pt"=
+><font color=3D"#000000"><span style=3D"font-size:10pt;font-family:Muli,san=
+s-serif;font-variant-numeric:normal;font-variant-east-asian:normal;vertical=
+-align:baseline;white-space:pre-wrap">Tripplanner</span><span style=3D"font=
+-size:10pt;font-family:Muli,sans-serif;font-variant-numeric:normal;font-var=
+iant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap"> has b=
+een selected as one of the best seed-stage startups in Tbilisi and you are =
+invited to take part at Seedstars =E2=80=9CHow to get investment ready=E2=
+=80=9D bootcamp </span><span style=3D"font-size:10pt;font-family:Muli,sans-=
+serif;background-color:transparent;font-variant-numeric:normal;font-variant=
+-east-asian:normal;vertical-align:baseline;white-space:pre-wrap">and get a =
+chance to pitch in front o</span></font><span style=3D"font-size:10pt;font-=
+family:Muli,sans-serif;color:rgb(0,0,0);background-color:transparent;font-v=
+ariant-numeric:normal;font-variant-east-asian:normal;vertical-align:baselin=
+e;white-space:pre-wrap">f the jury panel</span><span style=3D"font-size:10p=
+t;font-family:Muli,sans-serif;color:rgb(51,51,51);font-variant-numeric:norm=
+al;font-variant-east-asian:normal;vertical-align:baseline;white-space:pre-w=
+rap">!</span></p><br><p dir=3D"ltr" style=3D"line-height:1.2;margin-top:0pt=
+;margin-bottom:0pt"><span style=3D"font-size:10pt;font-family:Muli,sans-ser=
+if;color:rgb(64,140,230);font-weight:700;font-variant-numeric:normal;font-v=
+ariant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap">WHAT=
+ YOU&#39;RE COMPETING FOR:</span></p><p dir=3D"ltr" style=3D"line-height:1.=
+2;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;font-fami=
+ly:Muli,sans-serif;color:rgb(51,51,51);font-variant-numeric:normal;font-var=
+iant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap">One st=
+artup will be selected as the &quot;</span><span style=3D"font-size:10pt;fo=
+nt-family:Muli,sans-serif;color:rgb(51,51,51);font-weight:700;font-variant-=
+numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;white=
+-space:pre-wrap">Seedstars Tbilisi Winner</span><span style=3D"font-size:10=
+pt;font-family:Muli,sans-serif;color:rgb(51,51,51);font-variant-numeric:nor=
+mal;font-variant-east-asian:normal;vertical-align:baseline;white-space:pre-=
+wrap">&quot; which includes:</span><span style=3D"font-size:10pt;font-famil=
+y:Muli,sans-serif;color:rgb(51,51,51);font-variant-numeric:normal;font-vari=
+ant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap"><br><br=
+></span></p><ul style=3D"margin-top:0pt;margin-bottom:0pt"><li dir=3D"ltr" =
+style=3D"list-style-type:disc;font-size:10pt;font-family:Muli,sans-serif;co=
+lor:rgb(51,51,51);background-color:transparent;font-variant-numeric:normal;=
+font-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap=
+;margin-left:11pt"><p dir=3D"ltr" style=3D"line-height:1.2;margin-top:0pt;m=
+argin-bottom:0pt"><span style=3D"font-size:10pt;background-color:transparen=
+t;font-variant-numeric:normal;font-variant-east-asian:normal;vertical-align=
+:baseline;white-space:pre-wrap">a free trip to Seedstars Summit CEE to part=
+icipate in bootcamps, workshops, 1-1 investor meetings, networking activiti=
+es by the end of the year</span></p></li><li dir=3D"ltr" style=3D"list-styl=
+e-type:disc;font-size:10pt;font-family:Muli,sans-serif;color:rgb(51,51,51);=
+background-color:transparent;font-variant-numeric:normal;font-variant-east-=
+asian:normal;vertical-align:baseline;white-space:pre-wrap;margin-left:11pt"=
+><p dir=3D"ltr" style=3D"line-height:1.2;margin-top:0pt;margin-bottom:0pt">=
+<span style=3D"font-size:10pt;background-color:transparent;font-variant-num=
+eric:normal;font-variant-east-asian:normal;vertical-align:baseline;white-sp=
+ace:pre-wrap">3 months free of our </span><a href=3D"https://seedstars-dot-=
+yamm-track.appspot.com/Redirect?ukey=3D1cphJ19WV2IJ2vRJs7KfLhroty6JX2QNE4A1=
+ETNQdQo8-2056096301&amp;key=3DYAMMID-47674972&amp;link=3Dhttp%3A%2F%2Firp.s=
+eedstars.com" style=3D"text-decoration-line:none" target=3D"_blank" rel=3D"=
+noreferrer"><span style=3D"font-size:10pt;background-color:transparent;font=
+-variant-numeric:normal;font-variant-east-asian:normal;text-decoration-line=
+:underline;vertical-align:baseline;white-space:pre-wrap">Investment Readine=
+ss Program</span></a></p></li><li dir=3D"ltr" style=3D"list-style-type:disc=
+;font-size:10pt;font-family:Muli,sans-serif;color:rgb(51,51,51);background-=
+color:transparent;font-variant-numeric:normal;font-variant-east-asian:norma=
+l;vertical-align:baseline;white-space:pre-wrap;margin-left:11pt"><p dir=3D"=
+ltr" style=3D"line-height:1.2;margin-top:0pt;margin-bottom:0pt"><span style=
+=3D"font-size:10pt;background-color:transparent;font-variant-numeric:normal=
+;font-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wra=
+p">a chance to get a free trip to Seedstars Summit in Switzerland to partic=
+ipate in a weeklong bootcamp, investor forum and conference next April</spa=
+n></p></li><li dir=3D"ltr" style=3D"list-style-type:disc;font-size:10pt;fon=
+t-family:Muli,sans-serif;color:rgb(51,51,51);background-color:transparent;f=
+ont-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:ba=
+seline;white-space:pre-wrap;margin-left:11pt"><p dir=3D"ltr" style=3D"line-=
+height:1.2;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;=
+background-color:transparent;font-variant-numeric:normal;font-variant-east-=
+asian:normal;vertical-align:baseline;white-space:pre-wrap">a chance to beco=
+me the Global Winner and receive up to $500k of funding</span></p></li><li =
+dir=3D"ltr" style=3D"list-style-type:disc;font-size:10pt;font-family:Muli,s=
+ans-serif;color:rgb(51,51,51);background-color:transparent;font-variant-num=
+eric:normal;font-variant-east-asian:normal;vertical-align:baseline;white-sp=
+ace:pre-wrap;margin-left:11pt"><p dir=3D"ltr" style=3D"line-height:1.2;marg=
+in-top:0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;background-colo=
+r:transparent;font-variant-numeric:normal;font-variant-east-asian:normal;ve=
+rtical-align:baseline;white-space:pre-wrap">an opportunity to be selected t=
+o join the 3 months Growth Program</span></p></li><li dir=3D"ltr" style=3D"=
+list-style-type:disc;font-size:10pt;font-family:Muli,sans-serif;color:rgb(5=
+1,51,51);background-color:transparent;font-variant-numeric:normal;font-vari=
+ant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap;margin-l=
+eft:11pt"><p dir=3D"ltr" style=3D"line-height:1.2;margin-top:0pt;margin-bot=
+tom:0pt"><span style=3D"font-size:10pt;background-color:transparent;font-va=
+riant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline=
+;white-space:pre-wrap">an opportunity to pitch and meet a global audience o=
+f investors, corporates and media</span></p></li><li dir=3D"ltr" style=3D"l=
+ist-style-type:disc;font-size:10pt;font-family:Muli,sans-serif;color:rgb(51=
+,51,51);background-color:transparent;font-variant-numeric:normal;font-varia=
+nt-east-asian:normal;vertical-align:baseline;white-space:pre-wrap;margin-le=
+ft:11pt"><p dir=3D"ltr" style=3D"line-height:1.2;margin-top:0pt;margin-bott=
+om:0pt"><span style=3D"font-size:10pt;background-color:transparent;font-var=
+iant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;=
+white-space:pre-wrap">an opportunity to join a global network of entreprene=
+urs</span></p></li></ul><br><p dir=3D"ltr" style=3D"line-height:1.2;margin-=
+top:0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;font-family:Muli,s=
+ans-serif;color:rgb(51,51,51);font-variant-numeric:normal;font-variant-east=
+-asian:normal;vertical-align:baseline;white-space:pre-wrap">The finalists f=
+rom Tbilisi </span><span style=3D"font-size:10pt;font-family:Muli,sans-seri=
+f;color:rgb(51,51,51);background-color:transparent;font-variant-numeric:nor=
+mal;font-variant-east-asian:normal;vertical-align:baseline;white-space:pre-=
+wrap">will get a free trial month of our ongoing </span><a href=3D"https://=
+seedstars-dot-yamm-track.appspot.com/Redirect?ukey=3D1cphJ19WV2IJ2vRJs7KfLh=
+roty6JX2QNE4A1ETNQdQo8-2056096301&amp;key=3DYAMMID-47674972&amp;link=3Dhttp=
+s%3A%2F%2Fwww.seedspace.co%2Fen%2Foffers%2Finvestment-readiness-program%2F"=
+ style=3D"text-decoration-line:none" target=3D"_blank" rel=3D"noreferrer"><=
+span style=3D"font-size:10pt;font-family:Muli,sans-serif;background-color:t=
+ransparent;font-variant-numeric:normal;font-variant-east-asian:normal;text-=
+decoration-line:underline;vertical-align:baseline;white-space:pre-wrap">Inv=
+estment Readiness Program</span></a><span style=3D"font-size:10pt;font-fami=
+ly:Muli,sans-serif;color:rgb(51,51,51);background-color:transparent;font-va=
+riant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline=
+;white-space:pre-wrap">.=C2=A0</span></p><br><p dir=3D"ltr" style=3D"line-h=
+eight:1.2;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;f=
+ont-family:Muli,sans-serif;color:rgb(51,51,51);font-variant-numeric:normal;=
+font-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap=
+">Below you can find important information about the event, so please read =
+carefully and until the end as there are critical steps that need to be don=
+e in order to confirm your participation.</span></p><br><p dir=3D"ltr" styl=
+e=3D"line-height:1.44;margin-top:0pt;margin-bottom:0pt"><span style=3D"font=
+-size:10pt;font-family:Muli,sans-serif;color:rgb(64,140,230);font-weight:70=
+0;font-variant-numeric:normal;font-variant-east-asian:normal;vertical-align=
+:baseline;white-space:pre-wrap">INVESTMENT READINESS BOOTCAMP</span></p><p =
+dir=3D"ltr" style=3D"line-height:1.44;margin-top:0pt;margin-bottom:0pt"><sp=
+an style=3D"font-size:10pt;font-family:Muli,sans-serif;color:rgb(51,51,51);=
+font-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:b=
+aseline;white-space:pre-wrap">On June, 29 we are organizing a full day boot=
+camp to help you improve your startup and work through your business with o=
+ur selected mentors. The training will </span><span style=3D"font-size:10pt=
+;font-family:Muli,sans-serif;font-variant-numeric:normal;font-variant-east-=
+asian:normal;vertical-align:baseline;white-space:pre-wrap">focus on getting=
+ investment ready, mentorship and feedback sessions.</span></p><p dir=3D"lt=
+r" style=3D"line-height:1.44;margin-top:0pt;margin-bottom:0pt"><span style=
+=3D"font-size:10pt;font-family:Muli,sans-serif;color:rgb(51,51,51);font-var=
+iant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;=
+white-space:pre-wrap">We are looking forward to seeing you at the Seedstars=
+ Tbilisi u on at </span><span style=3D"font-size:10pt;font-family:Muli,sans=
+-serif;color:rgb(51,51,51);font-weight:700;font-variant-numeric:normal;font=
+-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap">Tb=
+ilisi Best Western Tbilisi Art Hotel (11 Apakidze Str)</span><span style=3D=
+"font-size:10pt;font-family:Muli,sans-serif;color:rgb(51,51,51);font-varian=
+t-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;whi=
+te-space:pre-wrap">. The event will start at 10:30 and you can che</span><s=
+pan style=3D"font-size:10pt;font-family:Muli,sans-serif;color:rgb(0,0,0);fo=
+nt-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:bas=
+eline;white-space:pre-wrap">ck the</span><a href=3D"https://seedstars-dot-y=
+amm-track.appspot.com/Redirect?ukey=3D1cphJ19WV2IJ2vRJs7KfLhroty6JX2QNE4A1E=
+TNQdQo8-2056096301&amp;key=3DYAMMID-47674972&amp;link=3Dhttps%3A%2F%2Fwww.s=
+eedstarsworld.com%2Fevent%2Fseedstars-tbilisi-2019" style=3D"text-decoratio=
+n-line:none" target=3D"_blank" rel=3D"noreferrer"><span style=3D"font-size:=
+10pt;font-family:Muli,sans-serif;color:rgb(0,0,0);font-variant-numeric:norm=
+al;font-variant-east-asian:normal;text-decoration-line:underline;vertical-a=
+lign:baseline;white-space:pre-wrap"> event website</span></a><span style=3D=
+"font-size:10pt;font-family:Muli,sans-serif;color:rgb(0,0,0);font-variant-n=
+umeric:normal;font-variant-east-asian:normal;vertical-align:baseline;white-=
+space:pre-wrap"> for more information on the </span><span style=3D"font-siz=
+e:10pt;font-family:Muli,sans-serif;color:rgb(51,51,51);font-variant-numeric=
+:normal;font-variant-east-asian:normal;vertical-align:baseline;white-space:=
+pre-wrap">schedule, sponsors and the jury members.</span></p><br><br><p dir=
+=3D"ltr" style=3D"line-height:1.2;margin-top:0pt;margin-bottom:0pt"><span s=
+tyle=3D"font-size:10pt;font-family:Muli,sans-serif;color:rgb(64,140,230);fo=
+nt-weight:700;font-variant-numeric:normal;font-variant-east-asian:normal;ve=
+rtical-align:baseline;white-space:pre-wrap">PITCHING COMPETITION</span></p>=
+<p dir=3D"ltr" style=3D"line-height:1.2;margin-top:0pt;margin-bottom:0pt"><=
+span style=3D"font-size:10pt;font-family:Muli,sans-serif;font-variant-numer=
+ic:normal;font-variant-east-asian:normal;vertical-align:baseline;white-spac=
+e:pre-wrap">On June, 30 we will invite the finalists to pitch to in front o=
+f the jury panel and attendees (3 mins pitch + 5 mins Q&amp;A). The winner =
+will be selected based on the results of this activity. The pitching event =
+is going to take place in Borjomi Likani Hotel. We&#39;ll meet at 8:30 at R=
+ose Revolution Square in Tbilisi (near the bicycle statue) to go there toge=
+ther. </span><span style=3D"font-size:10pt;font-family:Muli,sans-serif;font=
+-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:basel=
+ine;white-space:pre-wrap"><br></span><span style=3D"font-size:10pt;font-fam=
+ily:Muli,sans-serif;font-variant-numeric:normal;font-variant-east-asian:nor=
+mal;vertical-align:baseline;white-space:pre-wrap"><br></span><span style=3D=
+"font-size:10pt;font-family:Muli,sans-serif;font-variant-numeric:normal;fon=
+t-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap">W=
+e will be happy to see all the training participants with us at the main ev=
+ent. Please let me know if you are willing to come anyhow to the main event=
+ (and how many of your teammates) so we can reserve spots at the buses for =
+you.</span></p><br><p dir=3D"ltr" style=3D"line-height:1.2;margin-top:0pt;m=
+argin-bottom:0pt"><span style=3D"font-size:10pt;font-family:Muli,sans-serif=
+;color:rgb(255,0,0);font-weight:700;font-variant-numeric:normal;font-varian=
+t-east-asian:normal;vertical-align:baseline;white-space:pre-wrap">WHAT WE N=
+EED FROM YOU NOW (REPLY TO THIS EMAIL):</span></p><p dir=3D"ltr" style=3D"l=
+ine-height:1.2;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:1=
+0pt;font-family:Muli,sans-serif;font-variant-numeric:normal;font-variant-ea=
+st-asian:normal;vertical-align:baseline;white-space:pre-wrap">1) Send us yo=
+ur pitch deck for the pitching competition (3 mins) before </span><span sty=
+le=3D"font-size:10pt;font-family:Muli,sans-serif;font-weight:700;font-varia=
+nt-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;wh=
+ite-space:pre-wrap">June, 28 </span><span style=3D"font-size:10pt;font-fami=
+ly:Muli,sans-serif;font-variant-numeric:normal;font-variant-east-asian:norm=
+al;vertical-align:baseline;white-space:pre-wrap">at 11:59pm.</span></p><p d=
+ir=3D"ltr" style=3D"line-height:1.2;margin-top:0pt;margin-bottom:0pt"><span=
+ style=3D"font-size:10pt;font-family:Muli,sans-serif;font-variant-numeric:n=
+ormal;font-variant-east-asian:normal;vertical-align:baseline;white-space:pr=
+e-wrap">Presentations sent after this deadline will not be considered.</spa=
+n></p><p dir=3D"ltr" style=3D"line-height:1.2;margin-top:0pt;margin-bottom:=
+0pt"><span style=3D"font-size:11pt;font-family:Arial;font-variant-numeric:n=
+ormal;font-variant-east-asian:normal;vertical-align:baseline;white-space:pr=
+e-wrap">=C2=A0</span></p><p dir=3D"ltr" style=3D"line-height:1.2;margin-top=
+:0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;font-family:Muli,sans=
+-serif;font-variant-numeric:normal;font-variant-east-asian:normal;vertical-=
+align:baseline;white-space:pre-wrap">We accept only presentations in the fo=
+llowing formats: PowerPoint, Keynote and .pdf. Make sure all your fonts are=
+ attached, as no additional modifications will be possible at the day of th=
+e event. Please follow the guidelines and advice</span><a href=3D"https://s=
+eedstars-dot-yamm-track.appspot.com/Redirect?ukey=3D1cphJ19WV2IJ2vRJs7KfLhr=
+oty6JX2QNE4A1ETNQdQo8-2056096301&amp;key=3DYAMMID-47674972&amp;link=3Dhttps=
+%3A%2F%2Flinks7.mixmaxusercontent.com%2F5c7268231758284e7f02d655%2Fl%2FiK2D=
+3tXuukV4AiotO%3FmessageId%3Dpidg8vlqWsEyykeIN%26rn%3DgIvtmcp1kI%26re%3Di02b=
+j5ybvhWY5BUO482aylWbugnI%26sc%3Dfalse" style=3D"text-decoration-line:none" =
+target=3D"_blank" rel=3D"noreferrer"><span style=3D"font-size:10pt;font-fam=
+ily:Muli,sans-serif;color:rgb(34,34,34);font-variant-numeric:normal;font-va=
+riant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap"> </sp=
+an><span style=3D"font-size:10pt;font-family:Muli,sans-serif;font-variant-n=
+umeric:normal;font-variant-east-asian:normal;text-decoration-line:underline=
+;vertical-align:baseline;white-space:pre-wrap">here</span></a><span style=
+=3D"font-size:10pt;font-family:Muli,sans-serif;font-variant-numeric:normal;=
+font-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap=
+"> to prepare your presentation.</span></p><p dir=3D"ltr" style=3D"line-hei=
+ght:1.2;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:11pt;fon=
+t-family:Arial;font-variant-numeric:normal;font-variant-east-asian:normal;v=
+ertical-align:baseline;white-space:pre-wrap">=C2=A0</span></p><p dir=3D"ltr=
+" style=3D"line-height:1.2;margin-top:0pt;margin-bottom:0pt"><span style=3D=
+"font-size:10pt;font-family:Muli,sans-serif;font-variant-numeric:normal;fon=
+t-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap">2=
+) Confirm that you are attending the event</span></p><p dir=3D"ltr" style=
+=3D"line-height:1.2;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-s=
+ize:10pt;font-family:Muli,sans-serif;font-variant-numeric:normal;font-varia=
+nt-east-asian:normal;vertical-align:baseline;white-space:pre-wrap">In your =
+reply email, confirm whether you are attending the bootcamp</span></p><br><=
+br><p dir=3D"ltr" style=3D"line-height:1.2;margin-top:0pt;margin-bottom:0pt=
+"><span style=3D"font-size:10pt;font-family:Muli,sans-serif;font-variant-nu=
+meric:normal;font-variant-east-asian:normal;vertical-align:baseline;white-s=
+pace:pre-wrap">Reply to this email with the information requested above and=
+ of course let us know if you have any questions :)</span></p><br><p dir=3D=
+"ltr" style=3D"line-height:1.2;margin-top:0pt;margin-bottom:0pt"><span styl=
+e=3D"font-size:10pt;font-family:Muli,sans-serif;font-variant-numeric:normal=
+;font-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wra=
+p">See you soon!</span></p><p dir=3D"ltr" style=3D"line-height:1.2;margin-t=
+op:0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;font-family:Muli,sa=
+ns-serif;font-variant-numeric:normal;font-variant-east-asian:normal;vertica=
+l-align:baseline;white-space:pre-wrap">Daria</span></p></span><br class=3D"=
+m_6591603906265203985gmail-Apple-interchange-newline"><div><br></div>-- <br=
+><div dir=3D"ltr" class=3D"m_6591603906265203985gmail_signature" data-smart=
+mail=3D"gmail_signature"><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div d=
+ir=3D"ltr"><div><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=
+=3D"ltr"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"c=
+olor:rgb(136,136,136);font-size:13.6px;background:none;border:0px;margin:0p=
+x;padding:0px"><tbody><tr><td colspan=3D"2" style=3D"padding-top:7px"><br s=
+tyle=3D"font-size:13.6px"><table cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" style=3D"background:none;color:rgb(0,0,0);font-family:Times;font-siz=
+e:medium;border:0px;margin:0px;padding:0px"><tbody><tr><td valign=3D"top" s=
+tyle=3D"padding:20px;border-top:0px;border-right:3px solid rgb(7,100,171);v=
+ertical-align:middle"><font color=3D"#222222" face=3D"Arial"><span style=3D=
+"font-size:13px;white-space:pre-wrap"><img src=3D"http://oi63.tinypic.com/s=
+mf0jq.jpg"></span></font></td><td style=3D"padding:0px 0px 0px 12px"><table=
+ cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"background:none;=
+border:0px;margin:0px;padding:0px"><tbody><tr><td colspan=3D"2" style=3D"fo=
+nt-family:Arial,Helvetica,sans-serif;padding-bottom:5px;color:rgb(7,100,171=
+);font-size:18px"><font color=3D"#222222" face=3D"Arial"><span style=3D"fon=
+t-size:13px;white-space:pre-wrap">Daria Khlopova<br></span></font></td></tr=
+><tr><td colspan=3D"2"><font color=3D"#222222" face=3D"Arial"><span style=
+=3D"font-size:13px;white-space:pre-wrap">Community &amp; Events Manager, CE=
+E &amp; Central Asia</span></font></td></tr><tr><td colspan=3D"2" style=3D"=
+font-family:Arial,Helvetica,sans-serif;color:rgb(51,51,51);font-size:14px">=
+<font color=3D"#222222" face=3D"Arial"><span style=3D"font-size:13px;white-=
+space:pre-wrap">Seedstars<br></span></font></td></tr><tr><td width=3D"20" v=
+align=3D"top" style=3D"font-family:Arial,Helvetica,sans-serif;vertical-alig=
+n:top;width:20px;color:rgb(7,100,171);font-size:14px"><font color=3D"#22222=
+2" face=3D"Arial"><span style=3D"font-size:13px;white-space:pre-wrap">m:</s=
+pan></font></td><td style=3D"font-family:Arial,Helvetica,sans-serif;color:r=
+gb(51,51,51);font-size:14px"><font color=3D"#222222" face=3D"Arial"><span s=
+tyle=3D"font-size:13px;white-space:pre-wrap">+79257369476</span></font></td=
+></tr><tr><td width=3D"20" valign=3D"top" style=3D"font-family:Arial,Helvet=
+ica,sans-serif;vertical-align:top;width:20px;color:rgb(7,100,171);font-size=
+:14px"><font color=3D"#222222" face=3D"Arial"><span style=3D"font-size:13px=
+;white-space:pre-wrap">w:</span></font></td><td valign=3D"top" style=3D"fon=
+t-family:Arial,Helvetica,sans-serif;vertical-align:top;color:rgb(51,51,51);=
+font-size:14px"><font color=3D"#222222" face=3D"Arial"><span style=3D"font-=
+size:13px;white-space:pre-wrap"><a href=3D"https://seedstars-dot-yamm-track=
+.appspot.com/Redirect?ukey=3D1cphJ19WV2IJ2vRJs7KfLhroty6JX2QNE4A1ETNQdQo8-2=
+056096301&amp;key=3DYAMMID-47674972&amp;link=3Dhttp%3A%2F%2Fwww.seedstars.c=
+om%2F" target=3D"_blank" rel=3D"noreferrer">www.seedstars.com=C2=A0</a>=C2=
+=A0 =C2=A0</span></font></td></tr><tr><td colspan=3D"2" style=3D"padding-to=
+p:7px"><font color=3D"#222222" face=3D"Arial"><span style=3D"font-size:13px=
+;white-space:pre-wrap"><a href=3D"https://seedstars-dot-yamm-track.appspot.=
+com/Redirect?ukey=3D1cphJ19WV2IJ2vRJs7KfLhroty6JX2QNE4A1ETNQdQo8-2056096301=
+&amp;key=3DYAMMID-47674972&amp;link=3Dhttps%3A%2F%2Fwww.facebook.com%2Fseed=
+stars%2F" style=3D"border:0px" target=3D"_blank" rel=3D"noreferrer"><img wi=
+dth=3D"30" height=3D"30" src=3D"http://oi67.tinypic.com/23thl1.jpg" style=
+=3D"border:none;width:30px;height:30px;max-width:30px;max-height:30px">=C2=
+=A0</a><a href=3D"https://seedstars-dot-yamm-track.appspot.com/Redirect?uke=
+y=3D1cphJ19WV2IJ2vRJs7KfLhroty6JX2QNE4A1ETNQdQo8-2056096301&amp;key=3DYAMMI=
+D-47674972&amp;link=3Dhttps%3A%2F%2Ftwitter.com%2Fseedstars" style=3D"borde=
+r:0px" target=3D"_blank" rel=3D"noreferrer"><img width=3D"30" height=3D"30"=
+ src=3D"http://oi67.tinypic.com/2z5iyzb.jpg" style=3D"border:none;width:30p=
+x;height:30px;max-width:30px;max-height:30px">=C2=A0</a><a href=3D"https://=
+seedstars-dot-yamm-track.appspot.com/Redirect?ukey=3D1cphJ19WV2IJ2vRJs7KfLh=
+roty6JX2QNE4A1ETNQdQo8-2056096301&amp;key=3DYAMMID-47674972&amp;link=3Dhttp=
+s%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fseedstars-world%2F" style=3D"border:=
+0px" target=3D"_blank" rel=3D"noreferrer"><img width=3D"30" height=3D"30" s=
+rc=3D"http://oi65.tinypic.com/dpbx3p.jpg" style=3D"border:none;width:30px;h=
+eight:30px;max-width:30px;max-height:30px">=C2=A0</a><a href=3D"https://see=
+dstars-dot-yamm-track.appspot.com/Redirect?ukey=3D1cphJ19WV2IJ2vRJs7KfLhrot=
+y6JX2QNE4A1ETNQdQo8-2056096301&amp;key=3DYAMMID-47674972&amp;link=3Dhttps%3=
+A%2F%2Fwww.instagram.com%2Fseedsta.rs%2F" style=3D"border:0px" target=3D"_b=
+lank" rel=3D"noreferrer"><img width=3D"30" height=3D"30" src=3D"http://oi66=
+.tinypic.com/de91eb.jpg" style=3D"border:none;width:30px;height:30px;max-wi=
+dth:30px;max-height:30px"></a><br></span></font></td></tr></tbody></table><=
+/td></tr></tbody></table><br><br></td></tr></tbody></table></div></div></di=
+v></div></div></div></div></div></div></div></div><img id=3D"m_659160390626=
+5203985pw_tpl" style=3D"border:none;display:none;width:0px;height:0px" src=
+=3D"https://app.prosperworks.com/tp/t/NzU0MDQzfHx8fHwzNzU3fHx8fHwxNTYxNTQ3N=
+DcyODk0/space.gif?creator=3Ddaria.khlopova@seedstars.com"></div>
+<img src=3D"https://seedstars-dot-yamm-track.appspot.com/FireBase?ukey=3D1c=
+phJ19WV2IJ2vRJs7KfLhroty6JX2QNE4A1ETNQdQo8-2056096301&amp;key=3DYAMMID-4767=
+4972" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none;display=
+:none!important">
+
+<br>
+<a href=3D"https://www.seedstarsworld.com/?utm_source=3Dsignature-banner&am=
+p;utm_medium=3Demail&amp;utm_campaign=3Dssw-events-team" target=3D"_blank" =
+rel=3D"noreferrer"><img src=3D"https://drive.google.com/uc?export=3Dview&am=
+p;id=3D1EhfqSWByr5Pmc9G-_vy1-RVtil_01nzY"></a></blockquote></div>
+
+--000000000000f14dde058c442768--

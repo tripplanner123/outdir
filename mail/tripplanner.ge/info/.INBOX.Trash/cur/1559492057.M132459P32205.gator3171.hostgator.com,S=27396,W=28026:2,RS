@@ -1,0 +1,630 @@
+Return-Path: <virre_sa@hotmail.com>
+Delivered-To: info@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP
+	id wATKB9n181zNfQAA8w4q4w
+	(envelope-from <virre_sa@hotmail.com>)
+	for <info@tripplanner.ge>; Sun, 02 Jun 2019 11:14:17 -0500
+Return-path: <virre_sa@hotmail.com>
+Envelope-to: info@tripplanner.ge
+Delivery-date: Sun, 02 Jun 2019 11:14:17 -0500
+Received: from mail-oln040092065088.outbound.protection.outlook.com ([40.92.65.88]:4697 helo=EUR01-HE1-obe.outbound.protection.outlook.com)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <virre_sa@hotmail.com>)
+	id 1hXT7f-000Hm4-Ln
+	for info@tripplanner.ge; Sun, 02 Jun 2019 11:14:17 -0500
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hotmail.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=KtjW9OHPTkntJFV289JGaxfFi6MC9bRzZHj046C8ONw=;
+ b=AxWZ8eV+ittCp982ejhjlJ07u3kaErJhp1/7HAkaodNnpCekhW3IvjcCSlXa6c2v/vBVYd153KpUeflBiC1ysDRZ8It27JoexVqdhnT2HHi+RodwjwJhAJhSPINeUA1iJpK/3q6fvwlJKRL1vcLVcIGasi+YNsjouLsrYPpVtFo7oyeMqEqMsyRAJ8eMoK99zQQGL1mgEh1pm2rcdPoxvmsiQSiH+VZBl8uX1gqVDEucmTn4xckJpG+BVtx5V3Q9sL2NagIEOcpB7Hz956wtlO7CYwH67objvEFsIn26hOSsenBkJmPs6R4MaRv41necYsxUzr3/M2seaCXIrAXw6A==
+Received: from HE1EUR01FT037.eop-EUR01.prod.protection.outlook.com
+ (10.152.0.53) by HE1EUR01HT142.eop-EUR01.prod.protection.outlook.com
+ (10.152.1.163) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id 15.20.1943.19; Sun, 2 Jun
+ 2019 16:14:01 +0000
+Received: from DB8PR05MB6042.eurprd05.prod.outlook.com (10.152.0.51) by
+ HE1EUR01FT037.mail.protection.outlook.com (10.152.1.83) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id
+ 15.20.1943.19 via Frontend Transport; Sun, 2 Jun 2019 16:14:01 +0000
+Received: from DB8PR05MB6042.eurprd05.prod.outlook.com
+ ([fe80::fcdd:d3b1:25f9:f50c]) by DB8PR05MB6042.eurprd05.prod.outlook.com
+ ([fe80::fcdd:d3b1:25f9:f50c%7]) with mapi id 15.20.1943.018; Sun, 2 Jun 2019
+ 16:14:01 +0000
+From: Viktor Sandstedt <virre_sa@hotmail.com>
+To: "info@tripplanner.ge" <info@tripplanner.ge>
+Subject: Sv: Re: Sv: Private tour to Georgia
+Thread-Topic: Re: Sv: Private tour to Georgia
+Thread-Index: AQHVFzrTQWphuwpe50itJLvwAxLOcqaE8qCAgAC6nAaAAswnAIAAAKIAgAAP1E8=
+Date: Sun, 2 Jun 2019 16:14:00 +0000
+Message-ID: <DB8PR05MB604247E8E82A2198DC6DCB54F81B0@DB8PR05MB6042.eurprd05.prod.outlook.com>
+References: <AM6PR05MB60386651384771ABD493CC1CF8180@AM6PR05MB6038.eurprd05.prod.outlook.com>,<2417DA1C-84CE-4564-BC79-6A5878C6D670@tripplanner.ge>
+ <AM6PR05MB6038A00ECF5F58DC5B9DCA20F8190@AM6PR05MB6038.eurprd05.prod.outlook.com>
+ <A3BFBF69-EE53-4E9C-AD9D-07D752A4F769@tripplanner.ge>,<413924FE-C58A-478F-A8B8-63CC9F607CC0@tripplanner.ge>
+In-Reply-To: <413924FE-C58A-478F-A8B8-63CC9F607CC0@tripplanner.ge>
+Accept-Language: sv-SE, en-US
+Content-Language: sv-SE
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-incomingtopheadermarker: OriginalChecksum:97F07E1288FC90FEE18EDBE0E52CC4FEDB7197D7B0CB43265F223B9BCC4ACE32;UpperCasedChecksum:CA56C064393D67BE0A7DA3D93C8442BE7B14365F94AC14C185487EF790FF6CDE;SizeAsReceived:7008;Count:43
+x-ms-exchange-messagesentrepresentingtype: 1
+x-tmn: [4/bqeAx5x3201XFXRhcysFObOA76Jo9g]
+x-ms-publictraffictype: Email
+x-incomingheadercount: 43
+x-eopattributedmessage: 0
+x-microsoft-antispam: BCL:0;PCL:0;RULEID:(2390118)(5050001)(7020095)(20181119110)(201702061078)(5061506573)(5061507331)(1603103135)(2017031320274)(2017031323274)(2017031324274)(2017031322404)(1603101475)(1601125500)(1701031045);SRVR:HE1EUR01HT142;
+x-ms-traffictypediagnostic: HE1EUR01HT142:
+x-microsoft-antispam-message-info: L21eagfCPWF7NeLuw7ErMtz+b8txaHw0PkeDJB1i5xCBQx4eB+jDXneWE4f7gnfxPtkCW4krZsas71bpS/R0XRvS21zBCvMExnY0PCycgItGBO17rvxdtI8i7WUzOByYt4WlA22qWX1X3LPZSk8n73wqbrgjV93ps2sxOyW6MflLXVrqVhvOcXqPaRRi+snO
+Content-Type: multipart/alternative;
+	boundary="_000_DB8PR05MB604247E8E82A2198DC6DCB54F81B0DB8PR05MB6042eurp_"
+MIME-Version: 1.0
+X-OriginatorOrg: hotmail.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: 7f7ba156-b0b0-4836-4f44-08d6e7755314
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-originalarrivaltime: 02 Jun 2019 16:14:00.9294
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Internet
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: HE1EUR01HT142
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Spam-Flag: NO
+
+--_000_DB8PR05MB604247E8E82A2198DC6DCB54F81B0DB8PR05MB6042eurp_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Giorgi,
+
+We would like to spend 4 days hiking in either Svaneti and Tusheti - Which =
+of these two regions would you recommend?
+
+So if I understand your prices right. If we go to Svaneti for 4 days the pr=
+ices would be.
+
+Transport from Kutaisi -> Mestia 300-400 GEL
+Price for horse owner + horse 150 GEL per day (total 600 GEL)  - Does the h=
+orse owner also work as a trekking guide or should we rent one additionally=
+?
+Transport from Mestia ->Kutaisi 300-400 GEL
+Total price for 4 days: 1200 - 1400. Excluding accommodation.
+
+For the remaining 5 days we would be interested in a cultural tour of other=
+ parts of Georgia. We would like to see some historic sites, churches, mart=
+vili canyon etc. Could you please also let me know how much you would charg=
+e for a 5 day tour as as well? - I will then discuss this with my friends.
+
+Thank you!
+
+Br,
+Viktor
+
+________________________________
+Fr=E5n: info@tripplanner.ge <info@tripplanner.ge>
+Skickat: den 2 juni 2019 17:02
+Till: Viktor Sandstedt
+=C4mne: Re: Re: Sv: Private tour to Georgia
+
+
+Hi Viktor
+
+price of transportation Kutaisi-Mestia is 300 ( about 100 EURO) GEL  (sedan=
+). SUV -400 GEL
+price of driver in Svaneti 200 GEL per day about (65 Euro) .
+  price of guide (cultural;  trekking) 150 GEL  per day
+price of horse horse owner 170 GEL. per day
+only horse 50 GEL ( but you have to take care about it)
+
+are you going to spend all this 9 days only in Svaneti or you are intereste=
+d in other regions of Georgia?
+
+
+ regards
+
+Giorgi Nabakhteveli
+
+Tripplanner.ge
+
+
+On June 2, 2019 7:00:32 PM GMT+04:00, "info@tripplanner.ge" <info@tripplann=
+er.ge> wrote:
+
+
+
+Hi Viktor
+
+price of transportation Kutaisi-Mestia is 300 ( about 100 EURO) GEL  (sedan=
+). SUV -400 GEL
+price of driver in Svaneti 200 GEL per day about (65 Euro) .
+  price of guide (cultural;  trekking) 150 GEL  per day
+price of horse horse owner 170 GEL. per day
+only horse 50 GEL ( but you have to take care about it)
+
+are you going to spend all this 9 days only in Svaneti or you are intereste=
+d in other regions of Georgia?
+
+
+
+
+Ge
+
+
+On June 1, 2019 12:24:29 AM GMT+04:00, Viktor Sandstedt <virre_sa@hotmail.c=
+om> wrote:
+Hi Georgi,
+
+Thank you for your quick reply.
+
+We would be interested in a combination of culture and hiking/trecking. Our=
+ arrival date would be June 14 and departure date June 24. The tour dates w=
+ould be June 15 to June 23.
+
+  *   number of participants - Please quote 3 people (we might have to adju=
+st it later)
+  *   do you need only driver for this 5 days or guide as well? -  Could yo=
+u let us know both the price for a driver only and driver + guide?
+  *   do you need horse for luggage during trekking?  - Could you let us kn=
+ow the price for a horse?
+  *   do you need trekking guide?  - Could you let us know the price for a =
+trecking guide?
+
+Thank you,
+
+Br,
+Viktor
+
+________________________________
+Fr=E5n: tripplanner.ge <info@tripplanner.ge>
+Skickat: den 31 maj 2019 11:09
+Till: Viktor Sandstedt
+=C4mne: Re: Private tour to Georgia
+
+Hello Viktor , we are glad that you contact us,
+
+We can provide both: tratsportation also  private tours (cultural, hiking, =
+trekking) In Svaneti and  other regions in Georgia as well.
+To calculate best price for you we need to know:
+
+  *   number of participants
+  *   do you need only driver for this 5 days or guide as well?,
+  *   do you need horse for luggage during trekking?
+  *   do you need trekking guide?
+
+Please let us know about this to make more customised tour for you. Then we=
+=92 ll write you tour programs for 5 and 9  days( we will calculate it for =
+both 2 and 4 participants) and you will be able to choose.
+Please write us on which dates ( approx) are you planning to arrive, we nee=
+d this information for 9 days hiking tour, because in early June some paths=
+ are still closed.
+
+
+Regards,
+
+Giorgi Nabakhteveli
+
+Tripplanner.ge
+
+
+On May 31, 2019, at 2:55 AM, Viktor Sandstedt <virre_sa@hotmail.com<mailto:=
+virre_sa@hotmail.com>> wrote:
+
+Hi,
+
+
+We are a group of 2-4 guys who are planning a trip to Gerogia for duration =
+of 9 days in June. We are planning to fly to Kutaisi and would from there l=
+ike to visit Svaneti where we will hike for a few days. We are looking for =
+a driver or private tour for either 5 or 9 days.
+
+
+Would you be able to provide us with an itinerary and price for both 5 days=
+ (not including hiking in Svaneti) and 9 days (including hiking in Svaneti)=
+?
+
+
+Thank you!
+
+We look forward to hearing back from you.
+
+Br,
+Viktor
+
+
+--_000_DB8PR05MB604247E8E82A2198DC6DCB54F81B0DB8PR05MB6042eurp_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 12pt;=
+ color: rgb(0, 0, 0);">
+Dear Giorgi,</div>
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 12pt;=
+ color: rgb(0, 0, 0);">
+<br>
+</div>
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 12pt;=
+ color: rgb(0, 0, 0);">
+We would like to spend 4 days hiking in either Svaneti and Tusheti - Which =
+of these two regions would you recommend?</div>
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 12pt;=
+ color: rgb(0, 0, 0);">
+<br>
+</div>
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 12pt;=
+ color: rgb(0, 0, 0);">
+So if I understand your prices right. If we go to Svaneti for 4 days the pr=
+ices would be.</div>
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 12pt;=
+ color: rgb(0, 0, 0);">
+<br>
+</div>
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 12pt;=
+ color: rgb(0, 0, 0);">
+<span style=3D"color: rgb(12, 100, 192);">Transport from&nbsp;</span><span =
+style=3D"color: rgb(12, 100, 192); font-family: &quot;Segoe UI&quot;, &quot=
+;Segoe UI Web (West European)&quot;, &quot;Segoe UI&quot;, -apple-system, s=
+ystem-ui, Roboto, &quot;Helvetica Neue&quot;, sans-serif; background-color:=
+ rgb(255, 255, 255); display: inline !important;">Kutaisi
+ -&gt; Mestia 300-400 GEL</span></div>
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 12pt;=
+ color: rgb(0, 0, 0);">
+<span style=3D"color: rgb(12, 100, 192); font-family: &quot;Segoe UI&quot;,=
+ &quot;Segoe UI Web (West European)&quot;, &quot;Segoe UI&quot;, -apple-sys=
+tem, system-ui, Roboto, &quot;Helvetica Neue&quot;, sans-serif; background-=
+color: rgb(255, 255, 255); display: inline !important;">Price for horse own=
+er
+ &#43; horse 150 GEL per day (total 600 GEL)&nbsp; - Does the horse owner a=
+lso work as a trekking guide or should we rent one additionally?</span></di=
+v>
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 12pt;=
+ color: rgb(0, 0, 0);">
+<span style=3D"color: rgb(12, 100, 192); font-family: &quot;Segoe UI&quot;,=
+ &quot;Segoe UI Web (West European)&quot;, &quot;Segoe UI&quot;, -apple-sys=
+tem, system-ui, Roboto, &quot;Helvetica Neue&quot;, sans-serif; background-=
+color: rgb(255, 255, 255); display: inline !important;">Transport from Mest=
+ia
+ -&gt;Kutaisi&nbsp;</span><span style=3D"color: rgb(50, 49, 48); font-famil=
+y: &quot;Segoe UI&quot;, &quot;Segoe UI Web (West European)&quot;, &quot;Se=
+goe UI&quot;, -apple-system, system-ui, Roboto, &quot;Helvetica Neue&quot;,=
+ sans-serif; background-color: rgb(255, 255, 255); display: inline !importa=
+nt"><span style=3D"font-family: &quot;Segoe UI&quot;, &quot;Segoe UI Web (W=
+est European)&quot;, &quot;Segoe UI&quot;, -apple-system, system-ui, Roboto=
+, &quot;Helvetica Neue&quot;, sans-serif; background-color: rgb(255, 255, 2=
+55); display: inline !important; color: rgb(12, 100, 192);">300-400
+ GEL</span></span></div>
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 12pt;=
+ color: rgb(0, 0, 0);">
+<span style=3D"color: rgb(12, 100, 192); font-family: &quot;Segoe UI&quot;,=
+ &quot;Segoe UI Web (West European)&quot;, &quot;Segoe UI&quot;, -apple-sys=
+tem, system-ui, Roboto, &quot;Helvetica Neue&quot;, sans-serif; background-=
+color: rgb(255, 255, 255); display: inline !important;">Total price for 4
+ days: 1200 - 1400. Excluding accommodation.</span></div>
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 12pt;=
+ color: rgb(0, 0, 0);">
+<span style=3D"color: rgb(50, 49, 48); font-family: &quot;Segoe UI&quot;, &=
+quot;Segoe UI Web (West European)&quot;, &quot;Segoe UI&quot;, -apple-syste=
+m, system-ui, Roboto, &quot;Helvetica Neue&quot;, sans-serif; background-co=
+lor: rgb(255, 255, 255); display: inline !important"><br>
+</span></div>
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 12pt;=
+ color: rgb(0, 0, 0);">
+<div style=3D"margin: 0px; font-size: 12pt; font-family: Calibri, Helvetica=
+, sans-serif">
+For the remaining 5 days we would be interested in a cultural tour of other=
+ parts of Georgia. We would like to see some historic sites, churches, mart=
+vili canyon etc. Could you please also let me know how much you would charg=
+e for a 5 day tour as as well? -
+ I will then discuss this with my friends.</div>
+<div style=3D"margin: 0px; font-size: 12pt; font-family: Calibri, Helvetica=
+, sans-serif">
+<br>
+</div>
+<div style=3D"margin: 0px; font-size: 12pt; font-family: Calibri, Helvetica=
+, sans-serif">
+Thank you!</div>
+<br>
+</div>
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 12pt;=
+ color: rgb(0, 0, 0);">
+Br,</div>
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 12pt;=
+ color: rgb(0, 0, 0);">
+Viktor</div>
+<div>
+<div id=3D"appendonsend"></div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+<br>
+</div>
+<hr tabindex=3D"-1" style=3D"display:inline-block; width:98%">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" co=
+lor=3D"#000000" style=3D"font-size:11pt"><b>Fr=E5n:</b> info@tripplanner.ge=
+ &lt;info@tripplanner.ge&gt;<br>
+<b>Skickat:</b> den 2 juni 2019 17:02<br>
+<b>Till:</b> Viktor Sandstedt<br>
+<b>=C4mne:</b> Re: Re: Sv: Private tour to Georgia</font>
+<div>&nbsp;</div>
+</div>
+<div dir=3D"ltr"><br>
+<div id=3D"x_signature_default">Hi Viktor</div>
+<div id=3D"x_signature_default"><br>
+</div>
+<div id=3D"x_signature_default">price of transportation Kutaisi-Mestia is 3=
+00 ( about 100 EURO) GEL&nbsp; (sedan). SUV -400 GEL</div>
+<div id=3D"x_signature_default">price of driver in Svaneti 200 GEL per day =
+about (65 Euro) .&nbsp;</div>
+<div id=3D"x_signature_default">&nbsp; price of guide (cultural;&nbsp; trek=
+king) 150 GEL&nbsp; per day</div>
+<div id=3D"x_signature_default">price of horse horse owner 170 GEL. per day=
+</div>
+<div id=3D"x_signature_default">only horse 50 GEL ( but you have to take ca=
+re about it)</div>
+<div id=3D"x_signature_default"><br>
+</div>
+<div id=3D"x_signature_default">are you going to spend all this 9 days only=
+ in Svaneti or you are interested in other regions of Georgia?&nbsp;</div>
+<div id=3D"x_signature_default">&nbsp;</div>
+<br>
+<div id=3D"x_signature_default">&nbsp;regards</div>
+<div id=3D"x_signature_default"><br>
+</div>
+<div id=3D"x_signature_default">Giorgi Nabakhteveli</div>
+<div id=3D"x_signature_default"><br>
+</div>
+<div id=3D"x_signature_default">Tripplanner.ge</div>
+<br>
+<br>
+<blockquote class=3D"x_gmail_quote" style=3D"margin:0px!important; padding:=
+0px!important; border:none!important">
+<div style=3D"font-size:12px; background:#f0f0f0; color:#212121; padding:8p=
+x!important; border-radius:4px; line-height:1.5">
+On June 2, 2019 7:00:32 PM GMT&#43;04:00, &quot;info@tripplanner.ge&quot; &=
+lt;info@tripplanner.ge&gt; wrote:</div>
+<div class=3D"x_gmail_quote"><br>
+<br>
+<br>
+<div id=3D"x_signature_default">Hi Viktor</div>
+<div id=3D"x_signature_default"><br>
+</div>
+<div id=3D"x_signature_default">price of transportation Kutaisi-Mestia is 3=
+00 ( about 100 EURO) GEL&nbsp; (sedan). SUV -400 GEL</div>
+<div id=3D"x_signature_default">price of driver in Svaneti 200 GEL per day =
+about (65 Euro) .&nbsp;</div>
+<div id=3D"x_signature_default">&nbsp; price of guide (cultural;&nbsp; trek=
+king) 150 GEL&nbsp; per day</div>
+<div id=3D"x_signature_default">price of horse horse owner 170 GEL. per day=
+</div>
+<div id=3D"x_signature_default">only horse 50 GEL ( but you have to take ca=
+re about it)</div>
+<div id=3D"x_signature_default"><br>
+</div>
+<div id=3D"x_signature_default">are you going to spend all this 9 days only=
+ in Svaneti or you are interested in other regions of Georgia?&nbsp;</div>
+<div id=3D"x_signature_default">&nbsp;</div>
+<div id=3D"x_signature_default"><br>
+</div>
+<div id=3D"x_signature_default"><br>
+</div>
+<div id=3D"x_signature_default"><br>
+</div>
+<div id=3D"x_signature_default">Ge</div>
+<br>
+<br>
+<blockquote class=3D"x_gmail_quote" style=3D"margin:0px!important; padding:=
+0px!important; border:none!important">
+<div style=3D"font-size:12px; background:#f0f0f0; color:#212121; padding:8p=
+x!important; border-radius:4px; line-height:1.5">
+On June 1, 2019 12:24:29 AM GMT&#43;04:00, Viktor Sandstedt &lt;virre_sa@ho=
+tmail.com&gt; wrote:</div>
+<div class=3D"x_gmail_quote">
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+Hi Georgi,</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+<br>
+</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+Thank you for your quick reply.&nbsp;</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+<br>
+</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+We would be interested in a combination of culture and hiking/trecking. Our=
+ arrival date would be June 14 and departure date June 24. The tour dates w=
+ould be June 15 to June 23.&nbsp;</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+<ul style=3D"color:rgb(50,49,48); background-color:rgb(255,255,255)">
+<li>number of participants <span style=3D"color:rgb(81,167,249)">- Please q=
+uote 3 people (we might have to adjust it later)</span></li><li>do you need=
+ only driver for this 5 days or guide as well? -&nbsp;&nbsp;<span style=3D"=
+color:rgb(81,167,249)">Could you let us know both the price for a driver on=
+ly and driver &#43; guide?</span></li><li>do you need horse for luggage dur=
+ing trekking?&nbsp; <span style=3D"color:rgb(81,167,249)">
+- Could you let us know the price for a horse?</span></li><li>do you need t=
+rekking guide?&nbsp; -<span style=3D"color:rgb(81,167,249)"> Could you let =
+us know the price for a trecking guide?</span></li></ul>
+Thank you,</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+<br>
+</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+Br,</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+Viktor</div>
+<div>
+<div id=3D"x_appendonsend"></div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+<br>
+</div>
+<hr tabindex=3D"-1" style=3D"display:inline-block; width:98%">
+<div id=3D"x_divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" =
+color=3D"#000000" style=3D"font-size:11pt"><b>Fr=E5n:</b> tripplanner.ge &l=
+t;info@tripplanner.ge&gt;<br>
+<b>Skickat:</b> den 31 maj 2019 11:09<br>
+<b>Till:</b> Viktor Sandstedt<br>
+<b>=C4mne:</b> Re: Private tour to Georgia</font>
+<div>&nbsp;</div>
+</div>
+<div class=3D"" style=3D"word-wrap:break-word; line-break:after-white-space=
+">Hello Viktor , we are glad that you contact us, &nbsp;
+<div class=3D"">&nbsp;<span class=3D"x_x_Apple-tab-span" style=3D"white-spa=
+ce:pre"> </span></div>
+<div class=3D""><span class=3D"x_x_Apple-tab-span" style=3D"white-space:pre=
+"></span>We can provide both: tratsportation also &nbsp;private tours (cult=
+ural, hiking, trekking) In Svaneti and &nbsp;other regions in Georgia as we=
+ll.</div>
+<div class=3D"">To calculate best price for you we need to know:&nbsp;</div=
+>
+<div class=3D"">
+<ul class=3D"x_x_MailOutline">
+<li class=3D"">number of participants&nbsp;</li><li class=3D"">do you need =
+only driver for this 5 days or guide as well?,&nbsp;</li><li class=3D"">do =
+you need horse for luggage during trekking?&nbsp;</li><li class=3D"">do you=
+ need trekking guide? &nbsp;</li></ul>
+</div>
+<div class=3D"">Please let us know about this to make more customised tour =
+for you. Then we=92 ll write you tour programs for 5 and 9 &nbsp;days( we w=
+ill calculate it for both 2 and 4 participants) and you will be able to cho=
+ose.</div>
+<div class=3D"">Please write us on which dates ( approx) are you planning t=
+o arrive, we need this information for 9 days hiking tour, because in early=
+ June some paths are still closed.&nbsp;</div>
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">Regards,&nbsp;</div>
+<div class=3D"">&nbsp;</div>
+<div class=3D"">Giorgi Nabakhteveli</div>
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">Tripplanner.ge</div>
+<div class=3D""><br class=3D"">
+</div>
+<div><br class=3D"">
+<blockquote type=3D"cite" class=3D"">
+<div class=3D"">On May 31, 2019, at 2:55 AM, Viktor Sandstedt &lt;<a href=
+=3D"mailto:virre_sa@hotmail.com" class=3D"">virre_sa@hotmail.com</a>&gt; wr=
+ote:</div>
+<br class=3D"x_x_Apple-interchange-newline">
+<div class=3D"">
+<div class=3D"" style=3D"font-style:normal; font-variant-caps:normal; font-=
+weight:normal; letter-spacing:normal; text-align:start; text-indent:0px; te=
+xt-transform:none; white-space:normal; word-spacing:0px; text-decoration:no=
+ne; font-family:Calibri,Helvetica,sans-serif; font-size:12pt">
+<div class=3D"" style=3D"margin:0cm 0cm 0.0001pt; font-size:12pt; backgroun=
+d-color:rgb(255,255,255); color:rgb(50,49,48); font-family:Calibri,sans-ser=
+if">
+<span lang=3D"EN-US" class=3D"" style=3D"margin:0px">Hi,</span></div>
+<div class=3D"" style=3D"margin:0cm 0cm 0.0001pt; font-size:12pt; backgroun=
+d-color:rgb(255,255,255); color:rgb(50,49,48); font-family:Calibri,sans-ser=
+if">
+<span lang=3D"EN-US" class=3D"" style=3D"margin:0px"><br class=3D"">
+</span></div>
+<p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;margin:0cm 0cm 0=
+.0001pt 54pt; font-size:12pt; background-color:rgb(255,255,255); color:rgb(=
+50,49,48); font-family:Calibri,sans-serif">
+<span lang=3D"EN-US" class=3D"" style=3D"margin:0px"></span></p>
+<div class=3D"" style=3D"margin:0cm 0cm 0.0001pt; font-size:12pt; backgroun=
+d-color:rgb(255,255,255); color:rgb(50,49,48); font-family:Calibri,sans-ser=
+if">
+<span lang=3D"EN-US" class=3D"" style=3D"margin:0px">We are a group of 2-4 =
+guys who are planning a trip to Gerogia for duration of 9 days in June. We =
+are planning to fly to Kutaisi and would from there like to visit Svaneti w=
+here we will hike for a few days. We are
+ looking for a driver or private tour for either 5 or 9 days.<span class=3D=
+"" style=3D"margin:0px">&nbsp;</span><span class=3D"" style=3D"margin:0px">=
+&nbsp;</span></span></div>
+<div class=3D"" style=3D"margin:0cm 0cm 0.0001pt; font-size:12pt; backgroun=
+d-color:rgb(255,255,255); color:rgb(50,49,48); font-family:Calibri,sans-ser=
+if">
+<span lang=3D"EN-US" class=3D"" style=3D"margin:0px"><span class=3D"" style=
+=3D"margin:0px"><br class=3D"">
+</span></span></div>
+<p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;margin:0cm 0cm 0=
+.0001pt 54pt; font-size:12pt; background-color:rgb(255,255,255); color:rgb(=
+50,49,48); font-family:Calibri,sans-serif">
+<span lang=3D"EN-US" class=3D"" style=3D"margin:0px"></span></p>
+<div class=3D"" style=3D"margin:0cm 0cm 0.0001pt; font-size:12pt; backgroun=
+d-color:rgb(255,255,255); color:rgb(50,49,48); font-family:Calibri,sans-ser=
+if">
+<span lang=3D"EN-US" class=3D"" style=3D"margin:0px">Would you be able to p=
+rovide us with an itinerary and price for both 5 days (not including hiking=
+ in Svaneti) and 9 days (including hiking in Svaneti)?</span></div>
+<div class=3D"" style=3D"margin:0cm 0cm 0.0001pt; font-size:12pt; backgroun=
+d-color:rgb(255,255,255); color:rgb(50,49,48); font-family:Calibri,sans-ser=
+if">
+<span lang=3D"EN-US" class=3D"" style=3D"margin:0px"><br class=3D"">
+</span></div>
+<p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;margin:0cm 0cm 0=
+.0001pt 54pt; font-size:12pt; background-color:rgb(255,255,255); color:rgb(=
+50,49,48); font-family:Calibri,sans-serif">
+<span lang=3D"EN-US" class=3D"" style=3D"margin:0px"></span></p>
+<p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;margin:0cm 0cm 0=
+.0001pt; font-size:12pt; background-color:rgb(255,255,255); color:rgb(50,49=
+,48); font-family:Calibri,sans-serif">
+<span lang=3D"EN-US" class=3D"" style=3D"margin:0px"></span></p>
+<div class=3D"" style=3D"margin:0cm 0cm 0.0001pt; font-size:12pt; backgroun=
+d-color:rgb(255,255,255); color:rgb(50,49,48); font-family:Calibri,sans-ser=
+if">
+<span lang=3D"EN-US" class=3D"" style=3D"margin:0px">Thank you!</span></div=
+>
+<div class=3D"" style=3D"margin:0cm 0cm 0.0001pt; font-size:12pt; backgroun=
+d-color:rgb(255,255,255); color:rgb(50,49,48); font-family:Calibri,sans-ser=
+if">
+<span lang=3D"EN-US" class=3D"" style=3D"margin:0px"><br class=3D"">
+</span></div>
+<div class=3D"" style=3D"margin:0cm 0cm 0.0001pt; font-size:12pt; backgroun=
+d-color:rgb(255,255,255); color:rgb(50,49,48); font-family:Calibri,sans-ser=
+if">
+<span lang=3D"EN-US" class=3D"" style=3D"margin:0px">We look forward to hea=
+ring back from you.</span></div>
+<div class=3D"" style=3D"margin:0cm 0cm 0.0001pt; font-size:12pt; backgroun=
+d-color:rgb(255,255,255); color:rgb(50,49,48); font-family:Calibri,sans-ser=
+if">
+<span lang=3D"EN-US" class=3D"" style=3D"margin:0px"><br class=3D"">
+</span></div>
+<div class=3D"" style=3D"margin:0cm 0cm 0.0001pt; font-size:12pt; backgroun=
+d-color:rgb(255,255,255); color:rgb(50,49,48); font-family:Calibri,sans-ser=
+if">
+<span lang=3D"EN-US" class=3D"" style=3D"margin:0px">Br,</span></div>
+<div class=3D"" style=3D"margin:0cm 0cm 0.0001pt; font-size:12pt; backgroun=
+d-color:rgb(255,255,255); color:rgb(50,49,48); font-family:Calibri,sans-ser=
+if">
+<span lang=3D"EN-US" class=3D"" style=3D"margin:0px">Viktor</span></div>
+</div>
+</div>
+</blockquote>
+</div>
+<br class=3D"">
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+</blockquote>
+</div>
+</div>
+</body>
+</html>
+
+--_000_DB8PR05MB604247E8E82A2198DC6DCB54F81B0DB8PR05MB6042eurp_--

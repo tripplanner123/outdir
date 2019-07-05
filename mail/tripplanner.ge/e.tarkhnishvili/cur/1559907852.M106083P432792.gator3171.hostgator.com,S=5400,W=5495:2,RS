@@ -1,0 +1,95 @@
+Return-Path: <svetlanakirpa@gmail.com>
+Delivered-To: e.tarkhnishvili@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP
+	id IOUrBgxO+lyYmgYA8w4q4w
+	(envelope-from <svetlanakirpa@gmail.com>)
+	for <e.tarkhnishvili@tripplanner.ge>; Fri, 07 Jun 2019 06:44:12 -0500
+Return-path: <svetlanakirpa@gmail.com>
+Envelope-to: e.tarkhnishvili@tripplanner.ge
+Delivery-date: Fri, 07 Jun 2019 06:44:12 -0500
+Received: from mail-qk1-f179.google.com ([209.85.222.179]:38650)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.92)
+	(envelope-from <svetlanakirpa@gmail.com>)
+	id 1hZDI3-001v3f-Kk
+	for e.tarkhnishvili@tripplanner.ge; Fri, 07 Jun 2019 06:44:12 -0500
+Received: by mail-qk1-f179.google.com with SMTP id a27so1009844qkk.5
+        for <e.tarkhnishvili@tripplanner.ge>; Fri, 07 Jun 2019 04:44:06 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+        bh=a3tGTL+zEG1KZrYCfW5DZh1qFhI5C33gboLUXcJBkYU=;
+        b=momfG1vhU7jtMNhCstYDmCWurq1oVNeTsc2cDGqO/cgfTXTNtjEiaDyaeS0DNvbAYZ
+         7WTIxyVn/Azgaw48vOmzz5fccrslJzaUAZdn8TPKZEEObIsq0oU7+ys77eEaXW7mw8xu
+         W1u+lk0Zw9ph8xvTbL67TuJMyRAwUqA04St+Ya+SUjcPzp/PzWbxjP3981XwvF+d1Q33
+         3E7EvFIS4oUbJPj5s7q6jU2bvlMZh9DX1WA1+nOGKCL6bQL+WgeO/P6ZE94BBiC5c98Q
+         iSTXuDfs5kbi+sX3EJ6LTZC8NByKSr6E00VpkgsP0OpAlffhaVoAF/Ji/spPDCibrg4y
+         kbuA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to;
+        bh=a3tGTL+zEG1KZrYCfW5DZh1qFhI5C33gboLUXcJBkYU=;
+        b=KHaraBfV9jEaUTTS8//xvgF6ze05Jvx47N5g67xqHaEMqxCtP71XuDorz4VcNn0Cm+
+         UlYE0T76yoUGhSNdNe9BUZkJhnp+N1SVd0UGcfR7FUutRLoqQQHEl0f32h16kQ3KYEQf
+         7yBPgu2FRm518w8ckSuPwXabGOgwzsorO0EykGoSN6RnpaUsdGDiKxl+XeqhvAq4WKiZ
+         SIXvaoSJOWnGm0StdTvjuzZ9FxrrSBLGcpyf1YympyNtzUsQeKzD/yxTFUbIanmtIOlH
+         3kJh7439pBTLZbLbOD8pXVGfLaV0E5emFNFbAtlH3wObdMtmHocxKRK1S8icsgXScGRK
+         afRA==
+X-Gm-Message-State: APjAAAWkCyGIsGjX7CJBuYvBAidD9KErpIP06dbXaOilAZJ607uzj/zt
+	3QBB2F1/+M9YljGQbtYUbOoLSo/kOvza/pPPJAHqKQ==
+X-Google-Smtp-Source: APXvYqzmyfSBeyPsiZc7AiAEujd1C26mb5mdDvP9tRqXXYQeudQad7QtFJTsTkY6SxhjDaL02jmeo+ZYCzFKIh6vSl4=
+X-Received: by 2002:ae9:ec1a:: with SMTP id h26mr41849558qkg.211.1559907839739;
+ Fri, 07 Jun 2019 04:43:59 -0700 (PDT)
+MIME-Version: 1.0
+References: <CAFR=2mBRxuOewt4JLhcLuj9wDJa4QuF4ThS12P8W4RivwiwJBg@mail.gmail.com>
+ <AE65D2F8-E704-4DB3-89E6-E00D288D1D7C@tripplanner.ge>
+In-Reply-To: <AE65D2F8-E704-4DB3-89E6-E00D288D1D7C@tripplanner.ge>
+From: Svetlana Kirpa <svetlanakirpa@gmail.com>
+Date: Fri, 7 Jun 2019 15:43:44 +0400
+Message-ID: <CAFR=2mAA8=p5A6u08Ej3EyvfogyZNwvHjFOEW3hgqe4ABEGFBA@mail.gmail.com>
+Subject: =?UTF-8?B?UmU6INCQ0LTQttCw0YDQuNGP?=
+To: Ekaterine Tarkhnishvili <e.tarkhnishvili@tripplanner.ge>
+Content-Type: multipart/alternative; boundary="000000000000ab8bf6058aba58d2"
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Spam-Flag: NO
+
+--000000000000ab8bf6058aba58d2
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: base64
+
+0J/RgNC+INCy0LjQvdC+0LTQtdC70LjQtSwg0LAg0L/QvtGC0L7QvCDQv9GA0L4g0JPRg9GA0LjR
+ji4g0JzRiyDQttC1INGA0LXRiNC40LvQuCDRgNCw0LfQsdCw0LLQu9GP0YLRjCDRgtC10LzRiyDQ
+v9GA0L4NCtC/0YPRgtC10YjQtdGB0YLQstC40Y8sINGA0LDRgdGB0LrQsNC30LDQvNC4INC/0YDQ
+viDQutGD0LvRjNGC0YPRgNGDINC4INGC0YDQsNC00LjRhtC40Lgg8J+Zgg0KDQrQv9GCLCA3INC4
+0Y7QvS4gMjAxOSDQsy4sIDE1OjQwIEVrYSA8ZS50YXJraG5pc2h2aWxpQHRyaXBwbGFubmVyLmdl
+PjoNCg0KPiDQodC/0LDRgdC40LHQviwNCj4g0JHQu9C+0LMg0LjQvdGC0LXRgNC10YHQvdGL0Lks
+INC30L3QsNGH0LjRgiDRgdC70LXQtNGD0Y7RidC40Lkg0LHRg9C00LXRgiDQv9GA0L4g0JPRg9GA
+0LjRjj8pKQ0KPg0KPiA+IE9uIEp1biA2LCAyMDE5LCBhdCA2OjA3IFBNLCBTdmV0bGFuYSBLaXJw
+YSA8c3ZldGxhbmFraXJwYUBnbWFpbC5jb20+DQo+IHdyb3RlOg0KPiA+DQo+ID4NCj4gPiA80JDQ
+tNC20LDRgNC40Y8uZG9jeD4NCj4NCj4NCg==
+--000000000000ab8bf6058aba58d2
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: base64
+
+PGRpdiBkaXI9ImF1dG8iPtCf0YDQviDQstC40L3QvtC00LXQu9C40LUsINCwINC/0L7RgtC+0Lwg
+0L/RgNC+INCT0YPRgNC40Y4uINCc0Ysg0LbQtSDRgNC10YjQuNC70Lgg0YDQsNC30LHQsNCy0LvR
+j9GC0Ywg0YLQtdC80Ysg0L/RgNC+INC/0YPRgtC10YjQtdGB0YLQstC40Y8sINGA0LDRgdGB0LrQ
+sNC30LDQvNC4INC/0YDQviDQutGD0LvRjNGC0YPRgNGDINC4INGC0YDQsNC00LjRhtC40Lgg8J+Z
+gjwvZGl2Pjxicj48ZGl2IGNsYXNzPSJnbWFpbF9xdW90ZSI+PGRpdiBkaXI9Imx0ciIgY2xhc3M9
+ImdtYWlsX2F0dHIiPtC/0YIsIDcg0LjRjtC9LiAyMDE5INCzLiwgMTU6NDAgRWthICZsdDs8YSBo
+cmVmPSJtYWlsdG86ZS50YXJraG5pc2h2aWxpQHRyaXBwbGFubmVyLmdlIj5lLnRhcmtobmlzaHZp
+bGlAdHJpcHBsYW5uZXIuZ2U8L2E+Jmd0Ozo8YnI+PC9kaXY+PGJsb2NrcXVvdGUgY2xhc3M9Imdt
+YWlsX3F1b3RlIiBzdHlsZT0ibWFyZ2luOjAgMCAwIC44ZXg7Ym9yZGVyLWxlZnQ6MXB4ICNjY2Mg
+c29saWQ7cGFkZGluZy1sZWZ0OjFleCI+0KHQv9Cw0YHQuNCx0L4sPGJyPg0K0JHQu9C+0LMg0LjQ
+vdGC0LXRgNC10YHQvdGL0LksINC30L3QsNGH0LjRgiDRgdC70LXQtNGD0Y7RidC40Lkg0LHRg9C0
+0LXRgiDQv9GA0L4g0JPRg9GA0LjRjj8pKTxicj4NCjxicj4NCiZndDsgT24gSnVuIDYsIDIwMTks
+IGF0IDY6MDcgUE0sIFN2ZXRsYW5hIEtpcnBhICZsdDs8YSBocmVmPSJtYWlsdG86c3ZldGxhbmFr
+aXJwYUBnbWFpbC5jb20iIHRhcmdldD0iX2JsYW5rIiByZWw9Im5vcmVmZXJyZXIiPnN2ZXRsYW5h
+a2lycGFAZ21haWwuY29tPC9hPiZndDsgd3JvdGU6PGJyPg0KJmd0OyA8YnI+DQomZ3Q7IDxicj4N
+CiZndDsgJmx0O9CQ0LTQttCw0YDQuNGPLmRvY3gmZ3Q7PGJyPg0KPGJyPg0KPC9ibG9ja3F1b3Rl
+PjwvZGl2Pg0K
+--000000000000ab8bf6058aba58d2--

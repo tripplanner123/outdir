@@ -1,0 +1,1145 @@
+Return-Path: <vandorboy.travel@gmail.com>
+Delivered-To: info@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP
+	id GBs5BxYgFl2AZQAA8w4q4w
+	(envelope-from <vandorboy.travel@gmail.com>)
+	for <info@tripplanner.ge>; Fri, 28 Jun 2019 09:11:34 -0500
+Return-path: <vandorboy.travel@gmail.com>
+Envelope-to: info@tripplanner.ge
+Delivery-date: Fri, 28 Jun 2019 09:11:34 -0500
+Received: from mail-lf1-f54.google.com ([209.85.167.54]:39356)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.92)
+	(envelope-from <vandorboy.travel@gmail.com>)
+	id 1hgrbA-00097z-0d
+	for info@tripplanner.ge; Fri, 28 Jun 2019 09:11:34 -0500
+Received: by mail-lf1-f54.google.com with SMTP id p24so4067042lfo.6
+        for <info@tripplanner.ge>; Fri, 28 Jun 2019 07:11:26 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+        bh=EHY5ixCqYykEiEPjgkfcjJjZQmqttfWxHkwk0n0DwP0=;
+        b=PMXgNcbbfLIpcPliqzuw5Usp6N66hT1Y+a1xqUn91UstxLdxyFUSSRTVKDW5GyxIOt
+         XJeyuZSSUw3xGbVhJWSswB499F8lfkak+oq27oNcrlYfas7RFSzshB26Tw66rWMLT4TT
+         jQf4jzMr+znQbcFI83uIvMQskJYY7BwbppIvrWFTdwq6USC6WH06Elo7dHoZ2VUlytza
+         vt56cNrzWRm/AQDM1Drlk4sRd0VEOHjQ80eEWv36njYHBGuSemLOypLSercxnxhk/reO
+         MY27g/DA4Ke9y4aAB8+rib3Fi41XR5e6/CQOz47k3YvclT+jAvWO4JYDaf5eP9YKNJPI
+         h5Ww==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to;
+        bh=EHY5ixCqYykEiEPjgkfcjJjZQmqttfWxHkwk0n0DwP0=;
+        b=fs6+ZvFBwg8NA71S1QuXpKXD0EBa36bk3q7nSYstnIzXZOFgOBeD4mlSTdDyt3JtC3
+         IpKlpN51QMBLRNiT5LZ26+YMULcWNJIt6Lm1/4XMolQEe1nrmWEv2lGMHHmQnXtesWs1
+         qy2iijTLLfy2xKnfxbUGKzGEJA32RuFevxqzN6yvQ2LMrNhTHga+qwLad76VwfvqECpQ
+         +5+pgY+l2Xb7Y44c9t9w050askLFhbKLmkKb6pl4lShd5gZo//Fk/sXJqT5CWMpwupCW
+         NtSQU1RlnS7GKdPDLZ6tQpymZrjbAzoBIW+tJn71B42wTybbqMg6JdAHz9ZhQO94b8Kl
+         lLyw==
+X-Gm-Message-State: APjAAAWjwLUHLjZ1bABLcGnBbYC/UYZRp+Yhtnz4aV2v3rUStVt/MUU0
+	/5MpPZxdIsLIBe43XCp9hgGaNoPyK5knq0VLVly5+Q==
+X-Google-Smtp-Source: APXvYqwapP1/dnfEb1IamPWjmAeAsHsZDPb4ULJ+rmMbEDJJZ5gmk98icUxyLWMMJRNHHey89HGazQMaFXbhQr9FZiE=
+X-Received: by 2002:ac2:43b7:: with SMTP id t23mr4960364lfl.110.1561731079207;
+ Fri, 28 Jun 2019 07:11:19 -0700 (PDT)
+MIME-Version: 1.0
+References: <CAPy7xgbH+dRr0HvpONxj7j3c+vU0HZjk3x1CGPQdqJ5XLBHXXQ@mail.gmail.com>
+ <4DA69010-28BB-487B-B1E5-165C509F1962@tripplanner.ge> <CAPy7xgZKkBE6a+kMzrhwx-YMqYLk3udJ4y0OAo2NHV0+nDjZnw@mail.gmail.com>
+ <1560795002.946108336@f4.my.com> <CAPy7xgbsc4K6aYfG-Sb4Cx8iSbvHfHqx4=htebEkZspO-spz3g@mail.gmail.com>
+ <36F5C227-5C34-480F-88CB-E401856CDA16@tripplanner.ge> <CAPy7xgZJQe8aOjKM0FWzKLOEX5cdxAVxjmw34hMB4YytDG+6tg@mail.gmail.com>
+ <53A3ED3E-C42B-48A9-B9CB-9B66085DE12A@tripplanner.ge> <70C69871-9C3F-499A-A8AC-689306717813@tripplanner.ge>
+In-Reply-To: <70C69871-9C3F-499A-A8AC-689306717813@tripplanner.ge>
+From: =?UTF-8?Q?Vandorboy=2Ecom_V=C3=A1ndorboy?= <vandorboy.travel@gmail.com>
+Date: Fri, 28 Jun 2019 16:11:08 +0200
+Message-ID: <CAPy7xgYRig7uKECgPcufLv2+XFP-TpgM=ZOW4tajapkoSvEMdw@mail.gmail.com>
+Subject: Re: 40+ person Bus hire 11-18th july
+To: Eka <info@tripplanner.ge>
+Content-Type: multipart/alternative; boundary="0000000000003600c3058c62da8c"
+X-Spam-Status: No, score=0.3
+X-Spam-Score: 3
+X-Spam-Bar: /
+X-Spam-Flag: NO
+
+--0000000000003600c3058c62da8c
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+i want  to them to be comfortable..
+and not big price different..
+so 40+ for the first part please.
+thanks
+G=C3=A1bor (V=C3=A1ndorboy <http://vandorboy.com/>)
+0670 284 6080
+
+On Fri, Jun 28, 2019 at 3:53 PM Eka <info@tripplanner.ge> wrote:
+
+> Here are the photos of 30 person Bus.
+>
+>
+> On Jun 28, 2019, at 5:50 PM, Eka <info@tripplanner.ge> wrote:
+>
+> hello,
+> so if you will be more than 28 person, my advise would be to hire 30
+> person bus during all trip, for 12 days.
+> The fee for driver would be 118 EUR and + 25/30 liter per 100 km.
+> what do you think?
+>
+> Eka
+>
+> On Jun 28, 2019, at 1:52 AM, Vandorboy.com <http://vandorboy.com/>
+> V=C3=A1ndorboy <vandorboy.travel@gmail.com> wrote:
+>
+> Hello Eka
+>  yes 1 day less (11-16th july) with big bus, as 16th evening we arrive to
+> tbilisi, so next 2 days we are in tbilisi, so smaller bus is enough as we
+> dont have laguage with us.
+> 17-22 july we start in tbilisi and finish in tbilisi..  (going from
+> Tbilisi - Davit gereja - sighnagi - telavi - kazbegi - tbilisi)
+> Gabor
+> here is our full itinary.  (1st part will be 28 people, 2nd par from 18th=
+,
+> will be just 16 people)
+>
+> 11-Jul cs=C3=BCt=C3=B6rt=C3=B6k Kutaisi -Mestia
+> 12-Jul p=C3=A9ntek Mestia -Ushguli
+> 13-Jul szombat Ushguli trekking - Mestia
+> 14-Jul vas=C3=A1rnap Mestia - Martvili kanyon - Kutaisi
+> 15-Jul h=C3=A9tf=C5=91 Barlang-Gelati- Kutaisi
+> 16-Jul kedd Gori - Mtsetha - Tbilisi
+> 17-Jul szerda Tbilisi belv=C3=A1ros 1.
+> 18-Jul cs=C3=BCt=C3=B6rt=C3=B6k Tbilisi v=C3=A1rosn=C3=A9z=C3=A9s 2.
+> 19-Jul p=C3=A9ntek Sighnahi
+> 20-Jul szombat Telavi
+> 21-Jul vas=C3=A1rnap kazbegi
+> 22-Jul h=C3=A9tf=C5=91 Kazbegi-  kutaisi /tbilisi
+> Earlier we discussed 7 days trip form 11 Jul in Kutaisi till 18 Jul in
+> Tbilisi, the bus 40+ with final amount 1239 EUR. (127*7)+350=3D1239
+> Also you wrote me that 5 of July you are coming back in Tbilisi and You
+> will pay by cash. If the agenda of this trip is changed please let me kno=
+w.
+> photos of 40+ bus are attached to this mail.
+>
+> For another trip 17-22 July for 30 persons we do not have any agenda. If
+> you already know, please write us the starting/ending points and the full
+> agenda information of this second trip. after that we will make a
+> reservations.
+>
+> We will wait your answer , and sorry for being late
+>
+>
+> G=C3=A1bor (V=C3=A1ndorboy <http://vandorboy.com/>)
+>
+> On Thu, Jun 27, 2019 at 1:10 PM Eka <info@tripplanner.ge> wrote:
+>
+>> Hello Gabor,
+>>
+>> I am a little bite confused,
+>>
+>> Earlier we discussed 7 days trip form 11 Jul in Kutaisi till 18 Jul in
+>> Tbilisi, the bus 40+ with final amount 1239 EUR. (127*7)+350=3D1239
+>> Also you wrote me that 5 of July you are coming back in Tbilisi and You
+>> will pay by cash. If the agenda of this trip is changed please let me kn=
+ow.
+>> photos of 40+ bus are attached to this mail.
+>>
+>> For another trip 17-22 July for 30 persons we do not have any agenda. If
+>> you already know, please write us the starting/ending points and the ful=
+l
+>> agenda information of this second trip. after that we will make a
+>> reservations.
+>>
+>> We will wait your answer , and sorry for being late
+>>
+>>
+>> Sincerely,
+>>
+>> Ekaterine Tarkhnishvili
+>>
+>> LTD Tripplanner
+>> Cel: (995) 591 712345
+>> Mob: (995) 599 450035
+>> E-mail: e.tarkhnishvili@tripplanner.ge <e.tarkhnishvili@tripplanner.ge>
+>>             info@tripplanner.ge
+>>
+>> https://tripplanner.ge
+>>
+>> <image001 2_Easy-Resize.com.jpg><IMG_3165.JPG>
+>>
+>> <IMG_3166.JPG>
+>> <IMG_3167.JPG>
+>> <IMG_3168.JPG>
+>>
+>> On Jun 26, 2019, at 8:35 PM, Vandorboy.com <http://vandorboy.com/>
+>> V=C3=A1ndorboy <vandorboy.travel@gmail.com> wrote:
+>>
+>> Hello Eka
+>> as we discussed:we have group 27 person
+>> We will need the  bigger 40 person bus 11 july Kutaisi -16 july   evenin=
+g
+>> Tbilisi  (6 days)   - the 40+ person bus.
+>>  _ 127 euro/ day + 40 liter/ 100 km for petrol
+>> (would you please sned me the type of the bus, or photo)
+>>  ----
+>> and  please add to our reservation another 25-30 person bus:
+>> 17- 22 july 30 person bus
+>> 118 Euro + 25 liter / 100km petrol
+>> (would you please sned me the type of the bus, or photo)
+>> -----------
+>> So we take only 6 days big bus,  and 6 days smalller bus
+>>  I arrive to Tbilisi on 6th july, so we can meet and i give you the bus
+>> fee
+>> We stay at Hotel Kopala C   3*  https://www.kopala.ge/ (4 nights)
+>> I will call you at  591 712345
+>> G=C3=A1bor (V=C3=A1ndorboy <http://vandorboy.com/>)
+>> 0670 284 6080
+>> A 9 j=C3=A1ratlan utakon fesztiv=C3=A1l ism=C3=A9t a F=C3=A1klya klubban=
+ lesz 2019 nov. 23-24
+>> lesz ez a: fb. oldala <https://www.facebook.com/events/1238055026342311/=
+>
+>> .
+>>
+>>
+>> On Mon, Jun 17, 2019 at 8:10 PM <info@tripplanner.ge> wrote:
+>>
+>>> Ok, when you return in Tbilisi let us know
+>>> Thanks
+>>>
+>>>
+>>>
+>>>
+>>> Monday, June 17, 2019, 22:07 +0400 from vandorboy.travel@gmail.com <
+>>> vandorboy.travel@gmail.com>:
+>>>
+>>> 5th july i land, i have a company group.. so when im in tbilisi i can
+>>> pay in euro usd orr lari as you wish.
+>>> thanks
+>>> G=C3=A1bor (V=C3=A1ndorboy <http://vandorboy.com/>)
+>>> 0670 284 6080
+>>> A 9 j=C3=A1ratlan utakon fesztiv=C3=A1l ism=C3=A9t a F=C3=A1klya klubba=
+n lesz 2019 nov.
+>>> 23-24 lesz ez a: fb. oldala
+>>> <https://www.facebook.com/events/1238055026342311/>.
+>>>
+>>>
+>>> On Mon, Jun 17, 2019 at 7:48 PM Eka <info@tripplanner.ge> wrote:
+>>>
+>>> hello,
+>>> The driver based in Tbilisi, but the driver fee doesn=E2=80=99t Change =
+we have
+>>> to pay him for every occupied day. So the charges doesn=E2=80=99t chang=
+e.
+>>> As you don=E2=80=99t want to make an invoice payment, we can make an ex=
+ception
+>>> for cash payment, the 5 of Julie.
+>>>
+>>> We will wait to your answer
+>>>
+>>> thanks
+>>>
+>>>
+>>> On Jun 14, 2019, at 9:38 PM, Vandorboy.com <http://vandorboy.com/>
+>>> V=C3=A1ndorboy <vandorboy.travel@gmail.com> wrote:
+>>>
+>>> Hello
+>>> The driver based in Kutaisi or Tbilisi?
+>>> ---
+>>> tuesday i left georgia. I will be back by 5th july.
+>>>
+>>> Do you have european bank account?
+>>> or
+>>> may i pay with bank card?
+>>> or
+>>> paypall?
+>>> or
+>>> I will arrive 5th july to Georgia .. then i can pay you in cash all
+>>> amount
+>>> For me invoice enough at the end of journey.
+>>> greetings from Baku now
+>>> G=C3=A1bor Csonka (V=C3=A1ndorboy <http://vandorboy.com/>)
+>>> 0670 284 6080
+>>>
+>>> On Fri, Jun 14, 2019 at 4:30 PM Eka <info@tripplanner.ge> wrote:
+>>>
+>>> hello,
+>>>
+>>> I=E2=80=99m glade that we fave got a final decision.
+>>> Please write us the name, e-mail, phone number of the person/company to
+>>> write an invoice.
+>>> The final amount will be 1239 EUR.
+>>>  30 % we need in advance before you come to Georgia to confirm your
+>>> order, it will be probably 370EUR .
+>>>
+>>> If everything is clear let me know
+>>>
+>>> Thanks
+>>>
+>>> Eka
+>>>
+>>> On Jun 13, 2019, at 9:13 PM, Vandorboy.com <http://vandorboy.com/>
+>>> V=C3=A1ndorboy <vandorboy.travel@gmail.com> wrote:
+>>>
+>>> Dear Eka
+>>> So please confirm the big 40+ person bus for us.
+>>> We land Kutaisi 11th july 5 morning.  Going to Mestia.
+>>> Finishing our trip 18th  evening Tbilisi
+>>>
+>>> About payment: if it suits you , i have another group  5th july in
+>>> Georgia.  So i can give you cash in Lari or Euro or USD as you wish.
+>>> For petrol i can pay to the driver according the kilometers.
+>>> Driver food and accomodation i will take care.
+>>> our itiner on my website:
+>>> http://vandorboy.com/gruzia-korutazas/
+>>>
+>>>
+>>> 11-Jul cs=C3=BCt=C3=B6rt=C3=B6k Kutaisi 5 am. -Mestia
+>>> 12-Jul p=C3=A9ntek Mestia -Ushguli
+>>> 13-Jul szombat Ushguli trekking - Mestia
+>>> 14-Jul vas=C3=A1rnap Mestia - Martvili kanyon - Kutaisi
+>>> 15-Jul h=C3=A9tf=C5=91 Barlang-Gelati- Kutaisi
+>>> 16-Jul kedd Gori - Mtsetha - Tbilisi
+>>> 17-Jul szerda Tbilisi belv=C3=A1ros 1.
+>>> 18-Jul cs=C3=BCt=C3=B6rt=C3=B6k Tbilisi v=C3=A1rosn=C3=A9z=C3=A9s 2.
+>>>
+>>> G=C3=A1bor (V=C3=A1ndorboy <http://vandorboy.com/>)
+>>> ---------------------------
+>>>
+>>> for the second part i will tell you later which bus we will take..
+>>>
+>>> - Driver=E2=80=99s hire fee would be 80 EUR per day,  for Sprinter
+>>> -  Petrol for 100 km is probably 15 L
+>>> For 30 person bus hire fee would be 118 Euro per day. Pertol for 100km
+>>> probably 25 -30 L
+>>> -----
+>>> 40+ person bus:
+>>> As you take care of driver=E2=80=99s food and accommodations charges ,
+>>> - Driver=E2=80=99s hire fee would be 127 EUR per day,  for 7 days 889 E=
+UR
+>>> -  Petrol for 100 km is probably 40 L . for all trip it would be
+>>> probably 350 EUR
+>>>
+>>>
+>>> 350 GEL-  driver daily charge for 7 days =3D 2450 GEL
+>>> 550 GEL - for driver accommodations and food for 7 days
+>>>
+>>> Finally the cost is 4300 GEL
+>>> The 50 person bus for  7 days, with driver and petrol expenses would be
+>>> 4700 GEL , but you, as a first time customer, will receive a welcome sa=
+le
+>>> and the cost will be 4300 GEL.
+>>>
+>>> I think you will like our offer.
+>>> Thank you
+>>>
+>>> Sincerely,
+>>>
+>>> Ekaterine Tarkhnishvili
+>>>
+>>> LTD Tripplanner
+>>> Cel: (995) 591 712345
+>>> Mob: (995) 599 450035
+>>> E-mail: e.tarkhnishvili@tripplanner.ge <e.tarkhnishvili@tripplanner.ge>
+>>>             info@tripplanner.ge
+>>>
+>>>
+>>>
+>>>
+>>
+>
+>
+
+--0000000000003600c3058c62da8c
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">i want=C2=A0 to them to be comfortable..=C2=A0<div>and not=
+ big price different..</div><div>so 40+ for the first part please.</div><di=
+v>thanks=C2=A0<br clear=3D"all"><div><div dir=3D"ltr" class=3D"gmail_signat=
+ure" data-smartmail=3D"gmail_signature"><div dir=3D"ltr"><div><div dir=3D"l=
+tr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div>=
+<div dir=3D"ltr">G=C3=A1bor (<a href=3D"http://vandorboy.com/" target=3D"_b=
+lank">V=C3=A1ndorboy</a>)<div>0670 284 6080</div></div></div></div></div></=
+div></div></div></div></div></div></div></div></div></div></div><br><div cl=
+ass=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_attr">On Fri, Jun 28, 2=
+019 at 3:53 PM Eka &lt;<a href=3D"mailto:info@tripplanner.ge">info@tripplan=
+ner.ge</a>&gt; wrote:<br></div><blockquote class=3D"gmail_quote" style=3D"m=
+argin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left=
+:1ex"><div style=3D"overflow-wrap: break-word;">Here are the photos of 30 p=
+erson Bus.<br><div><br></div><div></div></div><div style=3D"overflow-wrap: =
+break-word;"><div><br><blockquote type=3D"cite"><div>On Jun 28, 2019, at 5:=
+50 PM, Eka &lt;<a href=3D"mailto:info@tripplanner.ge" target=3D"_blank">inf=
+o@tripplanner.ge</a>&gt; wrote:</div><br class=3D"gmail-m_17124680833322601=
+28Apple-interchange-newline"><div><div style=3D"overflow-wrap: break-word;"=
+>hello,=C2=A0<div>so if you will be more than 28 person, my advise would be=
+ to hire 30 person bus during all trip, for 12 days.<div>The fee for driver=
+ would be 118 EUR and + 25/30 liter per 100 km.</div><div>what do you think=
+?</div><div><br></div><div>Eka</div><div><div><br><blockquote type=3D"cite"=
+><div>On Jun 28, 2019, at 1:52 AM, <a href=3D"http://vandorboy.com/" target=
+=3D"_blank">Vandorboy.com</a> V=C3=A1ndorboy &lt;<a href=3D"mailto:vandorbo=
+y.travel@gmail.com" target=3D"_blank">vandorboy.travel@gmail.com</a>&gt; wr=
+ote:</div><br class=3D"gmail-m_1712468083332260128Apple-interchange-newline=
+"><div><div dir=3D"ltr"><div><div>Hello Eka</div><div>=C2=A0yes 1 day less =
+(11-16th july) with big bus, as 16th evening we arrive to tbilisi, so next =
+2 days we are in tbilisi, so smaller bus is enough as we dont have laguage =
+with us.=C2=A0</div><div>17-22 july we start in tbilisi and finish in tbili=
+si..=C2=A0 (going from Tbilisi - Davit gereja - sighnagi - telavi - kazbegi=
+ - tbilisi)</div><div>Gabor</div><div>here is our full itinary.=C2=A0 (1st =
+part will be 28 people, 2nd par from 18th, will be just 16 people)</div><di=
+v><br></div><div><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"568" style=3D"border-collapse:collapse;width:426pt">
+
+ <colgroup><col width=3D"91" style=3D"width:68pt">
+ <col width=3D"173" style=3D"width:130pt">
+ <col width=3D"304" style=3D"width:228pt">
+ </colgroup><tbody><tr height=3D"25" style=3D"height:18.75pt">
+  <td height=3D"25" class=3D"gmail-m_1712468083332260128gmail-xl70" width=
+=3D"91" style=3D"height:18.75pt;width:68pt;font-size:14pt;font-weight:700;f=
+ont-family:&quot;Times New Roman&quot;,serif;text-align:center;border:0.5pt=
+ solid windowtext;padding:0px;vertical-align:bottom;white-space:nowrap">11-=
+Jul</td>
+  <td class=3D"gmail-m_1712468083332260128gmail-xl75" width=3D"173" style=
+=3D"border-style:solid solid solid none;width:130pt;font-size:14pt;font-fam=
+ily:&quot;Times New Roman&quot;,serif;text-align:center;vertical-align:top;=
+border-top-width:0.5pt;border-top-color:windowtext;border-right-width:0.5pt=
+;border-right-color:windowtext;border-bottom-width:0.5pt;border-bottom-colo=
+r:windowtext;background-color:rgb(252,213,180);padding:0px;white-space:nowr=
+ap">cs=C3=BCt=C3=B6rt=C3=B6k</td>
+  <td class=3D"gmail-m_1712468083332260128gmail-xl71" width=3D"304" style=
+=3D"border-style:solid solid solid none;width:228pt;font-size:14pt;font-fam=
+ily:&quot;Times New Roman&quot;,serif;border-top-width:0.5pt;border-top-col=
+or:windowtext;border-right-width:0.5pt;border-right-color:windowtext;border=
+-bottom-width:0.5pt;border-bottom-color:windowtext;background-color:rgb(196=
+,215,155);padding:0px;vertical-align:bottom;white-space:nowrap">Kutaisi -Me=
+stia</td>
+ </tr>
+ <tr height=3D"25" style=3D"height:18.75pt">
+  <td height=3D"25" class=3D"gmail-m_1712468083332260128gmail-xl70" style=
+=3D"height:18.75pt;border-style:none solid solid;font-size:14pt;font-weight=
+:700;font-family:&quot;Times New Roman&quot;,serif;text-align:center;border=
+-right-width:0.5pt;border-right-color:windowtext;border-bottom-width:0.5pt;=
+border-bottom-color:windowtext;border-left-width:0.5pt;border-left-color:wi=
+ndowtext;padding:0px;vertical-align:bottom;white-space:nowrap">12-Jul</td>
+  <td class=3D"gmail-m_1712468083332260128gmail-xl77" style=3D"border-style=
+:none solid solid none;font-size:14pt;font-family:&quot;Times New Roman&quo=
+t;,serif;text-align:center;vertical-align:top;border-right-width:0.5pt;bord=
+er-right-color:windowtext;border-bottom-width:0.5pt;border-bottom-color:win=
+dowtext;background-color:rgb(155,187,89);padding:0px;white-space:nowrap">p=
+=C3=A9ntek</td>
+  <td class=3D"gmail-m_1712468083332260128gmail-xl72" style=3D"border-style=
+:none solid solid none;font-size:14pt;font-family:&quot;Times New Roman&quo=
+t;,serif;border-right-width:0.5pt;border-right-color:windowtext;border-bott=
+om-width:0.5pt;border-bottom-color:windowtext;background-color:rgb(250,191,=
+143);padding:0px;vertical-align:bottom;white-space:nowrap">Mestia -Ushguli<=
+/td>
+ </tr>
+ <tr height=3D"25" style=3D"height:18.75pt">
+  <td height=3D"25" class=3D"gmail-m_1712468083332260128gmail-xl70" style=
+=3D"height:18.75pt;border-style:none solid solid;font-size:14pt;font-weight=
+:700;font-family:&quot;Times New Roman&quot;,serif;text-align:center;border=
+-right-width:0.5pt;border-right-color:windowtext;border-bottom-width:0.5pt;=
+border-bottom-color:windowtext;border-left-width:0.5pt;border-left-color:wi=
+ndowtext;padding:0px;vertical-align:bottom;white-space:nowrap">13-Jul</td>
+  <td class=3D"gmail-m_1712468083332260128gmail-xl79" style=3D"border-style=
+:none solid solid none;font-size:14pt;font-family:&quot;Times New Roman&quo=
+t;,serif;text-align:center;vertical-align:top;border-right-width:0.5pt;bord=
+er-right-color:windowtext;border-bottom-width:0.5pt;border-bottom-color:win=
+dowtext;background-color:yellow;padding:0px;white-space:nowrap">szombat</td=
+>
+  <td class=3D"gmail-m_1712468083332260128gmail-xl73" style=3D"border-top:n=
+one;border-left:none;font-size:14pt;font-family:&quot;Times New Roman&quot;=
+,serif;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid window=
+text;background:rgb(196,215,155);padding:0px;color:windowtext;vertical-alig=
+n:bottom;white-space:nowrap">Ushguli trekking -
+  Mestia</td>
+ </tr>
+ <tr height=3D"25" style=3D"height:18.75pt">
+  <td height=3D"25" class=3D"gmail-m_1712468083332260128gmail-xl70" style=
+=3D"height:18.75pt;border-style:none solid solid;font-size:14pt;font-weight=
+:700;font-family:&quot;Times New Roman&quot;,serif;text-align:center;border=
+-right-width:0.5pt;border-right-color:windowtext;border-bottom-width:0.5pt;=
+border-bottom-color:windowtext;border-left-width:0.5pt;border-left-color:wi=
+ndowtext;padding:0px;vertical-align:bottom;white-space:nowrap">14-Jul</td>
+  <td class=3D"gmail-m_1712468083332260128gmail-xl81" style=3D"border-style=
+:none solid solid none;font-size:14pt;font-family:&quot;Times New Roman&quo=
+t;,serif;text-align:center;vertical-align:top;border-right-width:0.5pt;bord=
+er-right-color:windowtext;border-bottom-width:0.5pt;border-bottom-color:win=
+dowtext;background-color:rgb(230,184,183);padding:0px;white-space:nowrap">v=
+as=C3=A1rnap</td>
+  <td class=3D"gmail-m_1712468083332260128gmail-xl74" style=3D"border-style=
+:none solid solid none;font-size:14pt;font-family:&quot;Times New Roman&quo=
+t;,serif;border-right-width:0.5pt;border-right-color:windowtext;border-bott=
+om-width:0.5pt;border-bottom-color:windowtext;background-color:rgb(242,220,=
+219);padding:0px;vertical-align:bottom;white-space:nowrap">Mestia - Martvil=
+i
+  kanyon - Kutaisi</td>
+ </tr>
+ <tr height=3D"25" style=3D"height:18.75pt">
+  <td height=3D"25" class=3D"gmail-m_1712468083332260128gmail-xl70" style=
+=3D"height:18.75pt;border-style:none solid solid;font-size:14pt;font-weight=
+:700;font-family:&quot;Times New Roman&quot;,serif;text-align:center;border=
+-right-width:0.5pt;border-right-color:windowtext;border-bottom-width:0.5pt;=
+border-bottom-color:windowtext;border-left-width:0.5pt;border-left-color:wi=
+ndowtext;padding:0px;vertical-align:bottom;white-space:nowrap">15-Jul</td>
+  <td class=3D"gmail-m_1712468083332260128gmail-xl83" style=3D"border-style=
+:none solid solid none;font-size:14pt;font-family:&quot;Times New Roman&quo=
+t;,serif;text-align:center;vertical-align:top;border-right-width:0.5pt;bord=
+er-right-color:windowtext;border-bottom-width:0.5pt;border-bottom-color:win=
+dowtext;background-color:rgb(204,192,218);padding:0px;white-space:nowrap">h=
+=C3=A9tf=C5=91</td>
+  <td class=3D"gmail-m_1712468083332260128gmail-xl68" style=3D"border-top:n=
+one;border-left:none;font-size:14pt;font-family:&quot;Times New Roman&quot;=
+,serif;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid window=
+text;padding:0px;color:windowtext;vertical-align:bottom;white-space:nowrap"=
+>Barlang-Gelati-
+  Kutaisi</td>
+ </tr>
+ <tr height=3D"25" style=3D"height:18.75pt">
+  <td height=3D"25" class=3D"gmail-m_1712468083332260128gmail-xl70" style=
+=3D"height:18.75pt;border-style:none solid solid;font-size:14pt;font-weight=
+:700;font-family:&quot;Times New Roman&quot;,serif;text-align:center;border=
+-right-width:0.5pt;border-right-color:windowtext;border-bottom-width:0.5pt;=
+border-bottom-color:windowtext;border-left-width:0.5pt;border-left-color:wi=
+ndowtext;padding:0px;vertical-align:bottom;white-space:nowrap">16-Jul</td>
+  <td class=3D"gmail-m_1712468083332260128gmail-xl85" style=3D"border-style=
+:none solid solid none;font-size:14pt;font-family:&quot;Times New Roman&quo=
+t;,serif;text-align:center;vertical-align:top;border-right-width:0.5pt;bord=
+er-right-color:windowtext;border-bottom-width:0.5pt;border-bottom-color:win=
+dowtext;background-color:rgb(197,217,241);padding:0px;white-space:nowrap">k=
+edd</td>
+  <td class=3D"gmail-m_1712468083332260128gmail-xl76" style=3D"border-style=
+:none solid solid none;font-size:14pt;font-family:&quot;Times New Roman&quo=
+t;,serif;border-right-width:0.5pt;border-right-color:windowtext;border-bott=
+om-width:0.5pt;border-bottom-color:windowtext;background-color:rgb(252,213,=
+180);padding:0px;vertical-align:bottom;white-space:nowrap">Gori - Mtsetha -
+  Tbilisi</td>
+ </tr>
+ <tr height=3D"25" style=3D"height:18.75pt">
+  <td height=3D"25" class=3D"gmail-m_1712468083332260128gmail-xl90" style=
+=3D"height:18.75pt;border-style:none solid solid;font-size:14pt;font-weight=
+:700;font-family:&quot;Times New Roman&quot;,serif;text-align:center;border=
+-right-width:0.5pt;border-right-color:windowtext;border-bottom-width:0.5pt;=
+border-bottom-color:windowtext;border-left-width:0.5pt;border-left-color:wi=
+ndowtext;background-color:yellow;padding:0px;vertical-align:bottom;white-sp=
+ace:nowrap">17-Jul</td>
+  <td class=3D"gmail-m_1712468083332260128gmail-xl87" style=3D"border-style=
+:none solid solid none;font-size:14pt;font-family:&quot;Times New Roman&quo=
+t;,serif;text-align:center;vertical-align:top;border-right-width:0.5pt;bord=
+er-right-color:windowtext;border-bottom-width:0.5pt;border-bottom-color:win=
+dowtext;background-color:rgb(184,204,228);padding:0px;white-space:nowrap">s=
+zerda</td>
+  <td class=3D"gmail-m_1712468083332260128gmail-xl78" style=3D"border-style=
+:none solid solid none;font-size:14pt;font-family:&quot;Times New Roman&quo=
+t;,serif;border-right-width:0.5pt;border-right-color:windowtext;border-bott=
+om-width:0.5pt;border-bottom-color:windowtext;background-color:rgb(118,147,=
+60);padding:0px;vertical-align:bottom;white-space:nowrap">Tbilisi belv=C3=
+=A1ros 1.</td>
+ </tr>
+ <tr height=3D"25" style=3D"height:18.75pt">
+  <td height=3D"25" class=3D"gmail-m_1712468083332260128gmail-xl70" style=
+=3D"height:18.75pt;border-style:none solid solid;font-size:14pt;font-weight=
+:700;font-family:&quot;Times New Roman&quot;,serif;text-align:center;border=
+-right-width:0.5pt;border-right-color:windowtext;border-bottom-width:0.5pt;=
+border-bottom-color:windowtext;border-left-width:0.5pt;border-left-color:wi=
+ndowtext;padding:0px;vertical-align:bottom;white-space:nowrap">18-Jul</td>
+  <td class=3D"gmail-m_1712468083332260128gmail-xl75" style=3D"border-style=
+:none solid solid none;font-size:14pt;font-family:&quot;Times New Roman&quo=
+t;,serif;text-align:center;vertical-align:top;border-right-width:0.5pt;bord=
+er-right-color:windowtext;border-bottom-width:0.5pt;border-bottom-color:win=
+dowtext;background-color:rgb(252,213,180);padding:0px;white-space:nowrap">c=
+s=C3=BCt=C3=B6rt=C3=B6k</td>
+  <td class=3D"gmail-m_1712468083332260128gmail-xl80" style=3D"font-size:14=
+pt;font-family:&quot;Times New Roman&quot;,serif;background:yellow;padding:=
+0px;color:windowtext;vertical-align:bottom;border:none;white-space:nowrap">=
+Tbilisi v=C3=A1rosn=C3=A9z=C3=A9s 2.</td>
+ </tr>
+ <tr height=3D"25" style=3D"height:18.75pt">
+  <td height=3D"25" class=3D"gmail-m_1712468083332260128gmail-xl70" style=
+=3D"height:18.75pt;border-style:none solid solid;font-size:14pt;font-weight=
+:700;font-family:&quot;Times New Roman&quot;,serif;text-align:center;border=
+-right-width:0.5pt;border-right-color:windowtext;border-bottom-width:0.5pt;=
+border-bottom-color:windowtext;border-left-width:0.5pt;border-left-color:wi=
+ndowtext;padding:0px;vertical-align:bottom;white-space:nowrap">19-Jul</td>
+  <td class=3D"gmail-m_1712468083332260128gmail-xl77" style=3D"border-style=
+:none solid solid none;font-size:14pt;font-family:&quot;Times New Roman&quo=
+t;,serif;text-align:center;vertical-align:top;border-right-width:0.5pt;bord=
+er-right-color:windowtext;border-bottom-width:0.5pt;border-bottom-color:win=
+dowtext;background-color:rgb(155,187,89);padding:0px;white-space:nowrap">p=
+=C3=A9ntek</td>
+  <td class=3D"gmail-m_1712468083332260128gmail-xl82" style=3D"border-style=
+:solid solid solid none;font-size:14pt;font-family:&quot;Times New Roman&qu=
+ot;,serif;border-top-width:0.5pt;border-top-color:windowtext;border-right-w=
+idth:0.5pt;border-right-color:windowtext;border-bottom-width:0.5pt;border-b=
+ottom-color:windowtext;background-color:rgb(230,184,183);padding:0px;vertic=
+al-align:bottom;white-space:nowrap">Sighnahi</td>
+ </tr>
+ <tr height=3D"25" style=3D"height:18.75pt">
+  <td height=3D"25" class=3D"gmail-m_1712468083332260128gmail-xl70" style=
+=3D"height:18.75pt;border-style:none solid solid;font-size:14pt;font-weight=
+:700;font-family:&quot;Times New Roman&quot;,serif;text-align:center;border=
+-right-width:0.5pt;border-right-color:windowtext;border-bottom-width:0.5pt;=
+border-bottom-color:windowtext;border-left-width:0.5pt;border-left-color:wi=
+ndowtext;padding:0px;vertical-align:bottom;white-space:nowrap">20-Jul</td>
+  <td class=3D"gmail-m_1712468083332260128gmail-xl79" style=3D"border-style=
+:none solid solid none;font-size:14pt;font-family:&quot;Times New Roman&quo=
+t;,serif;text-align:center;vertical-align:top;border-right-width:0.5pt;bord=
+er-right-color:windowtext;border-bottom-width:0.5pt;border-bottom-color:win=
+dowtext;background-color:yellow;padding:0px;white-space:nowrap">szombat</td=
+>
+  <td class=3D"gmail-m_1712468083332260128gmail-xl84" style=3D"border-style=
+:none solid solid none;font-size:14pt;font-family:&quot;Times New Roman&quo=
+t;,serif;border-right-width:0.5pt;border-right-color:windowtext;border-bott=
+om-width:0.5pt;border-bottom-color:windowtext;background-color:rgb(204,192,=
+218);padding:0px;vertical-align:bottom;white-space:nowrap">Telavi</td>
+ </tr>
+ <tr height=3D"25" style=3D"height:18.75pt">
+  <td height=3D"25" class=3D"gmail-m_1712468083332260128gmail-xl70" style=
+=3D"height:18.75pt;border-style:none solid solid;font-size:14pt;font-weight=
+:700;font-family:&quot;Times New Roman&quot;,serif;text-align:center;border=
+-right-width:0.5pt;border-right-color:windowtext;border-bottom-width:0.5pt;=
+border-bottom-color:windowtext;border-left-width:0.5pt;border-left-color:wi=
+ndowtext;padding:0px;vertical-align:bottom;white-space:nowrap">21-Jul</td>
+  <td class=3D"gmail-m_1712468083332260128gmail-xl81" style=3D"border-style=
+:none solid solid none;font-size:14pt;font-family:&quot;Times New Roman&quo=
+t;,serif;text-align:center;vertical-align:top;border-right-width:0.5pt;bord=
+er-right-color:windowtext;border-bottom-width:0.5pt;border-bottom-color:win=
+dowtext;background-color:rgb(230,184,183);padding:0px;white-space:nowrap">v=
+as=C3=A1rnap</td>
+  <td class=3D"gmail-m_1712468083332260128gmail-xl86" style=3D"border-style=
+:none solid solid none;font-size:14pt;font-family:&quot;Times New Roman&quo=
+t;,serif;border-right-width:0.5pt;border-right-color:windowtext;border-bott=
+om-width:0.5pt;border-bottom-color:windowtext;background-color:rgb(220,230,=
+241);padding:0px;vertical-align:bottom;white-space:nowrap">kazbegi</td>
+ </tr>
+ <tr height=3D"25" style=3D"height:18.75pt">
+  <td height=3D"25" class=3D"gmail-m_1712468083332260128gmail-xl70" style=
+=3D"height:18.75pt;border-style:none solid solid;font-size:14pt;font-weight=
+:700;font-family:&quot;Times New Roman&quot;,serif;text-align:center;border=
+-right-width:0.5pt;border-right-color:windowtext;border-bottom-width:0.5pt;=
+border-bottom-color:windowtext;border-left-width:0.5pt;border-left-color:wi=
+ndowtext;padding:0px;vertical-align:bottom;white-space:nowrap">22-Jul</td>
+  <td class=3D"gmail-m_1712468083332260128gmail-xl83" style=3D"border-style=
+:none solid solid none;font-size:14pt;font-family:&quot;Times New Roman&quo=
+t;,serif;text-align:center;vertical-align:top;border-right-width:0.5pt;bord=
+er-right-color:windowtext;border-bottom-width:0.5pt;border-bottom-color:win=
+dowtext;background-color:rgb(204,192,218);padding:0px;white-space:nowrap">h=
+=C3=A9tf=C5=91</td>
+  <td class=3D"gmail-m_1712468083332260128gmail-xl88" style=3D"border-style=
+:none solid solid none;font-size:14pt;font-family:&quot;Times New Roman&quo=
+t;,serif;border-right-width:0.5pt;border-right-color:windowtext;border-bott=
+om-width:0.5pt;border-bottom-color:windowtext;background-color:rgb(220,230,=
+241);padding:0px;vertical-align:bottom;white-space:nowrap">Kazbegi-=C2=A0 k=
+utaisi /tbilisi</td>
+ </tr>
+
+</tbody></table></div><div>Earlier we discussed 7 days trip form 11 Jul in =
+Kutaisi till 18 Jul in Tbilisi, the bus 40+ with final amount 1239 EUR. (12=
+7*7)+350=3D1239</div><div>Also you wrote me that 5 of July you are coming b=
+ack in Tbilisi and You will pay by cash. If the agenda of this trip is chan=
+ged please let me know.</div><div>photos of 40+ bus are attached to this ma=
+il.</div><div><br></div><div>For another trip 17-22 July for 30 persons we =
+do not have any agenda. If you already=C2=A0know, please write us the start=
+ing/ending points and the full agenda information of this second trip. afte=
+r that we will make a reservations.</div><div><br></div><div>We will wait y=
+our answer , and sorry for being late</div><div><br></div></div><br clear=
+=3D"all"><div><div dir=3D"ltr" class=3D"gmail-m_1712468083332260128gmail_si=
+gnature"><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div>=
+<div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr">G=C3=A1bor (<a=
+ href=3D"http://vandorboy.com/" target=3D"_blank">V=C3=A1ndorboy</a>)</div>=
+</div></div></div></div></div></div></div></div></div></div></div></div></d=
+iv><br><div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_attr">On =
+Thu, Jun 27, 2019 at 1:10 PM Eka &lt;<a href=3D"mailto:info@tripplanner.ge"=
+ target=3D"_blank">info@tripplanner.ge</a>&gt; wrote:<br></div><blockquote =
+class=3D"gmail_quote" style=3D"margin:0px 0px 0px 0.8ex;border-left:1px sol=
+id rgb(204,204,204);padding-left:1ex"><div>Hello Gabor,<div><br></div><div>=
+I am a little bite confused,=C2=A0</div><div><br></div><div>Earlier we disc=
+ussed 7 days trip form 11 Jul in Kutaisi till 18 Jul in Tbilisi, the bus 40=
++ with final amount 1239 EUR. (127*7)+350=3D1239</div><div>Also you wrote m=
+e that 5 of July you are coming back in Tbilisi and You will pay by cash. I=
+f the agenda of this trip is changed please let me know.</div><div>photos o=
+f 40+ bus are attached to this mail.</div><div><br></div><div>For another t=
+rip 17-22 July for 30 persons we do not have any agenda. If you already=C2=
+=A0know, please write us the starting/ending points and the full agenda inf=
+ormation of this second trip. after that we will make a reservations.</div>=
+<div><br></div><div>We will wait your answer , and sorry for being late</di=
+v><div><br></div><div><br></div><div><div>
+<div dir=3D"auto" style=3D"font-family:Helvetica;font-size:12px;font-style:=
+normal;font-variant-caps:normal;font-weight:normal;letter-spacing:normal;te=
+xt-align:start;text-indent:0px;text-transform:none;white-space:normal;word-=
+spacing:0px;text-decoration:none"><div dir=3D"auto" style=3D"letter-spacing=
+:normal;text-align:start;text-indent:0px;text-transform:none;white-space:no=
+rmal;word-spacing:0px"><div style=3D"font-family:Helvetica;font-size:12px;f=
+ont-style:normal;font-variant-caps:normal;font-weight:normal;letter-spacing=
+:normal;text-align:start;text-indent:0px;text-transform:none;white-space:no=
+rmal;word-spacing:0px">Sincerely,</div><div style=3D"font-family:Helvetica;=
+font-size:12px;font-style:normal;font-variant-caps:normal;font-weight:norma=
+l;letter-spacing:normal;text-align:start;text-indent:0px;text-transform:non=
+e;white-space:normal;word-spacing:0px"><br></div><div style=3D"font-family:=
+Helvetica;font-size:12px;font-style:normal;font-variant-caps:normal;font-we=
+ight:normal;letter-spacing:normal;text-align:start;text-indent:0px;text-tra=
+nsform:none;white-space:normal;word-spacing:0px">Ekaterine Tarkhnishvili</d=
+iv><div style=3D"font-family:Helvetica;font-size:12px;font-style:normal;fon=
+t-variant-caps:normal;font-weight:normal;letter-spacing:normal;text-align:s=
+tart;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0p=
+x"><br></div><div style=3D"font-family:Helvetica;font-size:12px;font-style:=
+normal;font-variant-caps:normal;font-weight:normal;letter-spacing:normal;te=
+xt-align:start;text-indent:0px;text-transform:none;white-space:normal;word-=
+spacing:0px">LTD Tripplanner</div><div style=3D"font-family:Helvetica;font-=
+size:12px;font-style:normal;font-variant-caps:normal;font-weight:normal;let=
+ter-spacing:normal;text-align:start;text-indent:0px;text-transform:none;whi=
+te-space:normal;word-spacing:0px">Cel: (995) 591 712345</div><div style=3D"=
+font-family:Helvetica;font-size:12px;font-style:normal;font-variant-caps:no=
+rmal;font-weight:normal;letter-spacing:normal;text-align:start;text-indent:=
+0px;text-transform:none;white-space:normal;word-spacing:0px">Mob: (995) 599=
+ 450035</div><div style=3D"font-family:Helvetica;font-size:12px;font-style:=
+normal;font-variant-caps:normal;font-weight:normal;letter-spacing:normal;te=
+xt-align:start;text-indent:0px;text-transform:none;white-space:normal;word-=
+spacing:0px"><a href=3D"mailto:e.tarkhnishvili@tripplanner.ge" target=3D"_b=
+lank">E-mail: e.tarkhnishvili@tripplanner.ge</a></div><div style=3D"font-fa=
+mily:Helvetica;font-size:12px;font-style:normal;font-variant-caps:normal;fo=
+nt-weight:normal;letter-spacing:normal;text-align:start;text-indent:0px;tex=
+t-transform:none;white-space:normal;word-spacing:0px">=C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 <a href=3D"mailto:info@tripplanner.ge" target=3D"_blan=
+k">info@tripplanner.ge</a></div><div style=3D"font-family:Helvetica;font-si=
+ze:12px;font-style:normal;font-variant-caps:normal;font-weight:normal;lette=
+r-spacing:normal;text-align:start;text-indent:0px;text-transform:none;white=
+-space:normal;word-spacing:0px"><br></div><div style=3D"font-family:Helveti=
+ca;font-size:12px;font-style:normal;font-variant-caps:normal;font-weight:no=
+rmal;letter-spacing:normal;text-align:start;text-indent:0px;text-transform:=
+none;white-space:normal;word-spacing:0px"><a href=3D"https://tripplanner.ge=
+/" target=3D"_blank">https://tripplanner.ge</a></div><br class=3D"gmail-m_1=
+712468083332260128gmail-m_-7038690017894588446Apple-interchange-newline" st=
+yle=3D"font-family:Helvetica;font-size:12px;font-style:normal;font-variant-=
+caps:normal;font-weight:normal;letter-spacing:normal;text-align:start;text-=
+indent:0px;text-transform:none;white-space:normal;word-spacing:0px"><span s=
+tyle=3D"font-family:Helvetica;font-size:12px;font-style:normal;font-variant=
+-caps:normal;font-weight:normal;letter-spacing:normal;text-align:start;text=
+-indent:0px;text-transform:none;white-space:normal;word-spacing:0px"><span>=
+</span></span></div></div><span><span id=3D"gmail-m_1712468083332260128cid:=
+16b9ae6b66bb63e96ae1">&lt;image001 2_Easy-Resize.com.jpg&gt;</span><span id=
+=3D"gmail-m_1712468083332260128cid:16b9ae6b66bf1495d0c2">&lt;IMG_3165.JPG&g=
+t;</span></span>
+</div><div><br class=3D"gmail-m_1712468083332260128gmail-m_-703869001789458=
+8446webkit-block-placeholder"></div><div><span id=3D"gmail-m_17124680833322=
+60128cid:16b9ae6b66bf157748d3">&lt;IMG_3166.JPG&gt;</span></div><div><span =
+id=3D"gmail-m_1712468083332260128cid:16b9ae6b66bf1658c0e4">&lt;IMG_3167.JPG=
+&gt;</span></div>
+<div><span id=3D"gmail-m_1712468083332260128cid:16b9ae6b66bf173a38f5">&lt;I=
+MG_3168.JPG&gt;</span><br><blockquote type=3D"cite"><div>On Jun 26, 2019, a=
+t 8:35 PM, <a href=3D"http://vandorboy.com/" target=3D"_blank">Vandorboy.co=
+m</a> V=C3=A1ndorboy &lt;<a href=3D"mailto:vandorboy.travel@gmail.com" targ=
+et=3D"_blank">vandorboy.travel@gmail.com</a>&gt; wrote:</div><br class=3D"g=
+mail-m_1712468083332260128gmail-m_-7038690017894588446Apple-interchange-new=
+line"><div><div dir=3D"ltr">Hello Eka<div>as we discussed:we have group 27 =
+person<br><div>We will need the=C2=A0 bigger 40 person bus 11 july Kutaisi =
+-16 july=C2=A0 =C2=A0evening Tbilisi=C2=A0 (6 days)=C2=A0 =C2=A0- the 40+ p=
+erson bus.</div><div>=C2=A0_ 127 euro/ day + 40 liter/ 100 km for petrol</d=
+iv><div>(would you please sned me the type of the bus, or photo)</div><div>=
+=C2=A0----</div><div>and=C2=A0 please add to our reservation another 25-30 =
+person bus:</div><div>17- 22 july 30 person bus</div><div>118 Euro=C2=A0+ 2=
+5 liter / 100km petrol</div><div>(would you please sned me the type of the =
+bus, or photo)=C2=A0=C2=A0<br></div><div>-----------</div><div>So we take o=
+nly 6 days big bus,=C2=A0 and 6 days smalller bus</div><div>=C2=A0I arrive =
+to Tbilisi on 6th july, so we can meet and i give you the bus fee</div><div=
+><span style=3D"font-size:12pt;line-height:115%;font-family:Calibri,sans-se=
+rif">We stay at Hotel Kopala C=C2=A0 =C2=A03*=C2=A0 </span><span style=3D"f=
+ont-size:11pt;line-height:115%;font-family:Calibri,sans-serif"><a href=3D"h=
+ttps://www.kopala.ge/" style=3D"color:blue" target=3D"_blank">https://www.k=
+opala.ge/</a></span><span style=3D"font-size:12pt;line-height:115%;font-fam=
+ily:Calibri,sans-serif"> (4 nights)</span>=C2=A0 =C2=A0=C2=A0</div><div>I w=
+ill call you at=C2=A0=C2=A0591 712345<br clear=3D"all"><div><div dir=3D"ltr=
+" class=3D"gmail-m_1712468083332260128gmail-m_-7038690017894588446gmail_sig=
+nature"><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><=
+div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr">G=C3=A1bor (<a =
+href=3D"http://vandorboy.com/" target=3D"_blank">V=C3=A1ndorboy</a>)<div>06=
+70 284 6080</div><div>A 9 j=C3=A1ratlan utakon fesztiv=C3=A1l ism=C3=A9t a =
+F=C3=A1klya klubban lesz 2019 nov. 23-24 lesz ez a:=C2=A0<a href=3D"https:/=
+/www.facebook.com/events/1238055026342311/" target=3D"_blank">fb. oldala</a=
+>.=C2=A0</div></div></div></div></div></div></div></div></div></div></div><=
+/div></div></div><br></div></div></div><br><div class=3D"gmail_quote"><div =
+dir=3D"ltr" class=3D"gmail_attr">On Mon, Jun 17, 2019 at 8:10 PM &lt;<a hre=
+f=3D"mailto:info@tripplanner.ge" target=3D"_blank">info@tripplanner.ge</a>&=
+gt; wrote:<br></div><blockquote class=3D"gmail_quote" style=3D"margin:0px 0=
+px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex">
+<div><div id=3D"gmail-m_1712468083332260128gmail-m_-7038690017894588446gmai=
+l-m_972608623410708397composeWebView_editable_content" style=3D"text-align:=
+left"><div>Ok, when you return in Tbilisi let us know</div><div>Thanks</div=
+><div><br></div><div id=3D"gmail-m_1712468083332260128gmail-m_-703869001789=
+4588446gmail-m_972608623410708397mail-app-auto-signature"><br></div><br><br=
+>Monday, June 17, 2019, 22:07 +0400 from <a href=3D"mailto:vandorboy.travel=
+@gmail.com" target=3D"_blank">vandorboy.travel@gmail.com</a>  &lt;<a href=
+=3D"mailto:vandorboy.travel@gmail.com" target=3D"_blank">vandorboy.travel@g=
+mail.com</a>&gt;:<br>    <div id=3D"gmail-m_1712468083332260128gmail-m_-703=
+8690017894588446gmail-m_972608623410708397composeWebView_previouse_content"=
+><blockquote id=3D"gmail-m_1712468083332260128gmail-m_-7038690017894588446g=
+mail-m_972608623410708397mail-app-auto-quote" style=3D"border-left:1px soli=
+d rgb(252,44,56);margin:10px 0px 10px 5px;padding:0px 0px 0px 10px;display:=
+inherit"><div class=3D"gmail-m_1712468083332260128gmail-m_-7038690017894588=
+446gmail-m_972608623410708397js-readmsg-msg gmail-m_1712468083332260128gmai=
+l-m_-7038690017894588446gmail-m_972608623410708397js-helper">
+=09
+ 	<div>
+	=09
+	=09
+			<div id=3D"gmail-m_1712468083332260128gmail-m_-7038690017894588446gmail-=
+m_972608623410708397style_15607948200000000902_BODY"><div class=3D"gmail-m_=
+1712468083332260128gmail-m_-7038690017894588446gmail-m_972608623410708397cl=
+ass_1560800816"><div dir=3D"ltr">5th july i land, i have a company group.. =
+so when im in tbilisi i can pay in euro usd orr lari as you wish.<div>thank=
+s<br clear=3D"all"><div><div dir=3D"ltr" class=3D"gmail-m_17124680833322601=
+28gmail-m_-7038690017894588446gmail-m_972608623410708397gmail_signature_mai=
+lru_css_attribute_postfix"><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div=
+ dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"l=
+tr">G=C3=A1bor (<a href=3D"http://vandorboy.com/" rel=3D"noopener noreferre=
+r" target=3D"_blank">V=C3=A1ndorboy</a>)<div>0670 284 6080</div><div>A 9 j=
+=C3=A1ratlan utakon fesztiv=C3=A1l ism=C3=A9t a F=C3=A1klya klubban lesz 20=
+19 nov. 23-24 lesz ez a:=C2=A0<a href=3D"https://www.facebook.com/events/12=
+38055026342311/" rel=3D"noopener noreferrer" target=3D"_blank">fb. oldala</=
+a>.=C2=A0</div></div></div></div></div></div></div></div></div></div></div>=
+</div></div></div><br></div></div><br><div class=3D"gmail-m_171246808333226=
+0128gmail-m_-7038690017894588446gmail-m_972608623410708397gmail_quote_mailr=
+u_css_attribute_postfix"><div dir=3D"ltr" class=3D"gmail-m_1712468083332260=
+128gmail-m_-7038690017894588446gmail-m_972608623410708397gmail_attr_mailru_=
+css_attribute_postfix">On Mon, Jun 17, 2019 at 7:48 PM Eka &lt;<a href=3D"m=
+ailto:info@tripplanner.ge" rel=3D"noopener noreferrer" target=3D"_blank">in=
+fo@tripplanner.ge</a>&gt; wrote:<br></div><blockquote class=3D"gmail-m_1712=
+468083332260128gmail-m_-7038690017894588446gmail-m_972608623410708397gmail_=
+quote_mailru_css_attribute_postfix" style=3D"margin:0px 0px 0px 0.8ex;borde=
+r-left:1px solid rgb(204,204,204);padding-left:1ex"><div>hello,<div>The dri=
+ver based in Tbilisi, but the driver fee doesn=E2=80=99t Change we have to =
+pay him for every occupied day. So the charges doesn=E2=80=99t change.</div=
+><div>As you don=E2=80=99t want to make an invoice payment, we can make an =
+exception for cash payment, the 5 of Julie.</div><div><br></div><div>We wil=
+l wait to your answer</div><div><br></div><div>thanks</div><div><br></div><=
+div><div><br><blockquote type=3D"cite" style=3D"margin-right:0px"><div>On J=
+un 14, 2019, at 9:38 PM, <a href=3D"http://vandorboy.com/" rel=3D"noopener =
+noreferrer" target=3D"_blank">Vandorboy.com</a> V=C3=A1ndorboy &lt;<a href=
+=3D"mailto:vandorboy.travel@gmail.com" rel=3D"noopener noreferrer" target=
+=3D"_blank">vandorboy.travel@gmail.com</a>&gt; wrote:</div><br class=3D"gma=
+il-m_1712468083332260128gmail-m_-7038690017894588446gmail-m_972608623410708=
+397gmail-m_-6805643817856823894Apple-interchange-newline_mailru_css_attribu=
+te_postfix"><div><div dir=3D"ltr"><div>Hello</div><div>The driver based in =
+Kutaisi or Tbilisi?</div><div>---</div>tuesday i left georgia. I will be ba=
+ck by 5th july.<div><br><div>Do you have european bank account?<div>or</div=
+><div>may i pay with bank card?</div><div>or=C2=A0</div><div>paypall?</div>=
+<div><div>or</div><div>I will arrive 5th july to Georgia .. then i can pay =
+you in cash all amount<br></div></div><div>For me invoice enough at the end=
+ of journey.=C2=A0</div><div>greetings from Baku now</div><div><div><div di=
+r=3D"ltr" class=3D"gmail-m_1712468083332260128gmail-m_-7038690017894588446g=
+mail-m_972608623410708397gmail-m_-6805643817856823894gmail_signature_mailru=
+_css_attribute_postfix"><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div di=
+r=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"=
+>G=C3=A1bor Csonka (<a href=3D"http://vandorboy.com/" rel=3D"noopener noref=
+errer" target=3D"_blank">V=C3=A1ndorboy</a>)<div>0670 284 6080</div></div><=
+/div></div></div></div></div></div></div></div></div></div></div></div></di=
+v></div></div></div><br><div class=3D"gmail-m_1712468083332260128gmail-m_-7=
+038690017894588446gmail-m_972608623410708397gmail_quote_mailru_css_attribut=
+e_postfix"><div dir=3D"ltr" class=3D"gmail-m_1712468083332260128gmail-m_-70=
+38690017894588446gmail-m_972608623410708397gmail_attr_mailru_css_attribute_=
+postfix">On Fri, Jun 14, 2019 at 4:30 PM Eka &lt;<a href=3D"mailto:info@tri=
+pplanner.ge" rel=3D"noopener noreferrer" target=3D"_blank">info@tripplanner=
+.ge</a>&gt; wrote:<br></div><blockquote class=3D"gmail-m_171246808333226012=
+8gmail-m_-7038690017894588446gmail-m_972608623410708397gmail_quote_mailru_c=
+ss_attribute_postfix" style=3D"margin:0px;padding:0px"><div>hello,<div><br>=
+</div><div>I=E2=80=99m glade that we fave got a final decision.=C2=A0</div>=
+<div>Please write us the name, e-mail, phone number of the person/company t=
+o write an invoice.</div><div>The final amount will be 1239 EUR.</div><div>=
+=C2=A030 % we need in advance before you come to Georgia to confirm your or=
+der, it will be probably 370EUR .</div><div><br></div><div>If everything is=
+ clear let me know</div><div><br></div><div>Thanks</div><div><br></div><div=
+>Eka<br><div><br><blockquote type=3D"cite" style=3D"margin:0px;padding:0px"=
+><div>On Jun 13, 2019, at 9:13 PM, <a href=3D"http://vandorboy.com/" rel=3D=
+"noopener noreferrer" target=3D"_blank">Vandorboy.com</a> V=C3=A1ndorboy &l=
+t;<a href=3D"mailto:vandorboy.travel@gmail.com" rel=3D"noopener noreferrer"=
+ target=3D"_blank">vandorboy.travel@gmail.com</a>&gt; wrote:</div><br class=
+=3D"gmail-m_1712468083332260128gmail-m_-7038690017894588446gmail-m_97260862=
+3410708397gmail-m_-6805643817856823894gmail-m_2230865839600500227Apple-inte=
+rchange-newline_mailru_css_attribute_postfix"><div><div dir=3D"ltr">Dear Ek=
+a<div>So please confirm the big 40+ person bus for us.</div><div>We land Ku=
+taisi 11th july 5 morning.=C2=A0 Going to Mestia.</div><div>Finishing our t=
+rip 18th=C2=A0 evening Tbilisi</div><div><br></div><div>About payment: if i=
+t suits you , i have another group=C2=A0 5th july in Georgia.=C2=A0 So i ca=
+n give you cash in Lari or Euro or USD as you wish.=C2=A0</div><div>For pet=
+rol i can pay to the driver according the kilometers.=C2=A0</div><div>Drive=
+r food and accomodation i will take care.=C2=A0</div><div>our itiner on my =
+website:</div><div><a href=3D"http://vandorboy.com/gruzia-korutazas/" rel=
+=3D"noopener noreferrer" target=3D"_blank">http://vandorboy.com/gruzia-koru=
+tazas/</a>=C2=A0=C2=A0<br></div><div><br></div><div><table border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" width=3D"568" style=3D"border-collapse:col=
+lapse;width:426pt">
+
+ <colgroup><col width=3D"91" style=3D"width:68pt">
+ <col width=3D"173" style=3D"width:130pt">
+ <col width=3D"304" style=3D"width:228pt">
+ </colgroup><tbody><tr height=3D"25" style=3D"height:18.75pt">
+  <td height=3D"25" class=3D"gmail-m_1712468083332260128gmail-m_-7038690017=
+894588446gmail-m_972608623410708397gmail-m_-6805643817856823894gmail-m_2230=
+865839600500227gmail-xl70_mailru_css_attribute_postfix" width=3D"91" style=
+=3D"height:18.75pt;width:68pt;font-size:14pt;font-weight:700;font-family:&q=
+uot;Times New Roman&quot;,serif;text-align:center;border:0.5pt solid window=
+text;padding:0px;vertical-align:bottom;white-space:nowrap"><br></td><td cla=
+ss=3D"gmail-m_1712468083332260128gmail-m_-7038690017894588446gmail-m_972608=
+623410708397gmail-m_-6805643817856823894gmail-m_2230865839600500227gmail-xl=
+76_mailru_css_attribute_postfix" width=3D"173" style=3D"border-style:solid =
+solid solid none;width:130pt;font-size:14pt;font-family:&quot;Times New Rom=
+an&quot;,serif;text-align:center;vertical-align:top;border-top-width:0.5pt;=
+border-top-color:windowtext;border-right-width:0.5pt;border-right-color:win=
+dowtext;border-bottom-width:0.5pt;border-bottom-color:windowtext;padding:0p=
+x;white-space:nowrap"></td><td class=3D"gmail-m_1712468083332260128gmail-m_=
+-7038690017894588446gmail-m_972608623410708397gmail-m_-6805643817856823894g=
+mail-m_2230865839600500227gmail-xl71_mailru_css_attribute_postfix" width=3D=
+"304" style=3D"border-style:solid solid solid none;width:228pt;font-size:14=
+pt;font-family:&quot;Times New Roman&quot;,serif;border-top-width:0.5pt;bor=
+der-top-color:windowtext;border-right-width:0.5pt;border-right-color:window=
+text;border-bottom-width:0.5pt;border-bottom-color:windowtext;background-co=
+lor:rgb(253,233,217);padding:0px;vertical-align:bottom;white-space:nowrap">=
+</td>
+ </tr>
+ <tr height=3D"25" style=3D"height:18.75pt">
+  <td height=3D"25" class=3D"gmail-m_1712468083332260128gmail-m_-7038690017=
+894588446gmail-m_972608623410708397gmail-m_-6805643817856823894gmail-m_2230=
+865839600500227gmail-xl70_mailru_css_attribute_postfix" style=3D"height:18.=
+75pt;border-style:none solid solid;font-size:14pt;font-weight:700;font-fami=
+ly:&quot;Times New Roman&quot;,serif;text-align:center;border-right-width:0=
+.5pt;border-right-color:windowtext;border-bottom-width:0.5pt;border-bottom-=
+color:windowtext;border-left-width:0.5pt;border-left-color:windowtext;paddi=
+ng:0px;vertical-align:bottom;white-space:nowrap">11-Jul</td>
+  <td class=3D"gmail-m_1712468083332260128gmail-m_-7038690017894588446gmail=
+-m_972608623410708397gmail-m_-6805643817856823894gmail-m_223086583960050022=
+7gmail-xl77_mailru_css_attribute_postfix" style=3D"border-style:none solid =
+solid none;font-size:14pt;font-family:&quot;Times New Roman&quot;,serif;tex=
+t-align:center;vertical-align:top;border-right-width:0.5pt;border-right-col=
+or:windowtext;border-bottom-width:0.5pt;border-bottom-color:windowtext;back=
+ground-color:rgb(252,213,180);padding:0px;white-space:nowrap">cs=C3=BCt=C3=
+=B6rt=C3=B6k</td>
+  <td class=3D"gmail-m_1712468083332260128gmail-m_-7038690017894588446gmail=
+-m_972608623410708397gmail-m_-6805643817856823894gmail-m_223086583960050022=
+7gmail-xl72_mailru_css_attribute_postfix" style=3D"border-style:none solid =
+solid none;font-size:14pt;font-family:&quot;Times New Roman&quot;,serif;bor=
+der-right-width:0.5pt;border-right-color:windowtext;border-bottom-width:0.5=
+pt;border-bottom-color:windowtext;background-color:rgb(196,215,155);padding=
+:0px;vertical-align:bottom;white-space:nowrap">Kutaisi 5 am. -Mestia</td>
+ </tr>
+ <tr height=3D"25" style=3D"height:18.75pt">
+  <td height=3D"25" class=3D"gmail-m_1712468083332260128gmail-m_-7038690017=
+894588446gmail-m_972608623410708397gmail-m_-6805643817856823894gmail-m_2230=
+865839600500227gmail-xl70_mailru_css_attribute_postfix" style=3D"height:18.=
+75pt;border-style:none solid solid;font-size:14pt;font-weight:700;font-fami=
+ly:&quot;Times New Roman&quot;,serif;text-align:center;border-right-width:0=
+.5pt;border-right-color:windowtext;border-bottom-width:0.5pt;border-bottom-=
+color:windowtext;border-left-width:0.5pt;border-left-color:windowtext;paddi=
+ng:0px;vertical-align:bottom;white-space:nowrap">12-Jul</td>
+  <td class=3D"gmail-m_1712468083332260128gmail-m_-7038690017894588446gmail=
+-m_972608623410708397gmail-m_-6805643817856823894gmail-m_223086583960050022=
+7gmail-xl79_mailru_css_attribute_postfix" style=3D"border-style:none solid =
+solid none;font-size:14pt;font-family:&quot;Times New Roman&quot;,serif;tex=
+t-align:center;vertical-align:top;border-right-width:0.5pt;border-right-col=
+or:windowtext;border-bottom-width:0.5pt;border-bottom-color:windowtext;back=
+ground-color:rgb(155,187,89);padding:0px;white-space:nowrap">p=C3=A9ntek</t=
+d>
+  <td class=3D"gmail-m_1712468083332260128gmail-m_-7038690017894588446gmail=
+-m_972608623410708397gmail-m_-6805643817856823894gmail-m_223086583960050022=
+7gmail-xl73_mailru_css_attribute_postfix" style=3D"border-style:none solid =
+solid none;font-size:14pt;font-family:&quot;Times New Roman&quot;,serif;bor=
+der-right-width:0.5pt;border-right-color:windowtext;border-bottom-width:0.5=
+pt;border-bottom-color:windowtext;background-color:rgb(250,191,143);padding=
+:0px;vertical-align:bottom;white-space:nowrap">Mestia -Ushguli</td>
+ </tr>
+ <tr height=3D"25" style=3D"height:18.75pt">
+  <td height=3D"25" class=3D"gmail-m_1712468083332260128gmail-m_-7038690017=
+894588446gmail-m_972608623410708397gmail-m_-6805643817856823894gmail-m_2230=
+865839600500227gmail-xl70_mailru_css_attribute_postfix" style=3D"height:18.=
+75pt;border-style:none solid solid;font-size:14pt;font-weight:700;font-fami=
+ly:&quot;Times New Roman&quot;,serif;text-align:center;border-right-width:0=
+.5pt;border-right-color:windowtext;border-bottom-width:0.5pt;border-bottom-=
+color:windowtext;border-left-width:0.5pt;border-left-color:windowtext;paddi=
+ng:0px;vertical-align:bottom;white-space:nowrap">13-Jul</td>
+  <td class=3D"gmail-m_1712468083332260128gmail-m_-7038690017894588446gmail=
+-m_972608623410708397gmail-m_-6805643817856823894gmail-m_223086583960050022=
+7gmail-xl81_mailru_css_attribute_postfix" style=3D"border-style:none solid =
+solid none;font-size:14pt;font-family:&quot;Times New Roman&quot;,serif;tex=
+t-align:center;vertical-align:top;border-right-width:0.5pt;border-right-col=
+or:windowtext;border-bottom-width:0.5pt;border-bottom-color:windowtext;back=
+ground-color:yellow;padding:0px;white-space:nowrap">szombat</td>
+  <td class=3D"gmail-m_1712468083332260128gmail-m_-7038690017894588446gmail=
+-m_972608623410708397gmail-m_-6805643817856823894gmail-m_223086583960050022=
+7gmail-xl74_mailru_css_attribute_postfix" style=3D"border-top:none;border-l=
+eft:none;font-size:14pt;font-family:&quot;Times New Roman&quot;,serif;borde=
+r-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;backgro=
+und:rgb(196,215,155);padding:0px;color:windowtext;vertical-align:bottom;whi=
+te-space:nowrap">Ushguli trekking -
+  Mestia</td>
+ </tr>
+ <tr height=3D"25" style=3D"height:18.75pt">
+  <td height=3D"25" class=3D"gmail-m_1712468083332260128gmail-m_-7038690017=
+894588446gmail-m_972608623410708397gmail-m_-6805643817856823894gmail-m_2230=
+865839600500227gmail-xl70_mailru_css_attribute_postfix" style=3D"height:18.=
+75pt;border-style:none solid solid;font-size:14pt;font-weight:700;font-fami=
+ly:&quot;Times New Roman&quot;,serif;text-align:center;border-right-width:0=
+.5pt;border-right-color:windowtext;border-bottom-width:0.5pt;border-bottom-=
+color:windowtext;border-left-width:0.5pt;border-left-color:windowtext;paddi=
+ng:0px;vertical-align:bottom;white-space:nowrap">14-Jul</td>
+  <td class=3D"gmail-m_1712468083332260128gmail-m_-7038690017894588446gmail=
+-m_972608623410708397gmail-m_-6805643817856823894gmail-m_223086583960050022=
+7gmail-xl83_mailru_css_attribute_postfix" style=3D"border-style:none solid =
+solid none;font-size:14pt;font-family:&quot;Times New Roman&quot;,serif;tex=
+t-align:center;vertical-align:top;border-right-width:0.5pt;border-right-col=
+or:windowtext;border-bottom-width:0.5pt;border-bottom-color:windowtext;back=
+ground-color:rgb(230,184,183);padding:0px;white-space:nowrap">vas=C3=A1rnap=
+</td>
+  <td class=3D"gmail-m_1712468083332260128gmail-m_-7038690017894588446gmail=
+-m_972608623410708397gmail-m_-6805643817856823894gmail-m_223086583960050022=
+7gmail-xl75_mailru_css_attribute_postfix" style=3D"border-style:none solid =
+solid none;font-size:14pt;font-family:&quot;Times New Roman&quot;,serif;bor=
+der-right-width:0.5pt;border-right-color:windowtext;border-bottom-width:0.5=
+pt;border-bottom-color:windowtext;background-color:rgb(242,220,219);padding=
+:0px;vertical-align:bottom;white-space:nowrap">Mestia - Martvili
+  kanyon - Kutaisi</td>
+ </tr>
+ <tr height=3D"25" style=3D"height:18.75pt">
+  <td height=3D"25" class=3D"gmail-m_1712468083332260128gmail-m_-7038690017=
+894588446gmail-m_972608623410708397gmail-m_-6805643817856823894gmail-m_2230=
+865839600500227gmail-xl70_mailru_css_attribute_postfix" style=3D"height:18.=
+75pt;border-style:none solid solid;font-size:14pt;font-weight:700;font-fami=
+ly:&quot;Times New Roman&quot;,serif;text-align:center;border-right-width:0=
+.5pt;border-right-color:windowtext;border-bottom-width:0.5pt;border-bottom-=
+color:windowtext;border-left-width:0.5pt;border-left-color:windowtext;paddi=
+ng:0px;vertical-align:bottom;white-space:nowrap">15-Jul</td>
+  <td class=3D"gmail-m_1712468083332260128gmail-m_-7038690017894588446gmail=
+-m_972608623410708397gmail-m_-6805643817856823894gmail-m_223086583960050022=
+7gmail-xl84_mailru_css_attribute_postfix" style=3D"border-style:none solid =
+solid none;font-size:14pt;font-family:&quot;Times New Roman&quot;,serif;tex=
+t-align:center;vertical-align:top;border-right-width:0.5pt;border-right-col=
+or:windowtext;border-bottom-width:0.5pt;border-bottom-color:windowtext;back=
+ground-color:rgb(204,192,218);padding:0px;white-space:nowrap">h=C3=A9tf=C5=
+=91</td>
+  <td class=3D"gmail-m_1712468083332260128gmail-m_-7038690017894588446gmail=
+-m_972608623410708397gmail-m_-6805643817856823894gmail-m_223086583960050022=
+7gmail-xl68_mailru_css_attribute_postfix" style=3D"border-top:none;border-l=
+eft:none;font-size:14pt;font-family:&quot;Times New Roman&quot;,serif;borde=
+r-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding=
+:0px;color:windowtext;vertical-align:bottom;white-space:nowrap">Barlang-Gel=
+ati-
+  Kutaisi</td>
+ </tr>
+ <tr height=3D"25" style=3D"height:18.75pt">
+  <td height=3D"25" class=3D"gmail-m_1712468083332260128gmail-m_-7038690017=
+894588446gmail-m_972608623410708397gmail-m_-6805643817856823894gmail-m_2230=
+865839600500227gmail-xl70_mailru_css_attribute_postfix" style=3D"height:18.=
+75pt;border-style:none solid solid;font-size:14pt;font-weight:700;font-fami=
+ly:&quot;Times New Roman&quot;,serif;text-align:center;border-right-width:0=
+.5pt;border-right-color:windowtext;border-bottom-width:0.5pt;border-bottom-=
+color:windowtext;border-left-width:0.5pt;border-left-color:windowtext;paddi=
+ng:0px;vertical-align:bottom;white-space:nowrap">16-Jul</td>
+  <td class=3D"gmail-m_1712468083332260128gmail-m_-7038690017894588446gmail=
+-m_972608623410708397gmail-m_-6805643817856823894gmail-m_223086583960050022=
+7gmail-xl85_mailru_css_attribute_postfix" style=3D"border-style:none solid =
+solid none;font-size:14pt;font-family:&quot;Times New Roman&quot;,serif;tex=
+t-align:center;vertical-align:top;border-right-width:0.5pt;border-right-col=
+or:windowtext;border-bottom-width:0.5pt;border-bottom-color:windowtext;back=
+ground-color:rgb(197,217,241);padding:0px;white-space:nowrap">kedd</td>
+  <td class=3D"gmail-m_1712468083332260128gmail-m_-7038690017894588446gmail=
+-m_972608623410708397gmail-m_-6805643817856823894gmail-m_223086583960050022=
+7gmail-xl78_mailru_css_attribute_postfix" style=3D"border-style:none solid =
+solid none;font-size:14pt;font-family:&quot;Times New Roman&quot;,serif;bor=
+der-right-width:0.5pt;border-right-color:windowtext;border-bottom-width:0.5=
+pt;border-bottom-color:windowtext;background-color:rgb(252,213,180);padding=
+:0px;vertical-align:bottom;white-space:nowrap">Gori - Mtsetha -
+  Tbilisi</td>
+ </tr>
+ <tr height=3D"25" style=3D"height:18.75pt">
+  <td height=3D"25" class=3D"gmail-m_1712468083332260128gmail-m_-7038690017=
+894588446gmail-m_972608623410708397gmail-m_-6805643817856823894gmail-m_2230=
+865839600500227gmail-xl70_mailru_css_attribute_postfix" style=3D"height:18.=
+75pt;border-style:none solid solid;font-size:14pt;font-weight:700;font-fami=
+ly:&quot;Times New Roman&quot;,serif;text-align:center;border-right-width:0=
+.5pt;border-right-color:windowtext;border-bottom-width:0.5pt;border-bottom-=
+color:windowtext;border-left-width:0.5pt;border-left-color:windowtext;paddi=
+ng:0px;vertical-align:bottom;white-space:nowrap">17-Jul</td>
+  <td class=3D"gmail-m_1712468083332260128gmail-m_-7038690017894588446gmail=
+-m_972608623410708397gmail-m_-6805643817856823894gmail-m_223086583960050022=
+7gmail-xl86_mailru_css_attribute_postfix" style=3D"border-style:none solid =
+solid none;font-size:14pt;font-family:&quot;Times New Roman&quot;,serif;tex=
+t-align:center;vertical-align:top;border-right-width:0.5pt;border-right-col=
+or:windowtext;border-bottom-width:0.5pt;border-bottom-color:windowtext;back=
+ground-color:rgb(184,204,228);padding:0px;white-space:nowrap">szerda</td>
+  <td class=3D"gmail-m_1712468083332260128gmail-m_-7038690017894588446gmail=
+-m_972608623410708397gmail-m_-6805643817856823894gmail-m_223086583960050022=
+7gmail-xl80_mailru_css_attribute_postfix" style=3D"border-style:none solid =
+solid none;font-size:14pt;font-family:&quot;Times New Roman&quot;,serif;bor=
+der-right-width:0.5pt;border-right-color:windowtext;border-bottom-width:0.5=
+pt;border-bottom-color:windowtext;background-color:rgb(118,147,60);padding:=
+0px;vertical-align:bottom;white-space:nowrap">Tbilisi belv=C3=A1ros 1.</td>
+ </tr>
+ <tr height=3D"25" style=3D"height:18.75pt">
+  <td height=3D"25" class=3D"gmail-m_1712468083332260128gmail-m_-7038690017=
+894588446gmail-m_972608623410708397gmail-m_-6805643817856823894gmail-m_2230=
+865839600500227gmail-xl70_mailru_css_attribute_postfix" style=3D"height:18.=
+75pt;border-style:none solid solid;font-size:14pt;font-weight:700;font-fami=
+ly:&quot;Times New Roman&quot;,serif;text-align:center;border-right-width:0=
+.5pt;border-right-color:windowtext;border-bottom-width:0.5pt;border-bottom-=
+color:windowtext;border-left-width:0.5pt;border-left-color:windowtext;paddi=
+ng:0px;vertical-align:bottom;white-space:nowrap">18-Jul</td>
+  <td class=3D"gmail-m_1712468083332260128gmail-m_-7038690017894588446gmail=
+-m_972608623410708397gmail-m_-6805643817856823894gmail-m_223086583960050022=
+7gmail-xl77_mailru_css_attribute_postfix" style=3D"border-style:none solid =
+solid none;font-size:14pt;font-family:&quot;Times New Roman&quot;,serif;tex=
+t-align:center;vertical-align:top;border-right-width:0.5pt;border-right-col=
+or:windowtext;border-bottom-width:0.5pt;border-bottom-color:windowtext;back=
+ground-color:rgb(252,213,180);padding:0px;white-space:nowrap">cs=C3=BCt=C3=
+=B6rt=C3=B6k</td>
+  <td class=3D"gmail-m_1712468083332260128gmail-m_-7038690017894588446gmail=
+-m_972608623410708397gmail-m_-6805643817856823894gmail-m_223086583960050022=
+7gmail-xl82_mailru_css_attribute_postfix" style=3D"font-size:14pt;font-fami=
+ly:&quot;Times New Roman&quot;,serif;background:yellow;padding:0px;color:wi=
+ndowtext;vertical-align:bottom;border:none;white-space:nowrap">Tbilisi v=C3=
+=A1rosn=C3=A9z=C3=A9s 2.</td>
+ </tr>
+
+</tbody></table><div><div dir=3D"ltr" class=3D"gmail-m_1712468083332260128g=
+mail-m_-7038690017894588446gmail-m_972608623410708397gmail-m_-6805643817856=
+823894gmail-m_2230865839600500227gmail_signature_mailru_css_attribute_postf=
+ix"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><di=
+v dir=3D"ltr"><div><div dir=3D"ltr"><br></div><div dir=3D"ltr">G=C3=A1bor (=
+<a href=3D"http://vandorboy.com/" rel=3D"noopener noreferrer" target=3D"_bl=
+ank">V=C3=A1ndorboy</a>)</div></div><div dir=3D"ltr">----------------------=
+-----</div><div dir=3D"ltr"><br></div><div>for the second part i will tell =
+you later which bus we will take..=C2=A0</div><div><br></div><div dir=3D"lt=
+r"><div>- Driver=E2=80=99s hire fee would be 80 EUR per day, =C2=A0for Spri=
+nter</div><div>- =C2=A0Petrol for 100 km is probably 15 L=C2=A0</div><div>F=
+or 30 person bus hire fee would be 118 Euro per day. Pertol for 100km proba=
+bly 25 -30 L<br></div><div>-----</div><div><div>40+ person bus:</div><div>A=
+s you take care of driver=E2=80=99s food and accommodations charges ,</div>=
+<div>- Driver=E2=80=99s hire fee would be 127 EUR per day, =C2=A0for 7 days=
+ 889 EUR=C2=A0</div><div>- =C2=A0Petrol for 100 km is probably 40 L . for a=
+ll trip it would be probably 350 EUR</div><div><br></div></div><div><br><di=
+v>350 GEL- =C2=A0driver daily charge for 7 days =3D 2450 GEL</div><div>550 =
+GEL - for driver accommodations and food for 7 days</div><div><br></div><di=
+v>Finally the cost is 4300 GEL</div></div><div><div>The 50 person bus for =
+=C2=A07 days, with driver and petrol expenses would be 4700 GEL , but you, =
+as a first time customer, will receive a welcome sale and the cost will be =
+4300 GEL.</div><div><br></div><div>I think you will like our offer.</div><d=
+iv>Thank you</div><div><br><div><div dir=3D"auto" style=3D"font-family:Helv=
+etica;font-size:12px"><div dir=3D"auto"><div>Sincerely,</div><div><br></div=
+><div>Ekaterine Tarkhnishvili</div><div><br></div><div>LTD Tripplanner</div=
+><div>Cel: (995) 591 712345</div><div>Mob: (995) 599 450035</div><div><a hr=
+ef=3D"mailto:e.tarkhnishvili@tripplanner.ge" rel=3D"noopener noreferrer" ta=
+rget=3D"_blank">E-mail: e.tarkhnishvili@tripplanner.ge</a></div><div>=C2=A0=
+ =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0=C2=A0<a href=3D"mailto:info@tripplanner=
+.ge" rel=3D"noopener noreferrer" target=3D"_blank">info@tripplanner.ge</a><=
+/div></div></div></div></div></div></div></div></div></div></div></div></di=
+v></div></div></div>
+</div></blockquote></div><br></div></div></blockquote></div>
+</div></blockquote></div><br></div></div></blockquote></div>
+</div></div>
+		=09
+	=09
+	=09
+	</div>
+
+=09
+</div></blockquote></div></div></div>
+</blockquote></div>
+</div></blockquote></div><br></div></div></blockquote></div>
+</div></blockquote></div><br></div></div></div></div></blockquote></div><br=
+></div></blockquote></div>
+
+--0000000000003600c3058c62da8c--

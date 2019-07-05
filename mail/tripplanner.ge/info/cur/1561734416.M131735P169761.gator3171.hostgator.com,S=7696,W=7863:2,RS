@@ -1,0 +1,167 @@
+Return-Path: <biuro@ambasadapodroznikow.pl>
+Delivered-To: info@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP
+	id UDu9BxAtFl0hlwIA8w4q4w
+	(envelope-from <biuro@ambasadapodroznikow.pl>)
+	for <info@tripplanner.ge>; Fri, 28 Jun 2019 10:06:56 -0500
+Return-path: <biuro@ambasadapodroznikow.pl>
+Envelope-to: info@tripplanner.ge
+Delivery-date: Fri, 28 Jun 2019 10:06:56 -0500
+Received: from mail21.zenbox.pl ([46.245.193.50]:23108)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92)
+	(envelope-from <biuro@ambasadapodroznikow.pl>)
+	id 1hgsSk-000nn7-Re
+	for info@tripplanner.ge; Fri, 28 Jun 2019 10:06:56 -0500
+Received: from mail21.zenbox.pl (localhost [127.0.0.1])
+	by mail21.zenbox.pl (Postfix) with ESMTP id DC4BE20D6A04
+	for <info@tripplanner.ge>; Fri, 28 Jun 2019 17:06:39 +0200 (CEST)
+Received: from mail21.zenbox.pl (localhost [127.0.0.1])
+	by mail21.zenbox.pl (Postfix) with ESMTP id D6D6F20D5DCB
+	for <info@tripplanner.ge>; Fri, 28 Jun 2019 17:06:39 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at mail21.zenbox.pl
+Authentication-Results: mail21.zenbox.pl (amavisd-new);
+	dkim=pass (2048-bit key) header.d=ambasadapodroznikow.pl
+Received: from mail21.zenbox.pl ([127.0.0.1])
+	by mail21.zenbox.pl (mail21.zenbox.pl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 3DdEnWyK2Rlg for <info@tripplanner.ge>;
+	Fri, 28 Jun 2019 17:06:37 +0200 (CEST)
+Received: from poczta.zenbox.pl (unknown [10.0.4.222])
+	by mail21.zenbox.pl (Postfix) with ESMTPA id ED22620D72FF
+	for <info@tripplanner.ge>; Fri, 28 Jun 2019 17:06:36 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple;
+	d=ambasadapodroznikow.pl; s=x; t=1561734397;
+	bh=NIIZ09V95I+fcYaYvAnF1fml2ets6QLHVi8H+2s150Q=;
+	h=Date:From:To:Subject:In-Reply-To:References;
+	b=J/DmJMERU40PxO6OEJqga79i51J8kB43Mc5jVFZkpOOYyHODWs49ja1r2VXibJbxy
+	 lPEVopu2TtmB6uKyAn65yHnRS84P3tIEJ8ppJcH6UmDIcvyOAZ1B5LqFM5b2JfHuMQ
+	 VQJNGyCcZBXPZnLWv/SxsysuaYSUiJ/Wjpj+qS33Y5DGurcAwygujSAUZq8lMYwNlr
+	 /6U0Iz+082a7JDvXFCHwRxAY7V8h2CT3uKL/3UEmZ3s4cySgghb7YJbuJB3NDul60Q
+	 tnzrI2mVQGaWxLyjOR+WdYbffNNSxhwRaO7DPF+iNu1mI1Tw/aHeCNIv53zrjEAz2f
+	 OVp05Ma5ZAyNQ==
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="=_1b03bcbc01b8eb8cd346b4155665b25f"
+Date: Fri, 28 Jun 2019 17:06:44 +0200
+From: =?UTF-8?Q?Ambasada_Podr=C3=B3=C5=BCnik=C3=B3w?=
+ <biuro@ambasadapodroznikow.pl>
+To: "tripplanner.ge" <info@tripplanner.ge>
+Subject: Re: tripplanner
+In-Reply-To: <FE8C957D-16A2-408C-B2D3-18A1845E8A3D@tripplanner.ge>
+References: <20190312072921.765732065EBD@mail21.zenbox.pl>
+ <17fc006a3a495f081a05514a25119eea@ambasadapodroznikow.pl>
+ <15B2E944-A2B2-4443-B03E-368FBB5BE496@tripplanner.ge>
+ <2b1985d565011d6854702f628846e9cc@ambasadapodroznikow.pl>
+ <8EEE63F9-2AE1-4924-ACF8-EB674D54AD3C@tripplanner.ge>
+ <6D1AB168-840F-4200-B623-75FB5CDD1523@tripplanner.ge>
+ <2db4cb94f6846ea9ed38ae4eec1da78b@ambasadapodroznikow.pl>
+ <C48B0D32-E511-47AD-AA0E-DE3885981DC3@tripplanner.ge>
+ <b743c26f16c446caef20625136a3499d@ambasadapodroznikow.pl>
+ <5FCB16FB-26A5-4F74-BDE7-04FC5CD2F766@tripplanner.ge>
+ <91317edb51f7d89e36ab8d2c6d9f0907@ambasadapodroznikow.pl>
+ <0630319A-ABD9-4AA0-AA75-B6AF33CCEACB@tripplanner.ge>
+ <1718F7AF-D2A8-4911-A7A9-5C06B3F6A731@tripplanner.ge>
+ <1021b5422ed0aac6493385c926a1f6ca@ambasadapodroznikow.pl>
+ <ee6618eab06adc8c593e56ef6a5abd63@ambasadapodroznikow.pl>
+ <E1AC3D66-20DA-4FBE-8AF3-4767DA58D544@tripplanner.ge>
+ <054d9c1632c359ad477524cb147b4c21@ambasadapodroznikow.pl>
+ <FA5F5A2A-BF8D-4CD5-A8D0-77BFF563F6F4@tripplanner.ge>
+ <3963bcfa7f1582fb63d673dfc5e986ad@ambasadapodroznikow.pl>
+ <FE8C957D-16A2-408C-B2D3-18A1845E8A3D@tripplanner.ge>
+Message-ID: <44b16ad9f847af7fd2779ac08574a3b1@ambasadapodroznikow.pl>
+X-Sender: biuro@ambasadapodroznikow.pl
+User-Agent: poczta.zenbox.pl
+X-Spam-Status: No, score=-0.5
+X-Spam-Score: -4
+X-Spam-Bar: /
+X-Spam-Flag: NO
+
+--=_1b03bcbc01b8eb8cd346b4155665b25f
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset=UTF-8
+
+Hello!
+
+In Kazbegi we have accomodation, in Borjomi we speak with the owner of
+Eleon Hotel and I hope we make a deal.
+https://www.booking.com/hotel/ge/tori-borjomi.pl.html
+Greetings, 
+
+Damian 
+
+W dniu 2019-06-28 11:43, tripplanner.ge napisał(a):
+
+> Hello,  as you already wrote us and  as we anderstood   you have found guesthouse in Kazbegi, We offered you guesthouse 'AnaMaria" in Kazbegi and you answered this: 
+> 
+> Thanks for your help! We are appreciate!
+> Unfortunately we cannot confirm your booking. We think it is too far away from the Qubi Guesthouse where we have confirmation for 14 people. during a weekend we booked another place for 11 people, so we got it.
+
+  Do you men hotel Eleon in Tbilisi? 
+What about accommodations in Borjomi I'll write you today exact which
+guesthouses could we find for you an how far are they from each other,  
+in any case Borjomi and Kazbegi as well are small towns , and distance
+will not be far,  
+And we are not taking any fees for reserving guesthouses for you, 
+If you have questions write please, 
+
+Greetings ,
+--=_1b03bcbc01b8eb8cd346b4155665b25f
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=UTF-8
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8" /></head><body style=3D'font-size: 10pt'>
+<p>Hello!<br /><br />In Kazbegi we have accomodation, in Borjomi we speak w=
+ith the owner of Eleon Hotel and I hope we make a deal.<br /><a href=3D"htt=
+ps://www.booking.com/hotel/ge/tori-borjomi.pl.html">https://www.booking.com=
+/hotel/ge/tori-borjomi.pl.html</a><br />Greetings,</p>
+<p>Damian</p>
+<p><br />W dniu 2019-06-28 11:43, tripplanner.ge napisa=C5=82(a):</p>
+<blockquote type=3D"cite" style=3D"padding: 0 0.4em; border-left: #1010ff 2=
+px solid; margin: 0"><!-- html ignored --><!-- head ignored --><!-- meta ig=
+nored -->Hello, &nbsp;as you already wrote us and &nbsp;as we anderstood &n=
+bsp; you have found guesthouse in Kazbegi,&nbsp;We offered you guesthouse '=
+AnaMaria" in Kazbegi and you answered this:
+<div>
+<blockquote style=3D"font-size: 13.333333015441895px; padding: 0px 0.4em; b=
+order-left-color: #1010ff; margin: 0px;">
+<blockquote class=3D"gmail_quote" style=3D"margin: 0px !important; padding:=
+ 0px !important; border: none !important;">
+<div class=3D"gmail_quote">
+<blockquote style=3D"padding: 0px 0.4em; border-left-width: 2px; border-lef=
+t-style: solid; border-left-color: #1010ff; margin: 0px;">
+<blockquote style=3D"padding: 0px 0.4em; border-left-width: 2px; border-lef=
+t-style: solid; border-left-color: #1010ff; margin: 0px;">
+<div style=3D"font-size: 10pt;">
+<blockquote style=3D"padding: 0px 0.4em; border-left-width: 2px; border-lef=
+t-style: solid; border-left-color: #1010ff; margin: 0px;">
+<p>Thanks for your help! We are appreciate!<br />Unfortunately we cannot co=
+nfirm your booking. We think it is too far away from the Qubi Guesthouse wh=
+ere we have confirmation for 14 people. during a weekend we booked another =
+place for 11 people, so we got it.</p>
+<div>&nbsp;</div>
+</blockquote>
+</div>
+</blockquote>
+</blockquote>
+</div>
+</blockquote>
+</blockquote>
+<div>&nbsp;</div>
+Do you men hotel Eleon in Tbilisi?</div>
+<div>What about accommodations in Borjomi I'll write you today exact which =
+guesthouses could we find for you an how far are they from each other, &nbs=
+p; in any case Borjomi and Kazbegi as well are small towns , and distance w=
+ill not be far,&nbsp;</div>
+<div>And we are not taking any fees for reserving guesthouses for you,</div=
+>
+<div>If you have questions write please,</div>
+<div>&nbsp;</div>
+<div>Greetings ,</div>
+</blockquote>
+<p><br /></p>
+
+</body></html>
+
+--=_1b03bcbc01b8eb8cd346b4155665b25f--

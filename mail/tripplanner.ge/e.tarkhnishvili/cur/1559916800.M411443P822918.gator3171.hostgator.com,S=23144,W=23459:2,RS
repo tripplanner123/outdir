@@ -1,0 +1,315 @@
+Return-Path: <shvangiradze_tamuna@yahoo.com>
+Delivered-To: e.tarkhnishvili@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP
+	id AAxoGABx+lyGjgwA8w4q4w
+	(envelope-from <shvangiradze_tamuna@yahoo.com>)
+	for <e.tarkhnishvili@tripplanner.ge>; Fri, 07 Jun 2019 09:13:20 -0500
+Return-path: <shvangiradze_tamuna@yahoo.com>
+Envelope-to: e.tarkhnishvili@tripplanner.ge
+Delivery-date: Fri, 07 Jun 2019 09:13:20 -0500
+Received: from sonic315-20.consmr.mail.ne1.yahoo.com ([66.163.190.146]:42001)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.92)
+	(envelope-from <shvangiradze_tamuna@yahoo.com>)
+	id 1hZFcN-003dxb-Mo
+	for e.tarkhnishvili@tripplanner.ge; Fri, 07 Jun 2019 09:13:20 -0500
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1559916788; bh=NbJScL95HAFUlpVDgA6iDtAKc1yz+WEu8jTW9UdbNmo=; h=Date:From:Reply-To:To:In-Reply-To:References:Subject:From:Subject; b=oYV0UEYAn+JE63A7OKfplKnEdUrDfBb+4uiebwj0Gxsrbw4nseh8f/ObPm/wvAxe7qBgR9NXttjbMbPEaiIc1nj/XZckk5zFkWQ8kqxArApLHSexBFnGHtzE4rNbv7Fl6f5JpA55n/cQdp7Ct+GJWbcW5EWdfpN3NDrLCzQcD88mvrAQGd6Gt46kXRdqQ2euj+YBC9/7/TskmBonahEFY2DqA6uBWFsKfY2w3lNj+7MSZF/DDzwrj4oHuSNY1omMY/kB0Mh2vaEWVvHlvIwYhtAKfhyyRkzkpPP2DzqhEFomdPd20i8FriuGMmyy5eLX6nz8fkGgdGm/mKxOCs4N4w==
+X-YMail-OSG: 7QzBFfcVM1mNDW9n9o_0AXoUEgscRztMDSgVCLRS_TFhLinJFBCwc9IYYbknJE_
+ EsYu1APvkjJkiB93JAfM3uv8tLrLCzyVR_n21iKdfutvot.Y8xVKdDWPeIEtZPunBlJQLiv.HGTj
+ 3.x1i7pUasB9QfaLvBoPzRp5sGX5mgZ8Recg_RkWRcOQaLIY.U9p3O0oHezECMn1JuFm3H99mrhi
+ xiROf1v4o2HJQHF448pbVVYXtK_VyTZPqJvqQZ4IRHoYL0HdmhIl3erDZqwbUtY8z.vcsLCrugrD
+ tsoNXfhGfaH8wb7elPKmtHkmVAAVeqq8SyqTvvgil9Vd_ab0PTuV7agNNSGS7uyePuN03ecZZwPH
+ lO3sehVsS56PmhT1KlYp3wYFOnx2ZB3rNXt8pvsG9vv2C3smBv4kwt0GwhzmDtb3stX.mD.2Qz89
+ .bLQ2pXZXyW2TmHpKQB0tKIojh7ITaqVoBcpg.iAFhJHGdKB.LUB8FI1TqaQvjYcxQQWeUgcl6ew
+ HzX0KS0x6UlDMBKfb4nRPQYovN_We6L4E5AzqSQt9_pvsOxR9G9.Y7N6IjCsIZZdir_se22CLKRP
+ 0wE5kvigaB2T_6of1VckCzrXpKp7lM3lEg9R8tujDW1rilXIPG5eRTNNcv_LFRksXcOUZlDPT6ls
+ XDPVCK.H0CSP5h0qJelyLT19G.5kYVfgcXufrXE2wLnZK6WrYZa1P7lf7A2cN3zEa77Kz3aNhhFo
+ zgKPbXZDBay0DnTmMV4Za_6IMBSPyRxZOdz0e5KbgD2DhCKc2WgdyOP.luRZW8OnA4F3QEuqEOYT
+ FSjBKKf4gHzedKLIwy.f0D.VAVUaDy6IeiAcH4rnC9A_ZJ_.oWnakWaObAcdPaC5bh9VwRN5BDI6
+ MlEedYeD76qcLqq3w4YfrWVhuor7CbXtlJmE.FiyfNWV9BZcuagrA46Xm9P0AkVFlEvo5rxD3DgD
+ xgCwrUErAspTk6RaIBMWu_IhExH8p5r7pBL_C0ZRaSsLc06XAQAw4IKk3NCsxg3OLtYXVbeTZIKD
+ ZtjkN.KgkTJLz7uuaUcjNM3NlPUYkj71mysrEgQ15u2pWP6Ro_Qc7BUEvxvXOeRimt0HEnFnstls
+ Mr8aMQXxM9DCI5mjr8kbLKg8XxAGh5NGxo18adK5sXNxD12b5qZzDs8LbHU9.zlad95aW.ktbnLr
+ aEz5oPxMqUkvE_oHMFLV5IfvKFzhn6acYllUyA63rlpuoUPbXu.fdfcJ.8JzpHfdG5XYB1V47sog
+ _IgfBLoqnHxpEchj79pV9JHR12JaJR2HQuGTZ5Vgv0zszoAlY6rM-
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic315.consmr.mail.ne1.yahoo.com with HTTP; Fri, 7 Jun 2019 14:13:08 +0000
+Date: Fri, 7 Jun 2019 14:13:03 +0000 (UTC)
+From: Tamuna Shvangiradze <shvangiradze_tamuna@yahoo.com>
+Reply-To: "shvangiradze_tamuna@yahoo.com" <shvangiradze_tamuna@yahoo.com>
+To: "e.tarkhnishvili@tripplanner.ge" <e.tarkhnishvili@tripplanner.ge>
+Message-ID: <1263193407.220972.1559916783742@mail.yahoo.com>
+In-Reply-To: <267B8E06-81D4-493A-B42B-685F6DB73F6D@tripplanner.ge>
+References: <A134BA04-D4CE-44C8-93AE-C1CF8779902B@tripplanner.ge> <264251539.194172.1559916212829@mail.yahoo.com> <267B8E06-81D4-493A-B42B-685F6DB73F6D@tripplanner.ge>
+Subject: Re: web-testing
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_220971_1644463962.1559916783740"
+X-Mailer: WebService/1.1.13634 YahooMailAndroidMobile YMobile/1.0 (com.yahoo.mobile.client.android.mail/5.40.2; Android/9; PPR1.180610.011; starlte; samsung; SM-G960F; 5.47; 2076x1080;)
+Content-Length: 19361
+X-Spam-Status: No, score=0.5
+X-Spam-Score: 5
+X-Spam-Bar: /
+X-Spam-Flag: NO
+
+------=_Part_220971_1644463962.1559916783740
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: base64
+
+4YOb4YOQ4YOT4YOa4YOd4YOR4YOQIOGDlOGDmeGDkC4K4YOb4YOQ4YOY4YOQIOGDqeGDmOGDouGD
+kOGDmOGDkOGDoSDhg6jhg5Thg5Lhg5jhg6vhg5rhg5jhg5Dhg5cg4YOT4YOQ4YOj4YOZ4YOQ4YOV
+4YOo4YOY4YOg4YOT4YOU4YOXwqDCoDU5NyA3NzcgMzY2CgpTZW50IGZyb20gWWFob28gTWFpbCBv
+biBBbmRyb2lkIAogCiAgT24gRnJpLCBKdW4gNywgMjAxOSBhdCAxODowNSwgRWthPGUudGFya2hu
+aXNodmlsaUB0cmlwcGxhbm5lci5nZT4gd3JvdGU6ICAg4YOS4YOQ4YOh4YOQ4YOS4YOU4YOR4YOY
+4YOQLMKg4YOT4YOY4YOT4YOYIOGDm+GDkOGDk+GDmuGDneGDkeGDkCwK4YOX4YOjIOGDkuGDlOGD
+kuGDo+GDmuGDlOGDkeGDkOGDlyDhg5Xhg5jhg5zhg5vhg5Qg4YOV4YOY4YOh4YOQ4YOqIOGDkuGD
+kOGDo+GDrOGDlOGDleGDk+GDmOGDlyDhg5Dhg5sg4YOh4YOQ4YOl4YOb4YOU4YOo4YOYIOGDoOGD
+lOGDmeGDneGDm+GDlOGDnOGDk+GDkOGDquGDmOGDkOGDoT8g4YOb4YOQ4YOT4YOa4YOd4YOR4YOU
+4YOa4YOYIOGDk+GDkOGDkuGDoOGDqeGDlOGDkeGDmOGDlwrhg6/hg5Dhg5zhg5vhg6Dhg5fhg5Th
+g5rhg53hg5Hhg5Dhg6Eg4YOS4YOY4YOh4YOj4YOg4YOV4YOU4YOR4YOXKcKgCuGDnuGDkOGDouGD
+mOGDleGDmOGDquGDlOGDm+GDmOGDl+GDlOGDmeGDkAoKCk9uIEp1biA3LCAyMDE5LCBhdCA2OjAz
+IFBNLCBUYW11bmEgU2h2YW5naXJhZHplIDxzaHZhbmdpcmFkemVfdGFtdW5hQHlhaG9vLmNvbT4g
+d3JvdGU6CuGDkuGDkOGDm+GDkOGDoOGDr+GDneGDkeGDkCDhg5Thg5nhg5AsCuGDm+GDkOGDk+GD
+muGDneGDkeGDkCDhg5nhg5Dhg6Dhg5Lhg5Dhg5MuwqAg4YOX4YOl4YOV4YOU4YOcPwrhg6Hhg5Dh
+g5vhg6zhg6Phg67hg5Dhg6Dhg53hg5Mg4YOQ4YOb4YOv4YOU4YOg4YOQ4YOTIOGDleGDlOGDoCDh
+g5Phg5Dhg5Lhg5Thg67hg5vhg5Dhg6Dhg5Thg5Hhg5jhg5csIOGDoOGDkOGDk+GDkuGDkOGDnCDh
+g6Thg5Thg67hg5vhg6vhg5jhg5vhg5Thg5Mg4YOV4YOQ4YOgIOGDk+GDkCDhg5Xhg5Thg6Ag4YOb
+4YOd4YOV4YOQ4YOu4YOU4YOg4YOu4YOU4YORIOGDkOGDmyDhg5Phg5Dhg5Xhg5Dhg5rhg5Thg5Hh
+g5jhg6Eg4YOo4YOU4YOh4YOg4YOj4YOa4YOU4YOR4YOQ4YOhLgrhg5vhg5Dhg5Phg5rhg53hg5Hh
+g5Ag4YOo4YOU4YOb4YOd4YOX4YOQ4YOV4YOQ4YOW4YOU4YOR4YOY4YOh4YOX4YOV4YOY4YOhLgoK
+ClNlbnQgZnJvbSBZYWhvbyBNYWlsIG9uIEFuZHJvaWQgCiAKICBPbiBGcmksIEp1biA3LCAyMDE5
+IGF0IDE3OjU1LCBFa2E8ZS50YXJraG5pc2h2aWxpQHRyaXBwbGFubmVyLmdlPiB3cm90ZTogICDh
+g5fhg5Dhg5nhg50g4YOS4YOQ4YOb4YOQ4YOg4YOv4YOd4YOR4YOQLOGDoOGDneGDkuGDneGDoCDh
+g67hg5Dhg6A/CuGDqOGDlOGDnOGDmCDhg5Phg5Dhg67hg5vhg5Dhg6Dhg5Thg5Hhg5Ag4YOb4YOU
+4YOh4YOQ4YOt4YOY4YOg4YOd4YOU4YOR4YOQIOGDmeGDleGDmuGDkOGDlSwg4YOQ4YObIOGDr+GD
+lOGDoOGDkOGDkyDhg5vhg67hg53hg5rhg53hg5Mg4YOg4YOU4YOh4YOe4YOd4YOc4YOh4YOY4YOV
+4YOY4YOhIOGDk+GDkOGDouGDlOGDoeGDouGDleGDkCDhg5vhg5Thg6Hhg5Dhg63hg5jhg6Dhg53h
+g5Thg5Hhg5AsIOGDoOGDneGDkuGDneGDoOGDqiDhg6Lhg5Thg6Xhg5zhg5jhg5nhg6Phg6Dhg5gg
+4YOY4YOh4YOUICJ1c2VyZnJpZW5kbHkt4YOh4oCdIOGDm+GDkOGDoOGDlOGDqiDhg6Dhg5Dhg5vh
+g5Phg5Thg5zhg5Dhg5Mg4YOb4YOQ4YOg4YOi4YOY4YOV4YOQ4YOTIOGDk+GDkCDhg5Lhg5Dhg6Hh
+g5Dhg5Lhg5Thg5Hhg5Dhg5Mg4YOQ4YOg4YOY4YOhIOGDrOGDkOGDoOGDm+GDneGDk+GDkuGDlOGD
+nOGDmOGDmuGDmCDhg5jhg5zhg6Thg53hg6Dhg5vhg5Dhg6rhg5jhg5AuCuGDl+GDoyDhg5Lhg5Dh
+g6Xhg5Xhg6Eg4YOT4YOg4YOdIOGDmOGDpeGDnOGDlOGDkSDhg5vhg5jhg5jhg6bhg50g4YOU4YOh
+IOGDk+GDkOGDleGDkOGDmuGDlOGDkeGDkCDhg5Phg5Ag4YOo4YOU4YOb4YOY4YOk4YOQ4YOh4YOd
+IOGDoOGDkCDhg5Phg6Dhg50g4YOT4YOQIOGDl+GDkOGDnOGDruGDkCDhg5Phg5Dhg5Lhg63hg5jh
+g6Dhg5Phg5Thg5Hhg5Ag4YOQ4YOb4YOY4YOh4YOX4YOV4YOY4YOhPwrhg5Phg5jhg5Phg5gg4YOb
+4YOQ4YOT4YOa4YOd4YOR4YOQCgoK4YOe4YOQ4YOi4YOY4YOV4YOY4YOh4YOq4YOU4YOb4YOY4YOX
+LArhg5Thg5nhg5Dhg6Lhg5Thg6Dhg5jhg5zhg5Qg4YOX4YOQ4YOg4YOu4YOc4YOY4YOo4YOV4YOY
+4YOa4YOY4YOo4YOe4YOhIOGDl+GDoOGDmOGDpOGDpOGDmuGDlOGDnOGDlOGDoOGDmArhg6Lhg5Th
+g5o6ICg5OTUpIDU5MSA3MTIzNDXhg5vhg53hg5E6ICg5OTUpIDU5OSA0NTAwMzXhg5Thg5ot4YOk
+4YOd4YOh4YOi4YOQOiBlLnRhcmtobmlzaHZpbGlAdHJpcHBsYW5uZXIuZ2XCoCDCoCDCoCDCoCDC
+oCDCoCDCoCDCoCDCoCDCoCDCoGluZm9AdHJpcHBsYW5uZXIuZ2UKaHR0cHM6Ly90cmlwcGxhbm5l
+ci5nZQo8aW1hZ2UwMDEgMl9FYXN5LVJlc2l6ZS5jb20uanBnPgogIAo8aW1hZ2UwMDEgMl9FYXN5
+LVJlc2l6ZS5jb20uanBnPgoKICAK
+------=_Part_220971_1644463962.1559916783740
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+=E1=83=9B=E1=83=90=E1=83=93=E1=83=9A=E1=83=9D=E1=83=91=E1=83=90 =E1=83=94=
+=E1=83=99=E1=83=90.<div id=3D"yMail_cursorElementTracker_1559916745910"><br=
+></div><div id=3D"yMail_cursorElementTracker_1559916746075">=E1=83=9B=E1=83=
+=90=E1=83=98=E1=83=90 =E1=83=A9=E1=83=98=E1=83=A2=E1=83=90=E1=83=98=E1=83=
+=90=E1=83=A1 =E1=83=A8=E1=83=94=E1=83=92=E1=83=98=E1=83=AB=E1=83=9A=E1=83=
+=98=E1=83=90=E1=83=97 =E1=83=93=E1=83=90=E1=83=A3=E1=83=99=E1=83=90=E1=83=
+=95=E1=83=A8=E1=83=98=E1=83=A0=E1=83=93=E1=83=94=E1=83=97&nbsp;&nbsp;<a hre=
+f=3D"tel:597777366" id=3D"yMail_cursorElementTracker_1559916765429">597 777=
+ 366</a><br><br><div id=3D"ymail_android_signature"><a id=3D"ymail_android_=
+signature_link" href=3D"https://go.onelink.me/107872968?pid=3DInProduct&amp=
+;c=3DGlobal_Internal_YGrowth_AndroidEmailSig__AndroidUsers&amp;af_wl=3Dym&a=
+mp;af_sub1=3DInternal&amp;af_sub2=3DGlobal_YGrowth&amp;af_sub3=3DEmailSigna=
+ture">Sent from Yahoo Mail on Android</a></div> <br> <blockquote style=3D"m=
+argin: 0 0 20px 0;"> <div style=3D"font-family:Roboto, sans-serif; color:#6=
+D00F6;"> <div>On Fri, Jun 7, 2019 at 18:05, Eka</div><div>&lt;e.tarkhnishvi=
+li@tripplanner.ge&gt; wrote:</div> </div> <div style=3D"padding: 10px 0 0 2=
+0px; margin: 10px 0 0 0; border-left: 1px solid #6D00F6;"> <div id=3D"yiv29=
+13384481"><div>=E1=83=92=E1=83=90=E1=83=A1=E1=83=90=E1=83=92=E1=83=94=E1=83=
+=91=E1=83=98=E1=83=90,&nbsp;<div class=3D"yiv2913384481">=E1=83=93=E1=83=98=
+=E1=83=93=E1=83=98 =E1=83=9B=E1=83=90=E1=83=93=E1=83=9A=E1=83=9D=E1=83=91=
+=E1=83=90,</div><div class=3D"yiv2913384481"><br clear=3D"none" class=3D"yi=
+v2913384481"></div><div class=3D"yiv2913384481">=E1=83=97=E1=83=A3 =E1=83=
+=92=E1=83=94=E1=83=92=E1=83=A3=E1=83=9A=E1=83=94=E1=83=91=E1=83=90=E1=83=97=
+ =E1=83=95=E1=83=98=E1=83=9C=E1=83=9B=E1=83=94 =E1=83=95=E1=83=98=E1=83=A1=
+=E1=83=90=E1=83=AA =E1=83=92=E1=83=90=E1=83=A3=E1=83=AC=E1=83=94=E1=83=95=
+=E1=83=93=E1=83=98=E1=83=97 =E1=83=90=E1=83=9B =E1=83=A1=E1=83=90=E1=83=A5=
+=E1=83=9B=E1=83=94=E1=83=A8=E1=83=98 =E1=83=A0=E1=83=94=E1=83=99=E1=83=9D=
+=E1=83=9B=E1=83=94=E1=83=9C=E1=83=93=E1=83=90=E1=83=AA=E1=83=98=E1=83=90=E1=
+=83=A1? =E1=83=9B=E1=83=90=E1=83=93=E1=83=9A=E1=83=9D=E1=83=91=E1=83=94=E1=
+=83=9A=E1=83=98 =E1=83=93=E1=83=90=E1=83=92=E1=83=A0=E1=83=A9=E1=83=94=E1=
+=83=91=E1=83=98=E1=83=97</div><div class=3D"yiv2913384481"><br clear=3D"non=
+e" class=3D"yiv2913384481"></div><div class=3D"yiv2913384481">=E1=83=AF=E1=
+=83=90=E1=83=9C=E1=83=9B=E1=83=A0=E1=83=97=E1=83=94=E1=83=9A=E1=83=9D=E1=83=
+=91=E1=83=90=E1=83=A1 =E1=83=92=E1=83=98=E1=83=A1=E1=83=A3=E1=83=A0=E1=83=
+=95=E1=83=94=E1=83=91=E1=83=97)&nbsp;</div><div class=3D"yiv2913384481"><br=
+ clear=3D"none" class=3D"yiv2913384481"></div><div class=3D"yiv2913384481">=
+=E1=83=9E=E1=83=90=E1=83=A2=E1=83=98=E1=83=95=E1=83=98=E1=83=AA=E1=83=94=E1=
+=83=9B=E1=83=98=E1=83=97</div><div class=3D"yiv2913384481">=E1=83=94=E1=83=
+=99=E1=83=90<br clear=3D"none" class=3D"yiv2913384481"><div><br clear=3D"no=
+ne" class=3D"yiv2913384481"><blockquote class=3D"yiv2913384481" type=3D"cit=
+e"><div class=3D"yiv2913384481yqt4379994907 yQTDBase" id=3D"yiv2913384481yq=
+tfd11870"><div class=3D"yiv2913384481">On Jun 7, 2019, at 6:03 PM, Tamuna S=
+hvangiradze &lt;<a rel=3D"nofollow" shape=3D"rect" class=3D"yiv2913384481" =
+ymailto=3D"mailto:shvangiradze_tamuna@yahoo.com" target=3D"_blank" href=3D"=
+mailto:shvangiradze_tamuna@yahoo.com">shvangiradze_tamuna@yahoo.com</a>&gt;=
+ wrote:</div><br clear=3D"none" class=3D"yiv2913384481Apple-interchange-new=
+line"></div><div class=3D"yiv2913384481"><div class=3D"yiv2913384481yqt4379=
+994907 yQTDBase" id=3D"yiv2913384481yqtfd56311">=E1=83=92=E1=83=90=E1=83=9B=
+=E1=83=90=E1=83=A0=E1=83=AF=E1=83=9D=E1=83=91=E1=83=90 =E1=83=94=E1=83=99=
+=E1=83=90,<div class=3D"yiv2913384481" id=3D"yiv2913384481yMail_cursorEleme=
+ntTracker_1559916100370"><br clear=3D"none" class=3D"yiv2913384481"></div><=
+div class=3D"yiv2913384481" id=3D"yiv2913384481yMail_cursorElementTracker_1=
+559916100513">=E1=83=9B=E1=83=90=E1=83=93=E1=83=9A=E1=83=9D=E1=83=91=E1=83=
+=90 =E1=83=99=E1=83=90=E1=83=A0=E1=83=92=E1=83=90=E1=83=93.&nbsp; =E1=83=97=
+=E1=83=A5=E1=83=95=E1=83=94=E1=83=9C?</div><div class=3D"yiv2913384481" id=
+=3D"yiv2913384481yMail_cursorElementTracker_1559916114830"><br clear=3D"non=
+e" class=3D"yiv2913384481"></div><div class=3D"yiv2913384481" id=3D"yiv2913=
+384481yMail_cursorElementTracker_1559916115002">=E1=83=A1=E1=83=90=E1=83=9B=
+=E1=83=AC=E1=83=A3=E1=83=AE=E1=83=90=E1=83=A0=E1=83=9D=E1=83=93 =E1=83=90=
+=E1=83=9B=E1=83=AF=E1=83=94=E1=83=A0=E1=83=90=E1=83=93 =E1=83=95=E1=83=94=
+=E1=83=A0 =E1=83=93=E1=83=90=E1=83=92=E1=83=94=E1=83=AE=E1=83=9B=E1=83=90=
+=E1=83=A0=E1=83=94=E1=83=91=E1=83=98=E1=83=97, =E1=83=A0=E1=83=90=E1=83=93=
+=E1=83=92=E1=83=90=E1=83=9C =E1=83=A4=E1=83=94=E1=83=AE=E1=83=9B=E1=83=AB=
+=E1=83=98=E1=83=9B=E1=83=94=E1=83=93 =E1=83=95=E1=83=90=E1=83=A0 =E1=83=93=
+=E1=83=90 =E1=83=95=E1=83=94=E1=83=A0 =E1=83=9B=E1=83=9D=E1=83=95=E1=83=90=
+=E1=83=AE=E1=83=94=E1=83=A0=E1=83=AE=E1=83=94=E1=83=91 =E1=83=90=E1=83=9B =
+=E1=83=93=E1=83=90=E1=83=95=E1=83=90=E1=83=9A=E1=83=94=E1=83=91=E1=83=98=E1=
+=83=A1 =E1=83=A8=E1=83=94=E1=83=A1=E1=83=A0=E1=83=A3=E1=83=9A=E1=83=94=E1=
+=83=91=E1=83=90=E1=83=A1.</div><div class=3D"yiv2913384481" id=3D"yiv291338=
+4481yMail_cursorElementTracker_1559916168075"><br clear=3D"none" class=3D"y=
+iv2913384481"></div><div class=3D"yiv2913384481" id=3D"yiv2913384481yMail_c=
+ursorElementTracker_1559916168240">=E1=83=9B=E1=83=90=E1=83=93=E1=83=9A=E1=
+=83=9D=E1=83=91=E1=83=90 =E1=83=A8=E1=83=94=E1=83=9B=E1=83=9D=E1=83=97=E1=
+=83=90=E1=83=95=E1=83=90=E1=83=96=E1=83=94=E1=83=91=E1=83=98=E1=83=A1=E1=83=
+=97=E1=83=95=E1=83=98=E1=83=A1.</div><div class=3D"yiv2913384481" id=3D"yiv=
+2913384481yMail_cursorElementTracker_1559916190768"><br clear=3D"none" clas=
+s=3D"yiv2913384481"></div></div><div class=3D"yiv2913384481" id=3D"yiv29133=
+84481yMail_cursorElementTracker_1559916190929"><div class=3D"yiv2913384481y=
+qt4379994907 yQTDBase" id=3D"yiv2913384481yqtfd87409"><br clear=3D"none" cl=
+ass=3D"yiv2913384481"><br clear=3D"none" class=3D"yiv2913384481"><div class=
+=3D"yiv2913384481" id=3D"yiv2913384481ymail_android_signature"><a rel=3D"no=
+follow" shape=3D"rect" class=3D"yiv2913384481" id=3D"yiv2913384481ymail_and=
+roid_signature_link" target=3D"_blank" href=3D"https://go.onelink.me/107872=
+968?pid=3DInProduct&amp;c=3DGlobal_Internal_YGrowth_AndroidEmailSig__Androi=
+dUsers&amp;af_wl=3Dym&amp;af_sub1=3DInternal&amp;af_sub2=3DGlobal_YGrowth&a=
+mp;af_sub3=3DEmailSignature">Sent from Yahoo Mail on Android</a></div> <br =
+clear=3D"none" class=3D"yiv2913384481"> </div><blockquote class=3D"yiv29133=
+84481" style=3D"margin:0 0 20px 0;"><div class=3D"yiv2913384481yqt437999490=
+7 yQTDBase" id=3D"yiv2913384481yqtfd10934"> <div class=3D"yiv2913384481" st=
+yle=3D"font-family:Roboto, sans-serif;color:#6D00F6;"> <div class=3D"yiv291=
+3384481">On Fri, Jun 7, 2019 at 17:55, Eka</div><div class=3D"yiv2913384481=
+">&lt;<a rel=3D"nofollow" shape=3D"rect" class=3D"yiv2913384481" ymailto=3D=
+"mailto:e.tarkhnishvili@tripplanner.ge" target=3D"_blank" href=3D"mailto:e.=
+tarkhnishvili@tripplanner.ge">e.tarkhnishvili@tripplanner.ge</a>&gt; wrote:=
+</div> </div> </div><div class=3D"yiv2913384481" style=3D"padding:10px 0 0 =
+20px;margin:10px 0 0 0;border-left:1px solid #6D00F6;"><div class=3D"yiv291=
+3384481yqt4379994907 yQTDBase" id=3D"yiv2913384481yqtfd81141"> </div><div c=
+lass=3D"yiv2913384481" id=3D"yiv2913384481"><div class=3D"yiv2913384481"><d=
+iv class=3D"yiv2913384481yqt4379994907 yQTDBase" id=3D"yiv2913384481yqtfd37=
+607">=E1=83=97=E1=83=90=E1=83=99=E1=83=9D =E1=83=92=E1=83=90=E1=83=9B=E1=83=
+=90=E1=83=A0=E1=83=AF=E1=83=9D=E1=83=91=E1=83=90,<div class=3D"yiv291338448=
+1">=E1=83=A0=E1=83=9D=E1=83=92=E1=83=9D=E1=83=A0 =E1=83=AE=E1=83=90=E1=83=
+=A0?</div><div class=3D"yiv2913384481"><br clear=3D"none" class=3D"yiv29133=
+84481"></div><div class=3D"yiv2913384481">=E1=83=A8=E1=83=94=E1=83=9C=E1=83=
+=98 =E1=83=93=E1=83=90=E1=83=AE=E1=83=9B=E1=83=90=E1=83=A0=E1=83=94=E1=83=
+=91=E1=83=90 =E1=83=9B=E1=83=94=E1=83=A1=E1=83=90=E1=83=AD=E1=83=98=E1=83=
+=A0=E1=83=9D=E1=83=94=E1=83=91=E1=83=90 =E1=83=99=E1=83=95=E1=83=9A=E1=83=
+=90=E1=83=95, =E1=83=90=E1=83=9B =E1=83=AF=E1=83=94=E1=83=A0=E1=83=90=E1=83=
+=93 =E1=83=9B=E1=83=AE=E1=83=9D=E1=83=9A=E1=83=9D=E1=83=93 =E1=83=A0=E1=83=
+=94=E1=83=A1=E1=83=9E=E1=83=9D=E1=83=9C=E1=83=A1=E1=83=98=E1=83=95=E1=83=98=
+=E1=83=A1 =E1=83=93=E1=83=90=E1=83=A2=E1=83=94=E1=83=A1=E1=83=A2=E1=83=95=
+=E1=83=90 =E1=83=9B=E1=83=94=E1=83=A1=E1=83=90=E1=83=AD=E1=83=98=E1=83=A0=
+=E1=83=9D=E1=83=94=E1=83=91=E1=83=90, =E1=83=A0=E1=83=9D=E1=83=92=E1=83=9D=
+=E1=83=A0=E1=83=AA =E1=83=A2=E1=83=94=E1=83=A5=E1=83=9C=E1=83=98=E1=83=99=
+=E1=83=A3=E1=83=A0=E1=83=98 =E1=83=98=E1=83=A1=E1=83=94 "userfriendly-=E1=
+=83=A1=E2=80=9D =E1=83=9B=E1=83=90=E1=83=A0=E1=83=94=E1=83=AA =E1=83=A0=E1=
+=83=90=E1=83=9B=E1=83=93=E1=83=94=E1=83=9C=E1=83=90=E1=83=93 =E1=83=9B=E1=
+=83=90=E1=83=A0=E1=83=A2=E1=83=98=E1=83=95=E1=83=90=E1=83=93 =E1=83=93=E1=
+=83=90 =E1=83=92=E1=83=90=E1=83=A1=E1=83=90=E1=83=92=E1=83=94=E1=83=91=E1=
+=83=90=E1=83=93 =E1=83=90=E1=83=A0=E1=83=98=E1=83=A1 =E1=83=AC=E1=83=90=E1=
+=83=A0=E1=83=9B=E1=83=9D=E1=83=93=E1=83=92=E1=83=94=E1=83=9C=E1=83=98=E1=83=
+=9A=E1=83=98 =E1=83=98=E1=83=9C=E1=83=A4=E1=83=9D=E1=83=A0=E1=83=9B=E1=83=
+=90=E1=83=AA=E1=83=98=E1=83=90.</div><div class=3D"yiv2913384481"><br clear=
+=3D"none" class=3D"yiv2913384481"></div><div class=3D"yiv2913384481">=E1=83=
+=97=E1=83=A3 =E1=83=92=E1=83=90=E1=83=A5=E1=83=95=E1=83=A1 =E1=83=93=E1=83=
+=A0=E1=83=9D =E1=83=98=E1=83=A5=E1=83=9C=E1=83=94=E1=83=91 =E1=83=9B=E1=83=
+=98=E1=83=98=E1=83=A6=E1=83=9D =E1=83=94=E1=83=A1 =E1=83=93=E1=83=90=E1=83=
+=95=E1=83=90=E1=83=9A=E1=83=94=E1=83=91=E1=83=90 =E1=83=93=E1=83=90 =E1=83=
+=A8=E1=83=94=E1=83=9B=E1=83=98=E1=83=A4=E1=83=90=E1=83=A1=E1=83=9D =E1=83=
+=A0=E1=83=90 =E1=83=93=E1=83=A0=E1=83=9D =E1=83=93=E1=83=90 =E1=83=97=E1=83=
+=90=E1=83=9C=E1=83=AE=E1=83=90 =E1=83=93=E1=83=90=E1=83=92=E1=83=AD=E1=83=
+=98=E1=83=A0=E1=83=93=E1=83=94=E1=83=91=E1=83=90 =E1=83=90=E1=83=9B=E1=83=
+=98=E1=83=A1=E1=83=97=E1=83=95=E1=83=98=E1=83=A1?</div><div class=3D"yiv291=
+3384481"><br clear=3D"none" class=3D"yiv2913384481"></div><div class=3D"yiv=
+2913384481">=E1=83=93=E1=83=98=E1=83=93=E1=83=98 =E1=83=9B=E1=83=90=E1=83=
+=93=E1=83=9A=E1=83=9D=E1=83=91=E1=83=90</div><div class=3D"yiv2913384481"><=
+br clear=3D"none" class=3D"yiv2913384481"></div><br clear=3D"none" class=3D=
+"yiv2913384481"><br clear=3D"none" class=3D"yiv2913384481"></div><div class=
+=3D"yiv2913384481"><div class=3D"yiv2913384481yqt4379994907 yQTDBase" id=3D=
+"yiv2913384481yqtfd34845">
+<div class=3D"yiv2913384481" style=3D"font-family:Helvetica;font-size:12px;=
+font-style:normal;font-weight:normal;letter-spacing:normal;text-indent:0px;=
+text-transform:none;white-space:normal;word-spacing:0px;word-wrap:break-wor=
+d;"><div class=3D"yiv2913384481" style=3D"font-family:Helvetica;font-size:1=
+2px;font-style:normal;font-weight:normal;letter-spacing:normal;text-indent:=
+0px;text-transform:none;white-space:normal;word-spacing:0px;">=E1=83=9E=E1=
+=83=90=E1=83=A2=E1=83=98=E1=83=95=E1=83=98=E1=83=A1=E1=83=AA=E1=83=94=E1=83=
+=9B=E1=83=98=E1=83=97,</div><div class=3D"yiv2913384481" style=3D"font-fami=
+ly:Helvetica;font-size:12px;font-style:normal;font-weight:normal;letter-spa=
+cing:normal;text-indent:0px;text-transform:none;white-space:normal;word-spa=
+cing:0px;"><br clear=3D"none" class=3D"yiv2913384481"></div><div class=3D"y=
+iv2913384481" style=3D"font-family:Helvetica;font-size:12px;font-style:norm=
+al;font-weight:normal;letter-spacing:normal;text-indent:0px;text-transform:=
+none;white-space:normal;word-spacing:0px;">=E1=83=94=E1=83=99=E1=83=90=E1=
+=83=A2=E1=83=94=E1=83=A0=E1=83=98=E1=83=9C=E1=83=94 =E1=83=97=E1=83=90=E1=
+=83=A0=E1=83=AE=E1=83=9C=E1=83=98=E1=83=A8=E1=83=95=E1=83=98=E1=83=9A=E1=83=
+=98</div><div class=3D"yiv2913384481" style=3D"font-family:Helvetica;font-s=
+ize:12px;font-style:normal;font-weight:normal;letter-spacing:normal;text-in=
+dent:0px;text-transform:none;white-space:normal;word-spacing:0px;">=E1=83=
+=A8=E1=83=9E=E1=83=A1 =E1=83=97=E1=83=A0=E1=83=98=E1=83=A4=E1=83=A4=E1=83=
+=9A=E1=83=94=E1=83=9C=E1=83=94=E1=83=A0=E1=83=98</div><div class=3D"yiv2913=
+384481" style=3D"font-family:Helvetica;font-size:12px;font-style:normal;fon=
+t-weight:normal;letter-spacing:normal;text-indent:0px;text-transform:none;w=
+hite-space:normal;word-spacing:0px;"><br clear=3D"none" class=3D"yiv2913384=
+481"></div><div class=3D"yiv2913384481" style=3D"font-family:Helvetica;font=
+-size:12px;font-style:normal;font-weight:normal;letter-spacing:normal;text-=
+indent:0px;text-transform:none;white-space:normal;word-spacing:0px;">=E1=83=
+=A2=E1=83=94=E1=83=9A: (995) 591 712345</div><div class=3D"yiv2913384481" s=
+tyle=3D"font-family:Helvetica;font-size:12px;font-style:normal;font-weight:=
+normal;letter-spacing:normal;text-indent:0px;text-transform:none;white-spac=
+e:normal;word-spacing:0px;">=E1=83=9B=E1=83=9D=E1=83=91: (995) 599 450035</=
+div><div class=3D"yiv2913384481" style=3D"font-family:Helvetica;font-size:1=
+2px;font-style:normal;font-weight:normal;letter-spacing:normal;text-indent:=
+0px;text-transform:none;white-space:normal;word-spacing:0px;">=E1=83=94=E1=
+=83=9A-=E1=83=A4=E1=83=9D=E1=83=A1=E1=83=A2=E1=83=90: <a rel=3D"nofollow" s=
+hape=3D"rect" class=3D"yiv2913384481" ymailto=3D"mailto:e.tarkhnishvili@tri=
+pplanner.ge" target=3D"_blank" href=3D"mailto:e.tarkhnishvili@tripplanner.g=
+e">e.tarkhnishvili@tripplanner.ge</a></div><div class=3D"yiv2913384481" sty=
+le=3D"font-family:Helvetica;font-size:12px;font-style:normal;font-weight:no=
+rmal;letter-spacing:normal;text-indent:0px;text-transform:none;white-space:=
+normal;word-spacing:0px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp;<a rel=3D"nofollow" shape=3D"rect" class=3D"yiv2=
+913384481" ymailto=3D"mailto:info@tripplanner.ge" target=3D"_blank" href=3D=
+"mailto:info@tripplanner.ge">info@tripplanner.ge</a></div><div class=3D"yiv=
+2913384481" style=3D"font-family:Helvetica;font-size:12px;font-style:normal=
+;font-weight:normal;letter-spacing:normal;text-indent:0px;text-transform:no=
+ne;white-space:normal;word-spacing:0px;"><br clear=3D"none" class=3D"yiv291=
+3384481"></div><div class=3D"yiv2913384481" style=3D"font-family:Helvetica;=
+font-size:12px;font-style:normal;font-weight:normal;letter-spacing:normal;t=
+ext-indent:0px;text-transform:none;white-space:normal;word-spacing:0px;"><a=
+ rel=3D"nofollow" shape=3D"rect" class=3D"yiv2913384481" target=3D"_blank" =
+href=3D"https://tripplanner.ge/">https://tripplanner.ge</a></div></div></di=
+v><br clear=3D"none" class=3D"yiv2913384481Apple-interchange-newline" style=
+=3D"font-family:Helvetica;font-size:12px;font-style:normal;font-weight:norm=
+al;letter-spacing:normal;text-indent:0px;text-transform:none;white-space:no=
+rmal;word-spacing:0px;"><span class=3D"yiv2913384481" style=3D"font-family:=
+Helvetica;font-size:12px;font-style:normal;font-weight:normal;letter-spacin=
+g:normal;text-indent:0px;text-transform:none;white-space:normal;word-spacin=
+g:0px;"><span class=3D"yiv2913384481"><span id=3D"yiv2913384481cid:Y32pbtnX=
+hQXKIkafXQt6">&lt;image001 2_Easy-Resize.com.jpg&gt;</span></span>
+</span></div>
+<br clear=3D"none" class=3D"yiv2913384481"></div></div> </div> </blockquote=
+></div><span id=3D"yiv2913384481cid:Y32pbtnXhQXKIkafXQt6">&lt;image001 2_Ea=
+sy-Resize.com.jpg&gt;</span></div></blockquote></div><div class=3D"yiv29133=
+84481yqt4379994907 yQTDBase" id=3D"yiv2913384481yqtfd74431"><br clear=3D"no=
+ne" class=3D"yiv2913384481"></div></div></div></div> </div> </blockquote></=
+div>
+------=_Part_220971_1644463962.1559916783740--

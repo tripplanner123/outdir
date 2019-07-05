@@ -1,0 +1,136 @@
+Return-Path: <natela.lagurashvili.1@iliauni.edu.ge>
+Delivered-To: e.tarkhnishvili@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP
+	id WB6oGPuJ5lx23AYA8w4q4w
+	(envelope-from <natela.lagurashvili.1@iliauni.edu.ge>)
+	for <e.tarkhnishvili@tripplanner.ge>; Thu, 23 May 2019 06:54:35 -0500
+Return-path: <natela.lagurashvili.1@iliauni.edu.ge>
+Envelope-to: e.tarkhnishvili@tripplanner.ge
+Delivery-date: Thu, 23 May 2019 06:54:35 -0500
+Received: from mail-io1-f41.google.com ([209.85.166.41]:41449)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <natela.lagurashvili.1@iliauni.edu.ge>)
+	id 1hTmIs-0025Tb-Jc
+	for e.tarkhnishvili@tripplanner.ge; Thu, 23 May 2019 06:54:35 -0500
+Received: by mail-io1-f41.google.com with SMTP id a17so4579407iot.8
+        for <e.tarkhnishvili@tripplanner.ge>; Thu, 23 May 2019 04:54:29 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=iliauni-edu-ge.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+        bh=O/88b2TflC38tobt6TrDDcjwn+FY85d+49i81XWpzLg=;
+        b=sqkjTzWsxXrbsB1yhRVA9tVMX87cdVhklCJEEbF5yjlfF5NUdV1oHHx2+978KaqU7e
+         MjibKoqkZNVUdPSDydv6RFyP2/OFMDdN6BSdNJx8HLx6RWXIfYlK46FFxkoqT+xRwM4F
+         H2e7eG/1qDnJYilxswBv2RTDZ/fmiDwGDUXuqhSPm2HSq9yADJncQt27lnDfFLQT1Y/N
+         j78YbhqVQkAi2Mxpa6ofmBXXgxDBhBYzwznqHcf3J4qynDUdYqX9hCkhEOnTRxnADfMh
+         5Eqt2DJRHQ7AZza9+uAeULWG9aDHpWETsEPjqOR6nvKT9ZM7c2fT+FP+hf9nCuZk7lyS
+         2yQw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to;
+        bh=O/88b2TflC38tobt6TrDDcjwn+FY85d+49i81XWpzLg=;
+        b=bScyc03zWdCZk/EkumwdCoqzDtj6Pc2W3cFY1S557oIglj1KseUt6bezseDc3wIUt/
+         ZZLCM0angNR+QIXnlewNt+3/DzvURnPPulVvjDNhtMkcgjvavP/gF0f4eRDSdJg0PRzT
+         GOc5VNwlwnDRebDr8cytZqS3tVeljK+ORY8IAh2+r6SNVjHEvf9dia1AsAFyezTADVjE
+         gaRtj3TfJzY4oqOtESwL0XM0Nu1hUgNiQv6qrGyTigFp6HPaYcTLZA4Hi/aiNtNu6AiT
+         zJilHsP+bHpidX89nlET3F2z4BBPxUaDp3+cAfX9vxadaXNjPhyk7NPkH0VB8ux7SYrt
+         DreA==
+X-Gm-Message-State: APjAAAWuGIho1WlxFA8JrV74EJAGFEg30s0DKKzZoOYVqn/y56tIsKjV
+	JzFTEYuuxIiN4OElrUVidff6JA36EMe1tpqK9wGokkX66mA=
+X-Google-Smtp-Source: APXvYqzqXGA7hLHuKox8kCSoaIcdrwkysjiYN2zvuGBGOH89PTpsFkBRNP0/IU1K6UpzfO4NR8PECIM1yALZ3h9VoIM=
+X-Received: by 2002:a5d:958d:: with SMTP id a13mr33714447ioo.288.1558612462874;
+ Thu, 23 May 2019 04:54:22 -0700 (PDT)
+MIME-Version: 1.0
+References: <CAJd68DfTO2-vAXE0OGXqcP2x3+hdWb2DzLFbsd79_XD5fy0O7A@mail.gmail.com>
+ <F0C39B1E-443D-4FC7-87BD-B76E8F660C1B@tripplanner.ge>
+In-Reply-To: <F0C39B1E-443D-4FC7-87BD-B76E8F660C1B@tripplanner.ge>
+From: Natela Lagurashvili <natela.lagurashvili.1@iliauni.edu.ge>
+Date: Thu, 23 May 2019 15:54:12 +0400
+Message-ID: <CAJd68DfwRUru91UN3pF=nLi4ndrxBAwHYBqNNN5otzWa2wP5yA@mail.gmail.com>
+Subject: =?UTF-8?B?UmU6IOGDmOGDmuGDmOGDkOGDoSDhg6Hhg5Dhg67hg5Thg5rhg5vhg6zhg5jhg6Thg50g?=
+	=?UTF-8?B?4YOj4YOc4YOY4YOV4YOU4YOg4YOh4YOY4YOi4YOU4YOi4YOYIC0g4YOo4YOU4YOX4YOQ4YOV4YOQ4YOW?=
+	=?UTF-8?B?4YOU4YOR4YOQIOGDnuGDkOGDoOGDouGDnOGDmOGDneGDoOGDneGDkeGDkOGDoeGDl+GDkOGDnCDhg5M=?=
+	=?UTF-8?B?4YOQ4YOZ4YOQ4YOV4YOo4YOY4YOg4YOU4YOR4YOY4YOX?=
+To: Eka <e.tarkhnishvili@tripplanner.ge>
+Content-Type: multipart/alternative; boundary="00000000000031444205898cbec4"
+X-Spam-Status: No, score=1.0
+X-Spam-Score: 10
+X-Spam-Bar: +
+X-Spam-Flag: NO
+
+--00000000000031444205898cbec4
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: base64
+
+4YOb4YOQ4YOT4YOa4YOd4YOR4YOQLCDhg5Thg5nhg5AuIOGDqOGDlOGDleGDruGDleGDk+GDlOGD
+lyDhg67hg5Xhg5Dhg5osIDEyOjAwIOGDoeGDkOGDkOGDl+GDluGDlC4g4YOY4YOa4YOY4YOQ4YOh
+IOGDo+GDnOGDmOGDleGDlOGDoOGDoeGDmOGDouGDlOGDouGDqOGDmCDhg6Dhg53hg5sNCuGDm+GD
+neGDruGDleGDmOGDk+GDlOGDlywg4YOV4YOQ4YOZ4YOY4YOhIOGDnuGDkOGDoOGDmeGDmOGDoSDh
+g6zhg5jhg5wsIOGDqeGDneGDmuGDneGDp+GDkOGDqOGDleGDmOGDmuGDmOGDoSDhg5Lhg5Dhg5vh
+g5YgMy81LiDhg53hg5fhg5Dhg67hg6Eg4YOb4YOd4YOS4YOV4YOY4YOQ4YOc4YOU4YOR4YOY4YOX
+DQrhg5vhg53hg5Lhg6zhg5Thg6Dhg5cuIOGDl+GDkOGDleGDkOGDkyDhg57hg6Dhg53hg5Thg6Xh
+g6Lhg5jhg6Eg4YOb4YOU4YOc4YOU4YOv4YOU4YOg4YOYIOGDqOGDlOGDkuGDruGDleGDk+GDlOGD
+keGDkOGDly4NCg0KDQpPbiBUaHUsIE1heSAyMywgMjAxOSBhdCAxNToxMyBFa2EgPGUudGFya2hu
+aXNodmlsaUB0cmlwcGxhbm5lci5nZT4gd3JvdGU6DQoNCj4g4YOb4YOd4YOS4YOU4YOh4YOQ4YOa
+4YOb4YOU4YOR4YOYIOGDmeGDmOGDk+GDlOGDlSDhg5Thg6Dhg5fhg67hg5Thg5osDQo+DQo+IOGD
+keGDneGDk+GDmOGDqOGDoSDhg5Lhg5jhg67hg5Phg5jhg5csIOGDrOGDmOGDnOGDkCDhg6zhg5Th
+g6Dhg5jhg5rhg5gg4YOu4YOQ4YOg4YOV4YOU4YOW4YOY4YOXIOGDmOGDp+GDnSDhg5Lhg5Dhg5vh
+g53hg5Lhg5Dhg5vhg53hg5Lhg5bhg5Dhg5Xhg5zhg5jhg5rhg5guDQo+IOGDoOGDkOGDqiDhg6jh
+g5Thg5Thg67hg5Thg5Hhg5Ag4YOb4YOQ4YOg4YOi4YOc4YOY4YOd4YOg4YOd4YOR4YOQ4YOhIOGD
+l+GDkOGDnOGDkOGDruGDm+GDkCDhg5Xhg5Dhg6AsIOGDoeGDkOGDmOGDnOGDouGDlOGDoOGDlOGD
+oeGDneGDkyDhg5vhg5jhg5vhg5Dhg6nhg5zhg5jhg5AsIOGDqOGDlOGDm+GDmOGDq+GDmuGDmOGD
+kCDhg67hg5Xhg5Dhg5oNCj4gMTIt4YOW4YOUIOGDqOGDlOGDruGDleGDlOGDk+GDoOGDkOGDluGD
+lCDhg5vhg53hg5Xhg5jhg5Phg5QuDQo+DQo+IOGDleGDlOGDmuGDmCDhg5fhg6Xhg5Xhg5Thg5zh
+g6Eg4YOe4YOQ4YOh4YOj4YOu4YOhLg0KPg0KPiDhg5Lhg5vhg5Dhg5Phg5rhg53hg5Hhg5cNCj4N
+Cj4gPiBPbiBNYXkgMjEsIDIwMTksIGF0IDM6NDEgUE0sIE5hdGVsYSBMYWd1cmFzaHZpbGkgPA0K
+PiBuYXRlbGEubGFndXJhc2h2aWxpLjFAaWxpYXVuaS5lZHUuZ2U+IHdyb3RlOg0KPiA+DQo+ID4g
+PDExLTE4IOGDmOGDleGDnOGDmOGDoeGDmCAtIOGDoeGDkOGDoeGDnuGDneGDnOGDoeGDneGDoOGD
+nSDhg57hg5Dhg5nhg5Thg6Lhg5ggKFRvdXJNT0RFKS5wZGY+DQo+DQo+IC0tDQrhg57hg5Dhg6Lh
+g5jhg5Xhg5jhg6Hhg6rhg5Thg5vhg5jhg5csDQrhg5zhg5Dhg5fhg5Thg5rhg5Ag4YOa4YOQ4YOS
+4YOj4YOg4YOQ4YOo4YOV4YOY4YOa4YOYDQoNCg0KU2luY2VyZWx5LA0KTmF0ZWxhIExhZ3VyYXNo
+dmlsaQ0K
+--00000000000031444205898cbec4
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: base64
+
+PGRpdj48ZGl2IGRpcj0iYXV0byI+4YOb4YOQ4YOT4YOa4YOd4YOR4YOQLCDhg5Thg5nhg5AuIOGD
+qOGDlOGDleGDruGDleGDk+GDlOGDlyDhg67hg5Xhg5Dhg5osIDEyOjAwIOGDoeGDkOGDkOGDl+GD
+luGDlC4g4YOY4YOa4YOY4YOQ4YOhIOGDo+GDnOGDmOGDleGDlOGDoOGDoeGDmOGDouGDlOGDouGD
+qOGDmCDhg6Dhg53hg5sg4YOb4YOd4YOu4YOV4YOY4YOT4YOU4YOXLCDhg5Xhg5Dhg5nhg5jhg6Eg
+4YOe4YOQ4YOg4YOZ4YOY4YOhIOGDrOGDmOGDnCwg4YOp4YOd4YOa4YOd4YOn4YOQ4YOo4YOV4YOY
+4YOa4YOY4YOhIOGDkuGDkOGDm+GDliAzLzUuIOGDneGDl+GDkOGDruGDoSDhg5vhg53hg5Lhg5Xh
+g5jhg5Dhg5zhg5Thg5Hhg5jhg5cg4YOb4YOd4YOS4YOs4YOU4YOg4YOXLiDhg5fhg5Dhg5Xhg5Dh
+g5Mg4YOe4YOg4YOd4YOU4YOl4YOi4YOY4YOhIOGDm+GDlOGDnOGDlOGDr+GDlOGDoOGDmCDhg6jh
+g5Thg5Lhg67hg5Xhg5Phg5Thg5Hhg5Dhg5cuPC9kaXY+PC9kaXY+PGRpdiBkaXI9ImF1dG8iPjxi
+cj48L2Rpdj48ZGl2Pjxicj48ZGl2IGNsYXNzPSJnbWFpbF9xdW90ZSI+PGRpdiBkaXI9Imx0ciIg
+Y2xhc3M9ImdtYWlsX2F0dHIiPk9uIFRodSwgTWF5IDIzLCAyMDE5IGF0IDE1OjEzIEVrYSAmbHQ7
+PGEgaHJlZj0ibWFpbHRvOmUudGFya2huaXNodmlsaUB0cmlwcGxhbm5lci5nZSI+ZS50YXJraG5p
+c2h2aWxpQHRyaXBwbGFubmVyLmdlPC9hPiZndDsgd3JvdGU6PGJyPjwvZGl2PjxibG9ja3F1b3Rl
+IGNsYXNzPSJnbWFpbF9xdW90ZSIgc3R5bGU9Im1hcmdpbjowIDAgMCAuOGV4O2JvcmRlci1sZWZ0
+OjFweCAjY2NjIHNvbGlkO3BhZGRpbmctbGVmdDoxZXgiPuGDm+GDneGDkuGDlOGDoeGDkOGDmuGD
+m+GDlOGDkeGDmCDhg5nhg5jhg5Phg5Thg5Ug4YOU4YOg4YOX4YOu4YOU4YOaLDxicj4NCjxicj4N
+CuGDkeGDneGDk+GDmOGDqOGDoSDhg5Lhg5jhg67hg5Phg5jhg5csIOGDrOGDmOGDnOGDkCDhg6zh
+g5Thg6Dhg5jhg5rhg5gg4YOu4YOQ4YOg4YOV4YOU4YOW4YOY4YOXIOGDmOGDp+GDnSDhg5Lhg5Dh
+g5vhg53hg5Lhg5Dhg5vhg53hg5Lhg5bhg5Dhg5Xhg5zhg5jhg5rhg5guPGJyPg0K4YOg4YOQ4YOq
+IOGDqOGDlOGDlOGDruGDlOGDkeGDkCDhg5vhg5Dhg6Dhg6Lhg5zhg5jhg53hg6Dhg53hg5Hhg5Dh
+g6Eg4YOX4YOQ4YOc4YOQ4YOu4YOb4YOQIOGDleGDkOGDoCwg4YOh4YOQ4YOY4YOc4YOi4YOU4YOg
+4YOU4YOh4YOd4YOTIOGDm+GDmOGDm+GDkOGDqeGDnOGDmOGDkCwg4YOo4YOU4YOb4YOY4YOr4YOa
+4YOY4YOQIOGDruGDleGDkOGDmiAxMi3hg5bhg5Qg4YOo4YOU4YOu4YOV4YOU4YOT4YOg4YOQ4YOW
+4YOUIOGDm+GDneGDleGDmOGDk+GDlC48YnI+DQo8YnI+DQrhg5Xhg5Thg5rhg5gg4YOX4YOl4YOV
+4YOU4YOc4YOhIOGDnuGDkOGDoeGDo+GDruGDoS48YnI+DQo8YnI+DQrhg5Lhg5vhg5Dhg5Phg5rh
+g53hg5Hhg5cgPGJyPg0KPGJyPg0KJmd0OyBPbiBNYXkgMjEsIDIwMTksIGF0IDM6NDEgUE0sIE5h
+dGVsYSBMYWd1cmFzaHZpbGkgJmx0OzxhIGhyZWY9Im1haWx0bzpuYXRlbGEubGFndXJhc2h2aWxp
+LjFAaWxpYXVuaS5lZHUuZ2UiIHRhcmdldD0iX2JsYW5rIj5uYXRlbGEubGFndXJhc2h2aWxpLjFA
+aWxpYXVuaS5lZHUuZ2U8L2E+Jmd0OyB3cm90ZTo8YnI+DQomZ3Q7IDxicj4NCiZndDsgJmx0OzEx
+LTE4IOGDmOGDleGDnOGDmOGDoeGDmCAtIOGDoeGDkOGDoeGDnuGDneGDnOGDoeGDneGDoOGDnSDh
+g57hg5Dhg5nhg5Thg6Lhg5ggKFRvdXJNT0RFKS5wZGYmZ3Q7PGJyPg0KPGJyPg0KPC9ibG9ja3F1
+b3RlPjwvZGl2PjwvZGl2Pi0tIDxicj48ZGl2IGRpcj0ibHRyIiBjbGFzcz0iZ21haWxfc2lnbmF0
+dXJlIiBkYXRhLXNtYXJ0bWFpbD0iZ21haWxfc2lnbmF0dXJlIj48ZGl2IGRpcj0ibHRyIj48ZGl2
+PjxkaXYgZGlyPSJsdHIiPjxkaXYgZGlyPSJsdHIiPuGDnuGDkOGDouGDmOGDleGDmOGDoeGDquGD
+lOGDm+GDmOGDlyzCoDxkaXY+4YOc4YOQ4YOX4YOU4YOa4YOQIOGDmuGDkOGDkuGDo+GDoOGDkOGD
+qOGDleGDmOGDmuGDmDwvZGl2PjxkaXY+PGJyPjxicj5TaW5jZXJlbHksPGJyPk5hdGVsYSBMYWd1
+cmFzaHZpbGk8L2Rpdj48ZGl2Pjxicj48L2Rpdj48L2Rpdj48L2Rpdj48L2Rpdj48L2Rpdj48L2Rp
+dj4NCg==
+--00000000000031444205898cbec4--

@@ -1,0 +1,156 @@
+Return-Path: <g.gvazava7@gmail.com>
+Delivered-To: e.tarkhnishvili@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP
+	id YI56CpjX+Fzueg4A8w4q4w
+	(envelope-from <g.gvazava7@gmail.com>)
+	for <e.tarkhnishvili@tripplanner.ge>; Thu, 06 Jun 2019 04:06:32 -0500
+Return-path: <g.gvazava7@gmail.com>
+Envelope-to: e.tarkhnishvili@tripplanner.ge
+Delivery-date: Thu, 06 Jun 2019 04:06:32 -0500
+Received: from mail-lj1-f176.google.com ([209.85.208.176]:41034)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.92)
+	(envelope-from <g.gvazava7@gmail.com>)
+	id 1hYoLv-0043LX-FU
+	for e.tarkhnishvili@tripplanner.ge; Thu, 06 Jun 2019 04:06:32 -0500
+Received: by mail-lj1-f176.google.com with SMTP id s21so1247791lji.8
+        for <e.tarkhnishvili@tripplanner.ge>; Thu, 06 Jun 2019 02:06:26 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+        bh=NL5qGzTSe2f9Fm93xKwwyVmrA/21qIB/ztBkhM25EMs=;
+        b=F8TqdYLFQTEwudCYMp7qc6sgNnzYkfUAJvjfyIbUIKEofyNEjSlpw+6UZqluSlc6Gf
+         QqSfcCKdSn+7xF4xF0a0DCq3qbBIHV9jHXsu8IjJ0q0DPEjZlCFsvik5FisoG5bXiGQ2
+         VzDHjZC0/vJmGjn5R6wYin6rYZCRi+UKG3a/zI3IpLT/+cVd35Ej71hixO8gXGGgVdQ7
+         h0gmMms5xhN92ESsZ/POxgwdN/gIM3A/rG6UCIPKx8XjkarBvnKZIf+lSbqPGSxz0Wf2
+         88/1/ijc8G59XPZZffAvIZffYWbDBC4ziuChzSKInXYNiWp/Qkbo9sx92DI/JVcQiE6R
+         IViA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to;
+        bh=NL5qGzTSe2f9Fm93xKwwyVmrA/21qIB/ztBkhM25EMs=;
+        b=lXvaxxyzoff0l5O+IBov/Z+hPhHHA6rzsTyG3vTDuLTaN/VN0s2ayIF8CBP7swn0dq
+         eARITQJPm3LZVUa+tI5WfK7kb6Y5s15F97/Zs9QL0N+EDlj8xpFw/b/wjJsDbs+Z48U/
+         mMYOdXw8wSUrNDu3MUoRVgrrPgDBxUawtEbszKCSGTjbG6v+aqWWTzzVCkygJ6VZakUJ
+         PvXaL0Cg7BX0VclV6+wlH2g9DgqPd5ZeaZyhHvymkgFd6clggD7b4Rl/0x6hrEVFw9BV
+         rsccA2afvCCHpBs5eh8NXxg/aj3Td78DiHyokA7TarTFvyP61mMj8DIKQSrhz+IVeFNs
+         x+kg==
+X-Gm-Message-State: APjAAAWyC8uMPrYm6Ke4cjslZQ/2O8XoRAD9+8wKdHknKFMXHCOxGHvY
+	Pd65DKYxxOPD72DpXi/9qK34OB0tQmimUxm3pa46/HaI
+X-Google-Smtp-Source: APXvYqy5qx1fp53WgDjwwWMpBuOOA0Fs1CkxZ+Rh1UzXcUTUNK4W+d5NP9RI3Krb4lqv3qSrK+i0gdQZ2C5o1m5KORQ=
+X-Received: by 2002:a2e:5b5b:: with SMTP id p88mr14457958ljb.192.1559811979388;
+ Thu, 06 Jun 2019 02:06:19 -0700 (PDT)
+MIME-Version: 1.0
+References: <88c2e2229f98c78d0482ddf4c67ac613@b2b.awards-tourism.com>
+ <CAM239n6+pNAJT4_a-SqX_LOR=t04HwYOBqVjYcar=BacM1PSHg@mail.gmail.com> <CB78EB48-723D-497E-9FBA-DA88F02FC3AB@tripplanner.ge>
+In-Reply-To: <CB78EB48-723D-497E-9FBA-DA88F02FC3AB@tripplanner.ge>
+From: George Gvazava <g.gvazava7@gmail.com>
+Date: Thu, 6 Jun 2019 13:06:08 +0400
+Message-ID: <CAM239n4+E9+OAiTde8qC3L6d2JPU1heCyC7DbeCWxpJs=HTV3A@mail.gmail.com>
+Subject: Re: Invitation to B2B meeting
+To: Eka <e.tarkhnishvili@tripplanner.ge>
+Content-Type: multipart/alternative; boundary="000000000000f2ac26058aa40610"
+X-Spam-Status: No, score=0.3
+X-Spam-Score: 3
+X-Spam-Bar: /
+X-Spam-Flag: NO
+
+--000000000000f2ac26058aa40610
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+ki tvis bolos moval
+
+On Thu, Jun 6, 2019 at 1:01 PM Eka <e.tarkhnishvili@tripplanner.ge> wrote:
+
+> =E1=83=9B=E1=83=94 =E1=83=94=E1=83=A1 =E1=83=93=E1=83=A0=E1=83=9D =E1=83=
+=93=E1=83=90=E1=83=99=E1=83=90=E1=83=95=E1=83=94=E1=83=91=E1=83=A3=E1=83=9A=
+=E1=83=98 =E1=83=9B=E1=83=90=E1=83=A5=E1=83=95=E1=83=A1, =E1=83=A8=E1=83=94=
+=E1=83=9C =E1=83=97=E1=83=90=E1=83=95=E1=83=90=E1=83=93 =E1=83=A8=E1=83=94=
+=E1=83=AE=E1=83=93=E1=83=98)). =E1=83=90=E1=83=90 =E1=83=A8=E1=83=94=E1=83=
+=9C =E1=83=9B=E1=83=98=E1=83=93=E1=83=98=E1=83=AE=E1=83=90=E1=83=A0 =E1=83=
+=AE=E1=83=9D 18-=E1=83=A8=E1=83=98?
+> =E1=83=93=E1=83=98=E1=83=93=E1=83=98 =E1=83=AE=E1=83=9C=E1=83=98=E1=83=97=
+?
+>
+> On Jun 6, 2019, at 12:58 PM, George Gvazava <g.gvazava7@gmail.com> wrote:
+>
+>
+>
+> ---------- Forwarded message ---------
+> From: Awards Tourism <no-reply@awards-tourism.com>
+> Date: Thu, Jun 6, 2019 at 12:35 PM
+> Subject: Invitation to B2B meeting
+> To: <g.gvazava7@gmail.com>
+>
+>
+> Dear Participant, You are invited to attend a B2B meeting with (Alina
+> Lunyova, Osteopathic Center) at 16:40, table 11
+>
+> Accept <https://b2b.awards-tourism.com/visitor/schedule/invite/accept/234=
+>
+> Decline
+> <https://b2b.awards-tourism.com/visitor/schedule/invite/decline/234>
+>
+>
+> --
+> Respect
+>
+> Giorgi Gvazava
+>
+>
+>
+
+--=20
+Respect
+
+Giorgi Gvazava
+
+--000000000000f2ac26058aa40610
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">ki tvis bolos moval=C2=A0</div><br><div class=3D"gmail_quo=
+te"><div dir=3D"ltr" class=3D"gmail_attr">On Thu, Jun 6, 2019 at 1:01 PM Ek=
+a &lt;<a href=3D"mailto:e.tarkhnishvili@tripplanner.ge">e.tarkhnishvili@tri=
+pplanner.ge</a>&gt; wrote:<br></div><blockquote class=3D"gmail_quote" style=
+=3D"margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding=
+-left:1ex"><div style=3D"overflow-wrap: break-word;">=E1=83=9B=E1=83=94 =E1=
+=83=94=E1=83=A1 =E1=83=93=E1=83=A0=E1=83=9D =E1=83=93=E1=83=90=E1=83=99=E1=
+=83=90=E1=83=95=E1=83=94=E1=83=91=E1=83=A3=E1=83=9A=E1=83=98 =E1=83=9B=E1=
+=83=90=E1=83=A5=E1=83=95=E1=83=A1, =E1=83=A8=E1=83=94=E1=83=9C =E1=83=97=E1=
+=83=90=E1=83=95=E1=83=90=E1=83=93 =E1=83=A8=E1=83=94=E1=83=AE=E1=83=93=E1=
+=83=98)). =E1=83=90=E1=83=90 =E1=83=A8=E1=83=94=E1=83=9C =E1=83=9B=E1=83=98=
+=E1=83=93=E1=83=98=E1=83=AE=E1=83=90=E1=83=A0 =E1=83=AE=E1=83=9D 18-=E1=83=
+=A8=E1=83=98? =E1=83=93=E1=83=98=E1=83=93=E1=83=98 =E1=83=AE=E1=83=9C=E1=83=
+=98=E1=83=97?<div><div><br><blockquote type=3D"cite"><div>On Jun 6, 2019, a=
+t 12:58 PM, George Gvazava &lt;<a href=3D"mailto:g.gvazava7@gmail.com" targ=
+et=3D"_blank">g.gvazava7@gmail.com</a>&gt; wrote:</div><br class=3D"gmail-m=
+_4847259099166989952Apple-interchange-newline"><div><div dir=3D"ltr"><br><b=
+r><div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_attr">--------=
+-- Forwarded message ---------<br>From: <strong class=3D"gmail_sendername" =
+dir=3D"auto">Awards Tourism</strong> <span dir=3D"auto">&lt;<a href=3D"mail=
+to:no-reply@awards-tourism.com" target=3D"_blank">no-reply@awards-tourism.c=
+om</a>&gt;</span><br>Date: Thu, Jun 6, 2019 at 12:35 PM<br>Subject: Invitat=
+ion to B2B meeting<br>To:  &lt;<a href=3D"mailto:g.gvazava7@gmail.com" targ=
+et=3D"_blank">g.gvazava7@gmail.com</a>&gt;<br></div><br><br><p>Dear Partici=
+pant,
+You are invited to attend a B2B meeting with (Alina Lunyova, Osteopathic Ce=
+nter) at 16:40, table 11</p><p>
+    <a href=3D"https://b2b.awards-tourism.com/visitor/schedule/invite/accep=
+t/234" target=3D"_blank">Accept</a>
+    <a href=3D"https://b2b.awards-tourism.com/visitor/schedule/invite/decli=
+ne/234" target=3D"_blank">Decline</a>
+</p>
+</div><br clear=3D"all"><div><br></div>-- <br><div dir=3D"ltr" class=3D"gma=
+il-m_4847259099166989952gmail_signature"><div dir=3D"ltr"><div><div dir=3D"=
+ltr"><div>Respect</div><div><br></div><div>Giorgi Gvazava</div></div></div>=
+</div></div></div>
+</div></blockquote></div><br></div></div></blockquote></div><br clear=3D"al=
+l"><div><br></div>-- <br><div dir=3D"ltr" class=3D"gmail_signature"><div di=
+r=3D"ltr"><div><div dir=3D"ltr"><div>Respect</div><div><br></div><div>Giorg=
+i Gvazava</div></div></div></div></div>
+
+--000000000000f2ac26058aa40610--

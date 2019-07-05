@@ -1,0 +1,267 @@
+Return-Path: <murtaz.takalandze@iliauni.edu.ge>
+Delivered-To: e.tarkhnishvili@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP
+	id oIaIKLTF51zW6AIA8w4q4w
+	(envelope-from <murtaz.takalandze@iliauni.edu.ge>)
+	for <e.tarkhnishvili@tripplanner.ge>; Fri, 24 May 2019 05:21:40 -0500
+Return-path: <murtaz.takalandze@iliauni.edu.ge>
+Envelope-to: e.tarkhnishvili@tripplanner.ge
+Delivery-date: Fri, 24 May 2019 05:21:40 -0500
+Received: from mail-qk1-f181.google.com ([209.85.222.181]:42640)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <murtaz.takalandze@iliauni.edu.ge>)
+	id 1hU7KV-000qeR-Su
+	for e.tarkhnishvili@tripplanner.ge; Fri, 24 May 2019 05:21:40 -0500
+Received: by mail-qk1-f181.google.com with SMTP id b18so684382qkc.9
+        for <e.tarkhnishvili@tripplanner.ge>; Fri, 24 May 2019 03:21:34 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=iliauni-edu-ge.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+        bh=AxHvrrPxiUSvKwIMfAws5JLI39pNWnUau2cWZtqZtVs=;
+        b=cebQVC73wKwFEiYKvgLDUPerOgME+YoowqagHvugVDOBqdwg7yh5YPTRxS45IEkF4o
+         03ld2mEydPseMDSdSwMz20B8CdM5m6NU622cw2ziYdGuY3NBf3pvFmdvk5/6v3D+Apsf
+         dhVJugE0apLLs1eSssKVLaFbrhijJrMPxBzdcqFTZIQJXT9Jxi8Rh3docY3txPO8yn9y
+         5AuHtejxIslY4sNSqDV1lfaojxNMwMftARpudN55Ng2M3WNHA3uRwlW5OpN2USWAWA5v
+         Obmc1V0vwGGc+/06ylQ/l3Rh6enOGc7FrNVdp59JlbfWFFE7dW3u+qXbYauoipVOC7dY
+         P+LA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to;
+        bh=AxHvrrPxiUSvKwIMfAws5JLI39pNWnUau2cWZtqZtVs=;
+        b=f0pnWAV6WKdzPcy8/gzglKbOslCAtS8EhxrZ+WpSjGoD5OrMhhuwrhF3nsT2PHUXpS
+         fFrWNFrpg93KfgWrXyPoXlsHC1O6mmwTKe2Mk8gQKqzMiaGm0kao4/dRTxkrbcJm42g8
+         j+REVSDMEE8q9ylM9pEQsHIFcTQQkGXhPIjXSwyghjf1RlSxLTrSVBi0IQjZgtRjGsl+
+         aMA6ss4TmXHJJEmWBtA3VnemyLy5Iwk12EBfYWe8tRQ94VSccnAkZNNjeJwRuPGJvfmt
+         NCeTz5wksNVtX6chfqzJDN7XGIhY4wiLI5ICDk8X3pWOLGcuu8L8l9llgf/TEHSDzcps
+         qZYA==
+X-Gm-Message-State: APjAAAX2+ZTla1ggm1QqkPS8jaWzrR+zyMavPCfrvVFm34MtaLu3N0Gs
+	7VxKGU1bavHUGDjuBBYeJe9SbQtI2EgLMiHpf8Q0pujc5eY=
+X-Google-Smtp-Source: APXvYqw17vF4JVO7nPRa4+KCxiKmLohh5urhyRv1X1gs5Xjs10gd2IsjHp4C1MUuRkw7nNA+xj8C7+Q4fXJ0NQfJrvk=
+X-Received: by 2002:a0c:f5c5:: with SMTP id q5mr81207681qvm.233.1558693288027;
+ Fri, 24 May 2019 03:21:28 -0700 (PDT)
+MIME-Version: 1.0
+References: <00FD9A42-DF24-4AC3-A78C-0D9D293126B4@tripplanner.ge>
+In-Reply-To: <00FD9A42-DF24-4AC3-A78C-0D9D293126B4@tripplanner.ge>
+From: Muro Takalandze <murtaz.takalandze@iliauni.edu.ge>
+Date: Fri, 24 May 2019 14:13:35 +0400
+Message-ID: <CAC15LvwGSRU_sj0nthuWcBVumE3=aepos5aafWgGLWF9At-2MQ@mail.gmail.com>
+Subject: Re: tripplanner.ge
+To: Eka <e.tarkhnishvili@tripplanner.ge>
+Content-Type: multipart/alternative; boundary="000000000000bf385905899f8f2c"
+X-Spam-Status: No, score=1.0
+X-Spam-Score: 10
+X-Spam-Bar: +
+X-Spam-Flag: NO
+
+--000000000000bf385905899f8f2c
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: base64
+
+4YOU4YOZ4YOQLCDhg5Phg5jhg5Phg5gg4YOb4YOQ4YOT4YOa4YOd4YOR4YOQLg0K4YOa4YOd4YOS
+4YOd4YOhIOGDqOGDlOGDleGDmOGDouGDkOGDnOGDlyDhg5Phg5jhg5bhg5Dhg5jhg5zhg5Thg5Hh
+g5bhg5QuDQrhg5Lhg5fhg67hg53hg5Xhg5csIOGDoOGDneGDkuGDneGDoOGDqiDhg6jhg5Thg5Xh
+g5fhg5Dhg5zhg67hg5vhg5Phg5jhg5cg4YOb4YOd4YOS4YOV4YOs4YOU4YOg4YOU4YOXIOGDl+GD
+peGDleGDlOGDnOGDmCDhg6Hhg5Dhg5Hhg53hg5rhg53hg50g4YOo4YOU4YOb4YOd4YOX4YOQ4YOV
+4YOQ4YOW4YOU4YOR4YOQLg0KDQrhg6Hhg5Dhg6Phg5nhg5Thg5fhg5Thg6Hhg50g4YOh4YOj4YOg
+4YOV4YOY4YOa4YOU4YOR4YOY4YOXLA0KDQoq4YOb4YOj4YOg4YOdIOGDl+GDkOGDmeGDkOGDmuGD
+kOGDnOGDq+GDlCoNCg0K4YOh4YOQ4YOW4YOd4YOS4YOQ4YOT4YOd4YOU4YOR4YOQ4YOh4YOX4YOQ
+4YOcIOGDo+GDoOGDl+GDmOGDlOGDoOGDl+GDneGDkeGDmOGDoSDhg6Hhg5Dhg5vhg6Hhg5Dhg67h
+g6Phg6Dhg5jhg6Eg4YOj4YOk4YOg4YOd4YOh4YOYIOGDoeGDnuGDlOGDquGDmOGDkOGDmuGDmOGD
+oeGDouGDmA0KDQrhg5jhg5rhg5jhg5Dhg6Eg4YOh4YOQ4YOu4YOU4YOa4YOb4YOs4YOY4YOk4YOd
+IOGDo+GDnOGDmOGDleGDlOGDoOGDoeGDmOGDouGDlOGDouGDmA0KDQoNCuGDpeGDkOGDpeGDo+GD
+quGDkCDhg6nhg53hg5rhg53hg6fhg5Dhg6jhg5Xhg5jhg5rhg5jhg6Eg4YOS4YOQ4YOb4YOW4YOY
+4YOg4YOYIDMvNSAoRjIxMCkNCg0K4YOX4YOR4YOY4YOa4YOY4YOh4YOYLCAwMTYyLCDhg6Hhg5Dh
+g6Xhg5Dhg6Dhg5fhg5Xhg5Thg5rhg50NCg0K4YOb4YOd4YOROiAoOTk1KSA1NTUgMzggMzMgNDQN
+Cg0K4YOU4YOaLeGDpOGDneGDoeGDouGDkDogTXVydGF6LnRha2FsYW5kemVAaWxpYXVuaS5lZHUu
+Z2UNCg0KKndlYiBwYWdlOiAqRmFjZWJvb2sgPGh0dHBzOi8vd3d3LmZhY2Vib29rLmNvbS90Lm11
+cm9vbz4gIHwgTGlua2VkaW4NCjxodHRwczovL3d3dy5saW5rZWRpbi5jb20vaW4vbXVyby10YWth
+bGFuZHplLTc3YTI1OTEwYi8+DQoNClJlZ2FyZHMsDQoqTXVybyBUYWthbGFuZHplKg0KU2VuaW9y
+IFB1YmxpYyBSZWxhdGlvbnMgU3BlY2lhbGlzdA0KSWxpYSBTdGF0ZSBVbml2ZXJzaXR5DQoNCjMv
+NSBDaG9sb2thc2h2aWxpDQowMTYyIFRiaWxpc2ksIEdlb3JnaWENCnd3dy5pbGlhdW5pLmVkdS5n
+ZQ0KPGh0dHA6Ly93d3cuaWxpYXVuaS5lZHUuZ2UvPg0KDQoNCg0KDQpPbiBGcmksIE1heSAyNCwg
+MjAxOSBhdCAyOjE5IFBNIEVrYSA8ZS50YXJraG5pc2h2aWxpQHRyaXBwbGFubmVyLmdlPiB3cm90
+ZToNCg0KPiDhg5vhg6Phg6Dhg50sDQo+IOGDqOGDlOGDnuGDmOGDoOGDlOGDkeGDmOGDoeGDkOGD
+m+GDlOGDkeGDoCDhg5Lhg5jhg5Lhg5bhg5Dhg5Xhg5zhg5gg4YOp4YOV4YOU4YOc4YOhIOGDmuGD
+neGDkuGDneGDoS4NCj4NCj4g4YOe4YOQ4YOi4YOY4YOV4YOY4YOh4YOq4YOU4YOb4YOY4YOXLA0K
+Pg0KPiDhg5Thg5nhg5Dhg6Lhg5Thg6Dhg5jhg5zhg5Qg4YOX4YOQ4YOg4YOu4YOc4YOY4YOo4YOV
+4YOY4YOa4YOYDQo+IOGDqOGDnuGDoSDhg5fhg6Dhg5jhg6Thg6Thg5rhg5Thg5zhg5Thg6Dhg5gN
+Cj4NCj4g4YOi4YOU4YOaOiAoOTk1KSA1OTEgNzEyMzQ1DQo+IOGDm+GDneGDkTogKDk5NSkgNTk5
+IDQ1MDAzNQ0KPiDhg5Thg5ot4YOk4YOd4YOh4YOi4YOQOiBlLnRhcmtobmlzaHZpbGlAdHJpcHBs
+YW5uZXIuZ2UNCj4gICAgICAgICAgICAgICAgICAgICAgaW5mb0B0cmlwcGxhbm5lci5nZQ0KPg0K
+PiBodHRwczovL3RyaXBwbGFubmVyLmdlDQo+DQo+DQo=
+--000000000000bf385905899f8f2c
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">=E1=83=94=E1=83=99=E1=83=90, =E1=83=93=E1=83=98=E1=83=93=
+=E1=83=98 =E1=83=9B=E1=83=90=E1=83=93=E1=83=9A=E1=83=9D=E1=83=91=E1=83=90.=
+=C2=A0<div>=E1=83=9A=E1=83=9D=E1=83=92=E1=83=9D=E1=83=A1 =E1=83=A8=E1=83=94=
+=E1=83=95=E1=83=98=E1=83=A2=E1=83=90=E1=83=9C=E1=83=97 =E1=83=93=E1=83=98=
+=E1=83=96=E1=83=90=E1=83=98=E1=83=9C=E1=83=94=E1=83=91=E1=83=96=E1=83=94.=
+=C2=A0</div><div>=E1=83=92=E1=83=97=E1=83=AE=E1=83=9D=E1=83=95=E1=83=97, =
+=E1=83=A0=E1=83=9D=E1=83=92=E1=83=9D=E1=83=A0=E1=83=AA =E1=83=A8=E1=83=94=
+=E1=83=95=E1=83=97=E1=83=90=E1=83=9C=E1=83=AE=E1=83=9B=E1=83=93=E1=83=98=E1=
+=83=97 =E1=83=9B=E1=83=9D=E1=83=92=E1=83=95=E1=83=AC=E1=83=94=E1=83=A0=E1=
+=83=94=E1=83=97 =E1=83=97=E1=83=A5=E1=83=95=E1=83=94=E1=83=9C=E1=83=98 =E1=
+=83=A1=E1=83=90=E1=83=91=E1=83=9D=E1=83=9A=E1=83=9D=E1=83=9D =E1=83=A8=E1=
+=83=94=E1=83=9B=E1=83=9D=E1=83=97=E1=83=90=E1=83=95=E1=83=90=E1=83=96=E1=83=
+=94=E1=83=91=E1=83=90.=C2=A0</div><div><br clear=3D"all"><div><div dir=3D"l=
+tr" class=3D"gmail_signature" data-smartmail=3D"gmail_signature"><div dir=
+=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div dir=3D"ltr"><div =
+dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"=
+ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><d=
+iv dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=
+=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr=
+"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div><p style=3D"font-=
+size:12.8px;margin:0in 0in 0.0001pt"><font face=3D"arial, helvetica, sans-s=
+erif" size=3D"2" color=3D"#000000">=E1=83=A1=E1=83=90=E1=83=A3=E1=83=99=E1=
+=83=94=E1=83=97=E1=83=94=E1=83=A1=E1=83=9D =E1=83=A1=E1=83=A3=E1=83=A0=E1=
+=83=95=E1=83=98=E1=83=9A=E1=83=94=E1=83=91=E1=83=98=E1=83=97,</font></p><p =
+style=3D"font-size:12.8px;margin:0in 0in 0.0001pt"><font face=3D"arial, hel=
+vetica, sans-serif" size=3D"2" color=3D"#000000"><b>=E1=83=9B=E1=83=A3=E1=
+=83=A0=E1=83=9D =E1=83=97=E1=83=90=E1=83=99=E1=83=90=E1=83=9A=E1=83=90=E1=
+=83=9C=E1=83=AB=E1=83=94</b></font></p><p style=3D"font-size:12.8px;margin:=
+0in 0in 0.0001pt"><span lang=3D"GEO/KAT"><font face=3D"arial, helvetica, sa=
+ns-serif" size=3D"2" color=3D"#000000">=E1=83=A1=E1=83=90=E1=83=96=E1=83=9D=
+=E1=83=92=E1=83=90=E1=83=93=E1=83=9D=E1=83=94=E1=83=91=E1=83=90=E1=83=A1=E1=
+=83=97=E1=83=90=E1=83=9C =E1=83=A3=E1=83=A0=E1=83=97=E1=83=98=E1=83=94=E1=
+=83=A0=E1=83=97=E1=83=9D=E1=83=91=E1=83=98=E1=83=A1 =E1=83=A1=E1=83=90=E1=
+=83=9B=E1=83=A1=E1=83=90=E1=83=AE=E1=83=A3=E1=83=A0=E1=83=98=E1=83=A1=C2=A0=
+</font></span><span style=3D"color:rgb(0,0,0);font-family:arial,helvetica,s=
+ans-serif;font-size:small">=E1=83=A3=E1=83=A4=E1=83=A0=E1=83=9D=E1=83=A1=E1=
+=83=98 =E1=83=A1=E1=83=9E=E1=83=94=E1=83=AA=E1=83=98=E1=83=90=E1=83=9A=E1=
+=83=98=E1=83=A1=E1=83=A2=E1=83=98=C2=A0</span></p><p style=3D"margin:0in 0i=
+n 0.0001pt"><font color=3D"#000000" face=3D"arial, helvetica, sans-serif">=
+=E1=83=98=E1=83=9A=E1=83=98=E1=83=90=E1=83=A1 =E1=83=A1=E1=83=90=E1=83=AE=
+=E1=83=94=E1=83=9A=E1=83=9B=E1=83=AC=E1=83=98=E1=83=A4=E1=83=9D =E1=83=A3=
+=E1=83=9C=E1=83=98=E1=83=95=E1=83=94=E1=83=A0=E1=83=A1=E1=83=98=E1=83=A2=E1=
+=83=94=E1=83=A2=E1=83=98=C2=A0</font></p><p style=3D"font-size:12.8px;margi=
+n:0in 0in 0.0001pt"><br></p><p style=3D"font-size:12.8px;margin:0in 0in 0.0=
+001pt"><font face=3D"arial, helvetica, sans-serif" size=3D"2" color=3D"#000=
+000"><u></u><u></u></font></p><p style=3D"font-size:12.8px;margin:0in 0in 0=
+.0001pt"><font face=3D"arial, helvetica, sans-serif" size=3D"2" color=3D"#0=
+00000"><span lang=3D"GEO/KAT">=E1=83=A5=E1=83=90=E1=83=A5=E1=83=A3=E1=83=AA=
+=E1=83=90 =E1=83=A9=E1=83=9D=E1=83=9A=E1=83=9D=E1=83=A7=E1=83=90=E1=83=A8=
+=E1=83=95=E1=83=98=E1=83=9A=E1=83=98=E1=83=A1 =E1=83=92=E1=83=90=E1=83=9B=
+=E1=83=96=E1=83=98=E1=83=A0=E1=83=98 3/5 (F210)</span></font></p><p style=
+=3D"font-size:12.8px;margin:0in 0in 0.0001pt"><font face=3D"arial, helvetic=
+a, sans-serif" size=3D"2" color=3D"#000000"><span lang=3D"GEO/KAT">=E1=83=
+=97=E1=83=91=E1=83=98=E1=83=9A=E1=83=98=E1=83=A1=E1=83=98</span>, 0162,=C2=
+=A0<span lang=3D"GEO/KAT">=E1=83=A1=E1=83=90=E1=83=A5=E1=83=90=E1=83=A0=E1=
+=83=97=E1=83=95=E1=83=94=E1=83=9A=E1=83=9D</span></font></p><p style=3D"fon=
+t-size:12.8px;margin:0in 0in 0.0001pt"><font face=3D"arial, helvetica, sans=
+-serif" size=3D"2" color=3D"#000000"><span lang=3D"GEO/KAT">=E1=83=9B=E1=83=
+=9D=E1=83=91</span>: (995) 555 38 33 44</font></p><p style=3D"font-size:12.=
+8px;margin:0in 0in 0.0001pt"><font face=3D"arial, helvetica, sans-serif" si=
+ze=3D"2" color=3D"#000000"><span lang=3D"GEO/KAT">=E1=83=94=E1=83=9A-=E1=83=
+=A4=E1=83=9D=E1=83=A1=E1=83=A2=E1=83=90</span>:=C2=A0<a href=3D"mailto:Murt=
+az.takalandze@iliauni.edu.ge" target=3D"_blank">Murtaz.takalandze@iliauni.e=
+du.ge</a></font></p><p style=3D"font-size:12.8px;margin:0in 0in 0.0001pt"><=
+font face=3D"arial, helvetica, sans-serif" size=3D"2" color=3D"#000000"><b>=
+web page:=C2=A0</b><a href=3D"https://www.facebook.com/t.murooo" target=3D"=
+_blank">Facebook</a>=C2=A0=C2=A0|=C2=A0<a href=3D"https://www.linkedin.com/=
+in/muro-takalandze-77a25910b/" target=3D"_blank">Linkedin</a></font></p></d=
+iv><div><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div style=3D"fo=
+nt-size:12.8px"><br></div><font face=3D"arial, helvetica, sans-serif" size=
+=3D"2" color=3D"#000000" style=3D"font-size:12.8px">Regards,</font><div><di=
+v style=3D"font-size:12.8px"><font face=3D"arial, helvetica, sans-serif" si=
+ze=3D"2" color=3D"#000000"><b>Muro Takalandze</b></font></div><div style=3D=
+"font-size:12.8px"><font size=3D"2" face=3D"arial, helvetica, sans-serif" c=
+olor=3D"#000000">Senior Public Relations Specialist</font></div></div><div =
+style=3D"font-size:12.8px"><font size=3D"2" face=3D"arial, helvetica, sans-=
+serif" color=3D"#000000">Ilia State University</font></div><div style=3D"fo=
+nt-size:12.8px"><br></div><div style=3D"font-size:12.8px"><font face=3D"ari=
+al, helvetica, sans-serif" size=3D"2" color=3D"#000000">3/5 Cholokashvili</=
+font></div><div style=3D"font-size:12.8px"><font face=3D"arial, helvetica, =
+sans-serif" size=3D"2" color=3D"#000000">0162 Tbilisi, Georgia</font></div>=
+<div style=3D"font-size:12.8px"><font color=3D"#000000"><font face=3D"arial=
+, helvetica, sans-serif" size=3D"2"><a href=3D"http://www.iliauni.edu.ge/" =
+target=3D"_blank">www.iliauni.edu.ge</a></font><a href=3D"http://www.iliaun=
+i.edu.ge/" target=3D"_blank"><br></a></font></div><div style=3D"font-size:1=
+2.8px"><br><br></div></div></div></div></div></div></div></div></div></div>=
+</div></div></div></div></div></div></div></div></div></div></div></div></d=
+iv></div></div></div></div></div></div></div></div></div></div></div><br></=
+div></div><br><div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_at=
+tr">On Fri, May 24, 2019 at 2:19 PM Eka &lt;<a href=3D"mailto:e.tarkhnishvi=
+li@tripplanner.ge">e.tarkhnishvili@tripplanner.ge</a>&gt; wrote:<br></div><=
+blockquote class=3D"gmail_quote" style=3D"margin:0px 0px 0px 0.8ex;border-l=
+eft:1px solid rgb(204,204,204);padding-left:1ex"><div style=3D"overflow-wra=
+p: break-word;">=E1=83=9B=E1=83=A3=E1=83=A0=E1=83=9D,<div>=E1=83=A8=E1=83=
+=94=E1=83=9E=E1=83=98=E1=83=A0=E1=83=94=E1=83=91=E1=83=98=E1=83=A1=E1=83=90=
+=E1=83=9B=E1=83=94=E1=83=91=E1=83=A0 =E1=83=92=E1=83=98=E1=83=92=E1=83=96=
+=E1=83=90=E1=83=95=E1=83=9C=E1=83=98 =E1=83=A9=E1=83=95=E1=83=94=E1=83=9C=
+=E1=83=A1 =E1=83=9A=E1=83=9D=E1=83=92=E1=83=9D=E1=83=A1.</div><div><br><div=
+>
+<div dir=3D"auto" style=3D"color:rgb(0,0,0);font-family:Helvetica;font-size=
+:12px;font-style:normal;font-variant-caps:normal;font-weight:normal;letter-=
+spacing:normal;text-align:start;text-indent:0px;text-transform:none;white-s=
+pace:normal;word-spacing:0px"><div style=3D"color:rgb(0,0,0);font-family:He=
+lvetica;font-size:12px;font-style:normal;font-variant-caps:normal;font-weig=
+ht:normal;letter-spacing:normal;text-align:start;text-indent:0px;text-trans=
+form:none;white-space:normal;word-spacing:0px">=E1=83=9E=E1=83=90=E1=83=A2=
+=E1=83=98=E1=83=95=E1=83=98=E1=83=A1=E1=83=AA=E1=83=94=E1=83=9B=E1=83=98=E1=
+=83=97,</div><div style=3D"color:rgb(0,0,0);font-family:Helvetica;font-size=
+:12px;font-style:normal;font-variant-caps:normal;font-weight:normal;letter-=
+spacing:normal;text-align:start;text-indent:0px;text-transform:none;white-s=
+pace:normal;word-spacing:0px"><br></div><div style=3D"color:rgb(0,0,0);font=
+-family:Helvetica;font-size:12px;font-style:normal;font-variant-caps:normal=
+;font-weight:normal;letter-spacing:normal;text-align:start;text-indent:0px;=
+text-transform:none;white-space:normal;word-spacing:0px">=E1=83=94=E1=83=99=
+=E1=83=90=E1=83=A2=E1=83=94=E1=83=A0=E1=83=98=E1=83=9C=E1=83=94 =E1=83=97=
+=E1=83=90=E1=83=A0=E1=83=AE=E1=83=9C=E1=83=98=E1=83=A8=E1=83=95=E1=83=98=E1=
+=83=9A=E1=83=98</div><div style=3D"color:rgb(0,0,0);font-family:Helvetica;f=
+ont-size:12px;font-style:normal;font-variant-caps:normal;font-weight:normal=
+;letter-spacing:normal;text-align:start;text-indent:0px;text-transform:none=
+;white-space:normal;word-spacing:0px">=E1=83=A8=E1=83=9E=E1=83=A1 =E1=83=97=
+=E1=83=A0=E1=83=98=E1=83=A4=E1=83=A4=E1=83=9A=E1=83=94=E1=83=9C=E1=83=94=E1=
+=83=A0=E1=83=98</div><div style=3D"color:rgb(0,0,0);font-family:Helvetica;f=
+ont-size:12px;font-style:normal;font-variant-caps:normal;font-weight:normal=
+;letter-spacing:normal;text-align:start;text-indent:0px;text-transform:none=
+;white-space:normal;word-spacing:0px"><br></div><div style=3D"color:rgb(0,0=
+,0);font-family:Helvetica;font-size:12px;font-style:normal;font-variant-cap=
+s:normal;font-weight:normal;letter-spacing:normal;text-align:start;text-ind=
+ent:0px;text-transform:none;white-space:normal;word-spacing:0px">=E1=83=A2=
+=E1=83=94=E1=83=9A: (995) 591 712345</div><div style=3D"color:rgb(0,0,0);fo=
+nt-family:Helvetica;font-size:12px;font-style:normal;font-variant-caps:norm=
+al;font-weight:normal;letter-spacing:normal;text-align:start;text-indent:0p=
+x;text-transform:none;white-space:normal;word-spacing:0px">=E1=83=9B=E1=83=
+=9D=E1=83=91: (995) 599 450035</div><div style=3D"color:rgb(0,0,0);font-fam=
+ily:Helvetica;font-size:12px;font-style:normal;font-variant-caps:normal;fon=
+t-weight:normal;letter-spacing:normal;text-align:start;text-indent:0px;text=
+-transform:none;white-space:normal;word-spacing:0px">=E1=83=94=E1=83=9A-=E1=
+=83=A4=E1=83=9D=E1=83=A1=E1=83=A2=E1=83=90: <a href=3D"mailto:e.tarkhnishvi=
+li@tripplanner.ge" target=3D"_blank">e.tarkhnishvili@tripplanner.ge</a></di=
+v><div style=3D"color:rgb(0,0,0);font-family:Helvetica;font-size:12px;font-=
+style:normal;font-variant-caps:normal;font-weight:normal;letter-spacing:nor=
+mal;text-align:start;text-indent:0px;text-transform:none;white-space:normal=
+;word-spacing:0px">=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0<a href=3D"mailto:info@tripplanner.ge" target=3D"_blank=
+">info@tripplanner.ge</a></div><div style=3D"color:rgb(0,0,0);font-family:H=
+elvetica;font-size:12px;font-style:normal;font-variant-caps:normal;font-wei=
+ght:normal;letter-spacing:normal;text-align:start;text-indent:0px;text-tran=
+sform:none;white-space:normal;word-spacing:0px"><br></div><div style=3D"col=
+or:rgb(0,0,0);font-family:Helvetica;font-size:12px;font-style:normal;font-v=
+ariant-caps:normal;font-weight:normal;letter-spacing:normal;text-align:star=
+t;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px">=
+<a href=3D"https://tripplanner.ge" target=3D"_blank">https://tripplanner.ge=
+</a></div></div><br class=3D"gmail-m_-3769786520281350627Apple-interchange-=
+newline" style=3D"color:rgb(0,0,0);font-family:Helvetica;font-size:12px;fon=
+t-style:normal;font-variant-caps:normal;font-weight:normal;letter-spacing:n=
+ormal;text-align:start;text-indent:0px;text-transform:none;white-space:norm=
+al;word-spacing:0px"><span style=3D"color:rgb(0,0,0);font-family:Helvetica;=
+font-size:12px;font-style:normal;font-variant-caps:normal;font-weight:norma=
+l;letter-spacing:normal;text-align:start;text-indent:0px;text-transform:non=
+e;white-space:normal;word-spacing:0px"><span></span></span></div></div></di=
+v><div style=3D"overflow-wrap: break-word;"><div><div><span style=3D"color:=
+rgb(0,0,0);font-family:Helvetica;font-size:12px;font-style:normal;font-vari=
+ant-caps:normal;font-weight:normal;letter-spacing:normal;text-align:start;t=
+ext-indent:0px;text-transform:none;white-space:normal;word-spacing:0px"><sp=
+an></span>
+</span></div>
+</div></div><div style=3D"overflow-wrap: break-word;"><div></div></div><div=
+ style=3D"overflow-wrap: break-word;"><div></div></div></blockquote></div>
+
+--000000000000bf385905899f8f2c--

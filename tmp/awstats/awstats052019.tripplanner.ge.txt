@@ -8,33 +8,33 @@ AWSTATS DATA FILE 7.7 (build 20180105)
 # update).
 BEGIN_MAP 28
 POS_GENERAL 2015                
-POS_TIME 2671                
-POS_VISITOR 8082                
-POS_DAY 8259                
-POS_DOMAIN 3294                
-POS_LOGIN 3521                
-POS_ROBOT 3676                
-POS_WORMS 3884                
-POS_EMAILSENDER 4015                
-POS_EMAILRECEIVER 4158                
-POS_SESSION 8360                
-POS_SIDER 8497                
-POS_FILETYPES 4293                
-POS_DOWNLOADS 4376                
-POS_OS 4424                
-POS_BROWSER 4519                
-POS_SCREENSIZE 4606                
-POS_UNKNOWNREFERER 4680                
-POS_UNKNOWNREFERERBROWSER 4767                
-POS_ORIGIN 4849                
-POS_SEREFERRALS 4979                
-POS_PAGEREFS 5136                
-POS_SEARCHWORDS 5284                
-POS_KEYWORDS 5436                
-POS_MISC 2335                
-POS_ERRORS 5495                
-POS_CLUSTER 3377                
-POS_SIDER_404 5622                
+POS_TIME 2682                
+POS_VISITOR 32849               
+POS_DAY 33359               
+POS_DOMAIN 3413                
+POS_LOGIN 3685                
+POS_ROBOT 3840                
+POS_WORMS 4164                
+POS_EMAILSENDER 4295                
+POS_EMAILRECEIVER 4438                
+POS_SESSION 33638               
+POS_SIDER 33796               
+POS_FILETYPES 4573                
+POS_DOWNLOADS 4713                
+POS_OS 4761                
+POS_BROWSER 4900                
+POS_SCREENSIZE 5124                
+POS_UNKNOWNREFERER 5198                
+POS_UNKNOWNREFERERBROWSER 5474                
+POS_ORIGIN 5642                
+POS_SEREFERRALS 5775                
+POS_PAGEREFS 5933                
+POS_SEARCHWORDS 6081                
+POS_KEYWORDS 6233                
+POS_MISC 2345                
+POS_ERRORS 6292                
+POS_CLUSTER 3541                
+POS_SIDER_404 6444                
 END_MAP
 
 # LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
@@ -46,62 +46,65 @@ END_MAP
 # MonthHostsKnown   = Number of hosts known
 # MonthHostsUnKnown = Number of hosts unknown
 BEGIN_GENERAL 8
-LastLine 20190507065822 108 33980 15417886600223
+LastLine 20190601005054 83 25046 15925661824313
 FirstTime 0
-LastTime 0
-LastUpdate 20190507071349 108 0 108 0 0
-TotalVisits 0                   
-TotalUnique 0                   
+LastTime 20190514043723
+LastUpdate 20190601071606 83 0 82 0 0
+TotalVisits 7                   
+TotalUnique 4                   
 MonthHostsKnown 0                   
-MonthHostsUnknown 4                   
+MonthHostsUnknown 15                  
 END_GENERAL
 
 # Misc ID - Pages - Hits - Bandwidth
 BEGIN_MISC 10
-JavaEnabled 0 0 0
-TotalMisc 0 0 0
-PDFSupport 0 0 0
-QuickTimeSupport 0 0 0
-JavascriptDisabled 0 0 0
 FlashSupport 0 0 0
-WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
 RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 23 0
 DirectorSupport 0 0 0
-AddToFavourites 0 4 0
+PDFSupport 0 0 0
 END_MISC
 
 # Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
 BEGIN_TIME 24
-0 0 0 0 24 29 4914
-1 0 2 22859610 19 23 7552
-2 0 0 0 12 13 1722
-3 0 0 0 7 7 1916
-4 0 0 0 16 45 58240
-5 0 0 0 17 21 5352
-6 0 0 0 16 20 7675
-7 0 0 0 10 47 29983
-8 0 0 0 17 19 2224
-9 0 0 0 25 29 181925
-10 0 0 0 31 62 27164
-11 0 0 0 19 40 17877
-12 0 1 119123 21 64 33887
-13 0 0 0 11 22 9980
-14 0 0 0 13 39 19986
-15 0 0 0 10 11 2476
-16 0 0 0 12 12 590
-17 0 0 0 17 21 5057
-18 0 1 505629 18 41 18940
-19 0 0 0 20 27 140229
-20 0 0 0 25 44 50709
-21 0 0 0 20 20 889
-22 0 0 0 31 36 5221
-23 0 0 0 25 50 21018
+0 0 0 0 85 117 42107
+1 0 2 22859610 132 143 102512
+2 0 0 0 168 213 130637
+3 0 0 0 67 145 71581
+4 3 5 851966 85 205 151989
+5 1 1 33890 112 162 100089
+6 1 1 33890 66 108 433655
+7 0 2 183094 122 216 399979
+8 0 0 0 102 162 91655
+9 0 0 0 253 307 373626
+10 1 1 33890 117 204 699899
+11 0 0 0 68 158 86973
+12 0 1 119123 64 155 451402
+13 0 0 0 54 101 44403
+14 0 0 0 60 120 127742
+15 0 0 0 56 98 509617
+16 0 1 148943 49 80 59137
+17 0 0 0 48 110 122700
+18 0 2 798882 69 103 72170
+19 0 1 843452 56 162 222825
+20 0 0 0 57 164 125204
+21 0 2 150335 57 147 146499
+22 0 0 0 69 167 73947
+23 16 16 438845 7515 7823 2902676
 END_TIME
 
 # Domain - Pages - Hits - Bandwidth
 # The 25 first Pages must be first (order not required for others)
-BEGIN_DOMAIN 1
-ru 0 4 23484362
+BEGIN_DOMAIN 4
+us 16 16 438845
+ge 6 6 367130
+ie 0 2 183094
+ru 0 11 25506851
 END_DOMAIN
 
 # Cluster ID - Pages - Hits - Bandwidth
@@ -115,9 +118,12 @@ END_LOGIN
 
 # Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
 # The 25 first Hits must be first (order not required for others)
-BEGIN_ROBOT 2
-Googlebot/ 5 278533 20190505195447 0
-Baiduspider/ 3 101752 20190504204136 0
+BEGIN_ROBOT 5
+Googlebot/ 39 1813626 20190525100404 0
+Baiduspider/ 14 434128 20190530164915 0
+no_user_agent 3 274641 20190527074726 0
+spider 2 437788 20190513232720 0
+Mail\.RU_Bot/ 1 339487 20190518120547 0
 END_ROBOT
 
 # Worm ID - Hits - Bandwidth - Last visit
@@ -136,8 +142,11 @@ BEGIN_EMAILRECEIVER 0
 END_EMAILRECEIVER
 
 # Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
-BEGIN_FILETYPES 1
-jpg 4 23484362 0 0
+BEGIN_FILETYPES 4
+xml 2 437788 0 0
+php 3 265460 0 0
+jpg 13 25689945 0 0
+Unknown 17 102727 0 0
 END_FILETYPES
 
 # Downloads - Hits - Bandwidth
@@ -145,16 +154,27 @@ BEGIN_DOWNLOADS 0
 END_DOWNLOADS
 
 # OS ID - Hits
-BEGIN_OS ID - Hits - Pages 3
-win8 2 0
+BEGIN_OS ID - Hits - Pages 7
+win10 2 0
+Unknown 18 16
+win7 3 0
+winxp 1 0
 macosx8 1 0
-win7 1 0
+win8 4 0
+linux 6 6
 END_OS
 
 # Browser ID - Hits - Pages
-BEGIN_BROWSER 2
+BEGIN_BROWSER 9
+chrome73.0.3683.103 1 0
+msie10.0 5 0
+firefox66.0 1 0
+chrome57.0.2987.137 1 0
+chrome72.0.3626.121 2 0
+mozilla 7 7
+Unknown 11 9
+chrome74.0.3729.131 6 6
 chrome49.0.2623.112 1 0
-msie10.0 3 0
 END_BROWSER
 
 # Screen size - Hits
@@ -162,18 +182,25 @@ BEGIN_SCREENSIZE 0
 END_SCREENSIZE
 
 # Unknown referer OS - Last visit date
-BEGIN_UNKNOWNREFERER 0
+BEGIN_UNKNOWNREFERER 4
+cortex/1.0 20190527074726
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20190513230855
+Nessus 20190513230747
+Cpanel-HTTP-Client/1.0 20190513230853
 END_UNKNOWNREFERER
 
 # Unknown referer Browser - Last visit date
-BEGIN_UNKNOWNREFERERBROWSER 0
+BEGIN_UNKNOWNREFERERBROWSER 3
+cortex/1.0 20190527074726
+Nessus 20190513230747
+Cpanel-HTTP-Client/1.0 20190513230853
 END_UNKNOWNREFERERBROWSER
 
 # Origin - Pages - Hits 
 BEGIN_ORIGIN 6
-From0 0 0
+From0 22 24
 From1 0 0
-From2 0 4
+From2 0 11
 From3 0 0
 From4 0 0
 From5 0 0
@@ -181,7 +208,7 @@ END_ORIGIN
 
 # Search engine referers ID - Pages - Hits
 BEGIN_SEREFERRALS 1
-yandexru 0 4
+yandexru 0 11
 END_SEREFERRALS
 
 # External page referers - Pages - Hits
@@ -200,64 +227,944 @@ BEGIN_KEYWORDS 0
 END_KEYWORDS
 
 # Errors - Hits - Bandwidth
-BEGIN_ERRORS 4
-403 12 8052
-409 6 498
-301 408 35307
-404 304 226784
+BEGIN_ERRORS 5
+406 1873 423298
+403 640 451466
+404 3262 2408460
+409 90 7470
+301 5423 926210
 END_ERRORS
 
 # URL with 404 errors - Hits - Last URL referrer
-BEGIN_SIDER_404 26
-/public/larisome/font-larisome.min.css 13 http://tripplanner.ge/tours/full/92/One-day-wine-tour-in-kakheti
-/public/css/ion.rangeSlider.css 8 http://www.tripplanner.ge/tours/index/4/7
-/public/js/ion.rangeSlider.min.js 11 http://www.tripplanner.ge/tours/index/4/7
-/public/js/notify.js 11 http://tripplanner.ge/tours/full/92/One-day-wine-tour-in-kakheti
-/wp-login.php 2 -
-/maps/map.php 4 http://tripplanner.ge/tours/full/517/
+BEGIN_SIDER_404 867
+/lg.php 1 -
+/apple-touch-icon.png 1 -
+/scripts/www.tripplanner.7z 1 -
+/scripts/tripplanner.z 1 -
+/contact.php 1 -
+/public/images/tours/big/124/124.jpg 2 http://go.mail.ru/search_images
+/cgi-bin/nquser.php 2 -
+/cgi-bin//atk/javascript/class.atkdateattribute.js.php 2 -
+/scripts/admin/setup.php 2 -
+/scripts/www.tripplanner.ge.Z 1 -
+/scripts/catalog.php 2 -
+/scripts/.|./.|./.|./.|./.|./.|./.|./.|./.|./.|./.|./.|./windows/win.ini 1 -
+/oktoYA0q.html 1 -
+/cgi-bin/eclient/IDMLogon2.jsp 1 -
+/cgi-bin/ubbthreads.php 2 -
+/athenareg.php 2 -
+/cgi-bin/tiki-index.php 6 -
+/view.html 2 -
+/scripts/wordtrans.php 2 -
+/webct/about.jsp 2 -
+/scripts/achievo//atk/javascript/class.atkdateattribute.js.php 2 -
+/admin/admin.php 7 -
+/ptnews/index.php 1 -
+/scripts/plugins/preview/preview.html 2 -
+/scripts/awstats.cgi 2 -
+/catalog.php 2 -
+/cgi-bin/gtcatalog/index.php 1 -
+/console/login/LoginForm.jsp 2 -
+/cgi-binadmin/index.php 1 -
+/owncloud/Nessus404/index.php 2 -
+/cgi-bin/www.tripplanner.rar 1 -
+/public/js/parallax.min.js 64 http://tripplanner.ge/tours/full/92/One-day-wine-tour-in-kakheti
+/cgi-bin/index.html 3 -
+/view_user.php 2 -
+/loader-wizard.php 1 -
+/port.php 1 -
+/scripts/password.asp 2 -
+/public/js/bootstrap.js 60 http://tripplanner.ge/tours/full/92/One-day-wine-tour-in-kakheti
+/scripts/ovlaunch.exe 1 -
+/forum/index.php 2 -
+/properties/configuration.php 2 -
+/scripts/forums.asp 2 -
+/admin/images/cal_date_over.gif 2 -
+/scripts/lp/AdminlogonPoint/Logon.do 1 -
+/scripts/shops/sub.asp 2 -
+/cgi-bin/catalog.php 2 -
+/scripts/nquser.php 2 -
+/scripts/account/ 1 -
+/cgi-bin/admin/setup.php 2 -
+/historyFrame.html 2 -
+/scripts/tripplanner.ge.gz 1 -
+/cgi-bin/new-visitor.inc.php 1 -
+/sql/install-0.9.7.php 2 -
+/scripts/wa.cgi 3 -
+//main.php 1 -
+/scripts/index.pl/homels 2 -
+/public/images/tours/big/119/119.jpg 1 http://go.mail.ru/search_images
+/scripts/cgi-bin/gm-comments.cgi 1 -
+/scripts/tripplanner.ge.war 1 -
+/scripts/htsearch.cgi 1 -
+/scripts/mapserv.exe 1 -
+/adodb-perf-module.inc.php 2 -
+/scripts/tripplanner.ge.tgz 1 -
+/scripts/awstats.pl 2 -
+/jsp/index.html 2 -
+/scripts/ubbthreads.php 2 -
+/scripts/tiki-index.php 6 -
+/cgi-bin/wordtrans.php 2 -
+/cgi-bin/mpweb/html/help/000/user_help/help/output/config.js 1 -
+/..\\pixfir~1\\how_to_login.html 2 -
+/scripts/comersus_customerRegistrationForm.asp 2 -
+/scripts/nph-mr.cgi 1 -
+/scripts/static/./WEB-INF/web.xml 1 -
+/scriptsadmin/index.php 1 -
+/enter.php 1 -
+/misc/info.php 1 -
+/scripts/tripplanner.tar.bz2 1 -
+/scripts/login.aspx 2 -
+/www.tripplanner.ge.zip 1 -
+/cgi-bin/achievo//atk/javascript/class.atkdateattribute.js.php 2 -
+//login.jsp 1 -
+/scripts/services/Walrus 2 -
+/install/index.html 1 -
+/login_page.php 2 -
+/scripts/processSimple.do 2 -
+/scripts/index.html 3 -
+/scripts/texis.cgi/vpSGRvL4-texis_path_disclosure 1 -
+/horde/imp/status.php3 1 -
+/chat/login.php 2 -
+/about.php 2 -
+/scripts/tripplanner.ge.tar.bz2 1 -
+/novelllogmanager/views/logon.html 2 -
+/scripts/mathtex.pl 2 -
+/scripts/includes/main.conf 2 -
+/clan-nic/index.php 1 -
+/scripts/nbmember.cgi 2 -
+/scripts/about.php 2 -
+/cgi-bin/static/./WEB-INF/web.xml 1 -
+/cgi-bin/db_input.php 1 -
+/cekweb.html 4 -
+/scripts/forum.php 1 -
+/scripts/search.php 4 -
+/scripts/tripplanner.zip 1 -
+/upgradev1.php 2 -
+/scripts/htgrep/file=index.html&hdr=/etc/passwd 2 -
+/spotfire/about.jsp 1 -
+/sql.php 1 -
+/cgi-bin/lg.php 1 -
+//wp/wp-admin/setup-config.php 1 -
+/scripts/20Review.asp 2 -
+/scripts/webappmon.exe 2 -
+/lua/pages/message/About.jsp 1 -
+/cgi-bin/www.tripplanner.zip 1 -
+/cgi-bin/index.js%70 2 -
+/Nessus404/index.php 2 -
+/scripts/port.php 1 -
+/scripts/demos/demo.browse.php 4 -
+/sgdadmin/faces/jsp/Version.jsp 1 -
+/owncloud/index.php 4 -
+/scripts/wsisa.dll/WService=wsbroker1/webutil/ping.p 1 -
+/scripts/swc 1 -
+/piranha/secure/control.php3 2 -
+/cgi-bin/Config/diff.php 2 -
+/scripts/mail.cgi 2 -
+/scripts/wwwboard.html 2 -
+/cgi-bin/include.php 1 -
+/viart_shop.xml 2 -
+/scripts/admin/adminlogin.asp 2 -
+/cgi-bin/%2f/admin.html 2 -
+/misc/audio.php 1 -
+/admin/cal_login.php 1 -
+/public/css/ion.rangeSlider.css 44 http://www.tripplanner.ge/tours/index/4/7
+/cgi-bin/vhost.php 1 -
+/scripts/utilities/login.asp 1 -
+/recordings/index.php 2 -
+/cgi-bin/showcat.php 2 -
+/scripts/image.php 2 -
+/cgi-bin/login.php 13 -
+/cgi-bin/admin/login/index.php 2 -
+/scripts/Count.cgi 1 -
+/scripts/account/login.php 1 -
+/cgi-bin/more.php 2 -
+/scripts/msg.txt 1 -
+/scripts/index.phtml 3 -
+/cgi-bin/about.php 2 -
+/faq/index.php 1 -
+/cgi-bin/forum.php 1 -
+/sc3/console.php 3 -
+/scripts/db_input.php 1 -
+/header.php 3 -
+/cgi-bin/loudblog/inc/parse_old.php 2 -
+/cgi-bin/admin/remotecontrol/lsrc.server.php 2 -
+/login.jsp 3 -
+/ubbthreads.php 2 -
+/scripts/login.asp 2 -
+/scripts/i-mall.cgi 2 -
+/scripts/index.js%70 2 -
+/scripts/historyFrame.html 2 -
+/src/login.php 2 -
+/phpinfo.php 2 -
+/scripts/config/oramon.ini 2 -
+/cgi-bin/port.php 1 -
+/sendcard.php 2 -
+/imp/status.php3 1 -
+/c100.php 1 -
+/cgi-bin/search.php 4 -
+/public/images/places/big/180.jpg 5 -
+/cgi-bin/tripplanner.zip 1 -
+/scripts/ncbook/ncbook.cgi 1 -
+/more.php 2 -
+/scripts/start.action 2 -
+/scripts/lg.php 1 -
+/member/index.php 1 -
+/search.php 4 -
+/scripts/customer.pl 1 -
+/index.js%70 2 -
+/scripts/Config/diff.php 2 -
+/print.php 2 -
+/scripts/shopexd.asp 1 -
+/scripts/%2f/admin.html 2 -
+/cgi-bin/wwwboard.html 2 -
+/scripts/include.php 1 -
+/cgi-bin/zenworks/jsp/fw/internal/Login.jsp 2 -
+/scripts/mathtex.cgi 2 -
+/scripts/login.php 13 -
+/ConsoleHelp/default.jsp 2 -
+/cgi-bin/msg.txt 1 -
+/cgi-bin/modules/projects/sql/install-0.9.7.php 2 -
+/scripts/wsasp.dll/WService=wsbroker1/webtools/oscommand.w 1 -
+/scripts/more.php 2 -
+/scripts/www.tripplanner.ge.7z 1 -
+/browse.php 4 -
+/scripts/showcat.php 2 -
+/trade.php 2 -
+/cgi-bin/image.php 2 -
+/big.php 1 -
+/scripts/vhost.php 1 -
+/home.html 1 -
+/scripts/www.tripplanner.rar 1 -
+/admin.php 6 -
+/module.php 1 -
+/scmadmin/LocalIndex.html 1 -
+/scripts/index.php 86 -
+/public/js/jquery.barrating.min.js 62 http://tripplanner.ge/tours/full/92/One-day-wine-tour-in-kakheti
+/docbuilder/top.php 2 -
+/lostpass.php 2 -
+/mail/inc/function.php 2 -
+/scripts/sgdynamo.exe 2 -
+/scripts/wa.exe 3 -
+/scripts/profile.asp 1 -
+/cgi-bin/admin/file_manager.php 2 -
+/cgi-bin/cfooter.php3 2 -
+/manage_overview_page.php 2 -
+/scripts/admin/cal_login.php 1 -
+/scripts/wa 3 -
+/scripts/admin/file_manager.php 2 -
+/scripts/tripplanner.bz2 1 -
+/scripts/admin/connect.inc 1 -
+/scripts/forum/HCSpecific/EnableForum.asp 2 -
+/msg.txt 1 -
+/basilic/Config/diff.php 2 -
+/xampp/adodb.php 1 -
+/cgi-bin/rpc.php 2 -
+/public/js/ammap.js 3 http://tripplanner.ge/
+/scripts/fxm.exe 2 -
+/scripts/docman/new.php 2 -
+/scripts/admin/index.php 1 -
+/wp-content/themes//style.css 1 -
+/scripts/www.tripplanner.tar 1 -
+/app/ui/login.jsp 1 -
+/poll/misc/info.php 1 -
+/scripts/admincp/login.php 2 -
+/scripts/ 34 -
+/cart_2.html 1 -
+/scripts/listrec.pl 2 -
+/SF2.5/docman/new.php 2 -
+/mpweb/html/help/000/user_help/help/output/config.js 1 -
+/scripts/hw3.php 2 -
+/robots.txt 365 -
+/cgi-bin/users/users.php 1 -
+/scripts/superguestconfig 1 -
+/scripts/cal_week.php 2 -
+/scripts/op/op.Login.php 1 -
+/raidenhttpd-admin/slice/check.php 2 -
+/scripts/print.php 2 -
+/vicidial/admin.php 2 -
+/images/login_top.gif 2 -
+/scripts/viewcvs.cgi/ 2 -
+/cgi-bin/module.php 1 -
+/php/mytutos.php 3 -
+/scripts/smpwservicescgi.exe 2 -
+/cgi-bin/plog-rss.php 2 -
+/scripts/chat/login.php 2 -
+/nagiosfusion/login.php 1 -
+/scripts/admin.php 6 -
+/Webcam/webcam.html 2 -
+/cgi-bin/encoder.php 2 -
+/scripts/admin/login/index.php 2 -
+/cgi-bin/guestbook/view.php 1 -
+/cgi-bin/admin/cal_login.php 1 -
+/scripts/index.asp 1 -
+/rpc.php 2 -
+/scripts/misc/audio.php 1 -
+/scripts/admin/login/ 2 -
+/scripts/guestbook.php 2 -
+/cgi-bin/plugins/preview/preview.html 2 -
+/public/images/tours/big/64/64.jpg 1 -
+/public/js/bootstrap-select.js 62 http://tripplanner.ge/tours/full/92/One-day-wine-tour-in-kakheti
+/scripts/nessus%22%3e%3cscript%3ealert('django_admin_xss.nasl')%3c%2fscript%3e%2f 1 -
+/scripts/cfooter.php3 2 -
+/nuked-clan/index.php 1 -
+/scripts/sqwebmail 2 -
+/IDMProv/jsps/help/Help.jsp 1 -
+/scripts/www.tripplanner.ge.tar 1 -
+/basilix.php 2 -
+/scripts/samples/sample_posteddata.php 1 -
+/cgi-bin/index.php 90 -
+/scripts/guestbook/view.php 1 -
+/scripts/bin/html2text.php 2 -
+/cgi-bin/admin/index.php 1 -
+/cgi-bin/docman/new.php 2 -
+/scripts/lsg2.cgi 1 -
+/scripts/af.cgi 2 -
+/gwadmin-console/login.jsp 1 -
+/scripts/rpc.php 2 -
+/member.php 2 -
+/scripts/www.tripplanner.zip 1 -
+/cgi-bin/administrator/index.php 2 -
+/cgi-bin/op/op.Login.php 1 -
+/cgi-bin/print.php 2 -
+/scripts/texis/vpSGRvL4-texis_path_disclosure 1 -
+/scripts/static/./WEB-INF/sitemesh.xml 1 -
+/scripts/users/users.php 1 -
+/cgi-bin/cal_week.php 2 -
+/xmlrpc.php 1 -
+/list.php 1 -
+/public/css/bootstrap.css 55 http://tripplanner.ge/tours/full/92/One-day-wine-tour-in-kakheti
+/cgi-bin/admin/general.php 1 -
+/cgi-bin/hw3.php 2 -
+/Reporting/Login/Login.php 1 -
+/cgi-bin/admin.php 6 -
+/scripts/encoder.php 2 -
+/cgi-bin/chat/login.php 2 -
+/public/js/jquery-1.12.3.min.js 63 http://tripplanner.ge/tours/full/92/One-day-wine-tour-in-kakheti
+/wwwboard.html 2 -
+/cgi-bin/tripplanner.ge.zip 1 -
+/cgi-bin/misc/audio.php 1 -
+/cgi-bin/guestbook.php 2 -
+/cgi-bin/samples/sample_posteddata.php 1 -
+/scripts/module.php 1 -
+/admin/general.php 1 -
+/SF2.5/patch/index.php 2 -
+/scripts/plog-rss.php 2 -
+/scripts/info.dat 1 -
+/admin/login.html 2 -
+/agenda.php3 2 -
+/scripts/includes/config.php 1 -
+/scripts/gm.cgi 2 -
+/guestbook/guestbook.php 2 -
+/scripts/admin/general.php 1 -
+/scripts/setup.php 2 -
+/scripts/member.php 2 -
+/www.tripplanner.rar 1 -
+/nessus%22%3e%3cscript%3ealert('django_admin_xss.nasl')%3c%2fscript%3e%2f 1 -
+/scripts/index.php/admin/login/ 2 -
+/scripts/viart_shop.xml 2 -
+/scripts/hosting/addreseller.asp 1 -
+/scripts/modules/projects/sql/install-0.9.7.php 2 -
+/cgi-bin/content.php 1 -
+/scripts/www.tripplanner.tar.gz 1 -
+/scripts/Support/FCKEditor/editor/filemanager/upload/asp/upload.asp 1 -
+/scripts/newsscript.pl 2 -
+/scripts/static/./META-INF/MANIFEST.MF 1 -
+/scripts/www.tripplanner.ge.war 1 -
+/app/idxasp.html 2 -
+/cgi-bin/sendcard.php 2 -
+/ossim/session/login.php 1 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 2 -
+/docs/servlets/index.html 2 -
+/browse_blogs.php 2 -
+/scripts/www.tripplanner.tar.bz2 1 -
+/scripts/src/login.php 2 -
+/altercast/login.jsp 1 -
+/scripts/cwmail.exe 2 -
+/vhost.php 1 -
+/crossdomain.xml 1 -
+/lib/adodb_lite/adodb-perf-module.inc.php 2 -
+/scripts/search/show.pl 3 -
+/scripts/showproduct.php 2 -
+/cgi-bin/tripplanner.rar 1 -
+/tripplanner.ge.zip 1 -
+/scripts/Test11.asp 2 -
+/cgi-bin/livre_include.php 2 -
+/scripts/tripplanner.ge.bz2 1 -
+/scripts/x_news.php 2 -
+/php-ping.php 3 -
+/zenworks/jsp/fw/internal/Login.jsp 2 -
+/scripts/cgiip.exe/WService=wsbroker1/webutil/ping.p 1 -
+/info.php 3 -
+/tripplanner.rar 1 -
+/cgi-bin/pmwiki.php 1 -
+/cgi-bin/browse_blogs.php 2 -
+/www.tripplanner.ge.rar 1 -
+/openbb/index.php 1 -
+/scripts/lp 1 -
+/cgi-bin/remotehtmlview.php 2 -
+/c99shell.php 1 -
+/cgi-bin/php/mytutos.php 3 -
+/scripts/bsml.pl 2 -
+/scripts/misc/info.php 1 -
+/scripts/www.tripplanner.ge.bz2 1 -
+/nosuchfile-268451610-2084384285.jsp 1 -
+/content.php 1 -
+/cgi-bin/basilix.php 2 -
+/index.jsp 1 -
+/public/js/bootstrap-datepicker.min.js 64 http://tripplanner.ge/tours/full/92/One-day-wine-tour-in-kakheti
+/scripts/psunami.cgi 2 -
+/cgi-bin/viart_shop.xml 2 -
+/scripts/DataService.asmx/AuthUser 1 -
+/users/users.php 1 -
+/cgi-bin/member.php 2 -
+/scripts/content.php 1 -
+/Sametime/domino/html/sametime/buildinfoST75CF1.txt 2 -
+/scripts/www.tripplanner.jar 1 -
+/scripts/www.tripplanner.ge.tar.bz2 1 -
+/server/s3_download.php 2 -
+/admin/LocalIndex.html 1 -
+/cgi-bin/lib.inc.php 1 -
+/templates/system/css/system.css 2 -
+/scripts/whois.cgi 1 -
+/tiki-index.php 6 -
+/scripts/hw3.cgi 2 -
+/scripts/help/copyright.html 2 -
+/cgi-bin/setup.php 2 -
+/scripts/admin/check_user.asp 2 -
+/cgi-bin/sql/install-0.9.7.php 2 -
+/dwr/index.html 2 -
+/cgi-bin/src/login.php 2 -
+/cgi-bin/wiki/rankings.php 2 -
+/guestbook/view.php 2 -
+/scripts/perl.exe 1 -
+/cgi-bin/tripplanner.ge.rar 1 -
+/scripts/admin/main.asp 1 -
+/scripts/mt.cgi 2 -
+/scripts/guestbook/cfooter.php3 2 -
+/cgi-bin/historyFrame.html 2 -
+/admin/file_manager.php 2 -
+/scripts/sendcard.php 2 -
+/scripts/texis.exe/ 1 -
+/cgi-bin/admin/define.inc.php 2 -
+/encoder.php 2 -
+/jgs_portal_statistik.php 2 -
+/scripts/jgs_portal_statistik.php 2 -
+/account/login.php 1 -
+/cgi-bin/showproduct.php 2 -
+/reporter/client.jsp 1 -
+/scripts/tripplanner.rar 1 -
+/scripts/SystemInfo 1 -
+/login.php 20 -
+/scripts/man-cgi 1 -
+/webapp/home.html 1 -
+/cgi-bin/x_news.php 2 -
+/misc.php 1 -
+/scripts/search.exe 2 -
+/scripts/php/mytutos.php 3 -
+/scripts/manage_overview_page.php 1 -
+/db_input.php 1 -
+/scripts/basilix.php 2 -
+/public/js/ion.rangeSlider.min.js 48 http://www.tripplanner.ge/tours/index/4/7
+/scripts/remindpasswd 1 -
+/cgi-bin/misc/info.php 1 -
+/blog.php 1 -
+/public/images/places/big/24.jpg 1 -
+/scripts/namazu.cgi 2 -
+/scripts/pmwiki.php 1 -
+/cgi-bin/demos/demo.browse.php 4 -
+/scripts/www.tripplanner.ge.z 1 -
+/cgi-bin/phpping/index.php 1 -
+/scripts/eclient/IDMLogon2.jsp 1 -
+/Config/diff.php 2 -
+/scripts/type.asp 2 -
+/scripts/lostpass.php 2 -
+/scripts/logs/HCDiskQuotaService.csv 2 -
+/scripts/default.asp 4 -
+/scripts/fm.php 1 -
+/scripts/view/TWiki/WebHome 2 -
+/scripts/upgrade/index.php 2 -
+/topic.php 2 -
+/scripts/include/error/forumerror.cfm 2 -
+/scripts/open.php 1 -
+//wp/wp-admin/install.php 1 -
+/scripts/man2html 1 -
+/wizard/index.php 2 -
+/cgi-bin/artifactory/webapp/home.html 1 -
+/webapps/login/index.html 1 -
+/scripts/tripplanner.ge.tar 1 -
+/scripts/forumdata/data/user.idx 2 -
+/scripts/wps_shop.cgi 2 -
+/scripts/api/orders.json 4 -
+/cgi-bin/view.php 1 -
+///wp-admin/install.php 1 -
+/scripts/Default/ 1 -
+/scripts/webapp/home.html 1 -
+/cgi-bin/library/lib.php 2 -
+/cgi-bin/guestimage.html 2 -
+//wordpress/wp-admin/setup-config.php 1 -
+/scripts/gitweb.cgi 1 -
+/scripts/login_page.php 2 -
+/scripts/includer.cgi 2 -
+/scripts/blog.php 1 -
+/public/css/font-awesome.min.css 58 http://tripplanner.ge/tours/full/92/One-day-wine-tour-in-kakheti
+/nagiosxi/login.php 1 -
+/scripts 1 -
+/cal_week.php 2 -
+/xampp/index.php 2 -
+/cgi-bin/admin/login.html 2 -
+/scripts/search.pl 2 -
+/auth.html 1 -
+/j8i1aPheoDE1.html 2 -
+/scripts/www.tripplanner.bz2 1 -
+/tripplanner.zip 1 -
+/filemgr/browse.php 2 -
+/scripts/www.tripplanner.z 1 -
+/scripts/athenareg.php 2 -
+/clearspace/admin/login.jsp 2 -
+/admin/login.jsp 2 -
+/modules/projects/sql/install-0.9.7.php 2 -
+/public/css/bootstrap-select.css 62 http://tripplanner.ge/tours/full/92/One-day-wine-tour-in-kakheti
+/scripts/index.php/login 1 -
+/scripts/main.php 2 -
+/scripts/lib/adodb_lite/adodb-perf-module.inc.php 2 -
+/scripts/breakcal/calendar.cgi 2 -
+/whois.php 1 -
+/scripts/list.php 1 -
+/public/css/css-stars.css 60 http://tripplanner.ge/tours/full/92/One-day-wine-tour-in-kakheti
+/cgi-bin/admin/login.php 3 -
+/scripts/index 1 -
+/cgi-bin/phpinfo.php 2 -
+/scripts/index.cgi 2 -
+/scripts/Security/login 1 -
+/bin/html2text.php 2 -
+/scripts/flserv.pl 2 -
+/cgi-bin/awstatstotals.php 8 -
+/scripts/csSearch.cgi 2 -
+/cgi-bin/dynamicpages/fast/config_page.php 1 -
+/htgrep/file=index.html&hdr=/etc/passwd 2 -
+/plog-rss.php 2 -
+/cgi-bin/jgs_portal_statistik.php 2 -
+/scripts/tripplanner.7z 1 -
+/cgi-bin/webapp/home.html 1 -
 /wordpress/wp-admin/install.php 1 -
-/public/js/bootstrap-select.js 11 http://tripplanner.ge/tours/full/92/One-day-wine-tour-in-kakheti
-/public/js/jquery.barrating.min.js 12 http://tripplanner.ge/tours/full/92/One-day-wine-tour-in-kakheti
-/public/js/notify.min.js 11 http://tripplanner.ge/tours/full/92/One-day-wine-tour-in-kakheti
-/public/js/bootstrap-datepicker.min.js 14 http://tripplanner.ge/tours/full/92/One-day-wine-tour-in-kakheti
-/public/js/bootstrap.js 12 http://tripplanner.ge/tours/full/92/One-day-wine-tour-in-kakheti
-/public/css/bootstrap-datepicker.min.css 12 http://tripplanner.ge/tours/full/92/One-day-wine-tour-in-kakheti
-/public/css/simple-sidebar.css 11 http://tripplanner.ge/tours/full/92/One-day-wine-tour-in-kakheti
-/public/css/site.min.css 11 http://tripplanner.ge/tours/full/92/One-day-wine-tour-in-kakheti
-/public/css/bootstrap-select.css 13 http://tripplanner.ge/tours/full/92/One-day-wine-tour-in-kakheti
-/robots.txt 64 -
-/public/css/font-awesome.min.css 11 http://tripplanner.ge/tours/full/92/One-day-wine-tour-in-kakheti
-/public/css/bootstrap.css 10 http://tripplanner.ge/tours/full/92/One-day-wine-tour-in-kakheti
-/public/js/jquery-1.12.3.min.js 14 http://tripplanner.ge/tours/full/92/One-day-wine-tour-in-kakheti
-/public/css/ion.rangeSlider.skinFlat.css 9 http://www.tripplanner.ge/tours/index/4/7
-/public/css/site.css 3 http://tripplanner.ge/tours/index/0/0/114
-/public/css/fontawesome-stars.css 10 http://tripplanner.ge/tours/full/92/One-day-wine-tour-in-kakheti
-/public/js/parallax.min.js 13 http://tripplanner.ge/tours/full/92/One-day-wine-tour-in-kakheti
-/public/css/css-stars.css 12 http://tripplanner.ge/tours/full/92/One-day-wine-tour-in-kakheti
-/public/images/tours/big/311/3115.jpg 1 -
+/scripts/goto.asp 1 -
+/cfanywhere/index.html 2 -
+//wordpress/wp-admin/install.php 1 -
+/scripts/neomail-prefs.pl 2 -
+/cgi-bin/fm.php 1 -
+/scripts/activeauctionsuperstore/ItemInfo.asp 2 -
+/cgi-bin/htgrep/file=index.html&hdr=/etc/passwd 2 -
+/cgi-bin/lostpass.php 2 -
+/scripts/info2www 2 -
+/Reporting/login/change_password.php 2 -
+/bad_permissions.html 1 -
+/cgi-bin/api/orders.json 4 -
+/scripts/view.php 1 -
+/scripts/artifactory/webapp/home.html 1 -
+/cgi-bin/open.php 1 -
+/addentry.php 1 -
+/scripts/math_sum.mscgi 1 -
+/admin/remotecontrol/lsrc.server.php 2 -
+/scripts/tripplanner.ge.z 1 -
+/scripts/README.TXT 1 -
+/scripts/CFIDE/probe.cfm 2 -
+/scripts/GTcatalog/password.inc 2 -
+/patch/index.php 2 -
+/cgi-bin/index.php/login 1 -
+/public/css/fontawesome-stars.css 61 http://tripplanner.ge/tours/full/92/One-day-wine-tour-in-kakheti
+/cgi-bin/main.php 2 -
+/api/orders.json 4 -
+/cgi-bin/athenareg.php 2 -
+/cgi-bin/login_page.php 2 -
+/cgi-bin/blog.php 1 -
+/scripts/login.wdm 2 -
+/index.html 6 -
+/scripts/CMSlogin.aspx 1 -
+/scripts/sitefinity/login.aspx 2 -
+/scripts/BrowserWeb/portal/portalbanner.htm 1 -
+/setup.php 2 -
+/scripts/phpping/index.php 1 -
+/scripts/www.tripplanner.ge.rar 1 -
+/captcha.html 1 -
+/cgi-bin/list.php 1 -
+/clientaccesspolicy.xml 1 -
+/cgi-bin/static/./WEB-INF/sitemesh.xml 1 -
+/images/logon_merge.gif 2 -
+/scripts/phpinfo.php 2 -
+/cgi-bin/lib/adodb_lite/adodb-perf-module.inc.php 2 -
+/scripts/admin/login.php 3 -
+/main_internet.php 1 -
+/scripts/www.tripplanner.ge.zip 1 -
+/scripts/ericom.min.js 1 -
+/scripts//atk/javascript/class.atkdateattribute.js.php 2 -
+/scripts/view_user.php 2 -
+/scripts/folderview.asp 2 -
+/cgi-bin/index.php/index.html 2 -
+/scripts/htsearch 2 -
+/scripts/server/s3_download.php 2 -
+/ownCloud/Nessus404/index.php 2 -
+/scripts/admin/admin.php 7 -
+/scripts/index.php/index.html 2 -
+/scripts/_admin/ 1 -
+/public/css/site.css 25 http://tripplanner.ge/tours/index/0/0/114
+/modules.php 1 -
+/scripts/admin/remotecontrol/lsrc.server.php 2 -
+/cgi-bin/patch/index.php 2 -
+/scripts/samba/smb2www.pl 2 -
+/artifactory/webapp/home.html 1 -
+/cgi-bin/adodb-perf-module.inc.php 2 -
+/scripts/wizard/index.php 2 -
+/appserv/main.php 2 -
+/cgi-bin/topic.php 2 -
+/scripts/shopaddtocart.asp 1 -
+/scripts/captcha.html 1 -
+/scripts/texis.exe/vpSGRvL4-texis_path_disclosure 1 -
+/cgi-bin/home.html 1 -
+/cgi-bin/jcart-relay.php 1 -
+/scripts/tripplanner.tar.gz 1 -
+/scripts/newsdata/data/user.idx 2 -
+/scripts/adodb-perf-module.inc.php 2 -
+/guestbook.php 2 -
+/public/css/site.min.css 43 http://tripplanner.ge/tours/full/92/One-day-wine-tour-in-kakheti
+/Sametime/buildinfo.txt 2 -
+/scripts/info.php 2 -
+/nessus345678.html 2 -
+/scripts/admin/components/com_fm/fm.install.php 1 -
+/cgi-bin/whois.php 1 -
+/scripts/admin/index.asp 2 -
+/dfshealth.jsp 1 -
+/scripts/ttx.cgi 8 -
+/scripts/loader-wizard.php 1 -
+/xampp/start.php 2 -
+/scripts/login.pl 2 -
+/cgi-bin/admin/admin.php 7 -
+/scripts/ion-p.exe 2 -
+/www.tripplanner.zip 1 -
+/showproduct.php 2 -
+/clan/index.php 1 -
+/cgi-bin/ericom.min.js 1 -
+/scripts/listinfo/ 2 -
+/cgi-bin/view_user.php 2 -
+/demos/demo.browse.php 4 -
+/scripts/administrator/index.php 2 -
+/cgi-bin/www.tripplanner.ge.zip 1 -
+/sf/patch/index.php 2 -
+/scripts/wspd_cgi.sh/WService=wsbroker1/webtools/oscommand.w 1 -
+/scripts/jcart-relay.php 1 -
+/scripts/wsnsa.dll/WService=wsbroker1/webtools/oscommand.w 1 -
+/cgi-bin/inc/pipe.php 2 -
+/js/hpsum/hpsum-version.js 9 -
+/cgi-bin/captcha.html 1 -
+/scripts/home.html 1 -
+/scripts/includes/awol-condensed.inc.php 2 -
+/cgi-bin/wizard/index.php 2 -
+/cgi-bin/guestbook/cfooter.php3 2 -
+/scripts/patch/index.php 2 -
+/scripts/topic.php 2 -
+/upgrade/index.php 2 -
+/cgi-bin/Nessus404/index.php 2 -
+/scripts/WorkArea/ContentRatingGraph.aspx 1 -
+/cgi-bin/info.php 2 -
+/wordtrans.php 2 -
+/bigdump.php 1 -
+/public/css/bootstrap-datepicker.min.css 63 http://tripplanner.ge/tours/full/92/One-day-wine-tour-in-kakheti
+/cgi-bin/includes/config.php 1 -
+/public/images/tours/big/62/621.jpg 1 -
+/scripts/neomail.pl 2 -
+/scripts/whois.php 1 -
+/cgi-bin/loader-wizard.php 1 -
+/eclient/IDMLogon2.jsp 1 -
+/public/images/tours/big/66/661.jpg 1 -
+/op/op.Login.php 2 -
+/scripts/www.tripplanner.tgz 1 -
+/scripts/clwarn.cgi 1 -
+/sfm/fm.php 1 -
+/samples/sample_posteddata.php 1 -
+/%2f/admin.html 2 -
+/scripts/index.cfm 3 -
+/cgi-bin/ideabox/include.php 1 -
+/forum.php 3 -
+/scripts/About/frmAbout.aspx 1 -
+/scripts/Articles/default.asp 2 -
+/phprojekt/setup.php 2 -
+/js/zimbraMail/share/model/ZmSettings.js 2 -
+/SignIn.html 2 -
+/scripts/www.tripplanner.Z 1 -
+/scripts/mpweb/html/help/000/user_help/help/output/config.js 1 -
+/scripts/browse.php 4 -
+/scripts/query.cgi 1 -
+/scripts/tripplanner.ge.zip 1 -
+/scripts/search.cgi 2 -
+/scripts/printfaq.php 2 -
+/scripts/tripplanner.ge.tar.gz 1 -
+/x_news.php 2 -
+/scripts/ncbook.cgi 1 -
+/scripts/admin.pl 2 -
+/scripts/modules.php 1 -
+/cgi-bin/member/index.php 1 -
+/public/images/tours/big/311/3115.jpg 4 -
+/view.php 2 -
+/scripts/query 2 -
+/cgi-bin/includes/awol-condensed.inc.php 2 -
+/scripts/webplus.exe 2 -
+/scripts/gitweb.pl 1 -
+/cgi-bin/www.tripplanner.ge.rar 1 -
+///wp-admin/setup-config.php 1 -
+/cgi-bin/account/login.php 1 -
+/cgi-bin/admin/templates/header.php 2 -
+/cgi-bin/nessus%22%3e%3cscript%3ealert('django_admin_xss.nasl')%3c%2fscript%3e%2f 1 -
+/Admin/index.jsp 2 -
+/SE/EMC_SE.swf 4 -
+/scripts/tripplanner.ge.Z 1 -
+/scripts/wsnsa.dll/WService=wsbroker1/webutil/ping.p 1 -
+/scripts/.|./.|./.|./.|./.|./.|./.|./.|./.|./.|./.|./.|./winnt/win.ini 1 -
+/scripts/YaBB.pl 2 -
+/guestbook/cfooter.php3 4 -
+/cgi-bin/admincp/login.php 2 -
+/user.php 3 -
+/scripts/admin/login.html 2 -
+//admincp/login.php 2 -
+/scripts/w3who.dll 2 -
+/scripts/verify.asp 1 -
+/webl/index.html 2 -
+/login.html 7 -
+/news.php 2 -
+/cgi-bin/upgradev1.php 2 -
+/scripts/shop.plx/page=nessus598717804 1 -
+/bugport/php/index.php 2 -
+/scripts/upload/upload-submit.do 1 -
+/wiki/index.php 1 -
+/static/./WEB-INF/sitemesh.xml 1 -
+/scripts/ServerView/SnmpView/SnmpListMibValues 2 -
+/cgi-bin/doku.php 1 -
+/plugins/preview/preview.html 2 -
+/public/js/notify.js 58 http://tripplanner.ge/tours/full/92/One-day-wine-tour-in-kakheti
+/intranet/browse.php 2 -
+/cgi-bin/index2.php 2 -
+/status.php3 1 -
+/scripts/bizmail.cgi 1 -
+/wiki/rankings.php 2 -
+/scripts/CHANGELOG.md 2 -
+/cgi-bin/roschedule.php 1 -
+/scripts/contact.php 1 -
+/scripts/agenda.php3 2 -
+/printfaq.php 2 -
+/scripts/addentry.php 1 -
+/scripts/manager/ 2 -
+/static/./WEB-INF/web.xml 1 -
+/help.php 1 -
+/help/copyright.html 2 -
+/public/images/tours/big/65/65.jpg 1 -
+/include.php 1 -
+/showcat.php 2 -
+/cgi-bin/modules.php 1 -
+/includes/config.php 1 -
+/symantec.jsp 1 -
+/scripts/webdist.cgi 1 -
+/moadmin.php 1 -
+/scripts/gtcatalog/password.inc 2 -
+/cgi-bin/browse.php 4 -
+/cgi-bin/printfaq.php 2 -
+/ownCloud/index.php 4 -
+/scriptsmessageDetail.asp 1 -
+/public/larisome/font-larisome.min.css 65 http://tripplanner.ge/tours/full/92/One-day-wine-tour-in-kakheti
+/cgi-bin/docbuilder/top.php 2 -
+/scripts/whois_raw.cgi 4 -
+/scripts/www.tripplanner.ge.jar 1 -
+/cgi-bin/password_reminder.php 2 -
+/scripts/Nessus404/index.php 2 -
+/public/images/tours/big/67/67.jpg 1 -
+/scripts/password_reminder.php 2 -
+/includes/awol-condensed.inc.php 4 -
+/f360/login.jsp 1 -
+/rcladmin/js/art_i18n/nls/art_i18n.js 2 -
+/administrator/index.php 2 -
+/scripts/wsasp.dll/WService=wsbroker1/webutil/ping.p 1 -
+/roschedule.php 1 -
+/scripts/doku.php 1 -
+/scripts/tripplanner.jar 1 -
+/scripts/upgradev1.php 2 -
+/cfooter.php3 4 -
+/jretest.html 1 -
+/admin/login/index.php 2 -
+/scripts/SLwebmail/ShowLogin.dll 2 -
+/cgi-bin/GTcatalog/index.php 1 -
+/scripts/www.tripplanner.war 1 -
+/nquser.php 2 -
+/main.php 1 -
+/cgi-bin/addentry.php 1 -
+/scripts/alienform.cgi 2 -
+/loudblog/inc/parse_old.php 2 -
+/cgi-bin/manage_overview_page.php 2 -
+/cgi-bin/contact.php 1 -
+/phpping/index.php 2 -
+/cgi-bin/agenda.php3 2 -
+/scripts/roschedule.php 1 -
+/scripts/wiki/rankings.php 2 -
+/images 1 -
+/admincp/login.php 2 -
+/scripts/mapserv 1 -
+/eyespyfx_large.jsp 2 -
+/public/js/notify.min.js 58 http://tripplanner.ge/tours/full/92/One-day-wine-tour-in-kakheti
+/scripts/tripplanner.tgz 1 -
+/pmwiki.php 1 -
+/admin/setup.php 2 -
+/cgi-bin/help/copyright.html 2 -
+/scripts/tripplanner.ge.jar 1 -
+/cgi-bin/faq/index.php 1 -
+/intruvert/jsp/admin/Login.jsp 2 -
+/scripts/shop.plx/page=nessus1250540767 1 -
+/scripts/www.tripplanner.ge.tgz 1 -
+/scripts/crossdomain.xml 1 -
+/scripts/misc.php 1 -
+/scripts/smb2www.pl 2 -
+/scripts/www.tripplanner.ge.tar.gz 1 -
+/scripts/mj_wwwusr 2 -
+/scripts/cgi-bin/login.cgi 2 -
+/scripts/WackoWiki 1 -
+/sapmc/sapmc.html 2 -
+/moadmin/moadmin.php 1 -
+/cgi-bin/server/s3_download.php 2 -
+/scripts/am.pl 1 -
+/open.php 1 -
+/cgi-bin/ashnews.php 2 -
+/scripts/php-ping.php 3 -
+/cgi-bin/user.php 3 -
+/scripts/csv_db.cgi 1 -
+/scripts/browse_blogs.php 2 -
+/public/js/georgiaLowEN.js 2 http://tripplanner.ge/
+/scripts/login.mako 1 -
+/scripts/tripplanner.war 1 -
+/klan/index.php 1 -
+/cgi-bin/admin/components/com_fm/fm.install.php 1 -
+/cgi-bin/bin/html2text.php 2 -
+/shared/userlogin.php 1 -
+/scripts/about 2 -
+/admin/login.php 5 -
+/cgi-bin/data/fetch.php 1 -
+/scripts/wsisa.dll/WService=wsbroker1/webtools/oscommand.w 1 -
+/fm.php 1 -
+/scripts/loudblog/inc/parse_old.php 2 -
+/scripts/tripplanner.gz 1 -
+/cgi-bin/news.php 2 -
+/scripts/forums/list.page 1 -
+/scripts/settings/site.ini 1 -
+/scripts/www.tripplanner.gz 1 -
+/admin/index.php 3 -
+/scripts/login 2 -
+/scripts/tripplanner.ge.rar 1 -
+/scripts/member/index.php 1 -
+/scripts/faq/index.php 1 -
+/maps/map.php 17 http://tripplanner.ge/tours/full/517/
+/ericom.min.js 1 -
+/poster/index.php 1 -
+/docman/new.php 2 -
+/doku.php 1 -
+/scripts/tripplanner.Z 1 -
+/scripts/c/portal/login 2 -
+/hw3.php 2 -
+/scripts/login.cgi 6 -
+/scripts/gitweb.perl 1 -
+/public/css/ion.rangeSlider.skinFlat.css 45 http://www.tripplanner.ge/tours/index/4/7
+/scripts/www.tripplanner.ge.gz 1 -
+/data/fetch.php 1 -
+/scripts/cgiip.exe/WService=wsbroker1/webtools/oscommand.w 1 -
+/scripts/nph-exploitscanget.cgi 1 -
+/cgi-bin/index.php/admin/login/ 2 -
+/sf/docman/new.php 2 -
+/scripts/tripplanner.ge.7z 1 -
+/scripts/man2web 1 -
+/wp-login.php 8 -
+/scripts/Login.aspx 1 -
+/cgi-bin/crossdomain.xml 1 -
+/cgi-bin/misc.php 1 -
+/scripts/hints.pl 2 -
+/scripts/docbuilder/top.php 2 -
+/scripts/user.php 3 -
+/scripts/tripplanner.tar 1 -
+/scripts/DesktopModules/BDPDT/uploadfilepopup.aspx 1 -
+/scripts/db/users.dat 3 -
+/tripplanner.ge.rar 1 -
+/scripts/boarddata/data/user.idx 2 -
+/scripts/console/login.action 2 -
+/scripts/perl 1 -
+/public/css/simple-sidebar.css 59 http://tripplanner.ge/tours/full/92/One-day-wine-tour-in-kakheti
+/password_reminder.php 2 -
+/cgi-bin/php-ping.php 3 -
+/scripts/data/fetch.php 1 -
+/inc/function.php 2 -
+/scripts/wspd_cgi.sh/WService=wsbroker1/webutil/ping.p 1 -
+/scripts/viewCat.asp 1 -
+/scripts/productsByCategory.asp 2 -
+/scripts/news.php 2 -
+/scripts/zenworks/jsp/fw/internal/Login.jsp 2 -
+/WEB-INF./web.xml 2 -
+/cgi-bin/upgrade/index.php 2 -
+/admin/components/com_fm/fm.install.php 1 -
+/scripts/shop.plx 1 -
+/scripts/sql/install-0.9.7.php 2 -
 END_SIDER_404
 
 # Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
 # [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
 # The 25 first Hits must be first (order not required for others)
-BEGIN_VISITOR 4
-37.145.187.107 0 1 77789 
+BEGIN_VISITOR 15
+192.254.186.169 11 11 796 20190513230855
+94.240.245.46 6 6 367130 20190514043723
+66.133.109.36 3 3 261 20190513230855
+184.154.139.9 2 2 437788 20190513230747
+37.204.75.254 0 1 843452 
+185.19.20.233 0 2 798882 
 95.28.18.31 0 1 119123 
-185.19.20.233 0 1 505629 
+31.13.115.21 0 1 91547 
+46.188.31.169 0 1 80627 
 128.68.111.219 0 1 22781821 
+37.204.9.196 0 2 586506 
+87.228.63.179 0 1 148943 
+37.145.10.63 0 1 69708 
+37.145.187.107 0 1 77789 
+31.13.115.24 0 1 91547 
 END_VISITOR
 
 # Date - Pages - Hits - Bandwidth - Visits
-BEGIN_DAY 2
+BEGIN_DAY 10
 20190502 0 1 77789 0
 20190503 0 3 23406573 0
+20190508 1 2 327143 1
+20190510 1 1 33890 1
+20190511 0 1 843452 0
+20190513 17 17 472735 4
+20190514 3 5 415795 1
+20190520 0 1 148943 0
+20190527 0 2 183094 0
+20190531 0 2 586506 0
 END_DAY
 
 # Session range - Number of visits
-BEGIN_SESSION 0
+BEGIN_SESSION 2
+15mn-30mn 1
+0s-30s 6
 END_SESSION
 
 # URL - Pages - Bandwidth - Entry - Exit
 # The 25 first Pages must be first (order not required for others)
-BEGIN_SIDER 0
+BEGIN_SIDER 17
+/cpanel 3 101670 3 3
+/info.php 3 265460 1 1
+/sitemap.xml 2 437788 1 1
+/.well-known/acme-challenge/WKHr5d_rEIsUIhu948lf5pC7q9spc3jofKlEfSTZLmc 1 87 0 0
+/.well-known/acme-challenge/8SDS-OUE2KL1BCN85XZJBBLYOPL3S0MK 1 64 0 0
+/.well-known/acme-challenge/LtLQhnFgY0GPZrp9faoOZWlWKokfcup6kF0oxjDEoas 1 87 0 1
+/.well-known/acme-challenge/UQXW3W5_27GHTALKGP74N-H6GSPBWFB8 1 64 0 0
+/.well-known/acme-challenge/SMdzS79NQPT8IGaXbq5FNTO1ePWRH5zDdJWLVorwscw 1 87 0 0
+/.well-known/acme-challenge/I6O801YUCS2LMFST-ECIF74QG-W2VOEK 1 64 1 0
+/.well-known/acme-challenge/yyv9pfermZhjkgixF-p58iNTkFDgP5dwRLcM54uA3eY 1 87 0 0
+/.well-known/acme-challenge/g-7277P70mVOTiK7MD6FJbqQp16eyxQq2cmvx_4J8vc 1 87 0 1
+/.well-known/acme-challenge/Q6E9A1J_GT-LG2R-BT0Q8IKXN5WVJKQS 1 64 0 0
+/.well-known/acme-challenge/0WGHVSSOEO0GY2L3YHQOWJZ2NGIY9QX6 1 64 0 0
+/.well-known/acme-challenge/kpltxH-NNiw32A6Q69bHMsvFzqc-n28Nz9Gd2UkW-1c 1 87 0 0
+/.well-known/acme-challenge/S63JdBhIhhqHvshT3UqvOz6b56QJ5GE1NiY4qbDev4Y 1 87 1 0
+/.well-known/acme-challenge/J4U1AKEGUPO6YDQ95E5KJC8P0H9MQYN6 1 64 0 0
+/.well-known/acme-challenge/NZXMCV8TO2AUB3IQY6IP5K63GHNAJL_7 1 64 0 0
 END_SIDER

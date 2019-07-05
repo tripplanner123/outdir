@@ -1,0 +1,979 @@
+Return-Path: <biuro@ambasadapodroznikow.pl>
+Delivered-To: info@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP
+	id uLLzAFH2AF2THA4A8w4q4w
+	(envelope-from <biuro@ambasadapodroznikow.pl>)
+	for <info@tripplanner.ge>; Wed, 12 Jun 2019 07:55:45 -0500
+Return-path: <biuro@ambasadapodroznikow.pl>
+Envelope-to: info@tripplanner.ge
+Delivery-date: Wed, 12 Jun 2019 07:55:45 -0500
+Received: from mail1.zenbox.pl ([178.216.201.46]:40264)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92)
+	(envelope-from <biuro@ambasadapodroznikow.pl>)
+	id 1hb2n0-003wsU-GJ
+	for info@tripplanner.ge; Wed, 12 Jun 2019 07:55:44 -0500
+Received: from mail1.zenbox.pl (localhost [127.0.0.1])
+	by mail1.zenbox.pl (Postfix) with ESMTP id 1C47E5E382
+	for <info@tripplanner.ge>; Wed, 12 Jun 2019 14:55:29 +0200 (CEST)
+Received: from mail1.zenbox.pl (localhost [127.0.0.1])
+	by mail1.zenbox.pl (Postfix) with ESMTP id DEA975E39E
+	for <info@tripplanner.ge>; Wed, 12 Jun 2019 14:55:28 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at mail1.zenbox.pl
+Authentication-Results: mail1.zenbox.pl (amavisd-new);
+	dkim=pass (2048-bit key) header.d=ambasadapodroznikow.pl
+Received: from mail1.zenbox.pl ([127.0.0.1])
+	by mail1.zenbox.pl (mail1.zenbox.pl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id zZMTqK9YpZYv for <info@tripplanner.ge>;
+	Wed, 12 Jun 2019 14:55:26 +0200 (CEST)
+Received: from poczta.zenbox.pl (unknown [185.23.21.90])
+	by mail1.zenbox.pl (Postfix) with ESMTPA id DC6CE5E39C
+	for <info@tripplanner.ge>; Wed, 12 Jun 2019 14:55:25 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple;
+	d=ambasadapodroznikow.pl; s=x; t=1560344125;
+	bh=I7HtTLsWC+dKCezkM3a4nXI65TwaD9c6vhqJnnx5DcQ=;
+	h=Date:From:To:Subject:In-Reply-To:References;
+	b=no/F/fcJiDHlE2BUufZRhqgN6dnH7T+vR3gLBSYcMx+UK+zxtbSzXLCyxzInw/kZN
+	 JotXem6J49ueqOjrjhxBnVhOrSW3+ULRuj8tcOqI+uGLTups9yhugLZpeXXyR0WN6f
+	 I2SKJlWlmANdKppJf5s4tCsnNN01+rCsmgYdffx1GYz7ftfgZexSNPTB/MMbFytbKu
+	 ncMwYKS5NyUBbokYIuyMcxN7nwgT2aoq1Ng8LId5TcNB8QwY9fhb/xeSV2E9qIst7V
+	 +i2NqOwv6EMC2Cxjf1ZYSMvrEwP+fdIKbTKtnafKkqlXdFykXMnwoKNvjptBV7X7Dz
+	 o3PAIkV0LTRDQ==
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="=_855da5f41015d8b13665cbd2cb18088d"
+Date: Wed, 12 Jun 2019 14:55:27 +0200
+From: =?UTF-8?Q?Ambasada_Podr=C3=B3=C5=BCnik=C3=B3w?=
+ <biuro@ambasadapodroznikow.pl>
+To: "tripplanner.ge" <info@tripplanner.ge>
+Subject: Re: tripplanner
+In-Reply-To: <6D1AB168-840F-4200-B623-75FB5CDD1523@tripplanner.ge>
+References: <20190312072921.765732065EBD@mail21.zenbox.pl>
+ <7E30CF27-0540-443E-B092-983E33F2A862@tripplanner.ge>
+ <8f8e81f539a0adf56d10a2653228dc6c@ambasadapodroznikow.pl>
+ <0C8F761A-E011-4E5F-AB8B-8ED527B1FB15@tripplanner.ge>
+ <DE5E695D-D3E1-4FF5-B998-70398E33E766@tripplanner.ge>
+ <62EB45E2-2B4F-4941-BCF4-50DC667A85F5@tripplanner.ge>
+ <f175ae22fbf80d95f0dd81b7b51b3806@ambasadapodroznikow.pl>
+ <6236A437-F5DF-405B-BDE7-6321914F2206@tripplanner.ge>
+ <fece6783725afd08afb10f0b6a9b738d@ambasadapodroznikow.pl>
+ <83986938-3F06-408A-8966-74578089B47A@tripplanner.ge>
+ <17fc006a3a495f081a05514a25119eea@ambasadapodroznikow.pl>
+ <15B2E944-A2B2-4443-B03E-368FBB5BE496@tripplanner.ge>
+ <2b1985d565011d6854702f628846e9cc@ambasadapodroznikow.pl>
+ <8EEE63F9-2AE1-4924-ACF8-EB674D54AD3C@tripplanner.ge>
+ <6D1AB168-840F-4200-B623-75FB5CDD1523@tripplanner.ge>
+Message-ID: <2db4cb94f6846ea9ed38ae4eec1da78b@ambasadapodroznikow.pl>
+X-Sender: biuro@ambasadapodroznikow.pl
+User-Agent: poczta.zenbox.pl
+X-Spam-Status: No, score=-0.5
+X-Spam-Score: -4
+X-Spam-Bar: /
+X-Spam-Flag: NO
+
+--=_855da5f41015d8b13665cbd2cb18088d
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset=UTF-8
+
+It's 11 nights. We already booked accomodation in Kutaisi, Tibiisi,
+Borjomi and Batumi. 
+
+We have only problems in Kazbegi. Our budget is maximum 50GEL per person
+with breakfast. We gonna stay there 7-9 of August. Maybe you can help
+us?
+Our plan of accomodation: 
+
+4-5 Kutaisi 
+
+5-7 Tibilisi 
+
+7-9 Kazbegi 
+
+9-10 Borjomi 
+
+10-15 Batumi 
+
+Greetings! 
+
+W dniu 2019-06-05 13:15, tripplanner.ge napisał(a):
+
+> Hello Damian,   
+> 
+> Arrival and Departure dates that you've sent is 4-15 August, it turned out 12 days (schedule is on11 days) 
+> Please tell us on which dates are you going to book accommodations,(or have you already booked)  
+> Should we provide one more day tour somewhere,? Or will you pan it yourself? 
+> 
+>> regards 
+>> 
+>> Giorgi Nabakhtevli 
+>> 
+>> Tripplanner.ge
+> 
+> On Jun 4, 2019, at 2:47 PM, tripplanner.ge <info@tripplanner.ge> wrote: 
+> 
+> Hello Damian, 
+> 
+> We are  glad to hear that,  
+> 
+> We have already discussed schedule and price of  tour with you before: 
+> 
+> Day 1: Transfer form Kutaisi airport to the hotel
+> visit Kolchida, Imeretia, Bagrati   (depends on arrival time) 
+> 
+> Day 2: transfer from Kutaisi to Tibilisi and we gonna stop in Mtskheta, Dzwari and Sweticchoweli 
+> 
+> Day 3: Tibilisi walking tour 
+> 
+> Day 4: transfer from Tibilisi to Kazbegi, traditional dinner in the family house 
+> 
+> Day 5: transfer from Kazbegi to Borjomi, we gonna stop in Uplistsikhe 
+> 
+> Day 6: transfer from Borjomi to Batumi, we gonna stop in Prometeus Cave 
+> 
+> Day 7: break
+> 
+> Day 8:  Wine tour in Adjarian mountains (basic) 
+> 
+> Day 9: transfer to botanical garden 
+> 
+> Day 10: traditional dinner in the family house (optional Mitral National Park - we decide if group wish to go there)
+> 
+> Day 11: transfer from Batumi to Kutaisi airport  
+> 
+> Cost of transportation during all trip will be 5700 Gel ( 2125 USD ) it includes a comfortable bus and driver with you all 11 days, also driver accommodation and meals charges. 
+> 
+> Cost of traditional dinner in Kazbegi 30Gel(11.2USD) per person ,total- 30*25=750Gel (280 USD) 
+> 
+> Cost of traditional dinner in Batumi 30Gel(11.2USD) per person, total- 30*25=750Gel (280 USD) 
+> 
+> Wine degustation ( 3 tipe of wine or 2 tipes of wine and chacha +snaks: cheese and churchkhela) 25Gel(9.2USD) per person, total-25*25=625GEL(about 230 USD) 
+> 
+> So the price of all 11 days will be : 7825Gel (2920 USD): 116.8 USD per peron for 11days and 10.63 USD per peson for a day. ( For 25 person) 
+> 
+> (you can transfer  money  in USD  in the rate of transfer day,)   
+> As soon as you confirm we will send the invoice for the tour. 
+> 
+> Best regards 
+> 
+> Giorgi Nabakhtevli 
+> 
+> Tripplanner.ge 
+> 
+> On Jun 3, 2019, at 7:21 PM, Ambasada Podróżników <biuro@ambasadapodroznikow.pl> wrote: 
+> 
+> Hello!
+> 
+> We already booked tickets. We gonna arrive on 4th of August at 15:15 on Kutaisi airport (flight from Berlin). 
+> 
+> We are leaving on 15th of August at 23:10 from Kutaisi airport (flight to Katowice).
+> 
+> 25 people: 23 turist and 2 pilots - people from our organisation.
+> 
+> Greetings! 
+> 
+> Damian 
+> 
+> W dniu 2019-04-22 10:21, tripplanner.ge napisał(a): 
+> Hi, 
+> 
+> We are glad that our offer is fit for you, let us know exact dates as soon as possible, because we have to reserve bus, restaurants and wine cellar, 
+> 
+> Greetings  
+> 
+> tripplanner.ge 
+> 
+> On Apr 17, 2019, at 10:43 PM, Ambasada Podróżników <biuro@ambasadapodroznikow.pl> wrote: 
+> 
+> Ok, that's fit for us. We are going to fly between 06-20 August. But we don't have tickets yet couse they are quite expensive. we are waiting for better price.
+> 
+> Greetings
+> 
+> W dniu 2019-04-03 14:05, tripplanner.ge napisał(a): 
+> 
+> Hello Damian, 
+> 
+> Cost of transportation during all trip will be 5700 Gel ( 2125 USD ) it includes a comfortable bus and driver with you all 11 days, also driver accommodation and meals charges. 
+> 
+> Cost of traditional dinner in Kazbegi 30Gel(11.2USD) per person ,total- 30*25=750Gel (280 USD) 
+> 
+> Cost of traditional dinner in Batumi 30Gel(11.2USD) per person, total- 30*25=750Gel (280 USD) 
+> 
+> Wine degustation ( 3 tipe of wine or 2 tipes of wine and chacha +snaks: cheese and churchkhela) 25Gel(9.2USD) per person, total-25*25=625GEL(about 230 USD) 
+> 
+> So the price of all 11 days will be : 7825Gel (2920 USD): 116.8 USD per peron for 11days and 10.63 USD per peson for a day. ( For 25 person) 
+> 
+> We are interested when you are going to arrive,   
+> 
+> Waiting for your answers, 
+> 
+> Best regards, 
+> 
+> Giorgi Nabakhteveli 
+> 
+> Tripplanner.ge
+> 
+> On Apr 2, 2019, at 1:57 AM, Ambasada Podróżników <biuro@ambasadapodroznikow.pl> wrote: 
+> 
+> Hello!
+> 
+> Ok, to be fully clear, we discussed the plan with our guids and now we excactly know where we want to go and what service you should provide. Please recalculate the price. We don't provide meals for group except two traditional dinners.
+> 
+> Day 1: Transfer form Kutaisi airport to the hotel
+> visit Kolchida, Imeretia, Bagrati   (depends on arrival time) 
+> 
+> Day 2: transfer from Kutaisi to Tibilisi and we gonna stop in Mtskheta, Dzwari and Sweticchoweli 
+> 
+> Day 3: Tibilisi walking tour 
+> 
+> Day 4: transfer from Tibilisi to Kazbegi, traditional dinner in the family house 
+> 
+> Day 5: transfer from Kazbegi to Borjomi, we gonna stop in Uplistsikhe 
+> 
+> Day 6: transfer from Borjomi to Batumi, we gonna stop in Prometeus Cave 
+> 
+> Day 7: break
+> 
+> Day 8:  Wine tour in Adjarian mountains (basic) 
+> 
+> Day 9: transfer to botanical garden 
+> 
+> Day 10: traditional dinner in the family house (optional Mitral National Park - we decide if group wish to go there) 
+> 
+> Day 11: transfer from Batumi to Kutaisi airport 
+> 
+> Depends on your price we gonna confirm if the plan we want to change or not. 
+> 
+> Best regards, 
+> 
+> Damian  
+> 
+> W dniu 2019-03-25 11:20, tripplanner.ge napisał(a): 
+> 
+> Hello Damian, 
+> 
+> Price of transportation 730$ is only cost of transfer: Kutaisi Airport-Tbilisi, Tbilisi-Borjomi-Batumi (without staying in Borjomi and Batumi) , Batumi-Kutaisi Airport.  
+> Cost of wine degustation is from 8 to 20 $ per person , it depends on wine cellar, number and sorts of wines, chacha and snacks.  
+> Price  of tickets ( price of entrance in tourist objects we provide in you tours) is  from 2,5 GEL to 20 GEL per person.  
+> If you dont want to cover meals We will arrange   for you 2 times traditional dinner in the family house or traditional restaurant or Wine Cellar , tell us when and on which way you want it.  
+> We can provide a guide for Tbilisi tour (old city walking tour or by bus, or combined) 
+> So let me know if you are confirming or not the tours we offered you, (Ekaterine wrote you a program). Because in case of editing the tours the transfer prices will be changed. 
+> 
+> Regards, 
+> 
+> Giorgi Nabakhteveli 
+> 
+> Tripplanner.ge 
+> 
+> On Mar 25, 2019, at 3:25 AM, Ambasada Podróżników <biuro@ambasadapodroznikow.pl> wrote: 
+> 
+> Hello George,
+> 
+> We don't cover meals for people, they pay for themself however we would like to have 2 
+> 
+> or something like that. We have our own guide who was already in Georgia, couse our group can't speak in English we need to provide them polish speaker guide.
+> However we would like to meet with someone in Tibilisi and go for a tour around the city and traditional dinner.
+> In previous emial you send cost of transportation 225 + 280 + 225 = 730$ Please write me more about cost of wine degustation and tickets for what we should pay and recalculate the sum.
+> 
+> Greetings
+> Damian
+> 
+> W dniu 2019-03-18 09:06, tripplanner.ge napisał(a): 
+> 
+> Hello,  
+> 
+> We have sent you two mails with different prices, the firs one is discount price , so if you decide to use our service, the price for the tour will be  5870 USD (15800 GEL) for you.  
+> The tour include: transportation by comfortable bus, service of the professional guide, meals during the tour (Georgian Cousine), Wine degustation in the wine cellars,  tickets. 
+> 
+> On Mar 15, 2019, at 5:32 PM, info@tripplanner.ge wrote: 
+> 
+> Hello,
+> we are sending you the budjet of the tour  we planned for you , without hotell price. it will cost  6500 USD, for 25 persons. 
+> The tour include: transportation by comfortable bus, service oh the professional gude, meals during the tour, wine degustation,  tickets. 
+> 
+> best regards, 
+> George Nabakhteveli 
+> TripPlanner.ge 
+> 
+> Sent by GO Mail [1] 
+> 
+> On March 15, 2019 5:27:20 PM GMT+04:00, "info@tripplanner.ge" <info@tripplanner.ge> wrote: 
+> 
+> Hello,
+> we are sending you the budjet of the tour  we planned for you , without hotell price. it will cost  5870 USD, for 25 persons. 
+> The tour include: transportation by comfortable bus, service oh the professional gude, meals during the tour, wine degustation,  tickets. 
+> 
+> best regards, 
+> George Nabakhteveli 
+> TripPlanner.ge 
+> 
+> On March 13, 2019 3:26:31 AM GMT+04:00, "Ambasada Podróżników" <biuro@ambasadapodroznikow.pl> wrote: 
+> 
+> Hello!
+> 
+> Thank you for your answer, that sound's really good. And the bus that you provide has AC and it's comfortable for the group?
+> I'm really interesting in your tour, can you explain me how it is organised, what is included? What you can recommedn for the group if we arrive for 10 days? Let's say they want to visit Tbilisi/Mtskheta and also stay for 2 nights in Bordzomi with trip around and then stay 4-5 days in Batumi with 2 or 3 trips around. What's the best option that you can recomend and how much it will cost?
+> 
+> How we can be sure that all that we choose you gonna provide in those price you wrote? Are we going to sign an arrangement? 
+> 
+> Thanks in advance!
+> 
+> W dniu 2019-03-12 13:46, Eka napisał(a): Hello, 
+> We can provide this kind of program: 
+> 
+> * Transfer - from Kutaisi international airport to Tbilisi -  225$ 
+> 
+> * There are some interesting tours from Tbilisi, I'm sending them as attachments in pdf file. 
+> 
+> * Tbilisi tour
+> * Mtskheta tour
+> * Tbilisi/Mtskheta tour
+> * Tours in Kakheti 
+> * Tour in Kazbegi
+> 
+> * In case of choosing tours we can combine and change every detail.
+> 
+> * Transfer -  Tbilisi/Borjomi/Batumi - 280$ 
+> 
+> * In case of stay one night in Borjomi: 
+> 
+> * Tour in Vardzia
+> * Tour in Rabati/Akhaltsike
+> 
+> * Without staying in Borjomi: 
+> 
+> * You can pass in Borjomi park, have a rest and continue road to the way of Batumi (without any extra charge)
+> 
+> * Transfer - Batumi/Kutaisi - 225$ 
+> 
+> * There are some one-day tours from Batumi: 
+> 
+> * Batumi city tour
+> * Beauty of subtropics
+> * Golden fleece region tour
+> * Tours in Adjarian mountains
+> * Mtirala National park tour
+> * Promethe/Okatse tour
+> * Martvili Canyon tour
+> * Wine tour in Adjarian mountains.
+> 
+> Transportation type are a bus and minibuses 
+> Prices are indicated only for transfer services, in case of choosing some tour it will change.  
+> 
+> thank you 
+> 
+> We hope it would be a useful information. 
+> 
+> Best Regards, 
+> Ekaterine Tarkhnishvili 
+> tripplanner.ge 
+> e.tarkhnishvili@tripplanner.ge 
+> info@tripplanner.ge 
+> +995591712345 
+> 
+> On Mar 12, 2019, at 11:29 AM, Ambasada Podróżników <biuro@ambasadapodroznikow.pl> wrote: 
+> 
+> Hello!
+> 
+> Thank you for the message, so we don't have any group but we would like to know abot cost of transportation to calculate the price for turists. Let's say we gonna organise a trip for 25 people, 10 days. First we need to pick up from Kutaisi airport to Tibilili, then we spend 2 days in the city and we gonna move to borjomi and batu
+
+ 
+
+Links:
+------
+[1]
+https://play.google.com/store/apps/details?id=com.jb.mail&amp;referrer=utm_source%3Dcom.jb.mail_signed%26utm_medium%3DHyperlink%26utm_campaign%3Dgomail
+--=_855da5f41015d8b13665cbd2cb18088d
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=UTF-8
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8" /></head><body style=3D'font-size: 10pt'>
+<p>It's 11 nights. We already booked accomodation in Kutaisi, Tibiisi, Borj=
+omi and Batumi.</p>
+<p>We have only problems in Kazbegi. Our budget is maximum 50GEL per person=
+ with breakfast. We gonna stay there 7-9 of August. Maybe you can help us?<=
+br />Our plan of accomodation:</p>
+<p>4-5 Kutaisi</p>
+<p>5-7 Tibilisi</p>
+<p>7-9 Kazbegi</p>
+<p>9-10 Borjomi</p>
+<p>10-15 Batumi</p>
+<p><br /></p>
+<p>Greetings!</p>
+<p><br /></p>
+<p>W dniu 2019-06-05 13:15, tripplanner.ge napisa=C5=82(a):</p>
+<blockquote type=3D"cite" style=3D"padding: 0 0.4em; border-left: #1010ff 2=
+px solid; margin: 0"><!-- html ignored --><!-- head ignored --><!-- meta ig=
+nored -->Hello Damian, &nbsp;
+<div>&nbsp;</div>
+<div>Arrival and Departure dates that you've sent is 4-15 August, it turned=
+ out 12 days (schedule is on11 days)</div>
+<div>Please tell us on which dates are you going to book accommodations,(or=
+ have you already booked)&nbsp;</div>
+<div>Should we provide one more day tour somewhere,? Or will you pan it you=
+rself?</div>
+<div>&nbsp;</div>
+<div>
+<blockquote type=3D"cite" style=3D"padding: 0 0.4em; border-left: #1010ff 2=
+px solid; margin: 0">
+<div style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; line-break: =
+after-white-space;">
+<div dir=3D"auto" style=3D"word-wrap: break-word; -webkit-nbsp-mode: space;=
+ line-break: after-white-space;">
+<div dir=3D"auto" style=3D"word-wrap: break-word; -webkit-nbsp-mode: space;=
+ line-break: after-white-space;">
+<div dir=3D"auto" style=3D"word-wrap: break-word; -webkit-nbsp-mode: space;=
+ line-break: after-white-space;">
+<div dir=3D"auto" style=3D"word-wrap: break-word; -webkit-nbsp-mode: space;=
+ line-break: after-white-space;">
+<div><span style=3D"font-size: 14px;">regards</span></div>
+<div><span style=3D"font-size: 14px;">&nbsp;</span></div>
+<div><span style=3D"font-size: 14px;">Giorgi Nabakhtevli</span></div>
+<div><span style=3D"font-size: 14px;">&nbsp;</span></div>
+<div><span style=3D"font-size: 14px;">Tripplanner.ge</span></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<div>
+<div style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; line-break: =
+after-white-space;">
+<div dir=3D"auto" style=3D"word-wrap: break-word; -webkit-nbsp-mode: space;=
+ line-break: after-white-space;">
+<div dir=3D"auto" style=3D"word-wrap: break-word; -webkit-nbsp-mode: space;=
+ line-break: after-white-space;">
+<div dir=3D"auto" style=3D"word-wrap: break-word; -webkit-nbsp-mode: space;=
+ line-break: after-white-space;">
+<div dir=3D"auto" style=3D"word-wrap: break-word; -webkit-nbsp-mode: space;=
+ line-break: after-white-space;">
+<div><span style=3D"font-size: 14px;">&nbsp;</span></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>
+<div><br />
+<div><br />
+<blockquote type=3D"cite" style=3D"padding: 0 0.4em; border-left: #1010ff 2=
+px solid; margin: 0">
+<div>On Jun 4, 2019, at 2:47 PM, tripplanner.ge &lt;<a href=3D"mailto:info@=
+tripplanner.ge">info@tripplanner.ge</a>&gt; wrote:</div>
+<div>
+<div style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; line-break: =
+after-white-space;">
+<div dir=3D"auto" style=3D"word-wrap: break-word; -webkit-nbsp-mode: space;=
+ line-break: after-white-space;">
+<div dir=3D"auto" style=3D"word-wrap: break-word; -webkit-nbsp-mode: space;=
+ line-break: after-white-space;">
+<div dir=3D"auto" style=3D"word-wrap: break-word; -webkit-nbsp-mode: space;=
+ line-break: after-white-space;">
+<div dir=3D"auto" style=3D"word-wrap: break-word; -webkit-nbsp-mode: space;=
+ line-break: after-white-space;">
+<div>&nbsp;</div>
+<div><span style=3D"font-size: 14px;">Hello Damian,</span></div>
+<div><span style=3D"font-size: 14px;">&nbsp;</span></div>
+<div><span style=3D"font-size: 14px;">We are &nbsp;glad to hear that,&nbsp;=
+</span></div>
+<div><span style=3D"font-size: 14px;">&nbsp;</span></div>
+<div><span style=3D"font-size: 14px;">We have already discussed&nbsp;schedu=
+le&nbsp;and price of &nbsp;tour with you before:</span></div>
+<p style=3D"font-size: 13.333333015441895px;">Day 1: Transfer form Kutaisi =
+airport to the hotel<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;visit Ko=
+lchida, Imeretia, Bagrati&nbsp; &nbsp;(depends on arrival time)</p>
+<p style=3D"font-size: 13.333333015441895px;">Day 2: transfer from Kutaisi =
+to Tibilisi and we gonna stop in Mtskheta, Dzwari and Sweticchoweli</p>
+<p style=3D"font-size: 13.333333015441895px;">Day 3: Tibilisi&nbsp;walking =
+tour</p>
+<p style=3D"font-size: 13.333333015441895px;">Day 4: transfer from Tibilisi=
+ to Kazbegi, traditional dinner in the family house</p>
+<p style=3D"font-size: 13.333333015441895px;">Day 5: transfer from Kazbegi =
+to Borjomi, we gonna stop in Uplistsikhe</p>
+<p style=3D"font-size: 13.333333015441895px;">Day 6: transfer from Borjomi =
+to Batumi, we gonna stop in Prometeus Cave</p>
+<p style=3D"font-size: 13.333333015441895px;">Day 7: break<br /><br />Day 8=
+:&nbsp;&nbsp;Wine tour in Adjarian mountains (basic)</p>
+<p style=3D"font-size: 13.333333015441895px;">Day 9: transfer to botanical =
+garden</p>
+<p style=3D"font-size: 13.333333015441895px;">Day 10:&nbsp;traditional dinn=
+er in the family house (optional Mitral National Park - we decide if group =
+wish to go there)</p>
+<div><span style=3D"font-size: 13.333333015441895px;">Day 11: transfer from=
+ Batumi to Kutaisi airport</span><span style=3D"font-size: 14px;">&nbsp;</s=
+pan></div>
+<div><span style=3D"font-size: 14px;">&nbsp;</span></div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family: Sylfaen, serif;"><span s=
+tyle=3D"font-size: small;">&nbsp;</span></span><span style=3D"font-family: =
+Sylfaen, serif; font-size: 14px;">Cost of transportation during all trip wi=
+ll be 5700 Gel ( 2125 USD ) it includes a comfortable bus and driver with y=
+ou all 11 days, also driver accommodation and meals charges.</span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family: Sylfaen, serif; font-siz=
+e: 14px;">Cost of traditional dinner in Kazbegi 30Gel(11.2USD) per person ,=
+total- 30*25=3D750Gel (280 USD)<!-- o ignored --></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family: Sylfaen, serif; font-siz=
+e: 14px;">Cost of traditional dinner in Batumi 30Gel(11.2USD) per person, t=
+otal- 30*25=3D750Gel (280 USD)<!-- o ignored --></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family: Sylfaen, serif; font-siz=
+e: 14px;">Wine degustation ( 3 tipe of wine or 2 tipes of wine and chacha +=
+snaks: cheese and churchkhela) 25Gel(9.2USD) per person, total-25*25=3D625G=
+EL(about 230 USD)<!-- o ignored --></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family: Sylfaen, serif; font-siz=
+e: 14px;">So the price of all 11 days will be : 7825Gel (2920 USD): 116.8 U=
+SD per peron for 11days and 10.63 USD per peson for a day. ( For 25 person)=
+</span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size: 14px;">(you can&nbsp;</spa=
+n><span style=3D"font-size: 14px;">transfer</span>&nbsp;&nbsp;<span style=
+=3D"font-size: 14px;">money &nbsp;in USD &nbsp;in the rate of transfer day,=
+) &nbsp;</span></p>
+</div>
+<div><span style=3D"font-size: 14px;">&nbsp; As&nbsp;soon as you confirm we=
+ will send the invoice for the tour.</span></div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div><span style=3D"font-size: 14px;">Best regards</span></div>
+<div><span style=3D"font-size: 14px;">&nbsp;</span></div>
+<div><span style=3D"font-size: 14px;">Giorgi Nabakhtevli</span></div>
+<div><span style=3D"font-size: 14px;">&nbsp;</span></div>
+<div><span style=3D"font-size: 14px;">Tripplanner.ge</span></div>
+<div><span style=3D"font-size: 14px;">&nbsp;</span></div>
+<div><span style=3D"font-size: 14px;">&nbsp;</span></div>
+<div>&nbsp;</div>
+<div><span style=3D"font-size: 14px;">&nbsp;</span></div>
+<div><span style=3D"font-size: 14px;">&nbsp;</span></div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<br />
+<div><br />
+<blockquote type=3D"cite" style=3D"padding: 0 0.4em; border-left: #1010ff 2=
+px solid; margin: 0">
+<div>On Jun 3, 2019, at 7:21 PM, Ambasada Podr&oacute;=C5=BCnik&oacute;w &l=
+t;<a href=3D"mailto:biuro@ambasadapodroznikow.pl">biuro@ambasadapodroznikow=
+=2Epl</a>&gt; wrote:</div>
+<div>
+<div style=3D"font-size: 10pt;">
+<p>Hello!<br /><br />We already booked tickets. We gonna arrive on 4th of A=
+ugust at 15:15 on Kutaisi airport (flight from Berlin).</p>
+<p>We are leaving on 15th of August at 23:10 from Kutaisi airport (flight t=
+o Katowice).<br /><br />25 people: 23 turist and 2 pilots - people from our=
+ organisation.<br /><br />Greetings!</p>
+<p>Damian</p>
+<p><br /><br />W dniu 2019-04-22 10:21, tripplanner.ge napisa=C5=82(a):</p>
+<blockquote style=3D"padding: 0 0.4em; border-left: #1010ff 2px solid; marg=
+in: 0;">
+<div dir=3D"auto" style=3D"word-wrap: break-word; -webkit-nbsp-mode: space;=
+ line-break: after-white-space;">&nbsp; Hi,</div>
+<div dir=3D"auto" style=3D"word-wrap: break-word; -webkit-nbsp-mode: space;=
+ line-break: after-white-space;">&nbsp;</div>
+<div dir=3D"auto" style=3D"word-wrap: break-word; -webkit-nbsp-mode: space;=
+ line-break: after-white-space;">We are glad that our offer is fit for you,=
+ let us know exact dates as soon as possible, because we have to reserve bu=
+s, restaurants and wine cellar,</div>
+<div dir=3D"auto" style=3D"word-wrap: break-word; -webkit-nbsp-mode: space;=
+ line-break: after-white-space;">&nbsp;</div>
+<div dir=3D"auto" style=3D"word-wrap: break-word; -webkit-nbsp-mode: space;=
+ line-break: after-white-space;">Greetings&nbsp;</div>
+<div dir=3D"auto" style=3D"word-wrap: break-word; -webkit-nbsp-mode: space;=
+ line-break: after-white-space;">
+<blockquote style=3D"padding: 0 0.4em; border-left: #1010ff 2px solid; marg=
+in: 0;">
+<div style=3D"font-size: 10pt;">
+<p>tripplanner.ge</p>
+</div>
+</blockquote>
+</div>
+<div dir=3D"auto" style=3D"word-wrap: break-word; -webkit-nbsp-mode: space;=
+ line-break: after-white-space;">
+<div><br />
+<blockquote style=3D"padding: 0 0.4em; border-left: #1010ff 2px solid; marg=
+in: 0;">
+<div>On Apr 17, 2019, at 10:43 PM, Ambasada Podr&oacute;=C5=BCnik&oacute;w =
+&lt;<a href=3D"mailto:biuro@ambasadapodroznikow.pl">biuro@ambasadapodroznik=
+ow.pl</a>&gt; wrote:</div>
+<div>
+<div style=3D"font-size: 10pt;">
+<p>Ok, that's fit for us. We are going to fly&nbsp;between 06-20 August. Bu=
+t we don't have tickets yet couse they are quite expensive. we are waiting =
+for better price.<br /><br />Greetings<br /><br />W dniu 2019-04-03 14:05, =
+tripplanner.ge napisa=C5=82(a):</p>
+<blockquote style=3D"padding: 0 0.4em; border-left: #1010ff 2px solid; marg=
+in: 0;">
+<p class=3D"MsoNormal"><span style=3D"font-size: 11px;">Hello Damian</span>=
+<span style=3D"font-size: small;">,</span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family: Sylfaen, serif;"><span s=
+tyle=3D"font-size: small;">&nbsp;</span></span><span style=3D"font-family: =
+Sylfaen, serif; font-size: 14px;">Cost of transportation during all trip wi=
+ll be 5700 Gel ( 2125 USD ) it includes a comfortable bus and driver with y=
+ou all 11 days, also driver accommodation and meals charges.</span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family: Sylfaen, serif; font-siz=
+e: 14px;">Cost of traditional dinner in Kazbegi 30Gel(11.2USD) per person ,=
+total- 30*25=3D750Gel (280 USD)</span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family: Sylfaen, serif; font-siz=
+e: 14px;">Cost of traditional dinner in Batumi 30Gel(11.2USD) per person, t=
+otal- 30*25=3D750Gel (280 USD)</span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family: Sylfaen, serif; font-siz=
+e: 14px;">Wine degustation ( 3 tipe of wine or 2 tipes of wine and chacha +=
+snaks: cheese and churchkhela) 25Gel(9.2USD) per person, total-25*25=3D625G=
+EL(about 230 USD)</span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family: Sylfaen, serif; font-siz=
+e: 14px;">So the price of all 11 days will be : 7825Gel (2920 USD): 116.8 U=
+SD per peron for 11days and 10.63 USD per peson for a day. ( For 25 person)=
+</span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family: Sylfaen, serif; font-siz=
+e: 14px;">We are interested when you are going to arrive, &nbsp;</span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family: Sylfaen, serif; font-siz=
+e: 14px;">Waiting for your answers,</span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size: 14px;"><span style=3D"font=
+-family: Sylfaen, serif;">&nbsp;</span><span style=3D"font-family: Sylfaen,=
+ serif;">Best regards,</span></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family: Sylfaen, serif;"><span s=
+tyle=3D"font-size: small;">&nbsp;</span></span><span style=3D"font-size: sm=
+all; font-family: Sylfaen, serif;">Giorgi Nabakhteveli</span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size: 11px;"><span style=3D"font=
+-family: Sylfaen, serif;">&nbsp;</span>Tripplanner.ge</span></p>
+<div><span style=3D"font-size: small;">&nbsp;</span><span style=3D"font-siz=
+e: 10pt;"></span></div>
+<div><br />
+<blockquote style=3D"padding: 0 0.4em; border-left: #1010ff 2px solid; marg=
+in: 0;">
+<div>On Apr 2, 2019, at 1:57 AM, Ambasada Podr&oacute;=C5=BCnik&oacute;w &l=
+t;<a href=3D"mailto:biuro@ambasadapodroznikow.pl">biuro@ambasadapodroznikow=
+=2Epl</a>&gt; wrote:</div>
+<div>
+<div style=3D"font-size: 10pt;">
+<p>Hello!<br /><br />Ok, to be fully clear, we discussed the plan with our =
+guids and now we excactly know where we want to go and what service you sho=
+uld provide. Please recalculate the price. We don't provide meals for group=
+ except two traditional dinners.<br /><br />Day 1: Transfer form Kutaisi ai=
+rport to the hotel<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;visit Kolc=
+hida, Imeretia, Bagrati&nbsp; &nbsp;(depends on arrival time)</p>
+<p>Day 2: transfer from Kutaisi to Tibilisi and we gonna stop in Mtskheta, =
+Dzwari and Sweticchoweli</p>
+<p>Day 3: Tibilisi&nbsp;walking tour</p>
+<p>Day 4: transfer from Tibilisi to Kazbegi, traditional dinner in the fami=
+ly house</p>
+<p>Day 5: transfer from Kazbegi to Borjomi, we gonna stop in Uplistsikhe</p=
+>
+<p>Day 6: transfer from Borjomi to Batumi, we gonna stop in Prometeus Cave<=
+/p>
+<p>Day 7: break<br /><br />Day 8:&nbsp;&nbsp;Wine tour in Adjarian mountain=
+s (basic)</p>
+<p>Day 9: transfer to botanical garden</p>
+<p>Day 10:&nbsp;traditional dinner in the family house (optional Mitral Nat=
+ional Park - we decide if group wish to go there)</p>
+<p>Day 11: transfer from Batumi to Kutaisi airport</p>
+<p><br /></p>
+<p>Depends on your price we gonna confirm if the plan&nbsp;we want to chang=
+e or not.</p>
+<p>Best regards,</p>
+<p>Damian&nbsp;</p>
+<p><br />W dniu 2019-03-25 11:20, tripplanner.ge napisa=C5=82(a):</p>
+<blockquote style=3D"padding: 0 0.4em; border-left: #1010ff 2px solid; marg=
+in: 0;">
+<div dir=3D"auto" style=3D"word-wrap: break-word; -webkit-nbsp-mode: space;=
+ line-break: after-white-space;">
+<div dir=3D"auto" style=3D"word-wrap: break-word; -webkit-nbsp-mode: space;=
+ line-break: after-white-space;"><span style=3D"font-size: small;">Hello Da=
+mian,</span>
+<div><span style=3D"font-size: small;">&nbsp;</span></div>
+<div><span style=3D"font-size: small;"><span class=3D"Apple-tab-span" style=
+=3D"white-space: pre;"> </span>Price of transportation 730$ is only cost of=
+ transfer: Kutaisi Airport-Tbilisi, Tbilisi-Borjomi-Batumi (without staying=
+ in Borjomi and Batumi) ,&nbsp;</span><span style=3D"font-size: small;">Bat=
+umi-Kutaisi Airport.&nbsp;</span></div>
+<div><span style=3D"font-size: small;"><span class=3D"Apple-tab-span" style=
+=3D"white-space: pre;"> </span>Cost of wine degustation is from 8 to 20 $ p=
+er person , it depends on wine cellar, number and sorts of wines, chacha an=
+d snacks.&nbsp;</span></div>
+<div><span style=3D"font-size: small;"><span class=3D"Apple-tab-span" style=
+=3D"white-space: pre;"> </span>Price &nbsp;of tickets ( price of entrance i=
+n tourist objects we provide in you tours) is &nbsp;from 2,5 GEL to 20 GEL =
+per person.&nbsp;</span></div>
+<div><span style=3D"font-size: small;">If you dont want to cover meals We w=
+ill arrange &nbsp;&nbsp;for you 2&nbsp;times traditional dinner in the fami=
+ly house&nbsp;or traditional&nbsp;restaurant or Wine Cellar , tell us when =
+and on&nbsp;which way you want it.&nbsp;</span></div>
+<div><span style=3D"font-size: small;">We can provide a guide for Tbilisi t=
+our (old city walking tour or by bus, or combined)</span></div>
+<div><span style=3D"font-size: small;">So let me know if you are confirming=
+ or not the tours we offered you, (Ekaterine wrote you a program).&nbsp;Bec=
+ause in case of&nbsp;editing the tours the transfer prices will be changed=
+=2E</span></div>
+<div>&nbsp;</div>
+<div><span style=3D"font-size: small;">&nbsp; &nbsp;Regards,</span></div>
+<div><span style=3D"font-size: small;">&nbsp;</span></div>
+<div><span style=3D"font-size: small;">&nbsp; Giorgi Nabakhteveli</span></d=
+iv>
+<div><span style=3D"font-size: small;">&nbsp;</span></div>
+<div><span style=3D"font-size: small;">&nbsp; Tripplanner.ge</span></div>
+<div><span style=3D"font-size: small;">&nbsp;</span></div>
+<div>
+<div>&nbsp;</div>
+<div><br />
+<div><br /><br /><br /><br /><br />
+<blockquote style=3D"padding: 0 0.4em; border-left: #1010ff 2px solid; marg=
+in: 0;">
+<div>On Mar 25, 2019, at 3:25 AM, Ambasada Podr&oacute;=C5=BCnik&oacute;w &=
+lt;<a href=3D"mailto:biuro@ambasadapodroznikow.pl">biuro@ambasadapodrozniko=
+w.pl</a>&gt; wrote:</div>
+<div>
+<div style=3D"font-size: 10pt;">
+<p>Hello George,<br /><br />We don't cover meals for people, they pay for t=
+hemself however we would like to have 2</p>
+</div>
+</div>
+</blockquote>
+<blockquote style=3D"padding: 0 0.4em; border-left: #1010ff 2px solid; marg=
+in: 0;">
+<div>
+<div style=3D"font-size: 10pt;">
+<p>or something like that. We have our own guide who was already in Georgia=
+, couse our group can't speak in English we need to provide them polish spe=
+aker guide.<br />However we would like to meet with someone in Tibilisi and=
+ go for a tour around the city and traditional dinner.<br />In previous emi=
+al you send cost of transportation 225 + 280 + 225 =3D 730$ Please write me=
+ more about cost of wine degustation and tickets for what we should pay and=
+ recalculate the sum.<br /><br />Greetings<br />Damian<br /><br /><br />W d=
+niu 2019-03-18 09:06, tripplanner.ge napisa=C5=82(a):</p>
+<blockquote style=3D"padding: 0 0.4em; border-left: #1010ff 2px solid; marg=
+in: 0;">
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+Hello,&nbsp;
+<div>&nbsp;</div>
+<div>We have sent you two mails with different prices, the firs one is disc=
+ount price , so if you decide to use our service, the price for the tour wi=
+ll be &nbsp;<span style=3D"font-size: 10pt;">5870 USD (15800 GEL) for you=
+=2E&nbsp;</span></div>
+<div><span style=3D"font-size: small;">The tour include: transportation by =
+comfortable bus, service of the professional guide, meals during the tour (=
+Georgian Cousine), Wine degustation in&nbsp;the&nbsp;wine&nbsp;cellars,&nbs=
+p; tickets.</span></div>
+<div><span style=3D"font-size: small;"><br /></span>
+<div><br />
+<blockquote style=3D"padding: 0 0.4em; border-left: #1010ff 2px solid; marg=
+in: 0;">
+<div>On Mar 15, 2019, at 5:32 PM, <a href=3D"mailto:info@tripplanner.ge">in=
+fo@tripplanner.ge</a> wrote:</div>
+<div>
+<div style=3D"font-size: 10pt;"><br /> Hello,<br style=3D"font-size: 13.333=
+3px;" /><span style=3D"font-size: 13.3333px;">we are sending you the budjet=
+ of the tour&nbsp; we planned for you , without hotell price. it will cost&=
+nbsp; 6500 USD, for 25 persons.&nbsp;</span><br style=3D"font-size: 13.3333=
+px;" />
+<div id=3D"signature_default" style=3D"font-size: 13.3333px;">The tour incl=
+ude: transportation by comfortable bus, service oh the professional gude, m=
+eals during the tour, wine degustation,&nbsp; tickets.</div>
+<div id=3D"signature_default" style=3D"font-size: 13.3333px;">&nbsp;</div>
+<div id=3D"signature_default" style=3D"font-size: 13.3333px;">&nbsp;best re=
+gards,</div>
+<div id=3D"signature_default" style=3D"font-size: 13.3333px;">George Nabakh=
+teveli</div>
+<div id=3D"signature_default" style=3D"font-size: 13.3333px;">TripPlanner=
+=2Ege</div>
+<div>&nbsp;</div>
+<br />
+<div id=3D"signature_default">Sent by <a style=3D"color: inherit;" href=3D"=
+https://play.google.com/store/apps/details?id=3Dcom.jb.mail&amp;referrer=3D=
+utm_source%3Dcom.jb.mail_signed%26utm_medium%3DHyperlink%26utm_campaign%3Dg=
+omail">GO Mail</a></div>
+<br /><br />
+<blockquote class=3D"gmail_quote" style=3D"margin: 0px !important; padding:=
+ 0px !important; border: none !important;">
+<div style=3D"font-size: 12px; background: #f0f0f0; color: #212121; padding=
+: 8px!important; border-radius: 4px; line-height: 1.5;">On March 15, 2019 5=
+:27:20 PM GMT+04:00, "<a href=3D"mailto:info@tripplanner.ge">info@tripplann=
+er.ge</a>" &lt;<a href=3D"mailto:info@tripplanner.ge">info@tripplanner.ge</=
+a>&gt; wrote:</div>
+<div class=3D"gmail_quote"><br /> Hello,<br />we are sending you the budjet=
+ of the tour&nbsp; we planned for you , without hotell price. it will cost&=
+nbsp; 5870 USD, for 25 persons.&nbsp;<br />
+<div id=3D"signature_default">The tour include: transportation by comfortab=
+le bus, service oh the professional gude, meals during the tour, wine degus=
+tation,&nbsp; tickets.</div>
+<div id=3D"signature_default">&nbsp;</div>
+<div id=3D"signature_default">&nbsp;best regards,</div>
+<div id=3D"signature_default">George Nabakhteveli</div>
+<div id=3D"signature_default">TripPlanner.ge</div>
+<div id=3D"signature_default">&nbsp;</div>
+<br /><br />
+<blockquote class=3D"gmail_quote" style=3D"margin: 0px !important; padding:=
+ 0px !important; border: none !important;">
+<div style=3D"font-size: 12px; background: #f0f0f0; color: #212121; padding=
+: 8px!important; border-radius: 4px; line-height: 1.5;">On March 13, 2019 3=
+:26:31 AM GMT+04:00, "Ambasada Podr&oacute;=C5=BCnik&oacute;w" &lt;<a href=
+=3D"mailto:biuro@ambasadapodroznikow.pl">biuro@ambasadapodroznikow.pl</a>&g=
+t; wrote:</div>
+<div class=3D"gmail_quote">
+<p>Hello!<br /><br />Thank you for your answer, that sound's really good. A=
+nd the bus that you provide has AC and it's comfortable for the group?<br /=
+>I'm really interesting in your tour, can you explain me how it is organise=
+d, what is included? What you can recommedn for the group if we arrive for =
+10 days? Let's say they want to visit <span>Tbilisi/Mtskheta and also stay =
+for 2 nights in Bordzomi with trip around and then&nbsp;</span>stay 4-5 day=
+s in Batumi with 2 or 3 trips around. What's the best option that you can r=
+ecomend and how much it will cost?<br /><br />How we can be sure that all t=
+hat we choose you gonna provide in those price you wrote? Are we going to s=
+ign&nbsp;an&nbsp;<span>arrangement?</span></p>
+<p><br />Thanks in advance!<br /><br /><br />W dniu 2019-03-12 13:46, Eka n=
+apisa=C5=82(a):</p>
+<blockquote style=3D"padding: 0 0.4em; border-left: #1010ff 2px solid; marg=
+in: 0;">Hello,
+<div>We can provide this kind of program:</div>
+<div>&nbsp;</div>
+<div>
+<ol class=3D"MailOutline">
+<li>Transfer - from Kutaisi international airport to Tbilisi - &nbsp;<stron=
+g><span style=3D"color: #77bb41;">225$</span></strong>
+<ul>
+<li>There are some interesting tours from Tbilisi, I'm sending them as atta=
+chments in pdf file.
+<ul>
+<li>Tbilisi tour</li>
+<li>Mtskheta tour</li>
+<li>Tbilisi/Mtskheta tour</li>
+<li>Tours in Kakheti&nbsp;</li>
+<li>Tour in Kazbegi</li>
+</ul>
+</li>
+<li>In case of choosing tours we can combine and change every detail.</li>
+</ul>
+</li>
+<li>Transfer - &nbsp;Tbilisi/Borjomi/Batumi - <span style=3D"color: #96d35f=
+;"><strong>280$</strong></span>
+<ul>
+<li>In case of stay one night in Borjomi:
+<ul>
+<li>Tour in Vardzia</li>
+<li>Tour in Rabati/Akhaltsike</li>
+</ul>
+</li>
+<li>Without staying in Borjomi:
+<ul>
+<li>You can pass in Borjomi park, have a rest and continue road to the way =
+of Batumi (without any extra charge)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Transfer - Batumi/Kutaisi -<strong> <span style=3D"color: #96d35f;">225=
+$</span></strong>
+<ul>
+<li>There are some one-day tours from Batumi:
+<ul>
+<li>Batumi city tour</li>
+<li>Beauty of subtropics</li>
+<li>Golden fleece region tour</li>
+<li>Tours in Adjarian mountains</li>
+<li>Mtirala National park tour</li>
+<li>Promethe/Okatse tour</li>
+<li>Martvili Canyon tour</li>
+<li>Wine tour in Adjarian mountains.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<div>&nbsp;&nbsp;</div>
+<div>Transportation type are a bus and minibuses</div>
+<div>Prices are indicated only for transfer services, in case of choosing s=
+ome tour it will change.&nbsp;</div>
+<div>&nbsp;</div>
+<div>thank you</div>
+<div>&nbsp;</div>
+<div>We hope it would be a useful information.</div>
+<div>&nbsp;</div>
+<div>Best Regards,</div>
+<div>Ekaterine Tarkhnishvili</div>
+<div>tripplanner.ge</div>
+<div><a href=3D"mailto:e.tarkhnishvili@tripplanner.ge">e.tarkhnishvili@trip=
+planner.ge</a></div>
+<div><a href=3D"mailto:info@tripplanner.ge">info@tripplanner.ge</a></div>
+<div>+995591712345</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+</div>
+<br />
+<div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div><br />
+<blockquote style=3D"padding: 0 0.4em; border-left: #1010ff 2px solid; marg=
+in: 0;">
+<div>On Mar 12, 2019, at 11:29 AM, Ambasada Podr&oacute;=C5=BCnik&oacute;w =
+&lt;<a href=3D"mailto:biuro@ambasadapodroznikow.pl">biuro@ambasadapodroznik=
+ow.pl</a>&gt; wrote:</div>
+<div>
+<div>Hello!<br /><br />Thank you for the message, so we don't have any grou=
+p but we would like to know abot cost of transportation to calculate the pr=
+ice for turists. Let's say we gonna organise a trip for 25 people, 10 days=
+=2E First we need to pick up from Kutaisi airport to Tibilili, then we spen=
+d 2 days in the city and we gonna move to borjomi and batu</div>
+</div>
+</blockquote>
+</div>
+</div>
+</blockquote>
+</div>
+</blockquote>
+</div>
+</blockquote>
+</div>
+</div>
+</blockquote>
+</div>
+</div>
+</blockquote>
+</div>
+</div>
+</blockquote>
+</div>
+</div>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+</div>
+</blockquote>
+</div>
+</blockquote>
+</div>
+</div>
+</blockquote>
+</div>
+</div>
+</blockquote>
+</div>
+</div>
+</blockquote>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+</div>
+</div>
+</blockquote>
+<p><br /></p>
+
+</body></html>
+
+--=_855da5f41015d8b13665cbd2cb18088d--
+
