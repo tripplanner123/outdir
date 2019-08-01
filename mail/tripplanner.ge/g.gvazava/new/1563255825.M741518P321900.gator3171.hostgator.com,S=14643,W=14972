@@ -1,0 +1,329 @@
+Return-Path: <g.gvazava7@gmail.com>
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP
+	id GIQFLBFkLV1s6QQA8w4q4w
+	(envelope-from <g.gvazava7@gmail.com>); Tue, 16 Jul 2019 00:43:45 -0500
+Return-path: <g.gvazava7@gmail.com>
+Envelope-to: e.tarkhnishvili@tripplanner.ge,
+ g.gvazava@tripplanner.ge
+Delivery-date: Tue, 16 Jul 2019 00:43:45 -0500
+Received: from mail-lf1-f44.google.com ([209.85.167.44]:44254)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.92)
+	(envelope-from <g.gvazava7@gmail.com>)
+	id 1hnGFc-001Ljl-JQ; Tue, 16 Jul 2019 00:43:45 -0500
+Received: by mail-lf1-f44.google.com with SMTP id r15so7820005lfm.11;
+        Mon, 15 Jul 2019 22:43:34 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to
+         :cc;
+        bh=HHHazyXb85chXl53t9UFgNibMyN2XXODLeaUxChXUdI=;
+        b=Frg3ei1oK7p9eav4Nrpp4V3kdIu7pcmpwIby2zFmzEFuNo/XjRTtGta+tzvoZvHX+K
+         sODqV8dwVVBRvTqPzVVM5RrPOcOZ6v//ig6zx5RyrdfZlWbrKZQdZYTqlRFEx0UhMJ7k
+         5uceGyoTuDsIoIjyxV0k1LL/SC2nlM+kq5vcKw2OVbvldU4va0C8+PjoMNb9LVNk/IcA
+         sXveeWOE7y2HWjwSXvLjiYcCU7n7hGxEoIj5y2zubTIq04iP7G4G0E+StpOGPQbX+aAi
+         dFvbKrlTkLs71dKMamyG1AxR3R/qzevtJ3qWWZz/IDGjPpLDN+ddYGAcuOktMEqoJa88
+         pAwA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to:cc;
+        bh=HHHazyXb85chXl53t9UFgNibMyN2XXODLeaUxChXUdI=;
+        b=MOc5kbrI8RME3odeKsXBxE0rdbDidQyzen378eR/KIBvIEC3ZZmciVUwsrzJCsQRVz
+         9tqN41tVzT2VFDsQmP6sWJJq1/629viR0b0X2+THeBWc8JJHuRCNrrDKzj4bOrXaXSzG
+         dVB+LHJmQJDUhR1OWQX5NLjhr3iV64/nh3/YFK+DqHA/n9QNxzX1mp+S+USXFn6osmY2
+         UZoLp3ccCDLq1WGF1hNtSn9C/G4l3OMkKxlvyV5g9NSHlXcztI7+wdA3ucK/KAns4mRT
+         hhfvs50HpWRH37QA9OISXcygH+MgjZNeRKeUWwumDd6lmyzElXdC2GA4IH/MQKvxHu4i
+         snAg==
+X-Gm-Message-State: APjAAAWI5fdOi0zY2x5XIj0hc9TyYdIEgk+9/NPTEU1m7BeGO98FKpjD
+	9CdbZgSqSMAL0ap4a0f7JMcdUA/zRI1xqS3i0sA=
+X-Google-Smtp-Source: APXvYqx9V9F1NlFMPqvu3/tgiWae/eoXKVRxMPyToqrRStbHoTkrEXDfPocU1cQBqkFb9UTCTczsTSvLQz73liM+mec=
+X-Received: by 2002:ac2:456d:: with SMTP id k13mr13274699lfm.77.1563255807013;
+ Mon, 15 Jul 2019 22:43:27 -0700 (PDT)
+MIME-Version: 1.0
+References: <500552ec-a0b3-59f5-eed0-afe93e2a28d0@fastercapital.com>
+ <CAM239n4rqSBLCCR2cc+Lr5vcqE16VbTdGy+aU+7y1A2SQwRAjQ@mail.gmail.com> <82e1ac22-a69e-d382-d2dd-4b48155d7895@fastercapital.com>
+In-Reply-To: <82e1ac22-a69e-d382-d2dd-4b48155d7895@fastercapital.com>
+From: George Gvazava <g.gvazava7@gmail.com>
+Date: Tue, 16 Jul 2019 09:43:14 +0400
+Message-ID: <CAM239n6xJZPDfHSC3_iW0d_JXdocseGoT_zmfGWap7BPDi7HNA@mail.gmail.com>
+Subject: Re: Incubation program: Tripplanner.ge: FAQs for entrepreneurs
+To: Widad Sadeq <widad.sadeq@fastercapital.com>
+Cc: faisal.khamees@fastercapital.com, 
+	Ekaterine Tarkhnishvili <e.tarkhnishvili@tripplanner.ge>, g.gvazava@tripplanner.ge
+Content-Type: multipart/alternative; boundary="00000000000011f716058dc5db2b"
+X-Spam-Status: No, score=0.5
+X-Spam-Score: 5
+X-Spam-Bar: /
+X-Spam-Flag: NO
+
+--00000000000011f716058dc5db2b
+Content-Type: text/plain; charset="UTF-8"
+
+If only incubation is offered it doesn't work for us. If there is any
+possibility to conect another companies from tourism industry for further
+relationship and it makes sense and will be really helpful.  Tripplenner
+needs relayable partners around the world and if Fastercapital contributes
+for that we only will be blessed for it
+
+Thanks
+
+On Tue, Jul 16, 2019 at 9:38 AM Widad Sadeq <widad.sadeq@fastercapital.com>
+wrote:
+
+> Dear George,
+>
+>   Thanks for your reply. If that was the case, then I'm afraid to tell you
+> that the incubation program doesn't suit your startup as the core of the
+> incubation program is the technical development that we offer. So if the
+> funds are all you need, then we have to apologize to you.
+>
+> Please confirm.
+> best regards,
+>
+>    - Widad Sadeq
+>    - Executive Secretary @ FasterCapital
+>    - widad.sadeq@fastercapital.com
+>    - Skype: live:widad.sadeq
+>    - Check out our website! FasterCapital <http://www.fastercapital.com/>
+>    - Like our page on Facebook <https://www.facebook.com/FasterCapital>
+>    - Follow us on Twitter <https://www.twitter.com/fastercapital>
+>    - Follow us on LinkedIn
+>    <https://www.linkedin.com/company/fastercapital>
+>    - Follow us on Instagram <https://instagram.com/fastercapital/>
+>    - Add me on LinkedIn <https://www.linkedin.com/in/widadsadeq>
+>
+> On 7/15/2019 16:28:02, George Gvazava wrote:
+>
+> Dear Widad,
+> Thanks for your response. Please, can you make it clear, in the case if
+> Fastercapital  provides no financial support to entrepreneur women why is
+> there required additional fund needed graph?
+> If you already found the business model of the company "Tripplaner.ge",
+> the company is already launched and main supports required are:
+> 1) Funding for promoting and marketing campaign
+> 2) Support to reach European and Non-European market for costumer
+> attraction
+>
+> If the financial support wont be provided, what is a right way for further
+> cooperation of Fastercapital and Tripplanner.ge? I'm really possessed
+> bundling that deal and make it fruitful for both sides, especially when we
+> are talking woman headed stratup.
+>
+> Thanks and waiting for your reply
+>
+> On Sat, Jul 6, 2019 at 2:57 PM Widad Sadeq <widad.sadeq@fastercapital.com>
+> wrote:
+>
+>> Dear Ekaterine,
+>>
+>>   This is Widad Sadeq from FasterCapital. I'll be following up with you
+>> during this period, we will estimate your startup and discuss all the
+>> necessary points and aspects. There's one important thing that all
+>> entrepreneurs need to know is that we have no-Cash principle which means
+>> that we will not give entrepreneurs full cash funding. Instead, we will
+>> co-fund and co-develop tech and internet start-ups (technical development
+>> per equity).
+>>
+>> Please find attached the guidelines that can help in understanding our
+>> model and the terms that we have. Please read it thoroughly to get a full
+>> clear picture about us. I'll be waiting for your feedback and questions.
+>> Looking forward to proceed together.
+>> best regards,
+>>
+>>    - Widad Sadeq
+>>    - Executive Secretary @ FasterCapital
+>>    - widad.sadeq@fastercapital.com
+>>    - Skype: live:widad.sadeq
+>>    - Check out our website! FasterCapital <http://www.fastercapital.com/>
+>>    - Like our page on Facebook <https://www.facebook.com/FasterCapital>
+>>    - Follow us on Twitter <https://www.twitter.com/fastercapital>
+>>    - Follow us on LinkedIn
+>>    <https://www.linkedin.com/company/fastercapital>
+>>    - Follow us on Instagram <https://instagram.com/fastercapital/>
+>>    - Add me on LinkedIn <https://www.linkedin.com/in/widadsadeq>
+>>
+>>
+>
+> --
+> Respect
+>
+> Giorgi Gvazava
+>
+>
+
+-- 
+Respect
+
+Giorgi Gvazava
+
+--00000000000011f716058dc5db2b
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">If only incubation is offered it doesn&#39;t work for us. =
+If there is any possibility to conect another companies from tourism indust=
+ry for further relationship and it makes sense and will be really helpful.=
+=C2=A0 Tripplenner needs relayable partners around the world and if Fasterc=
+apital contributes for that we only will be blessed for it=C2=A0<div><br></=
+div><div>Thanks=C2=A0</div></div><br><div class=3D"gmail_quote"><div dir=3D=
+"ltr" class=3D"gmail_attr">On Tue, Jul 16, 2019 at 9:38 AM Widad Sadeq &lt;=
+<a href=3D"mailto:widad.sadeq@fastercapital.com">widad.sadeq@fastercapital.=
+com</a>&gt; wrote:<br></div><blockquote class=3D"gmail_quote" style=3D"marg=
+in:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1e=
+x">
+ =20
+   =20
+ =20
+  <div bgcolor=3D"#FFFFFF">
+    <p>Dear George,</p>
+    <p>=C2=A0 Thanks for your reply. If that was the case, then I&#39;m afr=
+aid to
+      tell you that the incubation program doesn&#39;t suit your startup as
+      the core of the incubation program is the technical development
+      that we offer. So if the funds are all you need, then we have to
+      apologize to you.<br>
+    </p>
+    <p>Please confirm.<br>
+    </p>
+    <div class=3D"gmail-m_-7460054407587707776moz-signature">best regards,
+     =20
+      <ul style=3D"padding:0px">
+        <li style=3D"font-weight:bold;font-size:16px;color:rgb(0,137,209)">=
+Widad
+          Sadeq</li>
+        <li><span style=3D"font-style:italic">Executive Secretary</span>
+          @ <span style=3D"font-style:italic;color:rgb(226,37,31)">FasterCa=
+pital</span></li>
+        <li><a class=3D"gmail-m_-7460054407587707776moz-txt-link-abbreviate=
+d" href=3D"mailto:widad.sadeq@fastercapital.com" target=3D"_blank">widad.sa=
+deq@fastercapital.com</a></li>
+        <li>Skype: live:widad.sadeq</li>
+        <li>Check out our website! <a href=3D"http://www.fastercapital.com/=
+" target=3D"_blank">FasterCapital</a></li>
+        <li>Like our page on <a href=3D"https://www.facebook.com/FasterCapi=
+tal" target=3D"_blank">Facebook</a></li>
+        <li>Follow us on <a href=3D"https://www.twitter.com/fastercapital" =
+target=3D"_blank">Twitter</a></li>
+        <li>Follow us on <a href=3D"https://www.linkedin.com/company/faster=
+capital" target=3D"_blank">LinkedIn</a></li>
+        <li>Follow us on <a href=3D"https://instagram.com/fastercapital/" t=
+arget=3D"_blank">Instagram</a></li>
+        <li>Add me on <a href=3D"https://www.linkedin.com/in/widadsadeq" ta=
+rget=3D"_blank">LinkedIn</a></li>
+      </ul>
+    </div>
+    <div class=3D"gmail-m_-7460054407587707776moz-cite-prefix">On 7/15/2019=
+ 16:28:02, George Gvazava
+      wrote:<br>
+    </div>
+    <blockquote type=3D"cite">
+     =20
+      <div dir=3D"ltr">Dear Widad,
+        <div>Thanks for your response. Please, can you make it clear, in
+          the case if Fastercapital=C2=A0 provides no financial support to
+          entrepreneur women why is there required additional fund
+          needed graph?=C2=A0</div>
+        <div>If you already found the business model of the company
+          &quot;Tripplaner.ge&quot;, the company is already launched and ma=
+in
+          supports required are:</div>
+        <div>1) Funding for promoting and marketing campaign=C2=A0 =C2=A0</=
+div>
+        <div>2) Support to reach European and Non-European market for
+          costumer attraction</div>
+        <div><br>
+        </div>
+        <div>If the financial support wont be provided, what is a right
+          way for further cooperation of Fastercapital and
+          Tripplanner.ge? I&#39;m really possessed bundling that deal and
+          make it fruitful for both sides, especially when we are
+          talking woman headed stratup.</div>
+        <div><br>
+        </div>
+        <div>Thanks and waiting for your=C2=A0reply</div>
+      </div>
+      <br>
+      <div class=3D"gmail_quote">
+        <div dir=3D"ltr" class=3D"gmail_attr">On Sat, Jul 6, 2019 at 2:57 P=
+M
+          Widad Sadeq &lt;<a href=3D"mailto:widad.sadeq@fastercapital.com" =
+target=3D"_blank">widad.sadeq@fastercapital.com</a>&gt;
+          wrote:<br>
+        </div>
+        <blockquote class=3D"gmail_quote" style=3D"margin:0px 0px 0px 0.8ex=
+;border-left:1px solid rgb(204,204,204);padding-left:1ex">
+          <div bgcolor=3D"#FFFFFF">
+            <p>Dear Ekaterine,</p>
+            <p>=C2=A0 This is Widad Sadeq from FasterCapital. I&#39;ll be
+              following up with you during this period, we will estimate
+              your startup and discuss all the necessary points and
+              aspects. There&#39;s one important thing that all
+              entrepreneurs need to know is that we have no-Cash
+              principle which means that we will not give entrepreneurs
+              full cash funding. Instead, we will co-fund and co-develop
+              tech and internet start-ups (technical development per
+              equity). </p>
+            <p>Please find attached the guidelines that can help in
+              understanding our model and the terms that we have. Please
+              read it thoroughly to get a full clear picture about us.
+              I&#39;ll be waiting for your feedback and questions.</p>
+            Looking forward to proceed together.
+            <div class=3D"gmail-m_-7460054407587707776gmail-m_-482335438096=
+6319540moz-signature">best
+              regards,
+              <ul style=3D"padding:0px">
+                <li style=3D"font-weight:bold;font-size:16px;color:rgb(0,13=
+7,209)">Widad
+                  Sadeq</li>
+                <li><span style=3D"font-style:italic">Executive Secretary</=
+span>
+                  @ <span style=3D"font-style:italic;color:rgb(226,37,31)">=
+FasterCapital</span></li>
+                <li><a class=3D"gmail-m_-7460054407587707776gmail-m_-482335=
+4380966319540moz-txt-link-abbreviated" href=3D"mailto:widad.sadeq@fastercap=
+ital.com" target=3D"_blank">widad.sadeq@fastercapital.com</a></li>
+                <li>Skype: live:widad.sadeq</li>
+                <li>Check out our website! <a href=3D"http://www.fastercapi=
+tal.com/" target=3D"_blank">FasterCapital</a></li>
+                <li>Like our page on <a href=3D"https://www.facebook.com/Fa=
+sterCapital" target=3D"_blank">Facebook</a></li>
+                <li>Follow us on <a href=3D"https://www.twitter.com/fasterc=
+apital" target=3D"_blank">Twitter</a></li>
+                <li>Follow us on <a href=3D"https://www.linkedin.com/compan=
+y/fastercapital" target=3D"_blank">LinkedIn</a></li>
+                <li>Follow us on <a href=3D"https://instagram.com/fastercap=
+ital/" target=3D"_blank">Instagram</a></li>
+                <li>Add me on <a href=3D"https://www.linkedin.com/in/widads=
+adeq" target=3D"_blank">LinkedIn</a></li>
+              </ul>
+            </div>
+          </div>
+        </blockquote>
+      </div>
+      <br clear=3D"all">
+      <div><br>
+      </div>
+      -- <br>
+      <div dir=3D"ltr" class=3D"gmail-m_-7460054407587707776gmail_signature=
+">
+        <div dir=3D"ltr">
+          <div>
+            <div dir=3D"ltr">
+              <div>Respect</div>
+              <div><br>
+              </div>
+              <div>Giorgi Gvazava</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </blockquote>
+  </div>
+
+</blockquote></div><br clear=3D"all"><div><br></div>-- <br><div dir=3D"ltr"=
+ class=3D"gmail_signature"><div dir=3D"ltr"><div><div dir=3D"ltr"><div>Resp=
+ect</div><div><br></div><div>Giorgi Gvazava</div></div></div></div></div>
+
+--00000000000011f716058dc5db2b--

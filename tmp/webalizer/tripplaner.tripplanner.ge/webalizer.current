@@ -1,11 +1,11 @@
-# Webalizer V2.23-08 Incremental Data - 07/04/2019 04:10:07
-2019 7 4 4 10 7
-36 0 17 0 3 10 11998 24 15 0
-3 2 8 1 4
-18 0 5722 9 11 8
-7 0 2479 4 5 2
-8 0 3057 4 6 3
-3 0 740 3 2 2
+# Webalizer V2.23-08 Incremental Data - 08/01/2019 06:12:07
+2019 8 1 6 12 7
+1 0 1 0 1 1 294 1 1 0
+1 1 1 1 1
+1 0 294 1 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -36,27 +36,27 @@
 0 0 0 0
 0 0 0 0
 0 0 0 0
-10 0 1955 3
-3 0 951 3
+0 0 0 0
 0 0 0 0
 0 0 0 0
 1 0 294 1
-4 0 1628 3
-0 0 0 0
-0 0 0 0
-12 0 4920 12
-1 0 83 0
-2 0 1040 1
 0 0 0 0
 0 0 0 0
 0 0 0 0
-1 0 83 0
 0 0 0 0
 0 0 0 0
 0 0 0 0
-2 0 1044 1
 0 0 0 0
 0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
 0
 0
 0
@@ -68,7 +68,7 @@
 0
 0
 0
-20
+1
 0
 0
 0
@@ -77,13 +77,13 @@
 0
 0
 0
-5
-7
 0
 0
 0
 0
-4
+0
+0
+0
 0
 0
 0
@@ -101,97 +101,21 @@
 # -urls- 
 # End Of Table - urls
 # -sites- (monthly)
-93-158-161-149.spider.yandex.com
-0 1 0 746 0 0
--
-ec2-35-167-80-106.us-west-2.compute.amazonaws.com
-0 1 0 294 1 1562213407
--
-ec2-52-13-238-15.us-west-2.compute.amazonaws.com
-0 1 0 294 1 1562051760
--
-ns503661.ip-192-99-13.net
-0 1 0 83 0 0
--
-93-158-161-171.spider.yandex.com
-0 4 0 1632 3 1562159677
--
-ec2-54-203-147-218.us-west-2.compute.amazonaws.com
-0 1 0 294 1 1561951212
--
-sac.sacksexhibits.com
-0 1 0 83 0 0
--
-ec2-54-188-108-118.us-west-2.compute.amazonaws.com
-0 1 0 294 1 1562127540
--
-researchscanner03.eecs.berkeley.edu
-0 1 0 462 0 0
--
-5-255-250-128.spider.yandex.com
-0 1 0 746 0 0
--
-ns385465.ip-46-105-127.eu
-0 6 0 753 1 1561950423
--
-ip51.ip-54-36-221.eu
-0 1 0 83 0 0
--
-smartscan04.sitelock.com
-0 12 0 4920 3 1562154983
--
-host-94-100-234-148.magtinet.ge
-0 1 0 294 1 1561969610
--
-173.252.95.35
-0 1 0 363 1 1562213406
--
-google-proxy-66-249-81-196.google.com
-0 1 0 294 1 1561969621
--
-31.13.115.7
-0 1 0 363 1 1561952958
+ec2-34-221-87-216.us-west-2.compute.amazonaws.com
+0 1 0 294 1 1564639927
 -
 # End Of Table - sites (monthly)
 # -sites- (daily)
-ec2-35-167-80-106.us-west-2.compute.amazonaws.com
-0 1 0 294 1 1562213407
--
-sac.sacksexhibits.com
-0 1 0 83 0 0
--
-173.252.95.35
-0 1 0 363 1 1562213406
+ec2-34-221-87-216.us-west-2.compute.amazonaws.com
+0 1 0 294 1 1564639927
 -
 # End Of Table - sites (daily)
 # -referrers- 
-http://www.google.com/url
-0 6
-http://www.tripplaner.ge
-0 3
 - (Direct Request)
-0 27
+0 1
 # End Of Table - referrers
 # -agents- 
-Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/6.0)
-0 9
-SiteLockSpider [en] (WinNT; I ;Nav)
-0 3
-Go-http-client/1.1
-0 4
-Mozilla/5.0 zgrab/0.x
-0 1
-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
-0 2
-Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
-0 6
-Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0
-0 6
-Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0
-0 3
-Mozilla/5.0 (Linux; Android 8.0.0; SAMSUNG SM-G935U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/9.2 Ch
-0 1
-Mozilla/5.0 (Linux; Android 8.0.0; SM-G935F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.101 Mobile Safari/537.36
+Mozilla/5.0 (Windows NT 10.0; Win64; x64)AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
 0 1
 # End Of Table - agents
 # -search strings- 

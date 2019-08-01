@@ -1,0 +1,191 @@
+Return-Path: <g.gvazava7@gmail.com>
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP
+	id SN/sIn9/LF1mPg8A8w4q4w
+	(envelope-from <g.gvazava7@gmail.com>); Mon, 15 Jul 2019 08:28:31 -0500
+Return-path: <g.gvazava7@gmail.com>
+Envelope-to: e.tarkhnishvili@tripplanner.ge,
+ g.gvazava@tripplanner.ge
+Delivery-date: Mon, 15 Jul 2019 08:28:31 -0500
+Received: from mail-lf1-f48.google.com ([209.85.167.48]:37275)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.92)
+	(envelope-from <g.gvazava7@gmail.com>)
+	id 1hn11q-000FQB-OT; Mon, 15 Jul 2019 08:28:31 -0500
+Received: by mail-lf1-f48.google.com with SMTP id c9so11000453lfh.4;
+        Mon, 15 Jul 2019 06:28:20 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to
+         :cc;
+        bh=dO137Ux0gpSi+HC0ZEFC1Ydw2ra9JyZtuYPbAdapnzs=;
+        b=H5bIJEzxGvPOCYStk4VCoDjiZmFCX0b7sKFecL5jTdwkjkbMAzMOcRc4DNowC5U1VR
+         4buKAd2GZGE6jzTOVqBYXK71qphPLc4m50u+qlHySrK15D3aK9VqVihCAjsx4d0yU0Yv
+         v/FDmXaGYp8CXCgNdo2UfyH0QvPKzuD1CUHe5dgLMIS5gSpEDY/rm+bAhv8672B1F9x+
+         dbmuY/eye8bkuFkH+X0M4JvrG2FhGgjvg7TSoGbNrXc5+ZeuMvA84bWnOjSGD9vZ/8gz
+         2SrJAzv3pV+mLxuJS6XLNiSY7P7jpq9q9YFSI8NrNjFEJz95LS9aP25BTePZiWcU4iqw
+         52+g==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to:cc;
+        bh=dO137Ux0gpSi+HC0ZEFC1Ydw2ra9JyZtuYPbAdapnzs=;
+        b=L0SZiu2uxESVwRGLP8uPtRHGIJw3DT9iNcmb2ueYn1797NNkyYZUgLDC61Bm7uvw/j
+         Zv7btOxpIqZISD5tArzL93u4AxN02cIwtKStMZ6/XfB5Kpm7hgvNVce+IhpX6bULK6hv
+         NXVSB6oYPQsbmRo4yocO431VC/tSQUe7SEDNZwhRulxde3Wd1AdMI/0iyGW8HHIbPu4T
+         v3J/nkJ9uuntkxaEKF3Q5KKBSVLl8w4jaZNZWRGLQqxlRBhXGI+AmBV5eT2Lm6ZykNsw
+         AgoVhOh3+UX0Q3XgHcz+pv0IYc6rh1Dx843/SPT6U2ug6jZOaPnQS2cYawTSfNCCEakZ
+         AUpA==
+X-Gm-Message-State: APjAAAV/IBrax9gZqRnlU9cRcM+0hjSlclRLN75DoGwrzmHUB8OCijWJ
+	tpXxkerBaiMPBzaTAlxw90RbGt9O4zXHMnT2WCo=
+X-Google-Smtp-Source: APXvYqx9r7piXfAViwSzGJ7GZpjIb2Yz8N2G9v3FN0opwntbgoU/FJnZJUmAwr8tv0mhgO0Z97/uLl9HyoYZv9WDcio=
+X-Received: by 2002:ac2:456d:: with SMTP id k13mr11254521lfm.77.1563197293287;
+ Mon, 15 Jul 2019 06:28:13 -0700 (PDT)
+MIME-Version: 1.0
+References: <500552ec-a0b3-59f5-eed0-afe93e2a28d0@fastercapital.com>
+In-Reply-To: <500552ec-a0b3-59f5-eed0-afe93e2a28d0@fastercapital.com>
+From: George Gvazava <g.gvazava7@gmail.com>
+Date: Mon, 15 Jul 2019 17:28:02 +0400
+Message-ID: <CAM239n4rqSBLCCR2cc+Lr5vcqE16VbTdGy+aU+7y1A2SQwRAjQ@mail.gmail.com>
+Subject: Re: Incubation program: Tripplanner.ge: FAQs for entrepreneurs
+To: Widad Sadeq <widad.sadeq@fastercapital.com>
+Cc: Ekaterine Tarkhnishvili <e.tarkhnishvili@tripplanner.ge>, faisal.khamees@fastercapital.com, 
+	g.gvazava@tripplanner.ge
+Content-Type: multipart/alternative; boundary="000000000000615da7058db83bf8"
+X-Spam-Status: No, score=0.6
+X-Spam-Score: 6
+X-Spam-Bar: /
+X-Spam-Flag: NO
+
+--000000000000615da7058db83bf8
+Content-Type: text/plain; charset="UTF-8"
+
+Dear Widad,
+Thanks for your response. Please, can you make it clear, in the case if
+Fastercapital  provides no financial support to entrepreneur women why is
+there required additional fund needed graph?
+If you already found the business model of the company "Tripplaner.ge", the
+company is already launched and main supports required are:
+1) Funding for promoting and marketing campaign
+2) Support to reach European and Non-European market for costumer attraction
+
+If the financial support wont be provided, what is a right way for further
+cooperation of Fastercapital and Tripplanner.ge? I'm really possessed
+bundling that deal and make it fruitful for both sides, especially when we
+are talking woman headed stratup.
+
+Thanks and waiting for your reply
+
+On Sat, Jul 6, 2019 at 2:57 PM Widad Sadeq <widad.sadeq@fastercapital.com>
+wrote:
+
+> Dear Ekaterine,
+>
+>   This is Widad Sadeq from FasterCapital. I'll be following up with you
+> during this period, we will estimate your startup and discuss all the
+> necessary points and aspects. There's one important thing that all
+> entrepreneurs need to know is that we have no-Cash principle which means
+> that we will not give entrepreneurs full cash funding. Instead, we will
+> co-fund and co-develop tech and internet start-ups (technical development
+> per equity).
+>
+> Please find attached the guidelines that can help in understanding our
+> model and the terms that we have. Please read it thoroughly to get a full
+> clear picture about us. I'll be waiting for your feedback and questions.
+> Looking forward to proceed together.
+> best regards,
+>
+>    - Widad Sadeq
+>    - Executive Secretary @ FasterCapital
+>    - widad.sadeq@fastercapital.com
+>    - Skype: live:widad.sadeq
+>    - Check out our website! FasterCapital <http://www.fastercapital.com/>
+>    - Like our page on Facebook <https://www.facebook.com/FasterCapital>
+>    - Follow us on Twitter <https://www.twitter.com/fastercapital>
+>    - Follow us on LinkedIn
+>    <https://www.linkedin.com/company/fastercapital>
+>    - Follow us on Instagram <https://instagram.com/fastercapital/>
+>    - Add me on LinkedIn <https://www.linkedin.com/in/widadsadeq>
+>
+>
+
+-- 
+Respect
+
+Giorgi Gvazava
+
+--000000000000615da7058db83bf8
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Dear Widad,<div>Thanks for your response. Please, can you =
+make it clear, in the case if Fastercapital=C2=A0 provides no financial sup=
+port to entrepreneur women why is there required additional fund needed gra=
+ph?=C2=A0</div><div>If you already found the business model of the company =
+&quot;Tripplaner.ge&quot;, the company is already launched and main support=
+s required are:</div><div>1) Funding for promoting and marketing campaign=
+=C2=A0 =C2=A0</div><div>2) Support to reach European and Non-European marke=
+t for costumer attraction</div><div><br></div><div>If the financial support=
+ wont be provided, what is a right way for further cooperation of Fastercap=
+ital and Tripplanner.ge? I&#39;m really possessed bundling that deal and ma=
+ke it fruitful for both sides, especially when we are talking woman headed =
+stratup.</div><div><br></div><div>Thanks and waiting for your=C2=A0reply</d=
+iv></div><br><div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_att=
+r">On Sat, Jul 6, 2019 at 2:57 PM Widad Sadeq &lt;<a href=3D"mailto:widad.s=
+adeq@fastercapital.com">widad.sadeq@fastercapital.com</a>&gt; wrote:<br></d=
+iv><blockquote class=3D"gmail_quote" style=3D"margin:0px 0px 0px 0.8ex;bord=
+er-left:1px solid rgb(204,204,204);padding-left:1ex">
+ =20
+
+   =20
+ =20
+  <div bgcolor=3D"#FFFFFF">
+    <p>Dear Ekaterine,</p>
+    <p>=C2=A0 This is Widad Sadeq from FasterCapital. I&#39;ll be following=
+ up
+      with you during this period, we will estimate your startup and
+      discuss all the necessary points and aspects. There&#39;s one
+      important thing that all entrepreneurs need to know is that we
+      have no-Cash principle which means that we will not give
+      entrepreneurs full cash funding. Instead, we will co-fund and
+      co-develop tech and internet start-ups (technical development per
+      equity). </p>
+    <p>Please find attached the guidelines that can help in
+      understanding our model and the terms that we have. Please read it
+      thoroughly to get a full clear picture about us. I&#39;ll be waiting
+      for your feedback and questions.</p>
+    Looking forward to proceed together.
+    <div class=3D"gmail-m_-4823354380966319540moz-signature">best regards,
+     =20
+      <ul style=3D"padding:0px">
+        <li style=3D"font-weight:bold;font-size:16px;color:rgb(0,137,209)">=
+Widad
+          Sadeq</li>
+        <li><span style=3D"font-style:italic">Executive Secretary</span>
+          @ <span style=3D"font-style:italic;color:rgb(226,37,31)">FasterCa=
+pital</span></li>
+        <li><a class=3D"gmail-m_-4823354380966319540moz-txt-link-abbreviate=
+d" href=3D"mailto:widad.sadeq@fastercapital.com" target=3D"_blank">widad.sa=
+deq@fastercapital.com</a></li>
+        <li>Skype: live:widad.sadeq</li>
+        <li>Check out our website! <a href=3D"http://www.fastercapital.com/=
+" target=3D"_blank">FasterCapital</a></li>
+        <li>Like our page on <a href=3D"https://www.facebook.com/FasterCapi=
+tal" target=3D"_blank">Facebook</a></li>
+        <li>Follow us on <a href=3D"https://www.twitter.com/fastercapital" =
+target=3D"_blank">Twitter</a></li>
+        <li>Follow us on <a href=3D"https://www.linkedin.com/company/faster=
+capital" target=3D"_blank">LinkedIn</a></li>
+        <li>Follow us on <a href=3D"https://instagram.com/fastercapital/" t=
+arget=3D"_blank">Instagram</a></li>
+        <li>Add me on <a href=3D"https://www.linkedin.com/in/widadsadeq" ta=
+rget=3D"_blank">LinkedIn</a></li>
+      </ul>
+    </div>
+  </div>
+
+</blockquote></div><br clear=3D"all"><div><br></div>-- <br><div dir=3D"ltr"=
+ class=3D"gmail_signature"><div dir=3D"ltr"><div><div dir=3D"ltr"><div>Resp=
+ect</div><div><br></div><div>Giorgi Gvazava</div></div></div></div></div>
+
+--000000000000615da7058db83bf8--

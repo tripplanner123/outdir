@@ -8,33 +8,33 @@ AWSTATS DATA FILE 7.7 (build 20180105)
 # update).
 BEGIN_MAP 28
 POS_GENERAL 2026                
-POS_TIME 2699                
-POS_VISITOR 5798                
-POS_DAY 5907                
-POS_DOMAIN 3199                
-POS_LOGIN 3422                
-POS_ROBOT 3577                
-POS_WORMS 3754                
-POS_EMAILSENDER 3885                
-POS_EMAILRECEIVER 4028                
-POS_SESSION 5983                
-POS_SIDER 6129                
-POS_FILETYPES 4163                
-POS_DOWNLOADS 4243                
-POS_OS 4291                
-POS_BROWSER 4369                
-POS_SCREENSIZE 4435                
-POS_UNKNOWNREFERER 4509                
-POS_UNKNOWNREFERERBROWSER 4596                
-POS_ORIGIN 4678                
-POS_SEREFERRALS 4808                
-POS_PAGEREFS 4952                
-POS_SEARCHWORDS 5100                
-POS_KEYWORDS 5252                
-POS_MISC 2363                
-POS_ERRORS 5311                
-POS_CLUSTER 3278                
-POS_SIDER_404 5418                
+POS_TIME 2700                
+POS_VISITOR 5909                
+POS_DAY 6021                
+POS_DOMAIN 3259                
+POS_LOGIN 3485                
+POS_ROBOT 3640                
+POS_WORMS 3819                
+POS_EMAILSENDER 3950                
+POS_EMAILRECEIVER 4093                
+POS_SESSION 6237                
+POS_SIDER 6383                
+POS_FILETYPES 4228                
+POS_DOWNLOADS 4310                
+POS_OS 4358                
+POS_BROWSER 4438                
+POS_SCREENSIZE 4506                
+POS_UNKNOWNREFERER 4580                
+POS_UNKNOWNREFERERBROWSER 4667                
+POS_ORIGIN 4749                
+POS_SEREFERRALS 4881                
+POS_PAGEREFS 5025                
+POS_SEARCHWORDS 5173                
+POS_KEYWORDS 5325                
+POS_MISC 2364                
+POS_ERRORS 5384                
+POS_CLUSTER 3341                
+POS_SIDER_404 5495                
 END_MAP
 
 # LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
@@ -46,11 +46,11 @@ END_MAP
 # MonthHostsKnown   = Number of hosts known
 # MonthHostsUnKnown = Number of hosts unknown
 BEGIN_GENERAL 8
-LastLine 20190703231532 4 537 9593413755564
+LastLine 20190731144113 2 216 12348108164439
 FirstTime 20190701175707
-LastTime 20190701175707
-LastUpdate 20190704071029 4 0 4 0 0
-TotalVisits 1                   
+LastTime 20190728205053
+LastUpdate 20190801070735 2 0 2 0 0
+TotalVisits 8                   
 TotalUnique 1                   
 MonthHostsKnown 0                   
 MonthHostsUnknown 1                   
@@ -58,50 +58,50 @@ END_GENERAL
 
 # Misc ID - Pages - Hits - Bandwidth
 BEGIN_MISC 10
-JavascriptDisabled 0 0 0
 TotalMisc 0 0 0
-QuickTimeSupport 0 0 0
-DirectorSupport 0 0 0
-WindowsMediaPlayerSupport 0 0 0
-AddToFavourites 0 0 0
-FlashSupport 0 0 0
-JavaEnabled 0 0 0
-PDFSupport 0 0 0
 RealPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 0 0
+JavaEnabled 0 0 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
+PDFSupport 0 0 0
 END_MISC
 
 # Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
 BEGIN_TIME 24
-0 0 0 0 0 0 0
-1 0 0 0 0 0 0
-2 0 0 0 0 0 0
-3 0 0 0 0 0 0
-4 0 0 0 2 2 574
-5 0 0 0 2 2 1380
-6 0 0 0 0 0 0
-7 0 0 0 0 0 0
-8 0 0 0 2 2 1366
-9 0 0 0 0 0 0
-10 0 0 0 0 0 0
-11 0 0 0 1 1 226
+0 0 0 0 4 4 1010
+1 0 0 0 4 4 875
+2 2 2 1366 2 2 439
+3 0 0 0 4 4 1805
+4 0 0 0 6 6 3320
+5 0 0 0 4 4 1954
+6 4 4 2732 0 0 0
+7 0 0 0 1 1 226
+8 0 0 0 4 4 1805
+9 2 2 1366 2 2 1380
+10 0 0 0 3 3 808
+11 0 0 0 3 3 1606
 12 0 0 0 0 0 0
-13 0 0 0 1 1 226
-14 0 0 0 0 0 0
+13 0 0 0 7 7 1678
+14 0 0 0 8 8 3770
 15 0 0 0 0 0 0
-16 0 0 0 0 0 0
-17 2 2 1366 0 0 0
+16 2 2 1366 2 2 574
+17 2 2 1366 6 6 2376
 18 0 0 0 0 0 0
-19 0 0 0 0 0 0
-20 0 0 0 2 2 574
-21 0 0 0 2 2 574
-22 0 0 0 4 4 875
-23 0 0 0 2 2 574
+19 0 0 0 10 10 3662
+20 2 2 1366 4 4 1148
+21 0 0 0 10 10 3527
+22 2 2 1366 12 12 3171
+23 0 0 0 6 6 1722
 END_TIME
 
 # Domain - Pages - Hits - Bandwidth
 # The 25 first Pages must be first (order not required for others)
 BEGIN_DOMAIN 1
-cn 2 2 1366
+cn 16 16 10928
 END_DOMAIN
 
 # Cluster ID - Pages - Hits - Bandwidth
@@ -116,7 +116,7 @@ END_LOGIN
 # Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
 # The 25 first Hits must be first (order not required for others)
 BEGIN_ROBOT 1
-bot[\s_+:,\.\;\/\\-] 4 2746 20190703050736 0
+bot[\s_+:,\.\;\/\\-] 24 16476 20190730174744 0
 END_ROBOT
 
 # Worm ID - Hits - Bandwidth - Last visit
@@ -136,7 +136,7 @@ END_EMAILRECEIVER
 
 # Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
 BEGIN_FILETYPES 1
-html 2 1366 0 0
+html 16 10928 0 0
 END_FILETYPES
 
 # Downloads - Hits - Bandwidth
@@ -145,12 +145,12 @@ END_DOWNLOADS
 
 # OS ID - Hits
 BEGIN_OS ID - Hits - Pages 1
-macosx11 2 2
+macosx11 16 16
 END_OS
 
 # Browser ID - Hits - Pages
 BEGIN_BROWSER 1
-firefox47.0 2 2
+firefox47.0 16 16
 END_BROWSER
 
 # Screen size - Hits
@@ -167,7 +167,7 @@ END_UNKNOWNREFERERBROWSER
 
 # Origin - Pages - Hits 
 BEGIN_ORIGIN 6
-From0 2 2
+From0 16 16
 From1 0 0
 From2 0 0
 From3 0 0
@@ -196,37 +196,45 @@ END_KEYWORDS
 
 # Errors - Hits - Bandwidth
 BEGIN_ERRORS 3
-301 8 2296
-404 4 875
-406 2 452
+406 4 904
+404 26 5692
+301 48 13784
 END_ERRORS
 
 # URL with 404 errors - Hits - Last URL referrer
-BEGIN_SIDER_404 3
-/ 2 -
-/___proxy_subdomain_cpanel/ 1 -
-/___proxy_subdomain_webmail/ 1 -
+BEGIN_SIDER_404 4
+/ 13 -
+/___proxy_subdomain_webmail/ 6 -
+/___proxy_subdomain_cpanel/ 5 -
+/___proxy_subdomain_webdisk/ 2 -
 END_SIDER_404
 
 # Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
 # [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
 # The 25 first Hits must be first (order not required for others)
 BEGIN_VISITOR 1
-60.191.38.77 2 2 1366 20190701175707
+60.191.38.77 16 16 10928 20190728205053
 END_VISITOR
 
 # Date - Pages - Hits - Bandwidth - Visits
-BEGIN_DAY 1
+BEGIN_DAY 8
 20190701 2 2 1366 1
+20190704 2 2 1366 1
+20190708 2 2 1366 1
+20190711 2 2 1366 1
+20190714 2 2 1366 1
+20190720 2 2 1366 1
+20190723 2 2 1366 1
+20190728 2 2 1366 1
 END_DAY
 
 # Session range - Number of visits
 BEGIN_SESSION 1
-0s-30s 1
+0s-30s 8
 END_SESSION
 
 # URL - Pages - Bandwidth - Entry - Exit
 # The 25 first Pages must be first (order not required for others)
 BEGIN_SIDER 1
-/ 2 1366 1 1
+/ 16 10928 8 8
 END_SIDER

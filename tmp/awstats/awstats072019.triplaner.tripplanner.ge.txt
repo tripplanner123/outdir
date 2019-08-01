@@ -8,33 +8,33 @@ AWSTATS DATA FILE 7.7 (build 20180105)
 # update).
 BEGIN_MAP 28
 POS_GENERAL 2025                
-POS_TIME 2676                
-POS_VISITOR 6617                
-POS_DAY 6689                
-POS_DOMAIN 3174                
-POS_LOGIN 3385                
-POS_ROBOT 3540                
-POS_WORMS 3672                
-POS_EMAILSENDER 3803                
-POS_EMAILRECEIVER 3946                
-POS_SESSION 6745                
-POS_SIDER 6882                
-POS_FILETYPES 4081                
-POS_DOWNLOADS 4145                
-POS_OS 4193                
-POS_BROWSER 4258                
-POS_SCREENSIZE 4308                
-POS_UNKNOWNREFERER 4382                
-POS_UNKNOWNREFERERBROWSER 4469                
-POS_ORIGIN 4551                
-POS_SEREFERRALS 4681                
-POS_PAGEREFS 4825                
-POS_SEARCHWORDS 4973                
-POS_KEYWORDS 5125                
-POS_MISC 2340                
-POS_ERRORS 5184                
-POS_CLUSTER 3241                
-POS_SIDER_404 5295                
+POS_TIME 2686                
+POS_VISITOR 6787                
+POS_DAY 6897                
+POS_DOMAIN 3222                
+POS_LOGIN 3444                
+POS_ROBOT 3599                
+POS_WORMS 3776                
+POS_EMAILSENDER 3907                
+POS_EMAILRECEIVER 4050                
+POS_SESSION 6972                
+POS_SIDER 7118                
+POS_FILETYPES 4185                
+POS_DOWNLOADS 4264                
+POS_OS 4312                
+POS_BROWSER 4387                
+POS_SCREENSIZE 4453                
+POS_UNKNOWNREFERER 4527                
+POS_UNKNOWNREFERERBROWSER 4614                
+POS_ORIGIN 4696                
+POS_SEREFERRALS 4826                
+POS_PAGEREFS 4970                
+POS_SEARCHWORDS 5118                
+POS_KEYWORDS 5270                
+POS_MISC 2350                
+POS_ERRORS 5329                
+POS_CLUSTER 3300                
+POS_SIDER_404 5464                
 END_MAP
 
 # LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
@@ -46,61 +46,62 @@ END_MAP
 # MonthHostsKnown   = Number of hosts known
 # MonthHostsUnKnown = Number of hosts unknown
 BEGIN_GENERAL 8
-LastLine 20190704041715 34 4983 8837983737637
+LastLine 20190801030140 2 201 12901136902014
 FirstTime 0
-LastTime 0
-LastUpdate 20190704071025 34 0 34 0 0
-TotalVisits 0                   
-TotalUnique 0                   
+LastTime 20190719000706
+LastUpdate 20190801070732 2 0 1 0 0
+TotalVisits 1                   
+TotalUnique 1                   
 MonthHostsKnown 0                   
-MonthHostsUnknown 0                   
+MonthHostsUnknown 1                   
 END_GENERAL
 
 # Misc ID - Pages - Hits - Bandwidth
 BEGIN_MISC 10
-FlashSupport 0 0 0
-DirectorSupport 0 0 0
-TotalMisc 0 0 0
-WindowsMediaPlayerSupport 0 0 0
-PDFSupport 0 0 0
-AddToFavourites 0 0 0
-QuickTimeSupport 0 0 0
 JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
 RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
 JavaEnabled 0 0 0
+QuickTimeSupport 0 0 0
 END_MISC
 
 # Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
 BEGIN_TIME 24
-0 0 0 0 0 0 0
-1 0 0 0 0 0 0
-2 0 0 0 1 1 293
-3 0 0 0 20 20 7510
-4 0 0 0 28 28 20888
-5 0 0 0 1 1 362
-6 0 0 0 0 0 0
-7 0 0 0 0 0 0
+0 1 1 354 5 8 2677
+1 0 0 0 10 10 2510
+2 0 0 0 10 10 3119
+3 0 0 0 136 136 53986
+4 0 0 0 51 51 23882
+5 0 0 0 4 4 1241
+6 0 0 0 3 3 669
+7 0 0 0 1 1 293
 8 0 0 0 0 0 0
-9 0 0 0 0 0 0
-10 0 0 0 0 0 0
-11 0 0 0 0 0 0
-12 0 0 0 0 0 0
+9 0 0 0 2 2 166
+10 0 0 0 1 1 692
+11 0 0 0 1 1 83
+12 0 0 0 3 3 249
 13 0 0 0 0 0 0
-14 0 0 0 0 0 0
-15 0 0 0 0 0 0
+14 0 0 0 2 2 166
+15 0 0 0 2 2 775
 16 0 0 0 0 0 0
-17 0 0 0 2 2 166
-18 0 0 0 0 0 0
+17 0 0 0 3 3 459
+18 0 0 0 2 2 590
 19 0 0 0 0 0 0
-20 0 0 0 1 1 293
+20 0 0 0 4 4 1176
 21 0 0 0 0 0 0
-22 0 0 0 1 2 759
-23 0 0 0 0 0 0
+22 0 0 0 3 4 1744
+23 0 0 0 1 1 692
 END_TIME
 
 # Domain - Pages - Hits - Bandwidth
 # The 25 first Pages must be first (order not required for others)
-BEGIN_DOMAIN 0
+BEGIN_DOMAIN 1
+us 1 1 354
 END_DOMAIN
 
 # Cluster ID - Pages - Hits - Bandwidth
@@ -114,7 +115,8 @@ END_LOGIN
 
 # Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
 # The 25 first Hits must be first (order not required for others)
-BEGIN_ROBOT 0
+BEGIN_ROBOT 1
+bot[\s_+:,\.\;\/\\-] 5 3460 20190731221516 0
 END_ROBOT
 
 # Worm ID - Hits - Bandwidth - Last visit
@@ -133,7 +135,8 @@ BEGIN_EMAILRECEIVER 0
 END_EMAILRECEIVER
 
 # Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
-BEGIN_FILETYPES 0
+BEGIN_FILETYPES 1
+html 1 354 0 0
 END_FILETYPES
 
 # Downloads - Hits - Bandwidth
@@ -141,11 +144,13 @@ BEGIN_DOWNLOADS 0
 END_DOWNLOADS
 
 # OS ID - Hits
-BEGIN_OS ID - Hits - Pages 0
+BEGIN_OS ID - Hits - Pages 1
+linux 1 1
 END_OS
 
 # Browser ID - Hits - Pages
-BEGIN_BROWSER 0
+BEGIN_BROWSER 1
+firefox65.0 1 1
 END_BROWSER
 
 # Screen size - Hits
@@ -162,7 +167,7 @@ END_UNKNOWNREFERERBROWSER
 
 # Origin - Pages - Hits 
 BEGIN_ORIGIN 6
-From0 0 0
+From0 1 1
 From1 0 0
 From2 0 0
 From3 0 0
@@ -190,58 +195,64 @@ BEGIN_KEYWORDS 0
 END_KEYWORDS
 
 # Errors - Hits - Bandwidth
-BEGIN_ERRORS 3
-409 3 249
-404 33 24334
-301 19 5688
+BEGIN_ERRORS 5
+403 2 268
+409 32 2656
+406 2 452
+404 62 45684
+301 144 42649
 END_ERRORS
 
 # URL with 404 errors - Hits - Last URL referrer
 BEGIN_SIDER_404 27
 /site/wp-includes/wlwmanifest.xml 1 -
-/portal/wp-includes/wlwmanifest.xml 1 -
-/newsite/wp-includes/wlwmanifest.xml 1 -
-/wp-includes/wlwmanifest.xml 1 -
-/test/wp-includes/wlwmanifest.xml 1 -
-/2019/wp-includes/wlwmanifest.xml 1 -
-/www/wp-includes/wlwmanifest.xml 1 -
-/staging/wp-includes/wlwmanifest.xml 1 -
-/v1/wp-includes/wlwmanifest.xml 1 -
-/blogs/wp-includes/wlwmanifest.xml 1 -
-/v2/wp-includes/wlwmanifest.xml 2 -
-/store/wp-includes/wlwmanifest.xml 2 -
-/backup/wp-includes/wlwmanifest.xml 1 -
-/1/wp-includes/wlwmanifest.xml 1 -
-/oldsite/wp-includes/wlwmanifest.xml 1 -
-/web/wp-includes/wlwmanifest.xml 1 -
-/main/wp-includes/wlwmanifest.xml 1 -
-/robots.txt 1 -
-/beta/wp-includes/wlwmanifest.xml 2 -
-/demo/wp-includes/wlwmanifest.xml 1 -
-/news/wp-includes/wlwmanifest.xml 1 -
 /shop/wp-includes/wlwmanifest.xml 1 -
 /en/wp-includes/wlwmanifest.xml 1 -
-/old/wp-includes/wlwmanifest.xml 1 -
-/th1s_1s_a_4o4.html 4 http://www.google.com/url
-/home/wp-includes/wlwmanifest.xml 1 -
+/beta/wp-includes/wlwmanifest.xml 2 -
+/demo/wp-includes/wlwmanifest.xml 1 -
+/wp-includes/wlwmanifest.xml 1 -
+/web/wp-includes/wlwmanifest.xml 1 -
 /2018/wp-includes/wlwmanifest.xml 1 -
+/blogs/wp-includes/wlwmanifest.xml 1 -
+/v1/wp-includes/wlwmanifest.xml 1 -
+/staging/wp-includes/wlwmanifest.xml 1 -
+/portal/wp-includes/wlwmanifest.xml 1 -
+/robots.txt 3 -
+/www/wp-includes/wlwmanifest.xml 1 -
+/2019/wp-includes/wlwmanifest.xml 1 -
+/home/wp-includes/wlwmanifest.xml 1 -
+/news/wp-includes/wlwmanifest.xml 1 -
+/1/wp-includes/wlwmanifest.xml 1 -
+/old/wp-includes/wlwmanifest.xml 1 -
+/th1s_1s_a_4o4.html 31 http://www.google.com/url
+/test/wp-includes/wlwmanifest.xml 1 -
+/backup/wp-includes/wlwmanifest.xml 1 -
+/oldsite/wp-includes/wlwmanifest.xml 1 -
+/store/wp-includes/wlwmanifest.xml 2 -
+/main/wp-includes/wlwmanifest.xml 1 -
+/newsite/wp-includes/wlwmanifest.xml 1 -
+/v2/wp-includes/wlwmanifest.xml 2 -
 END_SIDER_404
 
 # Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
 # [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
 # The 25 first Hits must be first (order not required for others)
-BEGIN_VISITOR 0
+BEGIN_VISITOR 1
+54.188.114.151 1 1 354 20190719000706
 END_VISITOR
 
 # Date - Pages - Hits - Bandwidth - Visits
-BEGIN_DAY 0
+BEGIN_DAY 1
+20190719 1 1 354 1
 END_DAY
 
 # Session range - Number of visits
-BEGIN_SESSION 0
+BEGIN_SESSION 1
+0s-30s 1
 END_SESSION
 
 # URL - Pages - Bandwidth - Entry - Exit
 # The 25 first Pages must be first (order not required for others)
-BEGIN_SIDER 0
+BEGIN_SIDER 1
+/ 1 354 1 1
 END_SIDER

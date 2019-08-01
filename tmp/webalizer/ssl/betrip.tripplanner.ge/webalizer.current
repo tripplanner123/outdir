@@ -1,66 +1,66 @@
-# Webalizer V2.23-08 Incremental Data - 07/03/2019 23:15:32
-2019 7 3 23 15 32
-20 6 10 1 1 4 7735 20 11 0
-5 2 4 1 3
+# Webalizer V2.23-08 Incremental Data - 07/31/2019 14:41:13
+2019 7 31 14 41 13
+118 40 42 1 1 4 47784 118 65 0
+1 2 4 1 31
 6 2 2379 3 6 3
 6 2 2376 3 6 3
 8 2 2980 5 8 5
+4 2 1818 3 4 3
+4 2 1805 2 4 2
+6 2 2393 3 6 4
+2 0 574 1 2 1
+2 2 1366 1 2 1
+6 2 2376 3 6 3
 0 0 0 0 0 0
+4 2 1940 2 4 2
+4 0 878 2 4 3
+4 2 1954 2 4 3
+4 2 1940 2 4 2
+2 0 574 1 2 1
+4 0 1148 2 4 2
 0 0 0 0 0 0
+2 0 436 1 2 1
+6 2 2393 3 6 3
+4 2 1940 2 4 2
 0 0 0 0 0 0
+2 0 574 1 2 1
+4 4 2732 2 4 2
+4 2 1954 2 4 2
 0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-2 0 574 2
-2 2 1380 2
-0 0 0 0
-0 0 0 0
-2 2 1366 2
-0 0 0 0
-0 0 0 0
-1 0 226 1
-0 0 0 0
-1 0 226 1
-0 0 0 0
-0 0 0 0
-0 0 0 0
-2 2 1366 2
-0 0 0 0
-0 0 0 0
-2 0 574 2
-2 0 574 2
+6 0 1449 3 6 3
+6 2 2522 3 6 3
+4 2 1940 2 4 2
+2 0 574 1 2 1
+10 4 4333 5 10 6
+2 0 436 1 2 1
+4 0 1010 4
 4 0 875 4
-2 0 574 2
+4 2 1805 4
+4 2 1805 4
+6 4 3320 6
+4 2 1954 4
+4 4 2732 4
+1 0 226 1
+4 2 1805 4
+4 4 2746 4
+3 0 808 3
+3 2 1606 3
+0 0 0 0
+7 0 1678 7
+8 4 3770 8
+0 0 0 0
+4 2 1940 4
+8 4 3742 8
+0 0 0 0
+10 2 3662 10
+6 2 2514 6
+10 2 3527 10
+14 2 4537 14
+6 0 1722 6
 0
 0
 0
-6
+40
 0
 0
 0
@@ -68,7 +68,7 @@
 0
 0
 0
-8
+48
 0
 0
 0
@@ -77,10 +77,10 @@
 0
 0
 0
+0
+26
 0
 4
-0
-2
 0
 0
 0
@@ -100,11 +100,47 @@
 0
 # -urls- 
 /
-0 6 8243129286180037221 4112 9 1
+0 40 8243129286180037221 27404 52 22
 # End Of Table - urls
 # -sites- (monthly)
+209.17.97.26.rdns.cloudsystemnetworks.com
+0 4 2 1819 2 1563545112
+/
+209.17.97.42.rdns.cloudsystemnetworks.com
+0 4 2 1940 2 1564196715
+/
+ec2-52-43-153-201.us-west-2.compute.amazonaws.com
+0 2 0 574 1 1564340879
+/
+209.17.96.34.rdns.cloudsystemnetworks.com
+0 2 0 574 1 1563946448
+/
+209.17.97.18.rdns.cloudsystemnetworks.com
+0 2 2 1380 1 1564459863
+/
+209.17.97.58.rdns.cloudsystemnetworks.com
+0 4 0 1010 3 1564584073
+/
+209.17.96.242.rdns.cloudsystemnetworks.com
+0 4 0 1148 2 1564158949
+/
+167.71.182.211
+0 1 0 226 1 1562235978
+/
+ec2-54-214-227-119.us-west-2.compute.amazonaws.com
+0 2 0 574 1 1563218027
+/
+209.17.97.2.rdns.cloudsystemnetworks.com
+0 2 2 1380 1 1562422067
+/
+209.17.96.250.rdns.cloudsystemnetworks.com
+0 2 0 436 1 1563471334
+/
+ec2-18-236-67-186.us-west-2.compute.amazonaws.com
+0 2 0 574 1 1562530092
+/
 60.191.38.77
-0 4 2 1940 2 1562195732
+0 22 16 12658 11 1564495860
 /
 167.71.180.68
 0 1 0 226 1 1562158857
@@ -112,58 +148,106 @@
 ec2-54-188-174-252.us-west-2.compute.amazonaws.com
 0 2 0 574 1 1562015927
 /
+ec2-35-164-182-72.us-west-2.compute.amazonaws.com
+0 2 0 574 1 1564266272
+/
 prod01.lfdanalytics.com
 0 1 0 226 1 1562154155
+/
+167.71.174.140
+0 1 0 226 1 1562226504
 /
 209.17.97.34.rdns.cloudsystemnetworks.com
 0 2 0 439 1 1562019010
 /
+209.17.96.42.rdns.cloudsystemnetworks.com
+0 4 4 2746 3 1564508864
+/
+ec2-18-237-166-116.us-west-2.compute.amazonaws.com
+0 2 0 574 2 1564513637
+/
+209.17.96.234.rdns.cloudsystemnetworks.com
+0 4 2 1805 2 1563916069
+/
+ec2-18-237-137-140.us-west-2.compute.amazonaws.com
+0 2 0 574 1 1563660805
+/
+ec2-34-220-245-101.us-west-2.compute.amazonaws.com
+0 2 0 574 1 1563311070
+/
+209.17.97.114.rdns.cloudsystemnetworks.com
+0 2 2 1380 1 1563959951
+/
+209.17.96.226.rdns.cloudsystemnetworks.com
+0 2 0 574 1 1562716727
+/
+ec2-52-13-28-191.us-west-2.compute.amazonaws.com
+0 2 0 574 1 1563563565
+/
+ec2-54-212-247-179.us-west-2.compute.amazonaws.com
+0 2 0 574 1 1563055104
+/
+ec2-34-221-166-212.us-west-2.compute.amazonaws.com
+0 2 0 574 1 1564438314
+/
+209.17.96.66.rdns.cloudsystemnetworks.com
+0 2 2 1366 1 1562353964
+/
 209.17.96.50.rdns.cloudsystemnetworks.com
 0 2 2 1366 1 1562055454
+/
+ec2-54-190-174-15.us-west-2.compute.amazonaws.com
+0 2 0 574 1 1563147471
+/
+209.17.96.10.rdns.cloudsystemnetworks.com
+0 2 0 439 1 1564128351
+/
+209.17.96.58.rdns.cloudsystemnetworks.com
+0 2 0 436 1 1562635580
 /
 209.17.97.74.rdns.cloudsystemnetworks.com
 0 2 0 436 1 1562105223
 /
+ec2-52-24-90-137.us-west-2.compute.amazonaws.com
+0 2 0 574 1 1563836398
+/
 ec2-35-163-61-85.us-west-2.compute.amazonaws.com
 0 2 0 574 1 1562097906
 /
+209.17.97.122.rdns.cloudsystemnetworks.com
+0 2 0 439 1 1562899311
+/
 209.17.96.210.rdns.cloudsystemnetworks.com
 0 2 0 574 1 1562126783
 /
 209.17.96.218.rdns.cloudsystemnetworks.com
-0 2 2 1380 1 1562130456
+0 6 2 2255 3 1564099363
+/
+209.17.96.202.rdns.cloudsystemnetworks.com
+0 2 0 439 2 1562967700
+/
+209.17.96.18.rdns.cloudsystemnetworks.com
+0 4 2 1805 2 1564451980
 /
 # End Of Table - sites (monthly)
 # -sites- (daily)
-60.191.38.77
-0 2 0 574 1 1562195732
-/
-167.71.180.68
-0 1 0 226 1 1562158857
-/
-prod01.lfdanalytics.com
-0 1 0 226 1 1562154155
-/
-209.17.96.210.rdns.cloudsystemnetworks.com
-0 2 0 574 1 1562126783
-/
-209.17.96.218.rdns.cloudsystemnetworks.com
-0 2 2 1380 1 1562130456
+209.17.97.58.rdns.cloudsystemnetworks.com
+0 2 0 436 1 1564584073
 /
 # End Of Table - sites (daily)
 # -referrers- 
 - (Direct Request)
-0 20
+0 118
 # End Of Table - referrers
 # -agents- 
 Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)
-0 10
+0 64
 Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
-0 2
+0 4
 Go-http-client/2.0
-0 4
+0 28
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0
-0 4
+0 22
 # End Of Table - agents
 # -search strings- 
 # End Of Table - search strings

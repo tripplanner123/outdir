@@ -4652,3 +4652,133 @@ git status
 git add .
 #1562321608
 git status
+#1562321615
+git add .
+#1562321624
+git commit -m "save"
+#1562321660
+git push origin master
+#1562322105
+exit
+#1564312345
+clear
+#1564312349
+cd public_html
+#1564312352
+git status
+#1564312630
+git add .
+#1564312648
+git commit -m "save"
+#1564312656
+git push origin master
+#1564312686
+cd ../beetrip.ge
+#1564312689
+git status
+#1564312698
+git add .
+#1564631289
+clear
+#1564631295
+cd public_html
+#1564631296
+ls
+#1564631300
+git status
+#1564631321
+git add .
+#1564631332
+git commit -m "save changes"
+#1564631341
+git push origin master
+#1564631373
+cd ../beetrip.ge
+#1564631375
+clear
+#1564631378
+git status
+#1564631391
+git add .
+#1564631405
+git commit -m "save before big updates"
+#1564631413
+git push origin master
+#1564631456
+cd ../public_html
+#1564631457
+ls
+#1564632472
+git status
+#1564639621
+git status
+#1564647158
+exit
+#1564657931
+cd public_html
+#1564657932
+ls
+#1564657934
+git status
+#1564657938
+git add .
+#1564657965
+git commit -m "seperate ongoing tours"
+#1564657976
+git push origin master
+#1564658844
+exit
+#1564676372
+cd public_html
+#1564676375
+git status
+#1564676384
+git add .
+#1564676409
+git commit -m "trip show only trips on going tours"
+#1564676416
+git push origin master
+#1564676671
+git status
+#1564676675
+git add .
+#1564676684
+git commit -m "fixes"
+#1564676690
+git push origin master
+#1564676713
+cd ../beetrip.ge
+#1564676716
+git status
+#1564676721
+git add .
+#1564676743
+git commit -m "show only beetrip on going tours"
+#1564676750
+git push origin master
+#1564676767
+cd ../
+#1564676769
+clear
+#1564676772
+git status
+#1564676817
+git add mail/*
+#1564676892
+git status
+#1564676907
+git add tmp/*
+#1564676913
+git status
+#1564676974
+cd etc/tripplanner.ge/@pwcache/
+#1564676976
+ls
+#1564676982
+cd forget2
+#1564676994
+cat forget2
+#1564677003
+cd
+#1564677008
+git status
