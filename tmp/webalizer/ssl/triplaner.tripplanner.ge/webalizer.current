@@ -1,8 +1,15 @@
-# Webalizer V2.23-08 Incremental Data - 08/01/2019 03:01:41
-2019 8 1 3 1 41
-2 1 2 1 1 2 987 2 2 0
-2 1 2 1 1
+# Webalizer V2.23-08 Incremental Data - 08/08/2019 06:23:01
+2019 8 8 6 23 1
+29 3 29 1 1 4 8869 29 29 0
+2 1 5 1 8
 2 1 987 2 2 2
+4 1 1575 4 4 4
+3 0 640 3 3 3
+2 0 588 2 2 2
+2 0 588 2 2 2
+12 1 3315 12 12 12
+2 0 588 2 2 2
+2 0 588 2 2 2
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -26,37 +33,44 @@
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-1 1 693 1
-0 0 0 0
+3 1 1039 3
+5 0 1130 5
+6 0 1492 6
+3 0 882 3
+3 0 882 3
 0 0 0 0
 1 0 294 1
 0 0 0 0
 0 0 0 0
 0 0 0 0
+2 1 987 2
+1 0 294 1
+0 0 0 0
+1 0 294 1
 0 0 0 0
 0 0 0 0
 0 0 0 0
+1 1 693 1
+1 0 294 1
+1 0 294 1
 0 0 0 0
 0 0 0 0
+1 0 294 1
 0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
+0
+0
+0
+3
+0
+0
+0
+0
+0
+0
+0
+16
+0
+0
 0
 0
 0
@@ -66,21 +80,7 @@
 0
 0
 0
-0
-0
-1
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
+9
 0
 0
 0
@@ -100,33 +100,118 @@
 0
 # -urls- 
 /
-0 1 0 693 2 0
+0 3 0 2079 29 0
 # End Of Table - urls
 # -sites- (monthly)
+67.227.97.78.rdns.colocationamerica.com
+0 1 0 294 1 1564785221
+/
+167.71.108.255
+0 1 0 226 1 1565054209
+/
+ec2-34-222-214-4.us-west-2.compute.amazonaws.com
+0 1 0 294 1 1564973547
+/
+209.17.97.66.rdns.cloudsystemnetworks.com
+0 1 0 52 1 1564791202
+/
+209.17.97.106.rdns.cloudsystemnetworks.com
+0 1 1 693 1 1564766656
+/
+38.145.99.115
+0 1 0 294 1 1564705918
+/
+server30.365localanews.com
+0 1 0 294 1 1564861867
+/
+ec2-35-166-194-61.us-west-2.compute.amazonaws.com
+0 1 0 294 1 1564892495
+/
+209.17.96.42.rdns.cloudsystemnetworks.com
+0 1 0 294 1 1565092719
+/
 209.17.96.234.rdns.cloudsystemnetworks.com
 0 1 1 693 1 1564618460
 /
+167.71.99.177
+0 1 0 226 1 1565057482
+/
+181.215.78.52
+0 1 0 294 1 1565174827
+/
+205.237.94.199
+0 1 0 294 1 1565237872
+/
+167.71.106.198
+0 1 0 226 1 1565055950
+/
+ec2-54-212-176-115.us-west-2.compute.amazonaws.com
+0 1 0 294 1 1564800946
+/
+181.215.75.8
+0 1 0 294 1 1565012752
+/
 ec2-54-188-38-119.us-west-2.compute.amazonaws.com
 0 1 0 294 1 1564628501
+/
+167.99.115.194
+0 1 0 226 1 1565053927
+/
+ec2-52-37-118-223.us-west-2.compute.amazonaws.com
+0 1 0 294 1 1564716015
+/
+181.214.187.174
+0 1 0 294 1 1564941611
+/
+167.71.94.247
+0 1 0 226 1 1565057630
+/
+167.71.86.221
+0 1 0 226 1 1565057014
+/
+167.71.111.217
+0 1 0 226 1 1565056426
+/
+ec2-18-237-42-70.us-west-2.compute.amazonaws.com
+0 1 0 294 1 1565065461
+/
+167.99.122.3
+0 1 0 226 1 1565057211
+/
+ec2-34-219-106-66.us-west-2.compute.amazonaws.com
+0 1 0 294 1 1565149356
+/
+node-335.speakapp.link
+0 1 0 226 1 1565056047
+/
+ec2-52-26-181-40.us-west-2.compute.amazonaws.com
+0 1 0 294 1 1565245381
+/
+209.17.96.18.rdns.cloudsystemnetworks.com
+0 1 1 693 1 1565089163
 /
 # End Of Table - sites (monthly)
 # -sites- (daily)
-209.17.96.234.rdns.cloudsystemnetworks.com
-0 1 1 693 1 1564618460
+205.237.94.199
+0 1 0 294 1 1565237872
 /
-ec2-54-188-38-119.us-west-2.compute.amazonaws.com
-0 1 0 294 1 1564628501
+ec2-52-26-181-40.us-west-2.compute.amazonaws.com
+0 1 0 294 1 1565245381
 /
 # End Of Table - sites (daily)
 # -referrers- 
 - (Direct Request)
-0 2
+0 29
 # End Of Table - referrers
 # -agents- 
 Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)
-0 1
+0 5
+Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+0 9
 Mozilla/5.0 (Windows NT 10.0; Win64; x64)AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
-0 1
+0 8
+Go-http-client/2.0
+0 7
 # End Of Table - agents
 # -search strings- 
 # End Of Table - search strings

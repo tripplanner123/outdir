@@ -8,33 +8,33 @@ AWSTATS DATA FILE 7.7 (build 20180105)
 # update).
 BEGIN_MAP 28
 POS_GENERAL 2023                
-POS_TIME 2673                
-POS_VISITOR 3326                
-POS_DAY 3398                
-POS_DOMAIN 3522                
-POS_LOGIN 3733                
-POS_ROBOT 3888                
-POS_WORMS 4020                
-POS_EMAILSENDER 4151                
-POS_EMAILRECEIVER 4294                
-POS_SESSION 4370                
-POS_SIDER 4507                
-POS_FILETYPES 4626                
-POS_DOWNLOADS 4690                
-POS_OS 4738                
-POS_BROWSER 4803                
-POS_SCREENSIZE 4853                
-POS_UNKNOWNREFERER 4927                
-POS_UNKNOWNREFERERBROWSER 5014                
-POS_ORIGIN 5096                
-POS_SEREFERRALS 5226                
-POS_PAGEREFS 5370                
-POS_SEARCHWORDS 5518                
-POS_KEYWORDS 5670                
-POS_MISC 2337                
-POS_ERRORS 5729                
-POS_CLUSTER 3589                
-POS_SIDER_404 5825                
+POS_TIME 2675                
+POS_VISITOR 6031                
+POS_DAY 6103                
+POS_DOMAIN 3226                
+POS_LOGIN 3437                
+POS_ROBOT 3592                
+POS_WORMS 3763                
+POS_EMAILSENDER 3894                
+POS_EMAILRECEIVER 4037                
+POS_SESSION 6159                
+POS_SIDER 6296                
+POS_FILETYPES 4172                
+POS_DOWNLOADS 4236                
+POS_OS 4284                
+POS_BROWSER 4349                
+POS_SCREENSIZE 4399                
+POS_UNKNOWNREFERER 4473                
+POS_UNKNOWNREFERERBROWSER 4560                
+POS_ORIGIN 4642                
+POS_SEREFERRALS 4772                
+POS_PAGEREFS 4916                
+POS_SEARCHWORDS 5064                
+POS_KEYWORDS 5216                
+POS_MISC 2339                
+POS_ERRORS 5275                
+POS_CLUSTER 3293                
+POS_SIDER_404 5399                
 END_MAP
 
 # LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
@@ -46,10 +46,10 @@ END_MAP
 # MonthHostsKnown   = Number of hosts known
 # MonthHostsUnKnown = Number of hosts unknown
 BEGIN_GENERAL 8
-LastLine 20190801045222 18 3534 12171006479416
-FirstTime 
-LastTime 
-LastUpdate 20190801070731 18 0 18 0 0
+LastLine 20190808033154 15 2702 16574627034567
+FirstTime 0
+LastTime 0
+LastUpdate 20190808071430 15 0 15 0 0
 TotalVisits 0                   
 TotalUnique 0                   
 MonthHostsKnown 0                   
@@ -58,55 +58,45 @@ END_GENERAL
 
 # Misc ID - Pages - Hits - Bandwidth
 BEGIN_MISC 10
-QuickTimeSupport 0 0 0
 PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
 TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
 AddToFavourites 0 0 0
 JavaEnabled 0 0 0
-DirectorSupport 0 0 0
-RealPlayerSupport 0 0 0
 WindowsMediaPlayerSupport 0 0 0
-JavascriptDisabled 0 0 0
 FlashSupport 0 0 0
 END_MISC
 
 # Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
 BEGIN_TIME 24
-0 0 0 0 0 0 0
-1 0 0 0 0 0 0
-2 0 0 0 0 0 0
-3 0 0 0 0 0 0
-4 0 0 0 5 5 1231
-5 0 0 0 0 0 0
-6 0 0 0 0 0 0
+0 0 0 0 2 2 574
+1 0 0 0 2 2 574
+2 0 0 0 4 6 2436
+3 0 0 0 2 2 712
+4 0 0 0 9 11 3871
+5 0 0 0 5 7 3386
+6 0 0 0 2 2 622
 7 0 0 0 0 0 0
-8 0 0 0 0 0 0
-9 0 0 0 0 0 0
-10 0 0 0 0 0 0
-11 0 0 0 0 0 0
-12 0 0 0 0 0 0
-13 0 0 0 0 0 0
-14 0 0 0 0 0 0
-15 0 0 0 0 0 0
-16 0 0 0 0 0 0
-17 0 0 0 0 0 0
-18 0 0 0 0 0 0
-19 0 0 0 0 0 0
+8 0 0 0 14 14 4074
+9 0 0 0 1 2 452
+10 0 0 0 9 17 6834
+11 0 0 0 6 10 4706
+12 0 0 0 6 10 3642
+13 0 0 0 17 19 10757
+14 0 0 0 9 17 6234
+15 0 0 0 0 4 39516
+16 0 0 0 2 2 574
+17 0 0 0 2 4 2066
+18 0 0 0 4 4 740
+19 0 0 0 16 20 6032
 20 0 0 0 0 0 0
-21 0 0 0 0 0 0
-22 0 0 0 0 0 0
-23 0 0 0 0 0 0
+21 0 0 0 6 6 1742
+22 0 0 0 14 14 7680
+23 0 0 0 2 6 2990
 END_TIME
-
-# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
-# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
-# The 25 first Hits must be first (order not required for others)
-BEGIN_VISITOR 0
-END_VISITOR
-
-# Date - Pages - Hits - Bandwidth - Visits
-BEGIN_DAY 0
-END_DAY
 
 # Domain - Pages - Hits - Bandwidth
 # The 25 first Pages must be first (order not required for others)
@@ -124,7 +114,8 @@ END_LOGIN
 
 # Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
 # The 25 first Hits must be first (order not required for others)
-BEGIN_ROBOT 0
+BEGIN_ROBOT 1
+YandexImages/ 2 38024 20190802150547 0
 END_ROBOT
 
 # Worm ID - Hits - Bandwidth - Last visit
@@ -141,15 +132,6 @@ END_EMAILSENDER
 # The 20 first hits must be first (order not required for others)
 BEGIN_EMAILRECEIVER 0
 END_EMAILRECEIVER
-
-# Session range - Number of visits
-BEGIN_SESSION 0
-END_SESSION
-
-# URL - Pages - Bandwidth - Entry - Exit
-# The 25 first Pages must be first (order not required for others)
-BEGIN_SIDER 0
-END_SIDER
 
 # Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
 BEGIN_FILETYPES 0
@@ -209,11 +191,43 @@ BEGIN_KEYWORDS 0
 END_KEYWORDS
 
 # Errors - Hits - Bandwidth
-BEGIN_ERRORS 2
-301 4 1148
-409 1 83
+BEGIN_ERRORS 4
+409 9 747
+406 5 1130
+404 64 40928
+301 101 29385
 END_ERRORS
 
 # URL with 404 errors - Hits - Last URL referrer
-BEGIN_SIDER_404 0
+BEGIN_SIDER_404 11
+//wp/wp-admin/install.php 2 -
+//new/wp-admin/install.php 2 -
+/robots.txt 44 -
+//web/wp-admin/install.php 2 -
+///wp-admin/install.php 2 -
+//oldsite/wp-admin/install.php 2 -
+//blog/wp-admin/install.php 2 -
+//home/wp-admin/install.php 2 -
+//wordpress/wp-admin/install.php 2 -
+//old/wp-admin/install.php 2 -
+/wp-login.php 2 -
 END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 0
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 0
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 0
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 0
+END_SIDER

@@ -4782,3 +4782,97 @@ cat forget2
 cd
 #1564677008
 git status
+#1564677013
+git add .
+#1564677023
+git commit -m "holy shit"
+#1564677103
+git push origin master
+#1564737710
+cd public_html
+#1564737717
+git status
+#1564737733
+git add .
+#1564737762
+git commit -m "ongoing tour admin added columns"
+#1564737769
+git push origin master
+#1564738814
+cd ../beetrip.ge
+#1564738818
+git status
+#1564740573
+git status
+#1564740590
+git add _website/templates/product.php
+#1564740607
+git commit -m "product change columns"
+#1564740613
+git push origin master
+#1564740630
+git status
+#1564740634
+git add .
+#1564740645
+git commit -m "chnage ajax column names"
+#1564740653
+git push origin master
+#1564740670
+exit
+#1565336107
+cd public_html
+#1565336110
+git status
+#1565336132
+git add .
+#1565336145
+git commit -m "save before big update"
+#1565336155
+git push origin master
+#1565336697
+clear
+#1565336700
+git status
+#1565336704
+git add .
+#1565336812
+git commit -m "beetrip column added database includes3"
+#1565336819
+git push origin master
+#1565336844
+cd ../
+#1565336848
+cd beetrip.ge
+#1565336850
+clear
+#1565336853
+git status
+#1565336856
+cd ../
+#1565336859
+git status
+#1565336903
+cat /tmp/awstats/awstats082019.betrip.tripplanner.ge.txt
+#1565336916
+cd tmp
+#1565336926
+cd awstats
+#1565336929
+ls
+#1565336934
+cd
+#1565336936
+clear
+#1565336943
+git add tmp/*
+#1565336948
+git status
+#1565336962
+git add mail/*
+#1565336988
+git status
+#1565337014
+cat .spamassassin/auto-whitelist
+#1565337034
+clear

@@ -1,8 +1,15 @@
-# Webalizer V2.23-08 Incremental Data - 08/01/2019 04:52:22
-2019 8 1 4 52 22
-5 0 3 0 1 3 1231 4 2 0
-3 5 5 1 1
-5 0 1231 3 4 2
+# Webalizer V2.23-08 Incremental Data - 08/08/2019 03:31:54
+2019 8 8 3 31 54
+181 2 64 1 2 29 110214 105 55 0
+2 2 11 1 8
+15 0 5027 7 12 7
+54 2 63772 16 23 11
+36 0 14977 17 18 10
+11 0 3152 6 10 5
+17 0 6105 9 9 5
+27 0 9672 13 19 10
+16 0 5222 7 12 6
+5 0 2287 2 2 1
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -26,37 +33,42 @@
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
+2 0 574 2
+2 0 574 2
+6 0 2436 3
+2 0 712 2
+11 0 3871 8
+7 0 3386 4
+2 0 622 2
 0 0 0 0
+14 0 4074 14
+2 0 452 1
+17 0 6834 9
+10 0 4706 6
+10 0 3642 6
+19 0 10757 6
+17 0 6234 9
+4 2 39516 0
+2 0 574 2
+4 0 2066 2
+4 0 740 2
+20 0 6032 14
 0 0 0 0
-0 0 0 0
-0 0 0 0
-5 0 1231 4
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
+6 0 1742 6
+14 0 7680 3
+6 0 2990 2
+0
+0
+0
+2
+0
+0
+0
+0
+0
+0
+0
+101
 0
 0
 0
@@ -66,24 +78,12 @@
 0
 0
 0
+64
+0
+5
 0
 0
-4
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-1
+9
 0
 0
 0
@@ -99,40 +99,276 @@
 0
 0
 # -urls- 
+/_website/images/logo.svg
+0 2 8243129286180037221 38024 0 0
 # End Of Table - urls
 # -sites- (monthly)
+host-92-9-108-229.as43234.net
+0 3 0 1320 1 1564839613
+-
+177.97.173.dynamic.adsl.gvt.net.br
+0 2 0 574 1 1565097828
+-
+191.96.80.241
+0 2 0 574 1 1564879455
+-
+193.169.252.30
+0 4 0 332 0 0
+-
+209.17.97.26.rdns.cloudsystemnetworks.com
+0 2 0 582 1 1565015993
+-
+ip225.ip-144-217-171.net
+0 4 0 1498 1 1564826419
+-
+38.145.102.28
+0 2 0 574 1 1565207505
+-
+211.176.125.70
+0 2 0 574 1 1564860177
+-
+185.6.9.203
+0 2 0 1492 0 0
+-
+38.145.107.45
+0 2 0 574 1 1565216929
+-
+77-88-5-200.spider.yandex.com
+0 4 0 2066 1 1564745855
+-
+205.237.95.44
+0 2 0 574 1 1564947291
+-
+ec2-34-247-160-74.eu-west-1.compute.amazonaws.com
+0 2 0 622 1 1564913627
+-
+167.71.82.107
+0 1 0 226 1 1564844083
+-
+191.96.86.219
+0 2 0 574 1 1564747055
+-
+93.159.230.28
+0 1 0 287 1 1564973906
+-
+51.223.65.145
+0 3 0 1320 1 1564725284
+-
+60.191.38.77
+0 8 0 2428 3 1565179700
+-
+ip229.ip-144-217-171.net
+0 2 0 924 0 0
+-
+msnbot-157-55-39-24.search.msn.com
+0 2 0 924 0 0
+-
+msnbot-40-77-167-115.search.msn.com
+0 2 0 924 0 0
+-
+ec2-35-163-14-37.us-west-2.compute.amazonaws.com
+0 2 0 574 1 1565087533
+-
+crawl-66-249-79-239.googlebot.com
+0 2 0 924 0 0
+-
+181.215.64.152
+0 2 0 574 1 1565107930
+-
+jobqueue-listener.jobqueue.netcraft.com-u42373c3eb58411e982047ff6828d6ab1u-digitalocean-2gb
+0 1 0 226 1 1564785510
+-
+191.96.41.120
+0 2 0 574 1 1564685205
+-
+hosted-by.rootlayer.net
+0 18 0 13428 0 0
+-
+crawl-66-249-79-241.googlebot.com
+0 4 0 1148 2 1565094745
+-
+ns525633.ip-198-27-70.net
+0 3 0 1575 0 0
+-
+93-158-161-171.spider.yandex.com
+0 2 0 574 1 1564876437
+-
+109.172.148.192
+0 2 0 574 1 1564807098
+-
+159.203.30.2
+0 2 0 574 1 1565004621
+-
+msnbot-157-55-39-19.search.msn.com
+0 2 0 924 0 0
+-
+ec2-34-217-14-170.us-west-2.compute.amazonaws.com
+0 2 0 574 1 1564751231
+-
+msnbot-157-55-39-250.search.msn.com
+0 2 0 924 0 0
+-
+google-proxy-66-249-93-210.google.com
+0 2 0 574 1 1564723905
+-
 94-43-248-115.dsl.utg.ge
 0 2 0 574 1 1564632635
+-
+209.17.97.114.rdns.cloudsystemnetworks.com
+0 2 0 574 1 1565119702
+-
+45.82.49.102
+0 2 0 574 1 1564808088
+-
+31-202-101-40-kh.maxnet.ua
+0 2 0 166 0 0
+-
+ec2-34-219-114-75.us-west-2.compute.amazonaws.com
+0 2 0 574 1 1564775181
+-
+dynamic-cpe-pool.callplus.net.nz
+0 2 0 574 1 1565127887
+-
+ec2-34-217-20-113.us-west-2.compute.amazonaws.com
+0 2 0 574 1 1564862148
+-
+ip97.ip-192-99-225.net
+0 2 0 924 0 0
+-
+crawl-66-249-79-237.googlebot.com
+0 2 0 924 0 0
+-
+45.82.51.126
+0 2 0 574 1 1565141169
+-
+ec2-52-88-242-206.us-west-2.compute.amazonaws.com
+0 2 0 574 1 1564669039
+-
+crawl-66-249-79-178.googlebot.com
+0 2 0 924 0 0
+-
+msnbot-207-46-13-20.search.msn.com
+0 2 0 924 0 0
+-
+5-255-250-128.spider.yandex.com
+0 14 2 45140 3 1565087722
+-
+ns385465.ip-46-105-127.eu
+0 3 0 1575 0 0
+-
+66.220.149.16
+0 2 0 712 1 1565235114
+-
+185.6.9.208
+0 2 0 1492 0 0
+-
+167.71.110.45
+0 1 0 226 1 1564824347
+-
+77.74.177.114
+0 2 0 574 1 1564973904
+-
+smartscan04.sitelock.com
+0 14 0 4074 7 1565165123
+-
+185.6.9.204
+0 2 0 1492 0 0
+-
+201.213.162.40.fibercorp.com.ar
+0 1 0 226 1 1565086477
 -
 68.183.196.20
 0 1 0 83 0 0
 -
+crawl-66-249-79-182.googlebot.com
+0 4 0 1506 1 1565094711
+-
 host-94-100-237-144.magtinet.ge
 0 2 0 574 1 1564632447
+-
+crawl-66-249-79-180.googlebot.com
+0 2 0 582 1 1564757577
+-
+ip-54-36-148-12.a.ahrefs.com
+0 1 0 226 0 0
+-
+ec2-18-237-91-84.us-west-2.compute.amazonaws.com
+0 2 0 574 1 1564947956
 -
 # End Of Table - sites (monthly)
 # -sites- (daily)
-94-43-248-115.dsl.utg.ge
-0 2 0 574 1 1564632635
+ns385465.ip-46-105-127.eu
+0 3 0 1575 0 0
 -
-68.183.196.20
-0 1 0 83 0 0
--
-host-94-100-237-144.magtinet.ge
-0 2 0 574 1 1564632447
+66.220.149.16
+0 2 0 712 1 1565235114
 -
 # End Of Table - sites (daily)
 # -referrers- 
+http://www.google.com/url
+0 14
 - (Direct Request)
-0 5
+0 167
 # End Of Table - referrers
 # -agents- 
+Mozilla/5.0
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0
+0 2
+Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)
+0 4
+Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)
+0 2
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/6.0)
+0 14
+Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+0 3
+Mozilla/5.0 (compatible; AhrefsBot/6.1; +http://ahrefs.com/robot/)
+0 1
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+0 16
+Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+0 10
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+0 3
+Go-http-client/1.1
+0 30
+(info@domaincrawler.com; http://www.domaincrawler.com/beetrip.ge)
+0 6
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
 0 2
-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0
+0 8
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+0 6
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
 0 2
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1
+0 6
+Python-urllib/2.7
+0 18
+Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)
+0 2
+Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
+0 18
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon
+0 2
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36
+0 2
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+0 4
 Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0
-0 1
+0 3
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
+0 2
+Chrome 73.75 7|Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36
+0 2
+Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
+0 4
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:48.0) Gecko/20100101 Firefox/48.0
+0 4
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+0 4
 # End Of Table - agents
 # -search strings- 
 # End Of Table - search strings

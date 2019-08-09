@@ -1,8 +1,15 @@
-# Webalizer V2.23-08 Incremental Data - 08/01/2019 05:18:13
-2019 8 1 5 18 13
-7 0 4 0 3 5 2306 6 3 0
-4 1 6 1 1
-7 0 2306 4 6 3
+# Webalizer V2.23-08 Incremental Data - 08/08/2019 06:23:00
+2019 8 8 6 23 0
+60 1 24 1 3 10 21349 52 28 0
+3 1 8 1 8
+10 0 2765 6 7 4
+8 0 2389 4 6 3
+7 1 2915 4 7 4
+8 0 3266 4 7 4
+6 0 2223 3 6 3
+7 0 2516 4 7 4
+8 0 3052 4 6 3
+6 0 2223 3 6 3
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -26,55 +33,30 @@
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-6 0 2223 6
-0 0 0 0
+1 0 293 1
+1 0 293 1
+5 1 2321 4
+39 0 14727 37
+3 0 879 3
 1 0 83 0
+1 0 293 1
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 0 293 1
+0 0 0 0
+0 0 0 0
+3 0 1122 1
+0 0 0 0
+0 0 0 0
+2 0 166 0
+1 0 293 1
+1 0 293 1
 0 0 0 0
 0 0 0 0
 0 0 0 0
 0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-5
-0
-0
-0
-0
-0
-0
+1 0 293 1
 0
 0
 0
@@ -83,7 +65,25 @@
 0
 0
 0
-1
+0
+0
+0
+43
+0
+0
+0
+0
+0
+0
+0
+0
+0
+10
+0
+0
+0
+0
+6
 0
 0
 0
@@ -99,54 +99,123 @@
 0
 0
 # -urls- 
+/
+0 1 8243129286180037221 692 21 0
 # End Of Table - urls
 # -sites- (monthly)
+ec2-34-222-214-4.us-west-2.compute.amazonaws.com
+0 1 0 293 1 1564973546
+/
+data15.localanews.com
+0 1 0 293 1 1564964381
+/
+45.82.51.100
+0 1 0 293 1 1564829968
+/
+66.249.136.201
+0 1 0 293 1 1565228275
+/
+181.215.200.24
+0 1 0 293 1 1564702814
+-
+209.17.96.26.rdns.cloudsystemnetworks.com
+0 1 1 692 1 1564799291
+/
+38.131.152.70
+0 1 0 293 1 1564768280
+-
+185.234.217.218
+0 4 0 332 0 0
+-
+ec2-35-166-194-61.us-west-2.compute.amazonaws.com
+0 1 0 293 1 1564892494
+/
+ec2-54-212-176-115.us-west-2.compute.amazonaws.com
+0 1 0 293 1 1564800945
+/
 ec2-54-188-38-119.us-west-2.compute.amazonaws.com
 0 1 0 293 1 1564628500
 -
+ec2-52-37-118-223.us-west-2.compute.amazonaws.com
+0 1 0 293 1 1564716014
+-
 smartscan04.sitelock.com
-0 4 0 1637 1 1564631293
+0 32 0 13096 8 1565236465
 -
 ec2-18-237-179-162.us-west-2.compute.amazonaws.com
 0 1 0 293 1 1564628787
 -
+ec2-18-237-42-70.us-west-2.compute.amazonaws.com
+0 1 0 293 1 1565065460
+/
+66.249.137.236
+0 1 0 293 1 1565153437
+/
+181.215.217.189
+0 1 0 293 1 1564891011
+/
+ipv4-64-246-165-200.greenhousedata.net
+0 2 0 1043 1 1564886420
+/
 aries.engraneweb.net
 0 1 0 83 0 0
 -
+ns382452.ip-46-105-99.eu
+0 2 0 829 0 0
+-
+209.17.96.210.rdns.cloudsystemnetworks.com
+0 1 0 293 1 1565096424
+/
+ec2-34-219-106-66.us-west-2.compute.amazonaws.com
+0 1 0 293 1 1565149355
+/
+ec2-52-26-181-40.us-west-2.compute.amazonaws.com
+0 1 0 293 1 1565245380
+/
+181.214.180.85
+0 1 0 293 1 1565116235
+/
 # End Of Table - sites (monthly)
 # -sites- (daily)
-ec2-54-188-38-119.us-west-2.compute.amazonaws.com
-0 1 0 293 1 1564628500
--
+66.249.136.201
+0 1 0 293 1 1565228275
+/
 smartscan04.sitelock.com
-0 4 0 1637 1 1564631293
+0 4 0 1637 1 1565236465
 -
-ec2-18-237-179-162.us-west-2.compute.amazonaws.com
-0 1 0 293 1 1564628787
--
-aries.engraneweb.net
-0 1 0 83 0 0
--
+ec2-52-26-181-40.us-west-2.compute.amazonaws.com
+0 1 0 293 1 1565245380
+/
 # End Of Table - sites (daily)
 # -referrers- 
 http://www.google.com/url
-0 2
+0 16
 - (Direct Request)
-0 4
+0 36
 http://www.triplaner.ge
-0 1
+0 8
 # End Of Table - referrers
 # -agents- 
+Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)
+0 2
 Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/6.0)
-0 3
+0 24
 SiteLockSpider [en] (WinNT; I ;Nav)
-0 1
+0 8
 Mozilla/5.0 (Windows NT 10.0; Win64; x64)AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
-0 1
+0 8
+Go-http-client/1.1
+0 8
 Mozilla/5.0 (Nintendo 3DS; U; ; en) Version/1.7412.EU
 0 1
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+0 2
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:59.0) Gecko/20100101 Firefox/59.0
+0 2
 Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0
 0 1
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+0 4
 # End Of Table - agents
 # -search strings- 
 # End Of Table - search strings
