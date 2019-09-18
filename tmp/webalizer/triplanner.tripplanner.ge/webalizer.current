@@ -1,15 +1,25 @@
-# Webalizer V2.23-08 Incremental Data - 08/08/2019 06:28:41
-2019 8 8 6 28 41
-65 2 33 1 4 10 22158 60 38 0
-1 1 5 1 8
-8 0 2394 4 6 3
-10 0 2982 6 8 5
-10 1 3807 7 10 7
-9 0 3566 5 8 5
-8 0 2816 5 8 5
-11 1 3483 7 11 7
-8 0 2816 5 8 5
-1 0 294 1 1 1
+# Webalizer V2.23-08 Incremental Data - 09/18/2019 03:30:59
+2019 9 18 3 30 59
+136 4 52 1 5 21 47777 120 64 0
+1 1 8 1 18
+12 0 2828 7 8 4
+4 0 1640 1 4 1
+5 0 1934 2 5 2
+11 0 4874 3 9 3
+6 1 2077 3 5 2
+10 0 3262 6 9 5
+5 0 1866 2 5 2
+6 0 2228 3 6 3
+5 0 1934 2 5 2
+5 1 1651 5 4 4
+14 1 5106 6 12 6
+9 0 3110 6 9 6
+10 0 3404 7 10 7
+7 0 2311 4 6 3
+11 0 3065 8 8 5
+7 0 2522 4 7 4
+8 0 3272 4 7 4
+1 1 693 1 1 1
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -23,67 +33,57 @@
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0
-2 0 1044 1
-1 0 294 1
-4 0 434 2
-2 1 991 2
-0 0 0 0
-2 1 987 2
-1 0 294 1
-2 0 588 2
-4 0 1176 4
-1 0 294 1
-3 0 882 3
-0 0 0 0
-0 0 0 0
-3 0 882 3
-1 0 294 1
 4 0 754 2
-0 0 0 0
-1 0 0 1
 1 0 294 1
-28 0 11480 28
+1 0 294 1
+7 2 2754 6
+12 0 4756 10
+1 0 83 0
+5 1 1025 1
 0 0 0 0
-5 0 1470 5
+7 0 2058 7
 0 0 0 0
-0
-0
-0
-2
-0
-0
-0
-0
-0
-0
-0
-49
-0
-0
-0
-0
-0
-0
-0
-0
-2
-8
-0
+2 0 588 2
+2 0 588 2
+0 0 0 0
+1 0 294 1
+4 1 852 2
+5 0 1723 4
+3 0 1007 1
+0 0 0 0
+1 0 294 1
+1 0 83 0
+67 0 27122 67
+7 0 2058 7
+2 0 268 2
+3 0 882 3
 0
 0
 0
 4
+0
+0
+0
+0
+0
+0
+0
+91
+0
+0
+0
+0
+0
+0
+0
+0
+2
+26
+0
+1
+0
+0
+12
 0
 0
 0
@@ -100,145 +100,226 @@
 0
 # -urls- 
 /
-0 2 8243129286180037221 1390 29 0
+0 4 8243129286180037221 2426 54 7
 # End Of Table - urls
 # -sites- (monthly)
-ec2-54-244-105-151.us-west-2.compute.amazonaws.com
-0 1 0 294 1 1564755146
+ec2-18-236-243-20.us-west-2.compute.amazonaws.com
+0 1 0 294 1 1567546387
 -
-38.145.103.52
-0 1 0 294 1 1565129426
-/
-ipv4-64-246-165-180.greenhousedata.net
-0 2 0 1044 1 1564880944
-/
-ec2-34-216-227-92.us-west-2.compute.amazonaws.com
-0 1 0 294 1 1565015025
-/
-209.17.97.66.rdns.cloudsystemnetworks.com
-0 1 0 294 1 1565150698
-/
-38.131.155.20
-0 1 0 294 1 1565215382
-/
-181.214.180.42
-0 1 0 294 1 1564800343
+45.119.80.98
+0 1 0 83 0 0
 -
-209.17.97.2.rdns.cloudsystemnetworks.com
-0 1 1 693 1 1565074017
+ec2-35-166-188-195.us-west-2.compute.amazonaws.com
+0 1 0 294 1 1568321572
 /
-209.17.96.250.rdns.cloudsystemnetworks.com
-0 1 1 697 1 1564808391
+ec2-35-162-178-93.us-west-2.compute.amazonaws.com
+0 1 0 294 1 1568607140
 /
-ec2-54-213-201-220.us-west-2.compute.amazonaws.com
-0 1 0 294 1 1564676006
+31.184.215.241
+0 3 0 882 3 1568534954
+/
+ec2-52-40-73-17.us-west-2.compute.amazonaws.com
+0 1 0 294 1 1568258613
+/
+jobqueue-listener.jobqueue.netcraft.com-u309c9426d11611e9adcda8f8828d6ab1u-digitalocean-2gb
+0 1 0 226 1 1567829689
+/
+38.133.123.70
+0 1 0 294 1 1568151224
+/
+ec2-18-228-12-92.sa-east-1.compute.amazonaws.com
+0 1 0 294 1 1568103662
+/
+ec2-35-167-57-194.us-west-2.compute.amazonaws.com
+0 1 0 294 1 1567730782
+/
+111.7.100.25
+0 1 0 294 1 1568580786
+/
+209.17.97.42.rdns.cloudsystemnetworks.com
+0 1 1 693 1 1568777459
+/
+plesk.enteriso.cz
+0 1 0 83 0 0
 -
-static.36.33.243.136.clients.your-server.de
-0 1 0 294 1 1564996823
-/
-185.234.217.218
-0 4 0 332 0 0
+103.48.116.35
+0 1 0 83 0 0
 -
-ec2-34-210-238-138.us-west-2.compute.amazonaws.com
-0 1 0 294 1 1564760469
+ultravelocidade-24.3ax.com.br
+0 1 0 294 1 1568329732
+/
+142-4-1-222.unifiedlayer.com
+0 1 0 83 0 0
 -
-ec2-52-26-192-136.us-west-2.compute.amazonaws.com
-0 1 0 294 1 1564842333
-/
-181.215.74.204
-0 1 0 294 1 1565245721
-/
-181.214.191.164
-0 1 0 294 1 1564993162
-/
-unn-185-93-3-114.datapacket.com
-0 2 0 268 1 1565061606
-/
-181.214.188.121
-0 1 0 294 1 1564732623
+placeholder.sitelock.com
+0 8 0 3280 2 1568233311
 -
-45.82.50.151
-0 1 0 294 1 1564907540
+ec2-13-56-80-216.us-west-1.compute.amazonaws.com
+0 1 0 294 1 1568332420
 /
-ec2-54-202-24-185.us-west-2.compute.amazonaws.com
-0 1 0 294 1 1565196685
+60.191.38.77
+0 7 2 2849 6 1568658738
 /
-cuzwork.com
-0 1 0 294 1 1564997970
+82.202.249.38
+0 1 0 83 0 0
+-
+ipv4-216-145-5-42.greenhousedata.net
+0 2 0 1044 1 1568695584
 /
-ec2-54-188-111-228.us-west-2.compute.amazonaws.com
-0 1 0 294 1 1565091467
+ec2-54-149-181-121.us-west-2.compute.amazonaws.com
+0 1 0 294 1 1568190549
 /
-ns564.confirmeposits.trade
-0 1 0 294 1 1564860200
+jp16a.mixhost.jp
+0 1 0 83 0 0
+-
+111.7.100.24
+0 1 0 294 1 1568339835
 /
-ec2-13-236-84-7.ap-southeast-2.compute.amazonaws.com
-0 1 0 0 1 1565117980
+178-134-130-213.dsl.utg.ge
+0 5 0 2310 1 1567569882
+-
+173.252.127.31
+0 1 0 363 1 1567741851
 /
-ec2-54-184-39-172.us-west-2.compute.amazonaws.com
-0 1 0 294 1 1564956247
+ec2-52-42-43-217.us-west-2.compute.amazonaws.com
+0 1 0 294 1 1567306994
+-
+maria.dnsprotection.me
+0 1 0 83 0 0
+-
+ec2-34-221-238-74.us-west-2.compute.amazonaws.com
+0 1 0 294 1 1568103136
+/
+216.158.229.153
+0 1 0 83 0 0
+-
+ec2-34-222-196-215.us-west-2.compute.amazonaws.com
+0 1 0 294 1 1568515223
+/
+ec2-34-213-5-152.us-west-2.compute.amazonaws.com
+0 1 0 294 1 1568668931
+/
+ec2-18-237-67-239.us-west-2.compute.amazonaws.com
+0 1 0 294 1 1568003275
+/
+82.211.182.97
+0 3 0 1218 2 1567613272
+-
+38.128.60.196
+0 1 0 294 1 1567803284
+/
+159.65.155.58
+0 1 0 83 0 0
+-
+ec2-54-200-176-202.us-west-2.compute.amazonaws.com
+0 1 0 294 1 1568755299
+/
+ec2-34-219-254-109.us-west-2.compute.amazonaws.com
+0 1 0 294 1 1568349034
+/
+104.ip-51-75-205.eu
+0 1 0 83 0 0
+-
+5.39.101.15
+0 1 0 294 1 1568581725
+/
+ec2-54-154-29-3.eu-west-1.compute.amazonaws.com
+0 1 1 354 1 1567653750
+/
+ec2-54-187-133-227.us-west-2.compute.amazonaws.com
+0 1 0 294 1 1568434210
+/
+167.71.66.84
+0 2 0 756 1 1568172337
+/
+171.13.14.20
+0 1 0 294 1 1568333888
 /
 smartscan04.sitelock.com
-0 28 0 11480 7 1565208522
+0 60 0 24600 15 1568750785
 -
-181.214.184.112
-0 1 0 294 1 1565174445
+ec2-34-247-173-90.eu-west-1.compute.amazonaws.com
+0 1 0 0 1 1568211268
 /
-ec2-54-201-197-198.us-west-2.compute.amazonaws.com
-0 1 0 294 1 1564652895
+108.62.5.91.rdns.1ue.com
+0 2 0 268 1 1567377316
 -
-ec2-54-213-47-144.us-west-2.compute.amazonaws.com
-0 1 0 294 1 1564785197
+ec2-34-214-200-202.us-west-2.compute.amazonaws.com
+0 1 0 294 1 1567932188
+/
+193.169.254.5
+0 2 0 166 0 0
 -
-vserver321.axc.nl
-0 1 0 294 1 1564823792
+ip83.ip-164-132-119.eu
+0 1 0 294 1 1568363173
 /
-ec2-54-212-88-21.us-west-2.compute.amazonaws.com
-0 1 0 294 1 1564916613
+ec2-18-237-62-22.us-west-2.compute.amazonaws.com
+0 1 0 294 1 1568409129
 /
-ec2-54-189-9-44.us-west-2.compute.amazonaws.com
-0 1 0 294 1 1564870397
-/
-ec2-34-220-255-216.us-west-2.compute.amazonaws.com
-0 1 0 294 1 1565089539
+111-182-172-163.rev.cloud.scaleway.com
+0 1 0 294 1 1568719147
 /
 # End Of Table - sites (monthly)
 # -sites- (daily)
-181.215.74.204
-0 1 0 294 1 1565245721
+209.17.97.42.rdns.cloudsystemnetworks.com
+0 1 1 693 1 1568777459
 /
 # End Of Table - sites (daily)
 # -referrers- 
 http://www.google.com/url
-0 14
+0 34
 - (Direct Request)
-0 42
+0 81
+http://triplanner.ge/badmin
+0 2
 http://www.triplanner.ge
-0 7
+0 17
 http://triplanner.ge/
 0 2
 # End Of Table - referrers
 # -agents- 
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
+0 2
 Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)
-0 3
+0 1
+SafeDNSBot (https://www.safedns.com/searchbot)
+0 2
 Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/6.0)
-0 21
+0 51
+Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+0 1
 SiteLockSpider [en] (WinNT; I ;Nav)
-0 7
-Mozilla/5.0 (Windows NT 10.0; Win64; x64)AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
-0 7
+0 17
 CheckMarkNetwork/1.0 (+http://www.checkmarknetwork.com/spider.html)
 0 1
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36
+0 1
 Go-http-client/1.1
-0 15
+0 18
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+0 2
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0
+0 7
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:59.0) Gecko/20100101 Firefox/59.0
 0 2
-Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36
 0 3
-Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.170 Safari/537.36 OPR/53.0.2
-0 2
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0
+0 10
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+0 3
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36
+0 8
 Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
-0 4
+0 2
+Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0 Cyberfox/47.0.2
+0 2
 # End Of Table - agents
 # -search strings- 
 # End Of Table - search strings

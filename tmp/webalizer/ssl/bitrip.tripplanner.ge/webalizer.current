@@ -1,14 +1,25 @@
-# Webalizer V2.23-08 Incremental Data - 08/07/2019 19:53:15
-2019 8 7 19 53 15
-71 8 28 1 1 5 21131 60 38 0
-3 2 10 1 7
-16 2 5864 4 10 6
-10 0 2473 5 10 5
-2 2 1366 1 2 1
-4 0 1013 2 4 3
-14 2 3270 5 9 6
-19 2 5558 13 19 14
-6 0 1587 3 6 3
+# Webalizer V2.23-08 Incremental Data - 09/18/2019 05:33:09
+2019 9 18 5 33 9
+128 16 52 1 2 9 32709 111 73 0
+2 2 8 2 18
+0 0 0 0 0 0
+2 0 574 1 2 1
+6 0 1314 3 6 4
+11 2 3400 10 11 10
+21 3 3047 12 21 16
+10 2 2428 5 10 6
+7 0 2505 3 5 4
+6 0 2640 2 4 2
+5 0 1062 3 5 3
+4 0 1013 2 4 2
+6 2 2379 3 6 3
+9 0 2505 3 7 4
+9 5 1857 4 8 6
+14 0 3910 5 6 4
+3 0 626 2 2 1
+9 2 1854 4 8 4
+2 0 574 1 2 1
+4 0 1021 2 4 2
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -22,41 +33,44 @@
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0
-5 0 1252 5
-12 2 3265 11
-2 0 436 2
-8 0 2304 8
-0 0 0 0
+5 0 491 4
+2 0 439 2
+12 4 4511 12
+12 3 3509 12
 4 0 1013 4
+8 0 3222 6
+5 1 2066 3
+4 2 1366 4
+4 0 1148 4
+3 0 436 3
+4 0 1148 4
+3 1 104 2
+4 0 2066 2
+1 0 52 0
+3 0 436 3
+7 0 1704 7
+8 1 875 8
 0 0 0 0
-2 0 574 2
-2 0 436 2
-2 0 439 2
+9 0 1914 9
+10 2 4214 2
+8 0 930 8
+7 1 491 7
+5 1 574 5
 0 0 0 0
-2 0 439 2
-2 0 574 2
-0 0 0 0
-0 0 0 0
-6 2 1574 2
-0 0 0 0
-0 0 0 0
-12 2 4984 6
-6 2 2387 6
-4 0 1018 4
-2 0 436 2
-0 0 0 0
+7
+0
+0
+16
+0
+0
+0
+0
+0
+0
+0
+32
+0
+0
 0
 0
 0
@@ -64,26 +78,12 @@
 0
 0
 0
+46
+0
+18
 0
 0
-0
-0
-22
-0
-0
-0
-0
-0
-6
-0
-0
-0
-26
-0
-9
-0
-0
-0
+1
 0
 0
 0
@@ -100,120 +100,199 @@
 0
 # -urls- 
 /
-0 8 8243129286180037221 4812 27 9
+0 16 8243129286180037221 6830 52 19
 # End Of Table - urls
 # -sites- (monthly)
-209.17.97.26.rdns.cloudsystemnetworks.com
-0 2 0 436 1 1565131835
+167.71.108.37
+0 1 0 226 1 1567622623
 /
-167.99.114.88
-0 1 0 226 1 1565054613
+planetlab5.net.in.tum.de
+0 24 6 0 17 1568669236
 /
-kcbuild-akanner-at-cloudlinux.com-2f7hv4ru-14
-0 1 0 226 1 1565057709
+ec2-54-186-7-186.us-west-2.compute.amazonaws.com
+0 2 0 574 1 1567932588
 /
-qa.qencode-encoder-4bee9f3ab83e11e9af5b0202b56d93e3
-0 1 0 226 1 1565055013
+167.71.255.53
+0 1 0 226 1 1567650273
 /
-209.17.97.82.rdns.cloudsystemnetworks.com
-0 2 0 436 1 1564628763
--
+167.71.103.72
+0 1 0 226 1 1567623257
+/
+167.71.245.198
+0 1 0 226 1 1567611294
+/
 209.17.97.66.rdns.cloudsystemnetworks.com
-0 2 2 1366 2 1565035224
+0 2 0 439 1 1568343939
 /
-209.17.97.2.rdns.cloudsystemnetworks.com
-0 2 0 439 1 1565146785
+209.17.96.98.rdns.cloudsystemnetworks.com
+0 4 0 878 3 1568080725
+/
+209.17.96.170.rdns.cloudsystemnetworks.com
+0 2 0 439 2 1567542040
+-
+209.17.97.58.rdns.cloudsystemnetworks.com
+0 2 0 436 1 1568453521
+/
+209.17.96.242.rdns.cloudsystemnetworks.com
+0 2 2 1366 1 1568168155
+/
+209.17.97.106.rdns.cloudsystemnetworks.com
+0 4 0 875 2 1568305561
+/
+209.17.96.186.rdns.cloudsystemnetworks.com
+0 2 2 1366 1 1567568778
+/
+209.17.96.106.rdns.cloudsystemnetworks.com
+0 4 0 875 2 1568657796
+/
+157.245.12.125
+0 1 0 226 1 1567652104
+/
+ec2-34-222-132-76.us-west-2.compute.amazonaws.com
+0 2 0 574 1 1568003371
 /
 60.191.38.77
-0 14 2 3940 8 1565108600
+0 1 0 52 0 0
+-
+167.71.87.36
+0 1 0 226 1 1567622290
 /
-167.71.108.130
-0 1 0 226 1 1565057178
+ec2-52-89-227-57.us-west-2.compute.amazonaws.com
+0 2 0 574 1 1568105929
 /
-38.145.107.234
-0 2 0 574 1 1564900394
+209.17.96.122.rdns.cloudsystemnetworks.com
+0 2 0 574 1 1568457858
 /
-167.99.113.85
-0 1 0 226 1 1565056826
+167.71.97.161
+0 1 0 226 1 1567654947
+/
+157.245.14.246
+0 1 0 226 1 1567652439
+/
+167.71.100.21
+0 1 0 226 1 1567610002
 /
 209.17.97.34.rdns.cloudsystemnetworks.com
-0 2 0 436 1 1564695496
+0 1 0 52 1 1568461895
 /
-209.17.96.42.rdns.cloudsystemnetworks.com
-0 2 2 1366 1 1564798637
+167.71.109.89
+0 1 0 226 1 1567653440
 /
-167.99.120.206
-0 1 0 226 1 1565056927
+209.17.96.138.rdns.cloudsystemnetworks.com
+0 1 0 52 1 1568061315
 /
-rdl214.20-20eyevision.com
-0 2 0 574 1 1565152376
+209.17.96.234.rdns.cloudsystemnetworks.com
+0 2 2 1366 1 1568343292
 /
-191.96.241.200
-0 2 0 574 1 1564979113
+167.71.85.63
+0 1 0 226 1 1567651105
 /
-167.99.118.223
-0 1 0 226 1 1565057039
+ec2-35-160-1-207.us-west-2.compute.amazonaws.com
+0 2 0 574 1 1568523924
 /
-209.17.97.98.rdns.cloudsystemnetworks.com
-0 4 0 1013 2 1565053253
+167.71.85.45
+0 1 0 226 1 1567651998
 /
-209.17.96.66.rdns.cloudsystemnetworks.com
-0 2 0 439 1 1564740326
+209.17.97.90.rdns.cloudsystemnetworks.com
+0 2 0 439 1 1567714496
 /
-ns385465.ip-46-105-127.eu
-0 10 2 4410 3 1564687652
+209.17.96.74.rdns.cloudsystemnetworks.com
+0 2 0 439 1 1568162732
 /
-209.17.96.50.rdns.cloudsystemnetworks.com
-0 2 0 574 1 1564721635
+209.17.97.114.rdns.cloudsystemnetworks.com
+0 2 0 436 1 1567788185
 /
-181.214.184.11
-0 2 0 574 1 1565079922
+209.17.96.90.rdns.cloudsystemnetworks.com
+0 2 0 574 1 1568734261
 /
-209.17.96.210.rdns.cloudsystemnetworks.com
-0 2 0 582 1 1565042245
+209.17.96.226.rdns.cloudsystemnetworks.com
+0 4 0 1148 2 1567706874
 /
-66.249.137.227
-0 2 0 574 1 1565207595
+asseheety.com
+0 1 0 226 1 1567623524
 /
-209.17.96.202.rdns.cloudsystemnetworks.com
-0 2 0 582 1 1564720798
+167.71.244.164
+0 1 0 226 1 1567654171
 /
-165.22.132.86
-0 4 0 208 0 0
+167.71.100.17
+0 1 0 226 1 1567610667
+/
+36.234.239.35.bc.googleusercontent.com
+0 8 0 2848 0 0
 -
-167.71.90.198
-0 1 0 226 1 1565055211
+167.71.103.142
+0 1 0 226 1 1567654234
 /
-167.71.81.168
-0 1 0 226 1 1565057459
+209.17.97.10.rdns.cloudsystemnetworks.com
+0 1 0 52 1 1567804685
 /
+5-255-250-128.spider.yandex.com
+0 12 0 6198 3 1568271349
+/
+157.245.2.158
+0 1 0 226 1 1567610977
+/
+167.71.254.187
+0 1 0 226 1 1567611671
+/
+ec2-34-221-43-108.us-west-2.compute.amazonaws.com
+0 2 0 574 1 1567739424
+/
+209.17.96.146.rdns.cloudsystemnetworks.com
+0 2 0 436 1 1568040331
+/
+209.17.96.2.rdns.cloudsystemnetworks.com
+0 2 0 439 1 1568774708
+/
+209.17.96.178.rdns.cloudsystemnetworks.com
+0 2 2 1366 1 1567756204
+/
+209.17.97.122.rdns.cloudsystemnetworks.com
+0 2 0 574 1 1568198813
+/
+server2.nolsatu.net
+0 1 0 52 0 0
+-
+209.17.96.210.rdns.cloudsystemnetworks.com
+0 4 2 1948 2 1568784789
+/
+185.234.217.41
+0 1 0 52 0 0
+-
 # End Of Table - sites (monthly)
 # -sites- (daily)
-209.17.97.2.rdns.cloudsystemnetworks.com
-0 2 0 439 1 1565146785
+209.17.96.2.rdns.cloudsystemnetworks.com
+0 2 0 439 1 1568774708
 /
-rdl214.20-20eyevision.com
-0 2 0 574 1 1565152376
-/
-66.249.137.227
-0 2 0 574 1 1565207595
+209.17.96.210.rdns.cloudsystemnetworks.com
+0 2 0 582 1 1568784789
 /
 # End Of Table - sites (daily)
 # -referrers- 
+http://autodiscover.bitrip.ge/wp-login.php
+0 1
 - (Direct Request)
-0 71
+0 127
 # End Of Table - referrers
 # -agents- 
 Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)
-0 24
+0 53
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0
+0 1
 Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
-0 9
+0 18
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+0 8
 Go-http-client/2.0
 0 10
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0
-0 14
-Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0
-0 14
+0 1
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36
+0 24
+Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
+0 12
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0
+0 1
 # End Of Table - agents
 # -search strings- 
 # End Of Table - search strings

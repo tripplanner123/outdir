@@ -1,15 +1,25 @@
-# Webalizer V2.23-08 Incremental Data - 08/08/2019 06:23:00
-2019 8 8 6 23 0
-60 1 24 1 3 10 21349 52 28 0
-3 1 8 1 8
-10 0 2765 6 7 4
-8 0 2389 4 6 3
-7 1 2915 4 7 4
-8 0 3266 4 7 4
+# Webalizer V2.23-08 Incremental Data - 09/18/2019 03:55:54
+2019 9 18 3 55 54
+121 2 42 1 4 18 41406 108 52 0
+2 4 8 1 18
+10 0 2447 5 7 3
+5 0 1930 2 5 2
+4 0 1637 1 4 1
+5 0 1720 2 4 1
+9 1 2744 6 7 4
+7 0 2306 4 6 3
+7 0 2315 4 7 4
+6 0 2223 2 6 2
+6 0 1930 3 6 3
+8 1 2991 5 7 4
+7 0 2306 4 6 3
+9 0 3102 6 9 6
 6 0 2223 3 6 3
-7 0 2516 4 7 4
-8 0 3052 4 6 3
-6 0 2223 3 6 3
+5 0 1930 2 5 2
+9 0 2472 6 6 3
+5 0 1930 2 5 2
+8 0 3270 4 7 4
+5 0 1930 2 5 2
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -23,53 +33,34 @@
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
+2 0 586 2
+0 0 0 0
 1 0 293 1
-1 0 293 1
-5 1 2321 4
-39 0 14727 37
-3 0 879 3
+71 1 28481 71
+2 0 1043 1
+0 0 0 0
+5 0 768 2
+0 0 0 0
+5 0 1045 3
 1 0 83 0
-1 0 293 1
-0 0 0 0
-0 0 0 0
-0 0 0 0
-1 0 293 1
-0 0 0 0
-0 0 0 0
-3 0 1122 1
-0 0 0 0
-0 0 0 0
-2 0 166 0
-1 0 293 1
-1 0 293 1
-0 0 0 0
-0 0 0 0
-0 0 0 0
+2 0 586 2
+2 0 519 2
+2 0 586 2
+2 0 519 2
+2 1 768 1
+5 0 1720 4
+4 0 644 3
 0 0 0 0
 1 0 293 1
+2 0 376 1
+1 0 293 1
+4 0 962 3
+3 0 669 2
+4 0 1172 4
 0
 0
 0
-1
-0
-0
-0
-0
-0
-0
-0
-43
-0
+2
 0
 0
 0
@@ -77,13 +68,22 @@
 0
 0
 0
-0
-10
-0
+83
 0
 0
 0
-6
+0
+0
+0
+0
+0
+2
+19
+0
+3
+0
+0
+12
 0
 0
 0
@@ -100,122 +100,191 @@
 0
 # -urls- 
 /
-0 1 8243129286180037221 692 21 0
+0 2 8243129286180037221 1040 45 5
 # End Of Table - urls
 # -sites- (monthly)
-ec2-34-222-214-4.us-west-2.compute.amazonaws.com
-0 1 0 293 1 1564973546
+ec2-52-12-209-252.us-west-2.compute.amazonaws.com
+0 1 0 293 1 1568161897
 /
-data15.localanews.com
-0 1 0 293 1 1564964381
+ec2-13-124-184-29.ap-northeast-2.compute.amazonaws.com
+0 1 0 0 1 1568000758
 /
-45.82.51.100
-0 1 0 293 1 1564829968
+36.99.136.133
+0 1 0 293 1 1568329206
 /
-66.249.136.201
-0 1 0 293 1 1565228275
+31.184.215.241
+0 1 0 293 1 1568552986
 /
-181.215.200.24
-0 1 0 293 1 1564702814
+157.245.6.48
+0 1 0 226 1 1567855575
+/
+jobqueue-listener.jobqueue.netcraft.com-ub6a85442d10211e9adcda8f8828d6ab1u-digitalocean-2gb
+0 1 0 226 1 1567838821
+/
+ec2-18-228-12-92.sa-east-1.compute.amazonaws.com
+0 1 0 293 1 1568103654
+/
+150.255.4.179
+0 1 0 293 1 1568320604
+/
+209.17.96.186.rdns.cloudsystemnetworks.com
+0 1 0 297 1 1568692638
+/
+placeholder.sitelock.com
+0 8 0 3274 2 1568260441
 -
-209.17.96.26.rdns.cloudsystemnetworks.com
-0 1 1 692 1 1564799291
+ec2-13-56-80-216.us-west-1.compute.amazonaws.com
+0 1 0 293 1 1568332392
 /
-38.131.152.70
-0 1 0 293 1 1564768280
--
-185.234.217.218
-0 4 0 332 0 0
--
-ec2-35-166-194-61.us-west-2.compute.amazonaws.com
-0 1 0 293 1 1564892494
+ec2-54-188-84-230.us-west-2.compute.amazonaws.com
+0 1 0 293 1 1567687589
 /
-ec2-54-212-176-115.us-west-2.compute.amazonaws.com
-0 1 0 293 1 1564800945
+60.191.38.77
+0 7 1 2443 6 1568658737
 /
-ec2-54-188-38-119.us-west-2.compute.amazonaws.com
-0 1 0 293 1 1564628500
--
-ec2-52-37-118-223.us-west-2.compute.amazonaws.com
-0 1 0 293 1 1564716014
--
-smartscan04.sitelock.com
-0 32 0 13096 8 1565236465
--
-ec2-18-237-179-162.us-west-2.compute.amazonaws.com
-0 1 0 293 1 1564628787
--
-ec2-18-237-42-70.us-west-2.compute.amazonaws.com
-0 1 0 293 1 1565065460
-/
-66.249.137.236
-0 1 0 293 1 1565153437
-/
-181.215.217.189
-0 1 0 293 1 1564891011
-/
-ipv4-64-246-165-200.greenhousedata.net
-0 2 0 1043 1 1564886420
-/
-aries.engraneweb.net
+server.direct11.com
 0 1 0 83 0 0
 -
-ns382452.ip-46-105-99.eu
-0 2 0 829 0 0
+http04.sogewest.fr
+0 1 0 83 0 0
 -
-209.17.96.210.rdns.cloudsystemnetworks.com
-0 1 0 293 1 1565096424
+78.160.150.203.sta.inet.co.th
+0 1 0 293 1 1568284903
 /
-ec2-34-219-106-66.us-west-2.compute.amazonaws.com
-0 1 0 293 1 1565149355
+82.202.249.38
+0 1 0 83 0 0
+-
+server199.microhost.com
+0 1 0 83 0 0
+-
+103.35.64.12
+0 1 0 293 1 1568536707
 /
-ec2-52-26-181-40.us-west-2.compute.amazonaws.com
-0 1 0 293 1 1565245380
+ec2-34-219-84-155.us-west-2.compute.amazonaws.com
+0 1 0 293 1 1567718524
 /
-181.214.180.85
-0 1 0 293 1 1565116235
+ec2-35-161-84-65.us-west-2.compute.amazonaws.com
+0 1 0 293 1 1567813532
 /
-# End Of Table - sites (monthly)
-# -sites- (daily)
-66.249.136.201
-0 1 0 293 1 1565228275
+ec2-54-191-35-181.us-west-2.compute.amazonaws.com
+0 1 0 293 1 1568503800
+/
+maria.dnsprotection.me
+0 1 0 83 0 0
+-
+181.118.145.228
+0 1 0 293 1 1567354629
+-
+ec2-18-237-33-6.us-west-2.compute.amazonaws.com
+0 1 0 293 1 1568765382
+/
+ns430.easy.gr
+0 1 0 83 0 0
+-
+ec2-34-219-149-29.us-west-2.compute.amazonaws.com
+0 1 0 293 1 1568328579
+/
+42.155.6.185.cxn-network.net
+0 1 0 83 0 0
+-
+ec2-52-88-103-190.us-west-2.compute.amazonaws.com
+0 1 0 293 1 1568082909
+/
+ipv4-64-246-165-150.greenhousedata.net
+0 2 0 1043 1 1568696355
+/
+104.ip-51-75-205.eu
+0 1 0 83 0 0
+-
+ec2-54-154-29-3.eu-west-1.compute.amazonaws.com
+0 1 1 355 1 1567653749
+/
+167.71.106.141
+0 1 0 226 1 1567861353
+/
+ec2-52-40-219-4.us-west-2.compute.amazonaws.com
+0 1 0 293 1 1568414515
 /
 smartscan04.sitelock.com
-0 4 0 1637 1 1565236465
+0 64 0 26192 16 1568778954
 -
-ec2-52-26-181-40.us-west-2.compute.amazonaws.com
-0 1 0 293 1 1565245380
+111.7.100.26
+0 1 0 293 1 1567427578
+-
+108.62.5.91.rdns.1ue.com
+0 2 0 268 1 1567354625
+-
+193.169.254.5
+0 2 0 166 0 0
+-
+ip83.ip-164-132-119.eu
+0 1 0 293 1 1568363173
 /
+ip-166-62-100-99.ip.secureserver.net
+0 1 0 83 0 0
+-
+111-182-172-163.rev.cloud.scaleway.com
+0 1 0 293 1 1568719144
+/
+103.43.46.136
+0 1 0 83 0 0
+-
+# End Of Table - sites (monthly)
+# -sites- (daily)
+ec2-18-237-33-6.us-west-2.compute.amazonaws.com
+0 1 0 293 1 1568765382
+/
+smartscan04.sitelock.com
+0 4 0 1637 1 1568778954
+-
 # End Of Table - sites (daily)
 # -referrers- 
 http://www.google.com/url
-0 16
-- (Direct Request)
 0 36
+- (Direct Request)
+0 64
 http://www.triplaner.ge
-0 8
+0 18
+http://triplaner.ge/
+0 3
 # End Of Table - referrers
 # -agents- 
-Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
 0 2
-Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/6.0)
-0 24
-SiteLockSpider [en] (WinNT; I ;Nav)
-0 8
-Mozilla/5.0 (Windows NT 10.0; Win64; x64)AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
-0 8
-Go-http-client/1.1
-0 8
-Mozilla/5.0 (Nintendo 3DS; U; ; en) Version/1.7412.EU
+Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)
 0 1
-Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/6.0)
+0 54
+Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+0 3
+SiteLockSpider [en] (WinNT; I ;Nav)
+0 18
+CheckMarkNetwork/1.0 (+http://www.checkmarknetwork.com/spider.html)
+0 1
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+0 1
+Go-http-client/1.1
+0 9
+Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safa
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0
+0 7
+Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET C
 0 2
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:59.0) Gecko/20100101 Firefox/59.0
 0 2
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36
+0 3
 Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0
+0 10
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36 OPR/54.0.29
+0 3
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+0 1
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0
 0 1
 Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
-0 4
+0 2
 # End Of Table - agents
 # -search strings- 
 # End Of Table - search strings

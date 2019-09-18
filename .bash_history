@@ -4876,3 +4876,93 @@ git status
 cat .spamassassin/auto-whitelist
 #1565337034
 clear
+#1565337080
+git add .
+#1565337085
+git commit -m 
+#1565337153
+git commit -m "strange things happening on server"
+#1565337165
+git push origin master
+#1565337205
+clear
+#1565337212
+cd beetrip.ge
+#1565337214
+ls
+#1565337224
+cat error_log
+#1565337263
+clear
+#1565343567
+clear
+#1565343571
+cd public_html
+#1565343573
+git status
+#1565343599
+rm 1.webp
+#1565343603
+git status
+#1565343610
+ls
+#1565343952
+exit
+#1565363334
+cd public_html
+#1565363337
+git status
+#1565363343
+git add .
+#1565363352
+git commit -m "webp"
+#1565363359
+git push origin master
+#1565363381
+exit
+#1567698952
+clear
+#1567698958
+cd public_html
+#1567698961
+git status
+#1567698973
+git add .
+#1567698990
+git commit -m "image after load"
+#1567699001
+git push origin master
+#1567699027
+clear
+#1568814119
+clear
+#1568814126
+ls
+#1568814136
+cd beetrip.ge
+#1568814137
+ls
+#1568814140
+git status
+#1568814163
+git diff _website/templates/product.php
+#1568814175
+git add .
+#1568814190
+git commit -m "include column changed"
+#1568814201
+git push origin master
+#1568814227
+cd
+#1568822001
+git status
+#1568822031
+git add mail*
+#1568822054
+git add tmp*
+#1568822061
+git status
+#1568822080
+git add ssl*
+#1568822087
+git status
