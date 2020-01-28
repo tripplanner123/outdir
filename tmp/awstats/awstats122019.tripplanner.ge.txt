@@ -1,0 +1,365 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 201912 will be lost/reset.
+# Last config file used to build this data file was /home4/tripplanner/tmp/awstats/awstats.tripplanner.ge.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2015                
+POS_TIME 2682                
+POS_VISITOR 8336                
+POS_DAY 9291                
+POS_DOMAIN 3443                
+POS_LOGIN 3738                
+POS_ROBOT 3893                
+POS_WORMS 4170                
+POS_EMAILSENDER 4301                
+POS_EMAILRECEIVER 4444                
+POS_SESSION 9847                
+POS_SIDER 9994                
+POS_FILETYPES 4579                
+POS_DOWNLOADS 4750                
+POS_OS 4798                
+POS_BROWSER 4929                
+POS_SCREENSIZE 5208                
+POS_UNKNOWNREFERER 5282                
+POS_UNKNOWNREFERERBROWSER 5387                
+POS_ORIGIN 5487                
+POS_SEREFERRALS 5622                
+POS_PAGEREFS 5780                
+POS_SEARCHWORDS 5928                
+POS_KEYWORDS 6080                
+POS_MISC 2345                
+POS_ERRORS 6139                
+POS_CLUSTER 3594                
+POS_SIDER_404 6287                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200101001613 99 22318 10932499430019
+FirstTime 0
+LastTime 20191231120135
+LastUpdate 20200101060736 99 0 98 0 0
+TotalVisits 23                  
+TotalUnique 7                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 30                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 43 0
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 116 153 28602
+1 0 2 1255620 106 173 412207
+2 0 0 0 93 147 42977
+3 0 4 1958924 111 131 25419
+4 0 0 0 261 343 266029
+5 2 6 1926614 161 191 45428
+6 0 2 1372418 146 174 35141
+7 4 6 362060 145 173 46805
+8 2 4 1373882 126 150 39398
+9 2 6 1495330 102 130 31589
+10 0 2 1372418 105 135 30922
+11 2 4 337268 97 139 33841
+12 10 12 363410 117 139 27252
+13 4 4 1914 141 173 48271
+14 12 18 778040 178 208 43849
+15 2 4 586956 204 247 35403
+16 0 0 0 139 194 56592
+17 0 0 0 76 108 93527
+18 2 10 2997194 132 174 41107
+19 2 2 450 170 215 44416
+20 0 4 404256 138 162 29229
+21 0 0 0 141 187 44713
+22 2 4 337268 123 149 37026
+23 0 0 0 128 153 34978
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 6
+cn 22 22 4950
+fr 14 14 3150
+gb 4 4 2928
+us 4 10 234858
+zz 2 2 1464
+ru 0 42 16676672
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+Googlebot/ 32 448286 20191230174218 0
+curl 8 2196 20191223214620 0
+no_user_agent 4 1464 20191231203425 0
+Mail\.RU_Bot/ 4 210742 20191203042129 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+Unknown 10 1464 0 0
+png 4 86192 0 0
+jpg 42 16676672 0 0
+html 23 11760 0 0
+css 2 145738 0 0
+htm 13 2196 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+win8.1 22 22
+linux 2 0
+win8 6 0
+win7 36 16
+win10 24 8
+Unknown 4 0
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 12
+chrome79.0.3945.79 2 2
+chrome78.0.3904.97 4 2
+mozilla 2 2
+chrome77.0.3865.120 14 0
+msie10.0 16 0
+firefox71.0 2 2
+Unknown 4 0
+firefox47.0 22 22
+chrome56.0.2924.87 14 14
+chrome78.0.3904.108 4 0
+firefox70.0 8 2
+chrome5.0.307.7 2 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+'' 20191212141644
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+'' 20191212141644
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 36 42
+From1 0 0
+From2 0 42
+From3 0 0
+From4 10 10
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+yandexru 0 42
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+406 355 80230
+403 585 300550
+409 84 6972
+301 2457 188555
+404 576 286276
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 48
+/public/images/tours/big/135/1352.jpg 2 -
+/public/images/tours/big/311/3115.jpg 4 -
+/robots.txt/ 68 -
+//new/wp-admin/install.php 2 -
+/xxxxxx.php 2 -
+/public/images/places/big/33.jpg 4 http://go.mail.ru/search_images
+/public/images/tours/big/62/621.jpg 2 -
+///wp-admin/install.php 2 -
+/public/images/tours/big/65/65.jpg 2 -
+/admin/index.php 1 -
+/cart_2.html 2 -
+/public/images/tours/big/124/124.jpg 2 http://go.mail.ru/search_images
+/public/images/tours/big/132/132.jpg 2 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+//admin/images/cal_date_over.gif 1 http://www.google.com.hk
+/public/images/tours/big/66/661.jpg 2 -
+/wordpress/wp-admin/install.php 1 -
+/tours/full/132/public/images/burger_icon.png 2 -
+/public/images/call_us.PNG 4 -
+//old/wp-admin/install.php 2 -
+//blog/wp-admin/install.php 2 -
+/public/images/places/big/24.jpg 2 -
+/wp-login.php 2 -
+//backup/wp-admin/install.php 2 -
+/public/images/tours/big/132/1326.jpg 2 -
+//administrator/index.php 1 -
+/administrator/index.php 3 -
+/blog/robots.txt 6 -
+/admin/login.php 1 -
+/public/images/tours/big/132/1321.jpg 4 -
+/admin/images/cal_date_over.gif 1 http://www.google.com.hk
+//admin/index.php 1 -
+/public/images/tours/big/67/67.jpg 2 -
+/public/images/tours/big/298/298.jpg 2 -
+/robots.txt 414 -
+/public/images/tour_type_icons/4.png 2 -
+//templates/system/css/system.css 1 http://www.google.com.hk
+/public/images/places/big/110.jpg 2 -
+/panel/tables.php 2 -
+/public/images/tours/big/64/64.jpg 2 -
+//wp-admin/install.php 1 -
+//admin/login.php 1 -
+//wordpress/wp-admin/install.php 2 -
+/templates/system/css/system.css 1 http://www.google.com.hk
+//oldsite/wp-admin/install.php 2 -
+//wp/wp-admin/install.php 2 -
+/xmlrpc.php 2 -
+/public/js/bootstrap.js 2 http://tripplanner.ge/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 30
+60.217.72.16 22 22 4950 20191231120135
+77.139.208.26 14 14 3150 20191230224812
+172.241.250.179 2 2 1464 20191228080611
+194.187.249.62 2 2 1464 20191205091730
+169.197.112.102 2 2 1464 20191220182101
+165.227.163.166 2 2 1464 20191208134236
+194.187.249.37 2 2 1464 20191223055258
+46.42.166.50 0 2 586506 
+176.193.170.223 0 2 586506 
+37.204.167.244 0 2 586506 
+95.24.23.113 0 2 1372418 
+188.232.123.72 0 2 586506 
+93.80.133.81 0 2 1686904 
+176.212.41.117 0 2 361160 
+94.180.136.108 0 2 361160 
+18.232.176.49 0 2 43096 
+37.204.75.254 0 2 361160 
+95.24.6.21 0 2 1255620 
+128.72.159.196 0 2 1372418 
+188.32.33.166 0 2 361160 
+95.28.190.165 0 2 336818 
+176.212.37.15 0 2 336818 
+37.112.235.73 0 2 238246 
+95.221.115.230 0 2 1372418 
+95.24.7.62 0 2 238246 
+109.173.92.232 0 2 1255620 
+95.220.223.26 0 2 361160 
+37.204.94.180 0 2 1686904 
+5.228.196.47 0 2 1372418 
+54.208.100.253 0 4 188834 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 23
+20191201 2 6 948116 1
+20191203 0 4 923324 0
+20191204 0 4 1733578 0
+20191205 2 2 1464 1
+20191206 2 4 1372868 1
+20191208 2 4 587970 1
+20191209 2 2 450 1
+20191211 0 2 336818 0
+20191212 0 4 188834 0
+20191213 2 4 1372868 1
+20191214 4 6 362060 2
+20191215 0 4 476492 0
+20191216 2 6 1415964 1
+20191219 0 2 361160 0
+20191220 4 4 1914 2
+20191221 4 8 1843026 2
+20191223 6 8 1257984 3
+20191224 2 2 450 1
+20191226 0 2 1686904 0
+20191228 6 6 2364 3
+20191229 2 4 1687354 1
+20191230 2 2 450 1
+20191231 2 4 361610 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 23
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 4
+/cgi-sys/403.html 23 11760 23 0
+/img/img/post/e48cf5e9a2bd46ef10189583c0675577/3d.htm 13 2196 0 13
+/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings 5 1464 0 5
+/files/tours/53/customer/customer_center/customer-idpp00c548/myaccount/settings 5 0 0 5
+END_SIDER

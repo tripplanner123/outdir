@@ -1,0 +1,980 @@
+Return-Path: <survey.3445@envfrm.rsys2.com>
+Delivered-To: e.tarkhnishvili@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP
+	id 8NGGAsCYFl6+oQIA8w4q4w
+	(envelope-from <survey.3445@envfrm.rsys2.com>)
+	for <e.tarkhnishvili@tripplanner.ge>; Wed, 08 Jan 2020 21:06:40 -0600
+Return-path: <survey.3445@envfrm.rsys2.com>
+Envelope-to: e.tarkhnishvili@tripplanner.ge
+Delivery-date: Wed, 08 Jan 2020 21:06:40 -0600
+Received: from omp.go.surveymonkey.com ([12.130.139.200]:45002)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92)
+	(envelope-from <survey.3445@envfrm.rsys2.com>)
+	id 1ipO9f-000kfn-4x
+	for e.tarkhnishvili@tripplanner.ge; Wed, 08 Jan 2020 21:06:40 -0600
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=surveymonkey; d=go.surveymonkey.com;
+ h=X-CSA-Complaints:MIME-Version:Content-Type:Content-Transfer-Encoding:Date:
+ To:From:Reply-To:Subject:List-Unsubscribe:Message-ID;
+ i=surveymonkey@go.surveymonkey.com;
+ bh=KhvJMHCRzCPwLsk2Fnz08cqZ0gKZATshE5iOBaM9+9w=;
+ b=BpdqxDPnNdDkVt0o0WDNrGGOlsuvSCvCugnspNjv5MuQ5I1Eeim5oiGME87YlGm7g5Z/on++nEmY
+   tPyNTMbETKcrxqFMkdQ2keZusofFXojLjBBn/M1fiuQs1MjM1tom9v4QWPM0cts4ut3Jzf6k9LWR
+   9AoZTLaam6q2AE4wgiM=
+Received: by omp.go.surveymonkey.com id h2qcb82idb4k for <e.tarkhnishvili@tripplanner.ge>; Wed, 8 Jan 2020 19:06:28 -0800 (envelope-from <survey.3445@envfrm.rsys2.com>)
+X-CSA-Complaints: whitelist-complaints@eco.de
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+Date: Wed, 8 Jan 2020 19:06:28 -0800
+To: e.tarkhnishvili@tripplanner.ge
+From: =?UTF-8?B?U3VydmV5TW9ua2V5?= <surveymonkey@go.surveymonkey.com>
+Reply-To: =?UTF-8?B?U3VydmV5TW9ua2V5?= <reply@go.surveymonkey.com>
+Subject: Newsletter: January 2020
+Feedback-ID: 3445:586687:oraclersys
+List-Unsubscribe: <mailto:unsubscribe-YQpglLjHJlTQGjFYhU72Gro07DyGbfg2X1Pg6PtW4nSD7k3OySbYCp09GoRYzdfSbaUflCwMMzczcJjbO@imh.rsys2.com?subject=List-Unsubscribe>, <https://go.surveymonkey.com/pub/optout/UnsubscribeOneStepConfirmAction?YES=true&_ri_=X0Gzc2X%3DYQpglLjHJlTQGjFYhU72Gro07DyGbfg2X1Pg6PtW4nSD7k3OySbYCp09GoRYzdfSbaUflCwMMzczcJjbO&_ei_=EuUXf_A_5nF5M6NU8pipGc5C8_zZsdGl9zH6c_E7vjCECzp8g-nWsKrF04z3EXMi-cLHEpyanzgXrMR1oieyiK41CkReSJ2JNhF83iiTkcOMnh7Lm-xF0QyzKXOSzV_9dBnHcCuYGoWDP162IEWUVya8UDmmW2t6JBnoWhGLD5l0ivGu5FJFQlK-aGMJKYZ45ePbtP8i6zqpBJ4I6INXY295-fPxWJHvGtJimyO4rbsMtgZWCDrFEqNsHm4r1jaGLth2CUsSs0s2.>
+X-sgxh1: LQlHjsogpkoNptpxljpiitHggLjQnL
+X-rext: 5.interact2.Erz5o3BTEjhRB9PEIMnT_SynAyl4Wg19BsUwP1I58iRDEh05ZM1IH3Mt8OffXXcrIw
+X-cid: survey.393951
+X-ei: EjeOrHuJEwshkxmOqhXJn_1kv1StutbI
+Message-ID: <0.1.16C.2FF.1D5C699C9168B76.0@omp.go.surveymonkey.com>
+X-Spam-Status: No, score=1.8
+X-Spam-Score: 18
+X-Spam-Bar: +
+X-Spam-Flag: NO
+
+<=21DOCTYPE html PUBLIC =22-//W3C//DTD XHTML 1=2E0 Strict//EN=22 =22http://=
+www=2Ew3=2Eorg/TR/xhtml1/DTD/xhtml1-strict=2Edtd=22>
+<html lang=3D=22en=22 xmlns=3D=22http://www=2Ew3=2Eorg/1999/xhtml=22 xmlns:=
+o=3D=22urn:schemas-microsoft-com:office:office=22>
+<head>
+<=21--=5Bif gte mso 9=5D>
+<xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml>
+<=21=5Bendif=5D-->
+	<meta http-equiv=3D=22Content-Type=22 content=3D=22text/html; charset=3DUT=
+F-8=22>=20
+	<meta name=3D=22viewport=22 content=3D=22width=3Ddevice-width, initial-sca=
+le=3D1=22>=20
+	<meta http-equiv=3D=22X-UA-Compatible=22 content=3D=22IE=3Dedge=22>=20
+	<title>SurveyMonkey</title>
+	<style type=3D=22text/css=22>		=23outlook a =7Bpadding:0;=7D
+		body=7Bwidth:100% =21important; -webkit-text-size-adjust:100%; -ms-text-s=
+ize-adjust:100%; margin:0; padding:0;=7D
+		a:link =7Bcolor:=232C9AB7;=7D      /* unvisited link */
+		a:visited =7Bcolor:=232C9AB7;=7D  /* visited link */
+		a:hover =7Bcolor:=232C9AB7;=7D  /* mouse over link */
+		a:active =7Bcolor:=232C9AB7;=7D  /* selected link */
+		a =7Btext-decoration: none;=7D
+		a img =7Bborder:none;=7D
+		=2EExternalClass =7Bwidth:100%;=7D
+		=23backgroundTable =7Bmargin:0; padding:0; width:100% =21important; =7D
+		img =7Boutline:none; text-decoration:none; -ms-interpolation-mode: bicubi=
+c;=7D
+        th =7Bfont-weight:normal;=7D
+		span=2Eyshortcuts =7B color:=23333333; background-color:none; border:none=
+;=7D
+		span=2Eyshortcuts:hover,
+		span=2Eyshortcuts:active,
+		span=2Eyshortcuts:focus =7Bcolor:=23333333; background-color:none; border=
+:none;=7D
+		=40media only screen and (max-width: 500px)
+		=7B
+			=2Ehide =7B display:none =21important; =7D
+		    =2EtableVisibleFeature =7Bdisplay:block =21important;  margin:auto =
+=21important; width:100% =21important; height:auto =21important; max-height=
+:inherit =21important; overflow:visible =21important;=7D
+			=2Etable =7B width:100% =21important; =7D
+			th=2Eblock =7B display:block; width:100% =21important; height:auto; text=
+-align:center =21important; =7D
+			td=2Eblock2 =7B display:block; width:100% =21important; height:auto; tex=
+t-align:center =21important; padding-top:5px; padding-bottom:5px; =7D
+			th=2Eblock3 =7B display:block; width:100% =21important; height:auto; tex=
+t-align:center =21important; padding-left:0px =21important; padding-top:20p=
+x; padding-bottom:20px;=7D
+            =2EtopBanner =7B padding-left:20px =21important; padding-right:=
+20px =21important; =7D
+			=2EnoPadTop =7B padding-top:20px =21important; =7D
+			=2EnoPadLeft =7B padding-left:0px =21important; =7D
+			=2EtextCenter =7B text-align:center =21important; padding-left:20px =21i=
+mportant; padding-right:20px =21important;=7D
+			=2EwidthImage1 =7B width:130px =21important; =7D
+			=2EwidthImage2 =7B width:183px =21important; padding-top:10px; =7D
+			=2EwidthImage3 =7B width:190px =21important; padding-top:10px; =7D
+			=2EtableRebrand =7B width:100% =21important; =7D
+			=2EcellHeight =7B height:429px =21important; =7D
+			=2EbkgHeight =7B background-size:100% 378px =21important; =7D
+			=2EtableBkgImage =7B background-size: contain =21important; height:390px=
+ =21important; background-position: center bottom; =7D
+			=2EpadLeft =7B padding-left:200px =21important; =7D
+			=2EpadBottom =7B padding-bottom:30px =21important; =7D
+			=2EpadTop =7B padding-top:10px =21important; =7D
+			=2EpadRight =7B padding-right:200px =21important; =7D
+			=2EpadLR =7B padding-right:10px =21important; padding-left:10px =21impor=
+tant; =7D
+			=2EtablePadRebrand =7B width:100% =21important; =7D
+			=2EtableHeight =7B width:100% =21important; height: 10px =21important; =
+=7D
+			=2Etable90Rebrand =7B width:90% =21important; =7D
+			=2Etable80Rebrand =7B width:85% =21important; =7D
+			=2EtableRebrand50 =7B width:50% =21important; =7D
+			=2EtablePadLRRebrand =7B width:100% =21important; padding-left:20px =21i=
+mportant; padding-right:20px =21important; =7D
+			=2EtablePadLRRebrand2 =7B width:100% =21important; padding-left:46px =21=
+important; padding-right:46px =21important; =7D
+			=2EtablePadLRRebrand3 =7B width:100% =21important; padding-left:46px =21=
+important; padding-right:46px =21important; padding-top:10px; padding-botto=
+m:10px; =7D
+			=2EmobileText =7Bfont-size:20px =21important; line-height:26px =21import=
+ant; =7D
+			=2EmobileText2 =7Bfont-size:16px =21important; =7D
+			=2EmobileText3 =7Bfont-size:24px =21important; =7D
+			=2EmobileText4 =7Bfont-size:120px =21important; =7D
+		=7D
+	</style>
+</head>
+<body bgcolor=3D=22=23FFFFFF=22 style=3D=22-webkit-font-smoothing: antialia=
+sed; width:100% =21important; background:=23FFFFFF; -webkit-text-size-adjus=
+t:none;=22>
+<table class=3D=22table=22 width=3D=22100%=22 border=3D=220=22 cellpadding=
+=3D=220=22 cellspacing=3D=220=22 bgcolor=3D=22=23FFFFFF=22>
+	<tr>
+		<td class=3D=22table=22 style=3D=22border-collapse: collapse;=22 width=3D=
+=22100%=22 bgcolor=3D=22=23FFFFFF=22 valign=3D=22top=22 align=3D=22center=
+=22>=20
+ <=21--- PREHEADER start --->
+        <table class=3D=22hide=22 width=3D=22570=22 border=3D=220=22 cellpa=
+dding=3D=220=22 cellspacing=3D=220=22>
+            <tr>
+                <td style=3D=22border-collapse: collapse;=22 width=3D=22300=
+=22 height=3D=2214=22 bgcolor=3D=22=23ffffff=22 align=3D=22left=22 valign=
+=3D=22middle=22><font style=3D=22text-decoration:none; color:=23ffffff; fon=
+t-size:10px; font-family:helvetica, arial, sans-serif;=22>Happy New Year=21=
+</font></td>
+                <td style=3D=22border-collapse: collapse;=22 width=3D=22300=
+=22 height=3D=2214=22 bgcolor=3D=22=23ffffff=22 align=3D=22right=22 valign=
+=3D=22middle=22>&nbsp;</td>
+            </tr>
+        </table>
+<=21--- PREHEADER end --->
+<=21--- HEADER STRIP start --->
+
+		<table class=3D=22hide=22 width=3D=22570=22 border=3D=220=22 cellpadding=
+=3D=220=22 cellspacing=3D=220=22>
+			<tr>
+				<td style=3D=22border-collapse: collapse;=22 width=3D=22570=22 height=
+=3D=222=22 bgcolor=3D=22=23FFFFFF=22 align=3D=22left=22 valign=3D=22middle=
+=22><font style=3D=22text-decoration:none; color:=23FFFFFF; font-size:2px; =
+font-family:helvetica, arial, sans-serif;=22></font></td>
+			</tr>
+		</table>
+		<table class=3D=22table=22 width=3D=22570=22 border=3D=220=22 cellpadding=
+=3D=220=22 cellspacing=3D=220=22 bgcolor=3D=22=23FFFFFF=22>
+			<tr>
+				<td class=3D=22hide=22 style=3D=22border-collapse: collapse;=22 width=
+=3D=22100=22 height=3D=22100=22 bgcolor=3D=22=23FFFFFF=22 align=3D=22left=
+=22 valign=3D=22middle=22>=20
+				<table class=3D=22table90Rebrand=22 width=3D=2269=22 border=3D=220=22 c=
+ellpadding=3D=220=22 cellspacing=3D=220=22>
+					<tr>
+						<td class=3D=22table=22 style=3D=22border-collapse: collapse; -webkit=
+-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px;=22 width=
+=3D=2269=22 height=3D=222=22 bgcolor=3D=22=23ffffff=22 align=3D=22center=22=
+ valign=3D=22top=22><a target=3D=22_blank=22 href=3D=22https://go=2Esurveym=
+onkey=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlTQGjFYhU72Gro07DyGbfg2X1Pg6Pt=
+W4nSD7k3OySbYCp09GoRYzdfSbaUflCwMMzczcJjbOVXtpKX%3DTWTBYSY&_ei_=3DEuUXf_A_5=
+nF5M6NU8pipGc46Xd8t9rvLW_yB_H4S4Q2ML0jhm2M8kfc3FS7vyGnWD4TibZ5RAGCULzMy_jmU=
+u2pibP8GVAOxd5mJaFVPF5mlICCJv4Ocg98Oc6218qG166SeFTazu3OEEEx03bt_5SjkA7B-ox7=
+v_R0ch2kqhMU8-ohiHoG4LYz36ze9hkjYl1KnP1RWfVfNUjtB-WPh4RvyVVu8GWXiJiPVIbRzNP=
+fmYnwYhdzfK6kvPwGvRIJPDPl_0mE1KGkirPfwZa2GMd8FeNmi0Sv9ILc1G6TX9A0769FCkUIsY=
+JdzEt3hp9Ms6zFO-Vsq6bmTNHlghvjaUMh3_QXW7XwvlH_E1xKUlEuVcI3sMQ9jHn8EY69Y1a5Q=
+n8ES1w=2E=22>=20
+						<table class=3D=22table90Rebrand=22 width=3D=2269=22 border=3D=220=22=
+ cellpadding=3D=220=22 cellspacing=3D=220=22>
+							<tr>
+								<td class=3D=22tablePadRebrand=22 align=3D=22center=22 width=3D=226=
+9=22 height=3D=2230=22 style=3D=22
+								color: =2300BF6F;
+								font-family:helvetica, arial, sans-serif;
+								font-size: 10px;
+								font-weight:bold;
+								text-align:center;
+                                webkit-border-radius: 2px;=20
+                                moz-border-radius: 2px;
+                                border-radius: 2px;
+								outline: none;
+								text-decoration: none;
+								border:2px solid =2300BF6F;
+								background-color: =23ffffff;=22 bgcolor=3D=22=23ffffff=22><a target=
+=3D=22_blank=22 href=3D=22https://go=2Esurveymonkey=2Ecom/pub/cc?_ri_=3DX0G=
+zc2X%3DYQpglLjHJlTQGjFYhU72Gro07DyGbfg2X1Pg6PtW4nSD7k3OySbYCp09GoRYzdfSbaUf=
+lCwMMzczcJjbOVXtpKX%3DTWTBYSY&_ei_=3DEuUXf_A_5nF5M6NU8pipGc46Xd8t9rvLW_yB_H=
+4S4Q2ML0jhm2M8kfc3FS7vyGnWD4TibZ5RAGCULzMy_jmUu2pibP8GVAOxd5mJaFVPF5mlICCJv=
+4Ocg98Oc6218qG166SeFTazu3OEEEx03bt_5SjkA7B-ox7v_R0ch2kqhMU8-ohiHoG4LYz36ze9=
+hkjYl1KnP1RWfVfNUjtB-WPh4RvyVVu8GWXiJiPVIbRzNPfmYnwYhdzfK6kvPwGvRIJPDPl_0mE=
+1KGkirPfwZa2GMd8FeNmi0Sv9ILc1G6TX9A0769FCkUIsYJdzEt3hp9Ms6zFO-Vsq6bmTNHlghv=
+jaUMh3_QXW7XwvlH_E1xKUlEuVcI3sMQ9jHn8EY69Y1a5Qn8ES1w=2E=22 style=3D=22
+								color: =2300BF6F;
+								font-family:helvetica, arial, sans-serif;
+								font-weight:bold;
+								font-size: 10px;
+								outline: none;
+								cursor: pointer;
+								white-space: nowrap;
+								text-decoration: none;
+                                display: inline-block;
+								background-color: =23ffffff;=22>Sign in</a></td>
+							</tr>
+						</table>
+						</a>
+						</td>
+					</tr>
+				</table>
+				</td>
+				<td class=3D=22table=22 style=3D=22border-collapse: collapse; width:370=
+px;=22 width=3D=22370=22 height=3D=22100=22 bgcolor=3D=22=23FFFFFF=22 align=
+=3D=22center=22 valign=3D=22middle=22><a href=3D=22https://go=2Esurveymonke=
+y=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlTQGjFYhU72Gro07DyGbfg2X1Pg6PtW4nS=
+D7k3OySbYCp09GoRYzdfSbaUflCwMMzczcJjbOVXtpKX%3DTWTBYSA&_ei_=3DEuUXf_A_5nF5M=
+6NU8pipGc5C8_zZsdGl9zH6c_E7vjCECzp8g-nWsKrF04z3EXMi-cLHEpyanzgXrMR1oieyiK41=
+CkReSJ2JNhF83iiTkcOMnh7Lm-xF0QyzKXOSzV_9dBnHcCuYGoWDP162IEWUVya8UDmmW2t6JBn=
+oWhGLD5l0ivGu5FJFQlK-aGMJKYZ45ePbtP8i6zqpBJ4I6INXY295-fPxWJHvGtJimyO4rbsMtg=
+ZWCDrFEqNsHm4r1jaGLth2CUsSs0s2=2E=22 target=3D=22_blank=22><img style=3D=22=
+outline:none; text-decoration:none; -ms-interpolation-mode: bicubic; displa=
+y:block;=22 src=3D=22https://static=2Ecdn=2Eresponsys=2Enet/i2/responsysima=
+ges/survey/contentlibrary/shawscott_template/images/header_SM_logo=2Epng=22=
+ width=3D=2264=22 border=3D=220=22 alt=3D=22SurveyMonkey=22 /></a></td>
+				<td class=3D=22hide=22 style=3D=22border-collapse: collapse;=22 width=
+=3D=22100=22 height=3D=222=22 bgcolor=3D=22=23FFFFFF=22 align=3D=22right=22=
+ valign=3D=22middle=22>
+				<table width=3D=2266=22 border=3D=220=22 cellpadding=3D=220=22 cellspac=
+ing=3D=220=22 align=3D=22right=22>
+					<tr>
+						<td class=3D=22hide=22 style=3D=22border-collapse: collapse;=22 width=
+=3D=2233=22 height=3D=222=22 bgcolor=3D=22=23FFFFFF=22 align=3D=22right=22 =
+valign=3D=22middle=22><a href=3D=22https://go=2Esurveymonkey=2Ecom/pub/cc?_=
+ri_=3DX0Gzc2X%3DYQpglLjHJlTQGjFYhU72Gro07DyGbfg2X1Pg6PtW4nSD7k3OySbYCp09GoR=
+YzdfSbaUflCwMMzczcJjbOVXtpKX%3DTWTBYSB&_ei_=3DEuUXf_A_5nF5M6NU8pipGc5C8_zZs=
+dGl9zH6c_E7vjCECzp8g-nWsKrF04z3EXMi-cLHEpyanzgXrMR1oieyiK41CkReSJ2JNhF83iiT=
+kcOMnh7Lm-xF0QyzKXOSzV_9dBnHcCuYGoWDP162IEWUVya8UDmmW2t6JBnoWhGLD5l0ivGu5FJ=
+FQlK-aGMJKYZ45ePbtP8i6zqpBJ4I6INXY295-fPxWJHvGtJimyO4rbsMtgZWCDrFEqNsHm4r1j=
+aGLth2CUsSs0s2=2E=22 target=3D=22_blank=22><img class=3D=22table=22 style=
+=3D=22outline:none; text-decoration:none; -ms-interpolation-mode: bicubic; =
+display:block;=22 src=3D=22https://static=2Ecdn=2Eresponsys=2Enet/i2/respon=
+sysimages/survey/contentlibrary/shawscott_template/images/header_twitter_fi=
+nal=2Epng=22 width=3D=2226=22 height=3D=2226=22 border=3D=220=22 alt=3D=22T=
+witter=22 /></a></td>
+						<td class=3D=22hide=22 style=3D=22border-collapse: collapse;=22 width=
+=3D=2233=22 height=3D=222=22 bgcolor=3D=22=23FFFFFF=22 align=3D=22right=22 =
+valign=3D=22middle=22><a href=3D=22https://go=2Esurveymonkey=2Ecom/pub/cc?_=
+ri_=3DX0Gzc2X%3DYQpglLjHJlTQGjFYhU72Gro07DyGbfg2X1Pg6PtW4nSD7k3OySbYCp09GoR=
+YzdfSbaUflCwMMzczcJjbOVXtpKX%3DTWTBYSC&_ei_=3DEuUXf_A_5nF5M6NU8pipGc5C8_zZs=
+dGl9zH6c_E7vjCECzp8g-nWsKrF04z3EXMi-cLHEpyanzgXrMR1oieyiK41CkReSJ2JNhF83iiT=
+kcOMnh7Lm-xF0QyzKXOSzV_9dBnHcCuYGoWDP162IEWUVya8UDmmW2t6JBnoWhGLD5l0ivGu5FJ=
+FQlK-aGMJKYZ45ePbtP8i6zqpBJ4I6INXY295-fPxWJHvGtJimyO4rbsMtgZWCDrFEqNsHm4r1j=
+aGLth2CUsSs0s2=2E=22 target=3D=22_blank=22><img class=3D=22table=22 style=
+=3D=22outline:none; text-decoration:none; -ms-interpolation-mode: bicubic; =
+display:block;=22 src=3D=22https://static=2Ecdn=2Eresponsys=2Enet/i2/respon=
+sysimages/survey/contentlibrary/shawscott_template/images/header_linkedin_f=
+inal=2Epng=22 width=3D=2226=22 height=3D=2226=22 border=3D=220=22 alt=3D=22=
+Linkedin=22 /></a></td>
+					</tr>
+				</table>
+				</td>
+			=09
+			</tr>
+		</table> <=21--- HEADER STRIP end --->
+<=21--- BANNER start --->
+<=21--- BANNER end --->
+<=21--- STORY1_BLOCK start --->
+
+		<table class=3D=22tableRebrand=22 width=3D=22570=22 border=3D=220=22 cell=
+padding=3D=220=22 cellspacing=3D=220=22 bgcolor=3D=22=23FFFFFF=22>
+			<tr>
+				<td class=3D=22tableRebrand=22 style=3D=22border-collapse: collapse;=22=
+ width=3D=22570=22 height=3D=2225=22><img class=3D=22tableRebrand=22 style=
+=3D=22outline:none; text-decoration:none; -ms-interpolation-mode: bicubic; =
+display:block;=22 src=3D=22https://static=2Ecdn=2Eresponsys=2Enet/i2/respon=
+sysimages/survey/contentlibrary/shawscott_template/202001/images/spacer=2Eg=
+if=22 width=3D=22570=22 height=3D=2225=22 alt=3D=22=22/></td>
+			</tr>
+			<tr>
+				<td class=3D=22tablePadLRRebrand2=22 style=3D=22border-collapse: collap=
+se; padding-left: 50px; padding-right: 50px;=22 width=3D=22570=22 height=3D=
+=222=22  align=3D=22center=22 valign=3D=22middle=22>
+				<a class=3D=22mobileText=22 href=3D=22https://go=2Esurveymonkey=2Ecom/p=
+ub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlTQGjFYhU72Gro07DyGbfg2X1Pg6PtW4nSD7k3OySbY=
+Cp09GoRYzdfSbaUflCwMMzczcJjbOVXtpKX%3DTWTBATD&_ei_=3DEuUXf_A_5nF5M6NU8pipGc=
+67PFA0v16srkTkvuZLZ5O3xMm162_wodFV2cvxDsVxTcrPD_qtVqB2XD75ju6reiAiJC5vN06rm=
+wnW5Z8hKrl-MY5o2y09IB7Tu1ylkIaVf8Vzi92TbX9F_aS6LmM5zesw9cPaWA_X8M0ln9_kwBcr=
+OA_3Bfl0Add1Mp4MrjRh9Eiz5vRRA8V8VD8hoTK6K2chyIUl4S-M37DqGqEkK1UkAPy6JeE11if=
+epvzqWXaux5PTI9qrx6vHBWmofXWBB2F6jXLLGe-QqsPpgdrbKIvENoIA4yl3XAzS6lsE_RQYB5=
+ECF49YpdIM=2E=22 target=3D=22_blank=22 style=3D=22text-decoration:none; col=
+or:=23ffffff; font-size:30px; line-height:38px; font-family:helvetica, aria=
+l, sans-serif;=22>
+				<font style=3D=22color:=239DA5AA;=22>2019 in review</font><br/>
+				<font style=3D=22color:=23333E48;=22>All the highlights from SurveyMonk=
+ey's spectacular 2019</font>
+				</a></td>
+			</tr>
+			<tr>
+				<td class=3D=22tableRebrand=22 style=3D=22border-collapse: collapse; pa=
+dding-top:10px;=22 width=3D=22570=22 height=3D=222=22></td>
+			</tr>
+			<tr>
+				<td class=3D=22tableRebrand=22 style=3D=22border-collapse: collapse;=22=
+ width=3D=22570=22 height=3D=222=22  align=3D=22center=22 valign=3D=22middl=
+e=22>
+				<a href=3D=22https://go=2Esurveymonkey=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQ=
+pglLjHJlTQGjFYhU72Gro07DyGbfg2X1Pg6PtW4nSD7k3OySbYCp09GoRYzdfSbaUflCwMMzczc=
+JjbOVXtpKX%3DTWTBATD&_ei_=3DEuUXf_A_5nF5M6NU8pipGc67PFA0v16srkTkvuZLZ5O3xMm=
+162_wodFV2cvxDsVxTcrPD_qtVqB2XD75ju6reiAiJC5vN06rmwnW5Z8hKrl-MY5o2y09IB7Tu1=
+ylkIaVf8Vzi92TbX9F_aS6LmM5zesw9cPaWA_X8M0ln9_kwBcrOA_3Bfl0Add1Mp4MrjRh9Eiz5=
+vRRA8V8VD8hoTK6K2chyIUl4S-M37DqGqEkK1UkAPy6JeE11ifepvzqWXaux5PTI9qrx6vHBWmo=
+fXWBB2F6jXLLGe-QqsPpgdrbKIvENoIA4yl3XAzS6lsE_RQYB5ECF49YpdIM=2E=22 target=
+=3D=22_blank=22 style=3D=22text-decoration:underline; color:=23007FAA; font=
+-size:13px; line-height:24px; font-family:helvetica, arial, sans-serif;=22>=
+See highlights</a>
+				</td>
+			</tr>
+		</table>
+	=09
+		<table class=3D=22tableRebrand=22 width=3D=22570=22 border=3D=220=22 cell=
+padding=3D=220=22 cellspacing=3D=220=22 bgcolor=3D=22=23ffffff=22>
+			<tr>
+				<td class=3D=22tableRebrand noPadTop=22 style=3D=22border-collapse: col=
+lapse; padding-top:20px; padding-bottom:40px;=22 width=3D=22570=22 height=
+=3D=222=22 bgcolor=3D=22=23ffffff=22 align=3D=22center=22><a href=3D=22http=
+s://go=2Esurveymonkey=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlTQGjFYhU72Gro=
+07DyGbfg2X1Pg6PtW4nSD7k3OySbYCp09GoRYzdfSbaUflCwMMzczcJjbOVXtpKX%3DTWTBATD&=
+_ei_=3DEuUXf_A_5nF5M6NU8pipGc67PFA0v16srkTkvuZLZ5O3xMm162_wodFV2cvxDsVxTcrP=
+D_qtVqB2XD75ju6reiAiJC5vN06rmwnW5Z8hKrl-MY5o2y09IB7Tu1ylkIaVf8Vzi92TbX9F_aS=
+6LmM5zesw9cPaWA_X8M0ln9_kwBcrOA_3Bfl0Add1Mp4MrjRh9Eiz5vRRA8V8VD8hoTK6K2chyI=
+Ul4S-M37DqGqEkK1UkAPy6JeE11ifepvzqWXaux5PTI9qrx6vHBWmofXWBB2F6jXLLGe-QqsPpg=
+drbKIvENoIA4yl3XAzS6lsE_RQYB5ECF49YpdIM=2E=22 target=3D=22_blank=22><img cl=
+ass=3D=22table90Rebrand=22 src=3D=22https://static=2Ecdn=2Eresponsys=2Enet/=
+i2/responsysimages/survey/contentlibrary/shawscott_template/202001/images/0=
+120_1_recap=2Epng=22 alt=3D=222019 in review=22 width=3D=22480=22/></a></td>
+			</tr>
+		</table><=21--- STORY1_BLOCK end --->
+		<table class=3D=22tablePadLRRebrand=22 width=3D=22570=22 border=3D=220=22=
+ cellpadding=3D=220=22 cellspacing=3D=220=22 bgcolor=3D=22=23ffffff=22>
+			<tr>
+				<th class=3D=22block padBottom=22 style=3D=22border-collapse: collapse;=
+ text-align:left;=22 width=3D=22285=22 height=3D=222=22 bgcolor=3D=22=23fff=
+fff=22 valign=3D=22top=22>
+<=21--- STORY2_BLOCK start --->
+
+		<table class=3D=22tableRebrand=22 width=3D=22273=22 border=3D=220=22 cell=
+padding=3D=220=22 cellspacing=3D=220=22 bgcolor=3D=22=23ffffff=22>
+					<tr>
+						<td class=3D=22tablePadLRRebrand2 textCenter=22 style=3D=22border-col=
+lapse: collapse;=22 width=3D=22258=22 height=3D=222=22 bgcolor=3D=22=23ffff=
+ff=22 align=3D=22left=22 valign=3D=22top=22>
+						<a href=3D=22https://go=2Esurveymonkey=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3D=
+YQpglLjHJlTQGjFYhU72Gro07DyGbfg2X1Pg6PtW4nSD7k3OySbYCp09GoRYzdfSbaUflCwMMzc=
+zcJjbOVXtpKX%3DTWTBYWS&_ei_=3DEuUXf_A_5nF5M6NU8pipGc67PFA0v16srkTkvuZLZ5O3x=
+Mm162_wodFV2cvxDsVxTcrPD_qtVqB2XD75ju6reiAiJC5vN06rmwnW5Z8hKrl-MY5o2y09IB7T=
+u1ylkIaVf8Vzi92TbX9F_aS6LmM5zesw9cPaWA_X8M0ln9_kwBcrOA_3Bfl0Add1Mp4MrjRh9Ei=
+z5vRRA8V8VD8hoTK6K2chyIUl4S-M37DqGqEkK1UkAPy6JeE11ifepvzqWXaux5PTI9qrx6vHBW=
+mofXWBB2F6jXLLGe-QqsPpgdrbKIvENoIA4yl3XAzS6lsE_RQYB5ECF49YpdIM=2E=22 target=
+=3D=22_blank=22 style=3D=22text-decoration:none; color:=23ffffff; font-size=
+:18px; line-height:24px; font-family:helvetica, arial, sans-serif;=22>
+						<font style=3D=22color:=239DA5AA;=22>Infographic</font><br/>
+                            <font style=3D=22color:=23333E48;=22>The litera=
+l amount of time people have spent taking our surveys</font>
+						</a>
+						<br/><br/>
+						<a href=3D=22https://go=2Esurveymonkey=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3D=
+YQpglLjHJlTQGjFYhU72Gro07DyGbfg2X1Pg6PtW4nSD7k3OySbYCp09GoRYzdfSbaUflCwMMzc=
+zcJjbOVXtpKX%3DTWTBYWS&_ei_=3DEuUXf_A_5nF5M6NU8pipGc67PFA0v16srkTkvuZLZ5O3x=
+Mm162_wodFV2cvxDsVxTcrPD_qtVqB2XD75ju6reiAiJC5vN06rmwnW5Z8hKrl-MY5o2y09IB7T=
+u1ylkIaVf8Vzi92TbX9F_aS6LmM5zesw9cPaWA_X8M0ln9_kwBcrOA_3Bfl0Add1Mp4MrjRh9Ei=
+z5vRRA8V8VD8hoTK6K2chyIUl4S-M37DqGqEkK1UkAPy6JeE11ifepvzqWXaux5PTI9qrx6vHBW=
+mofXWBB2F6jXLLGe-QqsPpgdrbKIvENoIA4yl3XAzS6lsE_RQYB5ECF49YpdIM=2E=22 target=
+=3D=22_blank=22 style=3D=22text-decoration:underline; color:=23007FAA; font=
+-size:13px; line-height:24px; font-family:helvetica, arial, sans-serif;=22>=
+Find out</a>
+						</td>
+					</tr>
+					<tr>
+						<td class=3D=22tableRebrand=22 style=3D=22border-collapse: collapse;=
+=22 width=3D=22273=22 height=3D=222=22 bgcolor=3D=22=23ffffff=22 align=3D=
+=22center=22 valign=3D=22top=22>
+						<a href=3D=22https://go=2Esurveymonkey=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3D=
+YQpglLjHJlTQGjFYhU72Gro07DyGbfg2X1Pg6PtW4nSD7k3OySbYCp09GoRYzdfSbaUflCwMMzc=
+zcJjbOVXtpKX%3DTWTBYWS&_ei_=3DEuUXf_A_5nF5M6NU8pipGc67PFA0v16srkTkvuZLZ5O3x=
+Mm162_wodFV2cvxDsVxTcrPD_qtVqB2XD75ju6reiAiJC5vN06rmwnW5Z8hKrl-MY5o2y09IB7T=
+u1ylkIaVf8Vzi92TbX9F_aS6LmM5zesw9cPaWA_X8M0ln9_kwBcrOA_3Bfl0Add1Mp4MrjRh9Ei=
+z5vRRA8V8VD8hoTK6K2chyIUl4S-M37DqGqEkK1UkAPy6JeE11ifepvzqWXaux5PTI9qrx6vHBW=
+mofXWBB2F6jXLLGe-QqsPpgdrbKIvENoIA4yl3XAzS6lsE_RQYB5ECF49YpdIM=2E=22 target=
+=3D=22_blank=22><img class=3D=22tableRebrand=22 style=3D=22padding-top:20px=
+;=22 src=3D=22https://static=2Ecdn=2Eresponsys=2Enet/i2/responsysimages/sur=
+vey/contentlibrary/shawscott_template/202001/images/0120_2_stats=2Epng=22 w=
+idth=3D=22273=22 alt=3D=22Infographic=22/></a>
+						</td>
+					</tr>
+				</table><=21--- STORY2_BLOCK end --->
+				</th>
+				<th class=3D=22block=22 style=3D=22border-collapse: collapse;=22 width=
+=3D=22285=22 height=3D=222=22 bgcolor=3D=22=23ffffff=22 align=3D=22right=22=
+ valign=3D=22top=22>
+<=21--- STORY3_BLOCK start --->
+
+		<table class=3D=22tableRebrand=22 width=3D=22273=22 border=3D=220=22 cell=
+padding=3D=220=22 cellspacing=3D=220=22 bgcolor=3D=22=23ffffff=22>
+					<tr>
+						<td class=3D=22tablePadLRRebrand2 textCenter padTop=22 style=3D=22bor=
+der-collapse: collapse;=22 width=3D=22258=22 height=3D=222=22 bgcolor=3D=22=
+=23ffffff=22 align=3D=22left=22 valign=3D=22top=22>
+						<a href=3D=22https://go=2Esurveymonkey=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3D=
+YQpglLjHJlTQGjFYhU72Gro07DyGbfg2X1Pg6PtW4nSD7k3OySbYCp09GoRYzdfSbaUflCwMMzc=
+zcJjbOVXtpKX%3DTWTBYWT&_ei_=3DEuUXf_A_5nF5M6NU8pipGc67PFA0v16srkTkvuZLZ5O3x=
+Mm162_wodFV2cvxDsVxTcrPD_qtVqB2XD75ju6reiAiJC5vN06rmwnW5Z8hKrl-MY5o2y09IB7T=
+u1ylkIaVf8Vzi92TbX9F_aS6LmM5zesw9cPaWA_X8M0ln9_kwBcrOA_3Bfl0Add1Mp4MrjRh9Ei=
+z5vRRA8V8VD8hoTK6K2chyIUl4S-M37DqGqEkK1UkAPy6JeE11ifepvzqWXaux5PTI9qrx6vHBW=
+mofXWBB2F6jXLLGe-QqsPpgdrbKIvENoIA4yl3XAzS6lsE_RQYB5ECF49YpdIM=2E=22 target=
+=3D=22_blank=22 style=3D=22text-decoration:none; color:=23ffffff; font-size=
+:18px; line-height:24px; font-family:helvetica, arial, sans-serif;=22>
+						<font style=3D=22color:=239DA5AA;=22>Disney+ vs Netflix</font><br/>
+						<font style=3D=22color:=23333E48;=22>Which streaming service do peopl=
+e really want to watch?</font>
+						</a>
+						<br/><br/>
+						<a href=3D=22https://go=2Esurveymonkey=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3D=
+YQpglLjHJlTQGjFYhU72Gro07DyGbfg2X1Pg6PtW4nSD7k3OySbYCp09GoRYzdfSbaUflCwMMzc=
+zcJjbOVXtpKX%3DTWTBYWT&_ei_=3DEuUXf_A_5nF5M6NU8pipGc67PFA0v16srkTkvuZLZ5O3x=
+Mm162_wodFV2cvxDsVxTcrPD_qtVqB2XD75ju6reiAiJC5vN06rmwnW5Z8hKrl-MY5o2y09IB7T=
+u1ylkIaVf8Vzi92TbX9F_aS6LmM5zesw9cPaWA_X8M0ln9_kwBcrOA_3Bfl0Add1Mp4MrjRh9Ei=
+z5vRRA8V8VD8hoTK6K2chyIUl4S-M37DqGqEkK1UkAPy6JeE11ifepvzqWXaux5PTI9qrx6vHBW=
+mofXWBB2F6jXLLGe-QqsPpgdrbKIvENoIA4yl3XAzS6lsE_RQYB5ECF49YpdIM=2E=22 target=
+=3D=22_blank=22 style=3D=22text-decoration:underline; color:=23007FAA; font=
+-size:13px; line-height:24px; font-family:helvetica, arial, sans-serif;=22>=
+See data</a>
+						</td>
+					</tr>
+					<tr>
+						<td class=3D=22tableRebrand=22 style=3D=22border-collapse: collapse;=
+=22 width=3D=22273=22 height=3D=222=22 bgcolor=3D=22=23ffffff=22 align=3D=
+=22center=22 valign=3D=22top=22>
+						<a href=3D=22https://go=2Esurveymonkey=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3D=
+YQpglLjHJlTQGjFYhU72Gro07DyGbfg2X1Pg6PtW4nSD7k3OySbYCp09GoRYzdfSbaUflCwMMzc=
+zcJjbOVXtpKX%3DTWTBYWT&_ei_=3DEuUXf_A_5nF5M6NU8pipGc67PFA0v16srkTkvuZLZ5O3x=
+Mm162_wodFV2cvxDsVxTcrPD_qtVqB2XD75ju6reiAiJC5vN06rmwnW5Z8hKrl-MY5o2y09IB7T=
+u1ylkIaVf8Vzi92TbX9F_aS6LmM5zesw9cPaWA_X8M0ln9_kwBcrOA_3Bfl0Add1Mp4MrjRh9Ei=
+z5vRRA8V8VD8hoTK6K2chyIUl4S-M37DqGqEkK1UkAPy6JeE11ifepvzqWXaux5PTI9qrx6vHBW=
+mofXWBB2F6jXLLGe-QqsPpgdrbKIvENoIA4yl3XAzS6lsE_RQYB5ECF49YpdIM=2E=22 target=
+=3D=22_blank=22><img class=3D=22tableRebrand=22 style=3D=22padding-top:20px=
+;=22 src=3D=22https://static=2Ecdn=2Eresponsys=2Enet/i2/responsysimages/sur=
+vey/contentlibrary/shawscott_template/202001/images/0120_3_datadive=2Epng=
+=22 width=3D=22273=22 alt=3D=22Disney+ vs Netflix=22/></a>
+						</td>
+					</tr>
+				</table><=21--- STORY3_BLOCK end --->
+				</th>
+			</tr>
+		</table>
+<=21--- RECOVERY MODULE start --->
+
+		<table class=3D=22tableRebrand=22 width=3D=22570=22 border=3D=220=22 cell=
+padding=3D=220=22 cellspacing=3D=220=22 bgcolor=3D=22=23ffffff=22>
+			<tr>
+				<td class=3D=22tableRebrand=22 style=3D=22border-collapse: collapse;=22=
+ width=3D=22570=22 height=3D=2235=22><img class=3D=22tableRebrand=22 style=
+=3D=22outline:none; text-decoration:none; -ms-interpolation-mode: bicubic; =
+display:block;=22 src=3D=22https://static=2Ecdn=2Eresponsys=2Enet/i2/respon=
+sysimages/survey/contentlibrary/shawscott_template/202001/images/spacer=2Eg=
+if=22 width=3D=22570=22 height=3D=2235=22 alt=3D=22=22/></td>
+			</tr>
+		</table>
+	=09
+		<table class=3D=22table90Rebrand=22 width=3D=22570=22 border=3D=220=22 ce=
+llpadding=3D=220=22 cellspacing=3D=220=22 bgcolor=3D=22=23F7F7F8=22>
+			<tr>
+				<td class=3D=22tableRebrand=22 style=3D=22border-collapse: collapse;=22=
+ width=3D=22570=22 height=3D=2225=22><img class=3D=22tableRebrand=22 style=
+=3D=22outline:none; text-decoration:none; -ms-interpolation-mode: bicubic; =
+display:block;=22 src=3D=22https://static=2Ecdn=2Eresponsys=2Enet/i2/respon=
+sysimages/survey/contentlibrary/shawscott_template/202001/images/spacer=2Eg=
+if=22 width=3D=22570=22 height=3D=2225=22 alt=3D=22=22/></td>
+			</tr>
+			<tr>
+				<td class=3D=22tablePadLRRebrand2=22 style=3D=22border-collapse: collap=
+se; padding-left: 40px; padding-right: 40px;=22 width=3D=22570=22 height=3D=
+=222=22  align=3D=22center=22 valign=3D=22top=22>
+                    <a href=3D=22https://go=2Esurveymonkey=2Ecom/pub/cc?_ri=
+_=3DX0Gzc2X%3DYQpglLjHJlTQGjFYhU72Gro07DyGbfg2X1Pg6PtW4nSD7k3OySbYCp09GoRYz=
+dfSbaUflCwMMzczcJjbOVXtpKX%3DTWTBYTT&_ei_=3DEuUXf_A_5nF5M6NU8pipGc5YiJ96ubh=
+wcF-Z6emfiIS4qIYbxYnxwD1_ykrry2cuRYl5q8ntP63diuW4lMD5UmccDNtSevQ8RYr9S06r-J=
+AV-g2Dm7H9ZeXnP5WHv54JWXhkdMgEpyzulm7N5OdBjJSbApJuOWzdH_sP1mkevN8Fq4OLwhnkU=
+HhjHOgHH5J2eElsq-mdg1DEMVWoh5ViZ-ohhQoiS-AdPQNi9aDvjufzh3vWZ3gvGBOSwIEW_Fxi=
+NvF558dkWYBR_dEO0MKIgEvVPjYXZMjL4M=2E=22 target=3D=22_blank=22><img style=
+=3D=22padding-bottom:20px;=22 src=3D=22https://static=2Ecdn=2Eresponsys=2En=
+et/i2/responsysimages/survey/contentlibrary/shawscott_template/202001/image=
+s/0120_recovery_icon=2Epng=22 width=3D=2245=22 alt=3D=22=22/></a>
+			=09
+				<br/>
+				<a href=3D=22https://go=2Esurveymonkey=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQ=
+pglLjHJlTQGjFYhU72Gro07DyGbfg2X1Pg6PtW4nSD7k3OySbYCp09GoRYzdfSbaUflCwMMzczc=
+JjbOVXtpKX%3DTWTBYTT&_ei_=3DEuUXf_A_5nF5M6NU8pipGc5YiJ96ubhwcF-Z6emfiIS4qIY=
+bxYnxwD1_ykrry2cuRYl5q8ntP63diuW4lMD5UmccDNtSevQ8RYr9S06r-JAV-g2Dm7H9ZeXnP5=
+WHv54JWXhkdMgEpyzulm7N5OdBjJSbApJuOWzdH_sP1mkevN8Fq4OLwhnkUHhjHOgHH5J2eElsq=
+-mdg1DEMVWoh5ViZ-ohhQoiS-AdPQNi9aDvjufzh3vWZ3gvGBOSwIEW_FxiNvF558dkWYBR_dEO=
+0MKIgEvVPjYXZMjL4M=2E=22 target=3D=22_blank=22 style=3D=22text-decoration:n=
+one; color:=23333E48; font-size:18px; line-height:24px; font-family:helveti=
+ca, arial, sans-serif;=22>
+				<b>Quiz of the month</b><br/>Do you remember the very best moments of t=
+he 2010s?
+				</a></td>
+			</tr>
+			<tr>
+				<td class=3D=22tableRebrand=22 style=3D=22border-collapse: collapse;=22=
+ width=3D=22570=22 height=3D=2210=22><img class=3D=22tableRebrand=22 style=
+=3D=22outline:none; text-decoration:none; -ms-interpolation-mode: bicubic; =
+display:block;=22 src=3D=22https://static=2Ecdn=2Eresponsys=2Enet/i2/respon=
+sysimages/survey/contentlibrary/shawscott_template/202001/images/spacer=2Eg=
+if=22 width=3D=22570=22 height=3D=2210=22 alt=3D=22=22/></td>
+			</tr>
+			<tr>
+				<td class=3D=22tableRebrand=22 style=3D=22border-collapse: collapse;=22=
+ width=3D=22570=22 height=3D=222=22  align=3D=22center=22 valign=3D=22top=
+=22>
+				<a href=3D=22https://go=2Esurveymonkey=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQ=
+pglLjHJlTQGjFYhU72Gro07DyGbfg2X1Pg6PtW4nSD7k3OySbYCp09GoRYzdfSbaUflCwMMzczc=
+JjbOVXtpKX%3DTWTBYTT&_ei_=3DEuUXf_A_5nF5M6NU8pipGc5YiJ96ubhwcF-Z6emfiIS4qIY=
+bxYnxwD1_ykrry2cuRYl5q8ntP63diuW4lMD5UmccDNtSevQ8RYr9S06r-JAV-g2Dm7H9ZeXnP5=
+WHv54JWXhkdMgEpyzulm7N5OdBjJSbApJuOWzdH_sP1mkevN8Fq4OLwhnkUHhjHOgHH5J2eElsq=
+-mdg1DEMVWoh5ViZ-ohhQoiS-AdPQNi9aDvjufzh3vWZ3gvGBOSwIEW_FxiNvF558dkWYBR_dEO=
+0MKIgEvVPjYXZMjL4M=2E=22 target=3D=22_blank=22 style=3D=22text-decoration:u=
+nderline; color:=23007FAA; font-size:13px; line-height:24px; font-family:he=
+lvetica, arial, sans-serif;=22>Take quiz</a>
+				</td>
+			</tr>
+			<tr>
+				<td class=3D=22tableRebrand=22 style=3D=22border-collapse: collapse;=22=
+ width=3D=22570=22 height=3D=2225=22><img class=3D=22tableRebrand=22 style=
+=3D=22outline:none; text-decoration:none; -ms-interpolation-mode: bicubic; =
+display:block;=22 src=3D=22https://static=2Ecdn=2Eresponsys=2Enet/i2/respon=
+sysimages/survey/contentlibrary/shawscott_template/202001/images/spacer=2Eg=
+if=22 width=3D=22570=22 height=3D=2225=22 alt=3D=22=22/></td>
+			</tr>
+		</table><=21--- RECOVERY MODULE end --->
+<=21--- FOOTER BLOCK start --->
+
+		<br/><br/>
+		<table class=3D=22tableRebrand=22 width=3D=22100%=22 border=3D=220=22 cel=
+lpadding=3D=220=22 cellspacing=3D=220=22 bgcolor=3D=22=23F7F7F8=22>
+			<tr>
+				<td class=3D=22tableRebrand=22 style=3D=22border-collapse: collapse;=22=
+ width=3D=22570=22 bgcolor=3D=22=23F7F7F8=22 valign=3D=22top=22 align=3D=22=
+center=22>
+				<table class=3D=22table90Rebrand=22 width=3D=22570=22 border=3D=220=22 =
+cellpadding=3D=220=22 cellspacing=3D=220=22 bgcolor=3D=22=23F7F7F8=22>
+					<tr>
+						<td class=3D=22tableRebrand=22 style=3D=22border-collapse: collapse;=
+=22 width=3D=22570=22 height=3D=2240=22 bgcolor=3D=22=23F7F7F8=22><img clas=
+s=3D=22tableRebrand=22 style=3D=22outline:none; text-decoration:none; -ms-i=
+nterpolation-mode: bicubic; display:block;=22 src=3D=22https://static=2Ecdn=
+=2Eresponsys=2Enet/i2/responsysimages/survey/contentlibrary/shawscott_templ=
+ate/images/spacer=2Egif=22 width=3D=22570=22 height=3D=2240=22 alt=3D=22=22=
+/></td>
+					</tr>
+					<tr>
+						<td class=3D=22tableRebrand=22 style=3D=22border-collapse: collapse;=
+=22 width=3D=22570=22 height=3D=222=22 bgcolor=3D=22=23F7F7F8=22 valign=3D=
+=22top=22 align=3D=22center=22><font style=3D=22text-decoration:none; color=
+:=236C777D; font-size:16px; font-weight:bold; font-family:helvetica, arial,=
+ sans-serif;=22>
+				Everything you need to get started
+				</font>
+
+				<br /><br />
+			=09
+				<span class=3D=22hide=22>
+				<font style=3D=22text-decoration:none; color:=237A7A7A; font-size:15px;=
+ font-family:helvetica, arial, sans-serif;=22>
+				<a href=3D=22https://go=2Esurveymonkey=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQ=
+pglLjHJlTQGjFYhU72Gro07DyGbfg2X1Pg6PtW4nSD7k3OySbYCp09GoRYzdfSbaUflCwMMzczc=
+JjbOVXtpKX%3DTWTBYTU&_ei_=3DEuUXf_A_5nF5M6NU8pipGc5C8_zZsdGl9zH6c_E7vjCECzp=
+8g-nWsKrF04z3EXMi-cLHEpyanzgXrMR1oieyiK41CkReSJ2JNhF83iiTkcOMnh7Lm-xF0QyzKX=
+OSzV_9dBnHcCuYGoWDP162IEWUVya8UDmmW2t6JBnoWhGLD5l0ivGu5FJFQlK-aGMJKYZ45ePbt=
+P8i6zqpBJ4I6INXY295-fPxWJHvGtJimyO4rbsMtgZWCDrFEqNsHm4r1jaGLth2CUsSs0s2=2E=
+=22 target=3D=22_blank=22 style=3D=22text-decoration:none; color:=23007FAA;=
+ font-size:15px; font-family:helvetica, arial, sans-serif;=22>Survey templa=
+tes</a>&nbsp; &nbsp;=7C&nbsp; &nbsp;<a href=3D=22https://go=2Esurveymonkey=
+=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlTQGjFYhU72Gro07DyGbfg2X1Pg6PtW4nSD=
+7k3OySbYCp09GoRYzdfSbaUflCwMMzczcJjbOVXtpKX%3DTWTBYTW&_ei_=3DEuUXf_A_5nF5M6=
+NU8pipGc5C8_zZsdGl9zH6c_E7vjCECzp8g-nWsKrF04z3EXMi-cLHEpyanzgXrMR1oieyiK41C=
+kReSJ2JNhF83iiTkcOMnh7Lm-xF0QyzKXOSzV_9dBnHcCuYGoWDP162IEWUVya8UDmmW2t6JBno=
+WhGLD5l0ivGu5FJFQlK-aGMJKYZ45ePbtP8i6zqpBJ4I6INXY295-fPxWJHvGtJimyO4rbsMtgZ=
+WCDrFEqNsHm4r1jaGLth2CUsSs0s2=2E=22 target=3D=22_blank=22 style=3D=22text-d=
+ecoration:none; color:=23007FAA; font-size:15px; font-family:helvetica, ari=
+al, sans-serif;=22>Get responses</a>&nbsp; &nbsp;=7C&nbsp; &nbsp;<a href=3D=
+=22https://go=2Esurveymonkey=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlTQGjFY=
+hU72Gro07DyGbfg2X1Pg6PtW4nSD7k3OySbYCp09GoRYzdfSbaUflCwMMzczcJjbOVXtpKX%3DT=
+WTBYTY&_ei_=3DEuUXf_A_5nF5M6NU8pipGc5C8_zZsdGl9zH6c_E7vjCECzp8g-nWsKrF04z3E=
+XMi-cLHEpyanzgXrMR1oieyiK41CkReSJ2JNhF83iiTkcOMnh7Lm-xF0QyzKXOSzV_9dBnHcCuY=
+GoWDP162IEWUVya8UDmmW2t6JBnoWhGLD5l0ivGu5FJFQlK-aGMJKYZ45ePbtP8i6zqpBJ4I6IN=
+XY295-fPxWJHvGtJimyO4rbsMtgZWCDrFEqNsHm4r1jaGLth2CUsSs0s2=2E=22 target=3D=
+=22_blank=22 style=3D=22text-decoration:none; color:=23007FAA; font-size:15=
+px; font-family:helvetica, arial, sans-serif;=22>Take surveys</a>&nbsp; &nb=
+sp;=7C&nbsp; &nbsp;<a href=3D=22https://go=2Esurveymonkey=2Ecom/pub/cc?_ri_=
+=3DX0Gzc2X%3DYQpglLjHJlTQGjFYhU72Gro07DyGbfg2X1Pg6PtW4nSD7k3OySbYCp09GoRYzd=
+fSbaUflCwMMzczcJjbOVXtpKX%3DTWTBYTA&_ei_=3DEuUXf_A_5nF5M6NU8pipGc5C8_zZsdGl=
+9zH6c_E7vjCECzp8g-nWsKrF04z3EXMi-cLHEpyanzgXrMR1oieyiK41CkReSJ2JNhF83iiTkcO=
+Mnh7Lm-xF0QyzKXOSzV_9dBnHcCuYGoWDP162IEWUVya8UDmmW2t6JBnoWhGLD5l0ivGu5FJFQl=
+K-aGMJKYZ45ePbtP8i6zqpBJ4I6INXY295-fPxWJHvGtJimyO4rbsMtgZWCDrFEqNsHm4r1jaGL=
+th2CUsSs0s2=2E=22 target=3D=22_blank=22 style=3D=22text-decoration:none; co=
+lor:=23007FAA; font-size:15px; font-family:helvetica, arial, sans-serif;=22=
+>Add users</a>
+				</font></span>
+			=09
+				<=21--=5Bif =21mso 9=5D><=21-->
+				<div style=3D=22display:none; width:0px; max-height:0px; overflow:hidde=
+n; mso-hide:all;=22 class=3D=22tableVisibleFeature=22>
+				<table width=3D=22100%=22 border=3D=220=22 cellpadding=3D=220=22 cellsp=
+acing=3D=220=22>
+					<tbody>
+						<tr>
+							<td width=3D=22100%=22 style=3D=22border-collapse: collapse;=22 heig=
+ht=3D=222=22 bgcolor=3D=22=23F5F5F5=22 align=3D=22center=22>
+							<a target=3D=22_blank=22 href=3D=22https://go=2Esurveymonkey=2Ecom/p=
+ub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlTQGjFYhU72Gro07DyGbfg2X1Pg6PtW4nSD7k3OySbY=
+Cp09GoRYzdfSbaUflCwMMzczcJjbOVXtpKX%3DTWTBYTU&_ei_=3DEuUXf_A_5nF5M6NU8pipGc=
+5C8_zZsdGl9zH6c_E7vjCECzp8g-nWsKrF04z3EXMi-cLHEpyanzgXrMR1oieyiK41CkReSJ2JN=
+hF83iiTkcOMnh7Lm-xF0QyzKXOSzV_9dBnHcCuYGoWDP162IEWUVya8UDmmW2t6JBnoWhGLD5l0=
+ivGu5FJFQlK-aGMJKYZ45ePbtP8i6zqpBJ4I6INXY295-fPxWJHvGtJimyO4rbsMtgZWCDrFEqN=
+sHm4r1jaGLth2CUsSs0s2=2E=22 style=3D=22
+							text-decoration:none;
+							text-align:center;
+							font-family:Arial, Helvetica, sans-serif;
+							font-size:15px;
+							color:=23007FAA;
+							font-weight: 400;
+							padding-top:15px;
+							padding-bottom:15px;
+							outline: none;
+							cursor: pointer;
+							white-space: nowrap;
+							display: block;
+							border-bottom:solid 1px =23D0D2D3;
+							width:100%;
+							background-color: =23F7F7F8;=22>Survey templates</a>
+							<a target=3D=22_blank=22 href=3D=22https://go=2Esurveymonkey=2Ecom/p=
+ub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlTQGjFYhU72Gro07DyGbfg2X1Pg6PtW4nSD7k3OySbY=
+Cp09GoRYzdfSbaUflCwMMzczcJjbOVXtpKX%3DTWTBYTW&_ei_=3DEuUXf_A_5nF5M6NU8pipGc=
+5C8_zZsdGl9zH6c_E7vjCECzp8g-nWsKrF04z3EXMi-cLHEpyanzgXrMR1oieyiK41CkReSJ2JN=
+hF83iiTkcOMnh7Lm-xF0QyzKXOSzV_9dBnHcCuYGoWDP162IEWUVya8UDmmW2t6JBnoWhGLD5l0=
+ivGu5FJFQlK-aGMJKYZ45ePbtP8i6zqpBJ4I6INXY295-fPxWJHvGtJimyO4rbsMtgZWCDrFEqN=
+sHm4r1jaGLth2CUsSs0s2=2E=22 style=3D=22
+							text-decoration:none;
+							text-align:center;
+							font-family:Arial, Helvetica, sans-serif;
+							font-size:15px;
+							color:=23007FAA;
+							font-weight: 400;
+							padding-top:15px;
+							padding-bottom:15px;
+							outline: none;
+							cursor: pointer;
+							white-space: nowrap;
+							display: block;
+							border-bottom:solid 1px =23D0D2D3;
+							width:100%;
+							background-color: =23F7F7F8;=22>Get responses</a>
+							<a target=3D=22_blank=22 href=3D=22https://go=2Esurveymonkey=2Ecom/p=
+ub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlTQGjFYhU72Gro07DyGbfg2X1Pg6PtW4nSD7k3OySbY=
+Cp09GoRYzdfSbaUflCwMMzczcJjbOVXtpKX%3DTWTBYTY&_ei_=3DEuUXf_A_5nF5M6NU8pipGc=
+5C8_zZsdGl9zH6c_E7vjCECzp8g-nWsKrF04z3EXMi-cLHEpyanzgXrMR1oieyiK41CkReSJ2JN=
+hF83iiTkcOMnh7Lm-xF0QyzKXOSzV_9dBnHcCuYGoWDP162IEWUVya8UDmmW2t6JBnoWhGLD5l0=
+ivGu5FJFQlK-aGMJKYZ45ePbtP8i6zqpBJ4I6INXY295-fPxWJHvGtJimyO4rbsMtgZWCDrFEqN=
+sHm4r1jaGLth2CUsSs0s2=2E=22 style=3D=22
+							text-decoration:none;
+							text-align:center;
+							font-family:Arial, Helvetica, sans-serif;
+							font-size:15px;
+							color:=23007FAA;
+							font-weight: 400;
+							padding-top:15px;
+							padding-bottom:15px;
+							outline: none;
+							cursor: pointer;
+							white-space: nowrap;
+							display: block;
+							border-bottom:solid 1px =23D0D2D3;
+							width:100%;
+							background-color: =23F7F7F8;=22>Take surveys</a>
+							<a target=3D=22_blank=22 href=3D=22https://go=2Esurveymonkey=2Ecom/p=
+ub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlTQGjFYhU72Gro07DyGbfg2X1Pg6PtW4nSD7k3OySbY=
+Cp09GoRYzdfSbaUflCwMMzczcJjbOVXtpKX%3DTWTBYTA&_ei_=3DEuUXf_A_5nF5M6NU8pipGc=
+5C8_zZsdGl9zH6c_E7vjCECzp8g-nWsKrF04z3EXMi-cLHEpyanzgXrMR1oieyiK41CkReSJ2JN=
+hF83iiTkcOMnh7Lm-xF0QyzKXOSzV_9dBnHcCuYGoWDP162IEWUVya8UDmmW2t6JBnoWhGLD5l0=
+ivGu5FJFQlK-aGMJKYZ45ePbtP8i6zqpBJ4I6INXY295-fPxWJHvGtJimyO4rbsMtgZWCDrFEqN=
+sHm4r1jaGLth2CUsSs0s2=2E=22 style=3D=22
+							text-decoration:none;
+							text-align:center;
+							font-family:Arial, Helvetica, sans-serif;
+							font-size:15px;
+							color:=23007FAA;
+							font-weight: 400;
+							padding-top:15px;
+							padding-bottom:15px;
+							outline: none;
+							cursor: pointer;
+							white-space: nowrap;
+							display: block;
+							border-bottom:solid 1px =23D0D2D3;
+							width:100%;
+							background-color: =23F7F7F8;=22>Add users</a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				</div>
+				<=21--<=21=5Bendif=5D-->
+
+				<br /><br /><br />
+
+				<table width=3D=22160=22 border=3D=220=22 cellpadding=3D=220=22 cellspa=
+cing=3D=220=22>
+					<tr>
+						<td style=3D=22border-collapse: collapse; padding-right:10px;=22 widt=
+h=3D=2240=22 height=3D=222=22 bgcolor=3D=22=23F7F7F8=22 align=3D=22center=
+=22><a href=3D=22https://go=2Esurveymonkey=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQ=
+pglLjHJlTQGjFYhU72Gro07DyGbfg2X1Pg6PtW4nSD7k3OySbYCp09GoRYzdfSbaUflCwMMzczc=
+JjbOVXtpKX%3DTWTBYTB&_ei_=3DEuUXf_A_5nF5M6NU8pipGc5C8_zZsdGl9zH6c_E7vjCECzp=
+8g-nWsKrF04z3EXMi-cLHEpyanzgXrMR1oieyiK41CkReSJ2JNhF83iiTkcOMnh7Lm-xF0QyzKX=
+OSzV_9dBnHcCuYGoWDP162IEWUVya8UDmmW2t6JBnoWhGLD5l0ivGu5FJFQlK-aGMJKYZ45ePbt=
+P8i6zqpBJ4I6INXY295-fPxWJHvGtJimyO4rbsMtgZWCDrFEqNsHm4r1jaGLth2CUsSs0s2=2E=
+=22 target=3D=22_blank=22><img style=3D=22outline:none; text-decoration:non=
+e; -ms-interpolation-mode: bicubic; display:block;=22 src=3D=22https://stat=
+ic=2Ecdn=2Eresponsys=2Enet/i2/responsysimages/survey/contentlibrary/shawsco=
+tt_template/images/new_twitter=2Epng=22 width=3D=2240=22 alt=3D=22=22 borde=
+r=3D=220=22/></a></td>
+						<td style=3D=22border-collapse: collapse; padding-right:10px;=22 widt=
+h=3D=2240=22 height=3D=222=22 bgcolor=3D=22=23F7F7F8=22 align=3D=22center=
+=22><a href=3D=22https://go=2Esurveymonkey=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQ=
+pglLjHJlTQGjFYhU72Gro07DyGbfg2X1Pg6PtW4nSD7k3OySbYCp09GoRYzdfSbaUflCwMMzczc=
+JjbOVXtpKX%3DTWTBYTC&_ei_=3DEuUXf_A_5nF5M6NU8pipGc5C8_zZsdGl9zH6c_E7vjCECzp=
+8g-nWsKrF04z3EXMi-cLHEpyanzgXrMR1oieyiK41CkReSJ2JNhF83iiTkcOMnh7Lm-xF0QyzKX=
+OSzV_9dBnHcCuYGoWDP162IEWUVya8UDmmW2t6JBnoWhGLD5l0ivGu5FJFQlK-aGMJKYZ45ePbt=
+P8i6zqpBJ4I6INXY295-fPxWJHvGtJimyO4rbsMtgZWCDrFEqNsHm4r1jaGLth2CUsSs0s2=2E=
+=22 target=3D=22_blank=22><img style=3D=22outline:none; text-decoration:non=
+e; -ms-interpolation-mode: bicubic; display:block;=22 src=3D=22https://stat=
+ic=2Ecdn=2Eresponsys=2Enet/i2/responsysimages/survey/contentlibrary/shawsco=
+tt_template/images/new_facebook=2Epng=22 width=3D=2240=22 alt=3D=22=22 bord=
+er=3D=220=22/></a></td>
+						<td style=3D=22border-collapse: collapse; padding-right:10px;=22 widt=
+h=3D=2240=22 height=3D=222=22 bgcolor=3D=22=23F7F7F8=22 align=3D=22center=
+=22><a href=3D=22https://go=2Esurveymonkey=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQ=
+pglLjHJlTQGjFYhU72Gro07DyGbfg2X1Pg6PtW4nSD7k3OySbYCp09GoRYzdfSbaUflCwMMzczc=
+JjbOVXtpKX%3DTWTBYTD&_ei_=3DEuUXf_A_5nF5M6NU8pipGc5C8_zZsdGl9zH6c_E7vjCECzp=
+8g-nWsKrF04z3EXMi-cLHEpyanzgXrMR1oieyiK41CkReSJ2JNhF83iiTkcOMnh7Lm-xF0QyzKX=
+OSzV_9dBnHcCuYGoWDP162IEWUVya8UDmmW2t6JBnoWhGLD5l0ivGu5FJFQlK-aGMJKYZ45ePbt=
+P8i6zqpBJ4I6INXY295-fPxWJHvGtJimyO4rbsMtgZWCDrFEqNsHm4r1jaGLth2CUsSs0s2=2E=
+=22 target=3D=22_blank=22><img style=3D=22outline:none; text-decoration:non=
+e; -ms-interpolation-mode: bicubic; display:block;=22 src=3D=22https://stat=
+ic=2Ecdn=2Eresponsys=2Enet/i2/responsysimages/survey/contentlibrary/shawsco=
+tt_template/images/new_linkedin=2Epng=22 width=3D=2240=22 alt=3D=22=22 bord=
+er=3D=220=22/></a></td>
+						<td style=3D=22border-collapse: collapse; padding-right:10px;=22 widt=
+h=3D=2240=22 height=3D=222=22 bgcolor=3D=22=23F7F7F8=22 align=3D=22center=
+=22><a href=3D=22https://go=2Esurveymonkey=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQ=
+pglLjHJlTQGjFYhU72Gro07DyGbfg2X1Pg6PtW4nSD7k3OySbYCp09GoRYzdfSbaUflCwMMzczc=
+JjbOVXtpKX%3DTWTBYUR&_ei_=3DEuUXf_A_5nF5M6NU8pipGc5C8_zZsdGl9zH6c_E7vjCECzp=
+8g-nWsKrF04z3EXMi-cLHEpyanzgXrMR1oieyiK41CkReSJ2JNhF83iiTkcOMnh7Lm-xF0QyzKX=
+OSzV_9dBnHcCuYGoWDP162IEWUVya8UDmmW2t6JBnoWhGLD5l0ivGu5FJFQlK-aGMJKYZ45ePbt=
+P8i6zqpBJ4I6INXY295-fPxWJHvGtJimyO4rbsMtgZWCDrFEqNsHm4r1jaGLth2CUsSs0s2=2E=
+=22 target=3D=22_blank=22><img style=3D=22outline:none; text-decoration:non=
+e; -ms-interpolation-mode: bicubic; display:block;=22 src=3D=22https://stat=
+ic=2Ecdn=2Eresponsys=2Enet/i2/responsysimages/survey/contentlibrary/shawsco=
+tt_template/images/new_instagram=2Epng=22 width=3D=2240=22 alt=3D=22=22 bor=
+der=3D=220=22/></a></td>
+                        <td style=3D=22border-collapse: collapse;=22 width=
+=3D=2240=22 height=3D=222=22 bgcolor=3D=22=23F7F7F8=22 align=3D=22center=22=
+><a href=3D=22https://go=2Esurveymonkey=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpgl=
+LjHJlTQGjFYhU72Gro07DyGbfg2X1Pg6PtW4nSD7k3OySbYCp09GoRYzdfSbaUflCwMMzczcJjb=
+OVXtpKX%3DTWTBYUS&_ei_=3DEuUXf_A_5nF5M6NU8pipGc5C8_zZsdGl9zH6c_E7vjCECzp8g-=
+nWsKrF04z3EXMi-cLHEpyanzgXrMR1oieyiK41CkReSJ2JNhF83iiTkcOMnh7Lm-xF0QyzKXOSz=
+V_9dBnHcCuYGoWDP162IEWUVya8UDmmW2t6JBnoWhGLD5l0ivGu5FJFQlK-aGMJKYZ45ePbtP8i=
+6zqpBJ4I6INXY295-fPxWJHvGtJimyO4rbsMtgZWCDrFEqNsHm4r1jaGLth2CUsSs0s2=2E=22 =
+target=3D=22_blank=22><img style=3D=22outline:none; text-decoration:none; -=
+ms-interpolation-mode: bicubic; display:block;=22 src=3D=22https://static=
+=2Ecdn=2Eresponsys=2Enet/i2/responsysimages/survey/contentlibrary/shawscott=
+_template/images/new_content_blog=2Epng=22 width=3D=2240=22 alt=3D=22=22 bo=
+rder=3D=220=22/></a></td>
+					</tr>
+				</table>
+
+				<br />
+
+				<table width=3D=22200=22 border=3D=220=22 cellpadding=3D=220=22 cellspa=
+cing=3D=2210=22>
+					<tr>
+						<td style=3D=22border-collapse: collapse;=22 width=3D=22100=22 height=
+=3D=222=22 bgcolor=3D=22=23F7F7F8=22><a href=3D=22https://go=2Esurveymonkey=
+=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlTQGjFYhU72Gro07DyGbfg2X1Pg6PtW4nSD=
+7k3OySbYCp09GoRYzdfSbaUflCwMMzczcJjbOVXtpKX%3DTWTBYUT&_ei_=3DEuUXf_A_5nF5M6=
+NU8pipGc5C8_zZsdGl9zH6c_E7vjCECzp8g-nWsKrF04z3EXMi-cLHEpyanzgXrMR1oieyiK41C=
+kReSJ2JNhF83iiTkcOMnh7Lm-xF0QyzKXOSzV_9dBnHcCuYGoWDP162IEWUVya8UDmmW2t6JBno=
+WhGLD5l0ivGu5FJFQlK-aGMJKYZ45ePbtP8i6zqpBJ4I6INXY295-fPxWJHvGtJimyO4rbsMtgZ=
+WCDrFEqNsHm4r1jaGLth2CUsSs0s2=2E=22 target=3D=22_blank=22><img style=3D=22o=
+utline:none; text-decoration:none; -ms-interpolation-mode: bicubic; display=
+:block;=22 src=3D=22https://static=2Ecdn=2Eresponsys=2Enet/i2/responsysimag=
+es/survey/contentlibrary/shawscott_template/images/download_on_the_App_Stor=
+e_Badge=2Epng=22 height=3D=2228=22 alt=3D=22=22 border=3D=220=22/></a></td>
+						<td style=3D=22border-collapse: collapse;=22 width=3D=22100=22 height=
+=3D=222=22 bgcolor=3D=22=23F7F7F8=22><a href=3D=22https://go=2Esurveymonkey=
+=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlTQGjFYhU72Gro07DyGbfg2X1Pg6PtW4nSD=
+7k3OySbYCp09GoRYzdfSbaUflCwMMzczcJjbOVXtpKX%3DTWTBYUU&_ei_=3DEuUXf_A_5nF5M6=
+NU8pipGc5C8_zZsdGl9zH6c_E7vjCECzp8g-nWsKrF04z3EXMi-cLHEpyanzgXrMR1oieyiK41C=
+kReSJ2JNhF83iiTkcOMnh7Lm-xF0QyzKXOSzV_9dBnHcCuYGoWDP162IEWUVya8UDmmW2t6JBno=
+WhGLD5l0ivGu5FJFQlK-aGMJKYZ45ePbtP8i6zqpBJ4I6INXY295-fPxWJHvGtJimyO4rbsMtgZ=
+WCDrFEqNsHm4r1jaGLth2CUsSs0s2=2E=22 target=3D=22_blank=22><img style=3D=22o=
+utline:none; text-decoration:none; -ms-interpolation-mode: bicubic; display=
+:block;=22 src=3D=22https://static=2Ecdn=2Eresponsys=2Enet/i2/responsysimag=
+es/survey/contentlibrary/shawscott_template/images/google-play=2Epng=22 hei=
+ght=3D=2228=22 alt=3D=22=22 border=3D=220=22/></a></td>
+					</tr>
+				</table>
+
+				<br /><br />
+
+				<font style=3D=22text-decoration:none; color:=239DA5AA; font-size:13px;=
+ font-family:helvetica, arial, sans-serif;=22>
+				This e-mail was sent to <a style=3D=22color:=239DA5AA; text-decoration:=
+none;=22>e=2Etarkhnishvili=40tripplanner=2Ege</a>=2E You received this emai=
+l because you signed up for a SurveyMonkey account=2E
+
+<br /><br />
+
+Apple and the Apple logo are trademarks of Apple Inc=2E, registered in the =
+U=2ES=2E and other countries=2E App Store is a service mark of Apple Inc=2E=
+=20
+
+<br /><br />
+				<a href=3D=22https://www=2Esurveymonkey=2Ecom/user/email-preferences/?s=
+m=3D525D1VOqxQePIvXpbnb5VxqRsXzu9l8zu5F2umN9tgGMokluxDRNZTqcj1XQRnLU&catego=
+ry=3D1&cid=3Dsurvey=2E393951&origin=3Demail&footer=22 target=3D=22_blank=22=
+ style=3D=22text-decoration:none; font-weight:bold; color:=239DA5AA; font-s=
+ize:13px; font-family:helvetica, arial, sans-serif;=22>Unsubscribe</a>&nbsp=
+;&nbsp;=7C&nbsp;&nbsp;<a href=3D=22https://go=2Esurveymonkey=2Ecom/pub/cc?_=
+ri_=3DX0Gzc2X%3DYQpglLjHJlTQGjFYhU72Gro07DyGbfg2X1Pg6PtW4nSD7k3OySbYCp09GoR=
+YzdfSbaUflCwMMzczcJjbOVXtpKX%3DTWTBYUW&_ei_=3DEuUXf_A_5nF5M6NU8pipGc5C8_zZs=
+dGl9zH6c_E7vjCECzp8g-nWsKrF04z3EXMi-cLHEpyanzgXrMR1oieyiK41CkReSJ2JNhF83iiT=
+kcOMnh7Lm-xF0QyzKXOSzV_9dBnHcCuYGoWDP162IEWUVya8UDmmW2t6JBnoWhGLD5l0ivGu5FJ=
+FQlK-aGMJKYZ45ePbtP8i6zqpBJ4I6INXY295-fPxWJHvGtJimyO4rbsMtgZWCDrFEqNsHm4r1j=
+aGLth2CUsSs0s2=2E=22 target=3D=22_blank=22 style=3D=22text-decoration:none;=
+ color:=239DA5AA; font-size:13px; font-family:helvetica, arial, sans-serif;=
+=22>Privacy</a>&nbsp;&nbsp;=7C&nbsp;&nbsp;<a href=3D=22https://go=2Esurveym=
+onkey=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlTQGjFYhU72Gro07DyGbfg2X1Pg6Pt=
+W4nSD7k3OySbYCp09GoRYzdfSbaUflCwMMzczcJjbOVXtpKX%3DTWTBYUY&_ei_=3DEuUXf_A_5=
+nF5M6NU8pipGc5C8_zZsdGl9zH6c_E7vjCECzp8g-nWsKrF04z3EXMi-cLHEpyanzgXrMR1oiey=
+iK41CkReSJ2JNhF83iiTkcOMnh7Lm-xF0QyzKXOSzV_9dBnHcCuYGoWDP162IEWUVya8UDmmW2t=
+6JBnoWhGLD5l0ivGu5FJFQlK-aGMJKYZ45ePbtP8i6zqpBJ4I6INXY295-fPxWJHvGtJimyO4rb=
+sMtgZWCDrFEqNsHm4r1jaGLth2CUsSs0s2=2E=22 target=3D=22_blank=22 style=3D=22t=
+ext-decoration:none; color:=239DA5AA; font-size:13px; font-family:helvetica=
+, arial, sans-serif;=22>Help</a>&nbsp;&nbsp;=7C&nbsp;&nbsp;<a href=3D=22htt=
+ps://go=2Esurveymonkey=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlTQGjFYhU72Gr=
+o07DyGbfg2X1Pg6PtW4nSD7k3OySbYCp09GoRYzdfSbaUflCwMMzczcJjbOVXtpKX%3DTWTBYUA=
+&_ei_=3DEuUXf_A_5nF5M6NU8pipGc4cxgcrbcEUDCNJQ4tyLD_4KrOOtBk3rDVLlfHOSWB_Aei=
+_ZkKhL-eCzjc-fcxiV2kjwef0I-SnTya8XsVIN77EYgH8w5srz8CCywVQPkohOR3FdEoNuuSM5b=
+aTc_qp7521LlNogI2SWwa1XSqOWKNyvFYmJnG7waWUU5A3FcrTwFZzAII5Bv8z9IQgt93GKUYg6=
+SEV3MI6xc6rPiB45vGOFzlAfdBRslQa9dO6QwzAU0iPu1iCILojSGfsJvufxv3yEGoKekCwVLzJ=
+MNCGMUhYotOFmdv2U0KEX_l5kTFRfWwUD_ecJRav6-7J-7ZCDrK9Wypj8q1j8KysQO41HBHhTdU=
+dY0RD0YI1ht6yo3ggnWzaPgD1bZNYN0V91bWmHeWlV_uEnQAiOCLleTukOez5CTeu3sKgmTmZZW=
+DAHuVZ4bLmjsqze8dTsxDgmdGuWLAdXXIBLWirh1PPtf9USY1LHH_qkhCTnfxNuD5rhd_1_9E90=
+1VM6f_G_2FVigSitoOyDsK0F1-34UslPidHVC8PWJIHSn-Bo3nw9G9zL0hULDIT-88n-SAuWhPC=
+000UKm3Ksl2ylnmCSTca3vQolLlLMMpMMPOIL1SOFQbqtREmZjVA5IKQoVUVTD_BHCquRE54dPJ=
+dvrO6M4RKvIYdbtKxBoYO5XAU3g0pkMPstz16FcqihKIw5PkVL9fiwWZ0Tz1fCXI72bxQmfzs6o=
+LSC3xf_vbF15puSzg3NnOQVcZZeH_0wHPPd5bfvffuA8RuiIfqPm-XjIEY7a05XFDbo78mo_SKW=
+6bE8IjfwjbjJdkAD9am9Yo_ImmmSsd5VoKUTCKnWlpmeQJLS5BqXUEfytuJMuOXYoYEky94agxY=
+3Dd7TsZKE2ew7kksOBHlvaHERwXd1-a3T1cMQ3WUmxKzVLSi-9gEJ3hJT8jhaBP55ZOmoYkwZ96=
+f3jcRxdxIoTOfqMCkgDS1ZA6QIyrd1mkD2zEGSqFooRa-CdrDXOqMTdlmc5QUfOFViM9yX82cV7=
+rr2Xa9zi38oULMJJabxGUCSBltiuNM8xXqcKz7xc2t6snXB49bw_isUZtvIUR0wOh6mV9bhsl1a=
+ht4Sja0Fyy_OXx5AqL_Qvl0ANYny6PySxW8tPtUtaJPU9IfiN1hnbvT-fsHOEYvkuEvAyKQ4GGP=
+hn2V6H0CxJqkgGKTj6rHXvE6LU0bB-bzZQWy1R7TKQDkt_3I0mUhro_0XCpWbFzs6PQ_cn254Z3=
+DJVwWcaDwDBCi-bxehfMmAWYnk7p8Bm8Qt6rxYoxukW6zL5erR7JasodBHFXdrH-Q3VuzD_Jvg-=
+yjp8Ruv5i7Zj83haLJa3THaBc8JyR0QdVcxLmUmc4fG0eSWRxgXdjRC01wuchSRRfz8b_YCu6cb=
+m_VfAAVgRNPo9Kv-5uf4_PdUlpQoD1DWEbkdPN5MzDwpd1PdoirRfTtluiMUdP9P6hRMTtniLrt=
+yIqbfM6G1mxeY11v-LSBsgqpuhXQ3szcobRDMO9etOPsXV0cSl-3WjynK9UOPVeOxWOjjHl9k6B=
+H8kCXWjhsJsJ_m5bGfXv77eGg98WIDE8iaP6uf29QJmuIqHQn1CzFtmsnzCTJvFicQiwnkwR3HU=
+RIumDBCARaWmzg15A3Q7koycJGCZ0-EGOVX30vJjOqHZf_l96SYwz7ELBdYRJ_NBq-gOuQmlgwx=
+QrIW6dh7DTOG8LyPMrDreigSgi4ZbzVFXj_KtC9r8zJdB7eIg0BYF4c7o_3Wu1INTzIUx0eyITU=
+2zpwtD7EBYwRF7YGWVBEALbt3hiO1yjCxl3Kq3POhZ5QwfwgC133yvt_u0lIRZ7tRB3ULuc9S7r=
+nrrxJQlAD9gtD9wWO55EAxU4-8adzhPcCZ11h-xz5X-WkrLSVxqVEG8BlcYzSBqaOi87Iq1sf0b=
+hgJpEHZ7MKxX04UmahY6JFRc7gV8vgT2XcdNYD0NcjQFnZyu_cUth42AXgHwK3FbcJwZ2F5yt-i=
+P9dW5TUIfHJvPM21lzpL19lPwARJE34v-w7t3YFflf7o4Ku4YezsvR8HTy0EFKlDp7_9c3z9xO0=
+pNutbR4qcujhGfVYW6Q4lKTxClJiaZMkAcmthX3TNOLb9aPv63Ju--GSW83EeMjz9EUx3dYMhVW=
+nKiBJ_r2iK1pIPN0xMjME72dpl7i73JfLyHMg0wDYK7iZMGScEDn60FzBptaa_0IWRZcwdcZrNZ=
+EFFtZNmkLn3ib2bQ3o39BmesuQTUOWv3V3TYmbGUlVM73TkCWW_ked13EJnUOEHTuHoPiBxqafn=
+ytmIFM_YnsV2hAnn7emeEXnmb5XQwYPw3_VJPKubNeTwGeisRRq_lJ2h011XE2gVHHlYTpeRLip=
+iDzD0OvTEFAndZQ2o4EphVwAnKgLffAjOqBg18HdlLvtQ5WNv9nbU65-FBO3uiahEPbhvtbYg4q=
+Oa-8GVh2Drz8mMQy1o_hdiJzWiYQd-bODchkX6W4sPkMXlGiv45yBdnC0ZNvWu9BV_8LPfyItrt=
+59n9mFakfRc7zoxDC4Zjmm97-PdbBa3f2ILas4xxzEOiblNREhxy6f_S4KM5lOjDHqHfJgL2y5o=
+qn8q1F390_Xa7GvyXDcs-48QuMtdTxrOkDyrGQPgJbjkD_3wbT61_bDO0JyK6TL-MenVtf6Ixkz=
+fL0B7jwRQA4byyl1KOcM1kAkRKqr9jrO-u6TZsqKcjzNSusncOs1-xTMTOX0_fXeizl2Udov9FK=
+DY5IguESC_DrDsIqXitY9xtOf4hwwDI-dpEkkuTKBvJXKJVCzWdKNSvkSJnc9JDR6XzBo6fKS2q=
+Gjh7cE43fGGNe2Hc2mVl5zdSwbSvQ=2E=22 target=3D=22_blank=22 style=3D=22text-d=
+ecoration:none; color:=239DA5AA; font-size:13px; font-family:helvetica, ari=
+al, sans-serif;=22>View in Browser</a>
+
+				<br /><br />
+
+			=09
+&copy; 2020 SurveyMonkey Europe UC,&nbsp;2 Shelbourne Buildings,&nbsp;2nd F=
+loor,&nbsp;Shelbourne Road,&nbsp;Ballsbridge,&nbsp;Dublin 4,&nbsp;Ireland=2E
+=20
+				</font>
+				<br/><br/><br/><br/></td>
+			</tr>
+		</table><=21--- FOOTER BLOCK end --->
+		</td>
+	</tr>
+</table>
+
+<img src=3D=22https://q=2Emyvisualiq=2Enet/d=2Erfa?v=3Dx1&aid=3D305&oid=3D2=
+83&c1=3DResponsys&c2=3Demail=2Eresponsys=2ESM_CRM_MKTG_PA=2E&c3=3Dsurvey=2E=
+393951&sz=3D20481=22 width=3D=221=22 height=3D=221=22 >
+
+<img src=3D=22https://pixel=2Eapp=2Ereturnpath=2Enet/pixel=2Egif?r=3Dcb7a24=
+d6edd9144c009a8c97530c8b8d2d1c048a&campaign=3DSM_CRM_MKTG_PA&c=3Dsurvey=2E3=
+93951&s=3D134953062&country=3DGE&language=3DEn&engagement=3DDeployed&source=
+=3Danonweb=22 width=3D=221=22 height=3D=221=22>
+   =20
+    <img src=3D'http://beacon=2Ekrxd=2Enet/1x1_ad_impression=2Egif?confid=
+=3Dsy03sb6q9&campaignid=3D393951' width=3D0 height=3D0 style=3D'display:non=
+e;' />
+
+   =20
+   =20
+    <img src=3D'https://beacon=2Ekrxd=2Enet/pixel=2Egif?confid=3Dsy02gzaoe&=
+_kpid=3Ddb1b0b13-47c8-4a85-9c32-452991ddaba9&_kua_user_id=3D134953062&_kua_=
+hem=3D1dcea91a502f620f06f7f1e16970f1251cc033335e8cfc095807a21921661335' wid=
+th=3D0 height=3D0 style=3D'display:none;' /><br>
+<table cellpadding=3D=220=22 cellspacing=3D=220=22 style=3D=22border: 0px; =
+padding: 0px; margin: 0px; position: absolute; display: none; float: left=
+=22>
+<tr>
+<td height=3D=221=22 style=3D=22font-size: 1px; line-height: 1px; padding: =
+0px;=22>
+<br><img src=3D=22https://go=2Esurveymonkey=2Ecom/pub/as?_ri_=3DX0Gzc2X%3DY=
+QpglLjHJlTQGjFYhU72Gro07DyGbfg2X1Pg6PtW4nSD7k3OySbYCp09GoRYzdfSbaUflCwMMzcz=
+cJjbOVXHkMX%3Dw&_ei_=3DEuUXf_A_5nF5M6NU8pipGc5C8_zZsdGl9zH6c_E7vjCECzp8g-nW=
+sKrF04z3EXMi-cLHEpyanzgXrMR1oieyiK41CkReSJ2JNhF83iiTkcOMnh7Lm-xF0QyzKXOSzV_=
+9dBnHcCuYGoWDP162IEWUVya8UDmmW2t6JBnoWhGLD5l0ivGu5FJFQlK-aGMJKYZ45ePbtP8i6z=
+qpBJ4I6INXY295-fPxWJHvGtJimyO4rbsMtgZWCDrFEqNsHm4r1jaGLth2CUsSs0s2=2E=22></=
+img>
+</td>
+</tr>
+</table>  =20
+    </body>
+</html>
+
+

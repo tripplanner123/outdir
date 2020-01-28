@@ -1,0 +1,835 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 201910 will be lost/reset.
+# Last config file used to build this data file was /home4/tripplanner/tmp/awstats/ssl/awstats.beetrip.tripplanner.ge.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2027                
+POS_TIME 2710                
+POS_VISITOR 12083               
+POS_DAY 21355               
+POS_DOMAIN 3644                
+POS_LOGIN 4375                
+POS_ROBOT 4530                
+POS_WORMS 5384                
+POS_EMAILSENDER 5515                
+POS_EMAILRECEIVER 5658                
+POS_SESSION 22234               
+POS_SIDER 22437               
+POS_FILETYPES 5793                
+POS_DOWNLOADS 6068                
+POS_OS 6116                
+POS_BROWSER 6414                
+POS_SCREENSIZE 7984                
+POS_UNKNOWNREFERER 8058                
+POS_UNKNOWNREFERERBROWSER 8307                
+POS_ORIGIN 8551                
+POS_SEREFERRALS 8695                
+POS_PAGEREFS 9041                
+POS_SEARCHWORDS 9275                
+POS_KEYWORDS 9734                
+POS_MISC 2373                
+POS_ERRORS 10106               
+POS_CLUSTER 4231                
+POS_SIDER_404 10289               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20191101002310 306 80456 27594640238658
+FirstTime 20191001025432
+LastTime 20191031232348
+LastUpdate 20191101071329 306 0 305 0 0
+TotalVisits 287                 
+TotalUnique 219                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 230                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+AddToFavourites 0 17 0
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 30 154 3182104 200 242 2007930
+1 24 68 2385918 216 273 1995002
+2 70 256 3585502 185 235 1757738
+3 114 340 7621102 224 314 2815213
+4 77 361 7842220 297 395 4080490
+5 160 632 13190254 266 336 3398056
+6 75 319 4513329 187 230 1882660
+7 142 566 9110374 251 315 2387973
+8 824 1312 51085862 510 1144 31274572
+9 72 276 4754439 196 307 3510164
+10 40 180 2495776 238 382 3746034
+11 60 258 4898082 188 226 2079144
+12 164 492 8061028 206 248 2111816
+13 61 225 3219054 198 250 1867596
+14 52 200 2861756 194 248 1893038
+15 125 361 7425988 197 267 2149594
+16 36 36 895438 186 276 3226506
+17 22 88 1224392 224 266 2040968
+18 40 126 1969416 169 203 1673986
+19 31 67 1283690 270 352 3378503
+20 57 95 2877488 286 416 4309309
+21 28 66 895530 224 292 2930932
+22 54 216 5771122 197 269 2836706
+23 15 41 647556 205 323 4367334
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 33
+us 989 1707 59578114
+ge 747 3203 53934708
+cn 188 188 6825546
+ru 114 330 6048648
+de 68 264 3336858
+ae 48 178 2142806
+lt 48 48 1374474
+in 16 46 738992
+fi 14 66 855728
+th 13 51 664870
+it 12 56 2111254
+ch 10 44 602420
+ca 8 8 168734
+es 8 42 594228
+sg 8 42 594970
+bg 6 42 584388
+au 6 44 1904024
+id 6 6 115650
+nl 6 38 567328
+cl 6 6 37408
+by 6 50 1909416
+fr 6 42 581516
+pl 6 38 579246
+il 6 44 583940
+ee 6 38 581442
+vn 4 46 1894122
+br 2 2 94756
+jp 2 2 94944
+se 2 42 2334274
+kr 2 12 131722
+ua 2 2 99320
+vg 2 2 94756
+gb 6 6 36818
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 18
+Googlebot/ 3832 32760270 20191031214914 0
+YandexBot/ 724 5652480 20191031221537 0
+bot[\s_+:,\.\;\/\\-] 676 23521522 20191030034452 0
+bingbot/ 358 2873440 20191031101927 0
+YandexMobileBot/ 346 4880174 20191014105530 0
+bingpreview 322 10297550 20191026092122 0
+spider 206 7678808 20191031080222 0
+facebookexternalhit/ 154 1649020 20191028083455 0
+no_user_agent 120 893254 20191021043004 0
+Apache\-HttpClient/ 120 736438 20191027075634 0
+msnbot/ 42 1079874 20191013212404 0
+Mail\.RU_Bot/ 10 90110 20191017090641 0
+Baiduspider/ 6 284268 20191015165024 0
+Applebot/ 6 27668 20191006044807 0
+YandexImages/ 2 38024 20191018123324 0
+curl 2 94756 20191008064659 0
+link 2 12302 20191028175330 0
+Python\-urllib/ 2 0 20191018022038 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+Unknown 1164 37113160 0 0
+woff2 134 276040 0 0
+css 1870 15324007 0 0
+js 1346 34144158 0 0
+woff 312 14733944 0 0
+jpg 42 30361456 0 0
+html 761 14032785 0 0
+svg 904 5107674 0 0
+png 200 592184 0 0
+eot 2 112012 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 16
+win10 1699 475
+macosx9 4 4
+linux 250 66
+macosx 440 98
+Unknown 102 102
+macosx8 19 19
+linuxandroid 1174 202
+win8 52 4
+winxp 16 6
+win8.1 395 161
+macosx11 120 120
+win7 1976 1016
+ios_iphone 390 70
+macosx10 16 16
+winnt 2 2
+ios_ipad 80 12
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 70
+opera53.0.2907.68 16 16
+firefox47.0 120 120
+Unknown 102 102
+chrome77.0.3865.116 240 48
+chrome71.0.3578.99 192 38
+chrome77.0.3865.90 1210 302
+safari 46 4
+firefox54.0 2 2
+chrome77.0.3865.120 988 246
+chrome78.0.3904.62 48 10
+chrome67.0.3396.99 8 8
+chrome72.0.3626.109 8 8
+chrome63.0.3239.132 8 8
+firefox56.0 22 22
+chrome71.0.3578.98 28 8
+firefox49.0 2 2
+chrome41.0.2227.0 6 6
+chrome40.0.2214.85 8 8
+firefox69.0 528 116
+chrome36.0.1985.143 42 2
+chrome44.0.2403.133 4 4
+chrome75.0.3770.143 100 18
+chrome56.0.2924.87 52 12
+firefox68.2.0 2 0
+chrome45.0.2454.101 10 10
+firefox24.0 2 2
+chrome76.0.3809.132 92 16
+chrome74.0.3729.157 44 6
+chrome72.0.3626.121 42 8
+firefox53.0 2 2
+chrome41.0.2228.0 44 4
+firefox40.1 8 8
+chrome61.0.3163.98 2 2
+chrome76.0.3809.100 8 8
+chrome67.0.3396.79 16 16
+msie6.0 12 2
+safari13.0.2 50 6
+msie11.0 68 36
+chrome78.0.3904.70 126 20
+msie9.0 974 734
+chrome77.0.3865.92 144 22
+chrome63.0.3239.26 4 4
+chrome64.0.3282.186 4 4
+chrome38.0.1025.166 196 16
+chrome60.0.3112.101 24 24
+safari11.0 90 18
+chrome76.0.3809.89 50 6
+firefox64.0 4 2
+chrome60.0.3112.90 44 44
+firefox68.0 54 12
+chrome26.0.1410.65 18 18
+msie10.0 104 8
+edge15 2 2
+chrome68.0.3418.2 4 4
+safari13.0.1 84 14
+opera49.0.2725.64 48 12
+opera55.0.2994.44 4 4
+chrome74.0.3729.131 2 2
+chrome19.0.1063.0 1 1
+firefox46.0 2 2
+firefox50.0 2 2
+firefox59.0 6 6
+chrome75.0.3770.142 128 28
+chrome66.0.3359.181 16 16
+safari12.1.2 370 72
+chrome14.0.835.202 4 4
+chrome49.0.2623.75 16 8
+chrome66.0.3359.117 2 2
+chrome60.0.3112.113 22 22
+chrome67.0.3396.87 4 4
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_s~snapchat-proxy) 20191031095010
+Go-http-client/1.1 20191031214824
+Go-http-client/2.0 20191013220445
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Go-http-client/2.0 20191013220445
+Go-http-client/1.1 20191031214824
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_s~snapchat-proxy) 20191031095010
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 509 627
+From1 0 0
+From2 976 1216
+From3 6 6
+From4 882 4886
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 11
+int_search_myway_com 2 2
+yandexru 8 8
+www_google_pl 2 2
+www_google_com 948 1188
+www_google_ge 4 4
+www_google_nl 2 2
+www_google_co_jp 2 2
+www_google_bg 2 2
+www_google_ch 2 2
+tbask 2 2
+www_google_ru 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+https://www.facebook.com 2 2
+http://progressive-seo.com 2 2
+http://m.facebook.com 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 3
+%e1%83%a2%e1%83%a3%e1%83%a0%e1%83%98+%e1%83%90%e1%83%9a%e1%83%90%e1%83%95%e1%83%94%e1%83%a0%e1%83%93%e1%83%98%e1%83%a1+%e1%83%9b%e1%83%9d%e1%83%9c%e1%83%90%e1%83%a1%e1%83%a2%e1%83%94%e1%83%a0%e1%83%a8%e1%83%98 4
+%5ey6%5exdm269%5es30585%5ege 2
+%d0%a6%d0%b8%d0%b2%d0%b8%d1%81+%d0%ba%d0%b2%d0%b5%d0%bb%d0%b8 2
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 6
+%e1%83%9b%e1%83%9d%e1%83%9c%e1%83%90%e1%83%a1%e1%83%a2%e1%83%94%e1%83%a0%e1%83%a8%e1%83%98 4
+%e1%83%a2%e1%83%a3%e1%83%a0%e1%83%98 4
+%e1%83%90%e1%83%9a%e1%83%90%e1%83%95%e1%83%94%e1%83%a0%e1%83%93%e1%83%98%e1%83%a1 4
+%d0%a6%d0%b8%d0%b2%d0%b8%d1%81 2
+%d0%ba%d0%b2%d0%b5%d0%bb%d0%b8 2
+%5ey6%5exdm269%5es30585%5ege 2
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 9
+504 3 1707
+400 11 416
+409 4 332
+406 38 8588
+403 40 16104
+421 2 766
+206 2 12236
+404 728 1083997
+301 34 8760
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 52
+/api/vendor/phpunit/phpunit/LICENSE 4 -
+/temp/ 2 -
+/en/ongoing-tours/Tour%20in%20Ajarian%20Mountains/_website/images/fav.png 2 -
+/old/ 2 -
+/web/ 2 -
+/en/ongoing-tours/One 2 -
+/___proxy_subdomain_cpanel/ 7 -
+/ru/ongoing-tours//1091 1 -
+/wp/ 2 -
+/site/ 2 -
+/class 2 -
+/v2/ 2 -
+/___proxy_subdomain_cpanel/cgi-sys/404.html 2 -
+/ 19 -
+/main/ 2 -
+/backup/ 2 -
+/apple-app-site-association 2 -
+/ru/ongoing-tours/1091 3 -
+/%E2%80%9C/ge/badmin/sitemap/edit/%E2%80%9Chttps:/beetrip.ge%E2%80%9C%E2%80%9C 4 -
+/apple-touch-icon-precomposed.png 8 -
+/en/ongoing-tours/night 2 -
+/demo/ 2 -
+/en/ongoing-tours/site 2 -
+/___proxy_subdomain_webdisk/ 1 -
+/___proxy_subdomain_webmail/cgi-sys/404.html 2 -
+/.well-known/apple-app-site-association 2 -
+/%E2%80%9Chttps:/beetrip.ge%E2%80%9C 1 -
+/new/ 2 -
+/ge/ongoing-tours//1091 2 -
+/en/ongoing-tours/1091 20 http://www.google.com/url
+/___proxy_subdomain_webmail/ 5 -
+/.well-known/assetlinks.json 8 -
+/___proxy_subdomain_webdisk/cgi-sys/404.html 2 -
+/v1/ 2 -
+/laravel/vendor/phpunit/phpunit/LICENSE 4 -
+/en/ongoing-tours/Mtirala 2 -
+/en/ongoing-tours/Martvili 2 -
+/robots.txt 492 -
+/%E2%80%9Chttps://beetrip.ge%E2%80%9C 1 -
+/tmp/ 2 -
+/apple-touch-icon.png 6 -
+/wordpress/ 2 -
+/manager/ldskflks 4 http://www.beetrip.ge/manager/ldskflks
+/th1s_1s_a_4o4.html 62 -
+/test/ 2 -
+/en/ongoing-tours/Tour 2 -
+/en/ongoing-tours/beauty 2 -
+/cms/ 2 -
+/en/ongoing-tours//1091 6 -
+/vendor/phpunit/phpunit/LICENSE 4 -
+/ge/ongoing-tours/1091 6 -
+/en/ongoing-tours/Adventurous 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 230
+184.154.36.173 206 278 12150572 20191022081454
+184.154.36.176 138 164 8534950 20191021080550
+60.191.38.77 120 120 5691180 20191030225456
+149.3.96.158 98 272 5532984 20191010124620
+184.154.36.175 94 124 5563666 20191023081225
+184.154.36.172 56 72 3442240 20191020081314
+184.154.139.5 56 70 3690010 20191030082615
+184.154.36.174 52 72 2978830 20191010080518
+85.206.165.25 48 48 1374474 20191009115223
+184.154.139.9 48 70 3380112 20191028081308
+178.134.130.213 46 188 5001812 20191001053830
+109.177.228.228 44 152 1760088 20191016123532
+188.101.155.234 44 168 2150180 20191012122049
+183.155.59.95 44 44 317196 20191018031446
+184.154.139.7 40 62 2917184 20191029081401
+46.49.74.19 25 85 950064 20191024133055
+95.104.4.154 24 104 2608720 20191025150931
+184.154.139.6 24 32 1350250 20191031080222
+37.232.94.108 24 120 2509483 20191021093201
+14.145.232.111 24 24 817170 20191029203400
+31.173.81.99 24 124 4031682 20191012034055
+94.242.54.116 22 22 143966 20191031160019
+94.242.54.117 22 22 143988 20191026205148
+94.242.54.111 22 22 143952 20191029151824
+5.187.14.200 19 69 855416 20191001093239
+188.129.165.18 12 48 700658 20191008023243
+202.62.58.28 6 44 1904024 20191009203529
+66.249.93.221 2 2 12306 20191028051147
+34.220.4.197 2 2 12238 20191008212857
+90.191.179.141 6 38 581442 20191026170633
+46.49.66.83 12 48 700484 20191018225200
+46.149.241.60 6 38 579246 20191001071627
+5.178.216.64 16 58 783340 20191012030631
+115.89.74.126 2 12 131722 20191012002844
+46.5.20.217 8 46 593260 20191021080126
+107.178.194.181 4 4 24544 20191028065748
+66.249.93.219 0 2 3116 
+18.224.55.41 14 64 521812 20191031073633
+91.168.200.123 6 42 581516 20191004185058
+80.92.183.194 12 44 573808 20191025063522
+66.249.88.27 0 6 31018 
+46.49.1.117 12 46 693582 20191009022036
+92.63.111.27 2 2 12238 20191022034136
+95.104.85.183 12 50 701504 20191019112818
+108.255.121.165 4 36 575910 20191026130649
+34.222.250.151 2 2 12304 20191030192804
+18.231.110.251 2 2 12276 20191005012710
+66.249.88.25 4 12 75642 20191005124904
+54.214.223.37 2 2 12238 20191008050628
+178.134.107.186 12 48 700208 20191023023243
+178.134.96.176 10 52 706206 20191002055807
+94.100.229.187 10 48 689006 20191031055620
+14.207.10.37 13 51 664870 20191023043820
+109.173.30.145 2 24 216126 20191007043152
+192.227.215.143 6 6 37290 20191031170101
+94.200.154.66 4 26 382718 20191030040551
+95.104.63.43 6 44 582522 20191029140852
+185.23.48.209 8 40 588420 20191007071907
+109.64.61.60 6 44 583940 20191006215419
+34.219.66.25 2 2 12240 20191024230120
+213.200.31.144 12 46 693676 20191020050348
+104.36.16.143 2 2 12242 20191007183529
+178.134.107.38 10 46 688776 20191029054412
+66.102.6.143 4 10 52170 20191013194217
+35.187.132.39 2 2 12234 20191024104409
+34.211.146.8 2 2 12240 20191011215017
+54.244.65.122 2 2 12238 20191013220445
+128.68.37.206 2 24 218692 20191010090816
+54.186.45.58 2 2 12302 20191025124256
+34.222.223.112 2 2 12272 20191003080614
+34.209.150.174 2 2 12234 20191023053335
+91.184.107.46 2 2 94866 20191006094903
+34.215.13.89 2 2 12236 20191014160804
+188.238.169.122 4 28 385694 20191006063843
+52.25.236.70 2 2 12236 20191016080831
+34.219.113.253 2 2 12238 20191018051130
+52.13.73.116 2 2 12276 20191003080848
+66.249.88.95 2 20 78384 20191021090525
+188.191.21.225 2 2 99320 20191011000814
+216.163.188.191 2 4 97872 20191012013320
+54.185.154.141 2 2 12238 20191024193812
+95.104.72.137 6 42 580812 20191029133901
+173.252.87.1 2 16 216352 20191004051337
+212.96.72.27 2 42 2334274 20191012042009
+18.236.248.86 2 2 12240 20191015215537
+52.89.91.94 2 2 12276 20191003081256
+104.227.116.252 4 4 25162 20191025024932
+157.245.112.126 2 2 12270 20191001052203
+188.169.124.231 12 48 698428 20191022224522
+66.249.83.207 2 10 70584 20191028112320
+51.15.114.154 2 2 12240 20191014035029
+82.202.161.133 2 2 12236 20191020122722
+207.102.138.11 2 2 12240 20191012012023
+178.22.66.137 2 2 12236 20191014233902
+27.74.246.233 4 46 1894122 20191030013742
+34.219.98.133 2 2 12238 20191013214610
+34.213.77.208 2 2 12274 20191002125801
+92.54.236.237 18 84 1274244 20191031052549
+188.129.135.229 13 53 674385 20191009061526
+173.252.127.38 2 8 144798 20191028055218
+66.249.88.23 0 10 77746 
+173.252.87.35 2 22 208254 20191004051334
+212.58.120.189 12 56 759318 20191027114023
+52.24.46.73 2 2 12238 20191010221221
+107.178.194.183 4 4 24474 20191023033455
+66.102.6.145 2 22 337618 20191013194218
+18.236.239.251 2 2 12274 20191003223211
+94.212.232.156 2 2 12300 20191029035436
+107.178.194.184 6 6 36842 20191031095010
+64.246.161.30 2 2 12238 20191018130648
+188.121.205.33 18 78 951044 20191003083345
+66.249.83.211 0 24 330606 
+142.93.232.242 2 2 12242 20191022114418
+94.43.67.170 12 52 702696 20191021103744
+66.249.88.93 2 30 1715858 20191031222003
+138.197.138.222 1 1 0 20191030043009
+199.116.169.254 4 4 189700 20191027053352
+66.102.6.144 0 12 81236 
+183.83.68.195 4 34 309458 20191009005926
+89.232.37.87 6 38 578880 20191001050755
+107.175.110.164 4 4 25158 20191025020604
+185.53.252.155 2 2 94756 20191007091355
+92.51.109.254 12 48 701002 20191017074503
+46.242.66.235 2 28 408654 20191012233658
+91.253.44.152 6 50 1909422 20191013111438
+34.220.123.198 2 2 12274 20191003212825
+212.58.114.24 12 48 700976 20191015145013
+138.246.253.5 8 8 0 20191028194007
+94.100.234.32 6 42 579866 20191001133917
+18.236.78.190 2 2 12306 20191031214824
+213.200.31.146 12 48 701000 20191013072627
+192.241.65.57 2 2 12236 20191015100401
+35.187.132.177 8 8 48994 20191014095852
+89.35.29.38 2 2 94756 20191010193942
+35.166.104.60 2 2 100634 20191028215223
+188.169.2.144 6 46 1506204 20191024072357
+212.58.119.85 2 2 12238 20191023150309
+34.213.40.18 2 2 100634 20191028215223
+66.249.88.91 2 24 371952 20191021090524
+209.208.110.221 2 2 12298 20191029144102
+173.252.127.6 0 16 190018 
+54.184.63.105 2 2 12240 20191013192619
+116.15.93.113 8 42 594970 20191021105746
+178.134.64.126 6 40 581208 20191003062441
+213.200.15.102 12 48 700980 20191010141757
+91.184.101.2 6 50 1953200 20191025081834
+66.102.8.137 0 8 48410 
+34.215.167.24 2 2 12238 20191011080530
+62.131.57.56 4 36 555028 20191013100827
+34.222.191.217 2 2 12240 20191007211216
+128.68.131.157 2 28 404420 20191004075132
+65.154.226.100 4 42 1891848 20191031224401
+66.249.83.209 0 6 53788 
+52.42.167.15 2 2 12238 20191009052338
+62.12.177.42 8 42 590184 20191021112427
+36.66.172.121 4 4 20894 20191022134425
+94.100.237.106 10 46 685940 20191027040155
+95.137.189.5 12 52 703272 20191010064612
+18.191.181.243 14 64 521726 20191001182935
+8.28.16.254 4 4 161416 20191027053354
+93.39.201.69 2 2 94756 20191008064702
+92.208.224.113 8 42 593418 20191009172621
+188.121.207.159 16 58 781268 20191017052905
+221.185.58.180 2 2 94944 20191027130745
+213.159.213.236 2 2 12238 20191014014818
+184.154.139.8 18 28 1058074 20191025080811
+93.159.230.28 2 2 12302 20191026221636
+64.246.165.160 2 2 12238 20191018104326
+111.94.62.111 2 2 94756 20191014163344
+35.187.132.176 6 6 36750 20191016014949
+173.252.127.50 2 20 1560284 20191028055216
+34.220.105.105 2 2 12236 20191020160651
+31.192.17.98 12 48 700978 20191023074025
+34.210.42.129 2 2 12274 20191003131057
+80.83.135.75 12 56 731122 20191011025521
+45.40.121.6 2 2 12236 20191010001911
+213.159.213.137 2 2 12276 20191005053542
+85.117.33.13 12 48 700168 20191024040910
+66.249.93.220 4 8 30774 20191030062524
+77.92.225.240 12 52 703280 20191015071316
+66.102.8.135 0 2 1048 
+52.40.14.40 2 2 12302 20191025124003
+94.100.237.114 6 44 583396 20191007041405
+51.158.116.108 2 2 12276 20191005223909
+216.145.5.42 2 2 12238 20191018084802
+77.74.177.114 4 24 263574 20191026221657
+5.178.245.245 10 56 707222 20191006153927
+34.220.166.80 2 2 12306 20191025200015
+173.252.87.6 0 6 1470464 
+213.200.15.89 8 42 594138 20191020102209
+207.70.9.100 2 2 12238 20191010121547
+37.35.17.11 10 38 470034 20191015075526
+77.74.177.113 2 2 12304 20191026041650
+52.24.188.5 2 2 12304 20191028192920
+54.186.136.178 2 2 12304 20191025124738
+107.178.194.41 2 2 12236 20191024104409
+188.169.214.210 12 46 697362 20191015081223
+191.101.145.254 4 4 25170 20191025021806
+52.32.235.232 2 2 12238 20191008211336
+35.187.132.37 2 2 12236 20191022140037
+80.83.137.42 6 38 580034 20191028064438
+18.237.216.197 2 2 12276 20191003135123
+188.169.230.62 10 46 684468 20191029085138
+52.34.183.195 2 2 94756 20191012012339
+31.146.141.223 12 52 702938 20191014060606
+5.178.132.54 18 100 2412210 20191014033334
+47.75.49.127 4 4 144252 20191020225017
+178.134.161.38 6 44 585364 20191007000847
+176.74.65.161 10 48 685090 20191025140544
+193.70.34.209 2 2 12320 20191001083125
+107.178.194.197 2 2 12238 20191022145921
+18.237.27.204 2 2 94756 20191012012325
+185.52.80.44 10 46 684442 20191001025440
+207.70.25.58 2 2 12236 20191010124356
+193.43.26.120 6 42 584388 20191028081418
+191.177.182.129 2 2 94756 20191020073055
+34.220.30.155 2 2 12274 20191002124842
+37.214.86.20 6 50 1909416 20191021001854
+13.229.86.130 2 2 12302 20191031232348
+65.154.226.220 6 44 1904020 20191014150551
+181.214.186.174 2 2 12238 20191010002956
+45.132.192.21 12 12 429534 20191007011556
+66.102.8.133 0 4 87904 
+34.221.238.225 2 2 12238 20191019080637
+34.217.137.97 2 2 12308 20191026212253
+163.172.154.92 2 2 12302 20191030033236
+81.40.149.11 8 42 594228 20191012051220
+18.237.22.31 2 2 12276 20191002125143
+35.187.132.175 12 12 73426 20191016014949
+107.178.194.105 2 2 12238 20191022140037
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20191001 125 507 9626244 11
+20191002 32 80 1768322 5
+20191003 54 154 2629820 10
+20191004 30 138 3968992 6
+20191005 22 60 1110696 5
+20191006 54 174 3462480 7
+20191007 56 194 3532114 9
+20191008 68 106 2661484 10
+20191009 81 257 5182135 10
+20191010 183 497 9866910 15
+20191011 49 103 2460942 9
+20191012 135 519 11942846 17
+20191013 59 215 5112290 10
+20191014 74 240 6503490 11
+20191015 112 328 5155972 8
+20191016 36 78 1738338 5
+20191017 44 132 2833086 4
+20191018 90 136 2468356 10
+20191019 50 98 2699120 6
+20191020 54 126 2980702 8
+20191021 194 532 14554749 9
+20191022 58 100 2662474 9
+20191023 69 187 3690172 7
+20191024 75 221 5024958 9
+20191025 94 298 7015898 15
+20191026 78 168 3471812 11
+20191027 90 178 5567936 8
+20191028 58 218 5506036 14
+20191029 98 260 5139162 9
+20191030 57 129 4447684 9
+20191031 94 302 7012200 11
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+2mn-5mn 11
+5mn-15mn 4
+0s-30s 257
+30mn-1h 1
+15mn-30mn 1
+30s-2mn 13
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 114
+/ 747 14006308 201 181
+/_website/font-awesome/fonts/fontawesome-webfont.woff 172 11257744 2 19
+/_website/styles/fonts/fonts/Lari.woff2 134 276040 0 17
+/_website/styles/fonts/fonts/HelveticaNeueLTGEOW82-45Lt-Regular.woff 70 2507120 0 0
+/_website/styles/fonts/fonts/NotoSansGeorgian.woff 70 969080 0 3
+/en/about 62 1264728 0 7
+/en/ongoing-tours/dagegme-ertdghiani-mogzauroba-djavakhtis-tbebze-da-lajvardisfer-sofelshi/636 56 1262334 8 3
+/en/ongoing-tours/One%20day%20ski%20tour%20to%20Bakuriani/1068 56 2502230 0 19
+/en/ongoing-tours 47 725784 3 0
+/ru/home 45 1409862 0 2
+/en/ongoing-tours/Tour%20in%20Ajarian%20Mountains/1045 40 1852802 1 1
+/ge/home 37 1327164 0 0
+/en/ongoing-tours/vellino/1085 36 1365768 1 2
+/en/ongoing-tours/Martvili%20and%20Okatse%20canyons%20from%20Batumi/1047 36 1625532 2 1
+/en/ongoing-tours/tsivi/1089 36 1086708 4 1
+/en/ongoing-tours/juta-abudelauri/1078 32 998192 4 1
+/en/ongoing-tours/birtvisi/1079 30 734474 4 0
+/en/ongoing-tours/prometes-turi/1076 30 1409392 0 0
+/en/home 29 666924 1 0
+/en/cart 27 543156 0 0
+/en/ongoing-tours/wineyard/1087 24 830306 1 1
+/en/ongoing-tours/%20Goderdzi%20Mountain%20Pass/1050 24 1034236 0 0
+/ge/ongoing-tours/djip-turi%20abudelauris%20ferad%20tbebze/389 22 315948 7 1
+/ge/about 20 521574 0 0
+/en/ongoing-tours/shatili-omalo/1080 20 832254 0 0
+/en/ongoing-tours/site%20of%20golden%20fleece/1038 14 616768 0 0
+/ru/ongoing-tours/dagegme-ertdghiani-mogzauroba-vardziashi/638 4 202716 0 0
+/ge/ongoing-tours/tsivi/1089 14 220806 3 1
+/ge/ongoing-tours/shatili-omalo/1080 2 98944 0 0
+/ge/terms-conditions2 2 18716 1 0
+/ge/ongoing-tours/site%20of%20golden%20fleece/1038 2 93830 0 0
+/ge/ongoing-tours/mtskhetis-turi/434 4 129680 1 0
+/ge/ongoing-tours/dagegme-ertdghiani-mogzauroba-djavakhtis-tbebze-da-lajvardisfer-sofelshi/636 4 143308 1 1
+/ru/ongoing-tours/djip-turiabudelaurisferadtbebze/389 2 20288 1 1
+/ge/ongoing-tours/estumret-maradmtsvane-tkeebshi-chaflul-bordjoms-da-saqartvelos-samkhretis-mshveneba-akhaltsikhes/442 2 112288 0 0
+/en/ongoing-tours/ertdghiani-ghvinis-shemetsnebiti-turi/426 4 192082 0 0
+/en/ 5 652 0 0
+/ru/ongoing-tours/birtvisi/1079 6 137818 2 0
+/en/ongoing-tours/Adventurous%20tour%20into%20the%20primeval%20depths%20of%20nature/1046 18 707264 2 1
+/ge/ongoing-tours/dashbashis-kanioni/393 4 40220 2 0
+/home/ 2 12304 0 1
+/ge/ 4 674 0 0
+/ge/ongoing-tours/vellino/1085 4 209434 0 0
+/ru/ongoing-tours/tsivi/1089 10 265968 2 0
+/ru/ongoing-tours/One%20day%20ski%20tour%20to%20Bakuriani/1068 2 92436 0 0
+/ru/ongoing-tours/dagegme-turi-dzamas-kheobashi/635 2 91894 0 0
+/en/ongoing-tours/bodbe-sighnaghis-turi/437 2 94920 0 0
+/en/terms-conditions2 18 392668 1 4
+/ge/ongoing-tours/night%20batumi/1036 2 95232 0 0
+/ge/ongoing-tours/birtvisi/1079 4 212224 0 0
+/ge/ongoing-tours/wineyard/1087 4 213846 0 1
+/en/ongoing-tours/estumret-maradmtsvane-tkeebshi-chaflul-bordjoms-da-saqartvelos-samkhretis-mshveneba-akhaltsikhes/442 4 191484 0 0
+/ru/ongoing-tours/beauty%20of%20subtropics/1037 2 91768 0 0
+/ge/ongoing-tours/Mtirala%20National%20Park%20-%20Tsablnari%20(Chestnut%20forest)%20Trail/1048 2 106452 0 0
+/ge/ongoing-tours/One%20day%20ski%20tour%20to%20Gudauri/1067 4 189366 0 0
+/en/feedback 16 109830 0 3
+/en/ongoing-tours/adgili-sadats-dro-gacherda,-moinakhulet-davit-garedjis-monasteri/441 4 190354 0 0
+/en/ongoing-tours/martvilis-2-dghaiani-turi/601 6 215476 1 0
+/ge/ongoing-tours/Adventurous%20tour%20into%20the%20primeval%20depths%20of%20nature/1046 2 112982 0 0
+/ge/ongoing-tours/tbilisis-turi/436 4 131594 1 0
+/ru/ongoing-tours/%20Goderdzi%20Mountain%20Pass/1050 2 88866 0 0
+/ru/ongoing-tours/wineyard/1087 4 121732 0 0
+/ru/ongoing-tours/One%20day%20ski%20tour%20to%20Gudauri/1067 4 183380 0 0
+/en/ongoing-tours/chubini/1091 12 252802 0 4
+/en/ongoing-tours/dagegme-ertdghiani-mogzauroba-kazbegshi/582 2 96846 0 1
+/en/ongoing-tours/dagegme-ertdghiani-mogzauroba-vardziashi/638 8 221700 0 0
+/en/ongoing-tours/Adventurous%2520tour%2520into%2520the%2520primeval%2520depths%2520of%2520nature/1046 2 95940 1 0
+/en/transfers 17 480912 0 0
+/_website/font-awesome/fonts/fontawesome-webfont.eot 2 112012 0 1
+/ru/ongoing-tours 18 751516 1 1
+/blog/ 2 12680 0 0
+/en/ongoing-tours/One%20day%20ski%20tour%20to%20Gudauri/1067 16 707886 0 0
+/en/ongoing-tours/dashbashis-kanioni/393 2 17416 1 0
+/ru/ongoing-tours/Tour%20in%20Ajarian%20Mountains/1045 2 104616 0 0
+/ge/ongoing-tours/One%20day%20ski%20tour%20to%20Bakuriani/1068 8 382896 0 2
+/ge/ongoing-tours/bolnisi-germanuli-kultura(katerinenfildi)/634 8 78652 3 0
+/ge/ongoing-tours/dagegme-turi-dzamas-kheobashi/635 14 111178 5 0
+/ru/ongoing-tours/prometes-turi/1076 2 105318 0 0
+/ge/ongoing-tours/gori-uflistsikhis-turi/440 6 59528 3 0
+/ge/ongoing-tours/Tour%20in%20Ajarian%20Mountains/1045 4 223122 0 0
+/en/ongoing-tours/samdghiani-dauvitskari-djip-turi-saqartvelos-istoriul-geografiul-mkhareshi,-svanetshi/399 4 188102 0 0
+/ge/ongoing-tours/martvilis-2-dghaiani-turi/601 2 118386 0 0
+/ge/ongoing-tours/dagegme-ertdghiani-mogzauroba-kazbegshi/582 2 114868 0 0
+/ge/ongoing-tours/djip-turiabudelaurisferadtbebze/389 2 20188 1 1
+/ge/ongoing-tours 10 292846 0 1
+/ge/ongoing-tours/%20Goderdzi%20Mountain%20Pass/1050 2 91670 0 0
+/ge/ongoing-tours/ertdghiani-ghvinis-shemetsnebiti-turi/426 8 170604 2 1
+/en/ongoing-tours/martvilisa-da-okatses-kanionebi/396 2 94550 0 0
+/ge/ongoing-tours/juta-abudelauri/1078 4 112528 1 0
+/en/ongoing-tours/night%20batumi/1036 8 356506 0 0
+/en/ongoing-tours/bolnisi-germanuli-kultura(katerinenfildi)/634 2 95210 0 0
+/ge/fail 2 8916 1 0
+/ru/ongoing-tours/vellino/1085 4 118716 0 0
+/ge/cart 2 116930 0 0
+/ru/ongoing-tours/ertdghiani-ghvinis-shemetsnebiti-turi/426 2 19930 0 0
+/ge/ongoing-tours/bodbe-sighnaghis-turi/437 2 19346 1 0
+/ge/ongoing-tours/Martvili%20and%20Okatse%20canyons%20from%20Batumi/1047 10 197032 4 0
+/ru/ongoing-tours/Mtirala%20National%20Park%20-%20Tsablnari%20(Chestnut%20forest)%20Trail/1048 4 201228 0 1
+/ru/terms-conditions2 2 18146 1 1
+/en/ongoing-tours/dagegme-turi-dzamas-kheobashi/635 6 191282 1 0
+/ge/favourite-asked-questions 2 11710 0 0
+/en/ongoing-tours/Mtirala%20National%20Park%20-%20Tsablnari%20(Chestnut%20forest)%20Trail/1048 10 472594 0 0
+/ru/ongoing-tours/dagegme-ertdghiani-mogzauroba-djavakhtis-tbebze-da-lajvardisfer-sofelshi/636 4 221158 0 0
+/ge/ongoing-tours/qutaisis-turi/439 2 115966 0 0
+/ru/about 2 50774 0 0
+/ru/ongoing-tours/juta-abudelauri/1078 4 189852 0 0
+/ru/ 1 167 0 0
+/en/ongoing-tours/tbilisis-turi/436 2 94908 0 0
+/en/ongoing-tours/samdghiani-djip-turi-tushetshi/394 2 94926 0 0
+/en/ongoing-tours/gori-uflistsikhis-turi/440 4 196064 0 0
+/en/ongoing-tours/kakhetis-turi/600 2 17748 1 0
+/ge/ongoing-tours/martvilisa-da-okatses-kanionebi/396 2 110056 0 0
+/en/favourite-asked-questions 20 229230 3 1
+/en/ongoing-tours/beauty%20of%20subtropics/1037 14 624860 0 0
+END_SIDER

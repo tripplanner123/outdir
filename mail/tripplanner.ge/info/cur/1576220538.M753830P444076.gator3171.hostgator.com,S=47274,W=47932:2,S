@@ -1,0 +1,658 @@
+Return-Path: <info.carrentingeorgia@gmail.com>
+Delivered-To: info@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP
+	id 2GbVLHo3812sxgYA8w4q4w
+	(envelope-from <info.carrentingeorgia@gmail.com>)
+	for <info@tripplanner.ge>; Fri, 13 Dec 2019 01:02:18 -0600
+Return-path: <info.carrentingeorgia@gmail.com>
+Envelope-to: info@tripplanner.ge
+Delivery-date: Fri, 13 Dec 2019 01:02:18 -0600
+Received: from mail-wr1-f67.google.com ([209.85.221.67]:44742)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.92)
+	(envelope-from <info.carrentingeorgia@gmail.com>)
+	id 1ifext-001tlj-Sz
+	for info@tripplanner.ge; Fri, 13 Dec 2019 01:02:18 -0600
+Received: by mail-wr1-f67.google.com with SMTP id q10so5382938wrm.11
+        for <info@tripplanner.ge>; Thu, 12 Dec 2019 23:02:12 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=VSwLJxfpaoc4p7/2b6ujo1/tPEn8EoaxREOx8smkovI=;
+        b=fLnyXkTYrhRrC4heivZYSlMmMZxWSQYdJxQ/DxZegD8kvNOEhDH1jfOz1tJmaUkP99
+         JBHAR9XOEhk5FhbK+PnipBHCV360QuV1mokRpBhhPCcsKRmfAWGeDvnejZMAwp7PPGJ1
+         cwyME704ggGiaeMSshAP6IukFE3LgElxWOylwsByMC+CHDmVa9PDUUQozMEksnD2nmw9
+         37qBwWi3X/T5adpEE6A1HhuUAsBw1hyOsbV+tOGJ6Uca7YKYOMymahDySPUNCxXGEeN/
+         qFC9AyQAj+8CuXKqUyfoqwOhqA6CZSA+YLvgDMctycBmGa9MoKk2Zgc3zWyN0EfNBDVU
+         FVyQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=VSwLJxfpaoc4p7/2b6ujo1/tPEn8EoaxREOx8smkovI=;
+        b=Dyt588v6XTbzXPQM7IaV+CfX6CKkbEcb6qsEEnnZLKIwKaP1zvQGRLpNgm1IPPRxZI
+         9soeiWJxxPxL/QWcSSUQbxCi0NJI0CWZCq9sfOD2rN3GoUob/taE6qf95ZG6ogo19C97
+         zuOQ4VQ+mgjQfXtX2hATsoCljzIGyw3IJF5cWfab4lNjgr7beEM32/dsDKyTxEdz6Ft8
+         dxd3dv+VYZOEyRgS1UDpZInJwkgBwFzQbPRepwvLMHH6xzFPWpD8Km3EdX0iBq4/Hzso
+         Spm6MhhX86yiKFRV6MaQP1xC2kXlU13RpA8j/OUmVQArikjvzwO6/cD75zSS77uSETna
+         IlxQ==
+X-Gm-Message-State: APjAAAWZicDMJHxQI3PGrA7dh433cCM5Zbe3KNHucUWKQPBkaC7fJNVs
+	6Vry7BcqCZ8biOauEzut2NRAu9b5wswkZSg92CQ=
+X-Google-Smtp-Source: APXvYqwu8RAEG/GfCwspQVXcqyHUFDiVbtyQi3KbN6Js5o/hpBIiz9qy1oztaeb2kuQUZlAaIqmYJnTjgKqjF86Ibl0=
+X-Received: by 2002:adf:9b83:: with SMTP id d3mr10835578wrc.54.1576220525683;
+ Thu, 12 Dec 2019 23:02:05 -0800 (PST)
+MIME-Version: 1.0
+From: CAR RENT IN GEORGIA <info.carrentingeorgia@gmail.com>
+Date: Fri, 13 Dec 2019 11:01:53 +0400
+Message-ID: <CAA0hQBdDE5bLJH50C58BNSPRmhxDa4XJAxvT_-iO5o_c-MkemQ@mail.gmail.com>
+Subject: car rent in Georgia
+To: undisclosed-recipients:;
+Content-Type: multipart/alternative; boundary="000000000000856e18059990703c"
+Bcc: info@tripplanner.ge
+X-Spam-Status: No, score=0.5
+X-Spam-Score: 5
+X-Spam-Bar: /
+X-Spam-Flag: NO
+
+--000000000000856e18059990703c
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: base64
+
+4YOb4YOd4YOS4YOU4YOh4YOQ4YOa4YOb4YOU4YOR4YOY4YOXLA0KDQoNCg0K4YOh4YOQ4YOh4YOi
+4YOj4YOb4YOg4YOd4YOU4YOR4YOhICwg4YOi4YOj4YOg4YOY4YOh4YOi4YOj4YOaIOGDoeGDkOGD
+kOGDkuGDlOGDnOGDouGDneGDlOGDkeGDoeGDkCDhg5Phg5Ag4YOS4YOY4YOT4YOU4YOR4YOhICwg
+4YOV4YOX4YOQ4YOV4YOQ4YOW4YOd4YOR4YOXIOGDoeGDnuGDlOGDquGDmOGDkOGDmuGDo+GDoCDh
+g6Hhg5Dhg5Dhg67hg5Dhg6zhg5rhg50gLQ0KMjAgJSDhg6Thg5Dhg6Hhg5Phg5Dhg5nhg5rhg5Th
+g5Hhg5Dhg6Eg4YOQ4YOV4YOi4YOdIOGDkuGDkOGDpeGDmOGDoOGDkOGDleGDlOGDkeGDmOGDk+GD
+kOGDnC4uDQoNCuGDqOGDlOGDoeGDl+GDkOGDleGDkOGDluGDlOGDlyDhg6nhg5Xhg5Thg5zhg5gg
+4YOb4YOd4YOb4YOh4YOQ4YOu4YOj4YOg4YOU4YOR4YOQIOGDl+GDpeGDleGDlOGDnOGDoSDhg6Lh
+g6Phg6Dhg5jhg6Hhg6Lhg5Thg5Hhg6EsIOGDkOGDnCDhg6Phg5Hhg6Dhg5Dhg5rhg53hg5Mg4YOg
+4YOU4YOZ4YOd4YOb4YOU4YOc4YOT4YOQ4YOq4YOY4YOY4YOQDQrhg5Lhg5Dhg6Phg6zhg5jhg53h
+g5cg4YOb4YOQ4YOXLCDhg5Phg5Ag4YOT4YOQ4YOv4YOQ4YOV4YOo4YOc4YOY4YOhIOGDqOGDlOGD
+m+GDl+GDruGDleGDlOGDleGDkOGDqOGDmCwg4YOT4YOQ4YOY4YOR4YOg4YOj4YOc4YOU4YOR4YOX
+IOGDpeGDlOGDqOGDkeGDlOGDpeGDmCDhg5fhg5Dhg5zhg67hg5jhg6EgLSAyMCAlICEuLg0KDQrh
+g5Dhg6Xhg6rhg5jhg5Ag4YOr4YOQ4YOa4YOQ4YOo4YOY4YOQOiAxMCDhg5Phg5Thg5nhg5Thg5vh
+g5Hhg6Dhg5jhg5Phg5Dhg5wgLTEwIOGDmOGDkOGDnOGDleGDoOGDkOGDm+GDk+GDlCAhDQoNCuGD
+qeGDleGDlOGDnOGDmCDhg6Phg57hg5jhg6Dhg5Dhg6Lhg5Thg6Hhg53hg5Hhg5Thg5Hhg5jhg5A6
+DQoNCjEuIOGDk+GDlOGDnuGDneGDluGDmOGDouGDoSDhg6zhg5jhg5zhg5Dhg6Hhg6zhg5Dhg6Ag
+4YOQ4YOgIOGDleGDmOGDpuGDlOGDkeGDlyAtIDAgIQ0KDQoyIC7hg6nhg5Xhg5Thg5zhg5gg4YOQ
+4YOV4YOi4YOdIOGDnuGDkOGDoOGDmeGDmCDhg5Dhg6Dhg5jhg6Eg4YOX4YOQ4YOc4YOQ4YOb4YOU
+4YOT4YOg4YOd4YOV4YOUIOGDk+GDkCDhg5Lhg5Dhg5vhg5Dhg6Dhg5fhg6Phg5rhg5ggOw0KDQoz
+LiDhg6fhg5Xhg5Thg5rhg5Ag4YOQ4YOV4YOi4YOd4YOb4YOd4YOR4YOY4YOa4YOYIOGDk+GDkOGD
+luGDpuGDleGDlOGDo+GDmuGDmOGDkCDhg6Hhg5Dhg5Phg5Dhg5bhg6bhg5Xhg5Thg5Xhg50g4YOZ
+4YOd4YOb4YOe4YOQ4YOc4YOY4YOQIEdQSSDhg5Lhg53hg5rhg5Mg4YOe4YOQ4YOZ4YOU4YOi4YOY
+4YOXIDEwMCAlIC0NCuGDpOGDoOGDkOGDnOGDqeGDmOGDluGDkOGDoSDhg5Lhg5Dhg6Dhg5Thg6jh
+g5QgLg0KDQo0LiDhg6nhg5Xhg5Thg5zhg5gg4YOQ4YOV4YOi4YOdIOGDnuGDkOGDoOGDmeGDmCDh
+g5Phg5jhg6Hhg5rhg53hg6rhg5jhg6Dhg5Thg5Hhg6Phg5rhg5jhg5Ag4YOh4YOQ4YOb4YOY4YOV
+4YOUIOGDpeGDkOGDmuGDkOGDpeGDqOGDmCAoIOGDl+GDkeGDmOGDmuGDmOGDoeGDmCwg4YOl4YOj
+4YOX4YOQ4YOY4YOh4YOYICzhg5Hhg5Dhg5fhg6Phg5vhg5gNCiApIOGDoOGDkOGDqiDhg5Dhg5Dh
+g5Phg5Xhg5jhg5rhg5Thg5Hhg6Eg4YOi4YOg4YOQ4YOc4YOh4YOe4YOd4YOg4YOi4YOY4YOhIOGD
+k+GDkOGDkuGDleGDmOGDkOGDnOGDlOGDkeGDmOGDoSDhg5Lhg5Dhg6Dhg5Thg6jhg5Qg4YOb4YOY
+4YOn4YOV4YOQ4YOc4YOQ4YOhIOGDkOGDnCDhg5vhg5jhg6Eg4YOp4YOQ4YOc4YOQ4YOq4YOV4YOa
+4YOU4YOR4YOQ4YOhDQrhg6Hhg5Dhg63hg5jhg6Dhg53hg5Thg5Hhg5jhg6Eg4YOo4YOU4YOb4YOX
+4YOu4YOV4YOU4YOV4YOQ4YOo4YOYIC4NCg0KNS7hg6Phg6Thg5Dhg6Hhg50g4YOe4YOQ4YOg4YOZ
+4YOY4YOg4YOU4YOR4YOQICgg4YOX4YOR4YOY4YOa4YOY4YOh4YOYL+GDpeGDo+GDl+GDkOGDmOGD
+oeGDmC/hg5Hhg5Dhg5fhg6Phg5vhg5gpDQoNCg0KDQrhg5Dhg5Xhg6Lhg53hg5vhg53hg5Hhg5jh
+g5rhg5Thg5Hhg5jhg6Eg4YOo4YOU4YOg4YOp4YOU4YOV4YOQIOGDk+GDkCDhg5Dhg6Hhg5Thg5Xh
+g5Qg4YOT4YOQ4YOv4YOQ4YOV4YOo4YOc4YOQIOGDqOGDlOGDoeGDkOGDq+GDmuGDlOGDkeGDlOGD
+muGDmOGDkCDhg6nhg5Xhg5Thg5zhg5gg4YOh4YOQ4YOY4YOi4YOY4YOhIOGDm+GDlOGDqOGDleGD
+lOGDneGDkeGDmOGDlw0KOiBodHRwczovL3d3dy5jYXJyZW50aW5nZW9yZ2lhLmdlL2thLw0KPGh0
+dHBzOi8vd3d3LmNhcnJlbnRpbmdlb3JnaWEuZ2Uva2EvP2ZiY2xpZD1Jd0FSMWZXWXBtSzgxSWhj
+Y3VZaldnRmFiNk5TNXpDN09pSThfUkRhVmNzbUxWWnJUeEtoUDRpaGJqWXFFPg0KDQrhg6Hhg67h
+g5Xhg5Ag4YOT4YOQ4YOb4YOQ4YOi4YOU4YOR4YOY4YOX4YOYIOGDqOGDlOGDmeGDmOGDl+GDruGD
+leGDlOGDkeGDmOGDoSDhg5Dhg5wg4YOT4YOQ4YOv4YOQ4YOV4YOo4YOc4YOY4YOhIOGDqOGDlOGD
+m+GDl+GDruGDleGDlOGDleGDkOGDqOGDmCDhg5Phg5Dhg5Lhg5Xhg5jhg5nhg5Dhg5Xhg6jhg5jh
+g6Dhg5Phg5jhg5cgOg0KDQrhg6rhg67hg5Thg5og4YOu4YOQ4YOW4YOYIDogNTU1IDUzIDQ5IDQ5
+IOGDmuGDkOGDqOGDkCAvIDU3NyAxMDggMDE3IOGDmOGDoOGDkOGDmeGDmuGDmA0KDQoNCg0K4YOe
+4YOQ4YOi4YOY4YOV4YOY4YOh4YOq4YOU4YOb4YOY4YOXICwNCg0K4YOQ4YOV4YOi4YOdLeGDkuGD
+kOGDpeGDmOGDoOGDkOGDleGDlOGDkeGDmOGDoSDhg5nhg53hg5vhg57hg5Dhg5zhg5jhg5AgLCwg
+Q2FyIFJlbnQgSW4gR2VvcmdpYSDigJwNCg0K4YOb4YOY4YOhIC4g4YOl4YOj4YOX4YOQ4YOY4YOh
+4YOYLCAg4YOs4YOU4YOg4YOU4YOX4YOa4YOY4YOhIOGDpS4gNjcNCg0K4YOi4YOU4YOaL+GDm+GD
+neGDkTogV2hhdHNBcC9WaWJlciA6ICAgKzk5NSA1NTUgNTMgNDkgNDkgLyArOTk1IDU3NyAxMCA4
+MCAxNw0KDQp3d3cuY2FycmVudGluZ2VvcmdpYS5nZQ0KDQoNCi0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0NCg0KQmVzdCBSZWdhcmRzLA0KDQosLCBDYXIgUmVudCBJbiBHZW9yZ2lhIOKAnA0K
+DQpBZGRyZXNzIDogS3V0YWljaSAvR2VvcmdpYSA0NjAwIFRzZXJldGVsaSBTdHIuIDY3DQoNClRl
+bGwvTW9iOldoYXRzQXAvVmliZXIgOiArOTk1IDU1NSA1MyA0OSA0OSAgLyArOTk1IDU5MyA3MSA1
+NiAyNQ0KDQp3d3cuY2FycmVudGluZ2VvcmdpYS5nZQ0K
+--000000000000856e18059990703c
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;ba=
+ckground-image:initial;background-position:initial;background-size:initial;=
+background-repeat:initial;background-origin:initial;background-clip:initial=
+;font-size:11pt;font-family:Calibri,sans-serif"><span lang=3D"EN-US" style=
+=3D"font-size:12pt;font-family:Sylfaen,serif">=E1=83=9B=E1=83=9D=E1=83=92=
+=E1=83=94=E1=83=A1=E1=83=90=E1=83=9A=E1=83=9B=E1=83=94=E1=83=91=E1=83=98=E1=
+=83=97</span><span lang=3D"EN-US" style=3D"font-size:12pt;font-family:Arial=
+,sans-serif">,=C2=A0</span></p><p class=3D"MsoNormal" style=3D"margin:0cm 0=
+cm 0.0001pt;background-image:initial;background-position:initial;background=
+-size:initial;background-repeat:initial;background-origin:initial;backgroun=
+d-clip:initial;font-size:11pt;font-family:Calibri,sans-serif"><span style=
+=3D"font-size:12pt;font-family:Sylfaen,serif">=C2=A0</span></p><p class=3D"=
+MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:29.3333px;backgroun=
+d-image:initial;background-position:initial;background-size:initial;backgro=
+und-repeat:initial;background-origin:initial;background-clip:initial;font-s=
+ize:11pt;font-family:Calibri,sans-serif"><span lang=3D"EN-US" style=3D"font=
+-size:10.5pt;line-height:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)=
+">=E1=83=A1=E1=83=90=E1=83=A1=E1=83=A2=E1=83=A3=E1=83=9B=E1=83=A0=E1=83=9D=
+=E1=83=94=E1=83=91=E1=83=A1</span><span lang=3D"EN-US" style=3D"font-size:1=
+0.5pt;line-height:28px;font-family:inherit;color:rgb(29,33,41)">=C2=A0,=C2=
+=A0</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;f=
+ont-family:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=A2=E1=83=A3=E1=83=A0=
+=E1=83=98=E1=83=A1=E1=83=A2=E1=83=A3=E1=83=9A</span><span lang=3D"EN-US" st=
+yle=3D"font-size:10.5pt;line-height:28px;font-family:inherit;color:rgb(29,3=
+3,41)">=C2=A0</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-hei=
+ght:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=A1=E1=83=90=
+=E1=83=90=E1=83=92=E1=83=94=E1=83=9C=E1=83=A2=E1=83=9D=E1=83=94=E1=83=91=E1=
+=83=A1</span><span style=3D"font-size:10.5pt;line-height:28px;font-family:S=
+ylfaen,serif;color:rgb(29,33,41)">=E1=83=90 =E1=83=93=E1=83=90 =E1=83=92=E1=
+=83=98=E1=83=93=E1=83=94=E1=83=91=E1=83=A1 ,=C2=A0</span><span lang=3D"EN-U=
+S" style=3D"font-size:10.5pt;line-height:28px;font-family:Sylfaen,serif;col=
+or:rgb(29,33,41)">=E1=83=95=E1=83=97=E1=83=90=E1=83=95=E1=83=90=E1=83=96=E1=
+=83=9D=E1=83=91=E1=83=97</span><span lang=3D"EN-US" style=3D"font-size:10.5=
+pt;line-height:28px;font-family:inherit;color:rgb(29,33,41)">=C2=A0</span><=
+span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:=
+Sylfaen,serif;color:rgb(29,33,41)">=E1=83=A1=E1=83=9E=E1=83=94=E1=83=AA=E1=
+=83=98=E1=83=90=E1=83=9A=E1=83=A3=E1=83=A0</span><span lang=3D"EN-US" style=
+=3D"font-size:10.5pt;line-height:28px;font-family:inherit;color:rgb(29,33,4=
+1)">=C2=A0</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height=
+:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=A1=E1=83=90=E1=
+=83=90=E1=83=AE=E1=83=90=E1=83=AC=E1=83=9A=E1=83=9D</span><span lang=3D"EN-=
+US" style=3D"font-size:10.5pt;line-height:28px;font-family:inherit;color:rg=
+b(29,33,41)">=C2=A0- 20 %=C2=A0</span><span lang=3D"EN-US" style=3D"font-si=
+ze:10.5pt;line-height:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)">=
+=E1=83=A4=E1=83=90=E1=83=A1=E1=83=93=E1=83=90=E1=83=99=E1=83=9A=E1=83=94=E1=
+=83=91=E1=83=90=E1=83=A1</span><span lang=3D"EN-US" style=3D"font-size:10.5=
+pt;line-height:28px;font-family:inherit;color:rgb(29,33,41)">=C2=A0</span><=
+span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:=
+Sylfaen,serif;color:rgb(29,33,41)">=E1=83=90=E1=83=95=E1=83=A2=E1=83=9D</sp=
+an><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-fam=
+ily:inherit;color:rgb(29,33,41)">=C2=A0</span><span lang=3D"EN-US" style=3D=
+"font-size:10.5pt;line-height:28px;font-family:Sylfaen,serif;color:rgb(29,3=
+3,41)">=E1=83=92=E1=83=90=E1=83=A5=E1=83=98=E1=83=A0=E1=83=90=E1=83=95=E1=
+=83=94=E1=83=91=E1=83=98=E1=83=93=E1=83=90=E1=83=9C</span><span lang=3D"EN-=
+US" style=3D"font-size:10.5pt;line-height:28px;font-family:inherit;color:rg=
+b(29,33,41)">..</span></p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.=
+0001pt;line-height:29.3333px;background-image:initial;background-position:i=
+nitial;background-size:initial;background-repeat:initial;background-origin:=
+initial;background-clip:initial;font-size:11pt;font-family:Calibri,sans-ser=
+if"><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-fa=
+mily:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=A8=E1=83=94=E1=83=A1=E1=83=
+=97=E1=83=90=E1=83=95=E1=83=90=E1=83=96</span><span style=3D"font-size:10.5=
+pt;line-height:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=
+=94</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;f=
+ont-family:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=97</span><span lang=3D=
+"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:inherit;colo=
+r:rgb(29,33,41)">=C2=A0</span><span lang=3D"EN-US" style=3D"font-size:10.5p=
+t;line-height:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=A9=
+=E1=83=95=E1=83=94=E1=83=9C=E1=83=98</span><span lang=3D"EN-US" style=3D"fo=
+nt-size:10.5pt;line-height:28px;font-family:inherit;color:rgb(29,33,41)">=
+=C2=A0</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28p=
+x;font-family:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=9B=E1=83=9D=E1=83=
+=9B=E1=83=A1=E1=83=90=E1=83=AE=E1=83=A3=E1=83=A0=E1=83=94=E1=83=91=E1=83=90=
+</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font=
+-family:inherit;color:rgb(29,33,41)">=C2=A0</span><span lang=3D"EN-US" styl=
+e=3D"font-size:10.5pt;line-height:28px;font-family:Sylfaen,serif;color:rgb(=
+29,33,41)">=E1=83=97=E1=83=A5=E1=83=95=E1=83=94=E1=83=9C=E1=83=A1</span><sp=
+an lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:in=
+herit;color:rgb(29,33,41)">=C2=A0</span><span lang=3D"EN-US" style=3D"font-=
+size:10.5pt;line-height:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)"=
+>=E1=83=A2=E1=83=A3=E1=83=A0=E1=83=98=E1=83=A1=E1=83=A2=E1=83=94=E1=83=91=
+=E1=83=A1</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:=
+28px;font-family:inherit;color:rgb(29,33,41)">,=C2=A0</span><span lang=3D"E=
+N-US" style=3D"font-size:10.5pt;line-height:28px;font-family:Sylfaen,serif;=
+color:rgb(29,33,41)">=E1=83=90=E1=83=9C</span><span lang=3D"EN-US" style=3D=
+"font-size:10.5pt;line-height:28px;font-family:inherit;color:rgb(29,33,41)"=
+>=C2=A0</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28=
+px;font-family:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=A3=E1=83=91=E1=83=
+=A0=E1=83=90=E1=83=9A=E1=83=9D=E1=83=93</span><span lang=3D"EN-US" style=3D=
+"font-size:10.5pt;line-height:28px;font-family:inherit;color:rgb(29,33,41)"=
+>=C2=A0</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28=
+px;font-family:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=A0=E1=83=94=E1=83=
+=99=E1=83=9D=E1=83=9B=E1=83=94=E1=83=9C=E1=83=93=E1=83=90=E1=83=AA=E1=83=98=
+=E1=83=98=E1=83=90</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;lin=
+e-height:28px;font-family:inherit;color:rgb(29,33,41)">=C2=A0</span><span l=
+ang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:Sylfae=
+n,serif;color:rgb(29,33,41)">=E1=83=92=E1=83=90=E1=83=A3=E1=83=AC=E1=83=98=
+=E1=83=9D=E1=83=97</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;lin=
+e-height:28px;font-family:inherit;color:rgb(29,33,41)">=C2=A0</span><span l=
+ang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:Sylfae=
+n,serif;color:rgb(29,33,41)">=E1=83=9B=E1=83=90=E1=83=97</span><span lang=
+=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:inherit;c=
+olor:rgb(29,33,41)">,=C2=A0</span><span lang=3D"EN-US" style=3D"font-size:1=
+0.5pt;line-height:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)">=E1=
+=83=93=E1=83=90</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-h=
+eight:28px;font-family:inherit;color:rgb(29,33,41)">=C2=A0</span><span lang=
+=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:Sylfaen,s=
+erif;color:rgb(29,33,41)">=E1=83=93=E1=83=90=E1=83=AF=E1=83=90=E1=83=95=E1=
+=83=A8=E1=83=9C=E1=83=98=E1=83=A1</span><span lang=3D"EN-US" style=3D"font-=
+size:10.5pt;line-height:28px;font-family:inherit;color:rgb(29,33,41)">=C2=
+=A0</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;f=
+ont-family:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=A8=E1=83=94=E1=83=9B=
+=E1=83=97=E1=83=AE=E1=83=95=E1=83=94=E1=83=95=E1=83=90=E1=83=A8=E1=83=98</s=
+pan><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-fa=
+mily:inherit;color:rgb(29,33,41)">,=C2=A0</span><span lang=3D"EN-US" style=
+=3D"font-size:10.5pt;line-height:28px;font-family:Sylfaen,serif;color:rgb(2=
+9,33,41)">=E1=83=93=E1=83=90=E1=83=98=E1=83=91=E1=83=A0=E1=83=A3=E1=83=9C=
+=E1=83=94=E1=83=91=E1=83=97</span><span lang=3D"EN-US" style=3D"font-size:1=
+0.5pt;line-height:28px;font-family:inherit;color:rgb(29,33,41)">=C2=A0</spa=
+n><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-fami=
+ly:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=A5=E1=83=94=E1=83=A8=E1=83=91=
+=E1=83=94=E1=83=A5=E1=83=98</span><span lang=3D"EN-US" style=3D"font-size:1=
+0.5pt;line-height:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)">=C2=
+=A0</span><span style=3D"font-size:10.5pt;line-height:28px;font-family:Sylf=
+aen,serif;color:rgb(29,33,41)">=E1=83=97=E1=83=90=E1=83=9C=E1=83=AE=E1=83=
+=98=E1=83=A1 - 20 %</span><span style=3D"font-size:10.5pt;line-height:28px;=
+font-family:inherit;color:rgb(29,33,41)">=C2=A0<span lang=3D"EN-US">!..</sp=
+an></span></p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-=
+height:29.3333px;background-image:initial;background-position:initial;backg=
+round-size:initial;background-repeat:initial;background-origin:initial;back=
+ground-clip:initial;font-size:11pt;font-family:Calibri,sans-serif"><span la=
+ng=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:Sylfaen=
+,serif;color:rgb(29,33,41)">=E1=83=90=E1=83=A5=E1=83=AA=E1=83=98=E1=83=90</=
+span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-f=
+amily:inherit;color:rgb(29,33,41)">=C2=A0</span><span lang=3D"EN-US" style=
+=3D"font-size:10.5pt;line-height:28px;font-family:Sylfaen,serif;color:rgb(2=
+9,33,41)">=E1=83=AB=E1=83=90=E1=83=9A=E1=83=90=E1=83=A8=E1=83=98=E1=83=90</=
+span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-f=
+amily:inherit;color:rgb(29,33,41)">: 10=C2=A0</span><span lang=3D"EN-US" st=
+yle=3D"font-size:10.5pt;line-height:28px;font-family:Sylfaen,serif;color:rg=
+b(29,33,41)">=E1=83=93=E1=83=94=E1=83=99=E1=83=94=E1=83=9B=E1=83=91=E1=83=
+=A0=E1=83=98=E1=83=93=E1=83=90=E1=83=9C</span><span lang=3D"EN-US" style=3D=
+"font-size:10.5pt;line-height:28px;font-family:inherit;color:rgb(29,33,41)"=
+>=C2=A0-10=C2=A0</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-=
+height:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=98=E1=83=
+=90=E1=83=9C=E1=83=95=E1=83=A0=E1=83=90=E1=83=9B=E1=83=93=E1=83=94</span><s=
+pan lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:i=
+nherit;color:rgb(29,33,41)">=C2=A0!</span></p><p class=3D"MsoNormal" style=
+=3D"margin:0cm 0cm 0.0001pt;line-height:29.3333px;background-image:initial;=
+background-position:initial;background-size:initial;background-repeat:initi=
+al;background-origin:initial;background-clip:initial;font-size:11pt;font-fa=
+mily:Calibri,sans-serif"><span lang=3D"EN-US" style=3D"font-size:10.5pt;lin=
+e-height:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=A9=E1=
+=83=95=E1=83=94=E1=83=9C=E1=83=98</span><span lang=3D"EN-US" style=3D"font-=
+size:10.5pt;line-height:28px;font-family:inherit;color:rgb(29,33,41)">=C2=
+=A0</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;f=
+ont-family:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=A3=E1=83=9E=E1=83=98=
+=E1=83=A0=E1=83=90=E1=83=A2=E1=83=94=E1=83=A1=E1=83=9D=E1=83=91=E1=83=94=E1=
+=83=91=E1=83=98=E1=83=90</span><span lang=3D"EN-US" style=3D"font-size:10.5=
+pt;line-height:28px;font-family:inherit;color:rgb(29,33,41)">:</span></p><p=
+ class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:29.3333px=
+;background-image:initial;background-position:initial;background-size:initi=
+al;background-repeat:initial;background-origin:initial;background-clip:init=
+ial;font-size:11pt;font-family:Calibri,sans-serif"><span lang=3D"EN-US" sty=
+le=3D"font-size:10.5pt;line-height:28px;font-family:inherit;color:rgb(29,33=
+,41)">1.=C2=A0</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-he=
+ight:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=93=E1=83=94=
+=E1=83=9E=E1=83=9D=E1=83=96=E1=83=98=E1=83=A2=E1=83=A1</span><span lang=3D"=
+EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:inherit;color=
+:rgb(29,33,41)">=C2=A0</span><span lang=3D"EN-US" style=3D"font-size:10.5pt=
+;line-height:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=AC=
+=E1=83=98=E1=83=9C=E1=83=90=E1=83=A1=E1=83=AC=E1=83=90=E1=83=A0</span><span=
+ lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:inhe=
+rit;color:rgb(29,33,41)">=C2=A0</span><span lang=3D"EN-US" style=3D"font-si=
+ze:10.5pt;line-height:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)">=
+=E1=83=90=E1=83=A0</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;lin=
+e-height:28px;font-family:inherit;color:rgb(29,33,41)">=C2=A0</span><span l=
+ang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:Sylfae=
+n,serif;color:rgb(29,33,41)">=E1=83=95=E1=83=98=E1=83=A6=E1=83=94=E1=83=91=
+=E1=83=97</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:=
+28px;font-family:inherit;color:rgb(29,33,41)">=C2=A0- 0 !</span></p><p clas=
+s=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:29.3333px;back=
+ground-image:initial;background-position:initial;background-size:initial;ba=
+ckground-repeat:initial;background-origin:initial;background-clip:initial;f=
+ont-size:11pt;font-family:Calibri,sans-serif"><span lang=3D"EN-US" style=3D=
+"font-size:10.5pt;line-height:28px;font-family:inherit;color:rgb(29,33,41)"=
+>2 .</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;=
+font-family:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=A9=E1=83=95=E1=83=94=
+=E1=83=9C=E1=83=98</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;lin=
+e-height:28px;font-family:inherit;color:rgb(29,33,41)">=C2=A0</span><span l=
+ang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:Sylfae=
+n,serif;color:rgb(29,33,41)">=E1=83=90=E1=83=95=E1=83=A2=E1=83=9D</span><sp=
+an lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:in=
+herit;color:rgb(29,33,41)">=C2=A0</span><span lang=3D"EN-US" style=3D"font-=
+size:10.5pt;line-height:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)"=
+>=E1=83=9E=E1=83=90=E1=83=A0=E1=83=99=E1=83=98</span><span lang=3D"EN-US" s=
+tyle=3D"font-size:10.5pt;line-height:28px;font-family:inherit;color:rgb(29,=
+33,41)">=C2=A0</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-he=
+ight:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=90=E1=83=A0=
+=E1=83=98=E1=83=A1</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;lin=
+e-height:28px;font-family:inherit;color:rgb(29,33,41)">=C2=A0</span><span l=
+ang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:Sylfae=
+n,serif;color:rgb(29,33,41)">=E1=83=97=E1=83=90=E1=83=9C=E1=83=90=E1=83=9B=
+=E1=83=94=E1=83=93=E1=83=A0=E1=83=9D=E1=83=95=E1=83=94</span><span lang=3D"=
+EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:inherit;color=
+:rgb(29,33,41)">=C2=A0</span><span lang=3D"EN-US" style=3D"font-size:10.5pt=
+;line-height:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=93=
+=E1=83=90</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:=
+28px;font-family:inherit;color:rgb(29,33,41)">=C2=A0</span><span lang=3D"EN=
+-US" style=3D"font-size:10.5pt;line-height:28px;font-family:Sylfaen,serif;c=
+olor:rgb(29,33,41)">=E1=83=92=E1=83=90=E1=83=9B=E1=83=90=E1=83=A0=E1=83=97=
+=E1=83=A3=E1=83=9A=E1=83=98</span><span lang=3D"EN-US" style=3D"font-size:1=
+0.5pt;line-height:28px;font-family:inherit;color:rgb(29,33,41)">=C2=A0;</sp=
+an></p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:=
+29.3333px;background-image:initial;background-position:initial;background-s=
+ize:initial;background-repeat:initial;background-origin:initial;background-=
+clip:initial;font-size:11pt;font-family:Calibri,sans-serif"><span lang=3D"E=
+N-US" style=3D"font-size:10.5pt;line-height:28px;font-family:inherit;color:=
+rgb(29,33,41)">3.=C2=A0</span><span lang=3D"EN-US" style=3D"font-size:10.5p=
+t;line-height:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=A7=
+=E1=83=95=E1=83=94=E1=83=9A=E1=83=90</span><span lang=3D"EN-US" style=3D"fo=
+nt-size:10.5pt;line-height:28px;font-family:inherit;color:rgb(29,33,41)">=
+=C2=A0</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28p=
+x;font-family:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=90=E1=83=95=E1=83=
+=A2=E1=83=9D=E1=83=9B=E1=83=9D=E1=83=91=E1=83=98=E1=83=9A=E1=83=98</span><s=
+pan lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:i=
+nherit;color:rgb(29,33,41)">=C2=A0</span><span lang=3D"EN-US" style=3D"font=
+-size:10.5pt;line-height:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)=
+">=E1=83=93=E1=83=90=E1=83=96=E1=83=A6=E1=83=95=E1=83=94=E1=83=A3=E1=83=9A=
+=E1=83=98=E1=83=90</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;lin=
+e-height:28px;font-family:inherit;color:rgb(29,33,41)">=C2=A0</span><span l=
+ang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:Sylfae=
+n,serif;color:rgb(29,33,41)">=E1=83=A1=E1=83=90=E1=83=93=E1=83=90=E1=83=96=
+=E1=83=A6=E1=83=95=E1=83=94=E1=83=95=E1=83=9D</span><span lang=3D"EN-US" st=
+yle=3D"font-size:10.5pt;line-height:28px;font-family:inherit;color:rgb(29,3=
+3,41)">=C2=A0</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-hei=
+ght:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=99=E1=83=9D=
+=E1=83=9B=E1=83=9E=E1=83=90=E1=83=9C=E1=83=98=E1=83=90</span><span lang=3D"=
+EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:inherit;color=
+:rgb(29,33,41)">=C2=A0GPI=C2=A0</span><span lang=3D"EN-US" style=3D"font-si=
+ze:10.5pt;line-height:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)">=
+=E1=83=92=E1=83=9D=E1=83=9A=E1=83=93</span><span lang=3D"EN-US" style=3D"fo=
+nt-size:10.5pt;line-height:28px;font-family:inherit;color:rgb(29,33,41)">=
+=C2=A0</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28p=
+x;font-family:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=9E=E1=83=90=E1=83=
+=99=E1=83=94=E1=83=A2=E1=83=98=E1=83=97</span><span lang=3D"EN-US" style=3D=
+"font-size:10.5pt;line-height:28px;font-family:inherit;color:rgb(29,33,41)"=
+>=C2=A0100 % -=C2=A0</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;l=
+ine-height:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=A4=E1=
+=83=A0=E1=83=90=E1=83=9C=E1=83=A9=E1=83=98=E1=83=96=E1=83=90=E1=83=A1</span=
+><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-famil=
+y:inherit;color:rgb(29,33,41)">=C2=A0</span><span lang=3D"EN-US" style=3D"f=
+ont-size:10.5pt;line-height:28px;font-family:Sylfaen,serif;color:rgb(29,33,=
+41)">=E1=83=92=E1=83=90=E1=83=A0=E1=83=94=E1=83=A8=E1=83=94</span><span lan=
+g=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:inherit;=
+color:rgb(29,33,41)">=C2=A0.</span></p><p class=3D"MsoNormal" style=3D"marg=
+in:0cm 0cm 0.0001pt;line-height:29.3333px;background-image:initial;backgrou=
+nd-position:initial;background-size:initial;background-repeat:initial;backg=
+round-origin:initial;background-clip:initial;font-size:11pt;font-family:Cal=
+ibri,sans-serif"><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height=
+:28px;font-family:inherit;color:rgb(29,33,41)">4.=C2=A0</span><span lang=3D=
+"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:Sylfaen,seri=
+f;color:rgb(29,33,41)">=E1=83=A9=E1=83=95=E1=83=94=E1=83=9C=E1=83=98</span>=
+<span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family=
+:inherit;color:rgb(29,33,41)">=C2=A0</span><span lang=3D"EN-US" style=3D"fo=
+nt-size:10.5pt;line-height:28px;font-family:Sylfaen,serif;color:rgb(29,33,4=
+1)">=E1=83=90=E1=83=95=E1=83=A2=E1=83=9D</span><span lang=3D"EN-US" style=
+=3D"font-size:10.5pt;line-height:28px;font-family:inherit;color:rgb(29,33,4=
+1)">=C2=A0</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height=
+:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=9E=E1=83=90=E1=
+=83=A0=E1=83=99=E1=83=98</span><span lang=3D"EN-US" style=3D"font-size:10.5=
+pt;line-height:28px;font-family:inherit;color:rgb(29,33,41)">=C2=A0</span><=
+span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:=
+Sylfaen,serif;color:rgb(29,33,41)">=E1=83=93=E1=83=98=E1=83=A1=E1=83=9A=E1=
+=83=9D=E1=83=AA=E1=83=98=E1=83=A0=E1=83=94=E1=83=91=E1=83=A3=E1=83=9A=E1=83=
+=98=E1=83=90</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-heig=
+ht:28px;font-family:inherit;color:rgb(29,33,41)">=C2=A0</span><span lang=3D=
+"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:Sylfaen,seri=
+f;color:rgb(29,33,41)">=E1=83=A1=E1=83=90=E1=83=9B=E1=83=98=E1=83=95=E1=83=
+=94</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;f=
+ont-family:inherit;color:rgb(29,33,41)">=C2=A0</span><span lang=3D"EN-US" s=
+tyle=3D"font-size:10.5pt;line-height:28px;font-family:Sylfaen,serif;color:r=
+gb(29,33,41)">=E1=83=A5=E1=83=90=E1=83=9A=E1=83=90=E1=83=A5=E1=83=A8=E1=83=
+=98</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;f=
+ont-family:inherit;color:rgb(29,33,41)">=C2=A0(=C2=A0</span><span lang=3D"E=
+N-US" style=3D"font-size:10.5pt;line-height:28px;font-family:Sylfaen,serif;=
+color:rgb(29,33,41)">=E1=83=97=E1=83=91=E1=83=98=E1=83=9A=E1=83=98=E1=83=A1=
+=E1=83=98</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:=
+28px;font-family:inherit;color:rgb(29,33,41)">,=C2=A0</span><span lang=3D"E=
+N-US" style=3D"font-size:10.5pt;line-height:28px;font-family:Sylfaen,serif;=
+color:rgb(29,33,41)">=E1=83=A5=E1=83=A3=E1=83=97=E1=83=90=E1=83=98=E1=83=A1=
+=E1=83=98</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:=
+28px;font-family:inherit;color:rgb(29,33,41)">=C2=A0,</span><span lang=3D"E=
+N-US" style=3D"font-size:10.5pt;line-height:28px;font-family:Sylfaen,serif;=
+color:rgb(29,33,41)">=E1=83=91=E1=83=90=E1=83=97=E1=83=A3=E1=83=9B=E1=83=98=
+</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font=
+-family:inherit;color:rgb(29,33,41)">=C2=A0)=C2=A0</span><span lang=3D"EN-U=
+S" style=3D"font-size:10.5pt;line-height:28px;font-family:Sylfaen,serif;col=
+or:rgb(29,33,41)">=E1=83=A0=E1=83=90=E1=83=AA</span><span lang=3D"EN-US" st=
+yle=3D"font-size:10.5pt;line-height:28px;font-family:inherit;color:rgb(29,3=
+3,41)">=C2=A0</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-hei=
+ght:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=90=E1=83=90=
+=E1=83=93=E1=83=95=E1=83=98=E1=83=9A=E1=83=94=E1=83=91=E1=83=A1</span><span=
+ lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:inhe=
+rit;color:rgb(29,33,41)">=C2=A0</span><span lang=3D"EN-US" style=3D"font-si=
+ze:10.5pt;line-height:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)">=
+=E1=83=A2=E1=83=A0=E1=83=90=E1=83=9C=E1=83=A1=E1=83=9E=E1=83=9D=E1=83=A0=E1=
+=83=A2=E1=83=98=E1=83=A1</span><span lang=3D"EN-US" style=3D"font-size:10.5=
+pt;line-height:28px;font-family:inherit;color:rgb(29,33,41)">=C2=A0</span><=
+span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:=
+Sylfaen,serif;color:rgb(29,33,41)">=E1=83=93=E1=83=90=E1=83=92=E1=83=95=E1=
+=83=98=E1=83=90=E1=83=9C=E1=83=94=E1=83=91=E1=83=98=E1=83=A1</span><span la=
+ng=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:inherit=
+;color:rgb(29,33,41)">=C2=A0</span><span lang=3D"EN-US" style=3D"font-size:=
+10.5pt;line-height:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)">=E1=
+=83=92=E1=83=90=E1=83=A0=E1=83=94=E1=83=A8=E1=83=94</span><span lang=3D"EN-=
+US" style=3D"font-size:10.5pt;line-height:28px;font-family:inherit;color:rg=
+b(29,33,41)">=C2=A0</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;li=
+ne-height:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=9B=E1=
+=83=98=E1=83=A7=E1=83=95=E1=83=90=E1=83=9C=E1=83=90=E1=83=A1</span><span la=
+ng=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:inherit=
+;color:rgb(29,33,41)">=C2=A0</span><span lang=3D"EN-US" style=3D"font-size:=
+10.5pt;line-height:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)">=E1=
+=83=90=E1=83=9C</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-h=
+eight:28px;font-family:inherit;color:rgb(29,33,41)">=C2=A0</span><span lang=
+=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:Sylfaen,s=
+erif;color:rgb(29,33,41)">=E1=83=9B=E1=83=98=E1=83=A1</span><span lang=3D"E=
+N-US" style=3D"font-size:10.5pt;line-height:28px;font-family:inherit;color:=
+rgb(29,33,41)">=C2=A0</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;=
+line-height:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=A9=
+=E1=83=90=E1=83=9C=E1=83=90=E1=83=AA=E1=83=95=E1=83=9A=E1=83=94=E1=83=91=E1=
+=83=90=E1=83=A1</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-h=
+eight:28px;font-family:inherit;color:rgb(29,33,41)">=C2=A0</span><span lang=
+=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:Sylfaen,s=
+erif;color:rgb(29,33,41)">=E1=83=A1=E1=83=90=E1=83=AD=E1=83=98=E1=83=A0=E1=
+=83=9D=E1=83=94=E1=83=91=E1=83=98=E1=83=A1</span><span lang=3D"EN-US" style=
+=3D"font-size:10.5pt;line-height:28px;font-family:inherit;color:rgb(29,33,4=
+1)">=C2=A0</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height=
+:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=A8=E1=83=94=E1=
+=83=9B=E1=83=97=E1=83=AE=E1=83=95=E1=83=94=E1=83=95=E1=83=90=E1=83=A8=E1=83=
+=98</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;f=
+ont-family:inherit;color:rgb(29,33,41)">=C2=A0.</span></p><p class=3D"MsoNo=
+rmal" style=3D"margin:0cm 0cm 0.0001pt;line-height:29.3333px;background-ima=
+ge:initial;background-position:initial;background-size:initial;background-r=
+epeat:initial;background-origin:initial;background-clip:initial;font-size:1=
+1pt;font-family:Calibri,sans-serif"><span lang=3D"EN-US" style=3D"font-size=
+:10.5pt;line-height:28px;font-family:inherit;color:rgb(29,33,41)">5.</span>=
+<span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family=
+:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=A3=E1=83=A4=E1=83=90=E1=83=A1=E1=
+=83=9D</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28p=
+x;font-family:inherit;color:rgb(29,33,41)">=C2=A0</span><span lang=3D"EN-US=
+" style=3D"font-size:10.5pt;line-height:28px;font-family:Sylfaen,serif;colo=
+r:rgb(29,33,41)">=E1=83=9E=E1=83=90=E1=83=A0=E1=83=99=E1=83=98=E1=83=A0=E1=
+=83=94=E1=83=91=E1=83=90</span><span lang=3D"EN-US" style=3D"font-size:10.5=
+pt;line-height:28px;font-family:inherit;color:rgb(29,33,41)">=C2=A0(=C2=A0<=
+/span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-=
+family:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=97=E1=83=91=E1=83=98=E1=83=
+=9A=E1=83=98=E1=83=A1=E1=83=98</span><span lang=3D"EN-US" style=3D"font-siz=
+e:10.5pt;line-height:28px;font-family:inherit;color:rgb(29,33,41)">/</span>=
+<span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family=
+:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=A5=E1=83=A3=E1=83=97=E1=83=90=E1=
+=83=98=E1=83=A1=E1=83=98</span><span lang=3D"EN-US" style=3D"font-size:10.5=
+pt;line-height:28px;font-family:inherit;color:rgb(29,33,41)">/</span><span =
+lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:Sylfa=
+en,serif;color:rgb(29,33,41)">=E1=83=91=E1=83=90=E1=83=97=E1=83=A3=E1=83=9B=
+=E1=83=98</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:=
+28px;font-family:inherit;color:rgb(29,33,41)">)</span></p><p class=3D"MsoNo=
+rmal" style=3D"margin:0cm 0cm 0.0001pt;line-height:29.3333px;background-ima=
+ge:initial;background-position:initial;background-size:initial;background-r=
+epeat:initial;background-origin:initial;background-clip:initial;font-size:1=
+1pt;font-family:Calibri,sans-serif"><span lang=3D"EN-US" style=3D"font-size=
+:10.5pt;line-height:28px;font-family:inherit;color:rgb(29,33,41)">=C2=A0</s=
+pan></p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height=
+:29.3333px;background-image:initial;background-position:initial;background-=
+size:initial;background-repeat:initial;background-origin:initial;background=
+-clip:initial;font-size:11pt;font-family:Calibri,sans-serif"><span lang=3D"=
+EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:Sylfaen,serif=
+;color:rgb(29,33,41)">=E1=83=90=E1=83=95=E1=83=A2=E1=83=9D=E1=83=9B=E1=83=
+=9D=E1=83=91=E1=83=98=E1=83=9A=E1=83=94=E1=83=91=E1=83=98=E1=83=A1</span><s=
+pan lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:i=
+nherit;color:rgb(29,33,41)">=C2=A0</span><span lang=3D"EN-US" style=3D"font=
+-size:10.5pt;line-height:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)=
+">=E1=83=A8=E1=83=94=E1=83=A0=E1=83=A9=E1=83=94=E1=83=95=E1=83=90</span><sp=
+an lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:in=
+herit;color:rgb(29,33,41)">=C2=A0</span><span lang=3D"EN-US" style=3D"font-=
+size:10.5pt;line-height:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)"=
+>=E1=83=93=E1=83=90</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;li=
+ne-height:28px;font-family:inherit;color:rgb(29,33,41)">=C2=A0</span><span =
+lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:Sylfa=
+en,serif;color:rgb(29,33,41)">=E1=83=90=E1=83=A1=E1=83=94=E1=83=95=E1=83=94=
+</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font=
+-family:inherit;color:rgb(29,33,41)">=C2=A0</span><span lang=3D"EN-US" styl=
+e=3D"font-size:10.5pt;line-height:28px;font-family:Sylfaen,serif;color:rgb(=
+29,33,41)">=E1=83=93=E1=83=90=E1=83=AF=E1=83=90=E1=83=95=E1=83=A8=E1=83=9C=
+=E1=83=90</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:=
+28px;font-family:inherit;color:rgb(29,33,41)">=C2=A0</span><span lang=3D"EN=
+-US" style=3D"font-size:10.5pt;line-height:28px;font-family:Sylfaen,serif;c=
+olor:rgb(29,33,41)">=E1=83=A8=E1=83=94=E1=83=A1=E1=83=90=E1=83=AB=E1=83=9A=
+=E1=83=94=E1=83=91=E1=83=94=E1=83=9A=E1=83=98=E1=83=90</span><span lang=3D"=
+EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:inherit;color=
+:rgb(29,33,41)">=C2=A0</span><span lang=3D"EN-US" style=3D"font-size:10.5pt=
+;line-height:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=A9=
+=E1=83=95=E1=83=94=E1=83=9C=E1=83=98</span><span lang=3D"EN-US" style=3D"fo=
+nt-size:10.5pt;line-height:28px;font-family:inherit;color:rgb(29,33,41)">=
+=C2=A0</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28p=
+x;font-family:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=A1=E1=83=90=E1=83=
+=98=E1=83=A2=E1=83=98=E1=83=A1</span><span lang=3D"EN-US" style=3D"font-siz=
+e:10.5pt;line-height:28px;font-family:inherit;color:rgb(29,33,41)">=C2=A0</=
+span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-f=
+amily:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=9B=E1=83=94=E1=83=A8=E1=83=
+=95=E1=83=94=E1=83=9D=E1=83=91=E1=83=98=E1=83=97</span><span lang=3D"EN-US"=
+ style=3D"font-size:10.5pt;line-height:28px;font-family:inherit;color:rgb(2=
+9,33,41)">:=C2=A0<a href=3D"https://www.carrentingeorgia.ge/ka/?fbclid=3DIw=
+AR1fWYpmK81IhccuYjWgFab6NS5zC7OiI8_RDaVcsmLVZrTxKhP4ihbjYqE" rel=3D"norefer=
+rer" target=3D"_blank" style=3D"color:rgb(5,99,193)"><span style=3D"color:r=
+gb(56,88,152)">https://www.carrentingeorgia.ge/ka/</span></a></span></p><p =
+class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:29.3333px;=
+background-image:initial;background-position:initial;background-size:initia=
+l;background-repeat:initial;background-origin:initial;background-clip:initi=
+al;font-size:11pt;font-family:Calibri,sans-serif"><span lang=3D"EN-US" styl=
+e=3D"font-size:10.5pt;line-height:28px;font-family:Sylfaen,serif;color:rgb(=
+29,33,41)">=E1=83=A1=E1=83=AE=E1=83=95=E1=83=90</span><span lang=3D"EN-US" =
+style=3D"font-size:10.5pt;line-height:28px;font-family:inherit;color:rgb(29=
+,33,41)">=C2=A0</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-h=
+eight:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=93=E1=83=
+=90=E1=83=9B=E1=83=90=E1=83=A2=E1=83=94=E1=83=91=E1=83=98=E1=83=97=E1=83=98=
+</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font=
+-family:inherit;color:rgb(29,33,41)">=C2=A0</span><span lang=3D"EN-US" styl=
+e=3D"font-size:10.5pt;line-height:28px;font-family:Sylfaen,serif;color:rgb(=
+29,33,41)">=E1=83=A8=E1=83=94=E1=83=99=E1=83=98=E1=83=97=E1=83=AE=E1=83=95=
+=E1=83=94=E1=83=91=E1=83=98=E1=83=A1</span><span lang=3D"EN-US" style=3D"fo=
+nt-size:10.5pt;line-height:28px;font-family:inherit;color:rgb(29,33,41)">=
+=C2=A0</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28p=
+x;font-family:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=90=E1=83=9C</span><=
+span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:=
+inherit;color:rgb(29,33,41)">=C2=A0</span><span lang=3D"EN-US" style=3D"fon=
+t-size:10.5pt;line-height:28px;font-family:Sylfaen,serif;color:rgb(29,33,41=
+)">=E1=83=93=E1=83=90=E1=83=AF=E1=83=90=E1=83=95=E1=83=A8=E1=83=9C=E1=83=98=
+=E1=83=A1</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:=
+28px;font-family:inherit;color:rgb(29,33,41)">=C2=A0</span><span lang=3D"EN=
+-US" style=3D"font-size:10.5pt;line-height:28px;font-family:Sylfaen,serif;c=
+olor:rgb(29,33,41)">=E1=83=A8=E1=83=94=E1=83=9B=E1=83=97=E1=83=AE=E1=83=95=
+=E1=83=94=E1=83=95=E1=83=90=E1=83=A8=E1=83=98</span><span lang=3D"EN-US" st=
+yle=3D"font-size:10.5pt;line-height:28px;font-family:inherit;color:rgb(29,3=
+3,41)">=C2=A0</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line-hei=
+ght:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=93=E1=83=90=
+=E1=83=92=E1=83=95=E1=83=98=E1=83=99=E1=83=90=E1=83=95=E1=83=A8=E1=83=98=E1=
+=83=A0=E1=83=93=E1=83=98=E1=83=97</span><span lang=3D"EN-US" style=3D"font-=
+size:10.5pt;line-height:28px;font-family:inherit;color:rgb(29,33,41)">=C2=
+=A0:</span></p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line=
+-height:29.3333px;background-image:initial;background-position:initial;back=
+ground-size:initial;background-repeat:initial;background-origin:initial;bac=
+kground-clip:initial;font-size:11pt;font-family:Calibri,sans-serif"><span l=
+ang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:Sylfae=
+n,serif;color:rgb(29,33,41)">=E1=83=AA=E1=83=AE=E1=83=94=E1=83=9A</span><sp=
+an lang=3D"EN-US" style=3D"font-size:10.5pt;line-height:28px;font-family:in=
+herit;color:rgb(29,33,41)">=C2=A0</span><span lang=3D"EN-US" style=3D"font-=
+size:10.5pt;line-height:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)"=
+>=E1=83=AE=E1=83=90=E1=83=96=E1=83=98</span><span lang=3D"EN-US" style=3D"f=
+ont-size:10.5pt;line-height:28px;font-family:inherit;color:rgb(29,33,41)">=
+=C2=A0: 555 53 49 49=C2=A0</span><span lang=3D"EN-US" style=3D"font-size:10=
+.5pt;line-height:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=
+=9A=E1=83=90=E1=83=A8=E1=83=90</span><span lang=3D"EN-US" style=3D"font-siz=
+e:10.5pt;line-height:28px;font-family:inherit;color:rgb(29,33,41)">=C2=A0/ =
+577 108 017=C2=A0</span><span lang=3D"EN-US" style=3D"font-size:10.5pt;line=
+-height:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)">=E1=83=98=E1=83=
+=A0=E1=83=90=E1=83=99=E1=83=9A=E1=83=98</span></p><p class=3D"MsoNormal" st=
+yle=3D"margin:0cm 0cm 0.0001pt;line-height:29.3333px;background-image:initi=
+al;background-position:initial;background-size:initial;background-repeat:in=
+itial;background-origin:initial;background-clip:initial;font-size:11pt;font=
+-family:Calibri,sans-serif"><span lang=3D"EN-US" style=3D"font-size:10.5pt;=
+line-height:28px;font-family:Sylfaen,serif;color:rgb(29,33,41)"><br></span>=
+</p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:29.=
+3333px;background-image:initial;background-position:initial;background-size=
+:initial;background-repeat:initial;background-origin:initial;background-cli=
+p:initial;font-size:11pt;font-family:Calibri,sans-serif"><span lang=3D"EN-U=
+S" style=3D"font-size:10.5pt;line-height:28px;font-family:Sylfaen,serif;col=
+or:rgb(29,33,41)"><br></span></p><div><div dir=3D"ltr" class=3D"gmail_signa=
+ture" data-smartmail=3D"gmail_signature"><div dir=3D"ltr"><div><div dir=3D"=
+ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><p c=
+lass=3D"MsoNormal" style=3D"line-height:150%"><span lang=3D"GEO/KAT" style=
+=3D"font-family:Sylfaen,serif"><span style=3D"font-family:Sylfaen,serif">=
+=E1=83=9E=E1=83=90=E1=83=A2=E1=83=98=E1=83=95=E1=83=98=E1=83=A1=E1=83=AA=E1=
+=83=94=E1=83=9B=E1=83=98=E1=83=97 ,</span><br></span></p><p class=3D"MsoNor=
+mal" style=3D"line-height:150%"><span lang=3D"GEO/KAT" style=3D"font-family=
+:Sylfaen,serif">=E1=83=90=E1=83=95=E1=83=A2=E1=83=9D-=E1=83=92=E1=83=90=E1=
+=83=A5=E1=83=98=E1=83=A0=E1=83=90=E1=83=95=E1=83=94=E1=83=91=E1=83=98=E1=83=
+=A1
+=E1=83=99=E1=83=9D=E1=83=9B=E1=83=9E=E1=83=90=E1=83=9C=E1=83=98=E1=83=90 </=
+span><span style=3D"font-family:Sylfaen,serif">,, Car Rent In
+Georgia =E2=80=9C <span></span></span></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span lang=3D"GEO/KAT" st=
+yle=3D"font-family:Sylfaen,serif">=E1=83=9B=E1=83=98=E1=83=A1 .
+=E1=83=A5=E1=83=A3=E1=83=97=E1=83=90=E1=83=98=E1=83=A1=E1=83=98,=C2=A0 =E1=
+=83=AC=E1=83=94=E1=83=A0=E1=83=94=E1=83=97=E1=83=9A=E1=83=98=E1=83=A1 =E1=
+=83=A5. 67<span></span></span></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span lang=3D"GEO/KAT" st=
+yle=3D"font-family:Sylfaen,serif">=E1=83=A2=E1=83=94=E1=83=9A/=E1=83=9B=E1=
+=83=9D=E1=83=91:=C2=A0</span><span style=3D"font-family:Sylfaen,serif">What=
+sAp/Viber
+: </span><span style=3D"font-family:Sylfaen,serif">=C2=A0 +995 555 53 49 49=
+ / +995 577 10 80 17</span></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-famil=
+y:Sylfaen,serif"><a href=3D"http://www.carrentingeorgia.ge" target=3D"_blan=
+k">www.carrentingeorgia.ge</a><span></span></span></p><p class=3D"MsoNormal=
+" style=3D"line-height:150%"><span style=3D"font-family:Sylfaen,serif"><br>=
+</span></p><p class=3D"MsoNormal"><span lang=3D"GEO/KAT" style=3D"font-fami=
+ly:Sylfaen,serif">----------------------------</span></p><p class=3D"MsoNor=
+mal"><span lang=3D"GEO/KAT" style=3D"font-family:Sylfaen,serif">Best Regard=
+s,</span></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-famil=
+y:Sylfaen,serif">,,
+Car Rent In Georgia =E2=80=9C<span></span></span></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-famil=
+y:Sylfaen,serif">Address
+: Kutaici /Georgia 4600 Tsereteli Str. 67<span></span></span></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-famil=
+y:Sylfaen,serif">Tell/Mob:</span><span style=3D"font-family:Sylfaen,serif">=
+WhatsAp/Viber
+: +995 555 53 49 49</span><span style=3D"font-family:Sylfaen,serif">=C2=A0 =
+</span><span style=3D"font-family:Sylfaen,serif">/ +995 593 71 56 25</span>=
+</p>
+
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-famil=
+y:Sylfaen,serif"><a href=3D"http://www.carrentingeorgia.ge" target=3D"_blan=
+k">www.carrentingeorgia.ge</a><span></span></span></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-famil=
+y:Sylfaen,serif"><span>=C2=A0</span></span></p></div></div></div></div></di=
+v></div></div></div></div></div></div></div>
+
+--000000000000856e18059990703c--

@@ -9,32 +9,32 @@ AWSTATS DATA FILE 7.7 (build 20180105)
 BEGIN_MAP 28
 POS_GENERAL 2015                
 POS_TIME 2685                
-POS_VISITOR 8531                
-POS_DAY 8889                
-POS_DOMAIN 3350                
-POS_LOGIN 3603                
-POS_ROBOT 3758                
-POS_WORMS 3953                
-POS_EMAILSENDER 4084                
-POS_EMAILRECEIVER 4227                
-POS_SESSION 9142                
-POS_SIDER 9288                
-POS_FILETYPES 4362                
-POS_DOWNLOADS 4510                
-POS_OS 4558                
-POS_BROWSER 4661                
-POS_SCREENSIZE 4809                
-POS_UNKNOWNREFERER 4883                
-POS_UNKNOWNREFERERBROWSER 4970                
-POS_ORIGIN 5052                
-POS_SEREFERRALS 5183                
-POS_PAGEREFS 5341                
-POS_SEARCHWORDS 5489                
-POS_KEYWORDS 5641                
+POS_VISITOR 9509                
+POS_DAY 10134               
+POS_DOMAIN 3429                
+POS_LOGIN 3695                
+POS_ROBOT 3850                
+POS_WORMS 4118                
+POS_EMAILSENDER 4249                
+POS_EMAILRECEIVER 4392                
+POS_SESSION 10544               
+POS_SIDER 10690               
+POS_FILETYPES 4527                
+POS_DOWNLOADS 4677                
+POS_OS 4725                
+POS_BROWSER 4831                
+POS_SCREENSIZE 5018                
+POS_UNKNOWNREFERER 5092                
+POS_UNKNOWNREFERERBROWSER 5179                
+POS_ORIGIN 5261                
+POS_SEREFERRALS 5392                
+POS_PAGEREFS 5550                
+POS_SEARCHWORDS 5698                
+POS_KEYWORDS 5850                
 POS_MISC 2348                
-POS_ERRORS 5700                
-POS_CLUSTER 3459                
-POS_SIDER_404 5846                
+POS_ERRORS 5909                
+POS_CLUSTER 3551                
+POS_SIDER_404 6058                
 END_MAP
 
 # LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
@@ -46,64 +46,65 @@ END_MAP
 # MonthHostsKnown   = Number of hosts known
 # MonthHostsUnKnown = Number of hosts unknown
 BEGIN_GENERAL 8
-LastLine 20190918065843 105 20951 12583034527706
+LastLine 20191001002053 120 23299 13988437570041
 FirstTime 0
-LastTime 20190905105515
-LastUpdate 20190918070630 105 0 105 0 0
-TotalVisits 2                   
-TotalUnique 2                   
+LastTime 20190918110438
+LastUpdate 20191001070936 120 0 119 0 0
+TotalVisits 4                   
+TotalUnique 3                   
 MonthHostsKnown 0                   
-MonthHostsUnknown 10                  
+MonthHostsUnknown 20                  
 END_GENERAL
 
 # Misc ID - Pages - Hits - Bandwidth
 BEGIN_MISC 10
-FlashSupport 0 0 0
-WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 46 0
 JavaEnabled 0 0 0
-DirectorSupport 0 0 0
 RealPlayerSupport 0 0 0
 JavascriptDisabled 0 0 0
-TotalMisc 0 0 0
-PDFSupport 0 0 0
+FlashSupport 0 0 0
 QuickTimeSupport 0 0 0
-AddToFavourites 0 22 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+TotalMisc 0 0 0
 END_MISC
 
 # Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
 BEGIN_TIME 24
-0 0 0 0 87 107 17565
-1 0 2 254312 34 44 6470
-2 0 0 0 49 80 30529
-3 0 2 205772 78 90 11125
-4 0 2 1686904 85 135 30420
-5 0 2 1686904 76 109 22548
-6 0 0 0 80 97 14753
-7 0 0 0 71 79 7655
-8 0 0 0 49 67 10404
-9 0 0 0 97 134 20930
-10 2 2 27134 68 83 14348
-11 0 0 0 60 98 22816
-12 0 2 271108 55 67 11218
-13 0 4 897342 52 64 8077
-14 0 0 0 70 78 12925
-15 0 0 0 44 65 15983
-16 0 0 0 69 127 32025
-17 0 2 238246 52 64 7854
-18 0 0 0 57 79 20693
-19 2 2 1464 80 84 21919
-20 0 0 0 44 62 11850
-21 0 0 0 67 85 11192
-22 0 0 0 46 48 4514
-23 0 0 0 62 74 13994
+0 0 4 1842126 153 201 33952
+1 0 2 254312 91 112 22454
+2 0 0 0 100 145 42306
+3 0 4 1892676 153 169 17248
+4 0 2 1686904 162 240 53431
+5 0 2 1686904 137 197 40735
+6 0 2 238246 143 179 27002
+7 0 0 0 131 162 26605
+8 2 2 27134 92 127 25691
+9 0 0 0 145 201 34698
+10 2 2 27134 121 151 29721
+11 2 2 1464 132 189 48330
+12 0 2 271108 125 155 28493
+13 0 4 897342 130 151 21231
+14 0 0 0 133 154 22251
+15 0 0 0 101 141 28466
+16 0 0 0 119 191 41345
+17 0 2 238246 116 146 26896
+18 0 4 509354 106 148 36154
+19 2 2 1464 119 127 28731
+20 0 0 0 73 104 19894
+21 0 0 0 136 166 19461
+22 0 2 586506 128 141 27595
+23 0 4 300670 148 173 29872
 END_TIME
 
 # Domain - Pages - Hits - Bandwidth
 # The 25 first Pages must be first (order not required for others)
-BEGIN_DOMAIN 3
+BEGIN_DOMAIN 4
+ge 4 4 54268
+gb 2 2 1464
 us 2 4 44560
-ge 2 2 27134
-ru 0 14 5197492
+ru 0 32 10361298
 END_DOMAIN
 
 # Cluster ID - Pages - Hits - Bandwidth
@@ -117,9 +118,11 @@ END_LOGIN
 
 # Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
 # The 25 first Hits must be first (order not required for others)
-BEGIN_ROBOT 2
-Googlebot/ 2 9380 20190916022010 0
+BEGIN_ROBOT 4
 curl 2 732 20190909033342 0
+bingpreview 2 1464 20190925222953 0
+no_user_agent 2 732 20190926051501 0
+Googlebot/ 2 9380 20190916022010 0
 END_ROBOT
 
 # Worm ID - Hits - Bandwidth - Last visit
@@ -140,10 +143,10 @@ END_EMAILRECEIVER
 # Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
 BEGIN_FILETYPES 5
 png 2 43096 0 0
-jpg 14 5197492 0 0
-html 1 732 0 0
-Unknown 2 27134 0 0
+html 2 1464 0 0
 htm 1 732 0 0
+jpg 32 10361298 0 0
+Unknown 5 55000 0 0
 END_FILETYPES
 
 # Downloads - Hits - Bandwidth
@@ -152,19 +155,21 @@ END_DOWNLOADS
 
 # OS ID - Hits
 BEGIN_OS ID - Hits - Pages 4
-win7 6 0
-win10 2 2
-win8 8 0
-linux 4 2
+linux 6 4
+win10 10 4
+win8 16 0
+win7 10 0
 END_OS
 
 # Browser ID - Hits - Pages
-BEGIN_BROWSER 5
+BEGIN_BROWSER 7
+chrome74.0.3729.131 4 0
+msie10.0 24 0
+chrome76.0.3809.132 6 6
+firefox58.0 2 0
+chrome73.0.3683.86 2 0
 firefox68.0 2 2
-msie10.0 12 0
 chrome5.0.307.7 2 0
-chrome74.0.3729.131 2 0
-chrome76.0.3809.132 2 2
 END_BROWSER
 
 # Screen size - Hits
@@ -181,17 +186,17 @@ END_UNKNOWNREFERERBROWSER
 
 # Origin - Pages - Hits 
 BEGIN_ORIGIN 6
-From0 2 4
+From0 4 6
 From1 0 0
-From2 0 14
+From2 0 32
 From3 0 0
-From4 2 2
+From4 4 4
 From5 0 0
 END_ORIGIN
 
 # Search engine referers ID - Pages - Hits
 BEGIN_SEREFERRALS 1
-yandexru 0 14
+yandexru 0 32
 END_SEREFERRALS
 
 # External page referers - Pages - Hits
@@ -211,79 +216,105 @@ END_KEYWORDS
 
 # Errors - Hits - Bandwidth
 BEGIN_ERRORS 5
-404 296 148680
-403 169 71282
-301 1334 85509
-406 173 39098
-409 22 1826
+301 2441 151297
+404 461 236838
+406 493 111192
+409 47 3901
+403 374 164126
 END_ERRORS
 
 # URL with 404 errors - Hits - Last URL referrer
-BEGIN_SIDER_404 44
-/maps/map.php 4 http://tripplanner.ge/tours/full/67/
-/public/images/places/big/110.jpg 2 -
-/public/images/tours/big/67/67.jpg 4 -
-/test/wp-admin/setup-config.php 2 -
-/public/css/bootstrap-datepicker.min.css 4 http://tripplanner.ge/tours/index/0/0/180
-/public/css/site.min.css 2 http://tripplanner.ge/tours/full/67/
-/old/wp-admin/install.php 2 -
-/robots.txt 158 -
-/public/images/tours/big/298/298.jpg 2 -
-/public/js/jquery-1.12.3.min.js 4 http://tripplanner.ge/tours/index/0/0/180
-/public/css/bootstrap-select.css 4 http://tripplanner.ge/tours/index/0/0/180
-/wp-login.php 2 -
-/public/images/tours/big/65/65.jpg 2 -
-/public/images/tours/big/62/621.jpg 2 -
-//wp-admin/install.php 2 -
-/public/js/notify.js 4 http://tripplanner.ge/tours/index/0/0/180
-/public/js/notify.min.js 6 http://tripplanner.ge/tours/index/0/0/180
-/test/wp-admin/install.php 2 -
-/public/js/bootstrap-select.js 4 http://tripplanner.ge/tours/index/0/0/180
-/public/js/bootstrap-datepicker.min.js 4 http://tripplanner.ge/tours/index/0/0/180
-//wp-admin/setup-config.php 2 -
-/public/images/tours/big/66/661.jpg 2 -
-/cart_2.html 2 -
-/public/js/parallax.min.js 4 http://tripplanner.ge/tours/index/0/0/180
-/public/js/bootstrap.js 4 http://tripplanner.ge/tours/index/0/0/180
-/public/images/places/big/24.jpg 2 -
-/public/images/page/big/15.png 4 -
-/public/images/tours/big/135/1352.jpg 2 -
-/wordpress/wp-admin/setup-config.php 2 -
-/public/css/css-stars.css 4 http://tripplanner.ge/tours/index/0/0/180
-/public/css/font-awesome.min.css 4 http://tripplanner.ge/tours/index/0/0/180
-/old/wp-admin/setup-config.php 2 -
-/public/css/fontawesome-stars.css 4 http://tripplanner.ge/tours/index/0/0/180
-/public/css/ion.rangeSlider.skinFlat.css 4 http://tripplanner.ge/tours/index/0/0/284
-/public/css/bootstrap.css 6 http://tripplanner.ge/tours/index/0/0/180
-/public/js/jquery.barrating.min.js 4 http://tripplanner.ge/tours/index/0/0/180
+BEGIN_SIDER_404 60
 /wordpress/wp-admin/install.php 2 -
-/public/larisome/font-larisome.min.css 4 http://tripplanner.ge/tours/index/0/0/180
-/public/images/tours/big/64/64.jpg 4 -
-/public/css/ion.rangeSlider.css 4 http://tripplanner.ge/tours/index/0/0/284
-/public/images/tours/big/311/3115.jpg 2 -
+/maps/map.php 4 http://tripplanner.ge/tours/full/67/
 /public/css/site.css 4 http://tripplanner.ge/tours/index/0/0/284
+/vBulletin/js/ajax.js 2 tripplanner.ge
+/public/images/tours/big/132/1323.jpg 2 http://go.mail.ru/search_images
+/public/images/tours/big/298/298.jpg 6 -
+/public/images/places/big/24.jpg 2 -
+//wp-admin/install.php 2 -
 /public/css/simple-sidebar.css 4 http://tripplanner.ge/tours/index/0/0/180
+/public/larisome/font-larisome.min.css 4 http://tripplanner.ge/tours/index/0/0/180
+/public/js/bootstrap-select.js 4 http://tripplanner.ge/tours/index/0/0/180
+/public/images/places/big/48.jpg 2 http://go.mail.ru/search_images
+/public/js/jquery.barrating.min.js 4 http://tripplanner.ge/tours/index/0/0/180
+/vb5/js/ajax.js 2 tripplanner.ge
+/test/wp-admin/install.php 2 -
+/public/images/places/big/29.jpg 2 http://go.mail.ru/search_images
+/test/wp-admin/setup-config.php 2 -
+//wp-admin/setup-config.php 2 -
+/public/images/tours/big/61/61.jpg 2 http://go.mail.ru/search_images
+/public/images/tours/big/65/65.jpg 2 -
+/forum/js/ajax.js 2 tripplanner.ge
 /public/js/ion.rangeSlider.min.js 4 http://tripplanner.ge/tours/index/0/0/284
+/public/images/tours/big/66/661.jpg 2 -
+/wordpress/wp-admin/setup-config.php 2 -
+/public/images/page/big/15.png 4 -
+/public/images/places/big/64.jpg 2 http://go.mail.ru/search_images
+/public/images/tours/big/67/67.jpg 4 -
+/public/css/fontawesome-stars.css 4 http://tripplanner.ge/tours/index/0/0/180
+/public/css/bootstrap.css 6 http://tripplanner.ge/tours/index/0/0/180
+/js/ajax.js 2 tripplanner.ge
+/public/css/ion.rangeSlider.css 4 http://tripplanner.ge/tours/index/0/0/284
+/public/css/bootstrap-select.css 4 http://tripplanner.ge/tours/index/0/0/180
+/public/css/font-awesome.min.css 4 http://tripplanner.ge/tours/index/0/0/180
+/public/js/notify.js 4 http://tripplanner.ge/tours/index/0/0/180
+/forums/js/ajax.js 2 tripplanner.ge
+/old/wp-admin/install.php 2 -
+/public/images/tours/big/62/621.jpg 2 -
+/cart_2.html 2 -
+/wp-login.php 4 -
+/old/wp-admin/setup-config.php 2 -
+/public/css/site.min.css 2 http://tripplanner.ge/tours/full/67/
+/website/wp-login.php 1 -
+/public/js/notify.min.js 6 http://tripplanner.ge/tours/index/0/0/180
+/public/css/css-stars.css 4 http://tripplanner.ge/tours/index/0/0/180
+/public/js/jquery-1.12.3.min.js 4 http://tripplanner.ge/tours/index/0/0/180
+/public/images/places/big/110.jpg 6 -
+/public/css/bootstrap-datepicker.min.css 4 http://tripplanner.ge/tours/index/0/0/180
+/vbforum/js/ajax.js 2 tripplanner.ge
+/robots.txt 276 -
+/public/js/bootstrap-datepicker.min.js 4 http://tripplanner.ge/tours/index/0/0/180
+/public/images/places/big/33.jpg 2 http://go.mail.ru/search_images
+/vb/js/ajax.js 2 tripplanner.ge
+/public/images/tours/big/135/1352.jpg 6 -
+/public/js/bootstrap.js 4 http://tripplanner.ge/tours/index/0/0/180
+/public/css/ion.rangeSlider.skinFlat.css 4 http://tripplanner.ge/tours/index/0/0/284
+/public/images/tours/big/311/3115.jpg 4 -
+/public/images/places/big/34.jpg 2 http://go.mail.ru/search_images
+/manager/index.php 2 -
+/public/js/parallax.min.js 4 http://tripplanner.ge/tours/index/0/0/180
+/public/images/tours/big/64/64.jpg 4 -
 END_SIDER_404
 
 # Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
 # [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
 # The 25 first Hits must be first (order not required for others)
-BEGIN_VISITOR 10
-94.240.245.46 2 2 27134 20190905105515
+BEGIN_VISITOR 20
+94.240.245.46 4 4 54268 20190918085111
+79.73.68.3 2 2 1464 20190918110438
 161.129.66.74 2 2 1464 20190904192357
-34.224.215.145 0 2 43096 
+95.24.201.54 0 2 139416 
+77.37.143.86 0 2 238246 
+37.204.75.202 0 2 161254 
+95.29.102.59 0 2 1255620 
+95.27.182.53 0 2 238246 
 5.3.176.190 0 2 271108 
-46.42.175.71 0 2 205772 
-95.27.209.93 0 2 238246 
-176.193.163.80 0 2 1686904 
 176.14.249.204 0 2 254312 
+176.193.163.80 0 2 1686904 
+109.173.77.115 0 2 271108 
+95.27.209.93 0 2 238246 
 46.42.143.242 0 2 1686904 
+46.42.175.71 0 2 205772 
 37.204.193.88 0 2 854246 
+34.224.215.145 0 2 43096 
+178.140.215.33 0 2 586506 
+46.73.131.206 0 2 1686904 
+95.24.19.29 0 2 586506 
 END_VISITOR
 
 # Date - Pages - Hits - Bandwidth - Visits
-BEGIN_DAY 9
+BEGIN_DAY 16
 20190901 0 4 1125354 0
 20190902 0 2 1686904 0
 20190904 2 2 1464 1
@@ -293,17 +324,25 @@ BEGIN_DAY 9
 20190913 0 2 1686904 0
 20190914 0 2 238246 0
 20190917 0 2 43096 0
+20190918 4 6 615104 2
+20190920 0 2 586506 0
+20190921 0 4 509354 0
+20190922 0 2 238246 0
+20190924 0 4 300670 0
+20190927 0 2 1255620 0
+20190930 0 2 1686904 0
 END_DAY
 
 # Session range - Number of visits
 BEGIN_SESSION 1
-0s-30s 2
+0s-30s 4
 END_SESSION
 
 # URL - Pages - Bandwidth - Entry - Exit
 # The 25 first Pages must be first (order not required for others)
-BEGIN_SIDER 3
-/cpanel 2 27134 1 1
-/cgi-sys/403.html 1 732 0 1
+BEGIN_SIDER 4
+/cpanel 4 54268 2 2
+/cgi-sys/403.html 2 1464 1 1
+/files/tours/53/customer/customer_center/customer-IDPP00C548/myaccount/settings 1 732 0 1
 /img/img/post/e48cf5e9a2bd46ef10189583c0675577/3d.htm 1 732 1 0
 END_SIDER

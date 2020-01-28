@@ -1,0 +1,75 @@
+Return-Path: <bounce-md_30039865.5dd524ff.v1-5517e52eab40405e9ae91f2f81d3d181@mda.digitalocean.com>
+Delivered-To: e.tarkhnishvili@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP
+	id 2OPnKQsl1V3T1QMA8w4q4w
+	(envelope-from <bounce-md_30039865.5dd524ff.v1-5517e52eab40405e9ae91f2f81d3d181@mda.digitalocean.com>)
+	for <e.tarkhnishvili@tripplanner.ge>; Wed, 20 Nov 2019 05:35:39 -0600
+Return-path: <bounce-md_30039865.5dd524ff.v1-5517e52eab40405e9ae91f2f81d3d181@mda.digitalocean.com>
+Envelope-to: e.tarkhnishvili@tripplanner.ge
+Delivery-date: Wed, 20 Nov 2019 05:35:39 -0600
+Received: from mail137-235.dal35.mandrillapp.com ([205.201.137.235]:38793)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92)
+	(envelope-from <bounce-md_30039865.5dd524ff.v1-5517e52eab40405e9ae91f2f81d3d181@mda.digitalocean.com>)
+	id 1iXOGp-00140j-8S
+	for e.tarkhnishvili@tripplanner.ge; Wed, 20 Nov 2019 05:35:39 -0600
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=mandrill; d=support.digitalocean.com;
+ h=From:Subject:To:Message-Id:Date:MIME-Version:Content-Type:Content-Transfer-Encoding; i=support@support.digitalocean.com;
+ bh=C3ax/XKFADbL7lzPj/LUa6lQtxjEZxEhBfcEcDXIJ+k=;
+ b=BeLec8eHr2PBOKouyRI7lj6Y5JaHAuD5pL4oWvDfZR9F7FsflVqG6Q4ZzjogWiOK9reX4f6TRILr
+   EqDdJwTTNyGY8/+MGHxnCu9U5IY9nEyJbg1QGB7AxOfh5VtB201RA+JVIN9OtmABVk7z5Hf6FQHb
+   HInIjBiVQdZw9Bvi4BM=
+Received: from pmta07.mandrill.prod.suw01.rsglab.com (127.0.0.1) by mail137-235.dal35.mandrillapp.com id hqkigm174e07 for <e.tarkhnishvili@tripplanner.ge>; Wed, 20 Nov 2019 11:35:27 +0000 (envelope-from <bounce-md_30039865.5dd524ff.v1-5517e52eab40405e9ae91f2f81d3d181@mda.digitalocean.com>)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mandrillapp.com; 
+ i=@mandrillapp.com; q=dns/txt; s=mandrill; t=1574249727; h=From : 
+ Subject : To : Message-Id : Date : MIME-Version : Content-Type : 
+ Content-Transfer-Encoding : From : Subject : Date : X-Mandrill-User : 
+ List-Unsubscribe; bh=C3ax/XKFADbL7lzPj/LUa6lQtxjEZxEhBfcEcDXIJ+k=; 
+ b=cEGHmHs7f3MvagrfQB1RtZ0svL0MN9VI8U54UPqWduCYPOsLxbpW4MaiqupGNNKnHtG9wF
+ kHvehMl+EU0IfzbWYFh2XRG68woR7s3zTCvRQ7F0nYbWPal70xLCWOJTntqNo3RKOxjxtU07
+ PHrH4azEgXkTmGcwlPGWV1f0iB8nk=
+From: DigitalOcean <support@support.digitalocean.com>
+Subject: Your New Droplet: NewBeetrip
+Received: from [162.243.191.66] by mandrillapp.com id 5517e52eab40405e9ae91f2f81d3d181; Wed, 20 Nov 2019 11:35:27 +0000
+To: e.tarkhnishvili@tripplanner.ge
+X-Report-Abuse: Please forward a copy of this message, including all headers, to abuse@mandrill.com
+X-Report-Abuse: You can also report abuse here: http://mandrillapp.com/contact/abuse?id=30039865.5517e52eab40405e9ae91f2f81d3d181
+X-Mandrill-User: md_30039865
+Message-Id: <30039865.20191120113527.5dd524ffa56804.89231297@mail137-235.dal35.mandrillapp.com>
+Date: Wed, 20 Nov 2019 11:35:27 +0000
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+X-Spam-Status: No, score=-13.1
+X-Spam-Score: -130
+X-Spam-Bar: -------------
+X-Spam-Flag: NO
+
+Your new Droplet is all set to go! You can access it using the following cr=
+edentials:
+
+Droplet Name: NewBeetrip
+IP Address: 165.22.22.252
+Username: root
+Password: 6f2e9b1bef09952c249ff5a9ad
+
+For security reasons, you will be required to change this Droplet=E2=80=99s=
+ root password when you login. You should choose a strong password that wil=
+l be easy for you to remember, but hard for a computer to guess. You might =
+try creating an alpha-numerical phrase from a memorable sentence (e.g. =E2=
+=80=9CI won my first spelling bee at age 7,=E2=80=9D might become =E2=80=9C=
+Iwm#1sbaa7=E2=80=9D). Random strings of common words, such as =E2=80=9CMous=
+etrap Sandwich Hospital Anecdote,=E2=80=9D tend to work well, too.
+
+As an added security measure, we also strongly recommend adding an SSH key =
+to your account. You can do that here: https://cloud.digitalocean.com/setti=
+ngs/security?i=3D0edbba
+
+Once added, you can select your SSH key and use it when creating future Dro=
+plets. This eliminates the need for root passwords altogether, and makes yo=
+ur Droplets much less vulnerable to attack.
+
+Happy Coding,
+Team DigitalOcean
+

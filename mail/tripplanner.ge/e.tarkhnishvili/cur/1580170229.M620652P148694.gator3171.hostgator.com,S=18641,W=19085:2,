@@ -1,0 +1,444 @@
+Return-Path: <937-EID-756.0.19563.0.0.12177.9.39521077@info.digitalocean.com>
+Delivered-To: e.tarkhnishvili@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP
+	id QObmJPV7L17WRAIA8w4q4w
+	(envelope-from <937-EID-756.0.19563.0.0.12177.9.39521077@info.digitalocean.com>)
+	for <e.tarkhnishvili@tripplanner.ge>; Mon, 27 Jan 2020 18:10:29 -0600
+Return-path: <937-EID-756.0.19563.0.0.12177.9.39521077@info.digitalocean.com>
+Envelope-to: e.tarkhnishvili@tripplanner.ge
+Delivery-date: Mon, 27 Jan 2020 18:10:29 -0600
+Received: from info.digitalocean.com ([192.28.144.201]:58910)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92)
+	(envelope-from <937-EID-756.0.19563.0.0.12177.9.39521077@info.digitalocean.com>)
+	id 1iwESa-000fBh-Vy
+	for e.tarkhnishvili@tripplanner.ge; Mon, 27 Jan 2020 18:10:29 -0600
+X-MSFBL: k0MUL/6wMqDeQi3DiLuvGFO9nosUDCXTqgcyiKe/ySs=|eyJnIjoiYmctYWJkLTM
+	0NiIsInIiOiJlLnRhcmtobmlzaHZpbGlAdHJpcHBsYW5uZXIuZ2UiLCJ1IjoiOTM
+	3LUVJRC03NTY6NzY3MTo4NjYwOjQ0NjE2OjA6MTIxNzc6OToxOTU2MzozOTUyMTA
+	3NyIsImIiOiJkdnAtMTkyLTI4LTE0NC0yMDEifQ==
+Received: from [10.1.87.249] ([10.1.87.249:33988] helo=abmas01.marketo.org)
+	by abmta37.marketo.org (envelope-from <support@info.digitalocean.com>)
+	(ecelerity 4.2.38.62370 r(:)) with ESMTP
+	id E2/EA-24608-9EB7F2E5; Mon, 27 Jan 2020 18:10:17 -0600
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1580170217;
+	s=m1; d=info.digitalocean.com; i=@info.digitalocean.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=/7QijZF3eP29Ibux39TEnsc3td/eYu4USoj5abGW5lQ=;
+	b=ScuccnEJhzXXVkl8DQoseLctECGQCtM+2fxR7pgHEGKFvC00jP39+Rovwyk1Bo9f
+	dUr5sJ2qbgEdSey3eCQ/vZSlIz0to6uH+JxZy09+1W4+zN7dEA67mu5pjnGCM55zcF5
+	ioaplHpg5zkxzHL9UFPXIQi9quTNVgojNWoIFZKc=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1580170217;
+	s=m1; d=mktdns.com; i=@mktdns.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=/7QijZF3eP29Ibux39TEnsc3td/eYu4USoj5abGW5lQ=;
+	b=BfArDdjFJa2x55hrnKxY1FJpmZ8u0Auo0NtJs42f+pHKhEXCNeEqwafiDV0J5n8y
+	yca3a1Atd+CCQFRqd8RPSWtRAaTMU8ZcVmjYubXtJWQLhBSVqx681JAFj5F7I4R9kuR
+	JJxg/EmUsZaiO7gA3c3yWs1B51hqMn/H8+BgZpfQ=
+Date: Mon, 27 Jan 2020 18:10:17 -0600 (CST)
+From: Team DigitalOcean <support@info.digitalocean.com>
+Reply-To: no-reply@digitalocean.com
+To: e.tarkhnishvili@tripplanner.ge
+Message-ID: <1404287031.369765659.1580170217570.JavaMail.mktmail@abmas01.marketo.org>
+Subject: =?UTF-8?Q?An_Important_Message_about_Intel=E2=80=99s_Recent_CV?=
+ =?UTF-8?Q?E_Announcements_and_Your_DigitalOcean_Account?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_369765658_1477652477.1580170217570"
+X-Binding: bg-abd-346
+X-MarketoID: 937-EID-756:7671:8660:44616:0:12177:9:19563:39521077
+X-MktArchive: false
+X-Mailfrom: 937-EID-756.0.19563.0.0.12177.9.39521077@info.digitalocean.com
+X-MSYS-API: {"options":{"open_tracking":false,"click_tracking":false}}
+X-MktMailDKIM: true
+X-Spam-Status: No, score=-13.1
+X-Spam-Score: -130
+X-Spam-Bar: -------------
+X-Spam-Flag: NO
+
+------=_Part_369765658_1477652477.1580170217570
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hi there,=20
+
+ Today, Intel released a statement regarding two Processors Data Leakage <h=
+ttps://blogs.intel.com/technology/2020/01/ipas-intel-sa-00329/> security vu=
+lnerabilities (Vector Register Sampling and L1D Eviction Sampling), that ma=
+y allow unintended information disclosure for users of multi-tenant cloud e=
+nvironments. On DigitalOcean=E2=80=99s platform, these two vulnerabilities =
+may allow malicious actors to theoretically use a Droplet to infer partial =
+data used by previously run software or by another Droplet on the same phys=
+ical host.=20
+
+ These vulnerabilities are similar to L1 Terminal Fault (L1TF) <https://blo=
+g.digitalocean.com/a-message-about-l1tf/> as well as the Microarchitectural=
+ Data Sampling (MDS) <https://blog.digitalocean.com/may-2019-intel-vulnerab=
+ility/> and Transactional Asynchronous Abort (TAA)=20
+processor-level issues we=E2=80=99ve mitigated previously. However, the Vec=
+tor Register Sampling vulnerability has a smaller scope and lower risk than=
+ MDS, and the L1TF mitigations DigitalOcean applied previously will help pr=
+event a malicious Droplet from attacking a host with L1D Eviction Sampling.=
+=20
+
+ To further mitigate the impact of these two vulnerabilities, we are workin=
+g with Intel to obtain updated microcode, which we hope to receive soon. On=
+ce received, our engineering team will begin to rapidly and thoroughly test=
+, and then roll out the updated microcode across our fleet.=20
+
+ Updates from Intel and our own mitigation efforts will be ongoing. As new =
+information becomes available, we=E2=80=99ll share updates here <https://bl=
+og.digitalocean.com/an-update-about-intels-recent-cve-announcement/>. We=E2=
+=80=99ll also follow up with another email message once we=E2=80=99ve final=
+ized mitigations and our platform is protected.
+
+ Thanks,=20
+Team DigitalOcean
+Copyright =C2=A9 2020 DigitalOcean
+Floor 10, 101 Avenue of the Americas, New York, NY, 10013
+All rights reserved.
+
+------=_Part_369765658_1477652477.1580170217570
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+<html>
+<head>=20
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">=
+=20
+<meta name=3D"viewport" content=3D"width=3Ddevice-width">=20
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">=20
+<title>DigitalOcean</title>=20
+<style type=3D"text/css">
+        body {-webkit-text-size-adjust:none; -ms-text-size-adjust:none; bac=
+kground-color: #F7F7F7; -webkit-font-smoothing: antialiased; -moz-osx-font-=
+smoothing: grayscale; margin:0;padding:0;}
+        table td {border-collapse: collapse;}
+        table {border-collapse:collapse; mso-table-lspace:0pt; mso-table-rs=
+pace:0pt;}
+        p {margin:0; padding:0; margin-bottom:0;}
+        /*ul,
+        li {margin:0;padding:0;}*/
+        h1,h2,h3,h4,h5,h6 {margin:0;padding:0;}
+
+        body,
+        #body_style {background-color: #F7F7F7; width: 100%; min-width: 100=
+%!important;}
+       =20
+        a[x-apple-data-detectors] {
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+        }
+
+        .content a,
+        .content a:link,
+        .content a:visited,
+        .content a:active {color: #0080ff; text-decoration:none;}
+
+        @media only screen and (max-width: 600px) {
+            body {min-width: 100%!important;}
+            table[class~=3D"button"] {width:100% !important;}
+            p {padding-left:0; padding-right:0!important;}
+            table[class=3D"devicewidth"] {width: 100%!important; text-align=
+:center!important;}
+            table[class~=3D"tableCollapse"] {width: 100%!important;}
+            table[class~=3D"tableCollapse2"] {width: 95%!important;}
+            td[class~=3D"w22"] {width:21px!important;}
+            td[class~=3D"w31"] {width:31px!important;}
+            td[class~=3D"h26"] {height:21px!important;}
+            td[class~=3D"h22"] {height:22px!important;}
+            td[class~=3D"h20"] {height:20px!important;}
+            td[class~=3D"h24"] {height:30px!important;}
+            td[class~=3D"H29"] {height:29px!important;}
+            td[class~=3D"headline"] {font-size:30px!important; line-height:=
+ 35px!important;}
+            td[class~=3D"content"] {font-size:18px!important; line-height: =
+26.1px!important;}
+            td[class~=3D"contentBlueBox"] {font-size:28px!important; line-h=
+eight: 32px!important;}
+            td[class~=3D"footer"] {font-size:14px!important; line-height:16=
+px!important;}
+            td[class~=3D"footer2"] {font-size:14px!important; line-height:3=
+5px!important; padding-left:50px; padding-right:50px; }
+            a[class~=3D"mobButton"] {font-size:18px!important;}
+        }
+</style>=20
+<!--[if mso]>
+    <style>
+    * {
+      font-family: Calibri, Helvetica, sans-serif !important;
+    }
+    </style>
+    <![endif]-->=20
+<!--[if !mso]><!-->=20
+<style type=3D"text/css">
+
+                @font-face {
+                            font-family: 'Proxima Nova';
+                            src: url('https://assets.digitalocean.com/fonts=
+/proximanova-reg-webfont.eot');
+                            src: url('https://assets.digitalocean.com/fonts=
+/proximanova-reg-webfont.eot?#iefix') format('embedded-opentype'),
+                                 url('https://assets.digitalocean.com/fonts=
+/proximanova-reg-webfont.woff') format('woff'),
+                                 url('https://assets.digitalocean.com/fonts=
+/proximanova-reg-webfont.ttf') format('truetype'),
+                                 url('https://assets.digitalocean.com/fonts=
+/proximanova-reg-webfont.svg#ProximaNovaLight') format('svg');
+                            font-weight: normal;
+                            font-style: normal;
+
+                        }
+                @font-face {
+                            font-family: 'Proxima Nova';
+                            src: url('https://assets.digitalocean.com/fonts=
+/proximanova-light-webfont.eot');
+                            src: url('https://assets.digitalocean.com/fonts=
+/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
+                                 url('https://assets.digitalocean.com/fonts=
+/proximanova-light-webfont.woff') format('woff'),
+                                 url('https://assets.digitalocean.com/fonts=
+/proximanova-light-webfont.ttf') format('truetype'),
+                                 url('https://assets.digitalocean.com/fonts=
+/proximanova-light-webfont.svg#ProximaNovaLight') format('svg');
+                            font-weight: 100;
+                            font-style: normal;
+
+                        }
+</style>=20
+<!--<![endif]-->=20
+</head>=20
+<body bgcolor=3D"#F7F7F7" style=3D"">
+<div id=3D"body_style" style=3D"background-color:#F7F7F7; ">
+<table width=3D"100%" bgcolor=3D"#F7F7F7" cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0" style=3D"text-align:center; ">
+<tbody>
+<tr style=3D"">
+<td style=3D"">
+<table bgcolor=3D"#F7F7F7" cellpadding=3D"0" cellspacing=3D"0" border=3D"0"=
+ width=3D"600" class=3D"tableCollapse2" align=3D"center" style=3D"margin:0p=
+x auto; ">
+<!-- Start Pre Header -->=20
+<tbody>
+<tr style=3D"">
+<td bgcolor=3D"#F7F7F7" align=3D"center" style=3D"">
+<table width=3D"100%" align=3D"center" cellspacing=3D"0" cellpadding=3D"0" =
+border=3D"0" class=3D"devicewidth" style=3D"">
+<tbody>
+<tr style=3D"">
+<td width=3D"100%" align=3D"center" height=3D"1" style=3D"font-size:1px; li=
+ne-height:1px; ">
+<div class=3D"mktEditable" id=3D"Preview-Text" style=3D"display:none; font-=
+size:1px; color:#F7F7F7; line-height:1px; max-height:0px; max-width:0px; op=
+acity:0; overflow:hidden; ">
+&nbsp;
+</div></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+<!-- End Pre Header -->=20
+<!-- *************************** -->
+<!-- Start Spacer -->=20
+<tr>=20
+<td bgcolor=3D"#F7F7F7" align=3D"right" valign=3D"top">=20
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" alig=
+n=3D"right" class=3D"tableCollapse">=20
+<tbody>=20
+<tr>=20
+<td valign=3D"top" width=3D"100%">=20
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" clas=
+s=3D"devicewidth" align=3D"right">=20
+<tbody>
+<tr>=20
+<td class=3D"H29" height=3D"39" style=3D"font-size:1px; line-height:1px;">&=
+nbsp;</td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+<!-- End Spacer -->=20
+<!-- *************************** -->
+<!-- Start of Logo-->=20
+<tr style=3D"">
+<td align=3D"center" valign=3D"top" style=3D"">
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" alig=
+n=3D"center" class=3D"tableCollapse" style=3D"">
+<tbody style=3D"">
+<tr style=3D"">
+<td valign=3D"top" width=3D"100%" style=3D"">
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" clas=
+s=3D"devicewidth" align=3D"center" style=3D"">
+<tbody>
+<tr style=3D"">
+<td align=3D"center" class=3D"mktEditable" id=3D"Top-Banner" style=3D"">
+<div>=20
+<img width=3D"60" border=3D"0" alt=3D"DigitalOcean Logo" style=3D"display:b=
+lock; border:none; outline:none; text-decoration:none;" src=3D"https://go.d=
+igitalocean.com/rs/937-EID-756/images/logo2.png">=20
+</div></td>
+</tr>
+<tr>=20
+<td bgcolor=3D"#F7F7F7" height=3D"40" style=3D"font-size:1px; line-height:1=
+px;">&nbsp;</td>=20
+</tr>=20
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+<!-- End of Logo -->=20
+<!-- *************************** -->
+<!-- Start of Main Content -->=20
+<tr style=3D"">
+<td bgcolor=3D"#FFFFFF" align=3D"center" style=3D"">
+<table width=3D"100%" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" =
+border=3D"0" class=3D"devicewidth" style=3D"">
+<tbody style=3D"">
+<!-- Start Spacer -->=20
+<tr>=20
+<td class=3D"w22" width=3D"41" style=3D"font-size:1px; line-height:1px;">&n=
+bsp;</td>=20
+<td class=3D"h26" height=3D"36" style=3D"font-size:1px; line-height:1px;">&=
+nbsp;</td>=20
+<td class=3D"w22" width=3D"41" style=3D"font-size:1px; line-height:1px;">&n=
+bsp;</td>=20
+</tr>=20
+<!-- End Spacer -->
+<tr style=3D"">
+<td class=3D"w22" width=3D"41" style=3D"font-size:1px; line-height:1px;">&n=
+bsp;</td>=20
+<td class=3D"mktEditable content" id=3D"edit_text_1" style=3D"font-family:'=
+Proxima Nova', Calibri, Helvetica, sans-serif; font-size:16px; color:#50505=
+0; text-align:left; line-height:25.6px; font-weight:normal; text-transform:=
+none; "> <p>Hi there, <br><br> Today, Intel released a statement regarding =
+two <a href=3D
+"https://pages.news.digitalocean.com/n/h6JjsFI00E000PV7X230Dle" target=3D"_=
+blank" class=3D"mktNoTok" id=3D""
+>Processors Data Leakage</a> security vulnerabilities (Vector Register Samp=
+ling and L1D Eviction Sampling), that may allow unintended information disc=
+losure for users of multi-tenant cloud environments. On DigitalOcean=E2=80=
+=99s platform, these two vulnerabilities may allow malicious actors to theo=
+retically use a Droplet to infer partial data used by previously run softwa=
+re or by another Droplet on the same physical host. <br><br> These vulnerab=
+ilities are similar to <a href=3D
+"https://pages.news.digitalocean.com/n/HE0030P0XJme7DF26jI00tV" target=3D"_=
+blank" class=3D"mktNoTok"
+>L1 Terminal Fault (L1TF)</a> as well as the <a href=3D
+"https://pages.news.digitalocean.com/n/l7IPn0006jeJ0D3VF0X0u2E" target=3D"_=
+blank" class=3D"mktNoTok" id=3D""
+>Microarchitectural Data Sampling (MDS)</a> and Transactional Asynchronous =
+Abort (TAA) processor-level issues we=E2=80=99ve mitigated previously. Howe=
+ver, the Vector Register Sampling vulnerability has a smaller scope and low=
+er risk than MDS, and the L1TF mitigations DigitalOcean applied previously =
+will help prevent a malicious Droplet from attacking a host with L1D Evicti=
+on Sampling. <br><br> To further mitigate the impact of these two vulnerabi=
+lities, we are working with Intel to obtain updated microcode, which we hop=
+e to receive soon. Once received, our engineering team will begin to rapidl=
+y and thoroughly test, and then roll out the updated microcode across our f=
+leet. <br><br> Updates from Intel and our own mitigation efforts will be on=
+going. As new information becomes available, we=E2=80=99ll share updates <a=
+ href=3D
+"https://pages.news.digitalocean.com/n/io7E0XIjJv600V020eP3D0F" target=3D"_=
+blank" class=3D"mktNoTok" id=3D""
+>here</a>. We=E2=80=99ll also follow up with another email message once we=
+=E2=80=99ve finalized mitigations and our platform is protected.<br><br> Th=
+anks, <br>Team DigitalOcean <br></p> </td>
+<td class=3D"w22" width=3D"41" style=3D"font-size:1px; line-height:1px;">&n=
+bsp;</td>=20
+</tr>
+<!-- Start Spacer -->=20
+<tr>=20
+<td class=3D"w22" width=3D"41" style=3D"font-size:1px; line-height:1px;">&n=
+bsp;</td>=20
+<td class=3D"h20" height=3D"41" style=3D"font-size:1px; line-height:1px;">&=
+nbsp;</td>=20
+<td class=3D"w22" width=3D"41" style=3D"font-size:1px; line-height:1px;">&n=
+bsp;</td>=20
+</tr>=20
+<!-- End Spacer -->
+</tbody>
+</table></td>
+</tr>
+<!-- End of Main Content -->=20
+<!-- *************************** -->
+<!-- Start of Footer -->=20
+<tr style=3D"">=20
+<td bgcolor=3D"#F7F7F7" align=3D"center" style=3D"">=20
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" alig=
+n=3D"center" class=3D"devicewidth" style=3D"">=20
+<tbody>
+<tr style=3D"">=20
+<td class=3D"mktEditable footer" id=3D"edit_text_3" align=3D"center" style=
+=3D"">
+<table width=3D"100%" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" =
+border=3D"0" class=3D"devicewidth">
+<!-- Start Spacer -->=20
+<tbody>=20
+<tr>=20
+<td class=3D"h24" height=3D"10" style=3D"font-size: 1px; line-height: 1px;"=
+>&nbsp;</td>=20
+</tr>=20
+<!-- End Spacer -->=20
+<!-- Start of Footer Links -->=20
+<!-- Start Spacer -->=20
+<tr>=20
+<td width=3D"41" style=3D"font-size: 1px; line-height: 1px;">&nbsp;</td>=20
+</tr>=20
+<!-- End Spacer -->=20
+<!-- End of Footer Links -->=20
+<!-- Start of Copyright/Address/All Right Reserved -->=20
+<tr>=20
+<td width=3D"25" style=3D"font-size: 1px; line-height: 1px;">&nbsp;</td>=20
+<td style=3D"font-family: 'Proxima Nova', Calibri, Helvetica, sans-serif; f=
+ont-size: 12px; color: #808080; font-weight: normal; text-align: center; li=
+ne-height: 150%;">=20
+<div>
+<em>Copyright =C2=A9 2020 DigitalOcean<br>Floor 10, 101 Avenue of the Ameri=
+cas, New York, NY, 10013<br>All rights reserved.</em>
+</div> </td>=20
+<td width=3D"25" style=3D"font-size: 1px; line-height: 1px;">&nbsp;</td>=20
+</tr>=20
+<!-- Start Spacer -->=20
+<tr>=20
+<td width=3D"41" style=3D"font-size: 1px; line-height: 1px;">&nbsp;</td>=20
+<td height=3D"20" style=3D"font-size: 1px; line-height: 1px;">&nbsp;</td>=
+=20
+<td width=3D"41" style=3D"font-size: 1px; line-height: 1px;">&nbsp;</td>=20
+</tr>=20
+<!-- End Spacer -->=20
+<!-- End of Copyright/Address/All Right Reserved -->
+</tbody>=20
+</table></td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+<!-- End of Footer -->
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table>
+</div>
+<a href=3D
+"https://pages.news.digitalocean.com/f007V060ew02jI3PEXDpJ0F"
+></a>
+<img src=3D"https://pages.news.digitalocean.com/trk?t=3D1&mid=3DOTM3LUVJRC0=
+3NTY6NzY3MTo4NjYwOjQ0NjE2OjA6MTIxNzc6OToxOTU2MzozOTUyMTA3NzplLnRhcmtobmlzaH=
+ZpbGlAdHJpcHBsYW5uZXIuZ2U%3D" width=3D"1" height=3D"1" style=3D"display:non=
+e !important;" alt=3D"" />
+</body>
+</html>
+------=_Part_369765658_1477652477.1580170217570--

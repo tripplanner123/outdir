@@ -1,0 +1,376 @@
+Return-Path: <support=digitalocean.com__225g2atnvol4sxwx@wfv07doeltsf.f2-18t5meaa.na132.bnc.salesforce.com>
+Delivered-To: e.tarkhnishvili@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP
+	id MDgFLlo2G159RAEA8w4q4w
+	(envelope-from <support=digitalocean.com__225g2atnvol4sxwx@wfv07doeltsf.f2-18t5meaa.na132.bnc.salesforce.com>)
+	for <e.tarkhnishvili@tripplanner.ge>; Sun, 12 Jan 2020 09:08:10 -0600
+Return-path: <support=digitalocean.com__225g2atnvol4sxwx@wfv07doeltsf.f2-18t5meaa.na132.bnc.salesforce.com>
+Envelope-to: e.tarkhnishvili@tripplanner.ge
+Delivery-date: Sun, 12 Jan 2020 09:08:10 -0600
+Received: from smtp06-ia2-sp3.mta.salesforce.com ([13.110.14.197]:54513)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92)
+	(envelope-from <support=digitalocean.com__225g2atnvol4sxwx@wfv07doeltsf.f2-18t5meaa.na132.bnc.salesforce.com>)
+	id 1iqeqY-000O23-6e
+	for e.tarkhnishvili@tripplanner.ge; Sun, 12 Jan 2020 09:08:10 -0600
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=digitalocean.com;
+	s=salesforcev2; t=1578841678;
+	bh=P+/CzYivG9Z3LXpxSUN0xKxOSbjnPYIxEECyjtYwRTs=;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	b=DOPsiEaVMEYI3BoPgxWOemF424mvJRlxUsNcg19s2r9EzG4L1TIkLH4BsjH0uMs6a
+	 I2+lQ+FV0LNyW5OWetHE0vxdA0cdGf35l8MlKRK7fIUi/htn+axmG2Del+1IE7kw8O
+	 QwuMq2UrVd/Z5S1O1Y/+7iTuIvGOJp1pXktDaQ/M=
+Authentication-Results:  mx4-ia2-sp3.mta.salesforce.com x-tls.subject="/C=US/ST=California/L=San Francisco/O=salesforce.com, inc./OU=0:app;1:ia2;2:ia2-sp3;3:na132;4:prod/CN=na132-app1-31-ia2.ops.sfdc.net"; auth=pass (cipher=ECDHE-RSA-AES256-GCM-SHA384)
+Received: from [10.227.210.227] ([10.227.210.227:36034] helo=na132-app1-31-ia2.ops.sfdc.net)
+	by mx4-ia2-sp3.mta.salesforce.com (envelope-from <support=digitalocean.com__225g2atnvol4sxwx@wfv07doeltsf.f2-18t5meaa.na132.bnc.salesforce.com>)
+	(ecelerity 4.2.38.62368 r(Core:release/4.2.38.0)) with ESMTPS (cipher=ECDHE-RSA-AES256-GCM-SHA384
+	subject="/C=US/ST=California/L=San Francisco/O=salesforce.com, inc./OU=0:app;1:ia2;2:ia2-sp3;3:na132;4:prod/CN=na132-app1-31-ia2.ops.sfdc.net") 
+	id 20/4A-11427-E463B1E5; Sun, 12 Jan 2020 15:07:58 +0000
+Date: Sun, 12 Jan 2020 15:07:58 +0000 (GMT)
+From: DigitalOcean Support <support@digitalocean.com>
+Sender: noreply@salesforce.com
+To: "e.tarkhnishvili@tripplanner.ge" <e.tarkhnishvili@tripplanner.ge>
+Message-ID: <yYv8C000000000000000000000000000000000000000000000Q4021A00aC-casHuTLimtRejHrPcJQ@sfdc.net>
+Subject: [DigitalOcean] Ticket #03187312: Hello:     [
+ ref:_00Df218t5m._5004P13cc2x:ref ]
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_8411_1152832653.1578841678567"
+X-SFDC-LK: 00Df20000018t5m
+X-SFDC-User: 005f2000009tM9H
+X-Sender: postmaster@salesforce.com
+X-mail_abuse_inquiries: http://www.salesforce.com/company/abuse.jsp
+X-SFDC-TLS-NoRelay: 1
+X-SFDC-Binding: 1WrIRBV94myi25uB
+X-SFDC-EmailCategory: quickActionEmail
+X-SFDC-EntityId: 5004P000013cc2x
+X-SFDC-Interface: internal
+X-Spam-Status: No, score=-0.3
+X-Spam-Score: -2
+X-Spam-Bar: /
+X-Spam-Flag: NO
+
+------=_Part_8411_1152832653.1578841678567
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hello there,
+
+We're sorry to hear about the problems you are encountering with making a p=
+ayment. Just to give you a bit more time to resolve the issues we have remo=
+ved the hold, which will prevent any further action until the next billing =
+cycle.
+
+It looks like your card is being declined, and your bank has sent us the fo=
+llowing message:
+
+=93insufficient_funds =94
+
+This can mean a number of things and can vary from bank to bank. In order t=
+o resolve this, you would need to contact the bank that issued the card to =
+get more information about why the card was declined and ask that they allo=
+w the transaction before proceeding.
+
+You can also review the meaning of individual declined error here which may=
+ offer additional insight while you work with your bank to determine the is=
+sue:
+
+https://stripe.com/docs/declines/codes
+
+Here are a few things to note:
+-Our payment processor cannot process certain types of international credit=
+ cards, debit cards, or prepaid cards from certain geographies, if you woul=
+d like to pay with one of these cards and are unable to, we recommend using=
+ the card to send a payment via PayPal.
+
+If your credit card is not supported, please consider making a PayPal payme=
+nt instead here:
+
+https://cloud.digitalocean.com/settings/billing#paypal
+
+Warmest regards,
+Trevor
+Developer Support Specialist
+
+Was this reply helpful? Let us know!
+ref:_00Df218t5m._5004P13cc2x:ref
+------=_Part_8411_1152832653.1578841678567
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<html>
+<head>
+	<title></title>
+</head>
+<body>Hello there,<br />
+<br />
+We&#39;re sorry to hear about the problems you are encountering with making a payment. Just to give you a bit more time to resolve the issues we have removed the hold, which will prevent any further action until the next billing cycle.<br />
+<br />
+It looks like your card is being declined, and your bank has sent us the following message:<br />
+<br />
+&ldquo;<meta charset='utf-8'><span style="color:#e74c3c;"><span style="font-family: monospace; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 500; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;">insufficient_funds</span></span> &rdquo;<br />
+<br />
+This can mean a number of things and can vary from bank to bank. In order to resolve this, you would need to contact the bank that issued the card to get more information about why the card was declined and ask that they allow the transaction before proceeding.<br />
+<br />
+You can also review the meaning of individual declined error here which may offer additional insight while you work with your bank to determine the issue:<br />
+<br />
+https://stripe.com/docs/declines/codes<br />
+<br />
+Here are a few things to note:<br />
+-Our payment processor cannot process certain types of international credit cards, debit cards, or prepaid cards from certain geographies, if you would like to pay with one of these cards and are unable to, we recommend using the card to send a payment via PayPal.<br />
+<br />
+If your credit card is not supported, please consider making a PayPal payment instead here:<br />
+<br />
+https://cloud.digitalocean.com/settings/billing#paypal<br />
+<br />
+Warmest regards,<br />
+Trevor<br />
+Developer Support Specialist<br />
+<br />
+<a href="https://digitalocean.getfeedback.com/r/R96SpQop?_expire=2020-01-19 15:07:35Z&case=5004P000013cc2x&account=0014P00002QFdoL&contact=0034P00002pkCaP&sn=005f2000009tM9H&lmu=" target="_blank">Was this reply helpful? Let us know!</a><img src="http://doinstance.my.salesforce.com/servlet/servlet.ImageServer?oid=00Df20000018t5m&esid=0184P00000TATAS"><br><br>ref:_00Df218t5m._5004P13cc2x:ref</body>
+<style class="stylus" id="stylus-1" type="text/css">/* admin */
+
+.admin {
+    background: #242424;
+    color: #dcdccc;
+}
+
+.guest, html {
+    background: #242424;
+    color: #dcdccc;
+}
+
+/* table settings */
+
+.table td {
+    border-top: 1px solid #040404;
+}
+.table-striped tbody>tr:nth-child(odd)>td,
+.table-striped tbody>tr:nth-child(odd)>th {
+    background-color: #2c2e2e;
+}
+.table-bordered {
+    border: 1px solid #040404;
+}
+.table-bordered th,
+.table-bordered td {
+    border-left: 1px solid #040404;
+}
+.table-hover tbody tr:hover>td,
+.table-hover tbody tr:hover>th {
+    background-color: #3a3a39;
+}
+tr.event.warning {
+    color: #090999;
+}
+tr.event.critical {
+    background: #772929;
+}
+/* Social Identity table tweaks */
+
+.twitter-identity .table tr.error td,
+.github-identity .table tr.error td {
+    background: #9D5D43;
+}
+
+.github-identity .table tr.success td,
+.twitter-identity .table tr.success td {
+    background: #485148;
+}
+/* buttons */
+
+.btn {
+    font-weight: 600;
+    opacity: .8;
+    color: #040404;
+    background-image: none;
+}
+.btn-danger {
+    background-color: #bc6c4c;
+}
+.btn-primary {
+    background-color: #8c8cbc;
+}
+/* labels */
+
+.badge,
+.label {
+    color: #040404;
+    background-color: #a0afa0;
+}
+.label {
+    background-color: #a0afa0;
+}
+.label-inverse,
+.label-inverse[href] {
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+}
+.label-success[href] {
+    background-color: #688060;
+}
+
+/* label colors*/
+
+.red {
+ 	background: #d36561;   
+}
+
+.do_blue {
+    background: #49afcd;
+}
+.mustard {
+    background: #c90;
+}
+.blue {
+    background: #8c8cbc;
+}
+.green {
+    background: #82a282;
+}
+.purple {
+    background: #c0bed1;
+}
+.dark_purple {
+    background: #ecbcbc;
+}
+.black {
+    background: #4f4f4f;
+}
+/* nav elements */
+
+.dropdown-menu {
+    background-color: #2e2e2e;
+    border: 1px solid #242424;
+}
+.dropdown-menu>li>a {
+    color: #8faf9f;
+}
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus,
+.dropdown-submenu:hover>a,
+.dropdown-submenu:focus>a {
+    color: #fff;
+    background-color: #3a3a39;
+    background-image: none;
+}
+.navbar .nav>li>.dropdown-menu:after {
+    border-bottom: 7px solid #2e2e2e;
+}
+a {
+    color: #7cac7c;
+    text-decoration: none;
+}
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.nav-list>li>a,
+.nav-list .nav-header {
+    margin-left: -15px;
+    margin-right: -15px;
+    text-shadow: 0 1px 0 rgba(104, 128, 96, .5);
+}
+hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #2e2e2e;
+    border-bottom: 1px solid #040404;
+}
+pre {
+    background-color: #2e2e2e;
+    color: #ffffe0;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+textarea,
+input[type="text"],
+input[type="number"],
+input[type="password"],
+select {
+    background-color: #5b605e;
+    color: #efefef;
+    border-color: #2e2e2e;
+}
+.chosen-container-single,
+.chosen-single,
+.chosen-default,
+.chosen-container-single .chosen-default,
+.chosen-container-single .chosen-single,
+.chosen-container .chosen-drop {
+    background: #5b605e;
+    background-color: #5b605e;
+    background-image: none;
+    color: #efefef;
+    border-color: #2e2e2e;
+}
+.chosen-container .chosen-results {
+    color: #eee;
+}
+textarea:active,
+input[type="text"]:active select {
+    outline: 1px solid #cbecd0;
+}
+.well {
+    background-color: #2e2e2e;
+    border-color: #040404;
+}
+.dark-border {
+    background-color: #434443;
+}
+.alert {
+    background-color: #5b605e;
+    color: #e3ceab;
+    text-shadow: none;
+}
+.tickets .issues {
+    border: 1px solid #040404;
+    border-radius: 4px;
+    background: #434443;
+}
+.graph>svg>.title {
+    padding: 10px;
+    display: block;
+    color: #F00;
+}
+#user_notes tr.pinned {
+    background-color: #353535;
+    color: #dcdccc;
+}
+#user_notes tr.pinned pre {
+    background-color: #353535;
+    color: #dcdccc;
+}
+.modal,
+.modal-footer {
+    background: #353535;
+}
+.modal-content .close {
+    color: #efefef;
+    opacity: 0.6;
+}
+/*  ? Pagination, pagina-a-a-tion ? */
+
+.pagination ul {
+    background: #444;
+}
+.pagination ul li.prev.previous_page.disabled a,
+.pagination ul li.prev.next_page.disabled a {
+    background: #2e3330;
+}
+.pagination ul li.active a {
+    background: #9fafaf;
+    color: #000;
+}
+.pagination ul li a {
+    background: #5b605e;
+    border: 1px solid #000;
+}
+</style>
+</html>
+------=_Part_8411_1152832653.1578841678567--

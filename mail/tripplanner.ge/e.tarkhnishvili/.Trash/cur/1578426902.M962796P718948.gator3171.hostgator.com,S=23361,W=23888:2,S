@@ -1,0 +1,527 @@
+Return-Path: <937-EID-756.0.19058.0.0.11746.9.39521077@info.digitalocean.com>
+Delivered-To: e.tarkhnishvili@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP
+	id +JlNORbiFF5k+AoA8w4q4w
+	(envelope-from <937-EID-756.0.19058.0.0.11746.9.39521077@info.digitalocean.com>)
+	for <e.tarkhnishvili@tripplanner.ge>; Tue, 07 Jan 2020 13:55:02 -0600
+Return-path: <937-EID-756.0.19058.0.0.11746.9.39521077@info.digitalocean.com>
+Envelope-to: e.tarkhnishvili@tripplanner.ge
+Delivery-date: Tue, 07 Jan 2020 13:55:02 -0600
+Received: from info.digitalocean.com ([192.28.144.201]:45913)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92)
+	(envelope-from <937-EID-756.0.19058.0.0.11746.9.39521077@info.digitalocean.com>)
+	id 1iouwP-0033WE-4d
+	for e.tarkhnishvili@tripplanner.ge; Tue, 07 Jan 2020 13:55:02 -0600
+X-MSFBL: cMHBy/ZcN2DSoVeQAAFcfxPL8IGEoJGop1WT5r1BDO0=|eyJnIjoiYmctYWJkLTM
+	0NiIsImIiOiJkdnAtMTkyLTI4LTE0NC0yMDEiLCJ1IjoiOTM3LUVJRC03NTY6NzU
+	yODo4NDc1OjQxNDY3OjA6MTE3NDY6OToxOTA1ODozOTUyMTA3NyIsInIiOiJlLnR
+	hcmtobmlzaHZpbGlAdHJpcHBsYW5uZXIuZ2UifQ==
+Received: from [10.1.87.249] ([10.1.87.249:58472] helo=abmas05.marketo.org)
+	by abmta20.marketo.org (envelope-from <webinars@news.digitalocean.com>)
+	(ecelerity 4.2.38.62370 r(:)) with ESMTP
+	id 55/67-26470-802E41E5; Tue, 07 Jan 2020 13:54:48 -0600
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1578426888;
+	s=m1; d=news.digitalocean.com; i=@news.digitalocean.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=lkjBichuI17ZUjzNh8mCZ6dl2CR5ufmNyLey0URK3CY=;
+	b=CUcwtHyv+ckwlx6NUal4ajr1n+7lEgcpU0+5b7K/8oNxRbV8PgJytaOhf11dcu/R
+	nvZOcJPOHoqNa2+T8JO2aWMdvLK/1D1vrKEaB7J0bGqWtCR8iFVLZ/06lWgnynvlWLz
+	8edaTKWRNWa/h6HCPawKRQEPf/yoZOF8Ioiu+tk8=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1578426888;
+	s=m1; d=mktdns.com; i=@mktdns.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=lkjBichuI17ZUjzNh8mCZ6dl2CR5ufmNyLey0URK3CY=;
+	b=fZ+hCNRd8asgNVcDfc5ZD8wYduRbh24bBTGCUGVeuWkZG2OmxInJTXGhdI5e4udh
+	IIrrb6Anic5THI5Wn5V4lE7wun9CK4WSnM53zdNluGM99MdjnGN0EIH4MRxP7d+S4Ui
+	TIuuST/x5v77z9fmjrgo0BV/nM2pFs5WWH8yNZU0=
+Date: Tue, 7 Jan 2020 13:54:48 -0600 (CST)
+From: DigitalOcean Webinars <webinars@news.digitalocean.com>
+Reply-To: webinars@digitalocean.com
+To: e.tarkhnishvili@tripplanner.ge
+Message-ID: <412106125.1558802285.1578426888949.JavaMail.mktmail@abmas05.marketo.org>
+Subject: Join Our Webinar: Get Started with Containers and Kubernetes
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1558802284_1968114638.1578426888949"
+X-Binding: bg-abd-346
+X-MarketoID: 937-EID-756:7528:8475:41467:0:11746:9:19058:39521077
+X-MktArchive: false
+List-Unsubscribe: <mailto:GJCDSSTEN5SGYSTXGNIE26CCHF3VAQSRJM4DAT2MNZDWIVJTMZKW4WBZGBEUUMDDGNUXOPI.19058.11746.9@unsub-ab.mktomail.com>
+X-Mailfrom: 937-EID-756.0.19058.0.0.11746.9.39521077@info.digitalocean.com
+X-MSYS-API: {"options":{"open_tracking":false,"click_tracking":false}}
+X-MktMailDKIM: true
+X-Spam-Status: No, score=-13.1
+X-Spam-Score: -130
+X-Spam-Bar: -------------
+X-Spam-Flag: NO
+
+------=_Part_1558802284_1968114638.1578426888949
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hey Ekaterine
+
+Learn more about continuous integration & continuous delivery using Kuberne=
+tes!
+
+Join us for a webinar series hosted by Neependra Khare - author, speaker, D=
+ocker Captain and a Certified Kubernetes Administrator. This series will co=
+ver an introduction to release management & Cloud Native tools with Kuberne=
+tes, service mesh and it's role in delivering fully tested code and=C2=A0CI=
+/CD toolsets that can be used with Kubernetes.
+
+This webinar series would be beneficial for developers of all skill levels =
+interested in delivering code with Kubernetes, businesses looking to adopt =
+CI/CD using Kubernetes and architects & DevOps engineers wanting to underst=
+and tools to enable Continuous Delivery with Kubernetes.
+
+1st Webinar:=C2=A0August 8, 2018 (Wednesday)
+
+Time:
+8.00 PM =C2=A0- 9.00 PM IST
+2.30 PM =C2=A0- 3.30 PM UTC
+10.30 AM - 11.30 AM EDT
+
+Whether you=E2=80=99re a pro or a newbie, we think you will learn something=
+ useful in this series!
+
+REGISTER NOW <https://pages.news.digitalocean.com/DEEF0020DIe00D2i6X3J0VP>
+
+Copyright =C2=A9 2018 DigitalOcean
+Floor 10, 101 Avenue of the Americas, New York, NY, 10013
+All rights reserved.
+
+This email was sent to e.tarkhnishvili@tripplanner.ge. You can update your =
+email subscription preferences here: https://go.digitalocean.com/Unsubscrib=
+ePage.html?mkt_unsubscribe=3D1&mkt_tok=3DeyJpIjoiWldaa05EZ3dPVEprWVRrdyIsIn=
+QiOiJGSk9pYnJGYnB3cFFEL2F5V0tOM3RaVVQvNFphcGZjbEg4aGRqbnk2a0xGd29Qd3JveHdod=
+21iQmZhSWg5T1pGSy9uTzNVSDJLd2NaMnl6Q01oeEdXK1QwcTRxakVwOG5seDllRTA5VG5hSFNJ=
+clB1emczaVR4TFlHcWZHaHFJWiJ9.
+
+------=_Part_1558802284_1968114638.1578426888949
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+<html>
+<head>=20
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">=
+=20
+<meta name=3D"viewport" content=3D"width=3Ddevice-width">=20
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">=20
+<title>DigitalOcean</title>=20
+<style type=3D"text/css">
+        body {-webkit-text-size-adjust:none; -ms-text-size-adjust:none; bac=
+kground-color: #F7F7F7; -webkit-font-smoothing: antialiased; -moz-osx-font-=
+smoothing: grayscale; margin:0;padding:0;}
+        table td {border-collapse: collapse;}
+        table {border-collapse:collapse; mso-table-lspace:0pt; mso-table-rs=
+pace:0pt;}
+        p {margin:0; padding:0; margin-bottom:0;}
+        /*ul,
+        li {margin:0;padding:0;}*/
+        h1,h2,h3,h4,h5,h6 {margin:0;padding:0;}
+        body,
+        #body_style {background-color: #F7F7F7; width: 100%; min-width: 100=
+%!important;}
+       =20
+        a[x-apple-data-detectors] {
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+        }
+        .content a,
+        .content a:link,
+        .content a:visited,
+        .content a:active {color: #0080ff; text-decoration:none;}
+        @media only screen and (max-width: 600px) {
+            body {min-width: 100%!important;}
+            table[class~=3D"button"] {width:100% !important;}
+            p {padding-left:0; padding-right:0!important;}
+            table[class=3D"devicewidth"] {width: 100%!important; text-align=
+:center!important;}
+            table[class~=3D"tableCollapse"] {width: 100%!important;}
+            table[class~=3D"tableCollapse2"] {width: 95%!important;}
+            td[class~=3D"w22"] {width:21px!important;}
+            td[class~=3D"h26"] {height:21px!important;}
+            td[class~=3D"h20"] {height:20px!important;}
+            td[class~=3D"h24"] {height:30px!important;}
+            td[class~=3D"H29"] {height:29px!important;}
+            td[class~=3D"headline"] {font-size:30px!important; line-height:=
+ 35px!important;}
+            td[class~=3D"content"] {font-size:18px!important; line-height: =
+26.1px!important;}
+            td[class~=3D"footer"] {font-size:14px!important; line-height:16=
+px!important;}
+            td[class~=3D"footer2"] {font-size:14px!important; line-height:3=
+5px!important; padding-left:50px; padding-right:50px; }
+            a[class~=3D"mobButton"] {font-size:18px!important;}
+        }
+</style>=20
+<!--[if mso]>
+<style>
+    * {
+      font-family: Calibri, Helvetica, sans-serif !important;
+    }
+    </style>
+    <![endif]-->=20
+<!--[if !mso]><!-->=20
+<style type=3D"text/css">
+                @font-face {
+                            font-family: 'Proxima Nova';
+                            src: url('https://assets.digitalocean.com/fonts=
+/proximanova-reg-webfont.eot');
+                            src: url('https://assets.digitalocean.com/fonts=
+/proximanova-reg-webfont.eot?#iefix') format('embedded-opentype'),
+                                 url('https://assets.digitalocean.com/fonts=
+/proximanova-reg-webfont.woff') format('woff'),
+                                 url('https://assets.digitalocean.com/fonts=
+/proximanova-reg-webfont.ttf') format('truetype'),
+                                 url('https://assets.digitalocean.com/fonts=
+/proximanova-reg-webfont.svg#ProximaNovaLight') format('svg');
+                            font-weight: normal;
+                            font-style: normal;
+                        }
+                @font-face {
+                            font-family: 'Proxima Nova';
+                            src: url('https://assets.digitalocean.com/fonts=
+/proximanova-light-webfont.eot');
+                            src: url('https://assets.digitalocean.com/fonts=
+/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
+                                 url('https://assets.digitalocean.com/fonts=
+/proximanova-light-webfont.woff') format('woff'),
+                                 url('https://assets.digitalocean.com/fonts=
+/proximanova-light-webfont.ttf') format('truetype'),
+                                 url('https://assets.digitalocean.com/fonts=
+/proximanova-light-webfont.svg#ProximaNovaLight') format('svg');
+                            font-weight: 100;
+                            font-style: normal;
+                        }
+</style>=20
+<!--<![endif]-->=20
+</head>=20
+<body bgcolor=3D"#F7F7F7" style=3D"">=20
+<div id=3D"body_style" style=3D"background-color:#F7F7F7; ">=20
+<table width=3D"100%" bgcolor=3D"#F7F7F7" cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0" style=3D"text-align:center; ">=20
+<tbody>=20
+<tr style=3D"">=20
+<td style=3D"">=20
+<table bgcolor=3D"#F7F7F7" cellpadding=3D"0" cellspacing=3D"0" border=3D"0"=
+ width=3D"600" class=3D"tableCollapse2" align=3D"center" style=3D"margin:0p=
+x auto; ">=20
+<!-- Start Pre Header -->=20
+<tbody>=20
+<tr style=3D"">=20
+<td bgcolor=3D"#F7F7F7" align=3D"center" style=3D"">=20
+<table width=3D"100%" align=3D"center" cellspacing=3D"0" cellpadding=3D"0" =
+border=3D"0" class=3D"devicewidth" style=3D"">=20
+<tbody>=20
+<tr style=3D"">=20
+<td width=3D"100%" align=3D"center" height=3D"1" style=3D"font-size:1px; li=
+ne-height:1px; ">=20
+<div class=3D"mktEditable" id=3D"Preview-Text" style=3D"display:none; font-=
+size:1px; color:#F7F7F7; line-height:1px; max-height:0px; max-width:0px; op=
+acity:0; overflow:hidden; ">
+Advanced Kubernetes on DOKS &nbsp;
+</div> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+<!-- End Pre Header -->=20
+<!-- *************************** -->=20
+<!-- Start Header Links -->=20
+<tr>=20
+<td bgcolor=3D"#F7F7F7" align=3D"right" valign=3D"top">=20
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" alig=
+n=3D"right" class=3D"tableCollapse">=20
+<tbody>=20
+<tr>=20
+<td valign=3D"top" width=3D"100%">=20
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" clas=
+s=3D"devicewidth" align=3D"right">=20
+<tbody>=20
+<tr>=20
+<td class=3D"H29" height=3D"39" style=3D"font-size:1px; line-height:1px;">&=
+nbsp;</td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+<!-- End Header Links -->=20
+<!-- *************************** -->=20
+<!-- *************************** -->=20
+<!-- Start of Hero Banner -->=20
+<tr style=3D"">=20
+<td bgcolor=3D"#FFFFFF" align=3D"center" valign=3D"top" style=3D"">=20
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" alig=
+n=3D"center" class=3D"tableCollapse" style=3D"">=20
+<tbody>=20
+<tr style=3D"">=20
+<td valign=3D"top" width=3D"100%" style=3D"">=20
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" clas=
+s=3D"devicewidth" align=3D"center" style=3D"">=20
+<tbody>=20
+<tr style=3D"">=20
+<td align=3D"center" class=3D"mktEditable" id=3D"headline_image" style=3D"f=
+ont-size:1px; line-height:1px; ">
+<div>
+<a href=3D
+"https://pages.news.digitalocean.com/O0D0JFPD0320XE6A0Y0VieI" target=3D"_bl=
+ank" title=3D""
+><img src=3D"https://marketing.nyc3.cdn.digitaloceanspaces.com/Webinars/web=
+inar_containers&amp;kubernetes_frederic.png" alt=3D"" height=3D"301" width=
+=3D"601" constrain=3D"true" imagepreview=3D"false"></a>
+</div></td>=20
+</tr>=20
+<!-- Start Spacer -->=20
+<tr>=20
+<td class=3D"h26" height=3D"36" style=3D"font-size:1px; line-height:1px;">&=
+nbsp;</td>=20
+</tr>=20
+<!-- End Spacer -->=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+<!-- End of Hero Banner-->=20
+<!-- Start of Main Content -->=20
+<tr style=3D"">=20
+<td bgcolor=3D"#FFFFFF" align=3D"center" style=3D"">=20
+<table width=3D"100%" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" =
+border=3D"0" class=3D"devicewidth" style=3D"">=20
+<tbody style=3D"">=20
+<tr style=3D"">=20
+<td class=3D"w22" width=3D"41" style=3D"font-size:1px; line-height:1px;">&n=
+bsp;</td>=20
+<td class=3D"mktEditable content mktEditable content" id=3D"edit_text_1" st=
+yle=3D"font-family:'Proxima Nova', Calibri, Helvetica, sans-serif; font-siz=
+e:16px; color:#505050; text-align:left; line-height:25.6px; font-weight:nor=
+mal; text-transform:none; "> <p><span style=3D"color: #505050; font-family:=
+ 'Proxima Nova', 'Open Sans', 'Helvetica Neue', Calibri, Helvetica, sans-se=
+rif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; f=
+ont-variant-caps: normal; font-weight: normal; letter-spacing: normal; orph=
+ans: 2; text-align: left; text-indent: 0px; text-transform: none; white-spa=
+ce: normal; widows: 2; word-spacing: 0px;=20
+-webkit-text-stroke-width: 0px; background-color: #ffffff; display: inline =
+!important; float: none;">Happy New Year! <br><br>We hope that you enjoyed =
+a nice break around the holidays, and that you=E2=80=99ve rested and rechar=
+ged. <br><br> It's the year 2020 and the term =E2=80=9Cmodern apps=E2=80=9D=
+ is becoming synonymous with containerization and Kubernetes. Are your apps=
+ taking advantage of these trends? Are you feeling left behind? Don=E2=80=
+=99t worry, join us for our <a href=3D
+"https://pages.news.digitalocean.com/n/FieI600BZ0E2J3DP000DVXF" target=3D"_=
+blank" class=3D"mktNoTok" id=3D""
+>first webinar of the year</a>!<br><br></span></p>=20
+<center>
+<a href=3D
+"https://pages.news.digitalocean.com/n/FieI600BZ0E2J3DP000DVXF" target=3D"_=
+blank" class=3D"mktNoTok"
+><strong style=3D"color: #505050; font-family: 'Proxima Nova', Calibri, Hel=
+vetica, sans-serif; font-size: 16px; font-style: normal; font-variant-ligat=
+ures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2=
+; text-align: left; text-indent: 0px; text-transform: none; white-space:=20
+normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; backg=
+round-color: #ffffff; text-decoration-style: initial; text-decoration-color=
+: initial;">A DigitalOcean Workshop:<span>&nbsp;</span><br>Get Started with=
+ Containers and Kubernetes</strong></a>
+<br style=3D"color: #505050; font-family: 'Proxima Nova', Calibri, Helvetic=
+a, sans-serif; font-size: 16px; font-style: normal;=20
+font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400=
+; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; t=
+ext-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -we=
+bkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-sty=
+le: initial; text-decoration-color: initial;">
+<span style=3D"color: #505050; font-family: 'Proxima=20
+Nova', Calibri, Helvetica, sans-serif; font-size: 16px; font-style: normal;=
+ font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 40=
+0; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; =
+text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -w=
+ebkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-st=
+yle: initial;=20
+text-decoration-color: initial; display: inline !important; float: none;">T=
+hursday, January 16, 2020</span>
+<br style=3D"color: #505050; font-family: 'Proxima Nova', Calibri, Helvetic=
+a, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures:=
+ normal; font-variant-caps: normal; font-weight: 400; letter-spacing: norma=
+l; orphans: 2; text-align: left; text-indent: 0px; text-transform:=20
+none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-strok=
+e-width: 0px; background-color: #ffffff; text-decoration-style: initial; te=
+xt-decoration-color: initial;">
+<span style=3D"color: #505050; font-family: 'Proxima Nova', Calibri, Helvet=
+ica, sans-serif; font-size: 16px; font-style: normal; font-variant-ligature=
+s: normal; font-variant-caps: normal; font-weight: 400;=20
+letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; tex=
+t-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webk=
+it-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style=
+: initial; text-decoration-color: initial; display: inline !important; floa=
+t: none;">1:00 PM EST / 10:00 AM PST</span>
+</center> <p><span style=3D"color: #505050; font-family: 'Proxima Nova', 'O=
+pen Sans', 'Helvetica Neue', Calibri, Helvetica, sans-serif; font-size: 16p=
+x; font-style: normal; font-variant-ligatures: normal; font-variant-caps: n=
+ormal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align:=
+ left; text-indent: 0px; text-transform: none; white-space: normal; widows:=
+ 2; word-spacing: 0px;=20
+-webkit-text-stroke-width: 0px; background-color: #ffffff; display: inline =
+!important; float: none;"><br>In this presentation, <a href=3D
+"https://pages.news.digitalocean.com/n/x0E0000D3Ci26XI00VFJeDP" target=3D"_=
+blank" class=3D"mktNoTok" id=3D""
+>Fr=C3=A9d=C3=A9ric Harper</a>, a DigitalOcean Senior Developer Advocate, w=
+ill show you how to harness containers and Kubernetes to deploy the =E2=80=
+=9CHello World=E2=80=9D Flask app onto a DigitalOcean Kubernetes cluster. A=
+fter the presentation, you=E2=80=99ll have the opportunity to ask Fr=C3=A9d=
+=C3=A9ric questions about related technologies and DigitalOcean products. <=
+br><br></span>We hope that you can join us for the webinar! If you can=E2=
+=80=99t join live, please sign up below anyway, and we=E2=80=99ll email you=
+ a link to the recording after the event.</p> </td>=20
+<td class=3D"w22" width=3D"41" style=3D"font-size:1px; line-height:1px;">&n=
+bsp;</td>=20
+</tr>=20
+<!-- Start Spacer -->=20
+<tr>=20
+<td class=3D"w22" width=3D"41" style=3D"font-size:1px; line-height:1px;">&n=
+bsp;</td>=20
+<td height=3D"30" style=3D"font-size:1px; line-height:1px;">&nbsp;</td>=20
+<td class=3D"w22" width=3D"41" style=3D"font-size:1px; line-height:1px;">&n=
+bsp;</td>=20
+</tr>=20
+<!-- End Spacer -->=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+<!-- End of Main Content -->=20
+<!-- start of Button -->=20
+<tr style=3D"">=20
+<td bgcolor=3D"#FFFFFF" align=3D"center" class=3D"mktEditable" id=3D"edit_c=
+ta_button" style=3D"">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">=20
+<tbody>=20
+<tr>=20
+<td class=3D"w22" width=3D"41" style=3D"font-size: 1px; line-height: 1px;">=
+&nbsp;</td>=20
+<td align=3D"left">=20
+<table width=3D"100%" class=3D"button" cellpadding=3D"0" cellspacing=3D"0" =
+border=3D"0" align=3D"left" bgcolor=3D"#0080FF" style=3D"-webkit-border-rad=
+ius: 4px; -moz-border-radius: 4px; border-radius: 4px;">=20
+<tbody>=20
+<tr>=20
+<td class=3D"mobButton" align=3D"center" valign=3D"middle" height=3D"65"><s=
+pan style=3D"color: #ffffff; text-decoration: none;"><a class=3D"mobButton =
+mktNoTok" href=3D
+"https://pages.news.digitalocean.com/n/FieI600BZ0E2J3DP000DVXF" style=3D"fo=
+nt-family: 'Proxima Nova', Calibri, Helvetica, sans-serif; font-size: 16px;=
+ color: #ffffff; display: block; height: 65px; mso-line-height-rule: exactl=
+y; line-height: 65px; font-weight: normal; text-decoration: none; text-alig=
+n: center!important; text-transform: uppercase; padding-left: 40px; padding=
+-right: 40px;" target=3D"_blank"
+>REGISTER NOW</a></span></td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+<td class=3D"w22" width=3D"41" style=3D"font-size: 1px; line-height: 1px;">=
+&nbsp;</td>=20
+</tr>=20
+<!-- Start Spacer -->=20
+<tr>=20
+<td class=3D"w22" width=3D"41" style=3D"font-size: 1px; line-height: 1px;">=
+&nbsp;</td>=20
+<td height=3D"15" style=3D"font-size: 1px; line-height: 1px;">&nbsp;</td>=
+=20
+<td class=3D"w22" width=3D"41" style=3D"font-size: 1px; line-height: 1px;">=
+&nbsp;</td>=20
+</tr>=20
+<!-- End Spacer -->
+</tbody>=20
+</table> <p><br></p></td>=20
+</tr>=20
+<!-- end of Button -->=20
+<!-- *************************** -->=20
+<!-- Start of Footer -->=20
+<tr style=3D"">=20
+<td bgcolor=3D"#F7F7F7" align=3D"center" style=3D"">=20
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" alig=
+n=3D"center" class=3D"devicewidth" style=3D"">=20
+<tbody>=20
+<tr style=3D"">=20
+<td class=3D"mktEditable footer mktEditable footer" id=3D"edit_text_3" alig=
+n=3D"center" style=3D"">
+<table width=3D"100%" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" =
+border=3D"0" class=3D"devicewidth">
+<!-- Start Spacer -->=20
+<tbody>=20
+<tr>=20
+<td class=3D"h24" height=3D"10" style=3D"font-size: 1px; line-height: 1px;"=
+>&nbsp;</td>=20
+</tr>=20
+<!-- End Spacer -->=20
+<!-- Start of Footer Links -->=20
+<!-- Start Spacer -->=20
+<tr>=20
+<td width=3D"41" style=3D"font-size: 1px; line-height: 1px;">&nbsp;</td>=20
+</tr>=20
+<!-- End Spacer -->=20
+<!-- End of Footer Links -->=20
+<!-- Start of Copyright/Address/All Right Reserved -->=20
+<tr>=20
+<td width=3D"25" style=3D"font-size: 1px; line-height: 1px;">&nbsp;</td>=20
+<td style=3D"font-family: 'Proxima Nova', Calibri, Helvetica, sans-serif; f=
+ont-size: 12px; color: #808080; font-weight: normal; text-align: center; li=
+ne-height: 150%;">=20
+<div>
+<em>Copyright =C2=A9 2020 DigitalOcean<br>Floor 10, 101 Avenue of the Ameri=
+cas, New York, NY, 10013<br>All rights reserved.</em>
+</div> </td>=20
+<td width=3D"25" style=3D"font-size: 1px; line-height: 1px;">&nbsp;</td>=20
+</tr>=20
+<!-- Start Spacer -->=20
+<tr>=20
+<td width=3D"41" style=3D"font-size: 1px; line-height: 1px;">&nbsp;</td>=20
+<td height=3D"20" style=3D"font-size: 1px; line-height: 1px;">&nbsp;</td>=
+=20
+<td width=3D"41" style=3D"font-size: 1px; line-height: 1px;">&nbsp;</td>=20
+</tr>=20
+<!-- End Spacer -->=20
+<!-- End of Copyright/Address/All Right Reserved -->
+</tbody>=20
+</table></td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+<!-- End of Footer -->=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+</tbody>=20
+</table>=20
+</div> =20
+<a href=3D
+"https://pages.news.digitalocean.com/m200X130F0PVi6JeIDD0ED0"
+></a>
+<img src=3D"https://pages.news.digitalocean.com/trk?t=3D1&mid=3DOTM3LUVJRC0=
+3NTY6NzUyODo4NDc1OjQxNDY3OjA6MTE3NDY6OToxOTA1ODozOTUyMTA3NzplLnRhcmtobmlzaH=
+ZpbGlAdHJpcHBsYW5uZXIuZ2U%3D" width=3D"1" height=3D"1" style=3D"display:non=
+e !important;" alt=3D"" />
+
+<p style=3D"text-align:center"><font face=3D"'Proxima Nova', 'Open Sans', '=
+Helvetica Neue', Calibri, Helvetica, sans-serif" size=3D"1">
+This email was sent to e.tarkhnishvili@tripplanner.ge. You can update your =
+<a href=3D
+"https://pages.news.digitalocean.com/u/SI0D3V0e62F0XEJ0i00DP3F"
+>email subscription preferences</a> at any time.=20
+</font> </p>
+</body>
+</html>
+------=_Part_1558802284_1968114638.1578426888949--

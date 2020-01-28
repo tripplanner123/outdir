@@ -1,0 +1,281 @@
+Return-Path: <dutt2+bncBDXJJXMWTQGRBOX2RPYQKGQETYA535I@techsaga.es>
+Delivered-To: info@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP
+	id +AVJIkn9Il5D8wUA8w4q4w
+	(envelope-from <dutt2+bncBDXJJXMWTQGRBOX2RPYQKGQETYA535I@techsaga.es>)
+	for <info@tripplanner.ge>; Sat, 18 Jan 2020 06:42:49 -0600
+Return-path: <dutt2+bncBDXJJXMWTQGRBOX2RPYQKGQETYA535I@techsaga.es>
+Envelope-to: info@tripplanner.ge
+Delivery-date: Sat, 18 Jan 2020 06:42:49 -0600
+Received: from mail-lj1-f199.google.com ([209.85.208.199]:33700)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.92)
+	(envelope-from <dutt2+bncBDXJJXMWTQGRBOX2RPYQKGQETYA535I@techsaga.es>)
+	id 1isnRA-001dNy-R1
+	for info@tripplanner.ge; Sat, 18 Jan 2020 06:42:49 -0600
+Received: by mail-lj1-f199.google.com with SMTP id f19sf6574211ljm.0
+        for <info@tripplanner.ge>; Sat, 18 Jan 2020 04:42:43 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1579351356; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=WCRT24LC2IIPC/KtaxU9zbBk/0Xbx6eAfJxL8KPlsPXbyWbzeJ2Apk1vOcInRHIsi1
+         bPDcAA8E1Z8aPrmVbCJiH69HG1b3mXRI/P4U+mwHRDCeRtiTo/kwOBT2uAR5x3y9vVKJ
+         xZldaNA93JYmnVenoRLisnBvYy4au2yyjSuvWEkX+P6UJXW2k7uioJOOJMlU/xe/iyR2
+         X/FI805ziSCa/ErtF+BYDz+eMC1AqP5Pyns7P6k/z7COFxfs+2+4vPuMXFM6mDN1LnSt
+         3Rydsa1l+1yS95aBkGhiQjJ2+K5W0QVW4zAFCubasWqI/RpnOsP0kzrwb+2nemZqraJA
+         x7Bg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-help:list-id:mailing-list:precedence:to:subject:message-id
+         :date:from:mime-version:dkim-signature;
+        bh=Uhps4oz4Gsrllz1H4jEQcU1jaARCcLCHAT3KJMgh+1c=;
+        b=MJrNGO0n8TAJBrLf2DPxRYG0GgE3/usBpZDlR7ww0w4lz1KSDww5g+wu4Wyihkzm07
+         A3e536Ac/DuJqWAHeGEhO3jtcdmfG3aSujnyBW5ZoOAV++ASCFVj5hRqyVLIRXt+zPei
+         9CEjNYKymSuJ+IsE73G+wLieKD4eFQ+9uMPpKeppnIpJASfA1jmGroctVgreru9lnJml
+         LudiP+N5L2BNqK/7eqbq6DsDEOJpnOSc1kYYHXUw1n55G1I4YuAVJ5VwK4sQ5TphpP8J
+         PoNVkHuA6xCaUnyAUUgHdhc6M63kx+5VL8/jLitrCs3JUTzRiCkdw0LcBZGYkTDMl2uz
+         XmVw==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20161025 header.b=vgjAYDU4;
+       spf=pass (google.com: domain of duttcharu51@gmail.com designates 209.85.220.65 as permitted sender) smtp.mailfrom=duttcharu51@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=techsaga-es.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:from:date:message-id:subject:to:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :list-help;
+        bh=Uhps4oz4Gsrllz1H4jEQcU1jaARCcLCHAT3KJMgh+1c=;
+        b=hExI4oZF7GfFf/qUwKIcV9Q9ThJL0dOVc87KMTtFlM1RYhU3MttU4lDS+/XY1I33YI
+         o8WIZ8yygJoEZi3zBiPICskz0GU7si3ScmaSeYRucdnZ+/dFH7WLEv4ihwYGkHffh3uU
+         Fi440a8CEpZkG/yMcedXQvQNECEyiwPhEIrvtuuaSx9rhDN375r0/8vWgf51ZNqDXAIS
+         Z1EBr1es9kRwmLUfvTr6Sm9oCnC08KfbBPNjFmRo3X4WWsB8xGq/lhy/E3KPXSn+ibHt
+         JdBld8snWB/GViLcD4gzPhkbpsezBbf3lBEMM0DsRAoRq4RS9NgrDBpGttK62iFv/34t
+         b7Fg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to
+         :x-original-sender:x-original-authentication-results:precedence
+         :mailing-list:list-id:x-spam-checked-in-group:list-help;
+        bh=Uhps4oz4Gsrllz1H4jEQcU1jaARCcLCHAT3KJMgh+1c=;
+        b=Y3N+eKumgvdrY/GS72TMo0PuODq5vuWhPsp0YPXjP4ynf5caxOiarL+TAWJklKWbGw
+         igWvuiRr5kitExxZqg3KrGKuKvVkaOymXKmqyPUzZ2lgu6X+t1/3+BRd/YUx4OeA9Hxu
+         U2exJiLwSCCHK2xGudysqu9mgDz9wpWqt2rZVf5ydi/YMGFRtaRLh+mBR0vKBHCvrdnz
+         KoTHUJ3MxLSUf8Wm+UmxqZpQUi3/HKnuMW/ieurQOgTjdVc+8t/A8qqqvbEgVHoiP1YD
+         KE6WIcpdQI+9r7aUHt2n1cGdSHyDFd8RGy2VId3bmHFOcWayzSYdyAWCyUImezS2MumB
+         jkxg==
+X-Gm-Message-State: APjAAAVzSYzKXuV9WWj53AZuxc9VP4fs9fISPgniJ72tJXBkP9AW4rKe
+	zPXOkrZFw6jGPJTBITgfLHNgMg==
+X-Google-Smtp-Source: APXvYqzoFMpXaNmgyYwonunUuGn2J7vov3qRbf1uTGIWs4c/3GEGXx9Prf0lIwH6NwAtwMGlw7pGhA==
+X-Received: by 2002:a19:7604:: with SMTP id c4mr8112777lff.101.1579351356159;
+        Sat, 18 Jan 2020 04:42:36 -0800 (PST)
+X-BeenThere: dutt2@techsaga.es
+Received: by 2002:ac2:4a62:: with SMTP id q2ls2683948lfp.8.gmail; Sat, 18 Jan
+ 2020 04:42:32 -0800 (PST)
+X-Received: by 2002:a19:5201:: with SMTP id m1mr8115411lfb.114.1579351352712;
+        Sat, 18 Jan 2020 04:42:32 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1579351352; cv=none;
+        d=google.com; s=arc-20160816;
+        b=FS61zQINmpdC+rpeknWrOMu/HgwC6nmZUTtmCCYvl4Q2oy6xlhD3h6AzA/yw1i1ojQ
+         jAdSzRrGJUxlXQtPQye0mv5Qi2wXmyUQG/8EjnA/mlrmh319k0Nwo81W23CNz0QvGxYM
+         HhfFxFywjpPkygIQujZXBCEm9PCmK3lUjj1R+Do+deaHS6tI6RLTKpw6hmoWtDsH7BR1
+         577AR5dDQKjyDcX2atwQwcCX3p47Yfp+FkuqjN/2vNae+jD1zvmO9WwbWA6RtrWwuae7
+         BkO6wDoBdCNwE3plEQIMaxx1EnxkHc5uOSt3hDpbQjRDrmvbbCifSXjuxYIsyJFlOjRz
+         q6Ww==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=Uhps4oz4Gsrllz1H4jEQcU1jaARCcLCHAT3KJMgh+1c=;
+        b=r5IsM/kgYY/p+DkFdxQTwCudZ1QjTj8cORwYVkX082lMTI3RODOQEbPpCjnzeB+gQt
+         cDrpgmp6AmYes/AzlKooq7+4/a1kXZtVJ+1x4rAZ64f5iUM5slqK5miOdFpepfcQPP3W
+         SG46Bc9Rkjf5/OnxbU2kcSNA3orYD/PLCc4XSI0W30aMCXANypSmYeu7MsG5ckM5I7br
+         fHuotfd6yMQ5mG1IJ0thaEMKWdSI1hPvUtvL0xE8+5imPBrHzbFwf1fwTREWR9YLAhNe
+         dr3/hRK+KqjIwGKymBK0NDoIPlmjlwGBxsTKvNp9LYogmPvlhcqjtQZUnFxzHtpPry+9
+         KK2Q==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20161025 header.b=vgjAYDU4;
+       spf=pass (google.com: domain of duttcharu51@gmail.com designates 209.85.220.65 as permitted sender) smtp.mailfrom=duttcharu51@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+Received: from mail-sor-f65.google.com (mail-sor-f65.google.com. [209.85.220.65])
+        by mx.google.com with SMTPS id z14sor17828916ljz.34.2020.01.18.04.42.32
+        for <dutt2@techsaga.es>
+        (Google Transport Security);
+        Sat, 18 Jan 2020 04:42:32 -0800 (PST)
+Received-SPF: pass (google.com: domain of duttcharu51@gmail.com designates 209.85.220.65 as permitted sender) client-ip=209.85.220.65;
+X-Received: by 2002:a05:651c:106f:: with SMTP id y15mr8554080ljm.63.1579351352381;
+ Sat, 18 Jan 2020 04:42:32 -0800 (PST)
+MIME-Version: 1.0
+From: charu dutt <duttcharu51@gmail.com>
+Date: Sat, 18 Jan 2020 18:12:22 +0530
+Message-ID: <CAOyzgPWKSQ0M=DaDQJEqLK8ot4OCpoc95W8CR-Bjc76KdLn5aQ@mail.gmail.com>
+Subject: Website Design (Static & Dynamic )
+To: undisclosed-recipients:;
+Content-Type: multipart/alternative; boundary="0000000000005592e7059c696407"
+Bcc: dutt2@techsaga.es
+X-Original-Sender: duttcharu51@gmail.com
+X-Original-Authentication-Results: mx.google.com;       dkim=pass
+ header.i=@gmail.com header.s=20161025 header.b=vgjAYDU4;       spf=pass
+ (google.com: domain of duttcharu51@gmail.com designates 209.85.220.65 as
+ permitted sender) smtp.mailfrom=duttcharu51@gmail.com;       dmarc=pass
+ (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+Precedence: list
+Mailing-list: list dutt2@techsaga.es; contact dutt2+owners@techsaga.es
+List-ID: <dutt2.techsaga.es>
+X-Spam-Checked-In-Group: dutt2@techsaga.es
+X-Google-Group-Id: 504872019230
+List-Help: <https://support.google.com/a/techsaga.es/bin/topic.py?topic=25838>,
+ <mailto:dutt2+help@techsaga.es>
+X-Spam-Status: No, score=1.3
+X-Spam-Score: 13
+X-Spam-Bar: +
+X-Spam-Flag: NO
+
+--0000000000005592e7059c696407
+Content-Type: text/plain; charset="UTF-8"
+
+Hello,
+
+Hope you are doing well.
+
+We are an India base IT company. We have a good creative team to design &
+develop an eye catching website for your business.
+
+*Our Services**:*
+
+*Website Online Marketing: SEO, SMO, SEM*
+
+*Mobile Application (Android, iOS)*
+
+*E-commerce /CMS Based Website Development*
+
+*Website Design (Static & Dynamic )*
+
+
+
+
+
+If you are interested in any of these services .  Then we can send you more
+detail about package/action plan with special Offer.
+
+I would be glad to schedule a Skype/Phone call in order to discuss the
+project in detail look forward to your positive mail.
+
+
+
+Thanks & Regards,
+
+*Charu*
+
+--0000000000005592e7059c696407
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;li=
+ne-height:normal;background-image:initial;background-position:initial;backg=
+round-size:initial;background-repeat:initial;background-origin:initial;back=
+ground-clip:initial;font-size:11pt;font-family:Calibri,sans-serif"><span st=
+yle=3D"font-size:12pt;color:black">Hello,</span><span style=3D"font-size:10=
+pt;font-family:Arial,sans-serif"></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal;=
+background-image:initial;background-position:initial;background-size:initia=
+l;background-repeat:initial;background-origin:initial;background-clip:initi=
+al;font-size:11pt;font-family:Calibri,sans-serif"><span style=3D"font-size:=
+12pt;color:black">Hope
+you are doing well</span><span style=3D"font-size:10pt;font-family:Arial,sa=
+ns-serif">.</span><span style=3D"font-size:12pt">=C2=A0</span><span style=
+=3D"font-size:10pt;font-family:Arial,sans-serif"></span></p>
+
+<p class=3D"gmail-msonormal" style=3D"margin-right:0in;margin-left:0in;font=
+-size:12pt;font-family:&quot;Times New Roman&quot;,serif"><span style=3D"fo=
+nt-family:Calibri,sans-serif">We are an India base IT company. We have a go=
+od
+creative team to design &amp; develop an eye catching website for your
+business.</span></p>
+
+<p class=3D"gmail-msonormal" style=3D"margin-right:0in;margin-left:0in;font=
+-size:12pt;font-family:&quot;Times New Roman&quot;,serif"><b><u><span style=
+=3D"font-size:14pt;font-family:Calibri,sans-serif;background:yellow">Our Se=
+rvices</span></u></b><b><span style=3D"font-size:14pt;font-family:Calibri,s=
+ans-serif;background:yellow">:</span></b><span style=3D"font-size:10pt;font=
+-family:Arial,sans-serif"></span></p>
+
+<p class=3D"gmail-MsoListParagraphCxSpFirst" style=3D"margin:0in 0in 0.0001=
+pt 0.5in;line-height:normal;background-image:initial;background-position:in=
+itial;background-size:initial;background-repeat:initial;background-origin:i=
+nitial;background-clip:initial;font-size:11pt;font-family:Calibri,sans-seri=
+f"><b><span style=3D"font-size:12pt;color:red">Website Online Marketing: SE=
+O, SMO, SEM</span></b></p>
+
+<p class=3D"gmail-MsoListParagraphCxSpMiddle" style=3D"margin:0in 0in 0.000=
+1pt 0.5in;line-height:normal;background-image:initial;background-position:i=
+nitial;background-size:initial;background-repeat:initial;background-origin:=
+initial;background-clip:initial;font-size:11pt;font-family:Calibri,sans-ser=
+if"><b><span style=3D"font-size:12pt;color:red">Mobile Application=C2=A0(An=
+droid, iOS)</span></b></p>
+
+<p class=3D"gmail-MsoListParagraphCxSpMiddle" style=3D"margin:0in 0in 0.000=
+1pt 0.5in;line-height:normal;background-image:initial;background-position:i=
+nitial;background-size:initial;background-repeat:initial;background-origin:=
+initial;background-clip:initial;font-size:11pt;font-family:Calibri,sans-ser=
+if"><b><span style=3D"font-size:12pt;color:red">E-commerce=C2=A0/CMS Based =
+Website
+Development</span></b></p>
+
+<p class=3D"gmail-MsoListParagraphCxSpMiddle" style=3D"margin:0in 0in 0.000=
+1pt 0.5in;line-height:normal;background-image:initial;background-position:i=
+nitial;background-size:initial;background-repeat:initial;background-origin:=
+initial;background-clip:initial;font-size:11pt;font-family:Calibri,sans-ser=
+if"><b><span style=3D"font-size:12pt;color:red">Website Design=C2=A0(Static=
+ &amp;
+Dynamic )</span></b></p>
+
+<p class=3D"gmail-MsoListParagraphCxSpMiddle" style=3D"margin:0in 0in 0.000=
+1pt 0.5in;line-height:normal;background-image:initial;background-position:i=
+nitial;background-size:initial;background-repeat:initial;background-origin:=
+initial;background-clip:initial;font-size:11pt;font-family:Calibri,sans-ser=
+if"><b><span style=3D"font-size:12pt;color:rgb(0,32,96)">=C2=A0</span></b><=
+/p>
+
+<p class=3D"gmail-MsoListParagraphCxSpLast" style=3D"margin:0in 0in 0.0001p=
+t 0.5in;line-height:normal;background-image:initial;background-position:ini=
+tial;background-size:initial;background-repeat:initial;background-origin:in=
+itial;background-clip:initial;font-size:11pt;font-family:Calibri,sans-serif=
+"><span style=3D"font-size:12pt">=C2=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal;=
+background-image:initial;background-position:initial;background-size:initia=
+l;background-repeat:initial;background-origin:initial;background-clip:initi=
+al;font-size:11pt;font-family:Calibri,sans-serif"><span style=3D"font-size:=
+12pt">If
+you are interested in any of these services .=C2=A0
+Then we can send you more detail about=C2=A0package/action plan with
+special Offer.</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal;=
+background-image:initial;background-position:initial;background-size:initia=
+l;background-repeat:initial;background-origin:initial;background-clip:initi=
+al;font-size:11pt;font-family:Calibri,sans-serif"><span style=3D"font-size:=
+12pt">I
+would be glad to schedule a=C2=A0Skype/Phone=C2=A0call in order to discuss =
+the
+project in detail look forward to your positive mail. =C2=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal;=
+background-image:initial;background-position:initial;background-size:initia=
+l;background-repeat:initial;background-origin:initial;background-clip:initi=
+al;font-size:11pt;font-family:Calibri,sans-serif"><span style=3D"font-size:=
+12pt">=C2=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal;=
+background-image:initial;background-position:initial;background-size:initia=
+l;background-repeat:initial;background-origin:initial;background-clip:initi=
+al;font-size:11pt;font-family:Calibri,sans-serif"><span style=3D"font-size:=
+12pt;color:red">Thanks
+&amp; Regards,<b>=C2=A0</b></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal;=
+background-image:initial;background-position:initial;background-size:initia=
+l;background-repeat:initial;background-origin:initial;background-clip:initi=
+al;font-size:11pt;font-family:Calibri,sans-serif"><b><span style=3D"font-si=
+ze:12pt;color:red">Charu</span></b><span style=3D"font-size:10pt;font-famil=
+y:Arial,sans-serif;color:red"></span></p></div>
+
+--0000000000005592e7059c696407--

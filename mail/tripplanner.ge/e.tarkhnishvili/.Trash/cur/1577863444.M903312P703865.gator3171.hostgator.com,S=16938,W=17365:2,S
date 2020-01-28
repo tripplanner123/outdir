@@ -1,0 +1,427 @@
+Return-Path: <937-EID-756.0.18787.0.0.11749.9.39521077@info.digitalocean.com>
+Delivered-To: e.tarkhnishvili@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP
+	id qBnCNRRJDF55vQoA8w4q4w
+	(envelope-from <937-EID-756.0.18787.0.0.11749.9.39521077@info.digitalocean.com>)
+	for <e.tarkhnishvili@tripplanner.ge>; Wed, 01 Jan 2020 01:24:04 -0600
+Return-path: <937-EID-756.0.18787.0.0.11749.9.39521077@info.digitalocean.com>
+Envelope-to: e.tarkhnishvili@tripplanner.ge
+Delivery-date: Wed, 01 Jan 2020 01:24:04 -0600
+Received: from info.digitalocean.com ([192.28.144.201]:56366)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92)
+	(envelope-from <937-EID-756.0.18787.0.0.11749.9.39521077@info.digitalocean.com>)
+	id 1imYMO-002x0W-BJ
+	for e.tarkhnishvili@tripplanner.ge; Wed, 01 Jan 2020 01:24:04 -0600
+X-MSFBL: H2V0Xyj9rlUmGplGGPM3PEISTc0cOqE8NnB1Y7zVfE8=|eyJiIjoiZHZwLTE5Mi0
+	yOC0xNDQtMjAxIiwidSI6IjkzNy1FSUQtNzU2Ojc0ODg6ODQzNzo0MTI5NDowOjE
+	xNzQ5Ojk6MTg3ODc6Mzk1MjEwNzciLCJyIjoiZS50YXJraG5pc2h2aWxpQHRyaXB
+	wbGFubmVyLmdlIiwiZyI6ImJnLWFiZC0zNDYifQ==
+Received: from [10.1.87.249] ([10.1.87.249:58092] helo=abmas03.marketo.org)
+	by abmta09.marketo.org (envelope-from <privacy@info.digitalocean.com>)
+	(ecelerity 4.2.38.62370 r(:)) with ESMTP
+	id B9/40-51602-7094C0E5; Wed, 01 Jan 2020 01:23:51 -0600
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1577863431;
+	s=m1; d=info.digitalocean.com; i=@info.digitalocean.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=Wt8PW1v4m8OHXDzmA2bzYexAIFcH9chbk1U96kVyjNg=;
+	b=UsXE0i23NkYv/dp4VbmzZrJTFCKFUy9fAjxX3MvU9BAEY2m72BEynrgFIs6V0eFh
+	qk1A9yumsU78Bzwh4rtVla6GgivCnEHXayb1Gvhx9Fh5nnjkF+TanTJiq/kriobH0Gj
+	HDaU6gge7Pqp4NgIBNME9vV+7LGEFMejRcRuLixM=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1577863431;
+	s=m1; d=mktdns.com; i=@mktdns.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=Wt8PW1v4m8OHXDzmA2bzYexAIFcH9chbk1U96kVyjNg=;
+	b=eFz4inH45aZ/MYsqNJyqETi0FgWzGiPQhJuU6EHH969UDxCnRFNTlyQYDFrm54iV
+	1MT7+bRqeL5Ke9wf0bdko481SkMARrGL1pIeMp8IzFxoOBX1gW25plmeXrWo+vwIhKl
+	Tes8OWWCo7gXQRPBzvdb/aIcZawPPN2zQClKxSm8=
+Date: Wed, 1 Jan 2020 01:23:51 -0600 (CST)
+From: Team DigitalOcean <privacy@info.digitalocean.com>
+Reply-To: no-reply@digitalocean.com
+To: e.tarkhnishvili@tripplanner.ge
+Message-ID: <1767434211.699717199.1577863431233.JavaMail.mktmail@abmas03.marketo.org>
+Subject: Updates to our Privacy Policy and DPA
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_699717198_1411870902.1577863431233"
+X-Binding: bg-abd-346
+X-MarketoID: 937-EID-756:7488:8437:41294:0:11749:9:18787:39521077
+X-MktArchive: false
+X-Mailfrom: 937-EID-756.0.18787.0.0.11749.9.39521077@info.digitalocean.com
+X-MSYS-API: {"options":{"open_tracking":false,"click_tracking":false}}
+X-MktMailDKIM: true
+X-Spam-Status: No, score=-13.1
+X-Spam-Score: -130
+X-Spam-Bar: -------------
+X-Spam-Flag: NO
+
+------=_Part_699717198_1411870902.1577863431233
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+The California Consumer Privacy Act (CCPA) goes into effect soon, and we ar=
+e committed to complying with this new data privacy law and being a respons=
+ible steward of your personal data.=20
+
+ To help ensure you=E2=80=99re meeting your own compliance requirements, we=
+ are publishing CCPA-specific updates to our Privacy Policy and Customer Da=
+ta Processing Agreement (DPA) at the following links:=20
+
+
+
+=09- CCPA Privacy Notice <https://www.digitalocean.com/legal/ccpa-privacy-n=
+otice/>
+=09- CCPA Data Processing Addendum <https://www.digitalocean.com/legal/ccpa=
+-data-processing-addendum/>
+
+
+
+These additions make clear that DigitalOcean is considered a Service Provid=
+er for your business under CCPA and that we do not sell your personal infor=
+mation.=20
+
+ We appreciate you being a DigitalOcean customer, and we=E2=80=99re always =
+working to earn and keep your trust. If you have questions, please contact =
+us at privacy@digitalocean.com <mailto:privacy@digitalocean.com>.=20
+
+ Warmest Regards,
+ Trust @ DigitalOcean
+Copyright =C2=A9 2019 DigitalOcean
+Floor 10, 101 Avenue of the Americas, New York, NY, 10013
+All rights reserved.
+
+------=_Part_699717198_1411870902.1577863431233
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+<html>
+<head>=20
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">=
+=20
+<meta name=3D"viewport" content=3D"width=3Ddevice-width">=20
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">=20
+<title>DigitalOcean</title>=20
+<style type=3D"text/css">
+        body {-webkit-text-size-adjust:none; -ms-text-size-adjust:none; bac=
+kground-color: #F7F7F7; -webkit-font-smoothing: antialiased; -moz-osx-font-=
+smoothing: grayscale; margin:0;padding:0;}
+        table td {border-collapse: collapse;}
+        table {border-collapse:collapse; mso-table-lspace:0pt; mso-table-rs=
+pace:0pt;}
+        p {margin:0; padding:0; margin-bottom:0;}
+        /*ul,
+        li {margin:0;padding:0;}*/
+        h1,h2,h3,h4,h5,h6 {margin:0;padding:0;}
+
+        body,
+        #body_style {background-color: #F7F7F7; width: 100%; min-width: 100=
+%!important;}
+       =20
+        a[x-apple-data-detectors] {
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+        }
+
+        .content a,
+        .content a:link,
+        .content a:visited,
+        .content a:active {color: #0080ff; text-decoration:none;}
+
+        @media only screen and (max-width: 600px) {
+            body {min-width: 100%!important;}
+            table[class~=3D"button"] {width:100% !important;}
+            p {padding-left:0; padding-right:0!important;}
+            table[class=3D"devicewidth"] {width: 100%!important; text-align=
+:center!important;}
+            table[class~=3D"tableCollapse"] {width: 100%!important;}
+            table[class~=3D"tableCollapse2"] {width: 95%!important;}
+            td[class~=3D"w22"] {width:21px!important;}
+            td[class~=3D"w31"] {width:31px!important;}
+            td[class~=3D"h26"] {height:21px!important;}
+            td[class~=3D"h22"] {height:22px!important;}
+            td[class~=3D"h20"] {height:20px!important;}
+            td[class~=3D"h24"] {height:30px!important;}
+            td[class~=3D"H29"] {height:29px!important;}
+            td[class~=3D"headline"] {font-size:30px!important; line-height:=
+ 35px!important;}
+            td[class~=3D"content"] {font-size:18px!important; line-height: =
+26.1px!important;}
+            td[class~=3D"contentBlueBox"] {font-size:28px!important; line-h=
+eight: 32px!important;}
+            td[class~=3D"footer"] {font-size:14px!important; line-height:16=
+px!important;}
+            td[class~=3D"footer2"] {font-size:14px!important; line-height:3=
+5px!important; padding-left:50px; padding-right:50px; }
+            a[class~=3D"mobButton"] {font-size:18px!important;}
+        }
+</style>=20
+<!--[if mso]>
+    <style>
+    * {
+      font-family: Calibri, Helvetica, sans-serif !important;
+    }
+    </style>
+    <![endif]-->=20
+<!--[if !mso]><!-->=20
+<style type=3D"text/css">
+
+                @font-face {
+                            font-family: 'Proxima Nova';
+                            src: url('https://assets.digitalocean.com/fonts=
+/proximanova-reg-webfont.eot');
+                            src: url('https://assets.digitalocean.com/fonts=
+/proximanova-reg-webfont.eot?#iefix') format('embedded-opentype'),
+                                 url('https://assets.digitalocean.com/fonts=
+/proximanova-reg-webfont.woff') format('woff'),
+                                 url('https://assets.digitalocean.com/fonts=
+/proximanova-reg-webfont.ttf') format('truetype'),
+                                 url('https://assets.digitalocean.com/fonts=
+/proximanova-reg-webfont.svg#ProximaNovaLight') format('svg');
+                            font-weight: normal;
+                            font-style: normal;
+
+                        }
+                @font-face {
+                            font-family: 'Proxima Nova';
+                            src: url('https://assets.digitalocean.com/fonts=
+/proximanova-light-webfont.eot');
+                            src: url('https://assets.digitalocean.com/fonts=
+/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
+                                 url('https://assets.digitalocean.com/fonts=
+/proximanova-light-webfont.woff') format('woff'),
+                                 url('https://assets.digitalocean.com/fonts=
+/proximanova-light-webfont.ttf') format('truetype'),
+                                 url('https://assets.digitalocean.com/fonts=
+/proximanova-light-webfont.svg#ProximaNovaLight') format('svg');
+                            font-weight: 100;
+                            font-style: normal;
+
+                        }
+</style>=20
+<!--<![endif]-->=20
+</head>=20
+<body bgcolor=3D"#F7F7F7" style=3D"">
+<div id=3D"body_style" style=3D"background-color:#F7F7F7; ">
+<table width=3D"100%" bgcolor=3D"#F7F7F7" cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0" style=3D"text-align:center; ">
+<tbody>
+<tr style=3D"">
+<td style=3D"">
+<table bgcolor=3D"#F7F7F7" cellpadding=3D"0" cellspacing=3D"0" border=3D"0"=
+ width=3D"600" class=3D"tableCollapse2" align=3D"center" style=3D"margin:0p=
+x auto; ">
+<!-- Start Pre Header -->=20
+<tbody>
+<tr style=3D"">
+<td bgcolor=3D"#F7F7F7" align=3D"center" style=3D"">
+<table width=3D"100%" align=3D"center" cellspacing=3D"0" cellpadding=3D"0" =
+border=3D"0" class=3D"devicewidth" style=3D"">
+<tbody>
+<tr style=3D"">
+<td width=3D"100%" align=3D"center" height=3D"1" style=3D"font-size:1px; li=
+ne-height:1px; ">
+<div class=3D"mktEditable" id=3D"Preview-Text" style=3D"display:none; font-=
+size:1px; color:#F7F7F7; line-height:1px; max-height:0px; max-width:0px; op=
+acity:0; overflow:hidden; ">
+&nbsp;
+</div></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+<!-- End Pre Header -->=20
+<!-- *************************** -->
+<!-- Start Spacer -->=20
+<tr>=20
+<td bgcolor=3D"#F7F7F7" align=3D"right" valign=3D"top">=20
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" alig=
+n=3D"right" class=3D"tableCollapse">=20
+<tbody>=20
+<tr>=20
+<td valign=3D"top" width=3D"100%">=20
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" clas=
+s=3D"devicewidth" align=3D"right">=20
+<tbody>
+<tr>=20
+<td class=3D"H29" height=3D"39" style=3D"font-size:1px; line-height:1px;">&=
+nbsp;</td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+<!-- End Spacer -->=20
+<!-- *************************** -->
+<!-- Start of Logo-->=20
+<tr style=3D"">
+<td align=3D"center" valign=3D"top" style=3D"">
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" alig=
+n=3D"center" class=3D"tableCollapse" style=3D"">
+<tbody style=3D"">
+<tr style=3D"">
+<td valign=3D"top" width=3D"100%" style=3D"">
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" clas=
+s=3D"devicewidth" align=3D"center" style=3D"">
+<tbody>
+<tr style=3D"">
+<td align=3D"center" class=3D"mktEditable" id=3D"Top-Banner" style=3D"">
+<div>=20
+<img width=3D"60" border=3D"0" alt=3D"DigitalOcean Logo" style=3D"display:b=
+lock; border:none; outline:none; text-decoration:none;" src=3D"https://go.d=
+igitalocean.com/rs/937-EID-756/images/logo2.png">=20
+</div></td>
+</tr>
+<tr>=20
+<td bgcolor=3D"#F7F7F7" height=3D"40" style=3D"font-size:1px; line-height:1=
+px;">&nbsp;</td>=20
+</tr>=20
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+<!-- End of Logo -->=20
+<!-- *************************** -->
+<!-- Start of Main Content -->=20
+<tr style=3D"">
+<td bgcolor=3D"#FFFFFF" align=3D"center" style=3D"">
+<table width=3D"100%" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" =
+border=3D"0" class=3D"devicewidth" style=3D"">
+<tbody style=3D"">
+<!-- Start Spacer -->=20
+<tr>=20
+<td class=3D"w22" width=3D"41" style=3D"font-size:1px; line-height:1px;">&n=
+bsp;</td>=20
+<td class=3D"h26" height=3D"36" style=3D"font-size:1px; line-height:1px;">&=
+nbsp;</td>=20
+<td class=3D"w22" width=3D"41" style=3D"font-size:1px; line-height:1px;">&n=
+bsp;</td>=20
+</tr>=20
+<!-- End Spacer -->
+<tr style=3D"">
+<td class=3D"w22" width=3D"41" style=3D"font-size:1px; line-height:1px;">&n=
+bsp;</td>=20
+<td class=3D"mktEditable content" id=3D"edit_text_1" style=3D"font-family:'=
+Proxima Nova', Calibri, Helvetica, sans-serif; font-size:16px; color:#50505=
+0; text-align:left; line-height:25.6px; font-weight:normal; text-transform:=
+none; "><p>The California Consumer Privacy Act (CCPA) goes into effect soon=
+, and we are committed to complying with this new data privacy law and bein=
+g a responsible steward of your personal data. <br><br> To help ensure you=
+=E2=80=99re meeting your own compliance requirements, we are publishing CCP=
+A-specific updates to our Privacy Policy and Customer Data Processing Agree=
+ment (DPA) at the following links: <br></p>=20
+<ul>=20
+<li><a href=3D
+"https://pages.news.digitalocean.com/n/ZIXFJ0i2V0002P0eK306DEx" target=3D"_=
+blank" class=3D"mktNoTok" id=3D""
+>CCPA Privacy Notice</a></li>=20
+<li><a href=3D
+"https://pages.news.digitalocean.com/n/MX0D2P0eExFiV00360JI0L3" target=3D"_=
+blank" class=3D"mktNoTok" id=3D""
+>CCPA Data Processing Addendum</a></li>=20
+</ul> <p>These additions make clear that DigitalOcean is considered a Servi=
+ce Provider for your business under CCPA and that we do not sell your perso=
+nal information. <br><br> We appreciate you being a DigitalOcean customer, =
+and we=E2=80=99re always working to earn and keep your trust. If you have q=
+uestions, please contact us at <a href=3D
+"https://pages.news.digitalocean.com/n/K00PFEI206xM34VeJ0iX0D0" target=3D"_=
+blank" class=3D"mktNoTok" id=3D""
+>privacy@digitalocean.com</a>. <br><br> Warmest Regards,<br> Trust @ Digita=
+lOcean &nbsp;<br></p></td>
+<td class=3D"w22" width=3D"41" style=3D"font-size:1px; line-height:1px;">&n=
+bsp;</td>=20
+</tr>
+<!-- Start Spacer -->=20
+<tr>=20
+<td class=3D"w22" width=3D"41" style=3D"font-size:1px; line-height:1px;">&n=
+bsp;</td>=20
+<td class=3D"h20" height=3D"41" style=3D"font-size:1px; line-height:1px;">&=
+nbsp;</td>=20
+<td class=3D"w22" width=3D"41" style=3D"font-size:1px; line-height:1px;">&n=
+bsp;</td>=20
+</tr>=20
+<!-- End Spacer -->
+</tbody>
+</table></td>
+</tr>
+<!-- End of Main Content -->=20
+<!-- *************************** -->
+<!-- Start of Footer -->=20
+<tr style=3D"">=20
+<td bgcolor=3D"#F7F7F7" align=3D"center" style=3D"">=20
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" alig=
+n=3D"center" class=3D"devicewidth" style=3D"">=20
+<tbody>
+<tr style=3D"">=20
+<td class=3D"mktEditable footer" id=3D"edit_text_3" align=3D"center" style=
+=3D"">
+<table width=3D"100%" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" =
+border=3D"0" class=3D"devicewidth">
+<!-- Start Spacer -->=20
+<tbody>=20
+<tr>=20
+<td class=3D"h24" height=3D"10" style=3D"font-size: 1px; line-height: 1px;"=
+>&nbsp;</td>=20
+</tr>=20
+<!-- End Spacer -->=20
+<!-- Start of Footer Links -->=20
+<!-- Start Spacer -->=20
+<tr>=20
+<td width=3D"41" style=3D"font-size: 1px; line-height: 1px;">&nbsp;</td>=20
+</tr>=20
+<!-- End Spacer -->=20
+<!-- End of Footer Links -->=20
+<!-- Start of Copyright/Address/All Right Reserved -->=20
+<tr>=20
+<td width=3D"25" style=3D"font-size: 1px; line-height: 1px;">&nbsp;</td>=20
+<td style=3D"font-family: 'Proxima Nova', Calibri, Helvetica, sans-serif; f=
+ont-size: 12px; color: #808080; font-weight: normal; text-align: center; li=
+ne-height: 150%;">=20
+<div>
+<em>Copyright =C2=A9 2019 DigitalOcean<br>Floor 10, 101 Avenue of the Ameri=
+cas, New York, NY, 10013<br>All rights reserved.</em>
+</div> </td>=20
+<td width=3D"25" style=3D"font-size: 1px; line-height: 1px;">&nbsp;</td>=20
+</tr>=20
+<!-- Start Spacer -->=20
+<tr>=20
+<td width=3D"41" style=3D"font-size: 1px; line-height: 1px;">&nbsp;</td>=20
+<td height=3D"20" style=3D"font-size: 1px; line-height: 1px;">&nbsp;</td>=
+=20
+<td width=3D"41" style=3D"font-size: 1px; line-height: 1px;">&nbsp;</td>=20
+</tr>=20
+<!-- End Spacer -->=20
+<!-- End of Copyright/Address/All Right Reserved -->
+</tbody>=20
+</table></td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+<!-- End of Footer -->
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table>
+</div>
+<a href=3D
+"https://pages.news.digitalocean.com/JI36EP0NiD0X5xe0VJ002F0"
+></a>
+<img src=3D"https://pages.news.digitalocean.com/trk?t=3D1&mid=3DOTM3LUVJRC0=
+3NTY6NzQ4ODo4NDM3OjQxMjk0OjA6MTE3NDk6OToxODc4NzozOTUyMTA3NzplLnRhcmtobmlzaH=
+ZpbGlAdHJpcHBsYW5uZXIuZ2U%3D" width=3D"1" height=3D"1" style=3D"display:non=
+e !important;" alt=3D"" />
+</body>
+</html>
+------=_Part_699717198_1411870902.1577863431233--

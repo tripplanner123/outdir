@@ -1,0 +1,838 @@
+Return-Path: <nicoleshaduri@gmail.com>
+Delivered-To: info@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP
+	id sIUlCSJX1V2Jgg0A8w4q4w
+	(envelope-from <nicoleshaduri@gmail.com>)
+	for <info@tripplanner.ge>; Wed, 20 Nov 2019 09:09:22 -0600
+Return-path: <nicoleshaduri@gmail.com>
+Envelope-to: info@tripplanner.ge
+Delivery-date: Wed, 20 Nov 2019 09:09:22 -0600
+Received: from mail-lj1-f196.google.com ([209.85.208.196]:39705)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.92)
+	(envelope-from <nicoleshaduri@gmail.com>)
+	id 1iXRbd-003ktO-3h
+	for info@tripplanner.ge; Wed, 20 Nov 2019 09:09:22 -0600
+Received: by mail-lj1-f196.google.com with SMTP id p18so27921861ljc.6
+        for <info@tripplanner.ge>; Wed, 20 Nov 2019 07:09:15 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+        bh=HeAk/sht7OowQO4DVhnVL/jrCeQZvcisp8M0bJDCXn4=;
+        b=RbxzKkOHYgyXH4CQJMfHb7trTXtf0vL+fhTXVNRdhQbFs7t92gtMrj79jpC0ryLbaF
+         1eWEG6Y7VO8KtPrevg8+TYuEA9Ge3hwbEgZjKQDfeDQhEJRNsam7mFDlvVSw8/zXYN6y
+         gkqum8TkPH3M0O44fcFoFCYv7VUz0sxX2c95r6rn4kyHas1CuuKqaexJTv8a1FGdc0Iq
+         Y/EpDsQw5gTA9clH5+gyCMPJRNOJsNzyI7G9QVhOACusttV32fwW0tr9aC3pKcMkuSu7
+         mRpD8exjxbkHDt633srdSKRQNhC7bYkwKr2uYVedcaBS+CQEcNE88cRQJy5M8ITwB74m
+         Hx9w==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to;
+        bh=HeAk/sht7OowQO4DVhnVL/jrCeQZvcisp8M0bJDCXn4=;
+        b=S2x4pb7dj4f2Ff8hQnZCpxmJn4xLS0ZnbUnYLyxl7JYGm/c6QuuPobxCYa+xZ6jMqJ
+         ImO0cM7itSoh+lKimfRULxYVCCJ30/wDZSCosNBtYsJTpFUe2bEdq/h2r1f3gaurtyy8
+         2++mTt6YZyHF/JGHX97G+BuUI+OfpNHxgBP+iU4nu5Fh+os9cedYfcSi9qPxczcWhnad
+         WuK9FsA0A+nHIsSSVgwHMHxFfRvyDuYK4g/JsV42fDz9ixvyLoH4bQIYkUDJj4yZ6+cK
+         vPd3ZQDQbnqMxBr5nH7DSPeo1tO5p9H3O2nd2+1xriWnEXFOYhemEKh/dUhA9I4TycV4
+         i8cQ==
+X-Gm-Message-State: APjAAAUmKmAEaGeoPxKDElBniIatqtlJslJNqcqO5gXI3hSzjLm2FMZP
+	kXPP9emzAsR+BUiRPTgX8u3sJ/Hfj0MWtDHjK6k=
+X-Google-Smtp-Source: APXvYqy4EYU5QUPBd++VqnXNNXcuGruVPW8d/W4LYLl2r9FAb3Pp2xmGCMccNlrqO0f+Tp3AYnwt87KkdAe+Bya1AyA=
+X-Received: by 2002:a2e:9a53:: with SMTP id k19mr3068286ljj.246.1574262548657;
+ Wed, 20 Nov 2019 07:09:08 -0800 (PST)
+MIME-Version: 1.0
+References: <CAO=+O4frCZMBqdQq-HvvLyhqSF6rYmKQyCrzykM0ixkrzm0ncw@mail.gmail.com>
+ <CAO=+O4cazwdsQy=JiMQLynxnmSotn=LrssVyvL=PBy67zkHnWw@mail.gmail.com> <CAO=+O4f-LcuraNpnxS=DzFQGgqqberDSwysiXhFtu7AUfw_y1Q@mail.gmail.com>
+In-Reply-To: <CAO=+O4f-LcuraNpnxS=DzFQGgqqberDSwysiXhFtu7AUfw_y1Q@mail.gmail.com>
+From: Nicole Shaduri <nicoleshaduri@gmail.com>
+Date: Wed, 20 Nov 2019 19:08:54 +0400
+Message-ID: <CAO=+O4eGFWN8ARkfd6kLcggCW==OCOUexSJ-jKF=DmJ6JGoXOQ@mail.gmail.com>
+Subject: Fwd: Hotel Bakuriani Inn - Info Tour
+To: undisclosed-recipients:;
+Content-Type: multipart/alternative; boundary="000000000000fefbfa0597c88f3a"
+Bcc: info@tripplanner.ge
+X-Spam-Status: No, score=-0.7
+X-Spam-Score: -6
+X-Spam-Bar: /
+X-Spam-Flag: NO
+
+--000000000000fefbfa0597c88f3a
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: base64
+
+4YOb4YOd4YOS4YOU4YOh4YOQ4YOa4YOb4YOU4YOR4YOY4YOXICwNCg0KDQoNCuGDmeGDneGDm+GD
+nuGDkOGDnOGDmOGDkCAi4YOY4YOc4YOcIOGDkuGDoOGDo+GDnuGDmCIg4YOS4YOU4YOS4YOb4YOQ
+4YOV4YOhIOGDmOGDnOGDpOGDnS3hg6Lhg6Phg6Dhg6Eg4YOi4YOj4YOg4YOY4YOh4YOi4YOj4YOa
+4YOYIOGDoeGDkOGDkOGDkuGDlOGDnOGDouGDneGDlOGDkeGDmOGDoeGDl+GDleGDmOGDoSwgNSoN
+CuGDoeGDkOGDoeGDouGDo+GDm+GDoOGDneGDqOGDmCAi4YOR4YOQ4YOZ4YOj4YOg4YOY4YOQ4YOc
+4YOYIOGDmOGDnOGDnCIuDQrhg5fhg5Dhg6Dhg5jhg6bhg5Thg5Hhg5g6DQoNCioyMi0yMyAqKuGD
+nOGDneGDlOGDm+GDkeGDlOGDoOGDmCwgMjAxOSAqDQoNCuGDoeGDkOGDoeGDouGDo+GDm+GDoOGD
+nSDhg6Phg5bhg6Dhg6Phg5zhg5Xhg5Thg5rhg6fhg53hg6Thg6EgKOGDmeGDneGDm+GDnuGDkOGD
+nOGDmOGDmOGDoSDhg5Thg6Dhg5cg4YOs4YOQ4YOg4YOb4YOd4YOb4YOQ4YOT4YOS4YOU4YOc4YOa
+4YOW4YOUKToNCjEuIOGDouGDoOGDkOGDnOGDoeGDnuGDneGDoOGDouGDmOGDoOGDlOGDkeGDkCAt
+IOGDl+GDkeGDmOGDmuGDmOGDoeGDmF/hg5Hhg5Dhg5nhg6Phg6Dhg5jhg5Dhg5zhg5hf4YOX4YOR
+4YOY4YOa4YOY4YOh4YOYDQoyLiDhg5zhg53hg5vhg5Thg6Dhg5gg4YOh4YOQ4YOh4YOi4YOj4YOb
+4YOg4YOd4YOo4YOYIDEg4YOm4YOQ4YOb4YOY4YOXIChUd2luKSArIOGDneGDoOGDr+GDlOGDoOGD
+kOGDk+GDmCDhg5nhg5Xhg5Thg5Hhg5A6ICjhg6Hhg5Dhg6bhg5Dhg5vhg53hg6Eg4YOS4YOQ4YOa
+4YOQLeGDleGDkOGDruGDqOGDkOGDm+GDmCsNCuGDk+GDmOGDmuGDmOGDoSDhg6Hhg5Dhg6Phg5bh
+g5vhg5QpDQo0LiDhg5jhg5zhg6Thg50t4YOi4YOj4YOg4YOYIOGDoeGDkOGDoeGDouGDo+GDm+GD
+oOGDneGDqOGDmA0KDQoq4YOT4YOU4YOi4YOQ4YOa4YOj4YOg4YOYKiAq4YOS4YOQ4YOc4YOg4YOY
+4YOS4YOYKio6Kg0KSSDhg5Phg6bhg5Q6DQoxLiDhg5Lhg5Dhg6Hhg5Xhg5rhg5Ag4YOX4YOR4YOY
+4YOa4YOY4YOh4YOY4YOT4YOQ4YOcIC0gMTg6MDAgKOGDleGDkOGDoOGDk+GDlOGDkeGDmOGDoSDh
+g5vhg53hg5Thg5Phg5Dhg5zhg5gsIOGDleGDlOGDmuGDneGDoeGDmOGDnuGDlOGDk+GDl+GDkOGD
+nCkNCjIuIOGDoeGDkOGDoeGDouGDo+GDm+GDoOGDneGDqOGDmCDhg6Dhg5Thg5Lhg5jhg6Hhg6Lh
+g6Dhg5Dhg6rhg5jhg5AgLSAyMTowMA0KMy4g4YOS4YOQ4YOa4YOQLeGDleGDkOGDruGDqOGDkOGD
+m+GDmCAtIDIzOjAwICjhg6rhg53hg6rhg67hg5Dhg5rhg5gg4YOb4YOj4YOh4YOY4YOZ4YOY4YOh
+IOGDl+GDkOGDnOGDruGDmuGDlOGDkeGDmOGDlykNCg0KSUkg4YOT4YOm4YOUOg0KMS4gMDk6MDAg
+LSDhg6Hhg5Dhg6Phg5bhg5vhg5QNCjIuIDExOjAwIC0g4YOY4YOc4YOk4YOdLeGDouGDo+GDoOGD
+mCDhg6Hhg5Dhg6Hhg6Lhg6Phg5vhg6Dhg53hg6jhg5gNCjMuIDEzOjAwIC0g4YOS4YOQ4YOb4YOd
+4YOh4YOV4YOa4YOQIOGDoeGDkOGDoeGDouGDo+GDm+GDoOGDneGDk+GDkOGDnC/hg5Lhg5Dhg5vh
+g5Lhg5bhg5Dhg5Xhg6Dhg5Thg5Hhg5Ag4YOX4YOR4YOY4YOa4YOY4YOh4YOo4YOYDQoNCuGDm+GD
+neGDruGDkOGDoOGDo+GDmuGDmCDhg5Xhg5jhg6Xhg5zhg5Thg5Hhg5jhg5csIOGDkuGDmOGDm+GD
+kOGDoeGDnuGDmOGDnOGDq+GDmuGDneGDlyDhg6Hhg5Dhg6Hhg6Lhg6Phg5vhg6Dhg50gQmFrdXJp
+YW5pIElubi3hg6jhg5guDQoNCirhg5Phg5Dhg6Hhg6zhg6Dhg5Thg5Hhg5jhg6Hhg5fhg5Xhg5jh
+g6Eg4YOS4YOX4YOu4YOd4YOV4YOXIOGDkuGDkOGDmOGDkOGDoOGDneGDlyDhg6Dhg5Thg5Lhg5jh
+g6Hhg6Lhg6Dhg5Dhg6rhg5jhg5Ag4YOb4YOd4YOq4YOU4YOb4YOj4YOaIOGDkeGDm+GDo+GDmuGD
+luGDlA0KOiBodHRwczovL2Zvcm1zLmdsZS9mTEUzOENudVc2YW9kcHRaNw0KPGh0dHBzOi8vZm9y
+bXMuZ2xlL2ZMRTM4Q251VzZhb2RwdFo3P2ZiY2xpZD1Jd0FSMXpacW5aNDhIeEJiTFNuSEFBYkli
+V28zMTRjWnlRVy1yd3NER3RkWmtNaHloTFpMWE12SXBRWG9rPioNCg0KX19fX19fX19fX19fX19f
+X19fXw0KDQrhg5Hhg5Dhg5nhg6Phg6Dhg5jhg5Dhg5zhg5gg4YOY4YOc4YOcIC0gNS3hg5Xhg5Dh
+g6Dhg6Hhg5nhg5Xhg5rhg5Dhg5Xhg5jhg5Dhg5zhg5gg4YOh4YOQ4YOh4YOi4YOj4YOb4YOg4YOd
+IOGDkeGDkOGDmeGDo+GDoOGDmOGDkOGDnOGDqOGDmCwg4YOq4YOU4YOc4YOi4YOg4YOX4YOQ4YOc
+IOGDkOGDruGDmuGDneGDoS4NCmh0dHA6Ly9iYWt1cmlhbmlpbm4uZ2UvDQoNCuGDoeGDkOGDoeGD
+ouGDo+GDm+GDoOGDnSDhg5Dhg6bhg63hg6Phg6Dhg5Xhg5jhg5rhg5gg4YOY4YOl4YOc4YOU4YOR
+4YOQIDE1NCDhg6Hhg67hg5Xhg5Dhg5Phg5Dhg6Hhg67hg5Xhg5Ag4YOZ4YOQ4YOi4YOU4YOS4YOd
+4YOg4YOY4YOY4YOhIOGDnOGDneGDm+GDoOGDmOGDlywg4YOh4YOQ4YOh4YOi4YOj4YOb4YOg4YOd
+DQrhg6Phg5vhg5Dhg6Hhg57hg5jhg5zhg6vhg5rhg5Thg5Hhg6Eg4YOU4YOg4YOX4YOT4YOg4YOd
+4YOj4YOa4YOQ4YOTIDM1MCDhg5Dhg5Phg5Dhg5vhg5jhg5Dhg5zhg6EuDQoNCjcg4YOh4YOu4YOV
+4YOQ4YOT4YOQ4YOh4YOu4YOV4YOQIOGDouGDmOGDnuGDmOGDoSDhg6Dhg5Thg6Hhg6Lhg53hg6Dh
+g5Dhg5zhg5g7DQoNCuGDoeGDkOGDmeGDneGDnOGDpOGDlOGDoOGDlOGDnOGDquGDmOGDnSDhg5Ph
+g5Dhg6Dhg5Hhg5Dhg5bhg5g7DQoNCuGDoeGDkOGDmeGDneGDnOGDquGDlOGDoOGDouGDnSDhg5Ph
+g5Dhg6Dhg5Hhg5Dhg5bhg5g7DQoNCjI0IDAwMCDhg5nhg5Ug4YOS4YOQ4YOb4YOs4YOV4YOQ4YOc
+4YOU4YOR4YOj4YOa4YOYIOGDouGDlOGDoOGDmOGDouGDneGDoOGDmOGDkDsNCg0KNTAwIOGDm+GD
+lOGDouGDoOGDmCDhg6Hhg5Dhg6Hhg5Thg5jhg6Dhg5zhg50g4YOR4YOY4YOa4YOY4YOZ4YOYIOGD
+ouGDlOGDoOGDmOGDouGDneGDoOGDmOGDkOGDluGDlDsNCg0K4YOh4YOQ4YOh4YOi4YOj4YOb4YOg
+4YOdIOGDk+GDkOGDm+GDoeGDleGDlOGDnOGDlOGDkeGDmuGDlOGDkeGDoSDhg6jhg5Thg6Hhg5fh
+g5Dhg5Xhg5Dhg5bhg5Thg5Hhg6Eg4YOh4YOQ4YOj4YOW4YOb4YOU4YOhLCDhg53hg6Dhg6/hg5Th
+g6Dhg5Dhg5Mg4YOT4YOQIOGDoeGDkOGDm+GDr+GDlOGDoOGDkOGDkyDhg5nhg5Xhg5Thg5Hhg5Dh
+g6ENCuGDoOGDlOGDoeGDouGDneGDoOGDkOGDnOGDqOGDmCwg4YOg4YOd4YOb4YOU4YOa4YOh4YOQ
+4YOqIOGDqeGDleGDlOGDnOGDmCDhg57hg6Dhg53hg6Thg5Thg6Hhg5jhg53hg5zhg5Dhg5rhg5gg
+4YOb4YOW4YOQ4YOg4YOU4YOj4YOa4YOU4YOR4YOYIOGDm+GDneGDkOGDm+GDluGDkOGDk+GDlOGD
+keGDlOGDnC4NCg0K4YOh4YOQ4YOh4YOi4YOj4YOb4YOg4YOdIOKAnOGDkeGDkOGDmeGDo+GDoOGD
+mOGDkOGDnOGDmCDhg5jhg5zhg5zigJwg4YOb4YOQ4YOm4YOQ4YOa4YOYIOGDruGDkOGDoOGDmOGD
+oeGDruGDmOGDoeGDkCDhg5Phg5Ag4YOZ4YOd4YOb4YOk4YOd4YOg4YOi4YOY4YOhIOGDkuGDkOGD
+oOGDk+GDkCwg4YOS4YOQ4YOb4YOd4YOg4YOp4YOU4YOj4YOa4YOYDQrhg5jhg6Xhg5zhg5Thg5Hh
+g5Ag4YOY4YOh4YOU4YOX4YOYIOGDoeGDlOGDoOGDleGDmOGDoeGDlOGDkeGDmOGDl+GDkOGDqiwg
+4YOg4YOd4YOS4YOd4YOg4YOY4YOq4YOQ4YOQIOGDo+GDpOGDkOGDoeGDnSDhg6Lhg6Dhg5Dhg5zh
+g6Hhg6Thg5Thg6Dhg5gg4YOh4YOQ4YOh4YOi4YOj4YOb4YOg4YOd4YOT4YOQ4YOcDQrhg6Hhg5Dh
+g5Hhg5Dhg5Lhg5jhg6Dhg53hg5Thg5Hhg5Dhg5vhg5Phg5Qg4YOT4YOQIOGDo+GDmeGDkOGDnC4g
+4YOT4YOQ4YOi4YOU4YOR4YOY4YOX4YOYIOGDl+GDkOGDnOGDruGDmOGDoSDhg5Lhg5Dhg5Phg5Dh
+g67hg5Phg5jhg6Eg4YOo4YOU4YOb4YOX4YOu4YOV4YOU4YOV4YOQ4YOo4YOYLCDhg5Dhg6Hhg5Th
+g5Xhg5QNCuGDqOGDlOGDoeGDkOGDq+GDmuGDlOGDkeGDlOGDmuGDmCDhg5jhg6Xhg5zhg5Thg5Hh
+g5Ag4YOh4YOQ4YOh4YOi4YOj4YOb4YOg4YOd4YOhIOGDouGDoOGDkOGDnOGDoeGDpOGDlOGDoOGD
+mOGDoSDhg6jhg5Thg5nhg5Xhg5Thg5fhg5Ag4YOX4YOR4YOY4YOa4YOY4YOh4YOY4YOT4YOQ4YOc
+IOGDkOGDnCDhg6Hhg5Dhg6Xhg5Dhg6Dhg5fhg5Xhg5Thg5rhg53hg6ENCuGDoeGDruGDleGDkCDh
+g5zhg5Dhg6zhg5jhg5rhg5jhg5Phg5Dhg5wsDQoNCuGDm+GDkOGDpuGDkOGDmuGDmeGDleGDkOGD
+muGDmOGDpOGDmOGDquGDmOGDo+GDoOGDmCDhg57hg5Thg6Dhg6Hhg53hg5zhg5Dhg5rhg5gsIDI0
+LeGDoeGDkOGDkOGDl+GDmOGDkOGDnOGDmCDhg6Hhg5Thg6Dhg5Xhg5jhg6Hhg5gg4YOT4YOQIOGD
+o+GDoeGDkOGDpOGDoOGDl+GDruGDneGDlOGDkeGDkCDhg6Hhg6Lhg6Phg5vhg6Dhg5Thg5Hhg5jh
+g6ENCuGDm+GDkOGDpeGDoeGDmOGDm+GDkOGDmuGDo+GDoCDhg5nhg53hg5vhg6Thg53hg6Dhg6Lh
+g6Eg4YOj4YOW4YOg4YOj4YOc4YOV4YOU4YOa4YOn4YOd4YOk4YOhLg0KDQoNCuGDoeGDkOGDo+GD
+meGDlOGDl+GDlOGDoeGDnSDhg6Hhg6Phg6Dhg5Xhg5jhg5rhg5Thg5Hhg5jhg5csDQoNCuGDnOGD
+mOGDmeGDneGDmiDhg6jhg5Dhg5Phg6Phg6Dhg5gNCg0KDQpNb2JpbGUgOiArIDk5NSA1OTkgMjcg
+MzUgMzQNCg==
+--000000000000fefbfa0597c88f3a
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_quote"><div dir=3D"ltr"><div class=3D"=
+gmail_quote"><div dir=3D"ltr"><div class=3D"gmail_quote"><div dir=3D"ltr" c=
+lass=3D"gmail_attr"><span style=3D"font-size:10pt;font-family:Sylfaen,serif=
+">=E1=83=9B=E1=83=9D=E1=83=92=E1=83=94=E1=83=A1=E1=83=90=E1=83=9A=E1=83=9B=
+=E1=83=94=E1=83=91=E1=83=98=E1=83=97</span><span style=3D"font-size:10pt;fo=
+nt-family:&quot;Calibri Light&quot;,sans-serif">=C2=A0</span><span style=3D=
+"font-size:10pt"><font face=3D"Sylfaen, serif">,</font></span><span style=
+=3D"font-size:10pt;font-family:&quot;Calibri Light&quot;,sans-serif">=C2=A0=
+</span><br></div><div dir=3D"ltr">
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal;=
+font-size:11pt;font-family:Calibri,sans-serif"><span style=3D"font-size:10p=
+t;font-family:&quot;Calibri Light&quot;,sans-serif">=C2=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:21pt;margin:0in 0in 8pt;font-si=
+ze:11pt;font-family:Calibri,sans-serif"><span style=3D"font-size:10pt;font-=
+family:Sylfaen,serif;color:rgb(32,33,36);letter-spacing:0.15pt">=E1=83=99=
+=E1=83=9D=E1=83=9B=E1=83=9E=E1=83=90=E1=83=9C=E1=83=98=E1=83=90</span><span=
+ style=3D"font-size:10pt;font-family:&quot;Calibri Light&quot;,sans-serif;c=
+olor:rgb(32,33,36);letter-spacing:0.15pt">
+&quot;</span><span style=3D"font-size:10pt;font-family:Sylfaen,serif;color:=
+rgb(32,33,36);letter-spacing:0.15pt">=E1=83=98=E1=83=9C=E1=83=9C</span><spa=
+n style=3D"font-size:10pt;font-family:&quot;Calibri Light&quot;,sans-serif;=
+color:rgb(32,33,36);letter-spacing:0.15pt"> </span><span style=3D"font-size=
+:10pt;font-family:Sylfaen,serif;color:rgb(32,33,36);letter-spacing:0.15pt">=
+=E1=83=92=E1=83=A0=E1=83=A3=E1=83=9E=E1=83=98</span><span style=3D"font-siz=
+e:10pt;font-family:&quot;Calibri Light&quot;,sans-serif;color:rgb(32,33,36)=
+;letter-spacing:0.15pt">&quot; </span><span style=3D"font-size:10pt;font-fa=
+mily:Sylfaen,serif;color:rgb(32,33,36);letter-spacing:0.15pt">=E1=83=92=E1=
+=83=94=E1=83=92=E1=83=9B=E1=83=90=E1=83=95=E1=83=A1</span><span style=3D"fo=
+nt-size:10pt;font-family:&quot;Calibri Light&quot;,sans-serif;color:rgb(32,=
+33,36);letter-spacing:0.15pt"> </span><span style=3D"font-size:10pt;font-fa=
+mily:Sylfaen,serif;color:rgb(32,33,36);letter-spacing:0.15pt">=E1=83=98=E1=
+=83=9C=E1=83=A4=E1=83=9D</span><span style=3D"font-size:10pt;font-family:&q=
+uot;Calibri Light&quot;,sans-serif;color:rgb(32,33,36);letter-spacing:0.15p=
+t">-</span><span style=3D"font-size:10pt;font-family:Sylfaen,serif;color:rg=
+b(32,33,36);letter-spacing:0.15pt">=E1=83=A2=E1=83=A3=E1=83=A0=E1=83=A1</sp=
+an><span style=3D"font-size:10pt;font-family:&quot;Calibri Light&quot;,sans=
+-serif;color:rgb(32,33,36);letter-spacing:0.15pt"> </span><span style=3D"fo=
+nt-size:10pt;font-family:Sylfaen,serif;color:rgb(32,33,36);letter-spacing:0=
+.15pt">=E1=83=A2=E1=83=A3=E1=83=A0=E1=83=98=E1=83=A1=E1=83=A2=E1=83=A3=E1=
+=83=9A=E1=83=98</span><span style=3D"font-size:10pt;font-family:&quot;Calib=
+ri Light&quot;,sans-serif;color:rgb(32,33,36);letter-spacing:0.15pt"> </spa=
+n><span style=3D"font-size:10pt;font-family:Sylfaen,serif;color:rgb(32,33,3=
+6);letter-spacing:0.15pt">=E1=83=A1=E1=83=90=E1=83=90=E1=83=92=E1=83=94=E1=
+=83=9C=E1=83=A2=E1=83=9D=E1=83=94=E1=83=91=E1=83=98=E1=83=A1=E1=83=97=E1=83=
+=95=E1=83=98=E1=83=A1</span><span style=3D"font-size:10pt;font-family:&quot=
+;Calibri Light&quot;,sans-serif;color:rgb(32,33,36);letter-spacing:0.15pt">=
+, </span><span lang=3D"GEO/KAT" style=3D"font-size:10pt;font-family:&quot;C=
+alibri Light&quot;,sans-serif;color:rgb(32,33,36);letter-spacing:0.15pt">5*=
+ </span><span style=3D"font-size:10pt;font-family:Sylfaen,serif;color:rgb(3=
+2,33,36);letter-spacing:0.15pt">=E1=83=A1=E1=83=90=E1=83=A1=E1=83=A2=E1=83=
+=A3=E1=83=9B=E1=83=A0=E1=83=9D=E1=83=A8=E1=83=98</span><span style=3D"font-=
+size:10pt;font-family:&quot;Calibri Light&quot;,sans-serif;color:rgb(32,33,=
+36);letter-spacing:0.15pt"> &quot;</span><span style=3D"font-size:10pt;font=
+-family:Sylfaen,serif;color:rgb(32,33,36);letter-spacing:0.15pt">=E1=83=91=
+=E1=83=90=E1=83=99=E1=83=A3=E1=83=A0=E1=83=98=E1=83=90=E1=83=9C=E1=83=98</s=
+pan><span style=3D"font-size:10pt;font-family:&quot;Calibri Light&quot;,san=
+s-serif;color:rgb(32,33,36);letter-spacing:0.15pt"> </span><span style=3D"f=
+ont-size:10pt;font-family:Sylfaen,serif;color:rgb(32,33,36);letter-spacing:=
+0.15pt">=E1=83=98=E1=83=9C=E1=83=9C</span><span style=3D"font-size:10pt;fon=
+t-family:&quot;Calibri Light&quot;,sans-serif;color:rgb(32,33,36);letter-sp=
+acing:0.15pt">&quot;. <br>
+</span><span style=3D"font-size:10pt;font-family:Sylfaen,serif;color:rgb(32=
+,33,36);letter-spacing:0.15pt">=E1=83=97=E1=83=90=E1=83=A0=E1=83=98=E1=83=
+=A6=E1=83=94=E1=83=91=E1=83=98</span><span style=3D"font-size:10pt;font-fam=
+ily:&quot;Calibri Light&quot;,sans-serif;color:rgb(32,33,36);letter-spacing=
+:0.15pt">:=C2=A0</span><span style=3D"font-size:10pt;font-family:&quot;Cali=
+bri Light&quot;,sans-serif"></span></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:21pt;margin:0in 0in 8pt;font-si=
+ze:11pt"><b style=3D"font-family:Calibri,sans-serif"><span style=3D"font-si=
+ze:10pt;font-family:&quot;Calibri Light&quot;,sans-serif;color:rgb(32,33,36=
+);letter-spacing:0.15pt">22-23=C2=A0</span></b><b><span style=3D"font-famil=
+y:Sylfaen,serif;font-size:10pt;color:rgb(32,33,36);letter-spacing:0.15pt">=
+=E1=83=9C=E1=83=9D=E1=83=94=E1=83=9B=E1=83=91=E1=83=94=E1=83=A0=E1=83=98, 2=
+019=C2=A0</span></b><span style=3D"font-size:10pt;font-family:&quot;Calibri=
+ Light&quot;,sans-serif;font-size:10pt"></span></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:21pt;margin:0in 0in 8pt;font-si=
+ze:11pt;font-family:Calibri,sans-serif"><span style=3D"font-size:10pt;font-=
+family:Sylfaen,serif;color:rgb(32,33,36);letter-spacing:0.15pt">=E1=83=A1=
+=E1=83=90=E1=83=A1=E1=83=A2=E1=83=A3=E1=83=9B=E1=83=A0=E1=83=9D</span><span=
+ style=3D"font-size:10pt;font-family:&quot;Calibri Light&quot;,sans-serif;c=
+olor:rgb(32,33,36);letter-spacing:0.15pt"> </span><span style=3D"font-size:=
+10pt;font-family:Sylfaen,serif;color:rgb(32,33,36);letter-spacing:0.15pt">=
+=E1=83=A3=E1=83=96=E1=83=A0=E1=83=A3=E1=83=9C=E1=83=95=E1=83=94=E1=83=9A=E1=
+=83=A7=E1=83=9D=E1=83=A4=E1=83=A1</span><span style=3D"font-size:10pt;font-=
+family:&quot;Calibri Light&quot;,sans-serif;color:rgb(32,33,36);letter-spac=
+ing:0.15pt"> (</span><span style=3D"font-size:10pt;font-family:Sylfaen,seri=
+f;color:rgb(32,33,36);letter-spacing:0.15pt">=E1=83=99=E1=83=9D=E1=83=9B=E1=
+=83=9E=E1=83=90=E1=83=9C=E1=83=98=E1=83=98=E1=83=A1</span><span style=3D"fo=
+nt-size:10pt;font-family:&quot;Calibri Light&quot;,sans-serif;color:rgb(32,=
+33,36);letter-spacing:0.15pt"> </span><span style=3D"font-size:10pt;font-fa=
+mily:Sylfaen,serif;color:rgb(32,33,36);letter-spacing:0.15pt">=E1=83=94=E1=
+=83=A0=E1=83=97</span><span style=3D"font-size:10pt;font-family:&quot;Calib=
+ri Light&quot;,sans-serif;color:rgb(32,33,36);letter-spacing:0.15pt"> </spa=
+n><span style=3D"font-size:10pt;font-family:Sylfaen,serif;color:rgb(32,33,3=
+6);letter-spacing:0.15pt">=E1=83=AC=E1=83=90=E1=83=A0=E1=83=9B=E1=83=9D=E1=
+=83=9B=E1=83=90=E1=83=93=E1=83=92=E1=83=94=E1=83=9C=E1=83=9A=E1=83=96=E1=83=
+=94</span><span style=3D"font-size:10pt;font-family:&quot;Calibri Light&quo=
+t;,sans-serif;color:rgb(32,33,36);letter-spacing:0.15pt">):<br>
+1. </span><span style=3D"font-size:10pt;font-family:Sylfaen,serif;color:rgb=
+(32,33,36);letter-spacing:0.15pt">=E1=83=A2=E1=83=A0=E1=83=90=E1=83=9C=E1=
+=83=A1=E1=83=9E=E1=83=9D=E1=83=A0=E1=83=A2=E1=83=98=E1=83=A0=E1=83=94=E1=83=
+=91=E1=83=90</span><span style=3D"font-size:10pt;font-family:&quot;Calibri =
+Light&quot;,sans-serif;color:rgb(32,33,36);letter-spacing:0.15pt"> - </span=
+><span style=3D"font-size:10pt;font-family:Sylfaen,serif;color:rgb(32,33,36=
+);letter-spacing:0.15pt">=E1=83=97=E1=83=91=E1=83=98=E1=83=9A=E1=83=98=E1=
+=83=A1=E1=83=98</span><span style=3D"font-size:10pt;font-family:&quot;Calib=
+ri Light&quot;,sans-serif;color:rgb(32,33,36);letter-spacing:0.15pt">_</spa=
+n><span style=3D"font-size:10pt;font-family:Sylfaen,serif;color:rgb(32,33,3=
+6);letter-spacing:0.15pt">=E1=83=91=E1=83=90=E1=83=99=E1=83=A3=E1=83=A0=E1=
+=83=98=E1=83=90=E1=83=9C=E1=83=98</span><span style=3D"font-size:10pt;font-=
+family:&quot;Calibri Light&quot;,sans-serif;color:rgb(32,33,36);letter-spac=
+ing:0.15pt">_</span><span style=3D"font-size:10pt;font-family:Sylfaen,serif=
+;color:rgb(32,33,36);letter-spacing:0.15pt">=E1=83=97=E1=83=91=E1=83=98=E1=
+=83=9A=E1=83=98=E1=83=A1=E1=83=98</span><span style=3D"font-size:10pt;font-=
+family:&quot;Calibri Light&quot;,sans-serif;color:rgb(32,33,36);letter-spac=
+ing:0.15pt"><br>
+2. </span><span style=3D"font-size:10pt;font-family:Sylfaen,serif;color:rgb=
+(32,33,36);letter-spacing:0.15pt">=E1=83=9C=E1=83=9D=E1=83=9B=E1=83=94=E1=
+=83=A0=E1=83=98</span><span style=3D"font-size:10pt;font-family:&quot;Calib=
+ri Light&quot;,sans-serif;color:rgb(32,33,36);letter-spacing:0.15pt"> </spa=
+n><span style=3D"font-size:10pt;font-family:Sylfaen,serif;color:rgb(32,33,3=
+6);letter-spacing:0.15pt">=E1=83=A1=E1=83=90=E1=83=A1=E1=83=A2=E1=83=A3=E1=
+=83=9B=E1=83=A0=E1=83=9D=E1=83=A8=E1=83=98</span><span style=3D"font-size:1=
+0pt;font-family:&quot;Calibri Light&quot;,sans-serif;color:rgb(32,33,36);le=
+tter-spacing:0.15pt"> 1 </span><span style=3D"font-size:10pt;font-family:Sy=
+lfaen,serif;color:rgb(32,33,36);letter-spacing:0.15pt">=E1=83=A6=E1=83=90=
+=E1=83=9B=E1=83=98=E1=83=97</span><span style=3D"font-size:10pt;font-family=
+:&quot;Calibri Light&quot;,sans-serif;color:rgb(32,33,36);letter-spacing:0.=
+15pt"> (Twin) + </span><span style=3D"font-size:10pt;font-family:Sylfaen,se=
+rif;color:rgb(32,33,36);letter-spacing:0.15pt">=E1=83=9D=E1=83=A0=E1=83=AF=
+=E1=83=94=E1=83=A0=E1=83=90=E1=83=93=E1=83=98</span><span style=3D"font-siz=
+e:10pt;font-family:&quot;Calibri Light&quot;,sans-serif;color:rgb(32,33,36)=
+;letter-spacing:0.15pt"> </span><span style=3D"font-size:10pt;font-family:S=
+ylfaen,serif;color:rgb(32,33,36);letter-spacing:0.15pt">=E1=83=99=E1=83=95=
+=E1=83=94=E1=83=91=E1=83=90</span><span style=3D"font-size:10pt;font-family=
+:&quot;Calibri Light&quot;,sans-serif;color:rgb(32,33,36);letter-spacing:0.=
+15pt">: (</span><span style=3D"font-size:10pt;font-family:Sylfaen,serif;col=
+or:rgb(32,33,36);letter-spacing:0.15pt">=E1=83=A1=E1=83=90=E1=83=A6=E1=83=
+=90=E1=83=9B=E1=83=9D=E1=83=A1</span><span style=3D"font-size:10pt;font-fam=
+ily:&quot;Calibri Light&quot;,sans-serif;color:rgb(32,33,36);letter-spacing=
+:0.15pt"> </span><span style=3D"font-size:10pt;font-family:Sylfaen,serif;co=
+lor:rgb(32,33,36);letter-spacing:0.15pt">=E1=83=92=E1=83=90=E1=83=9A=E1=83=
+=90</span><span style=3D"font-size:10pt;font-family:&quot;Calibri Light&quo=
+t;,sans-serif;color:rgb(32,33,36);letter-spacing:0.15pt">-</span><span styl=
+e=3D"font-size:10pt;font-family:Sylfaen,serif;color:rgb(32,33,36);letter-sp=
+acing:0.15pt">=E1=83=95=E1=83=90=E1=83=AE=E1=83=A8=E1=83=90=E1=83=9B=E1=83=
+=98</span><span style=3D"font-size:10pt;font-family:&quot;Calibri Light&quo=
+t;,sans-serif;color:rgb(32,33,36);letter-spacing:0.15pt">+</span><span styl=
+e=3D"font-size:10pt;font-family:Sylfaen,serif;color:rgb(32,33,36);letter-sp=
+acing:0.15pt">=E1=83=93=E1=83=98=E1=83=9A=E1=83=98=E1=83=A1</span><span sty=
+le=3D"font-size:10pt;font-family:&quot;Calibri Light&quot;,sans-serif;color=
+:rgb(32,33,36);letter-spacing:0.15pt"> </span><span style=3D"font-size:10pt=
+;font-family:Sylfaen,serif;color:rgb(32,33,36);letter-spacing:0.15pt">=E1=
+=83=A1=E1=83=90=E1=83=A3=E1=83=96=E1=83=9B=E1=83=94</span><span style=3D"fo=
+nt-size:10pt;font-family:&quot;Calibri Light&quot;,sans-serif;color:rgb(32,=
+33,36);letter-spacing:0.15pt">)<br>
+4. </span><span style=3D"font-size:10pt;font-family:Sylfaen,serif;color:rgb=
+(32,33,36);letter-spacing:0.15pt">=E1=83=98=E1=83=9C=E1=83=A4=E1=83=9D</spa=
+n><span style=3D"font-size:10pt;font-family:&quot;Calibri Light&quot;,sans-=
+serif;color:rgb(32,33,36);letter-spacing:0.15pt">-</span><span style=3D"fon=
+t-size:10pt;font-family:Sylfaen,serif;color:rgb(32,33,36);letter-spacing:0.=
+15pt">=E1=83=A2=E1=83=A3=E1=83=A0=E1=83=98</span><span style=3D"font-size:1=
+0pt;font-family:&quot;Calibri Light&quot;,sans-serif;color:rgb(32,33,36);le=
+tter-spacing:0.15pt"> </span><span style=3D"font-size:10pt;font-family:Sylf=
+aen,serif;color:rgb(32,33,36);letter-spacing:0.15pt">=E1=83=A1=E1=83=90=E1=
+=83=A1=E1=83=A2=E1=83=A3=E1=83=9B=E1=83=A0=E1=83=9D=E1=83=A8=E1=83=98</span=
+><span style=3D"font-size:10pt;font-family:&quot;Calibri Light&quot;,sans-s=
+erif;color:rgb(32,33,36);letter-spacing:0.15pt"><br>
+<br>
+</span><b><span style=3D"font-size:10pt;font-family:Sylfaen,serif;color:rgb=
+(32,33,36);letter-spacing:0.15pt">=E1=83=93=E1=83=94=E1=83=A2=E1=83=90=E1=
+=83=9A=E1=83=A3=E1=83=A0=E1=83=98</span></b><b><span style=3D"font-size:10p=
+t;font-family:&quot;Calibri Light&quot;,sans-serif;color:rgb(32,33,36);lett=
+er-spacing:0.15pt"> </span></b><b><span style=3D"font-size:10pt;font-family=
+:Sylfaen,serif;color:rgb(32,33,36);letter-spacing:0.15pt">=E1=83=92=E1=83=
+=90=E1=83=9C=E1=83=A0=E1=83=98=E1=83=92=E1=83=98</span></b><b><span style=
+=3D"font-size:10pt;font-family:&quot;Calibri Light&quot;,sans-serif;color:r=
+gb(32,33,36);letter-spacing:0.15pt">:</span></b><span style=3D"font-size:10=
+pt;font-family:&quot;Calibri Light&quot;,sans-serif;color:rgb(32,33,36);let=
+ter-spacing:0.15pt"><br>
+I </span><span style=3D"font-size:10pt;font-family:Sylfaen,serif;color:rgb(=
+32,33,36);letter-spacing:0.15pt">=E1=83=93=E1=83=A6=E1=83=94</span><span st=
+yle=3D"font-size:10pt;font-family:&quot;Calibri Light&quot;,sans-serif;colo=
+r:rgb(32,33,36);letter-spacing:0.15pt">: <br>
+1. </span><span style=3D"font-size:10pt;font-family:Sylfaen,serif;color:rgb=
+(32,33,36);letter-spacing:0.15pt">=E1=83=92=E1=83=90=E1=83=A1=E1=83=95=E1=
+=83=9A=E1=83=90</span><span style=3D"font-size:10pt;font-family:&quot;Calib=
+ri Light&quot;,sans-serif;color:rgb(32,33,36);letter-spacing:0.15pt"> </spa=
+n><span style=3D"font-size:10pt;font-family:Sylfaen,serif;color:rgb(32,33,3=
+6);letter-spacing:0.15pt">=E1=83=97=E1=83=91=E1=83=98=E1=83=9A=E1=83=98=E1=
+=83=A1=E1=83=98=E1=83=93=E1=83=90=E1=83=9C</span><span style=3D"font-size:1=
+0pt;font-family:&quot;Calibri Light&quot;,sans-serif;color:rgb(32,33,36);le=
+tter-spacing:0.15pt"> - 18:00 (</span><span style=3D"font-size:10pt;font-fa=
+mily:Sylfaen,serif;color:rgb(32,33,36);letter-spacing:0.15pt">=E1=83=95=E1=
+=83=90=E1=83=A0=E1=83=93=E1=83=94=E1=83=91=E1=83=98=E1=83=A1</span><span st=
+yle=3D"font-size:10pt;font-family:&quot;Calibri Light&quot;,sans-serif;colo=
+r:rgb(32,33,36);letter-spacing:0.15pt"> </span><span style=3D"font-size:10p=
+t;font-family:Sylfaen,serif;color:rgb(32,33,36);letter-spacing:0.15pt">=E1=
+=83=9B=E1=83=9D=E1=83=94=E1=83=93=E1=83=90=E1=83=9C=E1=83=98</span><span st=
+yle=3D"font-size:10pt;font-family:&quot;Calibri Light&quot;,sans-serif;colo=
+r:rgb(32,33,36);letter-spacing:0.15pt">, </span><span style=3D"font-size:10=
+pt;font-family:Sylfaen,serif;color:rgb(32,33,36);letter-spacing:0.15pt">=E1=
+=83=95=E1=83=94=E1=83=9A=E1=83=9D=E1=83=A1=E1=83=98=E1=83=9E=E1=83=94=E1=83=
+=93=E1=83=97=E1=83=90=E1=83=9C</span><span style=3D"font-size:10pt;font-fam=
+ily:&quot;Calibri Light&quot;,sans-serif;color:rgb(32,33,36);letter-spacing=
+:0.15pt">) <br>
+2. </span><span style=3D"font-size:10pt;font-family:Sylfaen,serif;color:rgb=
+(32,33,36);letter-spacing:0.15pt">=E1=83=A1=E1=83=90=E1=83=A1=E1=83=A2=E1=
+=83=A3=E1=83=9B=E1=83=A0=E1=83=9D=E1=83=A8=E1=83=98</span><span style=3D"fo=
+nt-size:10pt;font-family:&quot;Calibri Light&quot;,sans-serif;color:rgb(32,=
+33,36);letter-spacing:0.15pt"> </span><span style=3D"font-size:10pt;font-fa=
+mily:Sylfaen,serif;color:rgb(32,33,36);letter-spacing:0.15pt">=E1=83=A0=E1=
+=83=94=E1=83=92=E1=83=98=E1=83=A1=E1=83=A2=E1=83=A0=E1=83=90=E1=83=AA=E1=83=
+=98=E1=83=90</span><span style=3D"font-size:10pt;font-family:&quot;Calibri =
+Light&quot;,sans-serif;color:rgb(32,33,36);letter-spacing:0.15pt"> - 21:00 =
+<br>
+3. </span><span style=3D"font-size:10pt;font-family:Sylfaen,serif;color:rgb=
+(32,33,36);letter-spacing:0.15pt">=E1=83=92=E1=83=90=E1=83=9A=E1=83=90</spa=
+n><span style=3D"font-size:10pt;font-family:&quot;Calibri Light&quot;,sans-=
+serif;color:rgb(32,33,36);letter-spacing:0.15pt">-</span><span style=3D"fon=
+t-size:10pt;font-family:Sylfaen,serif;color:rgb(32,33,36);letter-spacing:0.=
+15pt">=E1=83=95=E1=83=90=E1=83=AE=E1=83=A8=E1=83=90=E1=83=9B=E1=83=98</span=
+><span style=3D"font-size:10pt;font-family:&quot;Calibri Light&quot;,sans-s=
+erif;color:rgb(32,33,36);letter-spacing:0.15pt"> - 23:00 (</span><span styl=
+e=3D"font-size:10pt;font-family:Sylfaen,serif;color:rgb(32,33,36);letter-sp=
+acing:0.15pt">=E1=83=AA=E1=83=9D=E1=83=AA=E1=83=AE=E1=83=90=E1=83=9A=E1=83=
+=98</span><span style=3D"font-size:10pt;font-family:&quot;Calibri Light&quo=
+t;,sans-serif;color:rgb(32,33,36);letter-spacing:0.15pt"> </span><span styl=
+e=3D"font-size:10pt;font-family:Sylfaen,serif;color:rgb(32,33,36);letter-sp=
+acing:0.15pt">=E1=83=9B=E1=83=A3=E1=83=A1=E1=83=98=E1=83=99=E1=83=98=E1=83=
+=A1</span><span style=3D"font-size:10pt;font-family:&quot;Calibri Light&quo=
+t;,sans-serif;color:rgb(32,33,36);letter-spacing:0.15pt"> </span><span styl=
+e=3D"font-size:10pt;font-family:Sylfaen,serif;color:rgb(32,33,36);letter-sp=
+acing:0.15pt">=E1=83=97=E1=83=90=E1=83=9C=E1=83=AE=E1=83=9A=E1=83=94=E1=83=
+=91=E1=83=98=E1=83=97</span><span style=3D"font-size:10pt;font-family:&quot=
+;Calibri Light&quot;,sans-serif;color:rgb(32,33,36);letter-spacing:0.15pt">=
+)<br>
+<br>
+II </span><span style=3D"font-size:10pt;font-family:Sylfaen,serif;color:rgb=
+(32,33,36);letter-spacing:0.15pt">=E1=83=93=E1=83=A6=E1=83=94</span><span s=
+tyle=3D"font-size:10pt;font-family:&quot;Calibri Light&quot;,sans-serif;col=
+or:rgb(32,33,36);letter-spacing:0.15pt">:<br>
+1. 09:00 - </span><span style=3D"font-size:10pt;font-family:Sylfaen,serif;c=
+olor:rgb(32,33,36);letter-spacing:0.15pt">=E1=83=A1=E1=83=90=E1=83=A3=E1=83=
+=96=E1=83=9B=E1=83=94</span><span style=3D"font-size:10pt;font-family:&quot=
+;Calibri Light&quot;,sans-serif;color:rgb(32,33,36);letter-spacing:0.15pt">=
+<br>
+2. 11:00 - </span><span style=3D"font-size:10pt;font-family:Sylfaen,serif;c=
+olor:rgb(32,33,36);letter-spacing:0.15pt">=E1=83=98=E1=83=9C=E1=83=A4=E1=83=
+=9D</span><span style=3D"font-size:10pt;font-family:&quot;Calibri Light&quo=
+t;,sans-serif;color:rgb(32,33,36);letter-spacing:0.15pt">-</span><span styl=
+e=3D"font-size:10pt;font-family:Sylfaen,serif;color:rgb(32,33,36);letter-sp=
+acing:0.15pt">=E1=83=A2=E1=83=A3=E1=83=A0=E1=83=98</span><span style=3D"fon=
+t-size:10pt;font-family:&quot;Calibri Light&quot;,sans-serif;color:rgb(32,3=
+3,36);letter-spacing:0.15pt"> </span><span style=3D"font-size:10pt;font-fam=
+ily:Sylfaen,serif;color:rgb(32,33,36);letter-spacing:0.15pt">=E1=83=A1=E1=
+=83=90=E1=83=A1=E1=83=A2=E1=83=A3=E1=83=9B=E1=83=A0=E1=83=9D=E1=83=A8=E1=83=
+=98</span><span style=3D"font-size:10pt;font-family:&quot;Calibri Light&quo=
+t;,sans-serif;color:rgb(32,33,36);letter-spacing:0.15pt"><br>
+3. 13:00 - </span><span style=3D"font-size:10pt;font-family:Sylfaen,serif;c=
+olor:rgb(32,33,36);letter-spacing:0.15pt">=E1=83=92=E1=83=90=E1=83=9B=E1=83=
+=9D=E1=83=A1=E1=83=95=E1=83=9A=E1=83=90</span><span style=3D"font-size:10pt=
+;font-family:&quot;Calibri Light&quot;,sans-serif;color:rgb(32,33,36);lette=
+r-spacing:0.15pt"> </span><span style=3D"font-size:10pt;font-family:Sylfaen=
+,serif;color:rgb(32,33,36);letter-spacing:0.15pt">=E1=83=A1=E1=83=90=E1=83=
+=A1=E1=83=A2=E1=83=A3=E1=83=9B=E1=83=A0=E1=83=9D=E1=83=93=E1=83=90=E1=83=9C=
+</span><span style=3D"font-size:10pt;font-family:&quot;Calibri Light&quot;,=
+sans-serif;color:rgb(32,33,36);letter-spacing:0.15pt">/</span><span style=
+=3D"font-size:10pt;font-family:Sylfaen,serif;color:rgb(32,33,36);letter-spa=
+cing:0.15pt">=E1=83=92=E1=83=90=E1=83=9B=E1=83=92=E1=83=96=E1=83=90=E1=83=
+=95=E1=83=A0=E1=83=94=E1=83=91=E1=83=90</span><span style=3D"font-size:10pt=
+;font-family:&quot;Calibri Light&quot;,sans-serif;color:rgb(32,33,36);lette=
+r-spacing:0.15pt"> </span><span style=3D"font-size:10pt;font-family:Sylfaen=
+,serif;color:rgb(32,33,36);letter-spacing:0.15pt">=E1=83=97=E1=83=91=E1=83=
+=98=E1=83=9A=E1=83=98=E1=83=A1=E1=83=A8=E1=83=98</span><span style=3D"font-=
+size:10pt;font-family:&quot;Calibri Light&quot;,sans-serif;color:rgb(144,14=
+8,156);text-transform:uppercase">=C2=A0</span><span style=3D"font-size:10pt=
+;font-family:&quot;Calibri Light&quot;,sans-serif"></span></p><p class=3D"M=
+soNormal" style=3D"line-height:21pt;margin:0in 0in 8pt;font-size:11pt;font-=
+family:Calibri,sans-serif">=E1=83=9B=E1=83=9D=E1=83=AE=E1=83=90=E1=83=A0=E1=
+=83=A3=E1=83=9A=E1=83=98 =E1=83=95=E1=83=98=E1=83=A5=E1=83=9C=E1=83=94=E1=
+=83=91=E1=83=98=E1=83=97, =E1=83=92=E1=83=98=E1=83=9B=E1=83=90=E1=83=A1=E1=
+=83=9E=E1=83=98=E1=83=9C=E1=83=AB=E1=83=9A=E1=83=9D=E1=83=97 =E1=83=A1=E1=
+=83=90=E1=83=A1=E1=83=A2=E1=83=A3=E1=83=9B=E1=83=A0=E1=83=9D Bakuriani Inn-=
+=E1=83=A8=E1=83=98.</p><p class=3D"MsoNormal" style=3D"line-height:21pt;mar=
+gin:0in 0in 8pt;font-size:11pt;font-family:Calibri,sans-serif"><b>=E1=83=93=
+=E1=83=90=E1=83=A1=E1=83=AC=E1=83=A0=E1=83=94=E1=83=91=E1=83=98=E1=83=A1=E1=
+=83=97=E1=83=95=E1=83=98=E1=83=A1 =E1=83=92=E1=83=97=E1=83=AE=E1=83=9D=E1=
+=83=95=E1=83=97 =E1=83=92=E1=83=90=E1=83=98=E1=83=90=E1=83=A0=E1=83=9D=E1=
+=83=97 =E1=83=A0=E1=83=94=E1=83=92=E1=83=98=E1=83=A1=E1=83=A2=E1=83=A0=E1=
+=83=90=E1=83=AA=E1=83=98=E1=83=90 =E1=83=9B=E1=83=9D=E1=83=AA=E1=83=94=E1=
+=83=9B=E1=83=A3=E1=83=9A =E1=83=91=E1=83=9B=E1=83=A3=E1=83=9A=E1=83=96=E1=
+=83=94 :=C2=A0<a target=3D"_blank" href=3D"https://forms.gle/fLE38CnuW6aodp=
+tZ7?fbclid=3DIwAR1zZqnZ48HxBbLSnHAAbIbWo314cZyQW-rwsDGtdZkMhyhLZLXMvIpQXok"=
+ rel=3D"nofollow noopener" style=3D"font-size:13px;color:rgb(56,88,152);fon=
+t-family:Helvetica,Arial,sans-serif;white-space:pre-wrap;background-color:r=
+gb(241,240,240)">https://forms.gle/fLE38CnuW6aodptZ7</a></b></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:21pt;margin:0in 0in 8pt;font-si=
+ze:11pt;font-family:Calibri,sans-serif"><span lang=3D"GEO/KAT" style=3D"fon=
+t-size:10pt;font-family:&quot;Calibri Light&quot;,sans-serif;color:rgb(144,=
+148,156);text-transform:uppercase">___________________</span><span style=3D=
+"font-size:10pt;font-family:&quot;Calibri Light&quot;,sans-serif"></span></=
+p>
+
+<p class=3D"MsoNormal" style=3D"line-height:106%;margin:0in 0in 8pt;font-si=
+ze:11pt;font-family:Calibri,sans-serif"><span style=3D"font-size:10pt;line-=
+height:106%;font-family:Sylfaen,serif;color:rgb(28,30,33)">=E1=83=91=E1=83=
+=90=E1=83=99=E1=83=A3=E1=83=A0=E1=83=98=E1=83=90=E1=83=9C=E1=83=98</span><s=
+pan style=3D"font-size:10pt;line-height:106%;font-family:&quot;Calibri Ligh=
+t&quot;,sans-serif;color:rgb(28,30,33)"> </span><span style=3D"font-size:10=
+pt;line-height:106%;font-family:Sylfaen,serif;color:rgb(28,30,33)">=E1=83=
+=98=E1=83=9C=E1=83=9C</span><span style=3D"font-size:10pt;line-height:106%;=
+font-family:&quot;Calibri Light&quot;,sans-serif;color:rgb(28,30,33)"> - 5-=
+</span><span style=3D"font-size:10pt;line-height:106%;font-family:Sylfaen,s=
+erif;color:rgb(28,30,33)">=E1=83=95=E1=83=90=E1=83=A0=E1=83=A1=E1=83=99=E1=
+=83=95=E1=83=9A=E1=83=90=E1=83=95=E1=83=98=E1=83=90=E1=83=9C=E1=83=98</span=
+><span style=3D"font-size:10pt;line-height:106%;font-family:&quot;Calibri L=
+ight&quot;,sans-serif;color:rgb(28,30,33)"> </span><span style=3D"font-size=
+:10pt;line-height:106%;font-family:Sylfaen,serif;color:rgb(28,30,33)">=E1=
+=83=A1=E1=83=90=E1=83=A1=E1=83=A2=E1=83=A3=E1=83=9B=E1=83=A0=E1=83=9D</span=
+><span style=3D"font-size:10pt;line-height:106%;font-family:&quot;Calibri L=
+ight&quot;,sans-serif;color:rgb(28,30,33)"> </span><span style=3D"font-size=
+:10pt;line-height:106%;font-family:Sylfaen,serif;color:rgb(28,30,33)">=E1=
+=83=91=E1=83=90=E1=83=99=E1=83=A3=E1=83=A0=E1=83=98=E1=83=90=E1=83=9C=E1=83=
+=A8=E1=83=98</span><span style=3D"font-size:10pt;line-height:106%;font-fami=
+ly:&quot;Calibri Light&quot;,sans-serif;color:rgb(28,30,33)">, </span><span=
+ style=3D"font-size:10pt;line-height:106%;font-family:Sylfaen,serif;color:r=
+gb(28,30,33)">=E1=83=AA=E1=83=94=E1=83=9C=E1=83=A2=E1=83=A0=E1=83=97=E1=83=
+=90=E1=83=9C</span><span style=3D"font-size:10pt;line-height:106%;font-fami=
+ly:&quot;Calibri Light&quot;,sans-serif;color:rgb(28,30,33)"> </span><span =
+style=3D"font-size:10pt;line-height:106%;font-family:Sylfaen,serif;color:rg=
+b(28,30,33)">=E1=83=90=E1=83=AE=E1=83=9A=E1=83=9D=E1=83=A1</span><span styl=
+e=3D"font-size:10pt;line-height:106%;font-family:&quot;Calibri Light&quot;,=
+sans-serif;color:rgb(28,30,33)">. </span><span style=3D"font-size:10pt;line=
+-height:106%;font-family:&quot;Calibri Light&quot;,sans-serif"><a href=3D"h=
+ttp://bakurianiinn.ge/" target=3D"_blank"><span style=3D"color:blue">http:/=
+/bakurianiinn.ge/</span></a><span style=3D"color:rgb(28,30,33)">=C2=A0=C2=
+=A0=C2=A0 </span></span></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:21pt;margin:0in 0in 8pt;font-si=
+ze:11pt;font-family:Calibri,sans-serif"><span style=3D"font-size:10pt;font-=
+family:Sylfaen,serif;color:rgb(28,30,33)">=E1=83=A1=E1=83=90=E1=83=A1=E1=83=
+=A2=E1=83=A3=E1=83=9B=E1=83=A0=E1=83=9D</span><span style=3D"font-size:10pt=
+;font-family:&quot;Calibri Light&quot;,sans-serif;color:rgb(28,30,33)">=C2=
+=A0</span><span style=3D"font-size:10pt;font-family:Sylfaen,serif;color:rgb=
+(28,30,33)">=E1=83=90=E1=83=A6=E1=83=AD=E1=83=A3=E1=83=A0=E1=83=95=E1=83=98=
+=E1=83=9A=E1=83=98</span><span style=3D"font-size:10pt;font-family:&quot;Ca=
+libri Light&quot;,sans-serif;color:rgb(28,30,33)"> </span><span style=3D"fo=
+nt-size:10pt;font-family:Sylfaen,serif;color:rgb(28,30,33)">=E1=83=98=E1=83=
+=A5=E1=83=9C=E1=83=94=E1=83=91=E1=83=90</span><span style=3D"font-size:10pt=
+;font-family:&quot;Calibri Light&quot;,sans-serif;color:rgb(28,30,33)"> 154=
+ </span><span style=3D"font-size:10pt;font-family:Sylfaen,serif;color:rgb(2=
+8,30,33)">=E1=83=A1=E1=83=AE=E1=83=95=E1=83=90=E1=83=93=E1=83=90=E1=83=A1=
+=E1=83=AE=E1=83=95=E1=83=90</span><span style=3D"font-size:10pt;font-family=
+:&quot;Calibri Light&quot;,sans-serif;color:rgb(28,30,33)"> </span><span st=
+yle=3D"font-size:10pt;font-family:Sylfaen,serif;color:rgb(28,30,33)">=E1=83=
+=99=E1=83=90=E1=83=A2=E1=83=94=E1=83=92=E1=83=9D=E1=83=A0=E1=83=98=E1=83=98=
+=E1=83=A1</span><span style=3D"font-size:10pt;font-family:&quot;Calibri Lig=
+ht&quot;,sans-serif;color:rgb(28,30,33)"> </span><span style=3D"font-size:1=
+0pt;font-family:Sylfaen,serif;color:rgb(28,30,33)">=E1=83=9C=E1=83=9D=E1=83=
+=9B=E1=83=A0=E1=83=98=E1=83=97</span><span style=3D"font-size:10pt;font-fam=
+ily:&quot;Calibri Light&quot;,sans-serif;color:rgb(28,30,33)">, </span><spa=
+n style=3D"font-size:10pt;font-family:Sylfaen,serif;color:rgb(28,30,33)">=
+=E1=83=A1=E1=83=90=E1=83=A1=E1=83=A2=E1=83=A3=E1=83=9B=E1=83=A0=E1=83=9D</s=
+pan><span style=3D"font-size:10pt;font-family:&quot;Calibri Light&quot;,san=
+s-serif;color:rgb(28,30,33)"> </span><span style=3D"font-size:10pt;font-fam=
+ily:Sylfaen,serif;color:rgb(28,30,33)">=E1=83=A3=E1=83=9B=E1=83=90=E1=83=A1=
+=E1=83=9E=E1=83=98=E1=83=9C=E1=83=AB=E1=83=9A=E1=83=94=E1=83=91=E1=83=A1</s=
+pan><span style=3D"font-size:10pt;font-family:&quot;Calibri Light&quot;,san=
+s-serif;color:rgb(28,30,33)"> </span><span style=3D"font-size:10pt;font-fam=
+ily:Sylfaen,serif;color:rgb(28,30,33)">=E1=83=94=E1=83=A0=E1=83=97=E1=83=93=
+=E1=83=A0=E1=83=9D=E1=83=A3=E1=83=9A=E1=83=90=E1=83=93</span><span style=3D=
+"font-size:10pt;font-family:&quot;Calibri Light&quot;,sans-serif;color:rgb(=
+28,30,33)"> 350 </span><span style=3D"font-size:10pt;font-family:Sylfaen,se=
+rif;color:rgb(28,30,33)">=E1=83=90=E1=83=93=E1=83=90=E1=83=9B=E1=83=98=E1=
+=83=90=E1=83=9C=E1=83=A1</span><span style=3D"font-size:10pt;font-family:&q=
+uot;Calibri Light&quot;,sans-serif;color:rgb(28,30,33)">.</span><span style=
+=3D"font-size:10pt;font-family:&quot;Calibri Light&quot;,sans-serif"></span=
+></p><p class=3D"MsoNormal" style=3D"line-height:105%;margin:0in 0in 8pt;fo=
+nt-size:11pt;font-family:Calibri,sans-serif"><span style=3D"font-size:10pt;=
+line-height:105%;font-family:&quot;Calibri Light&quot;,sans-serif">7 </span=
+><span style=3D"font-size:10pt;line-height:105%;font-family:Sylfaen,serif">=
+=E1=83=A1=E1=83=AE=E1=83=95=E1=83=90=E1=83=93=E1=83=90=E1=83=A1=E1=83=AE=E1=
+=83=95=E1=83=90</span><span style=3D"font-size:10pt;line-height:105%;font-f=
+amily:&quot;Calibri Light&quot;,sans-serif"> </span><span style=3D"font-siz=
+e:10pt;line-height:105%;font-family:Sylfaen,serif">=E1=83=A2=E1=83=98=E1=83=
+=9E=E1=83=98=E1=83=A1</span><span style=3D"font-size:10pt;line-height:105%;=
+font-family:&quot;Calibri Light&quot;,sans-serif"> </span><span style=3D"fo=
+nt-size:10pt;line-height:105%;font-family:Sylfaen,serif">=E1=83=A0=E1=83=94=
+=E1=83=A1=E1=83=A2=E1=83=9D=E1=83=A0=E1=83=90=E1=83=9C=E1=83=98</span><span=
+ style=3D"font-size:10pt;line-height:105%;font-family:&quot;Calibri Light&q=
+uot;,sans-serif">; </span></p><p class=3D"MsoNormal" style=3D"line-height:1=
+05%;margin:0in 0in 8pt;font-size:11pt;font-family:Calibri,sans-serif"><span=
+ style=3D"font-size:10pt;line-height:105%;font-family:Sylfaen,serif">=E1=83=
+=A1=E1=83=90=E1=83=99=E1=83=9D=E1=83=9C=E1=83=A4=E1=83=94=E1=83=A0=E1=83=94=
+=E1=83=9C=E1=83=AA=E1=83=98=E1=83=9D</span><span style=3D"font-size:10pt;li=
+ne-height:105%;font-family:&quot;Calibri Light&quot;,sans-serif"> </span><s=
+pan style=3D"font-size:10pt;line-height:105%;font-family:Sylfaen,serif">=E1=
+=83=93=E1=83=90=E1=83=A0=E1=83=91=E1=83=90=E1=83=96=E1=83=98</span><span st=
+yle=3D"font-size:10pt;line-height:105%;font-family:&quot;Calibri Light&quot=
+;,sans-serif">; </span></p><p class=3D"MsoNormal" style=3D"line-height:105%=
+;margin:0in 0in 8pt;font-size:11pt;font-family:Calibri,sans-serif"><span st=
+yle=3D"font-size:10pt;line-height:105%;font-family:Sylfaen,serif">=E1=83=A1=
+=E1=83=90=E1=83=99=E1=83=9D=E1=83=9C=E1=83=AA=E1=83=94=E1=83=A0=E1=83=A2=E1=
+=83=9D</span><span style=3D"font-size:10pt;line-height:105%;font-family:&qu=
+ot;Calibri Light&quot;,sans-serif"> </span><span style=3D"font-size:10pt;li=
+ne-height:105%;font-family:Sylfaen,serif">=E1=83=93=E1=83=90=E1=83=A0=E1=83=
+=91=E1=83=90=E1=83=96=E1=83=98</span><span style=3D"font-size:10pt;line-hei=
+ght:105%;font-family:&quot;Calibri Light&quot;,sans-serif">; </span></p><p =
+class=3D"MsoNormal" style=3D"line-height:105%;margin:0in 0in 8pt;font-size:=
+11pt;font-family:Calibri,sans-serif"><span style=3D"font-size:10pt;line-hei=
+ght:105%;font-family:&quot;Calibri Light&quot;,sans-serif">24 000 </span><s=
+pan style=3D"font-size:10pt;line-height:105%;font-family:Sylfaen,serif">=E1=
+=83=99=E1=83=95</span><span style=3D"font-size:10pt;line-height:105%;font-f=
+amily:&quot;Calibri Light&quot;,sans-serif"> </span><span style=3D"font-siz=
+e:10pt;line-height:105%;font-family:Sylfaen,serif">=E1=83=92=E1=83=90=E1=83=
+=9B=E1=83=AC=E1=83=95=E1=83=90=E1=83=9C=E1=83=94=E1=83=91=E1=83=A3=E1=83=9A=
+=E1=83=98</span><span style=3D"font-size:10pt;line-height:105%;font-family:=
+&quot;Calibri Light&quot;,sans-serif"> </span><span style=3D"font-size:10pt=
+;line-height:105%;font-family:Sylfaen,serif">=E1=83=A2=E1=83=94=E1=83=A0=E1=
+=83=98=E1=83=A2=E1=83=9D=E1=83=A0=E1=83=98=E1=83=90</span><span style=3D"fo=
+nt-size:10pt;line-height:105%;font-family:&quot;Calibri Light&quot;,sans-se=
+rif">; </span></p><p class=3D"MsoNormal" style=3D"line-height:105%;margin:0=
+in 0in 8pt;font-size:11pt;font-family:Calibri,sans-serif"><span style=3D"fo=
+nt-size:10pt;line-height:105%;font-family:&quot;Calibri Light&quot;,sans-se=
+rif">500 </span><span style=3D"font-size:10pt;line-height:105%;font-family:=
+Sylfaen,serif">=E1=83=9B=E1=83=94=E1=83=A2=E1=83=A0=E1=83=98</span><span st=
+yle=3D"font-size:10pt;line-height:105%;font-family:&quot;Calibri Light&quot=
+;,sans-serif"> </span><span style=3D"font-size:10pt;line-height:105%;font-f=
+amily:Sylfaen,serif">=E1=83=A1=E1=83=90=E1=83=A1=E1=83=94=E1=83=98=E1=83=A0=
+=E1=83=9C=E1=83=9D</span><span style=3D"font-size:10pt;line-height:105%;fon=
+t-family:&quot;Calibri Light&quot;,sans-serif"> </span><span style=3D"font-=
+size:10pt;line-height:105%;font-family:Sylfaen,serif">=E1=83=91=E1=83=98=E1=
+=83=9A=E1=83=98=E1=83=99=E1=83=98</span><span style=3D"font-size:10pt;line-=
+height:105%;font-family:&quot;Calibri Light&quot;,sans-serif"> </span><span=
+ style=3D"font-size:10pt;line-height:105%;font-family:Sylfaen,serif">=E1=83=
+=A2=E1=83=94=E1=83=A0=E1=83=98=E1=83=A2=E1=83=9D=E1=83=A0=E1=83=98=E1=83=90=
+=E1=83=96=E1=83=94</span><span style=3D"font-size:10pt;line-height:105%;fon=
+t-family:&quot;Calibri Light&quot;,sans-serif">;=C2=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:21pt;margin:0in 0in 8pt;font-si=
+ze:11pt;font-family:Calibri,sans-serif"><span style=3D"font-size:10pt;font-=
+family:Sylfaen,serif;color:rgb(28,30,33)">=E1=83=A1=E1=83=90=E1=83=A1=E1=83=
+=A2=E1=83=A3=E1=83=9B=E1=83=A0=E1=83=9D</span><span style=3D"font-size:10pt=
+;font-family:&quot;Calibri Light&quot;,sans-serif;color:rgb(28,30,33)"> </s=
+pan><span style=3D"font-size:10pt;font-family:Sylfaen,serif;color:rgb(28,30=
+,33)">=E1=83=93=E1=83=90=E1=83=9B=E1=83=A1=E1=83=95=E1=83=94=E1=83=9C=E1=83=
+=94=E1=83=91=E1=83=9A=E1=83=94=E1=83=91=E1=83=A1</span><span style=3D"font-=
+size:10pt;font-family:&quot;Calibri Light&quot;,sans-serif;color:rgb(28,30,=
+33)"> </span><span style=3D"font-size:10pt;font-family:Sylfaen,serif;color:=
+rgb(28,30,33)">=E1=83=A8=E1=83=94=E1=83=A1=E1=83=97=E1=83=90=E1=83=95=E1=83=
+=90=E1=83=96=E1=83=94=E1=83=91=E1=83=A1</span><span style=3D"font-size:10pt=
+;font-family:&quot;Calibri Light&quot;,sans-serif;color:rgb(28,30,33)"> </s=
+pan><span lang=3D"GEO/KAT" style=3D"font-size:10pt;font-family:Sylfaen,seri=
+f;color:rgb(28,30,33)">=E1=83=A1=E1=83=90=E1=83=A3=E1=83=96=E1=83=9B=E1=83=
+=94=E1=83=A1</span><span lang=3D"GEO/KAT" style=3D"font-size:10pt;font-fami=
+ly:&quot;Calibri Light&quot;,sans-serif;color:rgb(28,30,33)">, </span><span=
+ style=3D"font-size:10pt;font-family:Sylfaen,serif;color:rgb(28,30,33)">=E1=
+=83=9D=E1=83=A0=E1=83=AF=E1=83=94=E1=83=A0=E1=83=90=E1=83=93</span><span st=
+yle=3D"font-size:10pt;font-family:&quot;Calibri Light&quot;,sans-serif;colo=
+r:rgb(28,30,33)"> </span><span lang=3D"GEO/KAT" style=3D"font-size:10pt;fon=
+t-family:Sylfaen,serif;color:rgb(28,30,33)">=E1=83=93=E1=83=90</span><span =
+lang=3D"GEO/KAT" style=3D"font-size:10pt;font-family:&quot;Calibri Light&qu=
+ot;,sans-serif;color:rgb(28,30,33)"> </span><span lang=3D"GEO/KAT" style=3D=
+"font-size:10pt;font-family:Sylfaen,serif;color:rgb(28,30,33)">=E1=83=A1=E1=
+=83=90=E1=83=9B=E1=83=AF=E1=83=94=E1=83=A0=E1=83=90=E1=83=93</span><span la=
+ng=3D"GEO/KAT" style=3D"font-size:10pt;font-family:&quot;Calibri Light&quot=
+;,sans-serif;color:rgb(28,30,33)">
+</span><span style=3D"font-size:10pt;font-family:Sylfaen,serif;color:rgb(28=
+,30,33)">=E1=83=99=E1=83=95=E1=83=94=E1=83=91=E1=83=90=E1=83=A1</span><span=
+ style=3D"font-size:10pt;font-family:&quot;Calibri Light&quot;,sans-serif;c=
+olor:rgb(28,30,33)"> </span><span style=3D"font-size:10pt;font-family:Sylfa=
+en,serif;color:rgb(28,30,33)">=E1=83=A0=E1=83=94=E1=83=A1=E1=83=A2=E1=83=9D=
+=E1=83=A0=E1=83=90=E1=83=9C=E1=83=A8=E1=83=98</span><span style=3D"font-siz=
+e:10pt;font-family:&quot;Calibri Light&quot;,sans-serif;color:rgb(28,30,33)=
+">, </span><span style=3D"font-size:10pt;font-family:Sylfaen,serif;color:rg=
+b(28,30,33)">=E1=83=A0=E1=83=9D=E1=83=9B=E1=83=94=E1=83=9A=E1=83=A1=E1=83=
+=90=E1=83=AA</span><span style=3D"font-size:10pt;font-family:&quot;Calibri =
+Light&quot;,sans-serif;color:rgb(28,30,33)"> </span><span style=3D"font-siz=
+e:10pt;font-family:Sylfaen,serif;color:rgb(28,30,33)">=E1=83=A9=E1=83=95=E1=
+=83=94=E1=83=9C=E1=83=98</span><span style=3D"font-size:10pt;font-family:&q=
+uot;Calibri Light&quot;,sans-serif;color:rgb(28,30,33)"> </span><span style=
+=3D"font-size:10pt;font-family:Sylfaen,serif;color:rgb(28,30,33)">=E1=83=9E=
+=E1=83=A0=E1=83=9D=E1=83=A4=E1=83=94=E1=83=A1=E1=83=98=E1=83=9D=E1=83=9C=E1=
+=83=90=E1=83=9A=E1=83=98</span><span style=3D"font-size:10pt;font-family:&q=
+uot;Calibri Light&quot;,sans-serif;color:rgb(28,30,33)"> </span><span style=
+=3D"font-size:10pt;font-family:Sylfaen,serif;color:rgb(28,30,33)">=E1=83=9B=
+=E1=83=96=E1=83=90=E1=83=A0=E1=83=94=E1=83=A3=E1=83=9A=E1=83=94=E1=83=91=E1=
+=83=98</span><span style=3D"font-size:10pt;font-family:&quot;Calibri Light&=
+quot;,sans-serif;color:rgb(28,30,33)"> </span><span style=3D"font-size:10pt=
+;font-family:Sylfaen,serif;color:rgb(28,30,33)">=E1=83=9B=E1=83=9D=E1=83=90=
+=E1=83=9B=E1=83=96=E1=83=90=E1=83=93=E1=83=94=E1=83=91=E1=83=94=E1=83=9C</s=
+pan><span style=3D"font-size:10pt;font-family:&quot;Calibri Light&quot;,san=
+s-serif;color:rgb(28,30,33)">.</span></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:105%;margin:0in 0in 8pt;font-si=
+ze:11pt;font-family:Calibri,sans-serif"><span style=3D"font-size:10pt;line-=
+height:105%;font-family:Sylfaen,serif">=E1=83=A1=E1=83=90=E1=83=A1=E1=83=A2=
+=E1=83=A3=E1=83=9B=E1=83=A0=E1=83=9D</span><span style=3D"font-size:10pt;li=
+ne-height:105%;font-family:&quot;Calibri Light&quot;,sans-serif"> =E2=80=9C=
+</span><span style=3D"font-size:10pt;line-height:105%;font-family:Sylfaen,s=
+erif">=E1=83=91=E1=83=90=E1=83=99=E1=83=A3=E1=83=A0=E1=83=98=E1=83=90=E1=83=
+=9C=E1=83=98</span><span style=3D"font-size:10pt;line-height:105%;font-fami=
+ly:&quot;Calibri Light&quot;,sans-serif"> </span><span style=3D"font-size:1=
+0pt;line-height:105%;font-family:Sylfaen,serif">=E1=83=98=E1=83=9C=E1=83=9C=
+</span><span style=3D"font-size:10pt;line-height:105%;font-family:&quot;Cal=
+ibri Light&quot;,sans-serif">=E2=80=9C </span><span style=3D"font-size:10pt=
+;line-height:105%;font-family:Sylfaen,serif">=E1=83=9B=E1=83=90=E1=83=A6=E1=
+=83=90=E1=83=9A=E1=83=98</span><span style=3D"font-size:10pt;line-height:10=
+5%;font-family:&quot;Calibri Light&quot;,sans-serif"> </span><span style=3D=
+"font-size:10pt;line-height:105%;font-family:Sylfaen,serif">=E1=83=AE=E1=83=
+=90=E1=83=A0=E1=83=98=E1=83=A1=E1=83=AE=E1=83=98=E1=83=A1=E1=83=90</span><s=
+pan style=3D"font-size:10pt;line-height:105%;font-family:&quot;Calibri Ligh=
+t&quot;,sans-serif"> </span><span style=3D"font-size:10pt;line-height:105%;=
+font-family:Sylfaen,serif">=E1=83=93=E1=83=90</span><span style=3D"font-siz=
+e:10pt;line-height:105%;font-family:&quot;Calibri Light&quot;,sans-serif"> =
+</span><span style=3D"font-size:10pt;line-height:105%;font-family:Sylfaen,s=
+erif">=E1=83=99=E1=83=9D=E1=83=9B=E1=83=A4=E1=83=9D=E1=83=A0=E1=83=A2=E1=83=
+=98=E1=83=A1</span><span style=3D"font-size:10pt;line-height:105%;font-fami=
+ly:&quot;Calibri Light&quot;,sans-serif"> </span><span style=3D"font-size:1=
+0pt;line-height:105%;font-family:Sylfaen,serif">=E1=83=92=E1=83=90=E1=83=A0=
+=E1=83=93=E1=83=90</span><span style=3D"font-size:10pt;line-height:105%;fon=
+t-family:&quot;Calibri Light&quot;,sans-serif">, </span><span style=3D"font=
+-size:10pt;line-height:105%;font-family:Sylfaen,serif">=E1=83=92=E1=83=90=
+=E1=83=9B=E1=83=9D=E1=83=A0=E1=83=A9=E1=83=94=E1=83=A3=E1=83=9A=E1=83=98</s=
+pan><span style=3D"font-size:10pt;line-height:105%;font-family:&quot;Calibr=
+i Light&quot;,sans-serif"> </span><span style=3D"font-size:10pt;line-height=
+:105%;font-family:Sylfaen,serif">=E1=83=98=E1=83=A5=E1=83=9C=E1=83=94=E1=83=
+=91=E1=83=90</span><span style=3D"font-size:10pt;line-height:105%;font-fami=
+ly:&quot;Calibri Light&quot;,sans-serif"> </span><span style=3D"font-size:1=
+0pt;line-height:105%;font-family:Sylfaen,serif">=E1=83=98=E1=83=A1=E1=83=94=
+=E1=83=97=E1=83=98</span><span style=3D"font-size:10pt;line-height:105%;fon=
+t-family:&quot;Calibri Light&quot;,sans-serif"> </span><span style=3D"font-=
+size:10pt;line-height:105%;font-family:Sylfaen,serif">=E1=83=A1=E1=83=94=E1=
+=83=A0=E1=83=95=E1=83=98=E1=83=A1=E1=83=94=E1=83=91=E1=83=98=E1=83=97=E1=83=
+=90=E1=83=AA</span><span style=3D"font-size:10pt;line-height:105%;font-fami=
+ly:&quot;Calibri Light&quot;,sans-serif">, </span><span style=3D"font-size:=
+10pt;line-height:105%;font-family:Sylfaen,serif">=E1=83=A0=E1=83=9D=E1=83=
+=92=E1=83=9D=E1=83=A0=E1=83=98=E1=83=AA=E1=83=90=E1=83=90</span><span style=
+=3D"font-size:10pt;line-height:105%;font-family:&quot;Calibri Light&quot;,s=
+ans-serif"> </span><span style=3D"font-size:10pt;line-height:105%;font-fami=
+ly:Sylfaen,serif">=E1=83=A3=E1=83=A4=E1=83=90=E1=83=A1=E1=83=9D</span><span=
+ style=3D"font-size:10pt;line-height:105%;font-family:&quot;Calibri Light&q=
+uot;,sans-serif"> </span><span style=3D"font-size:10pt;line-height:105%;fon=
+t-family:Sylfaen,serif">=E1=83=A2=E1=83=A0=E1=83=90=E1=83=9C=E1=83=A1=E1=83=
+=A4=E1=83=94=E1=83=A0=E1=83=98</span><span style=3D"font-size:10pt;line-hei=
+ght:105%;font-family:&quot;Calibri Light&quot;,sans-serif"> </span><span st=
+yle=3D"font-size:10pt;line-height:105%;font-family:Sylfaen,serif">=E1=83=A1=
+=E1=83=90=E1=83=A1=E1=83=A2=E1=83=A3=E1=83=9B=E1=83=A0=E1=83=9D=E1=83=93=E1=
+=83=90=E1=83=9C</span><span style=3D"font-size:10pt;line-height:105%;font-f=
+amily:&quot;Calibri Light&quot;,sans-serif"> </span><span style=3D"font-siz=
+e:10pt;line-height:105%;font-family:Sylfaen,serif">=E1=83=A1=E1=83=90=E1=83=
+=91=E1=83=90=E1=83=92=E1=83=98=E1=83=A0=E1=83=9D=E1=83=94=E1=83=91=E1=83=90=
+=E1=83=9B=E1=83=93=E1=83=94</span><span style=3D"font-size:10pt;line-height=
+:105%;font-family:&quot;Calibri Light&quot;,sans-serif"> </span><span style=
+=3D"font-size:10pt;line-height:105%;font-family:Sylfaen,serif">=E1=83=93=E1=
+=83=90</span><span style=3D"font-size:10pt;line-height:105%;font-family:&qu=
+ot;Calibri Light&quot;,sans-serif"> </span><span style=3D"font-size:10pt;li=
+ne-height:105%;font-family:Sylfaen,serif">=E1=83=A3=E1=83=99=E1=83=90=E1=83=
+=9C</span><span style=3D"font-size:10pt;line-height:105%;font-family:&quot;=
+Calibri Light&quot;,sans-serif">. </span><span style=3D"font-size:10pt;line=
+-height:105%;font-family:Sylfaen,serif">=E1=83=93=E1=83=90=E1=83=A2=E1=83=
+=94=E1=83=91=E1=83=98=E1=83=97=E1=83=98</span><span style=3D"font-size:10pt=
+;line-height:105%;font-family:&quot;Calibri Light&quot;,sans-serif"> </span=
+><span style=3D"font-size:10pt;line-height:105%;font-family:Sylfaen,serif">=
+=E1=83=97=E1=83=90=E1=83=9C=E1=83=AE=E1=83=98=E1=83=A1</span><span style=3D=
+"font-size:10pt;line-height:105%;font-family:&quot;Calibri Light&quot;,sans=
+-serif"> </span><span style=3D"font-size:10pt;line-height:105%;font-family:=
+Sylfaen,serif">=E1=83=92=E1=83=90=E1=83=93=E1=83=90=E1=83=AE=E1=83=93=E1=83=
+=98=E1=83=A1</span><span style=3D"font-size:10pt;line-height:105%;font-fami=
+ly:&quot;Calibri Light&quot;,sans-serif"> </span><span style=3D"font-size:1=
+0pt;line-height:105%;font-family:Sylfaen,serif">=E1=83=A8=E1=83=94=E1=83=9B=
+=E1=83=97=E1=83=AE=E1=83=95=E1=83=94=E1=83=95=E1=83=90=E1=83=A8=E1=83=98</s=
+pan><span style=3D"font-size:10pt;line-height:105%;font-family:&quot;Calibr=
+i Light&quot;,sans-serif">, </span><span style=3D"font-size:10pt;line-heigh=
+t:105%;font-family:Sylfaen,serif">=E1=83=90=E1=83=A1=E1=83=94=E1=83=95=E1=
+=83=94</span><span style=3D"font-size:10pt;line-height:105%;font-family:&qu=
+ot;Calibri Light&quot;,sans-serif"> </span><span style=3D"font-size:10pt;li=
+ne-height:105%;font-family:Sylfaen,serif">=E1=83=A8=E1=83=94=E1=83=A1=E1=83=
+=90=E1=83=AB=E1=83=9A=E1=83=94=E1=83=91=E1=83=94=E1=83=9A=E1=83=98</span><s=
+pan style=3D"font-size:10pt;line-height:105%;font-family:&quot;Calibri Ligh=
+t&quot;,sans-serif"> </span><span style=3D"font-size:10pt;line-height:105%;=
+font-family:Sylfaen,serif">=E1=83=98=E1=83=A5=E1=83=9C=E1=83=94=E1=83=91=E1=
+=83=90</span><span style=3D"font-size:10pt;line-height:105%;font-family:&qu=
+ot;Calibri Light&quot;,sans-serif"> </span><span style=3D"font-size:10pt;li=
+ne-height:105%;font-family:Sylfaen,serif">=E1=83=A1=E1=83=90=E1=83=A1=E1=83=
+=A2=E1=83=A3=E1=83=9B=E1=83=A0=E1=83=9D=E1=83=A1</span><span style=3D"font-=
+size:10pt;line-height:105%;font-family:&quot;Calibri Light&quot;,sans-serif=
+"> </span><span style=3D"font-size:10pt;line-height:105%;font-family:Sylfae=
+n,serif">=E1=83=A2=E1=83=A0=E1=83=90=E1=83=9C=E1=83=A1=E1=83=A4=E1=83=94=E1=
+=83=A0=E1=83=98=E1=83=A1</span><span style=3D"font-size:10pt;line-height:10=
+5%;font-family:&quot;Calibri Light&quot;,sans-serif"> </span><span style=3D=
+"font-size:10pt;line-height:105%;font-family:Sylfaen,serif">=E1=83=A8=E1=83=
+=94=E1=83=99=E1=83=95=E1=83=94=E1=83=97=E1=83=90</span><span style=3D"font-=
+size:10pt;line-height:105%;font-family:&quot;Calibri Light&quot;,sans-serif=
+"> </span><span style=3D"font-size:10pt;line-height:105%;font-family:Sylfae=
+n,serif">=E1=83=97=E1=83=91=E1=83=98=E1=83=9A=E1=83=98=E1=83=A1=E1=83=98=E1=
+=83=93=E1=83=90=E1=83=9C</span><span style=3D"font-size:10pt;line-height:10=
+5%;font-family:&quot;Calibri Light&quot;,sans-serif"> </span><span style=3D=
+"font-size:10pt;line-height:105%;font-family:Sylfaen,serif">=E1=83=90=E1=83=
+=9C</span><span style=3D"font-size:10pt;line-height:105%;font-family:&quot;=
+Calibri Light&quot;,sans-serif"> </span><span style=3D"font-size:10pt;line-=
+height:105%;font-family:Sylfaen,serif">=E1=83=A1=E1=83=90=E1=83=A5=E1=83=90=
+=E1=83=A0=E1=83=97=E1=83=95=E1=83=94=E1=83=9A=E1=83=9D=E1=83=A1</span><span=
+ style=3D"font-size:10pt;line-height:105%;font-family:&quot;Calibri Light&q=
+uot;,sans-serif"> </span><span style=3D"font-size:10pt;line-height:105%;fon=
+t-family:Sylfaen,serif">=E1=83=A1=E1=83=AE=E1=83=95=E1=83=90</span><span st=
+yle=3D"font-size:10pt;line-height:105%;font-family:&quot;Calibri Light&quot=
+;,sans-serif"> </span><span style=3D"font-size:10pt;line-height:105%;font-f=
+amily:Sylfaen,serif">=E1=83=9C=E1=83=90=E1=83=AC=E1=83=98=E1=83=9A=E1=83=98=
+=E1=83=93=E1=83=90=E1=83=9C</span><span style=3D"font-size:10pt;line-height=
+:105%;font-family:&quot;Calibri Light&quot;,sans-serif">,</span></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:105%;margin:0in 0in 8pt;font-si=
+ze:11pt;font-family:Calibri,sans-serif"><span style=3D"font-size:10pt;line-=
+height:105%;font-family:Sylfaen,serif">=E1=83=9B=E1=83=90=E1=83=A6=E1=83=90=
+=E1=83=9A=E1=83=99=E1=83=95=E1=83=90=E1=83=9A=E1=83=98=E1=83=A4=E1=83=98=E1=
+=83=AA=E1=83=98=E1=83=A3=E1=83=A0=E1=83=98</span><span style=3D"font-size:1=
+0pt;line-height:105%;font-family:&quot;Calibri Light&quot;,sans-serif"> </s=
+pan><span style=3D"font-size:10pt;line-height:105%;font-family:Sylfaen,seri=
+f">=E1=83=9E=E1=83=94=E1=83=A0=E1=83=A1=E1=83=9D=E1=83=9C=E1=83=90=E1=83=9A=
+=E1=83=98</span><span style=3D"font-size:10pt;line-height:105%;font-family:=
+&quot;Calibri Light&quot;,sans-serif">, 24-</span><span style=3D"font-size:=
+10pt;line-height:105%;font-family:Sylfaen,serif">=E1=83=A1=E1=83=90=E1=83=
+=90=E1=83=97=E1=83=98=E1=83=90=E1=83=9C=E1=83=98</span><span style=3D"font-=
+size:10pt;line-height:105%;font-family:&quot;Calibri Light&quot;,sans-serif=
+"> </span><span style=3D"font-size:10pt;line-height:105%;font-family:Sylfae=
+n,serif">=E1=83=A1=E1=83=94=E1=83=A0=E1=83=95=E1=83=98=E1=83=A1=E1=83=98</s=
+pan><span style=3D"font-size:10pt;line-height:105%;font-family:&quot;Calibr=
+i Light&quot;,sans-serif"> </span><span style=3D"font-size:10pt;line-height=
+:105%;font-family:Sylfaen,serif">=E1=83=93=E1=83=90</span><span style=3D"fo=
+nt-size:10pt;line-height:105%;font-family:&quot;Calibri Light&quot;,sans-se=
+rif"> </span><span style=3D"font-size:10pt;line-height:105%;font-family:Syl=
+faen,serif">=E1=83=A3=E1=83=A1=E1=83=90=E1=83=A4=E1=83=A0=E1=83=97=E1=83=AE=
+=E1=83=9D=E1=83=94=E1=83=91=E1=83=90</span><span style=3D"font-size:10pt;li=
+ne-height:105%;font-family:&quot;Calibri Light&quot;,sans-serif"> </span><s=
+pan style=3D"font-size:10pt;line-height:105%;font-family:Sylfaen,serif">=E1=
+=83=A1=E1=83=A2=E1=83=A3=E1=83=9B=E1=83=A0=E1=83=94=E1=83=91=E1=83=98=E1=83=
+=A1</span><span style=3D"font-size:10pt;line-height:105%;font-family:&quot;=
+Calibri Light&quot;,sans-serif"> </span><span style=3D"font-size:10pt;line-=
+height:105%;font-family:Sylfaen,serif">=E1=83=9B=E1=83=90=E1=83=A5=E1=83=A1=
+=E1=83=98=E1=83=9B=E1=83=90=E1=83=9A=E1=83=A3=E1=83=A0</span><span style=3D=
+"font-size:10pt;line-height:105%;font-family:&quot;Calibri Light&quot;,sans=
+-serif"> </span><span style=3D"font-size:10pt;line-height:105%;font-family:=
+Sylfaen,serif">=E1=83=99=E1=83=9D=E1=83=9B=E1=83=A4=E1=83=9D=E1=83=A0=E1=83=
+=A2=E1=83=A1</span><span style=3D"font-size:10pt;line-height:105%;font-fami=
+ly:&quot;Calibri Light&quot;,sans-serif"> </span><span style=3D"font-size:1=
+0pt;line-height:105%;font-family:Sylfaen,serif">=E1=83=A3=E1=83=96=E1=83=A0=
+=E1=83=A3=E1=83=9C=E1=83=95=E1=83=94=E1=83=9A=E1=83=A7=E1=83=9D=E1=83=A4=E1=
+=83=A1</span><span style=3D"font-size:10pt;line-height:105%;font-family:&qu=
+ot;Calibri Light&quot;,sans-serif">.</span></p><p class=3D"MsoNormal" style=
+=3D"line-height:105%;margin:0in 0in 8pt;font-size:11pt;font-family:Calibri,=
+sans-serif"><br></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:106%;margin:0in 0in 8pt;font-si=
+ze:11pt;font-family:Calibri,sans-serif"><span lang=3D"GEO/KAT" style=3D"fon=
+t-size:10pt;line-height:106%;font-family:&quot;Calibri Light&quot;,sans-ser=
+if">=E1=83=A1=E1=83=90=E1=83=A3=E1=83=99=E1=83=94=E1=83=97=E1=83=94=E1=83=
+=A1=E1=83=9D =E1=83=A1=E1=83=A3=E1=83=A0=E1=83=95=E1=83=98=E1=83=9A=E1=83=
+=94=E1=83=91=E1=83=98=E1=83=97,=C2=A0</span></p><p class=3D"MsoNormal" styl=
+e=3D"line-height:106%;margin:0in 0in 8pt;font-size:11pt;font-family:Calibri=
+,sans-serif"><span style=3D"font-family:&quot;Calibri Light&quot;,sans-seri=
+f;font-size:10pt">=E1=83=9C=E1=83=98=E1=83=99=E1=83=9D=E1=83=9A =E1=83=A8=
+=E1=83=90=E1=83=93=E1=83=A3=E1=83=A0=E1=83=98=C2=A0</span></p><p class=3D"M=
+soNormal" style=3D"line-height:106%;margin:0in 0in 8pt;font-size:11pt;font-=
+family:Calibri,sans-serif"><span style=3D"font-family:&quot;Calibri Light&q=
+uot;,sans-serif;font-size:10pt"><br></span></p><p class=3D"MsoNormal" style=
+=3D"line-height:106%;margin:0in 0in 8pt;font-size:11pt;font-family:Calibri,=
+sans-serif"><span lang=3D"GEO/KAT" style=3D"font-size:10pt;line-height:106%=
+;font-family:&quot;Calibri Light&quot;,sans-serif"></span></p><p class=3D"M=
+soNormal" style=3D"margin:0in 0in 0.0001pt;font-size:11pt;font-family:Calib=
+ri,sans-serif"><span lang=3D"GEO/KAT" style=3D"font-family:Sylfaen,serif;co=
+lor:rgb(31,73,125)">Mobile : + 995 599
+27 35 34=C2=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 8pt;line-height:107%;font-si=
+ze:11pt;font-family:Calibri,sans-serif"><span lang=3D"GEO/KAT" style=3D"fon=
+t-size:10pt;line-height:107%;font-family:&quot;Calibri Light&quot;,sans-ser=
+if">=C2=A0</span></p></div>
+</div></div>
+</div></div>
+</div></div>
+
+--000000000000fefbfa0597c88f3a--

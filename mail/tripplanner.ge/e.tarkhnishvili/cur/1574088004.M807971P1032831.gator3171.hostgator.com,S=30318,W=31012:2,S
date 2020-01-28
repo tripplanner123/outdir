@@ -1,0 +1,694 @@
+Return-Path: <937-EID-756.0.13583.0.0.7698.9.39521077-1@info.digitalocean.com>
+Delivered-To: e.tarkhnishvili@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP
+	id OCoJMESt0l1/wg8A8w4q4w
+	(envelope-from <937-EID-756.0.13583.0.0.7698.9.39521077-1@info.digitalocean.com>)
+	for <e.tarkhnishvili@tripplanner.ge>; Mon, 18 Nov 2019 08:40:04 -0600
+Return-path: <937-EID-756.0.13583.0.0.7698.9.39521077-1@info.digitalocean.com>
+Envelope-to: e.tarkhnishvili@tripplanner.ge
+Delivery-date: Mon, 18 Nov 2019 08:40:04 -0600
+Received: from info.digitalocean.com ([192.28.144.201]:42133)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92)
+	(envelope-from <937-EID-756.0.13583.0.0.7698.9.39521077-1@info.digitalocean.com>)
+	id 1iWiCB-0003at-UG
+	for e.tarkhnishvili@tripplanner.ge; Mon, 18 Nov 2019 08:40:04 -0600
+X-MSFBL: HHwgHzRE29AMmLqzey9fJs5QmkZHPENKCnlWks3bOVY=|eyJ1IjoiOTM3LUVJRC0
+	3NTY6MDo2ODYzOjI5MjYwOjA6NzY5ODo5OjEzNTgzOjM5NTIxMDc3LTEiLCJyIjo
+	iZS50YXJraG5pc2h2aWxpQHRyaXBwbGFubmVyLmdlIiwiZyI6ImJnLWFiZC0zNDY
+	iLCJiIjoiZHZwLTE5Mi0yOC0xNDQtMjAxIn0=
+Received: from [10.1.87.249] ([10.1.87.249:39980] helo=abmktmail-trigger1c.marketo.org)
+	by abmta24.marketo.org (envelope-from <team@info.digitalocean.com>)
+	(ecelerity 4.2.38.62370 r(:)) with ESMTP
+	id AC/31-04692-73DA2DD5; Mon, 18 Nov 2019 08:39:51 -0600
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1574087991;
+	s=m1; d=info.digitalocean.com; i=@info.digitalocean.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=FUh8KGuyFJxX7yTXac4LPb5i/uj+rW00/9Bp9mzs8Mg=;
+	b=HVmVJO49F1vU8sujctBNlE9cHo0WzVbe13z46sE50Qt/ZmJqCZbq8i3+6GAPEVE/
+	x+ZrBGLPuOU1Nzox7ZyfYj/gDdIPhzTm9W22UzDuwJSXnFU4CGQbH4gnlIzF4fMyold
+	vYtisMNPhMbd4vHycPqpirnEryLtXsJXEYDgEUWA=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1574087991;
+	s=m1; d=mktdns.com; i=@mktdns.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=FUh8KGuyFJxX7yTXac4LPb5i/uj+rW00/9Bp9mzs8Mg=;
+	b=KTJA0lfTsstHO6eNf3cvIIGeIK1ZwP7XkgVegl6i7cMWqME+4qpxVaV6hkU9PzgO
+	3TUaARodfgPwocdhCVrkpyAI+hPuBLIDR5zsOWfMvFGr4H3XhBb1VdyvnqCfENlpRPG
+	/IXG/ocYXbTFWvaZqs0zxSYbr1lPPyVJYD259coU=
+Date: Mon, 18 Nov 2019 08:39:51 -0600 (CST)
+From: DigitalOcean <team@info.digitalocean.com>
+Reply-To: team@digitalocean.com
+To: e.tarkhnishvili@tripplanner.ge
+Message-ID: 937-EID-756:0:6863:29260:0:7698:9:13583:39521077-1@marketo.com
+Subject: Welcome To Your New Ubuntu Droplet!
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_48181166_768356204.1574087991368"
+X-Binding: bg-abd-346
+X-MarketoID: 937-EID-756:0:6863:29260:0:7698:9:13583:39521077-1
+X-Mailfrom: 937-EID-756.0.13583.0.0.7698.9.39521077-1@info.digitalocean.com
+List-Unsubscribe: <mailto:GJCDSSTEN5SGYSTXGNIE26CCHF3VAQSRJM4DAT2MNZDWIVJTMZKW4WBZGBEUUMDDGNUXOPI=.13583.7698.9@unsub-ab.mktomail.com>
+X-MktArchive: false
+X-MSYS-API: {"options":{"open_tracking":false,"click_tracking":false}}
+X-MktMailDKIM: true
+X-Spam-Status: No, score=-14.4
+X-Spam-Score: -143
+X-Spam-Bar: --------------
+X-Spam-Flag: NO
+
+------=_Part_48181166_768356204.1574087991368
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Best practices for setting up your new Ubuntu server
+Congratulations on spinning up your first Ubuntu Droplet! We want to help y=
+ou make the most of your Droplet and have come up with a list of recommende=
+d next steps to help you get set up quickly and easily.=20
+
+STEP ONE: THE MUST-HAVES
+
+
+
+=09- Review the Ubuntu 18.04 server checklist which covers:
+
+
+
+=09- Initial Ubuntu server setup <https://pages.news.digitalocean.com/s0uu2=
+6e0eIXF0E0PFJ30V0D> tutorial with step-by-step configuration instructions, =
+and
+=09- Connecting to your Droplet with SSH <https://pages.news.digitalocean.c=
+om/wIeDXFVE60000JeG20P3v0u>.
+
+
+=09- Use DigitalOcean=E2=80=99s DNS to set up your hostname <https://pages.=
+news.digitalocean.com/XV60JHI2X000DuFeP03eEw0> from the Control Panel.
+
+=09- Protect your servers by reviewing these 7 security measures <https://p=
+ages.news.digitalocean.com/x0E0000u3xe26XI0IVFJeDP>.
+
+=09- Filter unwanted traffic by using Cloud Firewalls <https://www.digitalo=
+cean.com/docs/networking/firewalls/?utm_source=3Dlocal&utm_medium=3DEmail_I=
+nternal&utm_campaign=3DEmail_UbuntuDistroNginxWelcome>.
+=09- Keep your=C2=A0server image safe=C2=A0using the=C2=A0backups feature <=
+https://pages.news.digitalocean.com/gy0eFX60P30eID0VE200JuJ>.
+
+
+
+
+STEP TWO: WEB SERVERS
+
+
+
+=09- Install the powerful Nginx web server <https://pages.news.digitalocean=
+.com/I0e2zEe06FJKXV3P0u0ID00> on Ubuntu*.
+
+=09- Use Nginx virtual hosts <https://www.digitalocean.com/community/tutori=
+als/how-to-install-nginx-on-ubuntu-18-04?utm_source=3Dlocal&utm_medium=3DEm=
+ail_Internal&utm_campaign=3DEmail_UbuntuDistroNginxWelcome#step-5-%E2%80%93=
+-setting-up-server-blocks-(recommended)> to serve multiple sites on one ser=
+ver.=C2=A0
+
+
+
+
+* Want to use Apache as your web server instead? Follow the Apache web serv=
+er <https://www.digitalocean.com/community/tutorials/how-to-install-the-apa=
+che-web-server-on-ubuntu-18-04?utm_source=3Dlocal&utm_medium=3DEmail_Intern=
+al&utm_campaign=3DEmail_UbuntuDistroNginxWelcome> and Apache virtual hosts =
+tutorials to get it set up on Ubuntu.
+
+EXTRA CREDIT: SECURE FILE TRANSFER
+
+
+
+=09- Securely transfer files to your server and between droplets using SFTP=
+ <https://pages.news.digitalocean.com/ZIXFJ0eLV0002P0eA306DEu>.
+
+
+
+
+Looking to do something more? Head over to our Community <https://pages.new=
+s.digitalocean.com/iMuE0XIeJB600V020eP3D0F> site at any time to access our =
+growing library of Ubuntu tutorials!=20
+
+Happy Coding,=20
+The=C2=A0DigitalOcean Team
+<http://do.co/email_twitter> <http://do.co/email_facebook> <https://www.ins=
+tagram.com/thedigitalocean/> <https://www.youtube.com/channel/UCaPX53JLxxSb=
+wZz_Ra_cL0g> <https://www.linkedin.com/company/digitalocean/>Refer=C2=A0a=
+=C2=A0Friend <https://cloud.digitalocean.com/settings/referrals/>
+Trouble seeing this email?=C2=A0View it as a web page. <https://go.digitalo=
+cean.com/index.php/email/emailWebview?mkt_tok=3DeyJpIjoiTURSall6ZGlPVGxsTUR=
+RMiIsInQiOiJLNlZWZ2lDQ1RnZVJSZno1aU9kbUtPTmlGZ1AydnpUaE9kSkZJQXBDK1JRRkVRVk=
+tWSXVwMmdrR2p5YlhpUmNDcHAyeTFzVW1rdEZKcVBDSFA0VFlHdkpjNmdkY1VENnI0TnF0TXZWd=
+Ul3aVNFUVhXRWtoV3lrN1FmR3BXTitpWSJ9&aliId=3Dj0hWcMDIKAIP5CcKi43gXM%2BU5Vy8A=
+fnX38QCaZqDrbpStz0EGoW1Sg%3D%3D>
+
+
+
+
+
+=C2=A0
+
+ =20
+
+=C2=A0
+
+ =20
+
+=C2=A0
+
+Copyright =C2=A9 2019 DigitalOcean
+Floor 10, 101 Avenue of the Americas, New York, NY, 10013
+All rights reserved.
+
+This email was sent to e.tarkhnishvili@tripplanner.ge. You can update your =
+email subscription preferences here: https://go.digitalocean.com/Unsubscrib=
+ePage.html?mkt_unsubscribe=3D1&mkt_tok=3DeyJpIjoiTURSall6ZGlPVGxsTURRMiIsIn=
+QiOiJLNlZWZ2lDQ1RnZVJSZno1aU9kbUtPTmlGZ1AydnpUaE9kSkZJQXBDK1JRRkVRVktWSXVwM=
+mdrR2p5YlhpUmNDcHAyeTFzVW1rdEZKcVBDSFA0VFlHdkpjNmdkY1VENnI0TnF0TXZWdUl3aVNF=
+UVhXRWtoV3lrN1FmR3BXTitpWSJ9.
+
+------=_Part_48181166_768356204.1574087991368
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+<html>
+<head>=20
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">=
+=20
+<meta name=3D"viewport" content=3D"width=3Ddevice-width">=20
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">=20
+<title>DigitalOcean</title>=20
+<style type=3D"text/css">
+        body {-webkit-text-size-adjust:none; -ms-text-size-adjust:none; bac=
+kground-color: #F7F7F7; -webkit-font-smoothing: antialiased; -moz-osx-font-=
+smoothing: grayscale; margin:0;padding:0;}
+        table td {border-collapse: collapse;}
+        table {border-collapse:collapse; mso-table-lspace:0pt; mso-table-rs=
+pace:0pt;}
+        p {margin:0; padding:0; margin-bottom:0;}
+        /*ul,
+        li {margin:0;padding:0;}*/
+        h1,h2,h3,h4,h5,h6 {margin:0;padding:0;}
+
+        body,
+        #body_style {background-color: #F7F7F7; width: 100%; min-width: 100=
+%!important;}
+       =20
+        a[x-apple-data-detectors] {
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+        }
+
+        .content a,
+        .content a:link,
+        .content a:visited,
+        .content a:active {color: #0080ff; text-decoration:none;}
+
+        @media only screen and (max-width: 600px) {
+            body {min-width: 100%!important;}
+            table[class~=3D"button"] {width:100% !important;}
+            p {padding-left:0; padding-right:0!important;}
+            table[class=3D"devicewidth"] {width: 100%!important; text-align=
+:center!important;}
+            table[class~=3D"tableCollapse"] {width: 100%!important;}
+            table[class~=3D"tableCollapse2"] {width: 95%!important;}
+            td[class~=3D"w22"] {width:21px!important;}
+            td[class~=3D"w31"] {width:31px!important;}
+            td[class~=3D"h26"] {height:21px!important;}
+            td[class~=3D"h22"] {height:22px!important;}
+            td[class~=3D"h20"] {height:20px!important;}
+            td[class~=3D"h24"] {height:30px!important;}
+            td[class~=3D"H29"] {height:29px!important;}
+            td[class~=3D"headline"] {font-size:30px!important; line-height:=
+ 35px!important;}
+            td[class~=3D"content"] {font-size:18px!important; line-height: =
+26.1px!important;}
+            td[class~=3D"contentBlueBox"] {font-size:28px!important; line-h=
+eight: 32px!important;}
+            td[class~=3D"footer"] {font-size:14px!important; line-height:16=
+px!important;}
+            td[class~=3D"footer2"] {font-size:14px!important; line-height:3=
+5px!important; padding-left:50px; padding-right:50px; }
+            a[class~=3D"mobButton"] {font-size:18px!important;}
+        }
+</style>=20
+<!--[if mso]>
+    <style>
+    * {
+      font-family: Calibri, Helvetica, sans-serif !important;
+    }
+    </style>
+    <![endif]-->=20
+<!--[if !mso]><!-->=20
+<style type=3D"text/css">
+
+                @font-face {
+                            font-family: 'Proxima Nova';
+                            src: url('https://assets.digitalocean.com/fonts=
+/proximanova-reg-webfont.eot');
+                            src: url('https://assets.digitalocean.com/fonts=
+/proximanova-reg-webfont.eot?#iefix') format('embedded-opentype'),
+                                 url('https://assets.digitalocean.com/fonts=
+/proximanova-reg-webfont.woff') format('woff'),
+                                 url('https://assets.digitalocean.com/fonts=
+/proximanova-reg-webfont.ttf') format('truetype'),
+                                 url('https://assets.digitalocean.com/fonts=
+/proximanova-reg-webfont.svg#ProximaNovaLight') format('svg');
+                            font-weight: normal;
+                            font-style: normal;
+
+                        }
+                @font-face {
+                            font-family: 'Proxima Nova';
+                            src: url('https://assets.digitalocean.com/fonts=
+/proximanova-light-webfont.eot');
+                            src: url('https://assets.digitalocean.com/fonts=
+/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
+                                 url('https://assets.digitalocean.com/fonts=
+/proximanova-light-webfont.woff') format('woff'),
+                                 url('https://assets.digitalocean.com/fonts=
+/proximanova-light-webfont.ttf') format('truetype'),
+                                 url('https://assets.digitalocean.com/fonts=
+/proximanova-light-webfont.svg#ProximaNovaLight') format('svg');
+                            font-weight: 100;
+                            font-style: normal;
+
+                        }
+</style>=20
+<!--<![endif]-->=20
+</head>=20
+<body bgcolor=3D"#F7F7F7" style=3D"">
+<div id=3D"body_style" style=3D"background-color:#F7F7F7; ">
+<table width=3D"100%" bgcolor=3D"#F7F7F7" cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0" style=3D"text-align:center; ">
+<tbody>
+<tr style=3D"">
+<td style=3D"">
+<table bgcolor=3D"#F7F7F7" cellpadding=3D"0" cellspacing=3D"0" border=3D"0"=
+ width=3D"600" class=3D"tableCollapse2" align=3D"center" style=3D"margin:0p=
+x auto; ">
+<!-- Start Pre Header -->=20
+<tbody>
+<tr style=3D"">
+<td bgcolor=3D"#F7F7F7" align=3D"center" style=3D"">
+<table width=3D"100%" align=3D"center" cellspacing=3D"0" cellpadding=3D"0" =
+border=3D"0" class=3D"devicewidth" style=3D"">
+<tbody>
+<tr style=3D"">
+<td width=3D"100%" align=3D"center" height=3D"1" style=3D"font-size:1px; li=
+ne-height:1px; ">
+<div class=3D"mktEditable" id=3D"Preview-Text" style=3D"display:none; font-=
+size:1px; color:#F7F7F7; line-height:1px; max-height:0px; max-width:0px; op=
+acity:0; overflow:hidden; ">
+&nbsp;
+</div></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+<!-- End Pre Header -->=20
+<!-- *************************** -->
+<!-- Start Spacer -->=20
+<tr>=20
+<td bgcolor=3D"#F7F7F7" align=3D"right" valign=3D"top">=20
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" alig=
+n=3D"right" class=3D"tableCollapse">=20
+<tbody>=20
+<tr>=20
+<td valign=3D"top" width=3D"100%">=20
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" clas=
+s=3D"devicewidth" align=3D"right">=20
+<tbody>
+<tr>=20
+<td class=3D"H29" height=3D"39" style=3D"font-size:1px; line-height:1px;">&=
+nbsp;</td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+<!-- End Spacer -->=20
+<!-- *************************** -->
+<!-- Start of Logo-->=20
+<tr style=3D"">
+<td align=3D"center" valign=3D"top" style=3D"">
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" alig=
+n=3D"center" class=3D"tableCollapse" style=3D"">
+<tbody style=3D"">
+<tr style=3D"">
+<td valign=3D"top" width=3D"100%" style=3D"">
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" clas=
+s=3D"devicewidth" align=3D"center" style=3D"">
+<tbody>
+<tr style=3D"">
+<td align=3D"center" class=3D"mktEditable" id=3D"Top-Banner" style=3D"">
+<div>=20
+<img width=3D"60" border=3D"0" alt=3D"DigitalOcean Logo" style=3D"display:b=
+lock; border:none; outline:none; text-decoration:none;" src=3D"https://go.d=
+igitalocean.com/rs/937-EID-756/images/logo2.png">=20
+</div></td>
+</tr>
+<tr>=20
+<td bgcolor=3D"#F7F7F7" height=3D"40" style=3D"font-size:1px; line-height:1=
+px;">&nbsp;</td>=20
+</tr>=20
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+<!-- End of Logo -->=20
+<!-- *************************** -->=20
+<!-- Start of Main Title -->=20
+<tr style=3D"">
+<td align=3D"center" style=3D"">
+<table width=3D"100%" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" =
+border=3D"0" class=3D"devicewidth" style=3D"">
+<tbody style=3D"">
+<tr style=3D"">
+<td class=3D"w31" width=3D"41" style=3D"font-size:1px; line-height:1px;">&n=
+bsp;</td>=20
+<td class=3D"mktEditable headline" id=3D"headline_text" style=3D"font-famil=
+y:'Proxima Nova', Calibri, Helvetica, sans-serif; font-size:36px; color:#44=
+4444; text-align:center; line-height:55px; font-weight:100; ">
+<div>
+ Best practices for setting up your new Ubuntu server=20
+</div></td>
+<td class=3D"w31" width=3D"41" style=3D"font-size:1px; line-height:1px;">&n=
+bsp;</td>=20
+</tr>
+<!-- Start Spacer -->=20
+<tr>=20
+<td class=3D"w31" width=3D"41" style=3D"font-size:1px; line-height:1px;">&n=
+bsp;</td>=20
+<td height=3D"50" style=3D"font-size:1px; line-height:1px;">&nbsp;</td>=20
+<td class=3D"w31" width=3D"41" style=3D"font-size:1px; line-height:1px;">&n=
+bsp;</td>=20
+</tr>=20
+<!-- End Spacer -->
+</tbody>
+</table></td>
+</tr>
+<!-- End of Main Title-->=20
+<!-- *************************** -->
+<!-- Start of Main Content -->=20
+<tr style=3D"">
+<td bgcolor=3D"#FFFFFF" align=3D"center" style=3D"">
+<table width=3D"100%" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" =
+border=3D"0" class=3D"devicewidth" style=3D"">
+<tbody style=3D"">
+<!-- Start Spacer -->=20
+<tr>=20
+<td class=3D"w22" width=3D"41" style=3D"font-size:1px; line-height:1px;">&n=
+bsp;</td>=20
+<td class=3D"h26" height=3D"36" style=3D"font-size:1px; line-height:1px;">&=
+nbsp;</td>=20
+<td class=3D"w22" width=3D"41" style=3D"font-size:1px; line-height:1px;">&n=
+bsp;</td>=20
+</tr>=20
+<!-- End Spacer -->
+<tr style=3D"">
+<td class=3D"w22" width=3D"41" style=3D"font-size:1px; line-height:1px;">&n=
+bsp;</td>=20
+<td class=3D"mktEditable content" id=3D"edit_text_1" style=3D"font-family:'=
+Proxima Nova', Calibri, Helvetica, sans-serif; font-size:16px; color:#50505=
+0; text-align:left; line-height:25.6px; font-weight:normal; text-transform:=
+none; "><p>Congratulations on spinning up your first Ubuntu Droplet! We wan=
+t to help you make the most of your Droplet and have come up with a list of=
+ recommended next steps to help you get set up quickly and easily. <br><br>=
+<strong>STEP ONE: THE MUST-HAVES</strong><br></p>=20
+<ul>=20
+<li><span style=3D"line-height: 25.6px;">Review the Ubuntu 18.04 server che=
+cklist which covers:</span><br></li>=20
+<ul>=20
+<li><span style=3D"line-height: 25.6px;"><a href=3D
+"https://pages.news.digitalocean.com/o03zX00XI00dJE0FeDIVP62" target=3D"_bl=
+ank"
+>Initial Ubuntu server setup</a> tutorial with step-by-step configuration i=
+nstructions, and</span></li>=20
+<li><span style=3D"line-height: 25.6px;"><a href=3D
+"https://pages.news.digitalocean.com/MX0D2P0eEIFdV00Y60JI0A3" target=3D"_bl=
+ank"
+>Connecting to your Droplet with SSH</a>.</span></li>=20
+</ul>=20
+<li><span style=3D"line-height: 25.6px;">Use DigitalOcean=E2=80=99s DNS to =
+<a href=3D
+"https://pages.news.digitalocean.com/f00IV060eB02dI3PEXDZJ0F" target=3D"_bl=
+ank"
+>set up your hostname</a> from the Control Panel.</span><br></li>=20
+<li><span style=3D"line-height: 25.6px;">Protect your servers by reviewing =
+these <a href=3D
+"https://pages.news.digitalocean.com/x0E0000I3Cd26XI00VFJeDP" target=3D"_bl=
+ank"
+>7 security measures</a>.</span><br></li>=20
+<li><span style=3D"line-height: 25.6px;">Filter unwanted traffic by <a href=
+=3D
+"https://pages.news.digitalocean.com/n/lIIP10006deJ0D3VF0X0D2E" target=3D"_=
+blank" class=3D"mktNoTok" id=3D""
+>using Cloud Firewalls</a>.</span></li>=20
+<li><span style=3D"line-height: 25.6px;">Keep your&nbsp;server image safe&n=
+bsp;using the&nbsp;<a href=3D
+"https://pages.news.digitalocean.com/p0F00E0d2D0P2EXIV60JeI3" target=3D"_bl=
+ank" id=3D""
+>backups feature</a>.</span><br></li>=20
+</ul> <p><strong>STEP TWO: WEB SERVERS</strong><br></p>=20
+<ul>=20
+<li><span style=3D"line-height: 25.6px;">Install the powerful <a href=3D
+"https://pages.news.digitalocean.com/Bd003E3DX000F2II0eF6JPV" target=3D"_bl=
+ank"
+>Nginx web server</a> on Ubuntu*.</span><br></li>=20
+<li><span style=3D"line-height: 25.6px;">Use <a href=3D
+"https://pages.news.digitalocean.com/n/qdDE0V2e640XFI03I0JG00P" target=3D"_=
+blank" class=3D"mktNoTok"
+>Nginx virtual hosts</a> to serve multiple sites on one server.&nbsp;</span=
+><br></li>=20
+</ul> <p><span style=3D"font-size: 12px;">* Want to use Apache as your web =
+server instead? Follow the <a href=3D
+"https://pages.news.digitalocean.com/n/kE2560X00IJ03IVPed0HF0D" target=3D"_=
+blank" class=3D"mktNoTok"
+>Apache web server</a> and Apache virtual hosts tutorials to get it set up =
+on Ubuntu.</span><br><br><strong>EXTRA CREDIT: SECURE FILE TRANSFER</strong=
+><br></p>=20
+<ul>=20
+<li><span style=3D"line-height: 25.6px;">Securely transfer files to your se=
+rver and between droplets <a href=3D
+"https://pages.news.digitalocean.com/f00IV060eI02dI3PEXD6J0F" target=3D"_bl=
+ank"
+>using SFTP</a>.</span><br></li>=20
+</ul> <p>Looking to do something more? Head over to our <a href=3D
+"https://pages.news.digitalocean.com/lIIP70006deJ0D3VF0X0J2E" target=3D"_bl=
+ank"
+>Community</a> site at any time to access our growing library of Ubuntu tut=
+orials! <br><br>Happy Coding, <br>The&nbsp;DigitalOcean Team</p></td>
+<td class=3D"w22" width=3D"41" style=3D"font-size:1px; line-height:1px;">&n=
+bsp;</td>=20
+</tr>
+<!-- Start Spacer -->=20
+<tr>=20
+<td class=3D"w22" width=3D"41" style=3D"font-size:1px; line-height:1px;">&n=
+bsp;</td>=20
+<td class=3D"h20" height=3D"41" style=3D"font-size:1px; line-height:1px;">&=
+nbsp;</td>=20
+<td class=3D"w22" width=3D"41" style=3D"font-size:1px; line-height:1px;">&n=
+bsp;</td>=20
+</tr>=20
+<!-- End Spacer -->
+</tbody>
+</table></td>
+</tr>
+<!-- End of Main Content -->=20
+<!-- *************************** -->
+<!-- Start of Footer -->=20
+<tr style=3D"">=20
+<td bgcolor=3D"#F7F7F7" align=3D"center" style=3D"">=20
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" alig=
+n=3D"center" class=3D"devicewidth" style=3D"">=20
+<tbody>
+<tr style=3D"">=20
+<td class=3D"mktEditable footer" id=3D"edit_text_3" align=3D"center" style=
+=3D""> <p><br></p> <p><a class=3D"mktNoTok" href=3D
+"https://pages.news.digitalocean.com/n/jP8I0d36E20Fe0JXDVK0I00" target=3D"_=
+blank" style=3D"cursor: default !important; font-family: 'Proxima Nova', Ca=
+libri, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-var=
+iant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter=
+-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-tr=
+ansform: none; white-space:=20
+normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; backg=
+round-color: #f7f7f7;"
+><img src=3D"https://go.digitalocean.com/rs/937-EID-756/images/tw_blue.png"=
+ alt=3D"" height=3D"40" width=3D"40" target=3D"_blank"></a><a class=3D"mktN=
+oTok" href=3D
+"https://pages.news.digitalocean.com/n/eX0eLD03020IEI0PFd96J0V" target=3D"_=
+blank" style=3D"cursor: default !important; font-family: 'Proxima Nova', Ca=
+libri, Helvetica, sans-serif;=20
+font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-v=
+ariant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; =
+text-align: center; text-indent: 0px; text-transform: none; white-space: no=
+rmal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; backgro=
+und-color: #f7f7f7;"
+><img src=3D"https://go.digitalocean.com/rs/937-EID-756/images/fb_blue.png"=
+ alt=3D"" height=3D"40" width=3D"40"></a><a class=3D"mktNoTok" href=3D
+"https://pages.news.digitalocean.com/n/O0I0JFPD0320XE6M0a0VdeI" target=3D"_=
+blank" style=3D"cursor: default !important; font-family: 'Proxima Nova', Ca=
+libri, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-var=
+iant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter=
+-spacing: normal; orphans: 2; text-align: center;=20
+text-indent: 0px; text-transform: none; white-space: normal; widows: 2; wor=
+d-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #f7f7f7;"
+><img src=3D"https://marketing.nyc3.cdn.digitaloceanspaces.com/Social-Butto=
+ns/inst_blue.png" height=3D"40" width=3D"40" constrain=3D"true" imageprevie=
+w=3D"false"></a><span style=3D"color: #808080; font-family: 'Proxima Nova',=
+ Calibri, Helvetica, sans-serif;=20
+font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-v=
+ariant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; =
+text-align: center; text-indent: 0px; text-transform: none; white-space: no=
+rmal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; backgro=
+und-color: #f7f7f7; text-decoration-style: initial; text-decoration-color: =
+initial; display:=20
+inline !important; float: none;"><span><a class=3D"mktNoTok" href=3D
+"https://pages.news.digitalocean.com/n/v2Fe0XIN0V6DEJbdI03P000" target=3D"_=
+blank" style=3D"font-family: 'Proxima Nova', Calibri, Helvetica, sans-serif=
+; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font=
+-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2=
+; text-align: center; text-indent: 0px;=20
+text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -w=
+ebkit-text-stroke-width: 0px; background-color: #f7f7f7;"
+><img src=3D"https://go.digitalocean.com/rs/937-EID-756/images/yt_blue.png"=
+ alt=3D"" height=3D"40" width=3D"40"></a></span></span><a class=3D"mktNoTok=
+" href=3D
+"https://pages.news.digitalocean.com/n/p0F00E0dcD0P2OXIV60JeI3" target=3D"_=
+blank" style=3D"cursor: default !important; font-family:=20
+'Proxima Nova', Calibri, Helvetica, sans-serif; font-size: 12px; font-style=
+: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-w=
+eight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-in=
+dent: 0px; text-transform: none; white-space: normal; widows: 2; word-spaci=
+ng: 0px; -webkit-text-stroke-width: 0px; background-color: #f7f7f7;"
+><img src=3D"https://marketing.nyc3.digitaloceanspaces.com/Social-Buttons/l=
+inkedin_blue.png" alt=3D"" height=3D"40" width=3D"40"></a><br style=3D"colo=
+r: #808080; font-family: 'Proxima Nova', Calibri, Helvetica, sans-serif; fo=
+nt-size: 12px; font-style: normal; font-variant-ligatures: normal; font-var=
+iant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; te=
+xt-align: center; text-indent: 0px;=20
+text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -w=
+ebkit-text-stroke-width: 0px; background-color: #f7f7f7; text-decoration-st=
+yle: initial; text-decoration-color: initial;"><span style=3D"font-family: =
+'Proxima Nova', Calibri, Helvetica, sans-serif; font-size: 12px; font-style=
+: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-w=
+eight: 400;=20
+letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; t=
+ext-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -we=
+bkit-text-stroke-width: 0px; background-color: #f7f7f7; text-decoration: un=
+derline; color: #606060;"><span style=3D"color: #606060; text-decoration: u=
+nderline;"><a class=3D"mktNoTok" href=3D
+"https://pages.news.digitalocean.com/n/MX0D2P0eEIFdV00d60JI0P3" style=3D"cu=
+rsor: default !important; color: #606060; text-decoration: underline;"
+>Refer&nbsp;a&nbsp;Friend</a><br></span></span><span style=3D"font-family: =
+'Proxima Nova', Calibri, Helvetica, sans-serif; font-size: 12px; font-style=
+: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-w=
+eight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-in=
+dent: 0px;=20
+text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -w=
+ebkit-text-stroke-width: 0px; background-color: #f7f7f7; color: #606060;"><=
+span style=3D"color: #606060;"><span style=3D"color: #606060; font-family: =
+'Proxima Nova', Calibri, Helvetica, sans-serif; font-size: 12px; font-style=
+: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-w=
+eight: 400; letter-spacing:=20
+normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: n=
+one; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke=
+-width: 0px; background-color: #f7f7f7; text-decoration-style: initial; tex=
+t-decoration-color: initial; display: inline !important; float: none;">Trou=
+ble seeing this email?&nbsp;</span></span></span><span style=3D"font-family=
+: 'Proxima Nova',=20
+Calibri, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-v=
+ariant-ligatures: normal; font-variant-caps: normal; font-weight: 400; lett=
+er-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-=
+transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit=
+-text-stroke-width: 0px; background-color: #f7f7f7; text-decoration: underl=
+ine; color:=20
+#606060;"><span style=3D"color: #606060; text-decoration: underline;"><a hr=
+ef=3D"https://go.digitalocean.com/index.php/email/emailWebview?mkt_tok=3Dey=
+JpIjoiTURSall6ZGlPVGxsTURRMiIsInQiOiJLNlZWZ2lDQ1RnZVJSZno1aU9kbUtPTmlGZ1Ayd=
+npUaE9kSkZJQXBDK1JRRkVRVktWSXVwMmdrR2p5YlhpUmNDcHAyeTFzVW1rdEZKcVBDSFA0VFlH=
+dkpjNmdkY1VENnI0TnF0TXZWdUl3aVNFUVhXRWtoV3lrN1FmR3BXTitpWSJ9&aliId=3Dj0hWcM=
+DIKAIP5CcKi43gXM%2BU5Vy8AfnX38QCaZqDrbpStz0EGoW1Sg%3D%3D" target=3D"_blank"=
+ class=3D"mktNoTok" style=3D"color: #606060; text-decoration: underline;">V=
+iew it as a web page.</a><br></span></span></p>=20
+<table width=3D"100%" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" =
+border=3D"0" class=3D"devicewidth">=20
+<!-- Start Spacer -->=20
+<tbody>=20
+<tr>=20
+<td class=3D"h24" height=3D"10" style=3D"font-size: 1px; line-height: 1px;"=
+>&nbsp;</td>=20
+</tr>=20
+<!-- End Spacer -->=20
+<!-- Start of Footer Links -->=20
+<!-- Start Spacer -->=20
+<tr>=20
+<td width=3D"41" style=3D"font-size: 1px; line-height: 1px;">&nbsp;</td>=20
+</tr>=20
+<!-- End Spacer -->=20
+<!-- End of Footer Links -->=20
+<!-- Start of Copyright/Address/All Right Reserved -->=20
+<tr>=20
+<td width=3D"25" style=3D"font-size: 1px; line-height: 1px;">&nbsp;</td>=20
+<td style=3D"font-family: 'Proxima Nova', Calibri, Helvetica, sans-serif; f=
+ont-size: 12px; color: #808080; font-weight: normal; text-align: center; li=
+ne-height: 150%;">=20
+<div>
+<em>Copyright =C2=A9 2019 DigitalOcean<br>Floor 10, 101 Avenue of the Ameri=
+cas, New York, NY, 10013<br>All rights reserved.</em>
+</div> </td>=20
+<td width=3D"25" style=3D"font-size: 1px; line-height: 1px;">&nbsp;</td>=20
+</tr>=20
+<!-- Start Spacer -->=20
+<tr>=20
+<td width=3D"41" style=3D"font-size: 1px; line-height: 1px;">&nbsp;</td>=20
+<td height=3D"20" style=3D"font-size: 1px; line-height: 1px;">&nbsp;</td>=
+=20
+<td width=3D"41" style=3D"font-size: 1px; line-height: 1px;">&nbsp;</td>=20
+</tr>=20
+<!-- End Spacer -->=20
+<!-- End of Copyright/Address/All Right Reserved -->=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+<!-- End of Footer -->
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table>
+</div>
+<a href=3D
+"https://pages.news.digitalocean.com/GdI0DI30eeFQE0V60200JXP"
+></a>
+<img src=3D"https://pages.news.digitalocean.com/trk?t=3D1&mid=3DOTM3LUVJRC0=
+3NTY6MDo2ODYzOjI5MjYwOjA6NzY5ODo5OjEzNTgzOjM5NTIxMDc3LTE6bnVsbA%3D%3D" widt=
+h=3D"1" height=3D"1" style=3D"display:none !important;" alt=3D"" />
+
+<p style=3D"text-align:center"><font face=3D"'Proxima Nova', 'Open Sans', '=
+Helvetica Neue', Calibri, Helvetica, sans-serif" size=3D"1">
+This email was sent to e.tarkhnishvili@tripplanner.ge. You can update your =
+<a href=3D
+"https://pages.news.digitalocean.com/u/v2Fe0XJ30V6DEJsdI03P000"
+>email subscription preferences</a> at any time.=20
+</font> </p>
+</body>
+</html>
+------=_Part_48181166_768356204.1574087991368--

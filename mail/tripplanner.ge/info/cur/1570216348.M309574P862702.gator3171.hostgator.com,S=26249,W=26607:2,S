@@ -1,0 +1,358 @@
+Return-Path: <msprvs1=18180D3XtslzT=bounces-124544-19@bounce.expsupt.tripadvisor.com>
+Delivered-To: info@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP
+	id oGVWEpyZl13uKQ0A8w4q4w
+	(envelope-from <msprvs1=18180D3XtslzT=bounces-124544-19@bounce.expsupt.tripadvisor.com>)
+	for <info@tripplanner.ge>; Fri, 04 Oct 2019 14:12:28 -0500
+Return-path: <msprvs1=18180D3XtslzT=bounces-124544-19@bounce.expsupt.tripadvisor.com>
+Envelope-to: info@tripplanner.ge
+Delivery-date: Fri, 04 Oct 2019 14:12:28 -0500
+Received: from mta-212-240.sparkpostmail.com ([147.253.212.240]:26287)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.92)
+	(envelope-from <msprvs1=18180D3XtslzT=bounces-124544-19@bounce.expsupt.tripadvisor.com>)
+	id 1iGT07-003gG9-SA
+	for info@tripplanner.ge; Fri, 04 Oct 2019 14:12:28 -0500
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=expsupt.tripadvisor.com; s=scph0119; t=1570216336;
+	i=@expsupt.tripadvisor.com;
+	bh=GxeCIEz36y7TL9o4EhcktV1Bk9bFpRMtSRjado7j4yQ=;
+	h=Content-Type:To:Message-ID:Date:Subject:From;
+	b=ayYVvDfkSMwOAT/kAi0GRJlS6Ka5O391sKw6aoypPixmu4XA8hthBqIozPTw3hilQ
+	 QbsKhk4Yln0A1CPJRQliPajfD58L62wC/Fbaj9P7N7tzaVr64zeLnGoMKdYvyK548q
+	 0j+4CMvj9JY7+y5pbKIVbe8iuEuApG5t1crJDqxc=
+X-MSFBL: v9jL9HJd92JkMl1UgtiRwptcMung/KcIgVFyrOXIMBE=|eyJyIjoiaW5mb0B0cml
+	wcGxhbm5lci5nZSIsImN1c3RvbWVyX2lkIjoiMTI0NTQ0IiwibWVzc2FnZV9pZCI
+	6IjAwMWM5MDk5OTc1ZDk1NDY4MTY3Iiwic3ViYWNjb3VudF9pZCI6IjE5IiwidGV
+	uYW50X2lkIjoic3BjIn0=
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+To: info@tripplanner.ge
+Message-ID: <18.76.18069.099979D5@ab.mta1vrest.cc.prd.sparkpost>
+Date: Fri, 04 Oct 2019 19:12:16 +0000
+MIME-Version: 1.0
+Reply-To: "TripAdvisor Experiences" <no-reply@tripadvisor.com>
+Subject: =?utf-8?B?V2XigJl2ZSBleHRlbmRlZCB5b3VyIGF2YWlsYWJpbGl0eQ==?=
+From: "TripAdvisor Experiences" <account@expsupt.tripadvisor.com>
+X-Spam-Status: No, score=-16.5
+X-Spam-Score: -164
+X-Spam-Bar: ----------------
+X-Spam-Flag: NO
+
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A<!DOCTYPE=
+ html>=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schema=
+s-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">=
+=0A<head>=0A <meta http-equiv=3D"Content-Type" content=3D"text/html; charse=
+t=3DUTF-8" />=0A <title>SU</title>=0A=0A=0A <!--various mobile fix meta tag=
+s-->=0A <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-sc=
+ale=3D1.0"/>=0A <meta name=3D"apple-mobile-web-app-capable" content=3D"yes"=
+>=0A <meta content=3D"yes" name=3D"apple-touch-fullscreen" />=0A <meta name=
+=3D"apple-mobile-web-app-status-bar-style" content=3D"black" />=0A <meta na=
+me=3D"format-detection" content=3D"telephone=3Dno">=0A <meta http-equiv=3D"=
+X-UA-Compatible" content=3D"IE=3Dedge"/>=0A=0A <!-- Outlook 120dpi fix -->=
+=0A <!--[if gte mso 9]><xml>=0A <o:OfficeDocumentSettings>=0A <o:AllowPNG/>=
+=0A <o:PixelsPerInch>96</o:PixelsPerInch>=0A </o:OfficeDocumentSettings>=0A=
+ </xml><![endif]-->=0A=0A <style type=3D"text/css">=0A=0A /*these are fixes=
+ from htmlemailboilerplate.com */=0A=0A /* Outlook link fix */=0A #outlook =
+a {padding:0;}=0A /* Hotmail background & line height fixes */=0A .External=
+Class {width:100% !important;}=0A .ExternalClass, .ExternalClass p, .Extern=
+alClass span, .ExternalClass font,=0A .ExternalClass td, .ExternalClass div=
+ {line-height: 100%;}=0A /* Image borders & formatting */=0A img {outline:n=
+one; text-decoration:none; -ms-interpolation-mode: bicubic;}=0A a img {bord=
+er:none;}=0A /* Re-style iPhone automatic links (eg. phone numbers) */=0A .=
+applelinks a {color:#006699; text-decoration: none;}=0A /* Hotmail symbol f=
+ix for mobile devices */=0A .ExternalClass img[class^=3DEmoji] { width: 10p=
+x !important; height: 10px !important; display: inline !important; }=0A a {=
+=0A color:#006699;=0A }=0A /* Outlook 2013 spacing fix */=0A table td {bord=
+er-collapse:collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;}=0A </s=
+tyle>=0A=0A <!--[if !mso]><!-->=0A <style type=3D"text/css">=0A /*RESPONSIV=
+E CODE*/=0A=0A @media screen and (max-device-width: 640px), screen and (max=
+-width: 640px) {=0A=0A /*wrap to 100% width*/=0A *[class=3D"emailwrapto100p=
+c"]{=0A width:100% !important;=0A height:auto !important;=0A min-width:inhe=
+rit !important;=0A }=0A /*hide on mobile*/=0A *[class=3D"emailnomob"]{=0A d=
+isplay:none !important;=0A }=0A=0A /*split columns*/=0A *[class=3Demailcols=
+plit]{=0A float:left!important;=0A width:100% !important;=0A display:inline=
+ !important;=0A }=0A=0A /*this turns off line breaks on the mobile version =
+(tho better to try avoid putting them in to begin with)*/=0A *[class=3Demai=
+lhidebreaks] br{=0A display:none !important;=0A }=0A=0A /* this makes the p=
+adding on the sides go to 10px without altering the vertical padding */=0A =
+*[class=3D"10pxsidepadding"] {=0A padding-right:10px !important;=0A padding=
+-left:10px !important;=0A }=0A=0A /* used for mobile only content */=0A div=
+[class=3D"mobile-only"] {=0A display: block !important;=0A max-height: none=
+ !important;=0A max-width: none !important;=0A }=0A *[class=3D"emailmobshow=
+"] {=0A display: inline-block !important;=0A margin: auto !important;=0A ma=
+x-height: inherit !important;=0A overflow : visible !important;=0A mso-hide=
+: all !important; /* hide elements in Outlook 2007-2013 */=0A height: auto =
+!important;=0A }=0A }=0A </style>=0A <!--<![endif]-->=0A=0A</head>=0A<body =
+style=3D"min-width:100%;padding:0; margin:0;-webkit-text-size-adjust:none;-=
+ms-text-size-adjust:100%; background-color:#ffffff;" bgcolor=3D"#ffffff">=
+=0A=0A=0A=0A=0A=0A=0A=0A<table width=3D"100%" border=3D"0" cellspacing=3D"0=
+" cellpadding=3D"0" style=3D"background-color: #f5f5f5;">=0A <tr>=0A <td he=
+ight=3D"0" style=3D"line-height: 0px; height: 0px; color: #f5f5f5; font-fam=
+ily: Arial, Helvetica, sans-serif; font-size:0px;mso-table-lspace:0pt;mso-t=
+able-rspace:0pt;mso-line-height-rule:exactly;border-collapse:separate;">=0A=
+ Now your products will be bookable for even more travelers!=0A </td>=0A </=
+tr>=0A=0A <tr>=0A <td height=3D"16" style=3D"line-height: 16px; height: 16p=
+x; font-size:0px;mso-table-lspace:0pt;mso-table-rspace:0pt;mso-line-height-=
+rule:exactly;border-collapse:separate;">=0A &nbsp;=0A </td>=0A </tr>=0A=0A =
+<tr>=0A <td align=3D"center">=0A <table width=3D"550" border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0" style=3D"background-color: #ffffff; width: 550p=
+x;">=0A <tr>=0A <td align=3D"center" style=3D"padding: 22px 0 15px;">=0A <t=
+able border=3D"0" cellspacing=3D"0" cellpadding=3D"0">=0A <tr>=0A <td align=
+=3D"center" style=3D"padding: 0 10px;">=0A <a href=3D"https://www.tripadvis=
+or.com/MptUrl=3Fp=3DAELCHaA6GNF7cBiuZkztCxNtiUm4oMzRV0d6sq1pbgun8nGrCQYGliW=
+eisaup%2F9Uk3IyNAm06bQb%2BB%2FMT59u%2FOsvev8XD%2B9%2BDoTj%2FY7y4CJ7lszg7AZh=
+4h6VE9lqjlzAW27iCXWMm0%2Bj4HDuuUiDzbbr1KezvqYXn2bGoB%2BzQsP%2FrnHD%2ByTA18y=
+S2K8e4hm77zq9ZjAEAX%2Bu9z0%2F4jDidRSwJ%2FL6ji3frv8Cpvf91NTsY5w90YY4%2Bqbu7S=
+7TlXRT9OTCi5wxZGQJqmb0MFXsWlWU7fxTxQ2MHvctoiFLQzaDPZIBZuen3tLwfWXOajt8zhRms=
+StD6W5%2Fz2gJBB4W0nOH3TiULRJ%2FWyMrm7w3Xf2p" target=3D"_blank" alias=3D"Hom=
+eLink" style=3D"text-decoration:none;">=0A <img src=3D"https://cdn.tripadvi=
+sor.com/img2/email/bu_nl/su-logo_us_v2.png" height=3D"35" style=3D"height: =
+35px; border: 0; display:block; font-family: Arial, Helvetica, sans-serif;f=
+ont-size: 32px; line-height: 35px;color:#00a680;font-weight: bold;" alt=3D"=
+TripAdvisor Experiences" />=0A </a>=0A </td>=0A=0A </tr>=0A </table>=0A </t=
+d>=0A </tr>=0A=0A <tr>=0A <td height=3D"10" style=3D"background-color: #00a=
+680; height: 10px; line-height: 10px; font-size:0px;mso-table-lspace:0pt;ms=
+o-table-rspace:0pt;mso-line-height-rule:exactly;border-collapse:separate;">=
+=0A &nbsp;=0A </td>=0A </tr>=0A=0A <tr>=0A <td height=3D"24" style=3D"heigh=
+t: 24px; line-height: 24px; font-size:0px;mso-table-lspace:0pt;mso-table-rs=
+pace:0pt;mso-line-height-rule:exactly;border-collapse:separate;">=0A &nbsp;=
+=0A </td>=0A </tr>=0A=0A </table>=0A </td>=0A </tr>=0A</table>=0A=0A<!-- bo=
+dy -->=0A<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"1=
+00%" bgcolor=3D"#f5f5f5">=0A <tr>=0A <td align=3D"center" valign=3D"top" st=
+yle=3D"font-family: Arial, Helvetica, sans-serif; font-size: 18px; padding-=
+top: 0px; padding-bottom: 0px;">=0A <table width=3D"550" border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0" style=3D"border-collapse: separate; width: 5=
+50px;" bgcolor=3D"#ffffff">=0A <tr>=0A <td style=3D"padding: 0 16px;">=0A <=
+table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%">=0A <=
+!-- body section 1 -->=0A=0A=0A=0A <tr>=0A <td align=3D"left" style=3D"padd=
+ing:0 0 24px;">=0A=0A <table border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" width=3D"100%">=0A=0A <tr>=0A <td align=3D"left" style=3D"=0A font-famil=
+y: Arial, Helvetica, sans-serif;font-size: 18px; line-height: 24px;color:#4=
+a4a4a;mso-line-height-rule:exactly;">=0A Hello Ekaterine,<br><br>We noticed=
+ some of your products were going to expire soon. To make sure you don=E2=
+=80=99t miss out on any bookings, we=E2=80=99ve taken your pricing and avai=
+lability from the last 12 months and applied it to the next 12 months. Now =
+any traveler who is planning a trip in the next year will be able to book t=
+he following products:=0A </td>=0A </tr>=0A=0A </table>=0A=0A </td>=0A </tr=
+>=0A=0A=0A=0A <!-- variable table section -->=0A <tr>=0A <td align=3D"left"=
+ style=3D"padding:0 0 24px;">=0A <table border=3D"0" cellspacing=3D"0" cell=
+padding=3D"0" width=3D"518" style=3D"width:518px;">=0A <tr>=0A <td align=3D=
+"left" style=3D"font-family:Arial,Helvetica;color:#4a4a4a;font-size:18px;li=
+ne-height:24px;font-weight:bold;">=0A Product Name=0A </td>=0A <td width=3D=
+"8" style=3D"width:8px;" />=0A <td align=3D"left" style=3D"font-family:Aria=
+l,Helvetica;color:#4a4a4a;font-size:18px;line-height:24px;font-weight:bold;=
+">=0A Product Code=0A </td>=0A <td width=3D"8" style=3D"width:8px;" />=0A <=
+td width=3D"125" align=3D"left" style=3D"font-family:Arial,Helvetica;color:=
+#4a4a4a;font-size:18px;line-height:24px;font-weight:bold;width:125px;"/>=0A=
+ &nbsp;=0A </td>=0A </tr>=0A=0A=0A=0A=0A <tr>=0A <td valign=3D"top" align=
+=3D"left" style=3D"font-family:Arial,Helvetica;color:#4a4a4a;font-size:18px=
+;line-height:24px;">=0A All inclusive tour to Gori-Uplistsikhe-Ateni with w=
+ine degustation=0A </td>=0A <td width=3D"8" style=3D"width:8px;" />=0A <td =
+width=3D"125" valign=3D"top" align=3D"left" style=3D"font-family:Arial,Helv=
+etica;color:#4a4a4a;font-size:18px;line-height:24px;width:125px;">=0A 13072=
+9P10=0A </td>=0A <td width=3D"8" style=3D"width:8px;" />=0A <td width=3D"12=
+5" valign=3D"top" align=3D"right" style=3D"font-family:Arial,Helvetica;colo=
+r:#4a4a4a;font-size:18px;line-height:24px;width:125px;">=0A <a href=3D"http=
+s://www.tripadvisor.com/MptUrl=3Fp=3DAHzgcqJ%2Fnsb3Tu%2F%2BLr5hHxi6QzV86k2a=
+UFYCyVTGLfeS1UI79dDKdMP7kloYdOviiJw0cObwpSSCENPyOEQkPogOz4WqmO%2Fc8DCVW%2Bj=
+B0aKciUrGbPkigNmaarRxHegSG7mbSWarsqi0M%2FhgKCKglJEGxtmXIpm5%2Fo%2FU9dq%2Fvi=
+Kq%2BIJo2IY84pd9VObqDHQCYEtayjl62nrshs%2FWNNk%2F1m2Bbq7hX%2F%2Fb0SvFebO1JIS=
+dnNFkFYbf8iyRyE2vCXuvGVRIFf8Lu6R4sUAZ1b1wKSF2N4vfjs9J0TzsaPjWQZE2Vk4xltIP25=
+4tHh0r4KAtBHb83YvHRdywVF4GyFNHLqqitj8ose8UDdFkgUFOJ35QB43F0IfU7%2BOjEqyaxbV=
+lDVvunpfCwA%2FhQRpJJjIG8s0%3D" target=3D"_blank" alias=3D"ViewProductLink" =
+style=3D"text-decoration:none;color:#006699;">View Product</a>=0A </td>=0A =
+</tr>=0A=0A=0A </table>=0A=0A </td>=0A </tr>=0A=0A <!-- bullet section 1 --=
+>=0A=0A=0A=0A <tr>=0A <td align=3D"left" style=3D"padding:0 0 16px;">=0A=0A=
+ <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%">=0A=
+=0A <tr>=0A <td align=3D"left" style=3D"=0A font-family: Arial, Helvetica, =
+sans-serif;font-size: 18px; line-height: 24px;color:#4a4a4a;mso-line-height=
+-rule:exactly;">=0A Please make sure everything looks right for each produc=
+t, including:=0A </td>=0A </tr>=0A=0A </table>=0A=0A </td>=0A </tr>=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A <tr>=0A <td style=3D"padding:0 0 16px;" >=0A=0A <tabl=
+e width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"=
+border-collapse:separate;">=0A=0A <tr>=0A <td valign=3D"top" style=3D"paddi=
+ng:0 0 8px;" >=0A <table width=3D"100%" border=3D"0" cellspacing=3D"0" cell=
+padding=3D"0" style=3D"border-collapse:separate;">=0A <tr>=0A <td width=3D"=
+5" valign=3D"top" style=3D"padding:0 10px;width:5px;font-family: Arial, Hel=
+vetica, sans-serif; font-size: 18px; line-height: 24px; color:#00a680;text-=
+align:left;" >=0A &bull;=0A </td>=0A <td valign=3D"top" style=3D"font-famil=
+y: Arial, Helvetica, sans-serif;font-size: 18px; line-height: 24px;color:#4=
+a4a4a;mso-line-height-rule:exactly; text-align:left;">=0A Availability=0A <=
+/td>=0A </tr>=0A </table>=0A </td>=0A </tr>=0A=0A <tr>=0A <td valign=3D"top=
+" style=3D"padding:0 0 8px;" >=0A <table width=3D"100%" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0" style=3D"border-collapse:separate;">=0A <tr>=
+=0A <td width=3D"5" valign=3D"top" style=3D"padding:0 10px;width:5px;font-f=
+amily: Arial, Helvetica, sans-serif; font-size: 18px; line-height: 24px; co=
+lor:#00a680;text-align:left;" >=0A &bull;=0A </td>=0A <td valign=3D"top" st=
+yle=3D"font-family: Arial, Helvetica, sans-serif;font-size: 18px; line-heig=
+ht: 24px;color:#4a4a4a;mso-line-height-rule:exactly; text-align:left;">=0A =
+Pricing=0A </td>=0A </tr>=0A </table>=0A </td>=0A </tr>=0A=0A <tr>=0A <td v=
+align=3D"top" style=3D"padding:0 0 8px;" >=0A <table width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-collapse:separat=
+e;">=0A <tr>=0A <td width=3D"5" valign=3D"top" style=3D"padding:0 10px;widt=
+h:5px;font-family: Arial, Helvetica, sans-serif; font-size: 18px; line-heig=
+ht: 24px; color:#00a680;text-align:left;" >=0A &bull;=0A </td>=0A <td valig=
+n=3D"top" style=3D"font-family: Arial, Helvetica, sans-serif;font-size: 18p=
+x; line-height: 24px;color:#4a4a4a;mso-line-height-rule:exactly; text-align=
+:left;">=0A Itinerary=0A </td>=0A </tr>=0A </table>=0A </td>=0A </tr>=0A=0A=
+ <tr>=0A <td valign=3D"top" style=3D"padding:0 0 8px;" >=0A <table width=3D=
+"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:separate;">=0A <tr>=0A <td width=3D"5" valign=3D"top" style=3D"paddin=
+g:0 10px;width:5px;font-family: Arial, Helvetica, sans-serif; font-size: 18=
+px; line-height: 24px; color:#00a680;text-align:left;" >=0A &bull;=0A </td>=
+=0A <td valign=3D"top" style=3D"font-family: Arial, Helvetica, sans-serif;f=
+ont-size: 18px; line-height: 24px;color:#4a4a4a;mso-line-height-rule:exactl=
+y; text-align:left;">=0A Inclusions=0A </td>=0A </tr>=0A </table>=0A </td>=
+=0A </tr>=0A=0A </table>=0A </td>=0A </tr>=0A=0A=0A=0A=0A=0A=0A=0A=0A <tr>=
+=0A <td align=3D"left" style=3D"padding:0 0 24px;">=0A=0A <table border=3D"=
+0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%">=0A=0A <tr>=0A <td al=
+ign=3D"left" style=3D"=0A font-family: Arial, Helvetica, sans-serif;font-si=
+ze: 18px; line-height: 24px;color:#4a4a4a;mso-line-height-rule:exactly;">=
+=0A If no updates are needed, you don=E2=80=99t need to take any further ac=
+tion=E2=80=94but if you want to make changes, please submit them via the <a=
+ href=3D"https://www.tripadvisor.com/MptUrl=3Fp=3DAEOtScHB4419RilCSqRGD7ULJ=
+Ascr7RjSWBhO2fz9M%2BOBOTCCE%2B57FlnxnNrEfxoQBhWIa8cjlbV3pMc1Lq0wTwyQpxycZyQ=
+Sbs8aSgs%2FQOgGVWP2tLbQA4OK2Clk%2FlTqs%2FchXr%2BNjKoES%2B5xnM3k4rPJAkubUX4Z=
+S3SaymncWaoy7XKB%2Bv%2F0N%2BEHgkppDm2YGDkeyab%2FdAr8fSY0t3Vk%2BjtihQ9MDaKCn=
+qsE5xC7MAg%2BuvZUlkC0No901JX5BAHzfeh592m7ZBBpjVVMo5H5xS0iMQUYPlKnjOZ6BKGFuv=
+Njpk%2FKvgGknS%2BODnPUfrElqumzoBlnvt1vlvY2GSU93LjTVaoKnFvKlyMoi3610Lp" targ=
+et=3D"_blank" alias=3D"ManagementCenter" style=3D"text-decoration:none;colo=
+r:#006699;">Management Center</a> at your earliest convenience. It=E2=80=99=
+s important to keep your product listings up-to-date, because you=E2=80=99r=
+e expected to honor all bookings according to the information travelers see=
+ when they book.<br><br>If you have any questions, feel free to visit our <=
+a href=3D"https://www.tripadvisor.com/MptUrl=3Fp=3DAMrAENihq2r6sNAU1hr6oBz0=
+KG5cmHVpyS707Uhvvc7kATE9lW81CdfNGosmQApcuk9TFSappjWfv%2F65C13x91b9bdz4qG0%2=
+BK2%2BnApwuh%2FpfUdFY2FRJdn6MYX1BZw3KgMkO98f9bLQRw3Nv%2F%2FXDtl1LMh1JIAdPo8=
+OPTFNccVrRc5ln9ehk4OTqZ5J1NaOlTSGXunzshaNdGS2oLpm1kOTVI%2FoU68DRtGKqoJkD6g8=
+69T9d79avpnq4xsigK1FZVq0R3xCIS4%2BcOAEQzi8hal0vv54z3lzu70A8GreocFuYt6gt64fp=
+FYOCFR5uzIwRNgI%2BPt0WKcGoy03LCqWjZlHAgaLp5nCN6mG1zeH%2Fl83a" target=3D"_bl=
+ank" alias=3D"VTSupplierHelpCenter" style=3D"text-decoration:none;color:#00=
+6699;">Supplier Help Center</a>.=0A </td>=0A </tr>=0A=0A </table>=0A=0A </t=
+d>=0A </tr>=0A=0A=0A=0A <!-- signoffs -->=0A=0A=0A=0A <tr>=0A <td align=3D"=
+left" style=3D"padding:0 0 24px;">=0A=0A <table border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" width=3D"100%">=0A=0A <tr>=0A <td align=3D"left" styl=
+e=3D"=0A font-family: Arial, Helvetica, sans-serif;font-size: 18px; line-he=
+ight: 24px;color:#4a4a4a;mso-line-height-rule:exactly;">=0A Best Regards,<b=
+r>The TripAdvisor Experiences Team=0A </td>=0A </tr>=0A=0A </table>=0A=0A <=
+/td>=0A </tr>=0A=0A=0A </table>=0A </td>=0A </tr>=0A </table>=0A </td>=0A <=
+/tr>=0A</table>=0A=0A=0A<table width=3D"100%" border=3D"0" cellspacing=3D"0=
+" cellpadding=3D"0" style=3D"background-color: #f5f5f5;">=0A <tr>=0A <td al=
+ign=3D"center">=0A <table width=3D"550" border=3D"0" cellspacing=3D"0" cell=
+padding=3D"0" style=3D"width: 550px;">=0A=0A <tr>=0A <td height=3D"10" styl=
+e=3D"line-height:10px;font-size:0px;background-color: #00a680; height:10px;=
+mso-table-lspace:0pt;mso-table-rspace:0pt;mso-line-height-rule:exactly;">=
+=0A &nbsp;=0A </td>=0A </tr>=0A <tr>=0A <td style=3D"padding:24px 16px 0;">=
+=0A <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:separate;">=0A=0A <tr>=0A <td valign=3D"top" align=
+=3D"center" style=3D"padding:0 0 16px;">=0A <table align=3D"center" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-collapse:separat=
+e;">=0A <tr>=0A=0A <td align=3D"center" style=3D"font-family: Arial, Helvet=
+ica, sans-serif;font-size: 13px; line-height: 15px;color:#006699; text-deco=
+ration:none;mso-line-height-rule:exactly;">=0A <a href=3D"https://www.tripa=
+dvisor.com/MptUrl=3Fp=3DAFb7fLULrp0qdu%2BVXtYYPyYmdwmauvheKfrOGGQphfBBoH2nD=
+0nr6Accxfbhzj74dF5B5ud7sE8mWprSFSt3PYlnNzdBDia5aQgUNbfMRZUNy5x%2BAfB%2B2abr=
+uhnw8oppiagPNd5fjWyqeaem6fCa7KuSFF0lvvefaeFop4h4mz8PscLb0gx5VUpR1Vklw0raA7e=
+tsYWiyJ%2FcJC031cwe0hP6dE%2FDEmItxZKrhdVafKuP5avG05TPtJSSofv9t6vuxXXhaFBR5l=
+0ye4kWxThoaW9ADPDNb3D6bEt%2F2VSAD1T3Pz9bDclXTeApq8w%2Fu8r85mmUTzB9Bx58uFjIC=
+%2FTmDlZxzWUgV62bSuyaY9vrCClD" target=3D"_blank" alias=3D"HomeLink" style=
+=3D"color:#006699; text-decoration:none;">=0A Management Center=0A </a>=0A =
+</td>=0A <td width=3D"8" style=3D"width:8px;"/>=0A <td align=3D"center" sty=
+le=3D"font-family: Arial, Helvetica, sans-serif;font-size: 13px; line-heigh=
+t: 15px;color:#666666;mso-line-height-rule:exactly;">=0A |=0A </td>=0A=0A <=
+td width=3D"8" style=3D"width:8px;"/>=0A <td align=3D"center" style=3D"font=
+-family: Arial, Helvetica, sans-serif;font-size: 13px; line-height: 15px;co=
+lor:#006699; text-decoration:none;mso-line-height-rule:exactly;">=0A <a hre=
+f=3D"https://www.tripadvisor.com/MptUrl=3Fp=3DAPc23gqY%2B%2B4DanXOgHvPkLvU2=
+hiwwuTRSnaLep4GoZAgnjSMYsyKc%2FUxpCHUvqKgMjSH8gkgoMtkIiYvUcNYhuyvElyeF25u8%=
+2FfXt%2B6HZdFAOkW1lX4%2BueraKZNzzObjlzOy%2FNxfE0u4emYvF5QPRHiI1OpSO70CD3jZ9=
+ltDaLB8ZKGcBoFolYpi%2BLcnX8N5pXAkU9kpTS5O7yHewKHhQotbKGk8h4z11z%2BPjWcFkgoI=
+G%2F%2Fo5trwXti03GAB3R%2BK2Oo56oMpdssEiWDpLMpj29iDXSCRIX21QEFdn2JfdfLOcvj0x=
+Hc4HHAyKy0afHeEoMWMDuRGoCJdZXJ29RdFVvG4hvMot57vVzxQ1dKoEjdsmNk1%2Fdgjr4DIMy=
+sHYbtvKQ%3D%3D" target=3D"_blank" alias=3D"PrivacyLink" style=3D"color:#006=
+699; text-decoration:none;">=0A Privacy Policy=0A </a>=0A </td>=0A=0A <td w=
+idth=3D"8" style=3D"width:8px;"/>=0A <td align=3D"center" style=3D"font-fam=
+ily: Arial, Helvetica, sans-serif;font-size: 13px; line-height: 15px;color:=
+#666666;mso-line-height-rule:exactly;">=0A |=0A </td>=0A <td width=3D"8" st=
+yle=3D"width:8px;"/>=0A <td align=3D"center" style=3D"font-family: Arial, H=
+elvetica, sans-serif;font-size: 13px; line-height: 15px;color:#006699; text=
+-decoration:none;mso-line-height-rule:exactly;">=0A <a href=3D"https://www.=
+tripadvisor.com/MptUrl=3Fp=3DADr%2FoWj7UyRoh4yCJ5jIQ16GwNUVhSANAQRLA07nOzN9=
+LFP%2FWtc6SRTeuNJY534j01yarQe%2Ff88s9hjkaDrGWqTvfcvsRuYKeuiLutuOd5kL1aIjBQa=
+deMYPz3DfeRexywzQp2CtYSKDrb97fkPV%2Fs6QbsWWCT4E%2F4mZJJUaKCPkgKmpZ%2FDKOo8r=
+NlW8n4jxYx9LfgNiPzbjwYq809jdGO%2B4%2Fm0dmDv6e8Mmz4XIwxNRO%2FSLYsWpHwCX8DRaD=
+x6Z9aGT9baJgrB0pT7GsMDHc0iQR9Qm5XKOOJT9UR9WZqiNVAGMyVYa4xgdJzhith4sjJfm5c5p=
+AM1mVPUZ1m1PXxTGKXrPK5BQQkToJCMbSBOd" target=3D"_blank" alias=3D"SupplierHe=
+lpCenterLink" style=3D"color:#006699; text-decoration:none;">=0A Help Cente=
+r=0A </a>=0A </td>=0A=0A </tr>=0A </table>=0A </td>=0A </tr>=0A=0A <tr>=0A =
+<td style=3D"padding:0 0 16px; font-family: Arial, Helvetica, sans-serif;fo=
+nt-size: 13px; line-height: 15px;color:#666666;mso-line-height-rule:exactly=
+; text-align:center;">=0A Please do not reply directly to this email. This =
+email was sent from a notification-only address that cannot accept incoming=
+ email. If you have questions or need assistance, <a href=3D"https://www.tr=
+ipadvisor.com/MptUrl=3Fp=3DAGYo8zodXW7ggdS6%2BKLNip2IXhOWxGKwMZzppdUogsS71D=
+ihFqD6%2Bbi9OxFP6XclXS9pZxo33x%2FOICyEaVhvr9PgxUxOf%2FgnLI%2BMWovee9w%2BPaG=
+NBD3kGHWRz3CRXKcMJvcVFowXwuFoXan3f%2BF7caR%2Fq%2FLCvqf9xAMXbbKoyXmV4%2FKg0o=
+YujLamZOKyXJrDPhHDYcX7ovYFksuIWHOrcXqSRnDRL%2FA50kuN26u7jZAuiNJBJa12hFWzEwC=
+KygWLJigsFXr1%2FCZKaEwITAdkPH9TOan207cKe7SBqmMtFDdlnRc%2B1W3IgxkWo8SfjdcG%2=
+Fuu83%2FqgQTBB7ik3%2Bf6HYKI5evfLCzwJ0NDVBio8iayC" target=3D"_blank" style=
+=3D"text-decoration:none;color:#006699;" alias=3D"FAQLink">visit our Help C=
+enter</a>.=0A </td>=0A </tr>=0A=0A <tr>=0A <td style=3D"padding:0 0 16px;fo=
+nt-family: Arial, Helvetica, sans-serif;font-size: 13px; line-height: 15px;=
+color:#666666;mso-line-height-rule:exactly; text-align:center;">=0A TripAdv=
+isor Experiences is a trading name of Viator, Inc., 360 Third Street, 4th F=
+loor, San Francisco, CA 94107, USA. All rights and interests in TripAdvisor=
+ Experiences belong to TripAdvisor LLC, 400 1st Ave., Needham, MA 02494=0A =
+</td>=0A </tr>=0A=0A <tr>=0A <td style=3D"padding:0 0 16px;font-family: Ari=
+al, Helvetica, sans-serif;font-size: 13px; line-height: 15px;color:#666666;=
+mso-line-height-rule:exactly; text-align:center;">=0A &copy; 2019 Viator, I=
+nc. All rights reserved. TripAdvisor and the TripAdvisor logos are either r=
+egistered trademarks or trademarks of TripAdvisor LLC in the US and/or othe=
+r countries.=0A </td>=0A </tr>=0A=0A </table>=0A </td>=0A </tr>=0A </table>=
+=0A </td>=0A </tr>=0A</table>=0A</body>=0A</html>=0A=0A=0A <custom name=3D"=
+opencounter" type=3D"tracking">=0A=0A<img src=3D"https://www.tripadvisor.co=
+m/MptUrl=3Fp=3DAKS6c5tWwKVunDKB3Sc5k4eDbJSnJGAZHCLQM01PmllQ4chjIw6Vx8hy6BVT=
+RJnbmicg6TD3y6XfKjkJ34o7HTdErgGmwsBPfTEIzSoMpZOFv4%2F5jPWj7owycifjB8ZzyMGaP=
+pDbVY6W9koVuUX3Mdre0hXKaQMp2VdoqpoKZw6BbD5w5bIF2FsmtPoRqRRt330FrzXCqSOJG9f0=
+06Gw0%2B0%3D" style=3D"display:none;" />=0A=0A
+

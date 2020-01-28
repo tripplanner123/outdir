@@ -1,0 +1,72 @@
+Return-Path: <bounce-md_30039865.5dd2a30c.v1-8684f789387244aea6a91895eb286e83@mda.digitalocean.com>
+Delivered-To: e.tarkhnishvili@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP
+	id 0MXMMxej0l02dQ0A8w4q4w
+	(envelope-from <bounce-md_30039865.5dd2a30c.v1-8684f789387244aea6a91895eb286e83@mda.digitalocean.com>)
+	for <e.tarkhnishvili@tripplanner.ge>; Mon, 18 Nov 2019 07:56:39 -0600
+Return-path: <bounce-md_30039865.5dd2a30c.v1-8684f789387244aea6a91895eb286e83@mda.digitalocean.com>
+Envelope-to: e.tarkhnishvili@tripplanner.ge
+Delivery-date: Mon, 18 Nov 2019 07:56:39 -0600
+Received: from mail137-235.dal35.mandrillapp.com ([205.201.137.235]:51725)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92)
+	(envelope-from <bounce-md_30039865.5dd2a30c.v1-8684f789387244aea6a91895eb286e83@mda.digitalocean.com>)
+	id 1iWhWB-003rJY-Ct
+	for e.tarkhnishvili@tripplanner.ge; Mon, 18 Nov 2019 07:56:39 -0600
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=mandrill; d=support.digitalocean.com;
+ h=From:Subject:To:Message-Id:Date:MIME-Version:Content-Type:Content-Transfer-Encoding; i=support@support.digitalocean.com;
+ bh=qTxFK5FbW9eDivop0kCXCL41EjN/8VYjTac6gIhWznE=;
+ b=ha8BrWuMEBMMEKcYY2A7zDrW3MlbvvtAiEGPT1qVPuW51c527caJZ/3yKXjTyAY1EOsVwveerjpL
+   Xp6cFmwU4skULzURMFOkuDxVE4UkGycxVYV3lU2Yef9qBIBPzyAYOb7h62fOxOSrhx+3yYGv3Yyp
+   SphLprLIripMLa5id3I=
+Received: from pmta07.mandrill.prod.suw01.rsglab.com (127.0.0.1) by mail137-235.dal35.mandrillapp.com id hqahhe174e03 for <e.tarkhnishvili@tripplanner.ge>; Mon, 18 Nov 2019 13:56:28 +0000 (envelope-from <bounce-md_30039865.5dd2a30c.v1-8684f789387244aea6a91895eb286e83@mda.digitalocean.com>)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mandrillapp.com; 
+ i=@mandrillapp.com; q=dns/txt; s=mandrill; t=1574085388; h=From : 
+ Subject : To : Message-Id : Date : MIME-Version : Content-Type : 
+ Content-Transfer-Encoding : From : Subject : Date : X-Mandrill-User : 
+ List-Unsubscribe; bh=qTxFK5FbW9eDivop0kCXCL41EjN/8VYjTac6gIhWznE=; 
+ b=mF88q/GJtdaKq17UT0ofcZxzlp+sCvs9nQTMNA2d+wA9FEXJXJvvOJ1kE9oQtlH/zHC34Z
+ u4O6edp/H5MlmE5jPnCkwwZ3Xlxo7pslU+Y/8H4azaK0jPKbFVhJZbwLXbzmCyAgrUOGKg+r
+ dSj+ugWOCvraHXoa7sy1aDcYt7Np0=
+From: DigitalOcean <support@support.digitalocean.com>
+Subject: =?utf-8?Q?Please=20verify=20that=20it=E2=80=99s=20you?=
+Received: from [162.243.191.66] by mandrillapp.com id 8684f789387244aea6a91895eb286e83; Mon, 18 Nov 2019 13:56:28 +0000
+To: e.tarkhnishvili@tripplanner.ge
+X-Report-Abuse: Please forward a copy of this message, including all headers, to abuse@mandrill.com
+X-Report-Abuse: You can also report abuse here: http://mandrillapp.com/contact/abuse?id=30039865.8684f789387244aea6a91895eb286e83
+X-Mandrill-User: md_30039865
+Message-Id: <30039865.20191118135628.5dd2a30c6b06c3.23347541@mail137-235.dal35.mandrillapp.com>
+Date: Mon, 18 Nov 2019 13:56:28 +0000
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+X-Spam-Status: No, score=-13.1
+X-Spam-Score: -130
+X-Spam-Bar: -------------
+X-Spam-Flag: NO
+
+Please verify that it=E2=80=99s you
+
+Your sign in attempt seems a little different than usual. This could be bec=
+ause you are signing in from a different device or a different location.
+
+If you are attempting to sign-in, please use the following code to confirm =
+your identity:
+
+366353
+
+Here are the details of the sign-in attempt:
+Monday, November 11/18/19 at 17:56 +04
+Account: e.tarkhnishvili@tripplanner.ge
+Location: GE
+IP Address: 188.169.2.144
+Operating system: iOS 13.1.3
+Browser: Safari
+
+If this wasn=E2=80=99t you, please reset your password. Like always, if you=
+ have any questions please respond to this email to open a support ticket.
+
+Yours securely,
+Team DigitalOcean
+

@@ -4966,3 +4966,143 @@ git status
 git add ssl*
 #1568822087
 git status
+#1568822094
+git add .
+#1568822110
+cat .spamassassin/auto-whitelist
+#1568822114
+clear
+#1568822123
+git commit -m "save"
+#1568822260
+git push origin master
+#1568835807
+exit
+#1576748753
+clear
+#1576748755
+ls
+#1576748760
+cd public_html
+#1576748761
+ls
+#1576748791
+clear
+#1576748794
+git status
+#1576749367
+git add .
+#1576749389
+git commit -m "savex"
+#1576749396
+git push origin master
+#1576749426
+cat .gitignore
+#1576749782
+cd _tripadmin
+#1576749784
+ls
+#1576749795
+cat .gitignore
+#1576749804
+cd ..
+#1576750085
+cd ..
+#1576750087
+ls
+#1576750099
+cd beetrip.ge
+#1576750100
+ls
+#1576750111
+cd ..
+#1576750129
+cd beetrip.ge
+#1576750133
+git status
+#1576750145
+git add .
+#1576750159
+git commit -m "savex"
+#1576750166
+git push origin master
+#1576750377
+exit
+#1580200471
+ls
+#1580200480
+cd beetrip.ge
+#1580200481
+ls
+#1580200616
+cd ..
+#1580200630
+rm -rf beetrip.ge/*
+#1580200636
+cd beetrip*
+#1580200639
+ls
+#1580200651
+rm -rf .git
+#1580200661
+rm -rf .htaccess
+#1580200672
+rm -rf .well-known
+#1580200674
+ls
+#1580200679
+rm .gitignore
+#1580200680
+ls
+#1580200813
+cd ..
+#1580200814
+ls
+#1580200894
+rm -rf beetrip.ge
+#1580200904
+rm -rf betrip.ge
+#1580200914
+rm -rf bitrip.ge
+#1580201082
+cd public_html
+#1580201083
+ls
+#1580201087
+git status
+#1580201100
+git add .
+#1580201110
+git commit -m "last changes"
+#1580201116
+git push origin master
+#1580201389
+cd ../
+#1580201391
+ls
+#1580201395
+git status
+#1580201430
+git add tmp/*
+#1580201435
+git status
+#1580201444
+git add mail/*
+#1580201505
+git status
+#1580201513
+git add ssl/*
+#1580201521
+git status
+#1580201539
+cat shadow.tuw25044
+#1580201570
+cd php
+#1580201573
+git status
+#1580201591
+ls
+#1580201597
+cd ..
+#1580201600
+git status

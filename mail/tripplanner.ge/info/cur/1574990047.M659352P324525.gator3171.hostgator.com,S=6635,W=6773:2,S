@@ -1,0 +1,138 @@
+Return-Path: <jarret.lia87129@gmail.com>
+Delivered-To: info@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP
+	id SLEvJ99w4F2t8wQA8w4q4w
+	(envelope-from <jarret.lia87129@gmail.com>)
+	for <info@tripplanner.ge>; Thu, 28 Nov 2019 19:14:07 -0600
+Return-path: <jarret.lia87129@gmail.com>
+Envelope-to: info@tripplanner.ge
+Delivery-date: Thu, 28 Nov 2019 19:14:07 -0600
+Received: from mail-wr1-f65.google.com ([209.85.221.65]:38923)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.92)
+	(envelope-from <jarret.lia87129@gmail.com>)
+	id 1iaUrG-001P0W-J8
+	for info@tripplanner.ge; Thu, 28 Nov 2019 19:14:07 -0600
+Received: by mail-wr1-f65.google.com with SMTP id y11so29944513wrt.6
+        for <info@tripplanner.ge>; Thu, 28 Nov 2019 17:14:01 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:sender:from:date:message-id:subject:to;
+        bh=9nAeBvIIy9ZRewGjlj18YXmMSOBa7LfNqIlo9H5ntuc=;
+        b=alqZAhSrAU5QGplmDO8FTXdKrCpGwJnRB3jcB+uXNtcpM/0v4m47nNEMf7Vizdfqyw
+         Fr4yNe3iXUJ1y3K8FbGMtFGYKs+66x68jJcgAUBgtWe027SDGHHOt+Pvnbozg4or1de5
+         e2k32aTB9KG8ZSxpbpo/P2G7fDgHzB4O34Ebg6zHQ+SQ/LTYMsmBtQockAHoYV/iHxzW
+         gwOQVzaaWh6IRgxMBOjoAROiKjw09ZhPxFe9QGQqsADUHfcb/8Z8T0WWelqnAbNtRrdi
+         qPAOH56hAOKWBeTfUE9YuxN6mQOMEgo5lS1VFY8bwta/PlMgXjk13dM/J2zLkyRQtDFM
+         zUXQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:sender:from:date:message-id:subject
+         :to;
+        bh=9nAeBvIIy9ZRewGjlj18YXmMSOBa7LfNqIlo9H5ntuc=;
+        b=IgCC96NrMWbsqRgAwo4JJLkLt4yFso/pWGHYh2cIdKA3WtIVS1p6blcLm4tHEynj7L
+         HAIdBY7T/wLcCOIelW+JW6W6a2vfmd+DWch/Z38cJnD2b8UY4CQLibbEz/mad50AQ3eG
+         PRI/wQnDHRXDMvvaVrvGfKusA/iEioyX0jNT8j6BPRq6WApMuPx96oSMxGWbUSM8ty1e
+         ZrsQ5E++1b7DPjmQk7ULvOliDhgkJo7nSXPx5oFZx6bqKNY4ORGcPAATz6E6wsnbyRMZ
+         x1Yw4YX48wBsdQpisPJgQBbJc9/TE29MNQK2u5UTEOk1l0j/2Vuc2rcEz5ktgACpgXJs
+         Spbg==
+X-Gm-Message-State: APjAAAVsaZ3Ep9wR2YKRdrZhbkPhplek4dkxtnTXNF0TYRESzNFHpGxD
+	tMUds3uRAEvkVy3QAPlDp+YVxqb0oyvn7WXiTMIRKA==
+X-Google-Smtp-Source: APXvYqy3mYUm/I7li6qcDbmJLSUqGjLVZ+xGykXFvK0TXZTzrev+/qQulDc+9dI8y8oVgPCLAvRhO9UW96NYDEY47HI=
+X-Received: by 2002:a5d:6551:: with SMTP id z17mr6187848wrv.269.1574990033814;
+ Thu, 28 Nov 2019 17:13:53 -0800 (PST)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Thu, 28 Nov 2019 20:13:53 -0500
+MIME-Version: 1.0
+Sender: Jarret Lia <jarret.lia87129@gmail.com>
+From: Jarret Lia <jarret.lia87129@gmail.com>
+Date: Thu, 28 Nov 2019 20:13:53 -0500
+X-Google-Sender-Auth: feomT2jsNow5G6QOKfXTQ1GB4gs
+Message-ID: <CAF03xF83G5N9eKSyk1bzHDM9cG-xOSK+W=mBsShWXhK0BugCag@mail.gmail.com>
+Subject: Strategies for Website: tripplanner.ge
+To: Info <info@tripplanner.ge>
+Content-Type: multipart/alternative; boundary="0000000000007d8863059871f10f"
+X-Spam-Status: No, score=3.5
+X-Spam-Score: 35
+X-Spam-Bar: +++
+X-Spam-Flag: NO
+
+--0000000000007d8863059871f10f
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi tripplanner Team,
+
+Hope you are doing well.
+
+I am sure you are aware about recent Google updates and understand how it
+impacts your website performance. This e-mail is not about negative reports
+or feedback about your website rather a constructive opinion to improve
+your current performance.
+
+
+*There are some major factors which must be taken into consideration while
+moving into online competition. Please find below some of the major points:=
+*
+- Technically sound website is given major consideration by Google.
+- Proper selection and placement of keywords are important.
+- Maximum engagement on Social Media sites.
+- Unique Contents makes a website noticeable.
+- Understand Competitors strategy before implementing any change.
+
+These are some of the factors which search engines encourages every website
+to pursue. If the above mentioned steps are performed on a website then 50%
+of the promotion part are covered however there are many more in the list.
+
+This e-mail provides you with a glimpse of information. If you want to know
+more details about our service then kindly contact us over email or call
+us. Given consent we would also like to provide you with detailed analysis
+report.
+
+Waiting for your reply.
+
+
+
+
+
+
+*Jarret LiaDigital Marketing Analyst*
+---------------------------------------------------------
+Ps: You may ask us to =E2=80=9CREMOVE=E2=80=9D to stop further corresponden=
+ce.
+
+[image: beacon]
+
+--0000000000007d8863059871f10f
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><font face=3D"verdana, sans-serif">Hi tripplanner Team, <b=
+r><br>Hope you are doing well.<br><br>I am sure you are aware about recent =
+Google updates and understand how it impacts your website performance. This=
+ e-mail is not about negative reports or feedback about your website rather=
+ a constructive opinion to improve your current performance.<br><br><b>Ther=
+e are some major factors which must be taken into consideration while movin=
+g into online competition. Please find below some of the major points:<br><=
+/b><br>- Technically sound website is given major consideration by Google.<=
+br>- Proper selection and placement of keywords are important.<br>- Maximum=
+ engagement on Social Media sites.<br>- Unique Contents makes a website not=
+iceable.<br>- Understand Competitors strategy before implementing any chang=
+e.<br><br>These are some of the factors which search engines encourages eve=
+ry website to pursue. If the above mentioned steps are performed on a websi=
+te then 50% of the promotion part are covered however there are many more i=
+n the list.<br><br>This e-mail provides you with a glimpse of information. =
+If you want to know more details about our service then kindly contact us o=
+ver email or call us. Given consent we would also like to provide you with =
+detailed analysis report.<br><br>Waiting for your reply.<br><br>=C2=A0<br><=
+br>=C2=A0<br><b><br>Jarret Lia<br>Digital Marketing Analyst</b><br>--------=
+-------------------------------------------------<br>Ps: You may ask us to =
+=E2=80=9CREMOVE=E2=80=9D to stop further correspondence.<br>=C2=A0</font></=
+div>
+<img src=3D"https://jarret-lia87129-dot-yamm-track.appspot.com/FireBase?uke=
+y=3D1tTlwsQZCi95c6yu2UpUbwxUTVA2pGRsDArH0xMo-dr8-0&amp;key=3DYAMMID-9003264=
+2" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; display:n=
+one!important;">
+
+--0000000000007d8863059871f10f--

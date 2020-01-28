@@ -1,0 +1,319 @@
+Return-Path: <msprvs1=182845UFE53aE=bounces-124544-18@bounce.expsupm.tripadvisor.com>
+Delivered-To: info@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP
+	id 0P4DCqt6IF5GUgcA8w4q4w
+	(envelope-from <msprvs1=182845UFE53aE=bounces-124544-18@bounce.expsupm.tripadvisor.com>)
+	for <info@tripplanner.ge>; Thu, 16 Jan 2020 09:00:59 -0600
+Return-path: <msprvs1=182845UFE53aE=bounces-124544-18@bounce.expsupm.tripadvisor.com>
+Envelope-to: info@tripplanner.ge
+Delivery-date: Thu, 16 Jan 2020 09:00:59 -0600
+Received: from mta-212-239.sparkpostmail.com ([147.253.212.239]:18891)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.92)
+	(envelope-from <msprvs1=182845UFE53aE=bounces-124544-18@bounce.expsupm.tripadvisor.com>)
+	id 1is6dm-0021NR-B4
+	for info@tripplanner.ge; Thu, 16 Jan 2020 09:00:59 -0600
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=expsupm.tripadvisor.com; s=scph0119; t=1579186843;
+	i=@expsupm.tripadvisor.com;
+	bh=612/8KqzrGsX7lPcKv2TSB5+thnT5ZKoCyiwQI3Xm+U=;
+	h=Content-Type:To:Message-ID:Date:Subject:From;
+	b=j8dbC6SJ8hLZrZ8qlyEiPl54VuYJ1OQzKnwUqa+mR0pY1fbi+k0Et1AHG/jYwe0Sl
+	 F+VHtTb/6kPj9TaSkjbtysWkgPsR/gp7C7ohuBEpNN1T4BjTfs4NwN1e27G0akQOle
+	 u8L5GnP2RBt4XprcA9mchZNwJhbgy6mp535GAYX8=
+X-MSFBL: eN0o7V4rQMBK32+JO1lTosyQPEDg/D3Ez/96a4i2z5M=|eyJ0ZW5hbnRfaWQiOiJ
+	zcGMiLCJzdWJhY2NvdW50X2lkIjoiMTgiLCJjdXN0b21lcl9pZCI6IjEyNDU0NCI
+	sInIiOiJpbmZvQHRyaXBwbGFubmVyLmdlIiwibWVzc2FnZV9pZCI6IjAwMmM5Yjd
+	hMjA1ZTg0NWVhNjZiIn0=
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+To: info@tripplanner.ge
+Message-ID: <6A.B6.24196.B9A702E5@ar.mta1vrest.cc.prd.sparkpost>
+Date: Thu, 16 Jan 2020 15:00:43 +0000
+MIME-Version: 1.0
+Reply-To: "TripAdvisor Experiences" <no-reply@expsupm.tripadvisor.com>
+Subject: New Opportunities dashboard: review errors and improvements
+From: "TripAdvisor Experiences" <email@expsupm.tripadvisor.com>
+List-Unsubscribe: <mailto:unsubscribe@unsub.spmta.com?subject=unsubscribe:78ROoI4fZfHUOW6osLxjPGF_BmDjYH9n5PGlvb98X60~|eyAicmNwdF90byI6ICJpbmZvQHRyaXBwbGFubmVyLmdlIiwgInRlbmFudF9pZCI6ICJzcGMiLCAiY3VzdG9tZXJfaWQiOiAiMTI0NTQ0IiwgInN1YmFjY291bnRfaWQiOiAiMTgiLCAibWVzc2FnZV9pZCI6ICIwMDJjOWI3YTIwNWU4NDVlYTY2YiIgfQ~~>
+List-Id: <spc.124544.18.sparkpostmail.com>
+X-Spam-Status: No, score=-15.5
+X-Spam-Score: -154
+X-Spam-Bar: ---------------
+X-Spam-Flag: NO
+
+=0A<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://w=
+ww.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">=0A=0A<html xmlns=3D"http:=
+//www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=
+=3D"urn:schemas-microsoft-com:office:office">=0A<head>=0A=0A <meta http-equ=
+iv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">=0A <meta name=
+=3D"viewport" content=3D"width=3Ddevice-width">=0A <style></style>=0A</head=
+>=0A<body>=0A=0A<table class=3D"body bg_email" width=3D"100%" style=3D"back=
+ground-color: #ffffff; color: #4a4a4a; font-family: Arial, Helvetica, sans-=
+serif; font-size: 18px; line-height: 24px; mso-line-height-rule: exactly">=
+=0A <tr>=0A <td class=3D"center bg_email" align=3D"center" valign=3D"top" w=
+idth=3D"100%" style=3D"background-color: #ffffff">=0A <center data-parsed>=
+=0A <table align=3D"center" class=3D"container float-center"><tbody><tr><td=
+>=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A <table width=3D"550" border=3D"0=
+" cellspacing=3D"0" cellpadding=3D"0" class=3D"email_full" style=3D"backgro=
+und-color: #ffffff; width: 550px">=0A <tr>=0A <td height=3D"0" class=3D"pre=
+header" style=3D"background-color: #ffffff; border-collapse: separate; colo=
+r: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 0px; heig=
+ht: 0; line-height: 0; mso-line-height-rule: exactly; mso-table-lspace: 0pt=
+; mso-table-rspace: 0pt">=0A Review and address issues affecting your produ=
+ct content &zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwn=
+j;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&=
+nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbs=
+p;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&=
+zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwn=
+j;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&=
+nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbs=
+p;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&=
+zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwn=
+j;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&=
+nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbs=
+p;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&=
+zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwn=
+j;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&=
+nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbs=
+p;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&=
+zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwn=
+j;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&=
+nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbs=
+p;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&=
+zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwn=
+j;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&=
+nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbs=
+p;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&=
+zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwn=
+j;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&=
+nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbs=
+p;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&=
+zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwn=
+j;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&=
+nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbs=
+p;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&=
+zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwn=
+j;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&=
+nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbs=
+p;&zwnj;&nbsp;&zwnj;&nbsp;=0A </td>=0A </tr>=0A <tr>=0A <td height=3D"0" cl=
+ass=3D"preheader" style=3D"background-color: #ffffff; border-collapse: sepa=
+rate; color: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size:=
+ 0px; height: 0; line-height: 0; mso-line-height-rule: exactly; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt">=0A <img src=3D"https://www.tripadvisor.=
+com/MptUrl=3Fp=3DAAn9yLvGDaR4URjw9aCYTSb%2FlWjrYqUAfPAAS50mR862Vg1NLD3wtESB=
+NBshp989i%2FySsUhJj0FknHcp%2BpACYQtyc%2FQcFJ69hpJYQsY%2FoWnC66p0hi3j5jsR2%2=
+FF7EgUa1kwqex5AeOgoeIYOX531vWjlXnvAUuRG5r17js%2BK7ex9bAAGkyIFs2Au97kBwB7IMM=
+SGEswGqJD9V0UA9ypRFmg%3D" class=3D"tracking_pixel" style=3D"display: none; =
+height: 0; line-height: 0; width: 0">=0A </td>=0A </tr>=0A <tr>=0A <td clas=
+s=3D"gutter_sides section_spacing_bottom section_spacing" style=3D"padding-=
+bottom: 24px; padding-left: 16px; padding-right: 16px; padding-top: 24px">=
+=0A <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"518" c=
+lass=3D"email_body" style=3D"width: 518px">=0A <tr>=0A <td>=0A <table width=
+=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">=0A <tr>=0A <td =
+align=3D"center">=0A <table align=3D"center" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">=0A <tr>=0A <td align=3D"center" class=3D"body_image" st=
+yle=3D"color: #4a4a4a; font-family: Arial, Helvetica, sans-serif; font-size=
+: 18px; line-height: 24px">=0A <a href=3D"https://www.tripadvisor.com/MptUr=
+l=3Fp=3DAH%2BlcYgXBwIAhDX2dzvw1SRRz9kEWVO6t2GusSklleucZYYJfyV%2FguSPnCScyZ5=
+H8achPJkl7LEyWrG2wzS9TvuDelcHkUKz0baiWYEPqzchGS5YZRjGgaVDrnDATfvgZmggrR7nyw=
+aJSYkTk54KBbDYg%2BRb%2BKuWKAVUfRokzVYJLgW9Mu%2FEGe9jTdB3RFQmT0PGYj%2FPp4DM%=
+2Fqdh6RGJUvQDzA5jbnDj5HVJDRIvFteykFKE0OBnSZonqCYFIMfWUoTnKBUVNknNH%2FDab5Ns=
+YVTFUaE3ovoJVyaORbtx4nyFly5QqvqkqQ1pwThc4NpneN46iv8oAwiNfiuPQVF%2F8nzcw06H7=
+VgxifsPpaEouP%2FS5IBYagZRQ%2Fi82yiQbgp3xw%3D%3D" target=3D"_blank" class=3D=
+"link_text" alias=3D"HEADERALIAS" style=3D"color: #4a4a4a; text-decoration:=
+ none">=0A <img src=3D"https://cdn.tripadvisor.com/img2/email/rex/attrsup_l=
+ogo-en-us.png" height=3D"30" style=3D"border: 0; display: block; height: 30=
+px" alt=3D"TripAdvisor" class=3D"image_style">=0A </a>=0A </td>=0A </tr>=0A=
+ </table>=0A </td>=0A=0A </tr>=0A </table>=0A </td>=0A </tr>=0A </table>=0A=
+ </td>=0A </tr>=0A </table><table width=3D"550" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" class=3D"email_full bg_white" style=3D"background-col=
+or: #ffffff; width: 550px">=0A=0A <tr>=0A <td class=3D"section_spacing_bott=
+om_xl" style=3D"padding-bottom: 32px">=0A <img src=3D"https://cdn.tripadvis=
+or.com/img2/email/rex/su_performance_hero.png" width=3D"550" height=3D"279"=
+ style=3D"border: 0; display: block; height: 279px; width: 550px" alt=3D"Op=
+portunities to improve product content" class=3D"image_style email_full">=
+=0A </td>=0A </tr>=0A=0A <tr>=0A <td class=3D"gutter_sides" style=3D"paddin=
+g-left: 16px; padding-right: 16px">=0A <table width=3D"100%" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0">=0A <tr>=0A <td class=3D"section_spacing=
+_bottom_xl" style=3D"padding-bottom: 32px">=0A=0A <table border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0" width=3D"100%">=0A <tr>=0A <td class=3D"h1" =
+align=3D"center" style=3D"color: #4a4a4a; font-family: Arial, Helvetica, sa=
+ns-serif; font-size: 32px; font-weight: bold; line-height: 35px; mso-line-h=
+eight-rule: exactly">=0A Introducing Opportunities=0A </td>=0A </tr>=0A <tr=
+>=0A <td height=3D"24" style=3D"border-collapse: separate; font-size: 0px; =
+height: 24px; line-height: 24px; mso-line-height-rule: exactly; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt" class=3D"spacer_style">=0A &nbsp;=0A </t=
+d>=0A </tr>=0A <tr>=0A <td class=3D"body" align=3D"center" style=3D"color: =
+#4a4a4a; font-family: Arial, Helvetica, sans-serif; font-size: 18px; line-h=
+eight: 24px; mso-line-height-rule: exactly">=0A We're constantly working to=
+ improve the TripAdvisor Experiences Management Center. Today we're launchi=
+ng <strong>Opportunities</strong>: here you can see and address all the iss=
+ues affecting your product content. By working through all the issues in th=
+e dashboard, you'll make your product more attractive to travelers and incr=
+ease your chances of getting bookings. <br><br>Content issues may include e=
+rrors (such as missing information or details), or improvements that will h=
+elp you stay relevant (such as adding shorter cutoff times).<br><br>Log int=
+o the TripAdvisor Experiences Management Center to review your custom list =
+of action items on the new Opportunities dashboard. Your list will be updat=
+ed regularly, so check back often as we find more ways to improve your cont=
+ent!=0A </td>=0A </tr>=0A <tr>=0A <td height=3D"24" style=3D"border-collaps=
+e: separate; font-size: 0px; height: 24px; line-height: 24px; mso-line-heig=
+ht-rule: exactly; mso-table-lspace: 0pt; mso-table-rspace: 0pt" class=3D"sp=
+acer_style">=0A &nbsp;=0A </td>=0A </tr>=0A <tr>=0A <td align=3D"center">=
+=0A=0A <a target=3D"_blank" href=3D"https://www.tripadvisor.com/MptUrl=3Fp=
+=3DAIwCrGlJcVtAeqK5RSTlNPoErrOoQtVc4OaDPBhii1c%2BpGiB4bG8uO33iC%2FJRLM0f4V8=
+dRyq%2BfZPEJW3dLPo043Y3VjeEzzDw0nxDhIXrbou%2FsXRBgv8czVsXrhd1ay0P6vz4ju%2Fx=
+TiUZj9qPb6EDXtzJIVAObylszs0qUWgNEu3BwOkQA1LFRW6dE7TVT5OouMATEuvVwbuN0aHm1zV=
+LLfF4E2W4qwNhRomhR8G3CiudcxNKx6%2FEfLNyXInKLTcuSClX41QEyOz1r8LhzT7CFd7%2Fqa=
+TIsa1Jz5Cp7NAmYiJky3T3I1ZnQMoDlasLxivEEjk9oVE4ijjeAl8Pb4HHHtnjzfY2Y6FgtqPT%=
+2F6y7qKRB2SlxEtOQaAYvDJ1aJfbdzyI6LIEj7GamRGXxc8UIzwGdLsJKpQGLo7yp6obER6sd24=
+o68TFEd%2BHQYeG14eY7w%3D%3D" class=3D"text_decoration display_default" alia=
+s=3D"OPPORTUNITIES DASHBOARD" style=3D"display: block; text-decoration: non=
+e">=0A <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"251=
+" style=3D"width:251px" align=3D"center">=0A <tr>=0A <td bgcolor=3D"#00a680=
+" align=3D"center" valign=3D"middle" style=3D"-moz-border-radius: 2px; -web=
+kit-border-radius: 2px; border: 1px solid #00a680; border-radius: 2px; colo=
+r: #ffffff; margin: 0 auto" class=3D"cta_style">=0A <a target=3D"_blank" hr=
+ef=3D"https://www.tripadvisor.com/MptUrl=3Fp=3DAIQbcuPcsc53JKb%2FZxIkj17qBh=
+a0fGgDTkJokD3QWVdrV5ZB1lt2fhcE6v8QyDR8AswSp7Tat6I34v7CWkCaBUEuxXEi58UjcwiB1=
+eI8OdG%2BZ5MrHvkPAA%2FSwt6qC6EJdYcO%2FMP5MVblrDuba%2BcMUFbIoT6D8K%2BKXYHqph=
+eEJ8wZBmg6kLT2y5RFq0Yy%2BRSpxuX%2FJl8Wc13u0RPpz7tJ1JgKagQbTMiZrPNZS0J0zkUpI=
+GIiBCSwEgYupIlvve9fqlDtreTyGCg%2Ffo%2FifnI0QLR5ulxUpLOBbO%2Fge4c3sVhQBcaNYQ=
+uCJSb5ldNr4PNmmUClRT3bKGCMcBJunf5hsJCODirKeRncg2RiiT6Az3O%2FeqOam3l9Urpzkyb=
+g%2F2jhfU47mJtnvzUsk6BdVJ%2F603WeZ4s3tF%2FzzqrE590aE%2B0v0qHS8ItD97jHfYIX7m=
+tTLw%3D%3D" class=3D"text_decoration display_default" alias=3D"OPPORTUNITIE=
+S DASHBOARD" style=3D"display: block; text-decoration: none">=0A <table cel=
+lspacing=3D"0" cellpadding=3D"0" border=3D"0" style=3D"color: #ffffff; marg=
+in-top: 3px; padding: 16px 8px; text-align: center" class=3D"cta_spacing">=
+=0A <tr>=0A <td class=3D"fontfamily_primary cta_text" style=3D"font-family:=
+ Arial, Helvetica, sans-serif; font-size: 18px; line-height: 24px; text-ali=
+gn: center">=0A <a style=3D"color: #ffffff; text-decoration: none" target=
+=3D"_blank" href=3D"https://www.tripadvisor.com/MptUrl=3Fp=3DAMy5skokGsTpGU=
+4vytyBp%2B5J71%2BqBIYhRo208H2w8Bo9FIUoWn3lAtkw6usN8lqkKr3wGB10XeMo90e8wAkYO=
+49DeXs4vMJrGVrEilZu64JsHTtiA1%2FhNeOVmX801SzUPOZkyRogBaBvWXWePomQc60HCdTyjN=
+iRbEzDolcwOT6GlwizPOrwo8rGzWyS0L0CGMKd0hvN%2FRp9%2FyzL6%2FZ%2BSUv2r%2FWG61m=
+3XZC3NNB%2B7W0CRJYQpC46SMgqJnCLbVUb4eZdhl1zQkdI9MfM%2F4R%2FAONbumXVC1EcYIUO=
+8fRMv4Z5ExLE9KfiVuP4GyjNsrOIKcD7HqICvPY%2F3fIbCDSfEhQgm%2FXlp1LlkBpP%2B%2BM=
+6o%2FhDGpXcKL78Q%2F7HX%2BjAL%2BwxG5np2j3SkXQ%2FlV7Fa4WV0DALy87owpNllNKTXR6j=
+pubkvZO2sKImI6IseW9%2BSM3c%2FA%3D%3D" alias=3D"OPPORTUNITIES DASHBOARD" cla=
+ss=3D"text_decoration">=0A View Opportunities=0A </a>=0A </td>=0A </tr>=0A =
+</table>=0A </a>=0A </td>=0A </tr>=0A </table>=0A </a>=0A=0A </td>=0A </tr>=
+=0A </table>=0A </td>=0A </tr>=0A </table>=0A </td>=0A </tr>=0A=0A </table>=
+=0A=0A <table width=3D"550" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+" class=3D"email_full bg_email" style=3D"background-color: #ffffff; width: =
+550px">=0A <tr>=0A <td class=3D"gutter_sides section_spacing_bottom_md" sty=
+le=3D"padding-bottom: 16px; padding-left: 16px; padding-right: 16px">=0A <t=
+able width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">=0A <t=
+r>=0A <td align=3D"center" class=3D"section_spacing_md" style=3D"padding-to=
+p: 16px">=0A <img src=3D"https://cdn.tripadvisor.com/img2/email/rex/ollie.p=
+ng" height=3D"27" width=3D"53" style=3D"border: 0; display: block; height: =
+27px; width: 53px" class=3D"image_style">=0A </td>=0A </tr>=0A <tr>=0A <td =
+class=3D"section_spacing_md" style=3D"padding-top: 16px">=0A <table align=
+=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">=0A <tr>=0A <t=
+d class=3D"footer_link" style=3D"color: #00a680; font-family: Arial, Helvet=
+ica, sans-serif; font-size: 13px; line-height: 15px; mso-line-height-rule: =
+exactly">=0A <a href=3D"https://www.tripadvisor.com/MptUrl=3Fp=3DAIId5fZ6%2=
+Ftoc8WvZ3gV4rF3tmPuBz8PAdwY0ZTd4nIVLU%2BNCI6os92IC8D9jvJWgDnjLrT%2Bblj3DQr2=
+m7mVH0%2BfYBFRx5z0HlNPk%2BJ%2B5wpzcvyDyYeticyozcazH%2B9o4ZzEhOfHRuS1Jt4m15S=
+SAQbIUL0ybbhgMpeVKgXy%2FViNW7Mge00Gbxccf7qW0NWjZtTYKCv%2FLHn77p2pMG3SaPhfiF=
+OgHtKVgT%2BzWLB3yz%2B9xnDNyxQlH%2B84jDZ1gV7amfN2hSU3hvqGL%2BuOl31IXGhQrm%2F=
+Glk2jREO5oFjNjldoUk7jCz5zOGU1bzCFKy4DNGuEiESLHdcuMwnqndea4N3JBeHwI3%2B506Vv=
+ydI8jPlbFfIaJLVpJ7z0CRmkhLNJJSGo6WwfzPmhS76uM3ycN5UYQyP8c9M8%2BKdRvvN8bBzDO=
+" target=3D"_blank" class=3D"link_accent" alias=3D"FOOTERMANAGEMENTCENTERLI=
+NK" style=3D"color: #078171; text-decoration: none">=0A Management Center=
+=0A </a>=0A </td>=0A <td width=3D"16" class=3D"gutter_md body align_center"=
+ style=3D"color: #4a4a4a; font-family: Arial, Helvetica, sans-serif; font-s=
+ize: 18px; line-height: 24px; mso-line-height-rule: exactly; text-align: ce=
+nter; width: 16px">=0A |=0A </td>=0A <td class=3D"footer_link" style=3D"col=
+or: #00a680; font-family: Arial, Helvetica, sans-serif; font-size: 13px; li=
+ne-height: 15px; mso-line-height-rule: exactly">=0A <a href=3D"https://www.=
+tripadvisor.com/MptUrl=3Fp=3DAGJoqF6ScplJx1PQcvirHFBTUSadMq9bv0BJJ1fr3znH0e=
+%2FyNOpslK0z7kLpyQ6x3Q6ej5uCwMhtzInaE08UKc5jisKWrZ3V9RZYsV1zwv2QSKh79KmpoJq=
+p5c00fAB%2FOs1eRCiiIJfIyOGfrb1yy3cLsExNVKQK7NBveDGHRFso8x8s%2BvmAIuu1YR0tlu=
+xNlfMHZLsFvtWyta%2BFKljQ8QsxHnCXuT%2BJRH%2F9febBUvyq3EFjdtqknhtMqf%2BkpBNaU=
+mzfDQOsZHjhp9m8XiLs2qOxVHrYzhhyqMF9HMk0%2BVOwk95TwqJhBYsYsKKIRJJ54W5B63NLXm=
+EU0yVskJMyAbvt7fT1669DeYvqwNN21TU81Z%2Bi7zaHZr3iHLnrXMCjnN5rJVdDmM6TqUuHxd9=
+kwecr99uB0euwvUTGcZXV9Gygj0dTlOhdO8BijKmx5s0gCXGspweF3ptYN38zIewzr3FIBzxpZc=
+nOfGegKdvGhCznwr0Ms0lualigqHF6cNsl%2FOLogB6NFUTxG2nrhBqMDmwHJd2320Dc1j2X2Wz=
+mAMrwH%2FXD%2BXPiRz%2F5aZm2a%2Fju60nxzMWOYG42NsQwiIOhSxqbXsBL2q7KpEo%2F6clJ=
+k2h9" target=3D"_blank" class=3D"link_accent" alias=3D"FOOTERUNSUBSCRIBELIN=
+K" style=3D"color: #078171; text-decoration: none">=0A Unsubscribe=0A </a>=
+=0A </td>=0A <td width=3D"16" class=3D"gutter_md body align_center" style=
+=3D"color: #4a4a4a; font-family: Arial, Helvetica, sans-serif; font-size: 1=
+8px; line-height: 24px; mso-line-height-rule: exactly; text-align: center; =
+width: 16px">=0A |=0A </td>=0A <td class=3D"footer_link" style=3D"color: #0=
+0a680; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-hei=
+ght: 15px; mso-line-height-rule: exactly">=0A <a href=3D"https://www.tripad=
+visor.com/MptUrl=3Fp=3DAAQFAKWtMuGqY106KoHtP1N%2Bcqg%2F2kwYg%2FNrDwR8wJ9iV5=
+2R1d13RSoslH5cbSUU7q7krjU8sfEOl%2FuYe3Nn9LhEu4C376VJuCQzKwgBn7uyJU2RO%2Bwwm=
+rKt3Zpp%2BlwQmieJLdJ65XwQH2xv2SvQcE%2F14kmSqoyG9dhOnmWbis1zmRf3oUiZunfKaLP5=
+sXB7CezaRkQFAqkbaA2AhQ%2BnE7OZVMLdlWL0Upd%2B3yDOQuGcl%2FHBpEGBQH3lxb36MQKlZ=
+ndP3MTIOkbkYjqfmwCe8leM2vepZz%2FDOb6a92QcUWdyk2xduyWmq3IbteDEOuL74P6nT98uBT=
+52BJJAIhk7a%2BznAAkrH3Rp6Vu36uz7OmFbwtMmAqSfEN2x4Xl2V3geolvHiL3L3OUN2sh6gc8=
+vxlNPZHlxMIVuoEYd2YaYKDpl" target=3D"_blank" class=3D"link_accent" alias=3D=
+"FOOTERPRIVACYPOLICYLINK" style=3D"color: #078171; text-decoration: none">=
+=0A Privacy Policy=0A </a>=0A </td>=0A </tr>=0A </table>=0A </td>=0A </tr>=
+=0A <tr>=0A <td>=0A <table align=3D"center" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"0">=0A <tr>=0A <td class=3D"footer_link" style=3D"color: #00=
+a680; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-heig=
+ht: 15px; mso-line-height-rule: exactly">=0A <a href=3D"https://www.tripadv=
+isor.com/MptUrl=3Fp=3DAPqoPqzFT5hlCLtiaRTNIieKu5Nvf9WpCgydL7foMdWMhqIwCnbn2=
+N1CNpY2JDtOFOIMR7k7c3DV5f9bFqyJCWsoRkHd%2F0EjgaGnxo%2BGqZIPC2qV4Zwqi5oNTcA%=
+2FBuzGS7Z4csD1typYxLPljDmgAq7FHMJ3KzxiOtHGjJMYsQ1j2JVXNCdSaDjvtl3GAuOGbuaNu=
+%2BpcD1Y%2BZOkIdqXgd6AdOXLT6HoX4rQ7zLdobV7AiklniTijiJpK3kESoSq9%2FiGtJZrS3a=
+s%2Bvj3%2FZbSVs7aQjruZasP7R4Kxk708OidZRWq0%2B%2BBhmZYJta63q7m0BPzpyFbCE1aNh=
+xkcAevBRz2DIUaR3jv5tAaOpXetcRDBTPevhh3RTdiGdy3cLsyhob8CAv5dR0d0EBbgaG9pEYSj=
+A3x5Yu4%2FFumBWDmUWB0I" target=3D"_blank" class=3D"link_accent" alias=3D"FO=
+OTERTATERMSOFUSELINK" style=3D"color: #078171; text-decoration: none">=0A T=
+ripAdvisor Terms of Use=0A </a>=0A </td>=0A <td width=3D"16" class=3D"gutte=
+r_md body align_center" style=3D"color: #4a4a4a; font-family: Arial, Helvet=
+ica, sans-serif; font-size: 18px; line-height: 24px; mso-line-height-rule: =
+exactly; text-align: center; width: 16px">=0A |=0A </td>=0A <td class=3D"fo=
+oter_link" style=3D"color: #00a680; font-family: Arial, Helvetica, sans-ser=
+if; font-size: 13px; line-height: 15px; mso-line-height-rule: exactly">=0A =
+<a href=3D"https://www.tripadvisor.com/MptUrl=3Fp=3DAFsj4GF%2BKh2Om9UqkY13J=
+BswJP1wXdbiwARN0%2BDyuVw0H60PMBmhWq0peKy02tLxbN3fqXqNcqVjq7gaGlHicf2fWFLXea=
+4ltnve6XURwnLm46Ll5mL%2FTu1eQhRST0MMAFLx1fo0F7CPvn8aKeKLmTxJ5R9tbo32iDIbs53=
+033H2a68D0MzNiYB7MNOp9VZTw4kKjlsG2O3c7yn7b7BX0pfetT7QAyMYKI1cVfHTG%2B84uzNt=
+4UBV8nFhrLo0g8HzpiNAV3IdJ5kxpi2BhiuWpazpXDWLz%2FhPu6Uqaj8DGN27YMSfMtwzgdSHo=
+2IiLToBxJhMd97%2FOls244OJArCU%2FEFU3vBYhGRwJeqUKUCYakbq6H1IYbxdJHe7HvbpwbJN=
+G8KOcuUhk4yWL1tVZTvHxEy21NER4%2FVs89N7YI%2FF5quU" target=3D"_blank" class=
+=3D"link_accent" alias=3D"FOOTERVTTERMSOFUSELINK" style=3D"color: #078171; =
+text-decoration: none">=0A Viator Terms of Use=0A </a>=0A </td>=0A </tr>=0A=
+ </table>=0A </td>=0A </tr>=0A <tr>=0A <td align=3D"center" class=3D"sectio=
+n_spacing_md footer" style=3D"color: #666666; font-family: Arial, Helvetica=
+, sans-serif; font-size: 13px; line-height: 15px; mso-line-height-rule: exa=
+ctly; padding-top: 16px">=0A TripAdvisor Experiences is a trading name of V=
+iator, Inc.=0A </td>=0A </tr>=0A <tr>=0A <td align=3D"center" class=3D"sect=
+ion_spacing_md footer" style=3D"color: #666666; font-family: Arial, Helveti=
+ca, sans-serif; font-size: 13px; line-height: 15px; mso-line-height-rule: e=
+xactly; padding-top: 16px">=0A Please do not reply directly to this email. =
+This was sent from an address that cannot accept responses. For questions o=
+r assistance, <a href=3D"https://www.tripadvisor.com/MptUrl=3Fp=3DAJp3eQFL3=
+hYjuYscUe0LMWwBSjF%2FPQ1T3xnVc0AlIxR7vZk5V8LqTCECNlNWAlSoNVAGBe0QRuXgQy5uJ3=
+WgLbq0pRLFSIHtORpWloqCN%2F9FlfH9qZGob5uOI2AuNGOOHHZgPhAcXnyCuWKcymvPYZ20TeS=
+8D0E9U19KWTZWn7fc51VL55iHtFDsxxfPZKuup81OMH5Q1k3k7jELP%2BIL9fIOoQg0muW2Y9fz=
+OSqLExABW65VR%2BsyAT%2BWk0A5hHm3ydXKGBvbtBTH8ibzCGXtCurOXrTEfbXGjSIl9TUTEHE=
+WUpcIo7JqOLs4VKSDU1GSxMCT3Fe12feR9F2VKPpDKutb8lE6wVVl79357jFMm%2FROznQV%2FK=
+CPsag0oWv3%2FeisJUKos3hmYd66HS7s4avTQhA%3D" target=3D"_blank" alias=3D"FOOT=
+ERHELPCENTERLINK" style=3Dtext-decoration:none;color:#078171;>visit our Hel=
+p Center</a>.=0A </td>=0A </tr>=0A <tr>=0A <td align=3D"center" class=3D"se=
+ction_spacing_md footer" style=3D"color: #666666; font-family: Arial, Helve=
+tica, sans-serif; font-size: 13px; line-height: 15px; mso-line-height-rule:=
+ exactly; padding-top: 16px">=0A Viator, Inc., 360 3rd Street, Suite 400, S=
+an Francisco, CA 94107<br>=0A TripAdvisor LLC, 400 1st Ave., Needham, MA 02=
+494, USA=0A </td>=0A </tr>=0A <tr>=0A <td align=3D"center" class=3D"section=
+_spacing_md footer" style=3D"color: #666666; font-family: Arial, Helvetica,=
+ sans-serif; font-size: 13px; line-height: 15px; mso-line-height-rule: exac=
+tly; padding-top: 16px">=0A &copy; 2020 Viator, Inc. All rights reserved.=
+=0A </td>=0A </tr>=0A </table>=0A </td>=0A </tr>=0A </table> </tbody></tabl=
+e>=0A </center>=0A </td>=0A </tr>=0A</table>=0A<div style=3D"display:none; =
+white-space:nowrap; font:15px courier; line-height:0"> &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </div>=0A</body>=0A</html>
+

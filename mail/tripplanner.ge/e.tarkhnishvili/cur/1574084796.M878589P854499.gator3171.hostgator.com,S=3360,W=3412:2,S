@@ -1,0 +1,52 @@
+Return-Path: <bounce-md_30039865.5dd2a0b1.v1-4e2ccc864dd64321a2be1b2b700414d0@mda.digitalocean.com>
+Delivered-To: e.tarkhnishvili@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP
+	id gPZKNLyg0l3jCQ0A8w4q4w
+	(envelope-from <bounce-md_30039865.5dd2a0b1.v1-4e2ccc864dd64321a2be1b2b700414d0@mda.digitalocean.com>)
+	for <e.tarkhnishvili@tripplanner.ge>; Mon, 18 Nov 2019 07:46:36 -0600
+Return-path: <bounce-md_30039865.5dd2a0b1.v1-4e2ccc864dd64321a2be1b2b700414d0@mda.digitalocean.com>
+Envelope-to: e.tarkhnishvili@tripplanner.ge
+Delivery-date: Mon, 18 Nov 2019 07:46:36 -0600
+Received: from mail283.us4.mandrillapp.com ([205.201.137.27]:28091)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92)
+	(envelope-from <bounce-md_30039865.5dd2a0b1.v1-4e2ccc864dd64321a2be1b2b700414d0@mda.digitalocean.com>)
+	id 1iWhMS-003iEU-Cp
+	for e.tarkhnishvili@tripplanner.ge; Mon, 18 Nov 2019 07:46:36 -0600
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=mandrill; d=support.digitalocean.com;
+ h=From:Subject:To:Message-Id:Date:MIME-Version:Content-Type:Content-Transfer-Encoding; i=support@support.digitalocean.com;
+ bh=kkaKDzyeynUE+3qubzg4+RsCS+fBR0DyDaryZ/mK2fo=;
+ b=loADTCFKrxkKO8hqEPI3y2bEjo/xnpZ/W7I2lyAMTuFfqJ4Hbj7zfYHE4ogXTG2LAKkVhSt2Ko8d
+   XdYXzPiotIhDWtezhcAQJgfHrglAFnxNxSBhEtgW984pOEalSLCGZHvNh185UEqydPpPxIcSmNCw
+   uS9lw9NkacPBk3rTnBk=
+Received: from pmta07.mandrill.prod.suw01.rsglab.com (127.0.0.1) by mail283.us4.mandrillapp.com id hqagbo174e0e for <e.tarkhnishvili@tripplanner.ge>; Mon, 18 Nov 2019 13:46:25 +0000 (envelope-from <bounce-md_30039865.5dd2a0b1.v1-4e2ccc864dd64321a2be1b2b700414d0@mda.digitalocean.com>)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mandrillapp.com; 
+ i=@mandrillapp.com; q=dns/txt; s=mandrill; t=1574084785; h=From : 
+ Subject : To : Message-Id : Date : MIME-Version : Content-Type : 
+ Content-Transfer-Encoding : From : Subject : Date : X-Mandrill-User : 
+ List-Unsubscribe; bh=kkaKDzyeynUE+3qubzg4+RsCS+fBR0DyDaryZ/mK2fo=; 
+ b=YKlVBGaoCztRdIFEmwxFR3KUFkZ2U4OarQbMUlZkEwj4oESAOBQ9zcYMb5U/qe5FkNf1NZ
+ YU7dMydrP/1xnMrOySZkehu4k/zZoGy1AA+Ik8hsMm+KG3+rEE4jxCNO4KifQFHr4BPuxWzG
+ be5Rmlyt29tYiP2TcPGEmkICUPlLo=
+From: DigitalOcean <support@support.digitalocean.com>
+Subject: Confirm your DigitalOcean account
+Received: from [162.243.191.66] by mandrillapp.com id 4e2ccc864dd64321a2be1b2b700414d0; Mon, 18 Nov 2019 13:46:25 +0000
+To: e.tarkhnishvili@tripplanner.ge
+X-Report-Abuse: Please forward a copy of this message, including all headers, to abuse@mandrill.com
+X-Report-Abuse: You can also report abuse here: http://mandrillapp.com/contact/abuse?id=30039865.4e2ccc864dd64321a2be1b2b700414d0
+X-Mandrill-User: md_30039865
+Message-Id: <30039865.20191118134625.5dd2a0b10e3c82.82519428@mail283.us4.mandrillapp.com>
+Date: Mon, 18 Nov 2019 13:46:25 +0000
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+X-Spam-Status: No, score=-13.1
+X-Spam-Score: -130
+X-Spam-Bar: -------------
+X-Spam-Flag: NO
+
+To finish creating your DigitalOcean account, confirm your email address by clicking this link: https://cloud.digitalocean.com/account_verification/email/WyJlLnRhcmtobmlzaHZpbGlAdHJpcHBsYW5uZXIuZ2UiLDE1NzQyNTc1ODRd--319e4c161c7461bd54ccb998fefd185bc6d59165?i=0edbba
+
+Happy coding,
+Team DigitalOcean

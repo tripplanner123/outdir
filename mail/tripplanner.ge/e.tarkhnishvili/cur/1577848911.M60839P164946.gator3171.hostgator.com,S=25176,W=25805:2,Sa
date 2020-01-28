@@ -1,0 +1,629 @@
+Return-Path: <bounce-md_30039865.5e0c1042.v1-21d451e3fc964f419aad0d6bbe5dfd68@mda.digitalocean.com>
+Delivered-To: e.tarkhnishvili@tripplanner.ge
+Received: from gator3171.hostgator.com
+	by gator3171.hostgator.com with LMTP
+	id QHeGA08QDF5ShAIA8w4q4w
+	(envelope-from <bounce-md_30039865.5e0c1042.v1-21d451e3fc964f419aad0d6bbe5dfd68@mda.digitalocean.com>)
+	for <e.tarkhnishvili@tripplanner.ge>; Tue, 31 Dec 2019 21:21:51 -0600
+Return-path: <bounce-md_30039865.5e0c1042.v1-21d451e3fc964f419aad0d6bbe5dfd68@mda.digitalocean.com>
+Envelope-to: e.tarkhnishvili@tripplanner.ge
+Delivery-date: Tue, 31 Dec 2019 21:21:51 -0600
+Received: from mail137-235.dal35.mandrillapp.com ([205.201.137.235]:21661)
+	by gator3171.hostgator.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92)
+	(envelope-from <bounce-md_30039865.5e0c1042.v1-21d451e3fc964f419aad0d6bbe5dfd68@mda.digitalocean.com>)
+	id 1imUZy-000hj7-Hg
+	for e.tarkhnishvili@tripplanner.ge; Tue, 31 Dec 2019 21:21:51 -0600
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=mandrill; d=digitalocean.com;
+ h=From:Subject:To:Message-Id:Date:MIME-Version:Content-Type; i=no-reply@digitalocean.com;
+ bh=hvPKXbqBFjTqL85Q9XX9dVmokqrhqP6L6X6UP1FGovM=;
+ b=oj9MXQMV+HrYeClEEdJA246Mr0lWlfvzynHwls+SYkM87Ji8Xx1QbOHRp9D0/z9Z/oQ30u72n8+U
+   7pTlwcTsumBoWy4gaEmFweQf+aqSQ3IiRr1gz+J3ASVmIJ/daByr9pPC6Ps3GIA1NHsFbC70xmdQ
+   IzAnNIbXW9MkYBB+PxM=
+Received: from pmta07.mandrill.prod.suw01.rsglab.com (127.0.0.1) by mail137-235.dal35.mandrillapp.com id h1g84s174e0s for <e.tarkhnishvili@tripplanner.ge>; Wed, 1 Jan 2020 03:21:38 +0000 (envelope-from <bounce-md_30039865.5e0c1042.v1-21d451e3fc964f419aad0d6bbe5dfd68@mda.digitalocean.com>)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mandrillapp.com; 
+ i=@mandrillapp.com; q=dns/txt; s=mandrill; t=1577848898; h=From : 
+ Subject : To : Message-Id : Date : MIME-Version : Content-Type : From : 
+ Subject : Date : X-Mandrill-User : List-Unsubscribe; 
+ bh=hvPKXbqBFjTqL85Q9XX9dVmokqrhqP6L6X6UP1FGovM=; 
+ b=IJtOq0MLX90JjsrPlgOf/kzayHfEjXDK7QSd/3wUmlUcDfYdzq0nFtksIenj+1/a5XUe7D
+ v6epahqt28MVNSoPcKkwD4auy7r2xF7VUR7wKatNVrM8TQ9F/8/52+fW+Uai7xGOjQDQHZmG
+ nQtCOpVve4lmbwdHE0nnG47KQaATw=
+From: DigitalOcean <no-reply@digitalocean.com>
+Subject: [DigitalOcean] We couldn't process your payment
+Received: from [162.243.188.66] by mandrillapp.com id 21d451e3fc964f419aad0d6bbe5dfd68; Wed, 01 Jan 2020 03:21:38 +0000
+To: e.tarkhnishvili@tripplanner.ge
+X-Report-Abuse: Please forward a copy of this message, including all headers, to abuse@mandrill.com
+X-Report-Abuse: You can also report abuse here: http://mandrillapp.com/contact/abuse?id=30039865.21d451e3fc964f419aad0d6bbe5dfd68
+X-Mandrill-User: md_30039865
+Message-Id: <30039865.20200101032138.5e0c1042ce7ce6.53744991@mail137-235.dal35.mandrillapp.com>
+Date: Wed, 01 Jan 2020 03:21:38 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="_av-LyZj2UN_hKsLsREVP8gcqw"
+X-Spam-Status: No, score=-8.2
+X-Spam-Score: -81
+X-Spam-Bar: --------
+X-Spam-Flag: NO
+
+--_av-LyZj2UN_hKsLsREVP8gcqw
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+        [DigitalOcean] We couldn't process your payment
+<https://www.digitalocean.com>                            == We couldn't
+process your payment ==
+
+ We'll try to charge your credit card again over the next few days. If your
+details have changed, please update your billing information
+<https://cloud.digitalocean.com/settings/billing/> under Settings to avoid
+suspension.    Summary for Ekaterine Tarkhnishvili   Usage charges for
+December 2019 $10.00   Account credit applied -$6.47   *Amount past due*
+*$3.53*    View Invoice
+<https://cloud.digitalocean.com/settings/billing/413053390?i=0edbba>       
+
+ *  Have questions?  * 
+
+ You can check out our FAQ
+<https://www.digitalocean.com/help/pricing-and-billing/general/> or our
+support page <https://cloudsupport.digitalocean.com/s/> for more
+information             Earn $25 credit when you refer a friend to
+DigitalOcean <http://do.co/referral1>
+--_av-LyZj2UN_hKsLsREVP8gcqw
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="initial-scale=1.0"> <!-- So that mobile webkit will display zoomed in -->
+  <meta name="format-detection" content="telephone=no"> <!-- disable auto telephone linking in iOS -->
+  <title>[DigitalOcean] We couldn't process your payment</title>
+  <style type="text/css">
+    @font-face {
+    font-family: 'Proxima Nova';
+    src: url('https://assets.digitalocean.com/fonts/proximanova-reg-webfont.eot');
+    src: url('https://assets.digitalocean.com/fonts/proximanova-reg-webfont.eot?#iefix') format('embedded-opentype'),
+    url('https://assets.digitalocean.com/fonts/proximanova-reg-webfont.woff') format('woff'),
+    url('https://assets.digitalocean.com/fonts/proximanova-reg-webfont.ttf') format('truetype'),
+    url('https://assets.digitalocean.com/fonts/proximanova-reg-webfont.svg#ProximaNovaLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }
+    @font-face {
+    font-family: 'Proxima Nova';
+    src: url('https://assets.digitalocean.com/fonts/proximanova-light-webfont.eot');
+    src: url('https://assets.digitalocean.com/fonts/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('https://assets.digitalocean.com/fonts/proximanova-light-webfont.woff') format('woff'),
+    url('https://assets.digitalocean.com/fonts/proximanova-light-webfont.ttf') format('truetype'),
+    url('https://assets.digitalocean.com/fonts/proximanova-light-webfont.svg#ProximaNovaLight') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    }
+    /* /\/\/\/\/\/\/\/\/ CLIENT-SPECIFIC STYLES /\/\/\/\/\/\/\/\/ */
+    #outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
+    .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+    .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+    body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+    table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+    img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+    /* /\/\/\/\/\/\/\/\/ RESET STYLES /\/\/\/\/\/\/\/\/ */
+    body{margin:0; padding:0;}
+    img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+    table{border-collapse:collapse !important;}
+    body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
+    /* /\/\/\/\/\/\/\/\/ TEMPLATE STYLES /\/\/\/\/\/\/\/\/ */
+    /* ========== Page Styles ========== */
+    #bodyCell{padding:20px;}
+    #templateContainer{width:768px;}
+    #templateContainer * {-webkit-font-smoothing: antialiased;text-shadow: 1px 1px 1px rgba(0,0,0,0.004);}
+    /**
+    * @tab Page
+    * @section background style
+    * @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+    * @theme page
+    */
+    body, #bodyTable{
+    /*@editable*/ background-color:#F7F7F7;
+    }
+    /**
+    * @tab Page
+    * @section background style
+    * @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+    * @theme page
+    */
+    #bodyCell{
+    }
+    /**
+    * @tab Page
+    * @section email border
+    * @tip Set the border for your email.
+    */
+    #templateContainer{
+    /*@editable*/ border:0px transparent #BBBBBB;
+    }
+    /**
+    * @tab Page
+    * @section heading 1
+    * @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+    * @style heading 1
+    */
+    h1{
+    /*@editable*/ color:#202020 !important;
+    display:block;
+    /*@editable*/ font-family:'Proxima Nova', 'Open Sans', 'Helvetica Neue', Calibri, Helvetica, sans-serif;
+    /*@editable*/ font-size:26px;
+    /*@editable*/ font-style:normal;
+    /*@editable*/ font-weight:100;
+    /*@editable*/ line-height:100%;
+    /*@editable*/ letter-spacing:normal;
+    margin-top:0;
+    margin-right:0;
+    margin-bottom:10px;
+    margin-left:0;
+    /*@editable*/ text-align:left;
+    }
+    /**
+    * @tab Page
+    * @section heading 2
+    * @tip Set the styling for all second-level headings in your emails.
+    * @style heading 2
+    */
+    h2{
+    /*@editable*/ color:#404040 !important;
+    display:block;
+    /*@editable*/ font-family:'Proxima Nova', 'Open Sans', 'Helvetica Neue', Calibri, Helvetica, sans-serif;
+    /*@editable*/ font-size:28px;
+    /*@editable*/ font-style:normal;
+    /*@editable*/ font-weight:100;
+    /*@editable*/ line-height:140%;
+    /*@editable*/ letter-spacing:normal;
+    margin-top:2px;
+    margin-right:0;
+    margin-bottom:15px;
+    margin-left:0;
+    /*@editable*/ text-align:left;
+    -webkit-font-smoothing: subpixel-antialiased;
+    }
+    /**
+    * @tab Page
+    * @section heading 3
+    * @tip Set the styling for all third-level headings in your emails.
+    * @style heading 3
+    */
+    h3{
+    /*@editable*/ color:#595959 !important;
+    display:block;
+    /*@editable*/ font-family:'Proxima Nova', 'Open Sans', 'Helvetica Neue', Calibri, Helvetica, sans-serif;
+    /*@editable*/ font-size:20px;
+    /*@editable*/ font-style:normal;
+    /*@editable*/ font-weight:300;
+    /*@editable*/ line-height:140%;
+    /*@editable*/ letter-spacing:normal;
+    margin-top:20px;
+    margin-right:0;
+    margin-bottom:17px;
+    margin-left:0;
+    /*@editable*/ text-align:left;
+    -webkit-font-smoothing: subpixel-antialiased;
+    }
+    /**
+    * @tab Page
+    * @section heading 4
+    * @tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+    * @style heading 4
+    */
+    h4{
+    /*@editable*/ color:#999 !important;
+    display:block;
+    /*@editable*/ font-family:'Proxima Nova', 'Open Sans', 'Helvetica Neue', Calibri, Helvetica, sans-serif;
+    /*@editable*/ font-size:14px;
+    /*@editable*/ font-style:normal;
+    /*@editable*/ font-weight:normal;
+    /*@editable*/ line-height:100%;
+    /*@editable*/ letter-spacing:normal;
+    margin-top:0;
+    margin-right:0;
+    margin-bottom:8px;
+    margin-left:0;
+    /*@editable*/ text-align:left;
+    }
+    /* ========== Header Styles ========== */
+    /**
+    * @tab Header
+    * @section preheader style
+    * @tip Set the background color and bottom border for your email's preheader area.
+    * @theme header
+    */
+    #templatePreheader{
+    /*@editable*/ background-color:#F7F7F7;
+    }
+    /**
+    * @tab Header
+    * @section preheader text
+    * @tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+    */
+    .preheaderContent{
+    /*@editable*/ color:#808080;
+    /*@editable*/ font-family:'Proxima Nova', 'Open Sans', 'Helvetica Neue', Calibri, Helvetica, sans-serif;
+    /*@editable*/ font-size:10px;
+    /*@editable*/ line-height:125%;
+    /*@editable*/ text-align:left;
+    }
+    /**
+    * @tab Header
+    * @section preheader link
+    * @tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
+    */
+    .preheaderContent a:link, .preheaderContent a:visited, /* Yahoo! Mail Override */ .preheaderContent a .yshortcuts /* Yahoo! Mail Override */{
+    /*@editable*/ color:#606060;
+    /*@editable*/ font-weight:normal;
+    /*@editable*/ text-decoration:underline;
+    }
+    /**
+    * @tab Header
+    * @section header style
+    * @tip Set the background color and borders for your email's header area.
+    * @theme header
+    */
+    #templateHeader{
+    /*@editable*/ background-color:#F4F4F4;
+    }
+    /**
+    * @tab Header
+    * @section header text
+    * @tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+    */
+    .headerContent{
+    /*@editable*/ color:#505050;
+    /*@editable*/ font-family:'Proxima Nova', 'Open Sans', 'Helvetica Neue', Calibri, Helvetica, sans-serif;
+    /*@editable*/ font-size:20px;
+    /*@editable*/ font-weight:bold;
+    /*@editable*/ line-height:100%;
+    /*@editable*/ padding-top:0;
+    /*@editable*/ padding-right:0;
+    /*@editable*/ padding-bottom:0;
+    /*@editable*/ padding-left:0;
+    /*@editable*/ text-align:left;
+    /*@editable*/ vertical-align:middle;
+    }
+    /**
+    * @tab Header
+    * @section header link
+    * @tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+    */
+    .headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
+    /*@editable*/ color:#298eea;
+    /*@editable*/ font-weight:normal;
+    /*@editable*/ text-decoration:underline;
+    }
+    #headerImage{
+    height:auto;
+    max-width:768px;
+    }
+    /* ========== Body Styles ========== */
+    /**
+    * @tab Body
+    * @section body style
+    * @tip Set the background color and borders for your email's body area.
+    */
+    #templateBody{
+    /*@editable background-color:#fff; */
+    }
+    /**
+    * @tab Body
+    * @section body text
+    * @tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+    * @theme main
+    */
+    .bodyContent{
+    /*@editable*/ color:#505050;
+    /*@editable*/ font-family:'Proxima Nova', 'Open Sans', 'Helvetica Neue', Calibri, Helvetica, sans-serif;
+    /*@editable*/ font-size:16px;
+    /*@editable*/ line-height:160%;
+    padding-top:35px;
+    padding-right:40px;
+    padding-bottom:40px;
+    padding-left:40px;
+    background: #fff;
+    /*@editable*/ text-align:left;
+    }
+    .buttonContent {
+    background:#298eea
+    }
+    td td {
+    /*@editable*/ font-family:'Proxima Nova', 'Open Sans', 'Helvetica Neue', Calibri, Helvetica, sans-serif;
+    }
+    /**
+    * @tab Body
+    * @section body link
+    * @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
+    */
+    .bodyContent a:link, .bodyContent a:visited, /* Yahoo! Mail Override */ .bodyContent a .yshortcuts /* Yahoo! Mail Override */{
+    /*@editable*/ color:#298eea;
+    /*@editable*/ font-weight:normal;
+    /*@editable*/ text-decoration:underline;
+    }
+    .bodyContent img{
+    display:inline;
+    height:auto;
+    max-width:560px;
+    }
+    ul > ul {
+    margin-bottom: 15px;
+    }
+    /* ========== Footer Styles ========== */
+    /**
+    * @tab Footer
+    * @section footer style
+    * @tip Set the background color and borders for your email's footer area.
+    * @theme footer
+    */
+    #templateFooter{
+    /*@editable*/ background-color:#F7F7F7;
+    margin-top:20px;
+    }
+    /**
+    * @tab Footer
+    * @section footer text
+    * @tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+    * @theme footer
+    */
+    .footerContent{
+    /*@editable*/ color:#808080;
+    /*@editable*/ font-family:'Proxima Nova', 'Open Sans', 'Helvetica Neue', Calibri, Helvetica, sans-serif;
+    /*@editable*/ font-size:12px;
+    /*@editable*/ line-height:150%;
+    padding-top:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+    padding-left:20px;
+    /*@editable*/ text-align:center;
+    }
+    /**
+    * @tab Footer
+    * @section footer link
+    * @tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+    */
+    .footerContent a:link, .footerContent a:visited, /* Yahoo! Mail Override */ .footerContent a .yshortcuts, .footerContent a span /* Yahoo! Mail Override */{
+    /*@editable*/ color:#606060;
+    /*@editable*/ font-weight:normal;
+    /*@editable*/ text-decoration:underline;
+    }
+    /* /\/\/\/\/\/\/\/\/ MOBILE STYLES /\/\/\/\/\/\/\/\/ */
+    @media only screen and (max-width: 480px){
+    /* /\/\/\/\/\/\/ CLIENT-SPECIFIC MOBILE STYLES /\/\/\/\/\/\/ */
+    body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} /* Prevent Webkit platforms from changing default text sizes */
+    body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to the body */
+    /* /\/\/\/\/\/\/ MOBILE RESET STYLES /\/\/\/\/\/\/ */
+    #bodyCell{padding:10px !important;}
+    /* /\/\/\/\/\/\/ MOBILE TEMPLATE STYLES /\/\/\/\/\/\/ */
+    /* ======== Page Styles ======== */
+    /**
+    * @tab Mobile Styles
+    * @section template width
+    * @tip Make the template fluid for portrait or landscape view adaptability. If a fluid layout doesn't work for you, set the width to 300px instead.
+    */
+    #templateContainer{
+    max-width:768px !important;
+    /*@editable*/ width:100% !important;
+    }
+    /**
+    * @tab Mobile Styles
+    * @section heading 1
+    * @tip Make the first-level headings larger in size for better readability on small screens.
+    */
+    h1{
+    font-size:30px !important;
+    line-height:35px !important;
+    }
+    /**
+    * @tab Mobile Styles
+    * @section heading 2
+    * @tip Make the second-level headings larger in size for better readability on small screens.
+    */
+    h2{
+    }
+    /**
+    * @tab Mobile Styles
+    * @section heading 3
+    * @tip Make the third-level headings larger in size for better readability on small screens.
+    */
+    h3{
+    font-size:24px !important;
+    }
+    /**
+    * @tab Mobile Styles
+    * @section heading 4
+    * @tip Make the fourth-level headings larger in size for better readability on small screens.
+    */
+    h4{
+    }
+    /* ======== Header Styles ======== */
+    #templatePreheader{} /* Hide the template preheader to save space */
+    /**
+    * @tab Mobile Styles
+    * @section header image
+    * @tip Make the main header image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
+    */
+    #headerImage{
+    height:auto !important;
+    /*@editable*/ max-width:768px !important;
+    /*@editable*/ width:100% !important;
+    }
+    /**
+    * @tab Mobile Styles
+    * @section header text
+    * @tip Make the header content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+    */
+    .headerContent{
+    /*@editable*/ font-size:20px !important;
+    /*@editable*/ line-height:125% !important;
+    }
+    /* ======== Body Styles ======== */
+    /**
+    * @tab Mobile Styles
+    * @section body text
+    * @tip Make the body content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+    */
+    .bodyContent{
+    /*@editable*/ font-size:18px !important;
+    /*@editable*/ line-height:145% !important;
+    padding-top: 20px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    }
+    /* ======== Footer Styles ======== */
+    /**
+    * @tab Mobile Styles
+    * @section footer text
+    * @tip Make the body content text larger in size for better readability on small screens.
+    */
+    .footerContent{
+    /*@editable*/ font-size:14px !important;
+    /*@editable*/ line-height:115% !important;
+    }
+    .footerContent a{display:block !important;} /* Place footer social and utility links on their own lines, for easier access */
+    }
+    .button-blue {
+     background: #0069ff;
+     border-radius: 3px;
+     border: 1px solid #0069ff;
+     color: #fff !important;
+     cursor: pointer;
+     display: inline-block;
+     height: 3rem;
+     line-height: 3rem;
+     text-align: center;
+     text-decoration: none;
+     user-select: none;
+    }
+    </style>
+  
+</head>
+<body bgcolor="#f4f4f4" link="398bce" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" style="margin:0; padding:0;-webkit-text-size-adjust:none; -ms-text-size-adjust:none;background: #f4f4f4;">
+<table class="content" cellpadding="0" cellspacing="0" border="0" height="100%" width="100%" bgcolor="#f4f4f4" style="background: #f4f4f4;"><tr><td>
+
+<!-- CSS Image background in Outlook : BEGIN -->
+<!-- Best used with absolute image paths -->
+<!--[if gte mso 9]>
+  <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+    <v:fill type="tile" color="#eeeeee" src="https://assets.digitalocean.com/email/background-fallback.png">
+  </v:background>
+<![endif]-->
+<!-- CSS Image background in Outlook : END -->
+  <!-- Logo Left Nav Right + Vertical Padding : BEGIN -->
+  <table border="0" width="600" cellpadding="0" cellspacing="0" align="center" class="email-container">
+    <tr>
+      <td height="top" style="font-size: 0; line-height: 0;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td class="force-col-center" valign="middle" style="padding: 20px 0;text-align: left;">
+        <a href="https://www.digitalocean.com" target="_blank"><img src="https://cloud.digitalocean.com/DigitalOcean-logo-blue.png" height="29" width="180
+        " border="0"></a>
+      </td>
+      <td class="hide" valign="middle" style="padding: 20px 0;text-align: right; font-family: Helvetica, Arial, sans-serif; font-size: 16px;">
+      </td>
+    </tr>
+    <tr>
+      <td height="10" style="font-size: 0; line-height: 0;">&nbsp;</td>
+    </tr>
+  </table>
+  <!-- Logo Left Nav Right + Vertical Padding : END -->
+
+  <!-- Email Container : BEGIN -->
+  <!-- This table wraps the whole body email within it's width (600px), sets the background color (white) and border (thin, gray, solid) -->
+    <table border="0" width="600" cellpadding="0" cellspacing="0" align="center" style="background: #ffffff;border: 1px solid #e5e5e5;" class="email-container">
+
+      <!-- Single Fluid Image, No Crop : BEGIN -->
+      <tr>
+        <td>
+
+        </td>
+      </tr>
+      <!-- Single Fluid Image, No Crop : END -->
+
+      <!-- Full Width, Fluid Column : BEGIN -->
+      <tr>
+        <td style="border-bottom: 1px solid #e5e5e5;">
+          <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center">
+            <tr>
+              <td style="padding: 30px 30px 00px 30px; font-family: sans-serif; font-size: 16px; line-height: 25px; color: #666666;"><table cellpadding="10" style="width: 100%">
+  <tr>
+    <td colspan="2" style="padding-bottom:20px;">
+      <h2 style="margin-bottom:20px;">We couldn't process your payment</h2>
+      
+        We'll try to charge your credit card again over the next few days.
+      
+      If your details have changed, <a style="text-decoration:none;" href="https://cloud.digitalocean.com/settings/billing/">please update your billing information</a> under Settings to avoid suspension.
+    </td>
+  </tr>
+
+  <tr>
+  <td><h3 style="margin:0;">Summary for Ekaterine Tarkhnishvili</h3></td>
+</tr>
+
+<tr style="border-bottom: 1px solid #eee;">
+  <td>Usage charges for December 2019</td>
+  <td style="float:right;">$10.00</td>
+</tr>
+
+
+
+
+  <tr style="border-bottom: 1px solid #eee;">
+    <td>Account credit applied</td>
+    <td style="float:right;">-$6.47</td>
+  </tr>
+
+
+
+  <tr style="color:#ed4f32;">
+    <td><strong>Amount past due</strong></td>
+    <td style="float:right;"><strong>$3.53</strong></td>
+  </tr>
+
+  <tr>
+    <td colspan="2">
+      <a class="button-blue" style="width: 100%;" href="https://cloud.digitalocean.com/settings/billing/413053390?i=0edbba">View Invoice</a>
+    </td>
+  </tr>
+</table>
+
+
+
+</td>
+            </tr>
+            <tr>
+                <td style="padding-left: 37px; padding-bottom: 20px; margin-top: 0px; font-family: sans-serif; color: #666666;">
+            <br>
+                    <strong> <a style="color: ##777676; font-size: 15.5px; line-height: 20px"> Have questions?  </a> </strong>
+        	<div style="height:2px;"><br></div>
+        	You can check out our <a style="color: #298eea;text-decoration:none;font-size: 13px;" href="https://www.digitalocean.com/help/pricing-and-billing/general/">FAQ</a> or our <a style="color: #298eea;text-decoration:none;" href="https://cloudsupport.digitalocean.com/s/">support page</a> for more information
+  			</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <!-- Full Width, Fluid Column : END -->
+
+  </table>
+  <!-- Email Container : END -->
+
+  <!-- Footer : BEGIN -->
+  <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center" class="email-container">
+    <tr>
+      <td style="text-align: center;padding: 20px 0px 5px;font-family: Helvetica, Arial, sans-serif; font-size: 13px; line-height: 28px;color: #888888;">
+        Earn $25 credit when you <a style="color: #888888;" href="http://do.co/referral1">refer a friend to DigitalOcean</a>
+      </td>
+    </tr>
+  </table>
+  <!-- Footer : END -->
+
+</td></tr></table>
+<img src="http://mda.digitalocean.com/track/open.php?u=30039865&id=21d451e3fc964f419aad0d6bbe5dfd68" height="1" width="1"></body>
+</html>
+--_av-LyZj2UN_hKsLsREVP8gcqw--
+
